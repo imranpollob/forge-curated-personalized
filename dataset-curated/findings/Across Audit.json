@@ -89,7 +89,10 @@
                 "WithdrawalHelperBase.sol#L87-L101"
             ],
             "files": [
-                "contracts/contracts/chain-adapters/ForwarderBase.sol"
+                "contracts/contracts/chain-adapters/ForwarderBase.sol",
+                "contracts/contracts/chain-adapters/l2/WithdrawalHelperBase.sol",
+                "contracts/contracts/chain-adapters/Optimism_Adapter.sol",
+                "contracts/contracts/chain-adapters/l2/Ovm_WithdrawalHelper.sol"
             ]
         },
         {
@@ -113,7 +116,9 @@
                 "Arbitrum_Adapter.sol#L87-L96"
             ],
             "files": [
-                "contracts/contracts/chain-adapters/Router_Adapter.sol"
+                "contracts/contracts/chain-adapters/Router_Adapter.sol",
+                "contracts/contracts/chain-adapters/ForwarderBase.sol",
+                "contracts/contracts/chain-adapters/Arbitrum_Adapter.sol"
             ]
         },
         {
@@ -139,7 +144,8 @@
                 "Router_Adapter.sol#26"
             ],
             "files": [
-                "contracts/contracts/chain-adapters/ForwarderBase.sol"
+                "contracts/contracts/chain-adapters/ForwarderBase.sol",
+                "contracts/contracts/chain-adapters/Router_Adapter.sol"
             ]
         },
         {
@@ -182,7 +188,10 @@
                 "ZkSync_Adapter.sol#L241"
             ],
             "files": [
-                "contracts/contracts/erc7683/ERC7683OrderDepositorExternal.sol"
+                "contracts/contracts/erc7683/ERC7683OrderDepositorExternal.sol",
+                "contracts/contracts/chain-adapters/ZkStack_Adapter.sol",
+                "contracts/contracts/chain-adapters/ZkStack_CustomGasToken_Adapter.sol",
+                "contracts/contracts/chain-adapters/ZkSync_Adapter.sol"
             ]
         },
         {
@@ -234,7 +243,8 @@
                 "ERC7683Across.sol::CROSS_CHAIN_ORDER_TYPE#55"
             ],
             "files": [
-                "contracts/contracts/erc7683/ERC7683Across.sol"
+                "contracts/contracts/erc7683/ERC7683Across.sol",
+                "contracts/contracts/erc7683/ERC7683.sol"
             ]
         },
         {
