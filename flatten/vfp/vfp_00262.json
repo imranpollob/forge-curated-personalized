@@ -3,30 +3,42 @@
     "project_name": "Jovay Rollup Contracts Audit.md",
     "findings": [
         {
-            "id": 24,
+            "id": 27,
             "category": {
                 "1": [
                     "CWE-710"
                 ],
                 "2": [
-                    "CWE-1164"
+                    "CWE-1076"
                 ],
                 "3": [
-                    "CWE-561"
+                    "CWE-1078"
                 ]
             },
-            "title": "‘TRANSFER_ROLE’ Role Declared but Never Used",
-            "description": "The `TRANSFER_ROLE` constant is defined in `ERC20Token.sol` but is never assigned or checked in any function within the contract. This creates unnecessary code bloat and confusion about the intended access control model. The root cause is incomplete or outdated role management logic. An attacker cannot exploit this directly, but it may indicate a design inconsistency or a missing feature. Future developers might assume the role is functional and attempt to use it, leading to unexpected behavior. The impact is low, primarily affecting code clarity and maintainability.\n",
+            "title": "Non-Explicit Imports",
+            "description": "The codebase uses non-explicit import syntax (e.g., `import \"./X.sol\";`) instead of named imports (e.g., `import {X} from \"./X.sol\";`). This can lead to naming conflicts and reduce code clarity, especially in large projects with many contracts. The root cause is deviation from best practices in module organization. While not directly exploitable, this can lead to accidental shadowing or confusion when multiple contracts are imported from the same file. The impact is low, primarily affecting code maintainability and readability.\n",
             "severity": "Low",
             "location": [
-                "ERC20Token.sol#20"
+                "L1BridgeProof.sol::import#4",
+                "L1ERC20Bridge.sol::import#9",
+                "L1ERC20Bridge.sol::import#10",
+                "L1ETHBridge.sol::import#8",
+                "L1ETHBridge.sol::import#10",
+                "L1Mailbox.sol::import#5",
+                "L1Mailbox.sol::import#6",
+                "Rollup.sol::import#4",
+                "Rollup.sol::import#7",
+                "L2ERC20Bridge.sol::import#6",
+                "L2ERC20Bridge.sol::import#7",
+                "L2ETHBridge.sol::import#7",
+                "L2CoinBase.sol::import#4"
             ],
             "files": [
-                "jovay-contracts/rollup_contracts/contracts/common/ERC20Token.sol"
+                "jovay-contracts/rollup_contracts/contracts/L1/bridge/L1BridgeProof.sol"
             ]
         },
         {
-            "id": 9,
+            "id": 40,
             "category": {
                 "1": [
                     "CWE-710"
@@ -35,18 +47,81 @@
                     "CWE-1076"
                 ]
             },
-            "title": "Redundant `ADMIN_ROLE` Definition Instead of Using `DEFAULT_ADMIN_ROLE`",
-            "description": "The `ERC20Token` contract defines a custom `ADMIN_ROLE` and assigns it as the admin of all other roles, instead of using OpenZeppelin's built-in `DEFAULT_ADMIN_ROLE`. This creates redundancy and potential confusion in access control management.\n\nThe root cause is unnecessary customization of a standard pattern. OpenZeppelin's `AccessControl` defaults to `DEFAULT_ADMIN_ROLE` as the admin of new roles, so failing to assign it can result in roles being unmanageable.\n\nWhile not directly exploitable, this design increases the risk of privilege escalation or loss of control if new roles are added and `DEFAULT_ADMIN_ROLE` remains unassigned. It also consumes more gas due to extra role definitions.\n\nThe impact is increased maintenance complexity, higher risk of administrative errors, and suboptimal gas usage. It does not pose an immediate security threat but reduces code clarity and safety.\n",
+            "title": "Use `calldata` Instead of `memory`",
+            "description": "The contract code uses `memory` as the data location for parameters in several `external` functions, when `calldata` would be more appropriate. Since `calldata` is a read-only, non-modifiable area that directly holds function arguments for external calls, using it avoids unnecessary copying of data into memory, thereby reducing gas costs. The root cause is the explicit or default use of `memory` for reference types in external functions where no modification is performed. An attacker cannot directly exploit this issue, but all users of the affected functions will incur higher gas costs than necessary. The impact is an increase in transaction costs for end users, reducing the economic efficiency of the system.\n",
             "severity": "Low",
             "location": [
-                "ERC20Token.sol::ADMIN_ROLE#34-38"
+                "L1BridgeProof.sol::msg_#11",
+                "L1BridgeProof.sol::proof_#12",
+                "L1ERC20Bridge.sol::msg_#31",
+                "L1ERC20Bridge.sol::msg_#48",
+                "L1ETHBridge.sol::msg_#16",
+                "L1ETHBridge.sol::msg_#29",
+                "L1Mailbox.sol::msg_#144",
+                "L1Mailbox.sol::proof_#145",
+                "L2ERC20Bridge.sol::msg_#28",
+                "L2ETHBridge.sol::msg_#21"
             ],
             "files": [
-                "jovay-contracts/rollup_contracts/contracts/common/ERC20Token.sol"
+                "jovay-contracts/rollup_contracts/contracts/L1/bridge/L1BridgeProof.sol"
+            ]
+        },
+        {
+            "id": 15,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-758"
+                ]
+            },
+            "title": "Floating Pragma",
+            "description": "Multiple contracts in the codebase use floating pragma directives (e.g., ^0.8.0), which allow compilation with any minor version of Solidity within the specified range. This introduces risk because newer compiler versions may introduce changes in behavior, optimizations, or bugs that could affect contract security or correctness. The root cause is the use of caret versioning instead of fixed versions in the pragma statements. An attacker could potentially exploit known compiler bugs in a newer version if the contract is recompiled. The impact includes undefined behavior, potential reentrancy or overflow issues due to compiler-level changes, and reduced reproducibility of builds.\n",
+            "severity": "Low",
+            "location": [
+                "L1BridgeProof.sol",
+                "L1ERC20Bridge.sol",
+                "L1ETHBridge.sol",
+                "IL1BridgeProof.sol",
+                "IL1ERC20Bridge.sol",
+                "IL1ETHBridge.sol",
+                "L1Mailbox.sol",
+                "Rollup.sol",
+                "IL1MailQueue.sol",
+                "IL1Mailbox.sol",
+                "IRollup.sol",
+                "BatchHeaderCodec.sol",
+                "ITeeRollupVerifier.sol",
+                "IZkRollupVerifier.sol",
+                "WithdrawTrieVerifier.sol",
+                "L2ERC20Bridge.sol",
+                "L2ETHBridge.sol",
+                "IL2ERC20Bridge.sol",
+                "IL2ETHBridge.sol",
+                "L1GasOracle.sol",
+                "L2CoinBase.sol",
+                "L2Mailbox.sol",
+                "IClaimAmount.sol",
+                "IL2MailQueue.sol",
+                "IL2Mailbox.sol",
+                "AppendOnlyMerkleTree.sol",
+                "BridgeBase.sol",
+                "ERC20Token.sol",
+                "MailBoxBase.sol",
+                "TokenBridge.sol",
+                "IBridgeBase.sol",
+                "IERC20Token.sol",
+                "IGasPriceOracle.sol",
+                "IMailBoxBase.sol",
+                "ITokenBridge.sol"
+            ],
+            "files": [
+                "jovay-contracts/rollup_contracts/contracts/L1/bridge/L1BridgeProof.sol"
             ]
         }
     ],
     "affected_files": {
-        "ERC20Token.sol": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport \"@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20CappedUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/access/AccessControlEnumerableUpgradeable.sol\";\n\nimport \"./interfaces/IERC20Token.sol\";\n\n/**\n* @title Asset Token Contract\n* @notice Asset token contract, used to manage assets\n* @dev inherit ERC20BurnableUpgradeable, ERC20CappedUpgradeable, AccessControlEnumerableUpgradeable\n */\ncontract ERC20Token is AccessControlEnumerableUpgradeable, ERC20BurnableUpgradeable, ERC20CappedUpgradeable, IERC20Token {\n    //roles\n    bytes32 public constant ADMIN_ROLE = keccak256(abi.encodePacked(\"ADMIN_ROLE\"));\n    bytes32 public constant MINTER_ROLE = keccak256(abi.encodePacked(\"MINTER_ROLE\"));\n    bytes32 public constant BURNER_ROLE = keccak256(abi.encodePacked(\"BURNER_ROLE\"));\n    bytes32 public constant TRANSFER_ROLE = keccak256(abi.encodePacked(\"TRANSFER_ROLE\"));\n\n    constructor() {\n        _disableInitializers();\n    }\n\n    function initialize(string calldata name_, string calldata symbol_, uint256 cap_, address admin_) external initializer {\n        __Context_init_unchained();\n        __AccessControl_init_unchained();\n        __ERC20_init_unchained(name_, symbol_);\n        __AccessControlEnumerable_init_unchained();\n        __ERC20Burnable_init_unchained();\n        __ERC20Capped_init_unchained(cap_);\n\n        _setRoleAdmin(ADMIN_ROLE, ADMIN_ROLE);\n        _setRoleAdmin(MINTER_ROLE, ADMIN_ROLE);\n        _setRoleAdmin(BURNER_ROLE, ADMIN_ROLE);\n        _setRoleAdmin(TRANSFER_ROLE, ADMIN_ROLE);\n        _grantRole(ADMIN_ROLE, admin_);\n    }\n\n    function hasRole(bytes32 role, address account) public view virtual override(AccessControlUpgradeable, IAccessControlUpgradeable) returns (bool) {\n        return super.hasRole(role, account) || super.hasRole(getRoleAdmin(role), account);\n    }\n\n    /**\n     * @dev See {ERC20-_mint}.\n     */\n    function _mint(address account, uint256 amount) internal override (ERC20Upgradeable, ERC20CappedUpgradeable) {\n        super._mint(account, amount);\n    }\n\n    /**\n     * @dev require MINTER_ROLE=keccak256(abi.encodePacked(\"MINTER_ROLE\"))\n     */\n    function mint(address account, uint256 amount) external onlyRole(MINTER_ROLE) {\n        _mint(account, amount);\n    }\n\n    /**\n     * @dev require BURNER_ROLE=keccak256(abi.encodePacked(\"BURNER_ROLE\"))\n     */\n    function burn(uint256 amount) public override onlyRole(BURNER_ROLE) {\n        super.burn(amount);\n    }\n\n    /**\n     * @dev require BURNER_ROLE=keccak256(abi.encodePacked(\"BURNER_ROLE\"))\n     */\n    function burn(address account, uint256 amount) public override onlyRole(BURNER_ROLE) {\n        _burn(account, amount);\n    }\n\n    /**\n     * @dev require BURNER_ROLE=keccak256(abi.encodePacked(\"BURNER_ROLE\"))\n     */\n    function burnFrom(address account, uint256 amount) public override onlyRole(BURNER_ROLE) {\n        super.burnFrom(account, amount);\n    }\n}"
+        "L1BridgeProof.sol": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\nimport \"../../common/BridgeBase.sol\";\nimport \"./interfaces/IL1BridgeProof.sol\";\n\ncontract L1BridgeProof is BridgeBase, IL1BridgeProof {\n    function relayMsgWithProof(\n        uint256 value_,\n        uint256 nonce_,\n        bytes memory msg_,\n        IL1Mailbox.L2MsgProof memory proof_\n    ) external payable whenNotPaused {\n        mailBoxCall(abi.encodeCall(IL1Mailbox.relayMsgWithProof, (toBridge, address(this), value_, nonce_, msg_, proof_)));\n    }\n}\n"
     }
 }

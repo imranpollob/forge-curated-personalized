@@ -1,26 +1,94 @@
 {
     "vfp_id": "vfp_00473",
-    "project_name": "2025.08.14 - Final - Malda Audit Report.pdf",
+    "project_name": "USDT0 Child Token Audit.md",
     "findings": [
         {
-            "id": 3,
+            "id": 5,
             "category": {
                 "1": [
-                    "CWE-682"
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-1068"
                 ]
             },
-            "title": "Migrator severely underestimates slippage by using underlying instead of shares",
-            "description": "The Migrator contract computes slippage protection based on the underlying token amount rather than the equivalent share amount. Since the exchange rate is approximately 0.02, the slippage tolerance is off by a factor of 50. This means the actual slippage allowed is much higher than intended, potentially leading to significant losses during migration. The root cause is the failure to convert the underlying amount to shares before applying the slippage percentage. An attacker could exploit this by manipulating prices during migration, causing the protocol to accept unfavorable rates. The impact is economic loss due to excessive slippage during asset migration.\n",
-            "severity": "Medium",
+            "title": "Missing Support for EIP-3009",
+            "description": "The developer documentation claims support for EIP-3009 (gasless transfers), but the `UChildUSDT0` contract does not implement the required `transferWithAuthorization` and `receiveWithAuthorization` functions. This discrepancy misleads developers and users who expect gasless transfer functionality, potentially leading to integration errors or failed transactions. The cause is an omission in the contract implementation despite documentation claims. This undermines trust in the project's documentation and limits the utility of the token.\n",
+            "severity": "Low",
             "location": [
-                "Migrator.sol#90-100"
+                "UChildUSDT0.sol#L9-L197",
+                "developer documentation"
             ],
             "files": [
-                "798d00b879b8412ca4049ba09dba5ae42464cfe7/2025-07-malda/malda-lending/src/migration/Migrator.sol"
+                "UChildERC20Proxy/UChildERC20Proxy.sol"
+            ]
+        },
+        {
+            "id": 6,
+            "category": {
+                "1": [
+                    "CWE-691"
+                ],
+                "2": [
+                    "CWE-799"
+                ],
+                "3": [
+                    "CWE-837"
+                ]
+            },
+            "title": "Redundant Event Emission",
+            "description": "The `addToBlockedList` and `removeFromBlockedList` functions in `WithBlockedList.sol` emit events without first checking if the blocklist state has actually changed. This can result in redundant events being emitted when an address is added or removed multiple times, leading to unnecessary gas costs and potentially misleading off-chain monitoring systems. The root cause is the absence of a state-diff check before event emission. While the impact is minor, it affects efficiency and data reliability.\n",
+            "severity": "Low",
+            "location": [
+                "WithBlockedList.sol#L37",
+                "WithBlockedList.sol#L42"
+            ],
+            "files": [
+                "UChildERC20Proxy/UChildERC20Proxy.sol"
+            ]
+        },
+        {
+            "id": 7,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-1076"
+                ]
+            },
+            "title": "Missing ERC-165 Support",
+            "description": "The `UChildUSDT0` contract implements EIP-7802 but does not support ERC-165, meaning it lacks the `supportsInterface` function to advertise its interface compliance. This makes it harder for external contracts to reliably detect whether the contract supports specific standards, reducing interoperability. The cause is the omission of the `IERC165` interface and implementation. Although the functionality exists, the lack of standard discovery mechanism is a compatibility issue.\n",
+            "severity": "Low",
+            "location": [
+                "UChildUSDT0.sol#L9-L197"
+            ],
+            "files": [
+                "UChildERC20Proxy/UChildERC20Proxy.sol"
+            ]
+        },
+        {
+            "id": 8,
+            "category": {
+                "1": [
+                    "CWE-707"
+                ],
+                "2": [
+                    "CWE-20"
+                ]
+            },
+            "title": "Missing Zero-Address Check",
+            "description": "The `upgradeToUSDT0` function in `UChildUSDT0.sol` does not validate that the `newAdmin` parameter is not the zero address. If accidentally set to zero, the contract could become unmanageable, as administrative functions would be inaccessible. This is a common configuration risk in upgradeable contracts. The root cause is the lack of input validation for critical address parameters. This could lead to permanent loss of control if triggered.\n",
+            "severity": "Low",
+            "location": [
+                "UChildUSDT0.sol#L16"
+            ],
+            "files": [
+                "UChildERC20Proxy/UChildERC20Proxy.sol"
             ]
         }
     ],
     "affected_files": {
-        "Migrator.sol": "// Copyright (c) 2025 Merge Layers Inc.\n//\n// This source code is licensed under the Business Source License 1.1\n// (the \"License\"); you may not use this file except in compliance with the\n// License. You may obtain a copy of the License at\n//\n//     https://github.com/malda-protocol/malda-lending/blob/main/LICENSE-BSL\n//\n// See the License for the specific language governing permissions and\n// limitations under the License.\n//\n// This file contains code derived from or inspired by Compound V2,\n// originally licensed under the BSD 3-Clause License. See LICENSE-COMPOUND-V2\n// for original license terms and attributions.\n\n// SPDX-License-Identifier: MIT\npragma solidity ^0.8.10;\n\nimport {IERC20} from \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";\nimport {SafeERC20} from \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";\n\nimport {Operator} from \"src/Operator/Operator.sol\";\n\nimport {ImToken} from \"src/interfaces/ImToken.sol\";\nimport {ImErc20Host} from \"src/interfaces/ImErc20Host.sol\";\nimport \"./IMigrator.sol\";\n\ncontract Migrator {\n    using SafeERC20 for IERC20;\n\n    mapping(address => bool) public allowedMarkets;\n\n    address public constant MENDI_COMPTROLLER = 0x1b4d3b0421dDc1eB216D230Bc01527422Fb93103;\n    address public immutable MALDA_OPERATOR;\n\n    struct Position {\n        address mendiMarket;\n        address maldaMarket;\n        uint256 collateralUnderlyingAmount;\n        uint256 borrowAmount;\n    }\n\n    constructor(address _operator) {\n        MALDA_OPERATOR = _operator;\n        allowedMarkets[0x269C36A173D881720544Fb303E681370158FF1FD] = true;\n        allowedMarkets[0xC7Bc6bD45Eb84D594f51cED3c5497E6812C7732f] = true;\n        allowedMarkets[0xDF0635c1eCfdF08146150691a97e2Ff6a8Aa1a90] = true;\n        allowedMarkets[0xcb4d153604a6F21Ff7625e5044E89C3b903599Bc] = true;\n        allowedMarkets[0x1D8e8cEFEb085f3211Ab6a443Ad9051b54D1cd1a] = true;\n        allowedMarkets[0x0B3c6645F4F2442AD4bbee2e2273A250461cA6f8] = true;\n        allowedMarkets[0x8BaD0c523516262a439197736fFf982F5E0987cC] = true;\n        allowedMarkets[0x4DF3DD62DB219C47F6a7CB1bE02C511AFceAdf5E] = true;\n    }\n\n    /**\n     * @notice Get all markets where `user` has collateral in on Mendi\n     */\n    function getAllCollateralMarkets(address user) external view returns (address[] memory markets) {\n        IMendiMarket[] memory mendiMarkets = IMendiComptroller(MENDI_COMPTROLLER).getAssetsIn(user);\n\n        uint256 marketsLength = mendiMarkets.length;\n        markets = new address[](marketsLength);\n        for (uint256 i = 0; i < marketsLength; i++) {\n            markets[i] = address(0);\n            IMendiMarket mendiMarket = mendiMarkets[i];\n            uint256 balanceOfCTokens = mendiMarket.balanceOf(user);\n            if (balanceOfCTokens > 0) {\n                markets[i] = address(mendiMarket);\n            }\n        }\n    }\n\n    /**\n     * @notice Get all `migratable` positions from Mendi to Malda for `user`\n     */\n    function getAllPositions(address user) external returns (Position[] memory positions) {\n        positions = _collectMendiPositions(user);\n    }\n\n    /**\n     * @notice Migrates all positions from Mendi to Malda\n     */\n    function migrateAllPositions() external {\n        // 1. Collect all positions from Mendi\n        Position[] memory positions = _collectMendiPositions(msg.sender);\n\n        uint256 posLength = positions.length;\n        require(posLength > 0, \"[Migrator] No Mendi positions\");\n\n        // 2. Mint mTokens in all v2 markets\n        for (uint256 i; i < posLength; ++i) {\n            Position memory position = positions[i];\n            if (position.collateralUnderlyingAmount > 0) {\n                uint256 minCollateral =\n                    position.collateralUnderlyingAmount - (position.collateralUnderlyingAmount * 1e4 / 1e5);\n                ImErc20Host(position.maldaMarket).mintOrBorrowMigration(\n                    true, position.collateralUnderlyingAmount, msg.sender, address(0), minCollateral\n                );\n            }\n        }\n\n        // 3. Borrow from all necessary v2 markets\n        for (uint256 i; i < posLength; ++i) {\n            Position memory position = positions[i];\n            if (position.borrowAmount > 0) {\n                ImErc20Host(position.maldaMarket).mintOrBorrowMigration(\n                    false, position.borrowAmount, address(this), msg.sender, 0\n                );\n            }\n        }\n\n        // 4. Repay all debts in v1 markets\n        for (uint256 i; i < posLength; ++i) {\n            Position memory position = positions[i];\n            if (position.borrowAmount > 0) {\n                IERC20 underlying = IERC20(IMendiMarket(position.mendiMarket).underlying());\n                underlying.approve(position.mendiMarket, position.borrowAmount);\n                require(\n                    IMendiMarket(position.mendiMarket).repayBorrowBehalf(msg.sender, position.borrowAmount) == 0,\n                    \"[Migrator] Mendi repay failed\"\n                );\n            }\n        }\n\n        // 5. Withdraw and transfer all collateral from v1 to v2\n        for (uint256 i; i < posLength; ++i) {\n            Position memory position = positions[i];\n            if (position.collateralUnderlyingAmount > 0) {\n                uint256 v1CTokenBalance = IMendiMarket(position.mendiMarket).balanceOf(msg.sender);\n                IERC20(position.mendiMarket).safeTransferFrom(msg.sender, address(this), v1CTokenBalance);\n\n                IERC20 underlying = IERC20(IMendiMarket(position.mendiMarket).underlying());\n\n                uint256 underlyingBalanceBefore = underlying.balanceOf(address(this));\n\n                // Withdraw from v1\n                // we use address(this) here as cTokens were transferred above\n                uint256 v1Balance = IMendiMarket(position.mendiMarket).balanceOfUnderlying(address(this));\n                require(\n                    IMendiMarket(position.mendiMarket).redeemUnderlying(v1Balance) == 0,\n                    \"[Migrator] Mendi withdraw failed\"\n                );\n\n                uint256 underlyingBalanceAfter = underlying.balanceOf(address(this));\n                require(\n                    underlyingBalanceAfter - underlyingBalanceBefore >= v1Balance, \"[Migrator] Redeem amount not valid\"\n                );\n\n                // Transfer to v2\n                underlying.safeTransfer(position.maldaMarket, position.collateralUnderlyingAmount);\n            }\n        }\n    }\n\n    /**\n     * @notice Collects all user positions from Mendi\n     */\n    function _collectMendiPositions(address user) private returns (Position[] memory) {\n        IMendiMarket[] memory mendiMarkets = IMendiComptroller(MENDI_COMPTROLLER).getAssetsIn(user);\n        uint256 marketsLength = mendiMarkets.length;\n\n        Position[] memory positions = new Position[](marketsLength);\n        uint256 positionCount;\n\n        for (uint256 i = 0; i < marketsLength; i++) {\n            IMendiMarket mendiMarket = mendiMarkets[i];\n            uint256 collateralUnderlyingAmount = mendiMarket.balanceOfUnderlying(user);\n            uint256 borrowAmount = mendiMarket.borrowBalanceStored(user);\n\n            if (collateralUnderlyingAmount > 0 || borrowAmount > 0) {\n                address maldaMarket = _getMaldaMarket(IMendiMarket(address(mendiMarket)).underlying());\n                if (maldaMarket != address(0)) {\n                    positions[positionCount++] = Position({\n                        mendiMarket: address(mendiMarket),\n                        maldaMarket: maldaMarket,\n                        collateralUnderlyingAmount: collateralUnderlyingAmount,\n                        borrowAmount: borrowAmount\n                    });\n                }\n            }\n        }\n\n        // Resize array to actual position count\n        assembly {\n            mstore(positions, positionCount)\n        }\n        return positions;\n    }\n\n    /**\n     * @notice Gets corresponding Malda market for a given underlying\n     */\n    function _getMaldaMarket(address underlying) private view returns (address) {\n        address[] memory maldaMarkets = Operator(MALDA_OPERATOR).getAllMarkets();\n\n        for (uint256 i = 0; i < maldaMarkets.length; i++) {\n            address _market = maldaMarkets[i];\n            if (ImToken(_market).underlying() == underlying) {\n                if (allowedMarkets[_market]) {\n                    return maldaMarkets[i];\n                }\n            }\n        }\n\n        return address(0);\n    }\n}\n"
+        "UChildERC20Proxy.sol": "\n// File: contracts/common/Proxy/IERCProxy.sol\n\npragma solidity 0.6.6;\n\ninterface IERCProxy {\n    function proxyType() external pure returns (uint256 proxyTypeId);\n\n    function implementation() external view returns (address codeAddr);\n}\n\n// File: contracts/common/Proxy/Proxy.sol\n\npragma solidity 0.6.6;\n\n\nabstract contract Proxy is IERCProxy {\n    function delegatedFwd(address _dst, bytes memory _calldata) internal {\n        // solium-disable-next-line security/no-inline-assembly\n        assembly {\n            let result := delegatecall(\n                sub(gas(), 10000),\n                _dst,\n                add(_calldata, 0x20),\n                mload(_calldata),\n                0,\n                0\n            )\n            let size := returndatasize()\n\n            let ptr := mload(0x40)\n            returndatacopy(ptr, 0, size)\n\n            // revert instead of invalid() bc if the underlying call failed with invalid() it already wasted gas.\n            // if the call returned error data, forward it\n            switch result\n                case 0 {\n                    revert(ptr, size)\n                }\n                default {\n                    return(ptr, size)\n                }\n        }\n    }\n\n    function proxyType() external virtual override pure returns (uint256 proxyTypeId) {\n        // Upgradeable proxy\n        proxyTypeId = 2;\n    }\n\n    function implementation() external virtual override view returns (address);\n}\n\n// File: contracts/common/Proxy/UpgradableProxy.sol\n\npragma solidity 0.6.6;\n\n\ncontract UpgradableProxy is Proxy {\n    event ProxyUpdated(address indexed _new, address indexed _old);\n    event ProxyOwnerUpdate(address _new, address _old);\n\n    bytes32 constant IMPLEMENTATION_SLOT = keccak256(\"matic.network.proxy.implementation\");\n    bytes32 constant OWNER_SLOT = keccak256(\"matic.network.proxy.owner\");\n\n    constructor(address _proxyTo) public {\n        setProxyOwner(msg.sender);\n        setImplementation(_proxyTo);\n    }\n\n    fallback() external payable {\n        delegatedFwd(loadImplementation(), msg.data);\n    }\n\n    receive() external payable {\n        delegatedFwd(loadImplementation(), msg.data);\n    }\n\n    modifier onlyProxyOwner() {\n        require(loadProxyOwner() == msg.sender, \"NOT_OWNER\");\n        _;\n    }\n\n    function proxyOwner() external view returns(address) {\n        return loadProxyOwner();\n    }\n\n    function loadProxyOwner() internal view returns(address) {\n        address _owner;\n        bytes32 position = OWNER_SLOT;\n        assembly {\n            _owner := sload(position)\n        }\n        return _owner;\n    }\n\n    function implementation() external override view returns (address) {\n        return loadImplementation();\n    }\n\n    function loadImplementation() internal view returns(address) {\n        address _impl;\n        bytes32 position = IMPLEMENTATION_SLOT;\n        assembly {\n            _impl := sload(position)\n        }\n        return _impl;\n    }\n\n    function transferProxyOwnership(address newOwner) public onlyProxyOwner {\n        require(newOwner != address(0), \"ZERO_ADDRESS\");\n        emit ProxyOwnerUpdate(newOwner, loadProxyOwner());\n        setProxyOwner(newOwner);\n    }\n\n    function setProxyOwner(address newOwner) private {\n        bytes32 position = OWNER_SLOT;\n        assembly {\n            sstore(position, newOwner)\n        }\n    }\n\n    function updateImplementation(address _newProxyTo) public onlyProxyOwner {\n        require(_newProxyTo != address(0x0), \"INVALID_PROXY_ADDRESS\");\n        require(isContract(_newProxyTo), \"DESTINATION_ADDRESS_IS_NOT_A_CONTRACT\");\n\n        emit ProxyUpdated(_newProxyTo, loadImplementation());\n        \n        setImplementation(_newProxyTo);\n    }\n\n    function updateAndCall(address _newProxyTo, bytes memory data) payable public onlyProxyOwner {\n        updateImplementation(_newProxyTo);\n\n        (bool success, bytes memory returnData) = address(this).call{value: msg.value}(data);\n        require(success, string(returnData));\n    }\n\n    function setImplementation(address _newProxyTo) private {\n        bytes32 position = IMPLEMENTATION_SLOT;\n        assembly {\n            sstore(position, _newProxyTo)\n        }\n    }\n    \n    function isContract(address _target) internal view returns (bool) {\n        if (_target == address(0)) {\n            return false;\n        }\n\n        uint256 size;\n        assembly {\n            size := extcodesize(_target)\n        }\n        return size > 0;\n    }\n}\n\n// File: contracts/child/ChildToken/UpgradeableChildERC20/UChildERC20Proxy.sol\n\npragma solidity 0.6.6;\n\n\ncontract UChildERC20Proxy is UpgradableProxy {\n    constructor(address _proxyTo)\n        public\n        UpgradableProxy(_proxyTo)\n    {}\n}\n"
     }
 }

@@ -1,27 +1,29 @@
 {
     "vfp_id": "vfp_00620",
-    "project_name": "Sorella - Zenith Audit Report.pdf",
+    "project_name": "ackee-blockchain-vfat-sickle-report.pdf",
     "findings": [
         {
-            "id": 1,
+            "id": 30,
             "category": {
                 "1": [
-                    "CWE-693"
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-1068"
                 ]
             },
-            "title": "AFTER_SWAP_RETURNS_DELTA_FLAG isn't turned on",
-            "description": "The afterSwap() function is designed to return the protocol swap fee, but the afterSwapReturnDelta flag is not enabled in the hook configuration. As a result, the PoolManager does not parse the return value from afterSwap, treating it as zero and failing to apply the intended fee. This misconfiguration stems from the permissions structure in the hook setup, where the flag is omitted despite the function's return value being critical for fee enforcement. An attacker could exploit this by performing swaps that should incur protocol fees, but due to the unprocessed return value, no fee is charged. The impact is a loss of expected protocol revenue and potential economic imbalance in fee distribution.\n",
-            "severity": "High",
+            "title": "Errors in documentation",
+            "description": "The documentation for the onlyOwner modifier in SickleStorage.sol incorrectly claims that if the admin is not set, the call will not be restricted, which contradicts the actual implementation. The cause is that the comment was not updated to reflect the actual behavior of the modifier, which always checks msg.sender against owner and reverts if not matched. Misleading documentation could lead developers to assume insecure behavior is allowed, potentially introducing vulnerabilities in dependent systems. The impact is on developer understanding and integration safety, with potential indirect security risks if misinterpreted.\n",
+            "severity": "Informational",
             "location": [
-                "hook-config.sol#L17-L19",
-                "AngstromL2.sol#L284"
+                "SickleStorage.sol::onlyOwner#42-45"
             ],
             "files": [
-                "l2-angstrom/src/hook-config.sol"
+                "sickle-public/contracts/base/SickleStorage.sol"
             ]
         }
     ],
     "affected_files": {
-        "hook-config.sol": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport {Hooks} from \"v4-core/src/libraries/Hooks.sol\";\n\nbool constant POOLS_MUST_HAVE_DYNAMIC_FEE = false;\n\nfunction getRequiredHookPermissions() pure returns (Hooks.Permissions memory permissions) {\n    permissions.beforeInitialize = true; // To constrain that this is an ETH pool\n\n    permissions.afterAddLiquidity = true; // To tax liquidity additions that may be JIT\n    permissions.afterAddLiquidityReturnDelta = true; // To charge the JIT liquidity MEV tax.\n\n    permissions.afterRemoveLiquidity = true; // To tax liquidity removals that may be JIT\n    permissions.afterRemoveLiquidityReturnDelta = true; // To charge the JIT liquidity MEV tax.\n\n    permissions.beforeSwap = true; // To tax ToB\n    permissions.afterSwap = true; // Also to tax with ToB (after swap contains reward dist. calculations)\n    permissions.beforeSwapReturnDelta = true; // To charge the ToB MEV tax.\n}\n"
+        "SickleStorage.sol": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.17;\n\nimport { Initializable } from\n    \"@openzeppelin/contracts/proxy/utils/Initializable.sol\";\n\nlibrary SickleStorageEvents {\n    event ApprovedAddressChanged(address newApproved);\n}\n\n/// @title SickleStorage contract\n/// @author vfat.tools\n/// @notice Base storage of the Sickle contract\n/// @dev This contract needs to be inherited by stub contracts meant to be used\n/// with `delegatecall`\nabstract contract SickleStorage is Initializable {\n    /// ERRORS ///\n\n    /// @notice Thrown when the caller is not the owner of the Sickle contract\n    error NotOwnerError(); // 0x74a21527\n\n    /// @notice Thrown when the caller is not a strategy contract or the\n    /// Flashloan Stub\n    error NotStrategyError(); // 0x4581ba62\n\n    /// STORAGE ///\n\n    /// @notice Address of the owner\n    address public owner;\n\n    /// @notice An address that can be set by the owner of the Sickle contract\n    /// in order to trigger specific functions.\n    address public approved;\n\n    /// MODIFIERS ///\n\n    /// @dev Restricts a function call to the owner, however if the admin was\n    /// not set yet,\n    /// the modifier will not restrict the call, this allows the SickleFactory\n    /// to perform\n    /// some calls on the user's behalf before passing the admin rights to them\n    modifier onlyOwner() {\n        if (msg.sender != owner) revert NotOwnerError();\n        _;\n    }\n\n    /// INITIALIZATION ///\n\n    /// @param owner_ Address of the owner of this Sickle contract\n    function _SickleStorage_initialize(\n        address owner_,\n        address approved_\n    ) internal onlyInitializing {\n        owner = owner_;\n        approved = approved_;\n    }\n\n    /// WRITE FUNCTIONS ///\n\n    /// @notice Sets the approved address of this Sickle\n    /// @param newApproved Address meant to be approved by the owner\n    function setApproved(address newApproved) external onlyOwner {\n        approved = newApproved;\n        emit SickleStorageEvents.ApprovedAddressChanged(newApproved);\n    }\n\n    /// @notice Checks if `caller` is either the owner of the Sickle contract\n    /// or was approved by them\n    /// @param caller Address to check\n    /// @return True if `caller` is either the owner of the Sickle contract\n    function isOwnerOrApproved(address caller) public view returns (bool) {\n        return caller == owner || caller == approved;\n    }\n}\n"
     }
 }

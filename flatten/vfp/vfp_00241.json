@@ -3,30 +3,29 @@
     "project_name": "ChainSecurity_Gearbox_Permissionless_Audit.pdf",
     "findings": [
         {
-            "id": 22,
+            "id": 25,
             "category": {
                 "1": [
                     "CWE-710"
                 ],
                 "2": [
                     "CWE-1164"
-                ],
-                "3": [
-                    "CWE-561"
                 ]
             },
-            "title": "Dead Code",
-            "description": "Unused code, such as the ProxyCallExecuted event in ProxyCall, exists in the codebase.\nCause: Code that was once used but is no longer referenced remains in the repository.\nExploitation: No direct exploit, but increases code complexity and maintenance burden.\nImpact: Reduces code clarity, increases audit surface, and may confuse developers.\n",
+            "title": "Unnecessary Imports",
+            "description": "Several imported interfaces and constants are not used in the respective files.\nCause: Imports were left behind after refactoring or were added prematurely.\nExploitation: No security risk, but increases compilation time and code bloat.\nImpact: Reduces code clarity and maintainability.\n",
             "severity": "Informational",
             "location": [
-                "ProxyCall::ProxyCallExecuted event"
+                "Domain.sol",
+                "InstanceManager.sol",
+                "CreditFactory.sol"
             ],
             "files": [
-                "permissionless/contracts/helpers/ProxyCall.sol"
+                "permissionless/contracts/libraries/Domain.sol"
             ]
         }
     ],
     "affected_files": {
-        "ProxyCall.sol": "// SPDX-License-Identifier: BUSL-1.1\n// Gearbox Protocol. Generalized leverage for DeFi protocols\n// (c) Gearbox Foundation, 2024.\npragma solidity ^0.8.23;\n\nimport {Address} from \"@openzeppelin/contracts/utils/Address.sol\";\nimport {ImmutableOwnableTrait} from \"../traits/ImmutableOwnableTrait.sol\";\n\n/// @title ProxyCall\n/// @notice Contract that allows an immutable owner to make calls on its behalf\ncontract ProxyCall is ImmutableOwnableTrait {\n    using Address for address;\n\n    /// @notice Emitted when a call is made through the proxy\n    event ProxyCallExecuted(address target, bytes data);\n\n    constructor() ImmutableOwnableTrait(msg.sender) {}\n\n    /// @notice Makes a call to target contract with provided data\n    /// @param target Address of contract to call\n    /// @param data Call data to execute\n    /// @return result The raw return data from the call\n    function proxyCall(address target, bytes calldata data) external onlyOwner returns (bytes memory result) {\n        // Make the call using OpenZeppelin's Address library\n        return target.functionCall(data);\n    }\n}\n"
+        "Domain.sol": "// SPDX-License-Identifier: BUSL-1.1\n// Gearbox Protocol. Generalized leverage for DeFi protocols\n// (c) Gearbox Foundation, 2024.\npragma solidity ^0.8.23;\n\nimport {IAddressProvider} from \"../interfaces/IAddressProvider.sol\";\nimport {AP_INSTANCE_MANAGER} from \"./ContractLiterals.sol\";\nimport {LibString} from \"@solady/utils/LibString.sol\";\n\nlibrary Domain {\n    using LibString for string;\n    using LibString for bytes32;\n\n    function extractDomain(string memory str) internal pure returns (string memory) {\n        uint256 separatorIndex = str.indexOf(\"::\");\n\n        // If no separator found, treat the whole name as domain\n        if (separatorIndex == LibString.NOT_FOUND) {\n            return str;\n        }\n\n        return str.slice(0, separatorIndex);\n    }\n\n    function extractDomain(bytes32 contractType) internal pure returns (bytes32) {\n        return extractDomain(contractType.fromSmallString()).toSmallString();\n    }\n}\n"
     }
 }

@@ -1,70 +1,115 @@
 {
     "vfp_id": "vfp_00605",
-    "project_name": "cantina_tadle_oct2025.pdf",
+    "project_name": "BARD Token Audit.md",
     "findings": [
         {
-            "id": 9,
+            "id": 0,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-1041"
+                ]
+            },
+            "title": "Duplicate Event Emission in mint",
+            "description": "The `mint` function emits a custom `Mint(to, amount)` event, while the underlying `ERC20._mint` function also emits a `Transfer(address(0), to, amount)` event. These two events convey identical information regarding the creation and allocation of new tokens.\nThe root cause is the redundant emission of a custom event when the standard ERC-20 `Transfer` event from `_mint` already provides the same data, leading to duplication.\nAlthough this does not enable direct exploitation, it can mislead off-chain indexers and user interfaces that rely on event parsing, potentially causing confusion or incorrect state interpretation.\nThe impact is limited to user experience and system clarity, with no direct financial or security risk, but it increases the complexity of event handling and may lead to incorrect assumptions in dependent systems.\n",
+            "severity": "Low",
+            "location": [
+                "BARD.sol::mint#49",
+                "BARD.sol::<constructor>#30"
+            ],
+            "files": [
+                "BARD/contracts/BARD/BARD.sol"
+            ]
+        },
+        {
+            "id": 1,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-1068"
+                ]
+            },
+            "title": "Inaccurate Comment in Constructor",
+            "description": "A comment in the constructor states that the first mint is not allowed until one year after deployment, which is misleading because the constructor itself mints 1 billion tokens upon deployment.\nThe cause is a discrepancy between the comment and the actual code behavior, likely due to outdated or incorrect documentation.\nThis could mislead developers or auditors into believing there is a one-year delay before any minting occurs, when in fact the initial mint happens immediately.\nThe impact is a potential misunderstanding of the contract's initialization logic, which could lead to incorrect assumptions during integration or future development.\n",
+            "severity": "Informational",
+            "location": [
+                "BARD.sol::<constructor>#30"
+            ],
+            "files": [
+                "BARD/contracts/BARD/BARD.sol"
+            ]
+        },
+        {
+            "id": 2,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-1068"
+                ]
+            },
+            "title": "Inaccurate Comment in mint Function",
+            "description": "The comment above the `mint` function incorrectly states that the minted amount must be less than the maximum inflation rate, when in reality it must be less than the product of the maximum inflation rate and the current total supply.\nThis inaccuracy stems from imprecise documentation that fails to reflect the actual mathematical constraint implemented in the code.\nA developer relying on the comment might misunderstand the minting cap logic, potentially leading to incorrect off-chain calculations or expectations.\nThe impact is a risk of misinterpretation of the minting rules, which could affect governance decisions or integration logic, though the on-chain behavior remains correct.\n",
+            "severity": "Informational",
+            "location": [
+                "BARD.sol::mint#37"
+            ],
+            "files": [
+                "BARD/contracts/BARD/BARD.sol"
+            ]
+        },
+        {
+            "id": 3,
             "category": {
                 "1": [
                     "CWE-710"
                 ],
                 "2": [
                     "CWE-1076"
-                ]
-            },
-            "title": "Missing storage gap in upgradeable base",
-            "description": "The Setup contract, used as a base for upgradeable contracts, does not include a storage gap (__gap), making future upgrades unsafe. Without a gap, adding new state variables can shift existing storage slots, corrupting data. The root cause is omission of a best practice for upgradeable contracts. Future upgrades that add variables may inadvertently overwrite existing state. The impact is potential data corruption and breaking of contract functionality during upgrades.\n",
-            "severity": "Low",
-            "location": [
-                "Implementations.sol::Setup#19-35"
-            ],
-            "files": [
-                "v3-sandbox-audit_1/src/core/Implementations.sol"
-            ]
-        },
-        {
-            "id": 6,
-            "category": {
-                "1": [
-                    "CWE-707"
-                ],
-                "2": [
-                    "CWE-20"
                 ],
                 "3": [
-                    "CWE-1287"
+                    "CWE-1078"
                 ]
             },
-            "title": "Missing contract code check in TadleImplementations",
-            "description": "The TadleImplementations contract allows setting default and additional implementations without verifying that the provided addresses contain contract code. This could result in routing to EOAs or destroyed contracts, causing reverts or malfunctioning proxies. The root cause is the absence of a code presence check like Address.isContract. While addImplementation was fixed to include a check, setDefaultImplementation still only rejects the zero address. An admin could accidentally or maliciously set a non-contract address as the default, breaking all routing. The impact is denial of service and disruption of dependent systems relying on correct implementation resolution.\n",
-            "severity": "Medium",
+            "title": "Inconsistent Variable Types May Hinder Optimization and Readability",
+            "description": "The contract uses smaller integer types (`uint8`, `uint32`, `uint40`) for constants and state variables where `uint256` would be more appropriate. While functionally correct, this choice provides no storage benefit for constants and incurs a slight gas cost for `lastMintTimestamp` due to type masking.\nThe root cause is suboptimal type selection that does not align with Solidity's EVM optimization patterns, where `uint256` is the native word size and operations on smaller types can be more expensive.\nThis could lead to marginally higher gas consumption during `mint` calls and reduced code clarity for developers expecting consistent type usage.\nThe impact is minor inefficiency and reduced code readability, with no direct security vulnerability but a missed opportunity for optimization.\n",
+            "severity": "Informational",
             "location": [
-                "Implementations.sol::setDefaultImplementation#",
-                "Implementations.sol::addImplementation#83-97"
+                "BARD.sol::MAX_INFLATION#14",
+                "BARD.sol::MINT_WAIT_PERIOD#17",
+                "BARD.sol::lastMintTimestamp#20"
             ],
             "files": [
-                "v3-sandbox-audit_1/src/core/Implementations.sol"
+                "BARD/contracts/BARD/BARD.sol"
             ]
         },
         {
-            "id": 17,
+            "id": 4,
             "category": {
                 "1": [
                     "CWE-710"
+                ],
+                "2": [
+                    "CWE-1041"
                 ]
             },
-            "title": "TadleImplementations does not inherit AccountImplementations interface",
-            "description": "TadleImplementations implements the getImplementation function but does not explicitly inherit the AccountImplementations interface. This weakens type safety and prevents compile-time checks for interface conformance. The root cause is missing interface inheritance in the contract declaration. While functionally correct, this reduces integration safety and clarity for external callers. The impact is reduced code maintainability and potential integration errors.\n",
+            "title": "Redundant Zero-Address Check in Constructor",
+            "description": "The constructor includes a manual check to ensure `_treasury` is not the zero address before minting, but this is redundant because the `ERC20._mint` function already performs this validation and reverts appropriately.\nThe cause is an unnecessary duplication of a safety check that is already enforced by the inherited OpenZeppelin contract.\nThis increases code complexity without adding security, and creates inconsistency with the `mint` function, which relies solely on `_mint` for this validation.\nThe impact is minimal, limited to increased bytecode size and reduced code clarity, but it violates the principle of least surprise and consistency in error handling.\n",
             "severity": "Informational",
             "location": [
-                "Implementations.sol::TadleImplementations#123"
+                "BARD.sol::<constructor>#28"
             ],
             "files": [
-                "v3-sandbox-audit_1/src/core/Implementations.sol"
+                "BARD/contracts/BARD/BARD.sol"
             ]
         }
     ],
     "affected_files": {
-        "Implementations.sol": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport {Ownable2Step, Ownable} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";\n\n/**\n * @title IAuth\n * @dev Interface for authentication contract\n */\ninterface IAuth {\n    function isAdmin(address account) external view returns (bool);\n}\n\n/**\n * @title Setup\n * @dev Base contract for implementation management\n * Stores mappings between function signatures and their implementation addresses\n */\nabstract contract Setup {\n    /// @dev Initialization flag to prevent multiple initialization calls\n    bool internal _initialized;\n\n    /// @dev Auth contract instance for access control\n    IAuth public auth;\n\n    /// @dev Default implementation address for fallback when signature not found\n    address public defaultImplementation;\n\n    /// @dev Mapping of function signatures to their implementation addresses\n    mapping(bytes4 => address) internal sigImplementations;\n\n    /// @dev Mapping of implementation addresses to their function signatures\n    /// @notice This allows efficient removal of all signatures for an implementation\n    mapping(address => bytes4[]) internal implementationSigs;\n}\n\n/**\n * @title Implementations\n * @dev Contract for managing implementation addresses and their function signatures\n */\nabstract contract Implementations is Setup {\n    // Events for implementation management\n    event LogSetDefaultImplementation(address indexed oldImplementation, address indexed newImplementation);\n    event LogAddImplementation(address indexed implementation, bytes4[] sigs);\n    event LogRemoveImplementation(address indexed implementation, bytes4[] sigs);\n\n    /**\n     * @dev Modifier to restrict function access to admin users only\n     * @notice Reverts if caller is not an admin in the auth contract\n     */\n    modifier isAdmin() {\n        require(auth.isAdmin(msg.sender), \"Implementations: not admin\");\n        _;\n    }\n\n    /**\n     * @dev Modifier to ensure contract is only initialized once\n     * @notice Prevents multiple initialization calls that could reset contract state\n     */\n    modifier initializer() {\n        require(!_initialized, \"Implementations: already initialized\");\n        _;\n        _initialized = true;\n    }\n\n    /**\n     * @dev Sets the default implementation address used when no specific implementation is found\n     * @param _defaultImplementation Address of the new default implementation\n     */\n    function setDefaultImplementation(address _defaultImplementation) external isAdmin {\n        require(_defaultImplementation != address(0), \"Implementations: invalid default implementation address\");\n        require(_defaultImplementation != defaultImplementation, \"Implementations: new implementation same as current\");\n\n        emit LogSetDefaultImplementation(defaultImplementation, _defaultImplementation);\n        defaultImplementation = _defaultImplementation;\n    }\n\n    /**\n     * @dev Add new implementation with its function signatures\n     * @param _implementation Address of the implementation contract\n     * @param _sigs Array of function signatures supported by the implementation\n     */\n    function addImplementation(address _implementation, bytes4[] calldata _sigs) external isAdmin {\n        require(_implementation != address(0), \"Implementations: invalid implementation address\");\n        require(implementationSigs[_implementation].length == 0, \"Implementations: implementation already registered\");\n        require(_sigs.length > 0, \"Implementations: empty signatures array\");\n\n        for (uint256 i = 0; i < _sigs.length; i++) {\n            bytes4 _sig = _sigs[i];\n            require(_sig != bytes4(0), \"Implementations: invalid function signature\");\n            require(sigImplementations[_sig] == address(0), \"Implementations: signature already registered\");\n            sigImplementations[_sig] = _implementation;\n        }\n\n        implementationSigs[_implementation] = _sigs;\n        emit LogAddImplementation(_implementation, _sigs);\n    }\n\n    /**\n     * @dev Remove an implementation and its associated function signatures\n     * @param _implementation Address of the implementation to remove\n     */\n    function removeImplementation(address _implementation) external isAdmin {\n        require(_implementation != address(0), \"Implementations: invalid implementation address\");\n        require(implementationSigs[_implementation].length != 0, \"Implementations: implementation not found\");\n        require(_implementation != defaultImplementation, \"Implementations: cannot remove default implementation\");\n\n        bytes4[] memory sigs = implementationSigs[_implementation];\n        for (uint256 i = 0; i < sigs.length; i++) {\n            bytes4 sig = sigs[i];\n            delete sigImplementations[sig];\n        }\n\n        delete implementationSigs[_implementation];\n        emit LogRemoveImplementation(_implementation, sigs);\n    }\n}\n\n/**\n * @title TadleImplementations\n * @dev Implementation registry contract with getter functions\n */\ncontract TadleImplementations is Ownable2Step, Implementations {\n    constructor() Ownable(msg.sender) {}\n\n    /**\n     * @dev Initialize the contract with auth contract address\n     * @param _auth Address of the auth contract for access control\n     */\n    function initialize(address _auth) external onlyOwner initializer {\n        require(_auth != address(0), \"TadleImplementations: invalid auth address\");\n        auth = IAuth(_auth);\n    }\n\n    /**\n     * @dev Get implementation address for a function signature\n     * @param _sig Function signature to lookup\n     * @return Implementation address or default implementation if not found\n     */\n    function getImplementation(bytes4 _sig) external view returns (address) {\n        address _implementation = sigImplementations[_sig];\n        return _implementation == address(0) ? defaultImplementation : _implementation;\n    }\n\n    /**\n     * @dev Get all function signatures for an implementation\n     * @param _impl Implementation address to lookup\n     * @return Array of function signatures\n     */\n    function getImplementationSigs(address _impl) external view returns (bytes4[] memory) {\n        return implementationSigs[_impl];\n    }\n\n    /**\n     * @dev Get specific implementation for a function signature\n     * @param _sig Function signature to lookup\n     * @return Implementation address (returns zero address if not found)\n     */\n    function getSigImplementation(bytes4 _sig) external view returns (address) {\n        return sigImplementations[_sig];\n    }\n}\n"
+        "BARD.sol": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.28;\n\nimport {Ownable, Ownable2Step} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";\nimport {ERC20} from \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\nimport {ERC20Burnable} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol\";\nimport {ERC20Permit} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol\";\nimport {ERC20Votes} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol\";\nimport {Nonces} from \"@openzeppelin/contracts/utils/Nonces.sol\";\nimport \"./IBARD.sol\";\n\ncontract BARD is Ownable2Step, ERC20Burnable, ERC20Permit, ERC20Votes, IBARD {\n    // Maximum inflation rate per year (percentage) expressed as an integer\n    uint8 public constant MAX_INFLATION = 10;\n\n    // The frequency limit on inflationary mint invocations\n    uint32 public constant MINT_WAIT_PERIOD = 365 days;\n\n    //The last time the mint function was called\n    uint40 public lastMintTimestamp;\n\n    constructor(\n        address _initialOwner,\n        address _treasury\n    ) ERC20(\"Lombard\", \"BARD\") ERC20Permit(\"Lombard\") Ownable(_initialOwner) {\n        // first mint not allowed until 1 year after deployment\n        lastMintTimestamp = uint40(block.timestamp);\n        if (_treasury == address(0)) revert ZeroAddressException();\n        // mint initial supply\n        _mint(_treasury, 1_000_000_000 * 1 ether);\n    }\n\n    /**\n     * @notice Mints new BARD tokens\n     * @param to The address to mint tokens to\n     * @param amount The amount of tokens to mint\n     * @dev Only callable by the owner once per year and amount must be less than max inflation rate\n     */\n    function mint(address to, uint256 amount) external onlyOwner {\n        if (block.timestamp - lastMintTimestamp < MINT_WAIT_PERIOD)\n            revert MintWaitPeriodNotClosed(\n                MINT_WAIT_PERIOD - (block.timestamp - lastMintTimestamp)\n            );\n        uint256 _maxInflationAmount = (totalSupply() * MAX_INFLATION) / 100;\n        if (amount > _maxInflationAmount)\n            revert MaxInflationExceeded(_maxInflationAmount);\n        lastMintTimestamp = uint40(block.timestamp);\n        _mint(to, amount);\n        emit Mint(to, amount);\n    }\n\n    /// @notice Prevents the owner from renouncing ownership\n    function renounceOwnership() public view override onlyOwner {\n        revert CantRenounceOwnership();\n    }\n\n    /**\n     * @dev Override of the _update function to satisfy both ERC20 and ERC20Votes\n     */\n    function _update(\n        address from,\n        address to,\n        uint256 value\n    ) internal virtual override(ERC20, ERC20Votes) {\n        super._update(from, to, value);\n    }\n\n    /**\n     * @dev Override of the nonces function to satisfy both IERC20Permit and Nonces\n     */\n    function nonces(\n        address owner\n    ) public view virtual override(ERC20Permit, Nonces) returns (uint256) {\n        return super.nonces(owner);\n    }\n}\n"
     }
 }

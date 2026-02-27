@@ -3,24 +3,79 @@
     "project_name": "Jovay Rollup Contracts Audit.md",
     "findings": [
         {
-            "id": 8,
+            "id": 39,
             "category": {
                 "1": [
-                    "CWE-682"
+                    "CWE-664"
+                ],
+                "2": [
+                    "CWE-221"
+                ],
+                "3": [
+                    "CWE-223"
+                ],
+                "4": [
+                    "CWE-778"
                 ]
             },
-            "title": "Gas Handling Inconsistencies in Bridge Message Execution",
-            "description": "The `L2ETHBridge.finalizeDeposit` function forwards `gasleft() / 2` to the recipient during the external call. This arbitrary split may leave insufficient gas for the callee to complete its execution, especially if it performs complex operations or calls other contracts.\n\nThe root cause is the use of a heuristic-based gas forwarding pattern instead of a fixed reserve. This approach is not robust and can lead to unpredictable behavior depending on the initial gas context.\n\nAn attacker could trigger a deposit to a contract that requires more than half of the remaining gas, causing the call to revert. This would prevent the user from receiving their funds, even though the message is valid.\n\nThe impact is potential failure of deposit finalization, leading to user funds being stuck and requiring manual intervention. It reduces the reliability of the bridge and introduces unnecessary risk in message execution.\n",
-            "severity": "Low",
+            "title": "Misleading and Missing Event Emissions",
+            "description": "Several functions either emit events when no meaningful state change occurs (e.g., `removeRelayer` emits `RemoveRelayer` even for non-relayers) or fail to emit events despite modifying critical state variables (e.g., `initialize`, `setRollup`, `withdrawDepositFee`, etc.).\n\nThe cause is inconsistent event emission practices: some functions emit events without validating that a change occurred, while many state-modifying functions omit events entirely. This reduces transparency and hinders off-chain monitoring.\n\nAttackers could exploit the ambiguity in event streams to obscure malicious state changes, or legitimate operations could be misinterpreted due to missing or spurious events. Indexers relying on events for state reconstruction may diverge from the true contract state.\n\nThe impact includes reduced system observability, potential for data inconsistency in off-chain systems, and increased difficulty in debugging or auditing contract behavior. It undermines trust in the event log as a source of truth.\n",
+            "severity": null,
             "location": [
-                "L2ETHBridge.sol::finalizeDeposit#45"
+                "L1GasOracle.sol::removeRelayer#166-170",
+                "MailboxBase.sol::removeBridge#106-108",
+                "L1Mailbox.sol::initialize#65-80",
+                "L1Mailbox.sol::setRollup#82-85",
+                "L1Mailbox.sol::setWithdrawer#87-90",
+                "L1Mailbox.sol::withdrawDepositFee#162-168",
+                "L1Mailbox.sol::setLastQueueIndex#220-222",
+                "Rollup.sol::initialize#88-114",
+                "Rollup.sol::revertBatches#236-247",
+                "Rollup.sol::addRelayer#305-311",
+                "Rollup.sol::removeRelayer#315-317",
+                "Rollup.sol::setMaxTxsInChunk#331-333",
+                "Rollup.sol::setMaxBlockInChunk#337-339",
+                "Rollup.sol::setMaxCallDataInChunk#343-345",
+                "Rollup.sol::setL1BlobNumberLimit#349-351",
+                "Rollup.sol::setRollupTimeLimit#355-357",
+                "Rollup.sol::setL2ChainId#361-363",
+                "Rollup.sol::setTeeVerifierAddress#367-370",
+                "Rollup.sol::setZkVerifierAddress#374-377",
+                "L2ERC20Bridge.sol::withdraw#28-52",
+                "L2ERC20Bridge.sol::finalizeDeposit#63-75",
+                "L2ETHBridge.sol::claimDeposit#53-60",
+                "L2ETHBridge.sol::claimDeposit#62-70",
+                "L1GasOracle.sol::initialize#55-71",
+                "L1GasOracle.sol::CalcL1FeePerByte#73-76",
+                "L1GasOracle.sol::setNewBatchBlobFeeAndTxFee#100-121",
+                "L1GasOracle.sol::setBlobBaseFeeScalaAndTxFeeScala#123-130",
+                "L1GasOracle.sol::setL1Profit#132-137",
+                "L1GasOracle.sol::setTotalScala#139-144",
+                "L1GasOracle.sol::setMaxL1ExecGasUsedLimit#146-151",
+                "L1GasOracle.sol::setMaxL1BlobGasUsedLimit#153-158",
+                "L1GasOracle.sol::addRelayer#160-164",
+                "L1GasOracle.sol::removeRelayer#166-170",
+                "L2CoinBase.sol::initialize#19-22",
+                "L2CoinBase.sol::addWithdrawer#61-65",
+                "L2CoinBase.sol::removeWithdrawer#67-71",
+                "L2CoinBase.sol::addWhiteAddress#73-77",
+                "L2CoinBase.sol::removeWhiteAddress#79-83",
+                "L2CoinBase.sol::withdraw#85-93",
+                "L2CoinBase.sol::withdrawAll#95-97",
+                "L2Mailbox.sol::initialize#25-36",
+                "L2Mailbox.sol::setL1MailBox#38-41",
+                "BridgeBase.sol::initialize#31-40",
+                "BridgeBase.sol::setMailBox#42-45",
+                "BridgeBase.sol::setToBridge#47-50",
+                "MailBoxBase.sol::addBridge#100-102",
+                "MailBoxBase.sol::removeBridge#106-108"
             ],
             "files": [
-                "jovay-contracts/rollup_contracts/contracts/L2/bridge/L2ETHBridge.sol"
+                "jovay-contracts/rollup_contracts/contracts/L2/core/L1GasOracle.sol"
             ]
         },
         {
-            "id": 6,
+            "id": 14,
             "category": {
                 "1": [
                     "CWE-707"
@@ -32,19 +87,19 @@
                     "CWE-1284"
                 ]
             },
-            "title": "Zero-Amount Withdraw Allows Spam Messaging",
-            "description": "The `L2ETHBridge.withdraw` function only checks that `msg.value` is non-zero but does not validate that the `amount_` parameter is greater than zero. This allows users to initiate withdrawals with zero value by paying a minimal ETH amount as `msg.value`, which is later refunded.\n\nThe root cause is missing input validation on the withdrawal amount. The system treats these zero-amount calls as valid messages, which are then included in batches and must be processed by relayers on L1.\n\nAn attacker can exploit this by submitting a large number of zero-amount withdrawals at low cost, forcing relayers to process spam messages. This increases the load on the system and delays legitimate withdrawals, especially under future ZK proof verification which is gas-intensive.\n\nThe impact is a potential denial of service due to resource exhaustion, increased costs for relayers, and degraded user experience as real transactions are delayed in the queue.\n",
-            "severity": "Medium",
+            "title": "Missing Upper Bound Check in initialize for lastBatchByteLength",
+            "description": "The L1GasOracle contract enforces both upper and lower bounds on lastBatchByteLength in setNewBatchBlobFeeAndTxFee, but the initialize function only enforces the lower bound. This discrepancy allows an excessively large initial value to be set during deployment, which could distort gas cost calculations and potentially lead to incorrect fee modeling or denial of service if used in arithmetic operations without bounds. The root cause is incomplete validation logic in the initialization function. A malicious deployer or compromised deployment process could set an abnormally high value. The impact includes potential manipulation of gas pricing mechanisms and downstream effects on transaction cost estimation and relayer economics.\n",
+            "severity": "Low",
             "location": [
-                "L2ETHBridge.sol::withdraw#21-31",
-                "L2Mailbox.sol::sendMsg#43-75"
+                "L1GasOracle.sol::initialize#55-71",
+                "L1GasOracle.sol::setNewBatchBlobFeeAndTxFee#100-121"
             ],
             "files": [
-                "jovay-contracts/rollup_contracts/contracts/L2/bridge/L2ETHBridge.sol"
+                "jovay-contracts/rollup_contracts/contracts/L2/core/L1GasOracle.sol"
             ]
         }
     ],
     "affected_files": {
-        "L2ETHBridge.sol": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\nimport \"../../L1/bridge/interfaces/IL1ETHBridge.sol\";\nimport \"../../common/BridgeBase.sol\";\nimport \"../interfaces/IL2Mailbox.sol\";\nimport \"./interfaces/IL2ETHBridge.sol\";\nimport \"solidity-bytes-utils/contracts/BytesLib.sol\";\nimport {L2Mailbox} from \"../core/L2Mailbox.sol\";\n\ncontract L2ETHBridge is BridgeBase, IL2ETHBridge {\n    uint256 public balance;\n\n    /**\n     * The sender account transfers to tokenbridge to lock the assets;\n     * @param to_ target address\n     * @param amount_ transfer amount\n     * @param gasLimit_ gas limit\n     * @param msg_ data\n     */\n    function withdraw(address to_, uint256 amount_, uint256 gasLimit_, bytes memory msg_) external payable override nonReentrant whenNotPaused {\n        require(msg.value > 0, \"withdraw zero eth\");\n        require(balance >= amount_, \"insufficient balance\");\n\n        address sender_ = _msgSender();\n\n        bytes memory message_ = abi.encodeCall(IL1ETHBridge.finalizeWithdraw, (sender_, to_, amount_, msg_));\n        balance -= amount_;\n        mailBoxCall(abi.encodeCall(IMailBoxBase.sendMsg, (toBridge, amount_, message_, gasLimit_, sender_)));\n        emit WithdrawETH(sender_, to_, amount_, message_);\n    }\n\n\n    /**\n     * Complete the transfer of L1 assets\n     * @param sender_ transfer initiator\n     * @param to_ target address\n     * @param amount_ transfer amount\n     * @param msg_ data\n     */\n    function finalizeDeposit(address sender_, address to_, uint256 amount_, bytes calldata msg_) external payable override nonReentrant onlyMailBox whenNotPaused {\n        require(msg.value == amount_, \"msg.value mismatch\");\n        balance += amount_;\n\n        (bool success_,) = to_.call{value : amount_, gas : gasleft() / 2}(\"\");\n        require(success_, \"ETH transfer failed\");\n// TODO : add call msg with deposit\n//        _doCallback(to_, msg_);\n\n        emit FinalizeDepositETH(sender_, to_, amount_, msg_);\n    }\n\n    function claimDeposit(bytes calldata msg_) external override nonReentrant whenNotPaused {\n        (address l1bridge, address l2bridge, uint256 value, uint256 nonce, bytes memory depositMsg) = abi.decode(msg_[4:], (address, address, uint256, uint256, bytes));\n        bytes memory newDepositMsg = BytesLib.slice(depositMsg, 4, depositMsg.length-4);\n        (address sender, address target, uint256 amount, bytes memory data) = abi.decode(newDepositMsg, (address, address, uint256, bytes));\n        bytes32 depositHash = keccak256(msg_);\n        balance += amount;\n        IL2Mailbox(mailBox).claimAmount(target, amount, nonce,depositHash);\n    }\n\n    function claimDeposit(bytes calldata msg_, address new_refund_address_) external override nonReentrant whenNotPaused {\n        (address l1bridge, address l2bridge, uint256 value, uint256 nonce, bytes memory depositMsg) = abi.decode(msg_[4:], (address, address, uint256, uint256, bytes));\n        bytes memory newDepositMsg = BytesLib.slice(depositMsg, 4, depositMsg.length-4);\n        (address sender, address target, uint256 amount, bytes memory data) = abi.decode(newDepositMsg, (address, address, uint256, bytes));\n        bytes32 depositHash = keccak256(msg_);\n        balance += amount;\n        require(msg.sender == sender, \"claimDeposit change refund must called by origin sender\");\n        IL2Mailbox(mailBox).claimAmount(new_refund_address_, amount, nonce, depositHash);\n    }\n}\n"
+        "L1GasOracle.sol": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport \"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol\";\n\ncontract L1GasOracle is OwnableUpgradeable {\n    uint256 public l1FeePerByte;\n\n    // the fee of da for last batch\n    uint256 public lastBatchDaFee;\n\n    // the fee of commit and verify for last batch\n    uint256 public lastBatchExecFee;\n\n    // the tx length of all tx in last batch\n    uint256 public lastBatchByteLength;\n\n    // The changing trend of the current block base fee and blob base fee compared to the previous batch\n    uint256 public blobBaseFeeScala;\n    uint256 public baseFeeScala;\n\n    // the constant profit of one batch\n    uint256 public l1Profit;\n\n    // the constant parameter for the whole fee of L1\n    uint256 public totalScala;\n\n    // relayer is who can send L1 fee to jovay\n    mapping(address => bool) public isRelayer;\n\n    // the lower limit of tx length in one batch\n    uint256 private constant MIN_TX_LENGTH_LIMIT = 6 * 128 * 1024;\n\n    // the lower limit of tx length in one batch\n    uint256 private constant MAX_TX_LENGTH_LIMIT = 1e9;\n\n    // the upper limit of L1 base fee\n    uint256 private constant MAX_L1_BASE_FEE_LIMIT = 1e9;\n\n    // the upper limit of L1 blob base fee\n    uint256 private constant MAX_L1_BLOB_BASE_FEE_LIMIT = 1e9;\n\n    // the upper limit of the sum of commit and verify tx's gas used;\n    uint256 public maxL1ExecGasUsedLimit;\n\n    // the max limit of blob gas used, mainnet is 6blobs;\n    uint256 public maxL1BlobGasUsedLimit;\n\n    constructor(){\n        _disableInitializers();\n    }\n\n    function initialize(uint256 _lastBatchDaFee, uint256 _lastBatchExecFee, uint256 _lastBatchByteLength) external initializer {\n        OwnableUpgradeable.__Ownable_init();\n        lastBatchDaFee = _lastBatchDaFee;\n        lastBatchExecFee = _lastBatchExecFee;\n        maxL1ExecGasUsedLimit = 1e6;\n        maxL1BlobGasUsedLimit = 6 * 128 * 1024;\n        totalScala = 110;\n        blobBaseFeeScala = 100;\n        baseFeeScala = 100;\n        if (_lastBatchByteLength < MIN_TX_LENGTH_LIMIT) {\n            lastBatchByteLength = MIN_TX_LENGTH_LIMIT;\n        } else {\n            lastBatchByteLength = _lastBatchByteLength;\n        }\n        CalcL1FeePerByte();\n        isRelayer[_msgSender()] = true;\n    }\n\n    function CalcL1FeePerByte() internal {\n        l1FeePerByte = (((lastBatchDaFee * blobBaseFeeScala / 100) + (lastBatchExecFee * baseFeeScala / 100) + l1Profit) / lastBatchByteLength);\n        l1FeePerByte = l1FeePerByte * totalScala / 100;\n    }\n\n    modifier onlyRelayer() {\n        // @note In the decentralized mode, it should be only called by a list of validator.\n        require(isRelayer[_msgSender()], \"INVALID_PERMISSION : sender is not relayer\");\n        _;\n    }\n\n    event SetNewBatchBlobFeeAndTxFee(uint256 _lastBatchDaFee, uint256 _lastBatchExecFee, uint256 _lastBatchByteLength);\n\n    event SetBlobBaseFeeScalaAndTxFeeScala(uint256 _baseFeeScala, uint256 _blobBaseFeeScala);\n\n    event SetL1Profit(uint256 _l1Profit);\n\n    event SetTotalScala(uint256 _totalScala);\n\n    event SetMaxL1ExecGasUsedLimit(uint256 _maxL1ExecGasUsedLimit);\n\n    event SetMaxL1BlobGasUsedLimit(uint256 _maxL1BlobGasUsedLimit);\n\n    event AddRelayer(address relayer);\n\n    event RemoveRelayer(address oldRelayer);\n\n    function setNewBatchBlobFeeAndTxFee(uint256 _lastBatchDaFee,\n        uint256 _lastBatchExecFee,\n        uint256 _lastBatchByteLength) onlyRelayer external {\n        if (_lastBatchByteLength < MIN_TX_LENGTH_LIMIT) {\n            _lastBatchByteLength = MIN_TX_LENGTH_LIMIT;\n        }\n        if (_lastBatchByteLength > MAX_TX_LENGTH_LIMIT) {\n            _lastBatchByteLength = MAX_TX_LENGTH_LIMIT;\n        }\n        if (_lastBatchExecFee > MAX_L1_BASE_FEE_LIMIT * maxL1ExecGasUsedLimit) {\n            _lastBatchExecFee = MAX_L1_BASE_FEE_LIMIT * maxL1ExecGasUsedLimit;\n        }\n        if (_lastBatchDaFee > MAX_L1_BLOB_BASE_FEE_LIMIT * maxL1BlobGasUsedLimit) {\n            _lastBatchDaFee = MAX_L1_BLOB_BASE_FEE_LIMIT * maxL1BlobGasUsedLimit;\n        }\n        lastBatchByteLength = _lastBatchByteLength;\n        lastBatchDaFee = _lastBatchDaFee;\n        lastBatchExecFee = _lastBatchExecFee;\n        CalcL1FeePerByte();\n\n        emit SetNewBatchBlobFeeAndTxFee(_lastBatchDaFee, _lastBatchExecFee, _lastBatchByteLength);\n    }\n\n    function setBlobBaseFeeScalaAndTxFeeScala(uint256 _baseFeeScala,\n        uint256 _blobBaseFeeScala) onlyRelayer external {\n        require(_baseFeeScala != 0 && _blobBaseFeeScala != 0, \"scala must not be zero\");\n        baseFeeScala = _baseFeeScala;\n        blobBaseFeeScala = _blobBaseFeeScala;\n        CalcL1FeePerByte();\n        emit SetBlobBaseFeeScalaAndTxFeeScala(_baseFeeScala, _blobBaseFeeScala);\n    }\n\n    function setL1Profit(uint256 _l1Profit) onlyOwner external {\n        l1Profit = _l1Profit;\n        CalcL1FeePerByte();\n\n        emit SetL1Profit(_l1Profit);\n    }\n\n    function setTotalScala(uint256 _totalScala) onlyOwner external {\n        totalScala = _totalScala;\n        CalcL1FeePerByte();\n\n        emit SetTotalScala(_totalScala);\n    }\n\n    function setMaxL1ExecGasUsedLimit(uint256 _maxL1ExecGasUsedLimit) onlyOwner external {\n        maxL1ExecGasUsedLimit = _maxL1ExecGasUsedLimit;\n        CalcL1FeePerByte();\n\n        emit SetMaxL1ExecGasUsedLimit(_maxL1ExecGasUsedLimit);\n    }\n\n    function setMaxL1BlobGasUsedLimit(uint256 _maxL1BlobGasUsedLimit) onlyOwner external {\n        maxL1BlobGasUsedLimit = _maxL1BlobGasUsedLimit;\n        CalcL1FeePerByte();\n\n        emit SetMaxL1BlobGasUsedLimit(_maxL1BlobGasUsedLimit);\n    }\n\n    function addRelayer(address _newRelayer) onlyOwner external {\n        isRelayer[_newRelayer] = true;\n\n        emit AddRelayer(_newRelayer);\n    }\n\n    function removeRelayer(address _oldRelayer) onlyOwner external {\n        isRelayer[_oldRelayer] = false;\n\n        emit RemoveRelayer(_oldRelayer);\n    }\n\n    function getTxL1Fee(uint256 txLength) external view returns(uint256){\n        return l1FeePerByte * txLength;\n    }\n}"
     }
 }
