@@ -119,7 +119,7 @@
             },
             "title": "Lack of non-zero check for key parameters",
             "description": "The initialize() function in AsBnbOFT.sol grants roles to addresses without validating that they are non-zero. This could allow critical roles to be assigned to the zero address, rendering the contract unusable or insecure. The root cause is missing input validation for critical parameters during initialization. An attacker could exploit this if they influence deployment parameters, leading to loss of control. The impact is potential permanent lockout of administrative functions or misrouting of privileges.\n",
-            "severity": "Medium",
+            "severity": "Informational",
             "location": [
                 "AsBnbOFT.sol::initialize"
             ],
@@ -142,7 +142,7 @@
             },
             "title": "Lack of range check in function updateMaxRewardPercent()",
             "description": "The updateMaxRewardPercent() function in asUSDFEarn.sol does not validate that the newValue is within the acceptable range (0 to 1e18). If set to 0, rewards are disabled; if set above 1e18, it could allow excessive reward distribution beyond total supply. The root cause is missing bounds checking on a critical parameter. An attacker with ADMIN_ROLE could set an invalid value to disrupt reward distribution. The impact includes incorrect reward calculations, potential inflation, or freezing of reward mechanisms.\n",
-            "severity": "High",
+            "severity": "Informational",
             "location": [
                 "asUSDFEarn.sol::updateMaxRewardPercent#106"
             ],
@@ -163,7 +163,7 @@
             },
             "title": "Inconsistent validation of revenueSharingPools variable",
             "description": "The initialize() function in UniversalProxy.sol requires the revenueSharingPools array to be non-empty, but the setRevenuePoolIds() function allows it to be updated to an empty array. This inconsistency can lead to unexpected behavior or bypass of intended validation. The root cause is mismatched validation logic between initialization and update functions. An attacker with MANAGER role could clear the array, potentially disrupting revenue sharing. The impact is functional inconsistency and possible loss of revenue distribution integrity.\n",
-            "severity": "Medium",
+            "severity": "Informational",
             "location": [
                 "UniversalProxy.sol::initialize",
                 "UniversalProxy.sol::setRevenuePoolIds"
@@ -182,7 +182,7 @@
             },
             "title": "Add non-zero checks in add1InchRouterWhitelist() and addSwapSrcTokenWhitelist() functions",
             "description": "The add1InchRouterWhitelist() and addSwapSrcTokenWhitelist() functions in the Buyback contract do not check if the provided addresses are non-zero. This allows the zero address to be added to the whitelist, which could lead to unintended behavior or failed transactions. The root cause is missing input validation for critical parameters. An attacker could exploit this by adding invalid addresses, potentially disrupting swap operations. The impact is reduced reliability and potential failure of whitelisted operations.\n",
-            "severity": "Low",
+            "severity": "Informational",
             "location": [
                 "Buyback.sol::add1InchRouterWhitelist",
                 "Buyback.sol::addSwapSrcTokenWhitelist#243"
@@ -224,7 +224,7 @@
             },
             "title": "Grant the BOT role in function initialize() of Buyback contract",
             "description": "The Buyback contract uses the onlyRole(BOT) modifier in the buyback() function, but the BOT role is not granted during initialization. This requires manual post-deployment setup, increasing operational complexity and risk of misconfiguration. The root cause is incomplete initialization logic. An attacker cannot directly exploit this, but failure to grant the role could halt critical functionality. The impact is operational fragility and potential service disruption.\n",
-            "severity": "Medium",
+            "severity": "Informational",
             "location": [
                 "Buyback.sol::initialize"
             ],
