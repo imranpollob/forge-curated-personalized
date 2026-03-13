@@ -2,10 +2,11 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](http://arxiv.org/abs/2506.18795)
 [![Dataset](https://img.shields.io/badge/Dataset-blue)](dataset-curated)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=shenyimings.FORGE-Curated)
 
 
-**FORGE Curated** is a high-quality subset of the [FORGE dataset](https://github.com/shenyimings/FORGE-Artifacts), specifically designed to support advanced research in smart contract security, including AI-based auditing, vulnerability analysis, etc.
+**FORGE Curated** is a high-quality smart contract vulnerability dataset, specifically designed to support advanced research in smart contract security, including AI-based auditing, vulnerability analysis, etc.
 
 Building upon feedback from users of the original [FORGE dataset](https://github.com/shenyimings/FORGE-Artifacts) and fulfilling our commitment to responsible maintenance outlined in our [ICSE'26 paper](https://arxiv.org/abs/2506.18795), we have compiled a new collection of audit reports. This dataset includes reports published between **December 2024 and February 2026** by **[11 top-tier audit teams](dataset-curated/reports/README.md)**.
 

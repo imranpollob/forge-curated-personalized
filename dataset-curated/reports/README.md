@@ -8,11 +8,11 @@ This directory contains curated smart contract security audit reports from part 
 
 We have collected reports from the following 11 prominent audit teams:
 
+- [Ackee-Blockchain](https://github.com/Ackee-Blockchain/public-audit-reports)
 - [BlockSec](https://github.com/blocksecteam/audit-reports/blob/main/solidity)
 - [Cantina](https://cantina.xyz/portfolio?section=cantina-reviews)
 - [ChainSecurity](https://www.chainsecurity.com/smart-contract-audit-reports)
 - [ConsenSys Diligence](https://diligence.security/audits/)
-- [Immunefi](https://github.com/immunefi-team/Past-Audit-Competitions)
 - [MixBytes](https://github.com/mixbytes/audits_public)
 - [OpenZeppelin](https://www.openzeppelin.com/research#solidity)
 - [Sherlock](https://github.com/sherlock-protocol/sherlock-reports)
