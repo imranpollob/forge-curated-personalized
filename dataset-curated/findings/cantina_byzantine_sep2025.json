@@ -101,7 +101,8 @@
                 "ERC4626MerklAdapter.sol#L125"
             ],
             "files": [
-                "debt-fund-vault-v2/src/adapters/CompoundV3Adapter.sol"
+                "debt-fund-vault-v2/src/adapters/CompoundV3Adapter.sol",
+                "debt-fund-vault-v2/src/adapters/ERC4626MerklAdapter.sol"
             ]
         },
         {
@@ -136,17 +137,7 @@
             "description": "The audit identifies insufficient test coverage for key contracts, specifically CompoundV3Adapter and ERC4626MerklAdapter. The root cause is a lack of comprehensive test cases covering all execution paths, which increases the risk of undetected bugs or regressions after code changes. While no immediate exploit exists, this weakens the project's long-term reliability and security assurance. An attacker could potentially discover and exploit edge cases not covered by tests. The impact is indirect but significant over time, as untested code paths may lead to vulnerabilities in future upgrades. This is classified as informational because it does not represent a direct flaw in the current logic, but rather a process improvement.\n",
             "severity": "Informational",
             "location": [],
-            "files": [
-                "debt-fund-vault-v2/src/adapters/CompoundV3Adapter.sol",
-                "debt-fund-vault-v2/src/adapters/CompoundV3AdapterFactory.sol",
-                "debt-fund-vault-v2/test/integration/CompoundV3IntegrationTest.sol",
-                "debt-fund-vault-v2/test/integration/CompoundV3IntegrationClaimTest.sol",
-                "debt-fund-vault-v2/src/adapters/ERC4626MerklAdapter.sol",
-                "debt-fund-vault-v2/src/adapters/ERC4626MerklAdapterFactory.sol",
-                "debt-fund-vault-v2/test/integration/ERC4626MerklAdapterIntegrationTest.sol",
-                "debt-fund-vault-v2/test/integration/ERC4626MerklAdapterIntegrationClaimTest.sol",
-                "debt-fund-vault-v2/test/integration/ERC4626MerklAdapterIntegrationStataTest.sol"
-            ]
+            "files": []
         },
         {
             "id": 6,
