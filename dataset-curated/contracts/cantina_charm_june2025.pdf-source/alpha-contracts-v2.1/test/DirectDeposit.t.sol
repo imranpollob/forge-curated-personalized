@@ -51,8 +51,8 @@ contract DirectDepositTest is Test, VaultTestUtils {
         uint256 vaultBalance1After = vault.getBalance1();
 
         // Most of the tokens should be deployed, but some may remain
-        assertLe(vaultBalance0After - vaultBalance0Before, actualAmount0, "Token0 not deployed to pool");
-        assertLe(vaultBalance1After - vaultBalance1Before, actualAmount1, "Token1 not deployed to pool");
+        assertLt(vaultBalance0After - vaultBalance0Before, actualAmount0, "Token0 not deployed to pool");
+        assertLt(vaultBalance1After - vaultBalance1Before, actualAmount1, "Token1 not deployed to pool");
 
         // Check that total amounts increased by at least the actual deposited amounts
         (uint256 total0After, uint256 total1After) = vault.getTotalAmounts();

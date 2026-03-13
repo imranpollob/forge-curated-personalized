@@ -64,15 +64,15 @@ interface IVault {
 
     function tickSpacing() external view returns (int24);
 
-    function accruedProtocolFees0() external view returns (uint128);
+    function accruedProtocolFees0() external view returns (uint256);
 
-    function accruedProtocolFees1() external view returns (uint128);
+    function accruedProtocolFees1() external view returns (uint256);
 
-    function accruedManagerFees0() external view returns (uint104);
+    function accruedManagerFees0() external view returns (uint256);
 
-    function accruedManagerFees1() external view returns (uint104);
+    function accruedManagerFees1() external view returns (uint256);
 
-    function lastTimestamp() external view returns (uint40);
+    function lastTimestamp() external view returns (uint256);
 
     function lastTick() external view returns (int24);
 

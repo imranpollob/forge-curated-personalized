@@ -262,16 +262,14 @@ contract GovernanceMethodsTest is Test, VaultTestUtils {
         vault.setProtocolFee(250001);
         vm.stopPrank();
 
-        vm.assertEq(vault.pendingProtocolFee(), 0);
-
         vm.prank(owner);
-        vault.setProtocolFee(1);
-        vm.assertEq(vault.pendingProtocolFee(), 1);
+        vault.setProtocolFee(0);
+        vm.assertEq(vault.pendingProtocolFee(), 0);
 
         // Check fee change is only reflected in vault after a rebalance
         vm.assertNotEq(vault.protocolFee(), 0);
         vault.rebalance();
-        vm.assertEq(vault.protocolFee(), 1);
+        vm.assertEq(vault.protocolFee(), 0);
 
         // Check setting gov
         vm.startPrank(other);

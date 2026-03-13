@@ -3,6 +3,8 @@ pragma solidity 0.8.28;
 
 import {CommonDeploymentInputTest} from "../common/Deployment.t.sol";
 
+import {IWormholeRelayer, IWormholeDeliveryProvider} from "../../src/common/interfaces/adapters/IWormholeAdapter.sol";
+
 import {
     AdaptersDeployer,
     AdaptersActionBatcher,
@@ -12,8 +14,6 @@ import {
 } from "../../script/AdaptersDeployer.s.sol";
 
 import "forge-std/Test.sol";
-
-import {IWormholeRelayer, IWormholeDeliveryProvider} from "../../src/adapters/interfaces/IWormholeAdapter.sol";
 
 contract AdaptersDeploymentInputTest is Test {
     address immutable WORMHOLE_RELAYER = makeAddr("WormholeRelayer");

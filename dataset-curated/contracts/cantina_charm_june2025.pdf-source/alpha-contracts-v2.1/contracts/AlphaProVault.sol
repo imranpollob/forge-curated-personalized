@@ -109,11 +109,11 @@ contract AlphaProVault is
     address public override rebalanceDelegate;
     address public override depositDelegate;
     uint256 public override maxTotalSupply;
-    uint128 public override accruedProtocolFees0;
-    uint128 public override accruedProtocolFees1;
-    uint104 public override accruedManagerFees0;
-    uint104 public override accruedManagerFees1;
-    uint40 public override lastTimestamp;
+    uint256 public override accruedProtocolFees0;
+    uint256 public override accruedProtocolFees1;
+    uint256 public override accruedManagerFees0;
+    uint256 public override accruedManagerFees1;
+    uint256 public override lastTimestamp;
 
     uint32 public override period;
     uint24 public override protocolFee;
@@ -163,7 +163,7 @@ contract AlphaProVault is
         twapDuration = _params.twapDuration;
 
         factory = AlphaProVaultFactory(_factory);
-        protocolFee = factory.protocolFee();
+        pendingProtocolFee = factory.protocolFee();
 
         _checkThreshold(_params.baseThreshold, _tickSpacing);
         _checkThreshold(_params.limitThreshold, _tickSpacing);
@@ -173,7 +173,6 @@ contract AlphaProVault is
         require(_params.maxTwapDeviation >= 0, "maxTwapDeviation must be >= 0");
         require(_params.twapDuration > 0, "twapDuration must be > 0");
         require(_params.managerFee <= HUNDRED_PERCENT, "managerFee must be <= 1000000");
-        require(_params.wideThreshold != _params.baseThreshold, "wideThreshold must be != baseThreshold");
     }
 
     /**
@@ -229,22 +228,13 @@ contract AlphaProVault is
         if (amount0 > 0) token0.safeTransferFrom(msg.sender, address(this), amount0);
         if (amount1 > 0) token1.safeTransferFrom(msg.sender, address(this), amount1);
 
-        uint256 _totalSupply = totalSupply();
-        (uint160 sqrtRatioX96,,,,,,) = pool.slot0();
-        (uint256 depositAmount0, uint256 depositAmount1) = (amount0, amount1);
-
         for (uint256 i = 0; i < 3; i++) {
             int24 tickLower = positions[i][0];
             int24 tickUpper = positions[i][1];
 
             if (liquidities[i] > 0) {
-                uint128 liquidityToMint = uint128(Math.mulDiv(liquidities[i], shares, _totalSupply));
-                uint128 liquidityFromAmounts =
-                    _liquidityForAmounts(tickLower, tickUpper, depositAmount0, depositAmount1, sqrtRatioX96);
-                liquidityToMint = liquidityToMint > liquidityFromAmounts ? liquidityFromAmounts : liquidityToMint;
-                (uint256 mintAmount0, uint256 mintAmount1) = _mintLiquidity(tickLower, tickUpper, liquidityToMint);
-                depositAmount0 -= mintAmount0;
-                depositAmount1 -= mintAmount1;
+                uint128 liquidityShare = uint128(Math.mulDiv(uint256(liquidities[i]), shares, totalSupply()));
+                _mintLiquidity(tickLower, tickUpper, liquidityShare);
             }
         }
 
@@ -262,23 +252,23 @@ contract AlphaProVault is
         view
         returns (uint256 shares, uint256 amount0, uint256 amount1)
     {
-        uint256 _totalSupply = totalSupply();
+        uint256 totalSupply = totalSupply();
         (uint256 total0, uint256 total1) = getTotalAmounts(true);
 
         // If total supply > 0, vault can't be empty
-        assert(_totalSupply == 0 || total0 > 0 || total1 > 0);
+        assert(totalSupply == 0 || total0 > 0 || total1 > 0);
 
-        if (_totalSupply == 0) {
+        if (totalSupply == 0) {
             // For first deposit, just use the amounts desired
             amount0 = amount0Desired;
             amount1 = amount1Desired;
             shares = (amount0 > amount1 ? amount0 : amount1) - MINIMUM_LIQUIDITY;
         } else if (total0 == 0) {
             amount1 = amount1Desired;
-            shares = amount1 * _totalSupply / total1;
+            shares = (amount1 * totalSupply) / total1;
         } else if (total1 == 0) {
             amount0 = amount0Desired;
-            shares = amount0 * _totalSupply / total0;
+            shares = (amount0 * totalSupply) / total0;
         } else {
             uint256 cross0 = amount0Desired * total1;
             uint256 cross1 = amount1Desired * total0;
@@ -286,9 +276,9 @@ contract AlphaProVault is
             require(cross > 0, "cross");
 
             // Round up amounts
-            amount0 = (cross - 1) / total1 + 1;
-            amount1 = (cross - 1) / total0 + 1;
-            shares = cross * _totalSupply / total0 / total1;
+            amount0 = ((cross - 1) / (total1)) + 1;
+            amount1 = ((cross - 1) / (total0)) + 1;
+            shares = ((cross * totalSupply) / total0) / total1;
         }
     }
 
@@ -309,19 +299,19 @@ contract AlphaProVault is
     {
         require(shares > 0, "shares");
         require(to != address(0) && to != address(this), "to");
-        uint256 _totalSupply = totalSupply();
+        uint256 totalSupply = totalSupply();
 
         // Burn shares
         _burn(msg.sender, shares);
 
         // Calculate token amounts proportional to unused balances
-        amount0 = (getBalance0() * shares) / _totalSupply;
-        amount1 = (getBalance1() * shares) / _totalSupply;
+        amount0 = (getBalance0() * shares) / totalSupply;
+        amount1 = (getBalance1() * shares) / totalSupply;
 
         // Withdraw proportion of liquidity from Uniswap pool
-        (uint256 wideAmount0, uint256 wideAmount1) = _burnLiquidityShare(wideLower, wideUpper, shares, _totalSupply);
-        (uint256 baseAmount0, uint256 baseAmount1) = _burnLiquidityShare(baseLower, baseUpper, shares, _totalSupply);
-        (uint256 limitAmount0, uint256 limitAmount1) = _burnLiquidityShare(limitLower, limitUpper, shares, _totalSupply);
+        (uint256 wideAmount0, uint256 wideAmount1) = _burnLiquidityShare(wideLower, wideUpper, shares, totalSupply);
+        (uint256 baseAmount0, uint256 baseAmount1) = _burnLiquidityShare(baseLower, baseUpper, shares, totalSupply);
+        (uint256 limitAmount0, uint256 limitAmount1) = _burnLiquidityShare(limitLower, limitUpper, shares, totalSupply);
 
         // Sum up total amounts owed to recipient
         amount0 = amount0 + wideAmount0 + baseAmount0 + limitAmount0;
@@ -342,11 +332,11 @@ contract AlphaProVault is
         returns (uint256 amount0, uint256 amount1)
     {
         (uint128 totalLiquidity,,,,) = _position(tickLower, tickUpper);
-        uint128 liquidity = uint128(Math.mulDiv(totalLiquidity, shares, totalSupply));
+        uint256 liquidity = (uint256(totalLiquidity) * shares) / totalSupply;
 
         if (liquidity > 0) {
-            (uint256 burned0, uint256 burned1, uint128 fees0, uint128 fees1) =
-                _burnAndCollect(tickLower, tickUpper, liquidity);
+            (uint256 burned0, uint256 burned1, uint256 fees0, uint256 fees1) =
+                _burnAndCollect(tickLower, tickUpper, _toUint128(liquidity));
 
             // Add share of fees
             amount0 = burned0 + ((fees0 * shares) / totalSupply);
@@ -390,8 +380,8 @@ contract AlphaProVault is
             int24 tickFloor = _floor(tick);
             int24 tickCeil = tickFloor + tickSpacing;
             int24 _maxTick = maxTick;
-            wideLower = _boundTick(tickFloor - wideThreshold, _maxTick);
-            wideUpper = _boundTick(tickCeil + wideThreshold, _maxTick);
+            wideLower = _verifyTick(tickFloor - wideThreshold, _maxTick);
+            wideUpper = _verifyTick(tickCeil + wideThreshold, _maxTick);
             baseLower = tickFloor - baseThreshold;
             baseUpper = tickCeil + baseThreshold;
             _bidLower = tickFloor - limitThreshold;
@@ -437,12 +427,12 @@ contract AlphaProVault is
             }
         }
 
-        lastTimestamp = uint40(block.timestamp);
+        lastTimestamp = block.timestamp;
         lastTick = tick;
 
         // Update fee only at each rebalance, so that if fee is increased
         // it won't be applied retroactively to current open positions
-        uint24 _protocolFee = protocolFee = pendingProtocolFee > 0 ? pendingProtocolFee : factory.protocolFee();
+        uint24 _protocolFee = protocolFee = pendingProtocolFee;
         // Manager + protocol fee must be <= 100%
         if (pendingManagerFee + _protocolFee <= HUNDRED_PERCENT) {
             managerFee = pendingManagerFee;
@@ -491,7 +481,7 @@ contract AlphaProVault is
     }
 
     /// @dev Verifies that tick is within the range boundaries
-    function _boundTick(int24 tick, int24 _maxTick) internal pure returns (int24) {
+    function _verifyTick(int24 tick, int24 _maxTick) internal pure returns (int24) {
         if (tick < -_maxTick) {
             return -_maxTick;
         }
@@ -518,38 +508,38 @@ contract AlphaProVault is
     /// process.
     function _burnAndCollect(int24 tickLower, int24 tickUpper, uint128 liquidity)
         internal
-        returns (uint256 burned0, uint256 burned1, uint128 feesToVault0, uint128 feesToVault1)
+        returns (uint256 burned0, uint256 burned1, uint256 feesToVault0, uint256 feesToVault1)
     {
         if (liquidity > 0) {
             (burned0, burned1) = pool.burn(tickLower, tickUpper, liquidity);
         }
 
         // Collect all owed tokens including earned fees
-        (uint128 collect0, uint128 collect1) =
+        (uint256 collect0, uint256 collect1) =
             pool.collect(address(this), tickLower, tickUpper, type(uint128).max, type(uint128).max);
 
-        feesToVault0 = uint128(collect0 - burned0);
-        feesToVault1 = uint128(collect1 - burned1);
+        feesToVault0 = collect0 - burned0;
+        feesToVault1 = collect1 - burned1;
 
         // Update accrued protocol fees
-        uint24 _protocolFee = protocolFee;
-        uint128 feesToProtocol0 = feesToVault0 * _protocolFee / 1e6;
-        uint128 feesToProtocol1 = feesToVault1 * _protocolFee / 1e6;
-        accruedProtocolFees0 += feesToProtocol0;
-        accruedProtocolFees1 += feesToProtocol1;
+        uint256 _protocolFee = protocolFee;
+        uint256 feesToProtocol0 = (feesToVault0 * _protocolFee) / 1e6;
+        uint256 feesToProtocol1 = (feesToVault1 * _protocolFee) / 1e6;
+        accruedProtocolFees0 = accruedProtocolFees0 + feesToProtocol0;
+        accruedProtocolFees1 = accruedProtocolFees1 + feesToProtocol1;
 
         // Update accrued manager fees
-        uint24 _managerFee = managerFee;
-        uint128 feesToManager0;
-        uint128 feesToManager1;
+        uint256 _managerFee = managerFee;
+        uint256 feesToManager0;
+        uint256 feesToManager1;
         if (_managerFee > 0) {
-            feesToManager0 = feesToVault0 * _managerFee / 1e6;
-            feesToManager1 = feesToVault1 * _managerFee / 1e6;
-            accruedManagerFees0 += uint104(feesToManager0);
-            accruedManagerFees1 += uint104(feesToManager1);
+            feesToManager0 = (feesToVault0 * _managerFee) / 1e6;
+            feesToManager1 = (feesToVault1 * _managerFee) / 1e6;
+            accruedManagerFees0 = accruedManagerFees0 + feesToManager0;
+            accruedManagerFees1 = accruedManagerFees1 + feesToManager1;
         }
-        feesToVault0 -= feesToProtocol0 + feesToManager0;
-        feesToVault1 -= feesToProtocol1 + feesToManager1;
+        feesToVault0 = feesToVault0 - feesToProtocol0 - feesToManager0;
+        feesToVault1 = feesToVault1 - feesToProtocol1 - feesToManager1;
         emit CollectFees(feesToVault0, feesToVault1, feesToProtocol0, feesToProtocol1, feesToManager0, feesToManager1);
     }
 
@@ -594,19 +584,10 @@ contract AlphaProVault is
         (amount0, amount1) = _amountsForLiquidity(tickLower, tickUpper, liquidity, roundUp);
 
         // Subtract protocol and manager fees
-        uint128 managerFees0;
-        uint128 managerFees1;
-        uint24 _managerFee = managerFee;
-        if (_managerFee > 0) {
-            managerFees0 = tokensOwed0 * _managerFee / 1e6;
-            managerFees1 = tokensOwed1 * _managerFee / 1e6;
-        }
-        uint24 _protocolFee = protocolFee;
-        uint128 protocolFees0 = tokensOwed0 * _protocolFee / 1e6;
-        uint128 protocolFees1 = tokensOwed1 * _protocolFee / 1e6;
+        uint256 oneMinusFee = uint256(1e6) - protocolFee - managerFee;
 
-        amount0 += tokensOwed0 - protocolFees0 - managerFees0;
-        amount1 += tokensOwed1 - protocolFees1 - managerFees1;
+        amount0 = amount0 + ((uint256(tokensOwed0) * oneMinusFee) / 1e6);
+        amount1 = amount1 + ((uint256(tokensOwed1) * oneMinusFee) / 1e6);
     }
 
     /**
@@ -733,7 +714,6 @@ contract AlphaProVault is
     }
 
     function setBaseThreshold(int24 _baseThreshold) external onlyManager {
-        require(_baseThreshold != wideThreshold, "baseThreshold must be != wideThreshold");
         _checkThreshold(_baseThreshold, tickSpacing);
         baseThreshold = _baseThreshold;
         emit UpdateBaseThreshold(_baseThreshold);
@@ -752,7 +732,6 @@ contract AlphaProVault is
     }
 
     function setWideThreshold(int24 _wideThreshold) external onlyManager {
-        require(_wideThreshold != baseThreshold, "wideThreshold must be != baseThreshold");
         _checkThreshold(_wideThreshold, tickSpacing);
         wideThreshold = _wideThreshold;
         emit UpdateWideThreshold(_wideThreshold);

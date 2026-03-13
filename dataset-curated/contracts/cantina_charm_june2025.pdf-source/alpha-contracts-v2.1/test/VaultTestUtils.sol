@@ -123,18 +123,13 @@ abstract contract VaultTestUtils is Test {
         uint256 usdcAmount = 21000 * 1e6;
         uint256 wethAmount = 10 ether;
 
-        depositAndRebalance(initialDepositor, usdcAmount, wethAmount);
-    }
+        deal(USDC, initialDepositor, usdcAmount);
+        deal(WETH, initialDepositor, wethAmount);
 
-    function depositAndRebalance(address _address, uint256 usdcAmount, uint256 wethAmount)
-        internal
-        returns (uint256 shares)
-    {
-        deal(USDC, _address, usdcAmount);
-        deal(WETH, _address, wethAmount);
+        vm.prank(initialDepositor);
 
-        vm.prank(_address);
-        (shares,,) = vault.deposit(usdcAmount, wethAmount, 0, 0, _address);
+        vault.deposit(usdcAmount, wethAmount, usdcAmount, wethAmount, initialDepositor);
+
         vault.rebalance();
     }
 

@@ -27,6 +27,9 @@ contract DepositWithdrawalTest is Test, VaultTestUtils {
         vault.rebalance();
     }
 
+    uint128[] public fixtureAmount0Desired = [0, 1e4, 1e10, 0, 1e4, 1e10];
+    uint128[] public fixtureAmount1Desired = [1e4, 0, 0, 1e10, 1e10, 1e10];
+
     function testFuzz_depositsShares(uint128 amount0Desired, uint128 amount1Desired) public {
         vm.assume(amount0Desired > 1e3 || amount1Desired > 1e3);
         vm.assume(amount0Desired < type(uint128).max - 1 && amount1Desired < type(uint128).max - 1);
@@ -50,39 +53,6 @@ contract DepositWithdrawalTest is Test, VaultTestUtils {
 
         // now claim it back
         vault.withdraw(shares, 0, 0, initialDepositor);
-    }
-
-    function testFuzz_depositsShares_WithPriorSwap(
-        uint64 firstDepositAmount0,
-        uint64 firstDepositAmount1,
-        uint64 amount0Desired,
-        uint64 amount1Desired,
-        uint64 swapAmount,
-        bool swapDirection
-    ) public {
-        vm.assume(amount0Desired > 1e3 && amount1Desired > 1e3);
-        vm.assume(firstDepositAmount0 > 1e3 && firstDepositAmount1 > 1e3);
-        vm.assume(swapAmount > 1e3 && swapAmount < 1e18); // reasonable swap bound
-
-        depositAndRebalance(initialDepositor, firstDepositAmount1, firstDepositAmount0);
-
-        // Perform random swap to change the pool price
-        if (swapDirection) {
-            swapToken(USDC, WETH, swapAmount, owner);
-        } else {
-            swapToken(WETH, USDC, swapAmount, owner);
-        }
-
-        vm.warp(block.timestamp + 100);
-
-        // Attempt deposit after price change
-        uint256 shares = depositAndRebalance(initialDepositor, amount0Desired, amount1Desired);
-
-        // now claim it back
-        vm.startPrank(initialDepositor);
-        vault.withdraw(shares, 0, 0, initialDepositor);
-
-        vm.stopPrank();
     }
 
     function test_depositChecks() public {

@@ -7,9 +7,9 @@ import {Root} from "../src/common/Root.sol";
 import {Gateway} from "../src/common/Gateway.sol";
 import {GasService} from "../src/common/GasService.sol";
 import {Guardian, ISafe} from "../src/common/Guardian.sol";
-import {MultiAdapter} from "../src/common/MultiAdapter.sol";
 import {TokenRecoverer} from "../src/common/TokenRecoverer.sol";
 import {MessageProcessor} from "../src/common/MessageProcessor.sol";
+import {MultiAdapter} from "../src/common/adapters/MultiAdapter.sol";
 import {MessageDispatcher} from "../src/common/MessageDispatcher.sol";
 import {PoolEscrowFactory} from "../src/common/factories/PoolEscrowFactory.sol";
 
@@ -20,7 +20,7 @@ import "forge-std/Script.sol";
 struct CommonInput {
     uint16 centrifugeId;
     ISafe adminSafe;
-    uint128 maxBatchGasLimit;
+    uint128 batchGasLimit;
     bytes32 version;
 }
 
@@ -174,8 +174,8 @@ abstract contract CommonDeployer is Script, JsonRegistry, CreateXScript {
 
         gasService = GasService(
             create3(
-                generateSalt("gasService-2"),
-                abi.encodePacked(type(GasService).creationCode, abi.encode(input.maxBatchGasLimit))
+                generateSalt("gasService"),
+                abi.encodePacked(type(GasService).creationCode, abi.encode(input.batchGasLimit))
             )
         );
 
@@ -225,6 +225,7 @@ abstract contract CommonDeployer is Script, JsonRegistry, CreateXScript {
         batcher.engageCommon(_commonReport());
 
         register("root", address(root));
+        // register("adminSafe", address(adminSafe)); => Already present in load_vars.sh and not needed to be registered
         register("guardian", address(guardian));
         register("gasService", address(gasService));
         register("gateway", address(gateway));
@@ -232,7 +233,6 @@ abstract contract CommonDeployer is Script, JsonRegistry, CreateXScript {
         register("messageProcessor", address(messageProcessor));
         register("messageDispatcher", address(messageDispatcher));
         register("poolEscrowFactory", address(poolEscrowFactory));
-        register("tokenRecoverer", address(tokenRecoverer));
     }
 
     function _postDeployCommon(CommonActionBatcher batcher) internal {

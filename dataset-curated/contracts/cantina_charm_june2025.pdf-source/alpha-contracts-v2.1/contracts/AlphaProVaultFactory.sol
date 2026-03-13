@@ -5,7 +5,6 @@ pragma abicoder v2;
 
 import {Clones} from "@openzeppelin/contracts/proxy/Clones.sol";
 import {IUniswapV3Pool} from "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
-import {IUniswapV3Factory} from "@uniswap/v3-core/contracts/interfaces/IUniswapV3Factory.sol";
 import "./AlphaProVault.sol";
 
 /**
@@ -44,10 +43,8 @@ contract AlphaProVaultFactory {
      * @param params InitizalizeParams Underlying Uniswap V3 pool address
      */
     function createVault(VaultParams calldata params) external returns (address vaultAddress) {
-        IUniswapV3Pool pool = IUniswapV3Pool(params.pool);
-        IUniswapV3Factory poolFactory = IUniswapV3Factory(pool.factory());
-        require(allowedFactories[address(poolFactory)], "allowedFactories");
-        require(params.pool == poolFactory.getPool(pool.token0(), pool.token1(), pool.fee()), "pool mismatch");
+        address poolFactory = IUniswapV3Pool(params.pool).factory();
+        require(allowedFactories[poolFactory], "allowedFactories");
         vaultAddress =
             Clones.cloneDeterministic(template, keccak256(abi.encode(msg.sender, block.chainid, numVaults())));
         AlphaProVault(vaultAddress).initialize(params, address(this));

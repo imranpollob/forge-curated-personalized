@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.28;
 
-import {EndToEndUseCases} from "./EndToEnd.t.sol";
+import {EndToEndFlows} from "./EndToEnd.t.sol";
 import {LocalAdapter} from "./adapters/LocalAdapter.sol";
-import {IntegrationConstants} from "./IntegrationConstants.sol";
 
 import {CastLib} from "../../src/misc/libraries/CastLib.sol";
 
@@ -12,7 +11,7 @@ import {ISafe} from "../../src/common/interfaces/IGuardian.sol";
 import {IGateway} from "../../src/common/interfaces/IGateway.sol";
 import {MessageLib} from "../../src/common/libraries/MessageLib.sol";
 import {ShareClassId} from "../../src/common/types/ShareClassId.sol";
-import {IMultiAdapter} from "../../src/common/interfaces/IMultiAdapter.sol";
+import {IMultiAdapter} from "../../src/common/interfaces/adapters/IMultiAdapter.sol";
 
 import {IHub} from "../../src/hub/interfaces/IHub.sol";
 
@@ -35,11 +34,11 @@ enum CrossChainDirection {
 ///         Hub is on Chain A, with spokes on Chains B and C
 ///         C is considered the source chain, B the destination chain
 ///         Depending on the cross chain direction, the hub is either on A or B or C
-contract ThreeChainEndToEndDeployment is EndToEndUseCases {
+contract ThreeChainEndToEndDeployment is EndToEndFlows {
     using CastLib for *;
     using MessageLib for *;
 
-    uint16 constant CENTRIFUGE_ID_C = IntegrationConstants.CENTRIFUGE_ID_C;
+    uint16 constant CENTRIFUGE_ID_C = 7;
     ISafe immutable safeAdminC = ISafe(makeAddr("SafeAdminC"));
 
     FullDeployer deployC = new FullDeployer();
