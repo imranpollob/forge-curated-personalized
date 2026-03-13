@@ -14,7 +14,7 @@
             },
             "title": "BalanceSheet::multicall() function can lose ETH in edge case scenario",
             "description": "The multicall() function in BalanceSheet implements batching functionality and is marked as payable, but it does not properly handle msg.value when processing empty data arrays. The root cause is the lack of validation or forwarding of msg.value to an appropriate handler, unlike Hub::multicall() and VaultRouter::multicall(), which do process msg.value. An attacker could call multicall() with a non-zero msg.value and an empty data array, causing the ETH to be lost since no operation is performed and no refund or deposit logic is triggered. This results in permanent loss of user funds in edge cases, especially when integrations assume safe handling of ETH payments during batched calls.\n",
-            "severity": null,
+            "severity": "Low",
             "location": [
                 "BalanceSheet::multicall"
             ],
@@ -37,7 +37,7 @@
             },
             "title": "Inconsistent setting of isIncrease when delta is zero",
             "description": "When net deposits are zero, the isIncrease flag is set to true, which is inconsistent with the logic in submitQueuedShares, where shareQueue.isPositive returns false for zero delta. The cause is divergent logic in flag setting. This inconsistency could lead to incorrect state interpretation in frontends or off-chain systems that rely on isIncrease to determine deposit trends. While not a critical security flaw, it may result in misleading analytics or incorrect business logic decisions based on the flag.\n",
-            "severity": null,
+            "severity": "Informational",
             "location": [
                 "isIncrease",
                 "submitQueuedShares"
@@ -58,7 +58,7 @@
             },
             "title": "Gas savings by conditionally updating shareQueue",
             "description": "The shareQueue is updated unconditionally in certain functions, even when the new value is identical to the current one. This leads to unnecessary storage writes, increasing gas costs. The root cause is the lack of a dirty-check before updating. By adding a condition to only update when the value has changed, gas can be saved on every transaction where no actual change occurs. While the impact per transaction is small, the cumulative cost over many operations can be significant. No security impact, but optimization is recommended.\n",
-            "severity": null,
+            "severity": "Informational",
             "location": [
                 "shareQueue"
             ],

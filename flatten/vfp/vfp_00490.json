@@ -14,7 +14,7 @@
             },
             "title": "CentrifugeId shouldn't be 0",
             "description": "CentrifugeId should not be zero, as it is a special value and is explicitly disallowed in MessageProcessor::handle(). However, there is no explicit validation in deployment scripts or constructors of MultiAdapter and MessageDispatcher to prevent zero values. The cause is missing input validation during configuration. A configuration error could result in a CentrifugeId being set to zero, which would be rejected downstream, causing transaction failures or inconsistent state. This could lead to denial of service or misrouting of cross-chain messages.\n",
-            "severity": null,
+            "severity": "Low",
             "location": [
                 "MultiAdapter",
                 "MessageDispatcher",

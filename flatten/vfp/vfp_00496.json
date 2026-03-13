@@ -11,7 +11,7 @@
             },
             "title": "timestampedPath contains block.chainid twice",
             "description": "The timestampedPath function includes block.chainid twice in the constructed path, but according to the intended structure, the second instance should be block.number. The cause is a coding error in path construction. This leads to incorrect or misleading paths, potentially affecting data indexing or off-chain monitoring systems. While not a direct security vulnerability, it can result in data integrity issues or broken integrations that rely on predictable path formats.\n",
-            "severity": null,
+            "severity": "Informational",
             "location": [
                 "timestampedPath"
             ],

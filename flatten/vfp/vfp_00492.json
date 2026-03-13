@@ -14,7 +14,7 @@
             },
             "title": "Redundant check in newManager()",
             "description": "The newManager() function includes a check that the token address is not zero, but this is redundant because the Spoke::shareToken() function already performs the same validation. The cause is duplicated validation logic. This does not introduce a security risk but reduces code clarity and increases gas slightly due to an unnecessary check. The impact is minimal, but removing the redundant check would improve code maintainability and efficiency.\n",
-            "severity": null,
+            "severity": "Informational",
             "location": [
                 "newManager",
                 "Spoke::shareToken"
@@ -41,7 +41,7 @@
             },
             "title": "Naming inconsistencies in OnOfframpManager",
             "description": "The OnOfframpManager constructor uses a parameter named spoke_ which is assigned to the state variable contractUpdater, creating a naming mismatch. This is inconsistent with the OnOfframpManagerFactory, which uses contractUpdater_ as the parameter name. Additionally, the error NotSpoke() in the update function is outdated and does not align with standard authorization error naming. The cause is inconsistent naming conventions. This can lead to confusion during audits or maintenance, increasing the risk of human error. While not a direct vulnerability, it affects code readability and long-term security.\n",
-            "severity": null,
+            "severity": "Informational",
             "location": [
                 "OnOfframpManager",
                 "OnOfframpManagerFactory"

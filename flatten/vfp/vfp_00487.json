@@ -14,7 +14,7 @@
             },
             "title": "Reentrancy protection mechanism in _protected() is ineffective",
             "description": "The Hub contract uses an internal _protected() function intended to prevent reentrancy, but the implementation is flawed because the protected modifier is not directly applied to the function. Instead, _protected() is called internally, which does not enforce the modifier's logic as intended. The modifier relies on a transient _initiator variable to track the initial caller, but when _protected() is called as an internal function, the modifier's checks are bypassed. This allows reentrancy in functions like notifyDeposit() and notifyRedeem(), which depend on this protection. An attacker could exploit this during deposit or redemption callbacks to re-enter critical functions, potentially manipulating state or causing double-processing of transactions, leading to inconsistent accounting or fund loss.\n",
-            "severity": null,
+            "severity": "Low",
             "location": [
                 "Hub::_protected",
                 "Hub::notifyDeposit",
