@@ -1,0 +1,22 @@
+name: Notify FORGE-Artifacts Repo to Update Submodule
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-parent-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger parent repo workflow
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PAT_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'shenyimings',       // ← 改成你的
+              repo: 'FORGE-Artifacts', // ← 改成大型数据集 repo 名
+              workflow_id: 'update-submodule.yml',
+              ref: 'main'
+            });
