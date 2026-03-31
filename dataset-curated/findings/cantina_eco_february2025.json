@@ -5,13 +5,13 @@
             "https://github.com/eco/eco-routes"
         ],
         "commit_id": [
-            "2e7bc2f01f81f4a4b7e4dc30f91284d328ac0e88",
-            "d79785448e6aa905c49d5c75252df3dd51daead4"
+            "d79785448e6aa905c49d5c75252df3dd51daead4",
+            "2e7bc2f01f81f4a4b7e4dc30f91284d328ac0e88"
         ],
         "address": [],
         "chain": "evm",
         "compiler_version": "n/a",
-        "audit_date": "2023-03-22",
+        "audit_date": "2025-03-12",
         "project_path": {
             "eco-routes": "dataset-curated/contracts/cantina_eco_february2025.pdf-source"
         }
@@ -53,7 +53,8 @@
                 "ERC7683.sol#L96"
             ],
             "files": [
-                "eco-routes/contracts/Eco7683OriginSettler.sol"
+                "eco-routes/contracts/Eco7683OriginSettler.sol",
+                "eco-routes/contracts/types/ERC7683.sol"
             ]
         },
         {
@@ -356,7 +357,8 @@
                 "IntentSource.sol#L137-L155"
             ],
             "files": [
-                "eco-routes/contracts/Eco7683OriginSettler.sol"
+                "eco-routes/contracts/Eco7683OriginSettler.sol",
+                "eco-routes/contracts/IntentSource.sol"
             ]
         },
         {
@@ -399,7 +401,10 @@
                 "IntentFunder.sol#L60-L70",
                 "IntentSource.sol#L134-L140"
             ],
-            "files": []
+            "files": [
+                "eco-routes/contracts/IntentFunder.sol",
+                "eco-routes/contracts/IntentSource.sol"
+            ]
         },
         {
             "id": 18,
