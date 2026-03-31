@@ -3,232 +3,33 @@
     "project_name": "f(x) v2 Audit.md",
     "findings": [
         {
-            "id": 34,
+            "id": 22,
             "category": {
                 "1": [
                     "CWE-710"
                 ],
                 "2": [
-                    "CWE-1164"
+                    "CWE-1068"
                 ]
             },
-            "title": "Unused Named Return Variables",
-            "description": "Functions declare named return variables that are never assigned or used, which can mislead developers into thinking they are part of the return logic. The cause is leftover variable declarations from prior implementations. This harms code clarity and may lead to bugs if developers assume the variables are used. The impact is reduced readability and potential for logic errors.\n",
+            "title": "Misleading Storage Description",
+            "description": "Storage slot layouts in comments are depicted with index 0 on the left, contradicting the standard convention where index 0 is on the right (least significant bit). This is seen in `miscData`, `rebalanceRatioData`, and others in `PoolStorage`, `ProtocolFees`, and `AaveFundingPool`. The cause is incorrect bit layout documentation. This can lead developers to misunderstand how data is packed and unpacked, potentially causing errors in bitwise operations or storage manipulation. The impact is high risk of logic bugs during development or upgrades, especially when dealing with packed variables, which could result in incorrect state interpretation or corruption.\n",
             "severity": null,
             "location": [
-                "AaveFundingPool.sol::getOpenRatio#135",
-                "PositionLogic.sol::getPositionDebtRatio#46"
+                "PoolStorage.sol::miscData#105-109",
+                "PoolStorage.sol::rebalanceRatioData#117-121",
+                "PoolStorage.sol::indexData#127-131",
+                "PoolStorage.sol::shareData#139-143",
+                "PoolStorage.sol::positionMetadata#148-152",
+                "ProtocolFees.sol::_miscData#92-96",
+                "AaveFundingPool.sol::fundingMiscData#81-85"
             ],
             "files": [
-                "fx-protocol-contracts/contracts/core/pool/AaveFundingPool.sol"
-            ]
-        },
-        {
-            "id": 37,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1164"
-                ],
-                "3": [
-                    "CWE-561"
-                ]
-            },
-            "title": "Unused Constants",
-            "description": "Constants are defined but never used in the code, adding unnecessary complexity. The cause is leftover definitions from prior development. This reduces code clarity and may mislead developers about their purpose. The impact is reduced readability and maintainability.\n",
-            "severity": null,
-            "location": [
-                "AaveFundingPool.sol::INTEREST_RATE_OFFSET#33",
-                "AaveFundingPool.sol::TIMESTAMP_OFFSET#36",
-                "PoolConstant.sol::X60#31",
-                "PoolConstant.sol::X96#32"
-            ],
-            "files": [
-                "fx-protocol-contracts/contracts/core/pool/AaveFundingPool.sol"
-            ]
-        },
-        {
-            "id": 38,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1076"
-                ],
-                "3": [
-                    "CWE-1078"
-                ],
-                "4": [
-                    "CWE-547"
-                ]
-            },
-            "title": "Literal Number Safety",
-            "description": "Large literal numbers are used directly in the code without suffixes or scientific notation, making them hard to read and prone to errors. The cause is the use of raw numbers instead of Ether or time units. This can lead to mistakes in value interpretation (e.g., mistaking wei for ether). The impact is reduced readability and potential for incorrect value usage.\n",
-            "severity": null,
-            "location": [
-                "AaveFundingPool.sol#120",
-                "BasePool.sol#64",
-                "PegKeeper.sol#105"
-            ],
-            "files": [
-                "fx-protocol-contracts/contracts/core/pool/AaveFundingPool.sol"
-            ]
-        },
-        {
-            "id": 39,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1076"
-                ],
-                "3": [
-                    "CWE-1078"
-                ],
-                "4": [
-                    "CWE-1106"
-                ]
-            },
-            "title": "Magic Numbers",
-            "description": "The `initialize` function in `AaveFundingPool` uses a literal value `1e9` without explanation, making its purpose unclear. The cause is the absence of a named constant to document the value's meaning. This reduces code readability and makes future maintenance harder. The impact is potential confusion and errors during updates or audits.\n",
-            "severity": null,
-            "location": [
-                "AaveFundingPool.sol#125"
-            ],
-            "files": [
-                "fx-protocol-contracts/contracts/core/pool/AaveFundingPool.sol"
-            ]
-        },
-        {
-            "id": 20,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1059"
-                ]
-            },
-            "title": "Missing Docstrings",
-            "description": "Numerous contracts, functions, and state variables lack NatSpec documentation, including critical initialization functions and public interfaces. The cause is insufficient code documentation practices. This reduces code readability, maintainability, and auditability, making it harder for developers and auditors to understand the intended behavior. While there is no direct security exploit, the lack of documentation increases the risk of incorrect usage, integration errors, and missed vulnerabilities during audits. Off-chain tools relying on NatSpec for UI generation or analysis will also be impaired.\n",
-            "severity": null,
-            "location": [
-                "AaveFundingPool.sol#13",
-                "AaveFundingPool.sol::initialize#101-126",
-                "AaveV3Strategy.sol::POOL#16",
-                "AaveV3Strategy.sol::INCENTIVE#18",
-                "AaveV3Strategy.sol::ASSET#20",
-                "AaveV3Strategy.sol::ATOKEN#22",
-                "AaveV3Strategy.sol::principal#24",
-                "AaveV3Strategy.sol::totalSupply#42-44",
-                "AaveV3Strategy.sol::deposit#46-51",
-                "AaveV3Strategy.sol::withdraw#53-60",
-                "AaveV3Strategy.sol::kill#62-67",
-                "AssetManagement.sol::ASSET_MANAGER_ROLE#15",
-                "AssetManagement.sol::allocations#22",
-                "AssetManagement.sol::kill#30-38",
-                "AssetManagement.sol::alloc#40-44",
-                "AssetManagement.sol::manage#46-52",
-                "FxUSDBasePool.sol::initialize#196-219",
-                "FxUSDBasePool.sol::updateInstantRedeemFeeRatio#535-537",
-                "FxUSDRegeneracy.sol::initialize#150-158",
-                "FxUSDRegeneracy.sol::initializeV2#160-163",
-                "IStrategy.sol::totalSupply#6",
-                "IStrategy.sol::deposit#8",
-                "IStrategy.sol::withdraw#10",
-                "IStrategy.sol::kill#12",
-                "IStrategy.sol::harvest#14",
-                "PegKeeper.sol::initialize#96-108",
-                "PoolManager.sol::initialize#184-204",
-                "PoolManager.sol::initializeV2#206-219",
-                "ReservePool.sol::receive#69",
-                "SavingFxUSD.sol::execute#34-48",
-                "SavingFxUSD.sol::initialize#125-142",
-                "StrategyBase.sol::HARVESTER_ROLE#8",
-                "StrategyBase.sol::operator#10",
-                "StrategyBase.sol::harvest#29-31",
-                "StrategyBase.sol::execute#33-39"
-            ],
-            "files": [
-                "fx-protocol-contracts/contracts/core/pool/AaveFundingPool.sol"
-            ]
-        },
-        {
-            "id": 27,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ]
-            },
-            "title": "Use `calldata` Instead of `memory`",
-            "description": "Using `memory` for external function parameters results in higher gas costs compared to `calldata`, which is a read-only and cheaper memory region for function arguments. The cause is the unnecessary copying of data from calldata to memory in external functions. An attacker cannot directly exploit this, but users will pay higher gas fees for transactions. The impact is increased transaction costs and reduced efficiency, though there is no direct security risk.\n",
-            "severity": null,
-            "location": [
-                "AaveFundingPool.sol::name_#103",
-                "AaveFundingPool.sol::symbol_#104",
-                "BTCDerivativeOracleBase.sol::encodings#108",
-                "ETHPriceOracle.sol::encodings#99",
-                "FxUSDBasePool.sol::_name#198",
-                "FxUSDBasePool.sol::_symbol#199",
-                "FxUSDRegeneracy.sol::_name#150",
-                "FxUSDRegeneracy.sol::_symbol#150",
-                "FxUSDRegeneracy.sol::_minOuts#324",
-                "LSDPriceOracleBase.sol::encodings#125",
-                "ProtocolFees.sol::pools#197",
-                "SavingFxUSD.sol::params#125"
-            ],
-            "files": [
-                "fx-protocol-contracts/contracts/core/pool/AaveFundingPool.sol"
-            ]
-        },
-        {
-            "id": 30,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1076"
-                ],
-                "3": [
-                    "CWE-1078"
-                ]
-            },
-            "title": "Inconsistent Order Within Contracts",
-            "description": "The ordering of functions within multiple contracts does not follow a consistent pattern, reducing code readability and maintainability. The cause is the lack of adherence to the Solidity Style Guide's recommended function ordering. This is not a security issue, but inconsistent structure can lead to confusion and increase the risk of missing logic during audits or updates. The impact is reduced code clarity and potential for human error during development.\n",
-            "severity": null,
-            "location": [
-                "AaveFundingPool.sol",
-                "AaveV3Strategy.sol",
-                "AssetManagement.sol",
-                "BTCDerivativeOracleBase.sol",
-                "BasePool.sol",
-                "ETHPriceOracle.sol",
-                "FlashLoans.sol",
-                "FxUSDBasePool.sol",
-                "FxUSDRegeneracy.sol",
-                "LSDPriceOracleBase.sol",
-                "PegKeeper.sol",
-                "PoolManager.sol",
-                "PoolStorage.sol",
-                "PositionLogic.sol",
-                "ProtocolFees.sol",
-                "ReservePool.sol",
-                "SavingFxUSD.sol",
-                "SpotPriceOracleBase.sol",
-                "StrategyBase.sol",
-                "WBTCPriceOracle.sol"
-            ],
-            "files": [
-                "fx-protocol-contracts/contracts/core/pool/AaveFundingPool.sol"
+                "fx-protocol-contracts/contracts/core/pool/PoolStorage.sol"
             ]
         }
     ],
     "affected_files": {
-        "AaveFundingPool.sol": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.26;\n\nimport { IAaveV3Pool } from \"../../interfaces/Aave/IAaveV3Pool.sol\";\nimport { IAaveFundingPool } from \"../../interfaces/IAaveFundingPool.sol\";\nimport { IPegKeeper } from \"../../interfaces/IPegKeeper.sol\";\n\nimport { WordCodec } from \"../../common/codec/WordCodec.sol\";\nimport { Math } from \"../../libraries/Math.sol\";\nimport { BasePool } from \"./BasePool.sol\";\n\ncontract AaveFundingPool is BasePool, IAaveFundingPool {\n  using WordCodec for bytes32;\n\n  /*************\n   * Constants *\n   *************/\n\n  /// @dev The offset of *open ratio* in `fundingMiscData`.\n  uint256 private constant OPEN_RATIO_OFFSET = 0;\n\n  /// @dev The offset of *open ratio step* in `fundingMiscData`.\n  uint256 private constant OPEN_RATIO_STEP_OFFSET = 30;\n\n  /// @dev The offset of *close fee ratio* in `fundingMiscData`.\n  uint256 private constant CLOSE_FEE_RATIO_OFFSET = 90;\n\n  /// @dev The offset of *funding ratio* in `fundingMiscData`.\n  uint256 private constant FUNDING_RATIO_OFFSET = 120;\n\n  /// @dev The offset of *interest rate* in `fundingMiscData`.\n  uint256 private constant INTEREST_RATE_OFFSET = 152;\n\n  /// @dev The offset of *timestamp* in `fundingMiscData`.\n  uint256 private constant TIMESTAMP_OFFSET = 220;\n\n  /// @dev The maximum value of *funding ratio*.\n  uint256 private constant MAX_FUNDING_RATIO = 4294967295;\n\n  /// @dev The minimum Aave borrow index snapshot delay.\n  uint256 private constant MIN_SNAPSHOT_DELAY = 30 minutes;\n\n  /***********************\n   * Immutable Variables *\n   ***********************/\n\n  /// @dev The address of Aave V3 `LendingPool` contract.\n  address private immutable lendingPool;\n\n  /// @dev The address of asset used for interest calculation.\n  address private immutable baseAsset;\n\n  /***********\n   * Structs *\n   ***********/\n\n  /// @dev The struct for AAVE borrow rate snapshot.\n  /// @param borrowIndex The current borrow index of AAVE, multiplied by 1e27.\n  /// @param lastInterestRate The last recorded interest rate, multiplied by 1e18.\n  /// @param timestamp The timestamp when the snapshot is taken.\n  struct BorrowRateSnapshot {\n    // The initial value of `borrowIndex` is `10^27`, it is very unlikely this value will exceed `2^128`.\n    uint128 borrowIndex;\n    uint80 lastInterestRate;\n    uint48 timestamp;\n  }\n\n  /*********************\n   * Storage Variables *\n   *********************/\n\n  /// @dev `fundingMiscData` is a storage slot that can be used to store unrelated pieces of information.\n  ///\n  /// - The *open ratio* is the fee ratio for opening position, multiplied by 1e9.\n  /// - The *open ratio step* is the fee ratio step for opening position, multiplied by 1e18.\n  /// - The *close fee ratio* is the fee ratio for closing position, multiplied by 1e9.\n  /// - The *funding ratio* is the scalar for funding rate, multiplied by 1e9.\n  ///   The maximum value is `4.294967296`.\n  ///\n  /// [ open ratio | open ratio step | close fee ratio | funding ratio | reserved ]\n  /// [  30  bits  |     60 bits     |     30 bits     |    32 bits    | 104 bits ]\n  /// [ MSB                                                                   LSB ]\n  bytes32 private fundingMiscData;\n\n  /// @notice The snapshot for AAVE borrow rate.\n  BorrowRateSnapshot public borrowRateSnapshot;\n\n  /***************\n   * Constructor *\n   ***************/\n\n  constructor(address _poolManager, address _lendingPool, address _baseAsset) BasePool(_poolManager) {\n    _checkAddressNotZero(_lendingPool);\n    _checkAddressNotZero(_baseAsset);\n\n    lendingPool = _lendingPool;\n    baseAsset = _baseAsset;\n  }\n\n  function initialize(\n    address admin,\n    string memory name_,\n    string memory symbol_,\n    address _collateralToken,\n    address _priceOracle\n  ) external initializer {\n    __Context_init();\n    __ERC165_init();\n    __ERC721_init(name_, symbol_);\n    __AccessControl_init();\n\n    __PoolStorage_init(_collateralToken, _priceOracle);\n    __TickLogic_init();\n    __PositionLogic_init();\n    __BasePool_init();\n\n    _grantRole(DEFAULT_ADMIN_ROLE, admin);\n\n    _updateOpenRatio(1000000, 50000000000000000); // 0.1% and 5%\n    _updateCloseFeeRatio(1000000); // 0.1%\n\n    uint256 borrowIndex = IAaveV3Pool(lendingPool).getReserveNormalizedVariableDebt(baseAsset);\n    IAaveV3Pool.ReserveDataLegacy memory reserveData = IAaveV3Pool(lendingPool).getReserveData(baseAsset);\n    _updateInterestRate(borrowIndex, reserveData.currentVariableBorrowRate / 1e9);\n  }\n\n  /*************************\n   * Public View Functions *\n   *************************/\n\n  /// @notice Get open fee ratio related parameters.\n  /// @return ratio The value of open ratio, multiplied by 1e9.\n  /// @return step The value of open ratio step, multiplied by 1e18.\n  function getOpenRatio() external view returns (uint256 ratio, uint256 step) {\n    return _getOpenRatio();\n  }\n\n  /// @notice Return the value of funding ratio, multiplied by 1e9.\n  function getFundingRatio() external view returns (uint256) {\n    return _getFundingRatio();\n  }\n\n  /// @notice Return the fee ratio for opening position, multiplied by 1e9.\n  function getOpenFeeRatio() public view returns (uint256) {\n    (uint256 openRatio, uint256 openRatioStep) = _getOpenRatio();\n    (, uint256 rate) = _getAverageInterestRate(borrowRateSnapshot);\n    unchecked {\n      uint256 aaveRatio = rate <= openRatioStep ? 1 : (rate - 1) / openRatioStep;\n      return aaveRatio * openRatio;\n    }\n  }\n\n  /// @notice Return the fee ratio for closing position, multiplied by 1e9.\n  function getCloseFeeRatio() external view returns (uint256) {\n    return _getCloseFeeRatio();\n  }\n\n  /************************\n   * Restricted Functions *\n   ************************/\n\n  /// @notice Update the fee ratio for opening position.\n  /// @param ratio The open ratio value, multiplied by 1e9.\n  /// @param step The open ratio step value, multiplied by 1e18.\n  function updateOpenRatio(uint256 ratio, uint256 step) external onlyRole(DEFAULT_ADMIN_ROLE) {\n    _updateOpenRatio(ratio, step);\n  }\n\n  /// @notice Update the fee ratio for closing position.\n  /// @param ratio The close ratio value, multiplied by 1e9.\n  function updateCloseFeeRatio(uint256 ratio) external onlyRole(DEFAULT_ADMIN_ROLE) {\n    _updateCloseFeeRatio(ratio);\n  }\n\n  /// @notice Update the funding ratio.\n  /// @param ratio The funding ratio value, multiplied by 1e9.\n  function updateFundingRatio(uint256 ratio) external onlyRole(DEFAULT_ADMIN_ROLE) {\n    _updateFundingRatio(ratio);\n  }\n\n  /**********************\n   * Internal Functions *\n   **********************/\n\n  /// @dev Internal function to get open ratio and open ratio step.\n  /// @return ratio The value of open ratio, multiplied by 1e9.\n  /// @return step The value of open ratio step, multiplied by 1e18.\n  function _getOpenRatio() internal view returns (uint256 ratio, uint256 step) {\n    bytes32 data = fundingMiscData;\n    ratio = data.decodeUint(OPEN_RATIO_OFFSET, 30);\n    step = data.decodeUint(OPEN_RATIO_STEP_OFFSET, 60);\n  }\n\n  /// @dev Internal function to update the fee ratio for opening position.\n  /// @param ratio The open ratio value, multiplied by 1e9.\n  /// @param step The open ratio step value, multiplied by 1e18.\n  function _updateOpenRatio(uint256 ratio, uint256 step) internal {\n    _checkValueTooLarge(ratio, FEE_PRECISION);\n    _checkValueTooLarge(step, PRECISION);\n\n    bytes32 data = fundingMiscData;\n    data = data.insertUint(ratio, OPEN_RATIO_OFFSET, 30);\n    fundingMiscData = data.insertUint(step, OPEN_RATIO_STEP_OFFSET, 60);\n\n    emit UpdateOpenRatio(ratio, step);\n  }\n\n  /// @dev Internal function to get the value of close ratio, multiplied by 1e9.\n  function _getCloseFeeRatio() internal view returns (uint256) {\n    return fundingMiscData.decodeUint(CLOSE_FEE_RATIO_OFFSET, 30);\n  }\n\n  /// @dev Internal function to update the fee ratio for closing position.\n  /// @param newRatio The close fee ratio value, multiplied by 1e9.\n  function _updateCloseFeeRatio(uint256 newRatio) internal {\n    _checkValueTooLarge(newRatio, FEE_PRECISION);\n\n    bytes32 data = fundingMiscData;\n    uint256 oldRatio = data.decodeUint(CLOSE_FEE_RATIO_OFFSET, 30);\n    fundingMiscData = data.insertUint(newRatio, CLOSE_FEE_RATIO_OFFSET, 30);\n\n    emit UpdateCloseFeeRatio(oldRatio, newRatio);\n  }\n\n  /// @dev Internal function to get the value of funding ratio, multiplied by 1e9.\n  function _getFundingRatio() internal view returns (uint256) {\n    return fundingMiscData.decodeUint(FUNDING_RATIO_OFFSET, 32);\n  }\n\n  /// @dev Internal function to update the funding ratio.\n  /// @param newRatio The funding ratio value, multiplied by 1e9.\n  function _updateFundingRatio(uint256 newRatio) internal {\n    _checkValueTooLarge(newRatio, MAX_FUNDING_RATIO);\n\n    bytes32 data = fundingMiscData;\n    uint256 oldRatio = data.decodeUint(FUNDING_RATIO_OFFSET, 32);\n    fundingMiscData = data.insertUint(newRatio, FUNDING_RATIO_OFFSET, 32);\n\n    emit UpdateFundingRatio(oldRatio, newRatio);\n  }\n\n  /// @dev Internal function to return interest rate snapshot.\n  /// @param snapshot The previous borrow index snapshot.\n  /// @return newBorrowIndex The current borrow index, multiplied by 1e27.\n  /// @return rate The annual interest rate, multiplied by 1e18.\n  function _getAverageInterestRate(\n    BorrowRateSnapshot memory snapshot\n  ) internal view returns (uint256 newBorrowIndex, uint256 rate) {\n    uint256 prevBorrowIndex = snapshot.borrowIndex;\n    newBorrowIndex = IAaveV3Pool(lendingPool).getReserveNormalizedVariableDebt(baseAsset);\n    // absolute rate change is (new - prev) / prev\n    // annual interest rate is (new - prev) / prev / duration * 365 days\n    uint256 duration = block.timestamp - snapshot.timestamp;\n    // @note Users can trigger this every `MIN_SNAPSHOT_DELAY` seconds and make the interest rate never change.\n    // We allow users to do so, since the risk is not very high. And if we remove this if, the computed interest\n    // rate may not correct due to small `duration`.\n    if (duration < MIN_SNAPSHOT_DELAY) {\n      rate = snapshot.lastInterestRate;\n    } else {\n      rate = ((newBorrowIndex - prevBorrowIndex) * 365 days * PRECISION) / (prevBorrowIndex * duration);\n      if (rate == 0) rate = snapshot.lastInterestRate;\n    }\n  }\n\n  /// @dev Internal function to update interest rate snapshot.\n  function _updateInterestRate(uint256 newBorrowIndex, uint256 lastInterestRate) internal {\n    BorrowRateSnapshot memory snapshot = borrowRateSnapshot;\n    snapshot.borrowIndex = uint128(newBorrowIndex);\n    snapshot.lastInterestRate = uint80(lastInterestRate);\n    snapshot.timestamp = uint48(block.timestamp);\n    borrowRateSnapshot = snapshot;\n\n    emit SnapshotAaveBorrowIndex(newBorrowIndex, block.timestamp);\n  }\n\n  /// @inheritdoc BasePool\n  function _updateCollAndDebtIndex() internal virtual override returns (uint256 newCollIndex, uint256 newDebtIndex) {\n    (newDebtIndex, newCollIndex) = _getDebtAndCollateralIndex();\n\n    BorrowRateSnapshot memory snapshot = borrowRateSnapshot;\n    uint256 duration = block.timestamp - snapshot.timestamp;\n    if (duration > 0) {\n      (uint256 borrowIndex, uint256 interestRate) = _getAverageInterestRate(snapshot);\n      if (IPegKeeper(pegKeeper).isFundingEnabled()) {\n        (, uint256 totalColls) = _getDebtAndCollateralShares();\n        uint256 totalRawColls = _convertToRawColl(totalColls, newCollIndex, Math.Rounding.Down);\n        uint256 funding = (totalRawColls * interestRate * duration) / (365 days * PRECISION);\n        funding = ((funding * _getFundingRatio()) / FEE_PRECISION);\n\n        // update collateral index with funding costs\n        newCollIndex = (newCollIndex * totalRawColls) / (totalRawColls - funding);\n        _updateCollateralIndex(newCollIndex);\n      }\n\n      // update interest snapshot\n      _updateInterestRate(borrowIndex, interestRate);\n    }\n  }\n\n  /// @inheritdoc BasePool\n  function _deductProtocolFees(int256 rawColl) internal view virtual override returns (uint256) {\n    if (rawColl > 0) {\n      // open position or add collateral\n      uint256 feeRatio = getOpenFeeRatio();\n      if (feeRatio > FEE_PRECISION) feeRatio = FEE_PRECISION;\n      return (uint256(rawColl) * feeRatio) / FEE_PRECISION;\n    } else {\n      // close position or remove collateral\n      return (uint256(-rawColl) * _getCloseFeeRatio()) / FEE_PRECISION;\n    }\n  }\n}\n"
+        "PoolStorage.sol": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.26;\n\nimport { AccessControlUpgradeable } from \"@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol\";\nimport { ERC721Upgradeable } from \"@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol\";\n\nimport { IPool } from \"../../interfaces/IPool.sol\";\n\nimport { WordCodec } from \"../../common/codec/WordCodec.sol\";\nimport { PoolConstant } from \"./PoolConstant.sol\";\nimport { PoolErrors } from \"./PoolErrors.sol\";\n\nabstract contract PoolStorage is ERC721Upgradeable, AccessControlUpgradeable, PoolConstant, PoolErrors {\n  using WordCodec for bytes32;\n\n  /*************\n   * Constants *\n   *************/\n\n  /// @dev Below are offsets of each variables in `miscData`.\n  uint256 private constant BORROW_FLAG_OFFSET = 0;\n  uint256 private constant REDEEM_FLAG_OFFSET = 1;\n  uint256 private constant TOP_TICK_OFFSET = 2;\n  uint256 private constant NEXT_POSITION_OFFSET = 18;\n  uint256 private constant NEXT_NODE_OFFSET = 50;\n  uint256 private constant MIN_DEBT_RATIO_OFFSET = 98;\n  uint256 private constant MAX_DEBT_RATIO_OFFSET = 158;\n  uint256 private constant MAX_REDEEM_RATIO_OFFSET = 218;\n\n  /// @dev Below are offsets of each variables in `rebalanceRatioData`.\n  uint256 private constant REBALANCE_DEBT_RATIO_OFFSET = 0;\n  uint256 private constant REBALANCE_BONUS_RATIO_OFFSET = 60;\n  uint256 private constant LIQUIDATE_DEBT_RATIO_OFFSET = 90;\n  uint256 private constant LIQUIDATE_BONUS_RATIO_OFFSET = 150;\n\n  /// @dev Below are offsets of each variables in `indexData`.\n  uint256 private constant DEBT_INDEX_OFFSET = 0;\n  uint256 private constant COLLATERAL_INDEX_OFFSET = 128;\n\n  /// @dev Below are offsets of each variables in `sharesData`.\n  uint256 private constant DEBT_SHARES_OFFSET = 0;\n  uint256 private constant COLLATERAL_SHARES_OFFSET = 128;\n\n  /***********\n   * Structs *\n   ***********/\n\n  /// @dev if nodeId = 0, tick is not used and this position only has collateral\n  ///\n  /// @param tick The tick this position belongs to at the beginning.\n  /// @param nodeId The tree node id this position belongs to at the beginning.\n  /// @param colls The collateral shares this position has.\n  /// @param debts The debt shares this position has.\n  struct PositionInfo {\n    int16 tick;\n    uint48 nodeId;\n    // `uint96` is enough, since we use `86` bits in `PoolManager`.\n    uint96 colls;\n    // `uint96` is enough, since we use `96` bits in `PoolManager`.\n    uint96 debts;\n  }\n\n  /// @dev The compiler will pack it into two `uint256`.\n  /// @param metadata The metadata for tree node.\n  ///   ```text\n  ///   * Field           Bits    Index       Comments\n  ///   * parent          48      0           The index for parent tree node.\n  ///   * tick            16      48          The original tick for this tree node.\n  ///   * coll ratio      64      64          The remained coll share ratio base on parent node, the value is real ratio * 2^60.\n  ///   * debt ratio      64      128         The remained debt share ratio base on parent node, the value is real ratio * 2^60.\n  ///   ```\n  /// @param value The value for tree node\n  ///   ```text\n  ///   * Field           Bits    Index       Comments\n  ///   * coll share      128     0           The original total coll share before rebalance or redeem.\n  ///   * debt share      128     128         The original total debt share before rebalance or redeem.\n  ///   ```\n  struct TickTreeNode {\n    bytes32 metadata;\n    bytes32 value;\n  }\n\n  /*********************\n   * Storage Variables *\n   *********************/\n\n  /// @inheritdoc IPool\n  address public collateralToken;\n\n  /// @inheritdoc IPool\n  address public priceOracle;\n\n  /// @dev `miscData` is a storage slot that can be used to store unrelated pieces of information.\n  ///\n  /// - The *borrow flag* indicates whether borrow fxUSD is allowed, 1 means paused.\n  /// - The *redeem flag* indicates whether redeem fxUSD is allowed, 1 means paused.\n  /// - The *top tick* is the largest tick with debts.\n  /// - The *next position* is the next unassigned position id.\n  /// - The *next node* is the next unassigned tree node id.\n  /// - The *min debt ratio* is the minimum allowed debt ratio, multiplied by 1e18.\n  /// - The *max debt ratio* is the maximum allowed debt ratio, multiplied by 1e18.\n  /// - The *max redeem ratio* is the maximum allowed redeem ratio per tick, multiplied by 1e9.\n  ///\n  /// [ borrow flag | redeem flag | top tick | next position | next node | min debt ratio | max debt ratio | max redeem ratio | reserved ]\n  /// [    1 bit    |    1 bit    | 16  bits |    32 bits    |  48 bits  |    60  bits    |    60  bits    |      30 bits     |  8 bits  ]\n  /// [ MSB                                                                                                                          LSB ]\n  bytes32 private miscData;\n\n  /// @dev `rebalanceRatioData` is a storage slot used to store rebalance and liquidate information.\n  ///\n  /// - The *rebalance debt ratio* is the min debt ratio to start rebalance, multiplied by 1e18.\n  /// - The *rebalance bonus ratio* is the bonus ratio during rebalance, multiplied by 1e9.\n  /// - The *liquidate debt ratio* is the min debt ratio to start liquidate, multiplied by 1e18.\n  /// - The *liquidate bonus ratio* is the bonus ratio during liquidate, multiplied by 1e9.\n  ///\n  /// [ rebalance debt ratio | rebalance bonus ratio | liquidate debt ratio | liquidate bonus ratio | reserved ]\n  /// [       60  bits       |        30 bits        |       60  bits       |        30 bits        | 76  bits ]\n  /// [ MSB                                                                                                LSB ]\n  bytes32 private rebalanceRatioData;\n\n  /// @dev `indexData` is a storage slot used to store debt/collateral index.\n  ///\n  /// - The *debt index* is the index for each debt shares, only increasing, starting from 2^96, max 2^128-1.\n  /// - The *collateral index* is the index for each collateral shares, only increasing, starting from 2^96, max 2^128-1\n  ///\n  /// [ debt index | collateral index ]\n  /// [  128 bits  |     128 bits     ]\n  /// [ MSB                       LSB ]\n  bytes32 private indexData;\n\n  /// @dev `sharesData` is a storage slot used to store debt/collateral shares.\n  ///\n  /// - The *debt shares* is the total debt shares. The actual number of total debts\n  ///   is `<debt shares> * <debt index>`.\n  /// - The *collateral shares* is the total collateral shares. The actual number of\n  ///   total collateral is `<collateral shares> / <collateral index>`.\n  ///\n  /// [ debt shares | collateral shares ]\n  /// [  128  bits  |     128  bits     ]\n  /// [ MSB                         LSB ]\n  bytes32 private sharesData;\n\n  /// @dev Mapping from position id to position information.\n  mapping(uint256 => PositionInfo) public positionData;\n\n  /// @dev Mapping from position id to position metadata.\n  /// [ open timestamp | reserved ]\n  /// [    40  bits    | 216 bits ]\n  /// [ MSB                   LSB ]\n  mapping(uint256 => bytes32) public positionMetadata;\n\n  /// @dev The bitmap for ticks with debts.\n  mapping(int8 => uint256) public tickBitmap;\n\n  /// @dev Mapping from tick to tree node id.\n  mapping(int256 => uint48) public tickData;\n\n  /// @dev Mapping from tree node id to tree node data.\n  mapping(uint256 => TickTreeNode) public tickTreeData;\n\n  /***************\n   * Constructor *\n   ***************/\n\n  function __PoolStorage_init(address _collateralToken, address _priceOracle) internal onlyInitializing {\n    _checkAddressNotZero(_collateralToken);\n\n    collateralToken = _collateralToken;\n    _updatePriceOracle(_priceOracle);\n  }\n\n  /*************************\n   * Public View Functions *\n   *************************/\n\n  /// @inheritdoc AccessControlUpgradeable\n  function supportsInterface(\n    bytes4 interfaceId\n  ) public view virtual override(AccessControlUpgradeable, ERC721Upgradeable) returns (bool) {\n    return super.supportsInterface(interfaceId);\n  }\n\n  /// @inheritdoc IPool\n  function isBorrowPaused() external view returns (bool) {\n    return _isBorrowPaused();\n  }\n\n  /// @inheritdoc IPool\n  function isRedeemPaused() external view returns (bool) {\n    return _isRedeemPaused();\n  }\n\n  /// @inheritdoc IPool\n  function getTopTick() external view returns (int16) {\n    return _getTopTick();\n  }\n\n  /// @inheritdoc IPool\n  function getNextPositionId() external view returns (uint32) {\n    return _getNextPositionId();\n  }\n\n  /// @inheritdoc IPool\n  function getNextTreeNodeId() external view returns (uint48) {\n    return _getNextTreeNodeId();\n  }\n\n  /// @inheritdoc IPool\n  function getDebtRatioRange() external view returns (uint256, uint256) {\n    return _getDebtRatioRange();\n  }\n\n  /// @inheritdoc IPool\n  function getMaxRedeemRatioPerTick() external view returns (uint256) {\n    return _getMaxRedeemRatioPerTick();\n  }\n\n  /// @inheritdoc IPool\n  function getRebalanceRatios() external view returns (uint256, uint256) {\n    return _getRebalanceRatios();\n  }\n\n  /// @inheritdoc IPool\n  function getLiquidateRatios() external view returns (uint256, uint256) {\n    return _getLiquidateRatios();\n  }\n\n  /// @inheritdoc IPool\n  function getDebtAndCollateralIndex() external view returns (uint256, uint256) {\n    return _getDebtAndCollateralIndex();\n  }\n\n  /// @inheritdoc IPool\n  function getDebtAndCollateralShares() external view returns (uint256, uint256) {\n    return _getDebtAndCollateralShares();\n  }\n\n  /**********************\n   * Internal Functions *\n   **********************/\n\n  /// @dev Internal function to update price oracle.\n  /// @param newOracle The address of new price oracle;\n  function _updatePriceOracle(address newOracle) internal {\n    _checkAddressNotZero(newOracle);\n\n    address oldOracle = priceOracle;\n    priceOracle = newOracle;\n\n    emit UpdatePriceOracle(oldOracle, newOracle);\n  }\n\n  /*************************************\n   * Internal Functions For `miscData` *\n   *************************************/\n\n  /// @dev Internal function to get the borrow pause status.\n  function _isBorrowPaused() internal view returns (bool) {\n    return miscData.decodeBool(BORROW_FLAG_OFFSET);\n  }\n\n  /// @dev Internal function to update borrow pause status.\n  /// @param status The status to update.\n  function _updateBorrowStatus(bool status) internal {\n    miscData = miscData.insertBool(status, BORROW_FLAG_OFFSET);\n\n    emit UpdateBorrowStatus(status);\n  }\n\n  /// @dev Internal function to get the redeem pause status.\n  function _isRedeemPaused() internal view returns (bool) {\n    return miscData.decodeBool(REDEEM_FLAG_OFFSET);\n  }\n\n  /// @dev Internal function to update redeem pause status.\n  /// @param status The status to update.\n  function _updateRedeemStatus(bool status) internal {\n    miscData = miscData.insertBool(status, REDEEM_FLAG_OFFSET);\n\n    emit UpdateRedeemStatus(status);\n  }\n\n  /// @dev Internal function to get the value of top tick.\n  function _getTopTick() internal view returns (int16) {\n    return int16(miscData.decodeInt(TOP_TICK_OFFSET, 16));\n  }\n\n  /// @dev Internal function to update the top tick.\n  /// @param tick The new top tick.\n  function _updateTopTick(int16 tick) internal {\n    miscData = miscData.insertInt(tick, TOP_TICK_OFFSET, 16);\n  }\n\n  /// @dev Internal function to get next available position id.\n  function _getNextPositionId() internal view returns (uint32) {\n    return uint32(miscData.decodeUint(NEXT_POSITION_OFFSET, 32));\n  }\n\n  /// @dev Internal function to update next available position id.\n  /// @param id The position id to update.\n  function _updateNextPositionId(uint32 id) internal {\n    miscData = miscData.insertUint(id, NEXT_POSITION_OFFSET, 32);\n  }\n\n  /// @dev Internal function to get next available tree node id.\n  function _getNextTreeNodeId() internal view returns (uint48) {\n    return uint48(miscData.decodeUint(NEXT_NODE_OFFSET, 48));\n  }\n\n  /// @dev Internal function to update next available tree node id.\n  /// @param id The tree node id to update.\n  function _updateNextTreeNodeId(uint48 id) internal {\n    miscData = miscData.insertUint(id, NEXT_NODE_OFFSET, 48);\n  }\n\n  /// @dev Internal function to get `minDebtRatio` and `maxDebtRatio`, both multiplied by 1e18.\n  function _getDebtRatioRange() internal view returns (uint256 minDebtRatio, uint256 maxDebtRatio) {\n    bytes32 data = miscData;\n    minDebtRatio = data.decodeUint(MIN_DEBT_RATIO_OFFSET, 60);\n    maxDebtRatio = data.decodeUint(MAX_DEBT_RATIO_OFFSET, 60);\n  }\n\n  /// @dev Internal function to update debt ratio range.\n  /// @param minDebtRatio The minimum allowed debt ratio to update, multiplied by 1e18.\n  /// @param maxDebtRatio The maximum allowed debt ratio to update, multiplied by 1e18.\n  function _updateDebtRatioRange(uint256 minDebtRatio, uint256 maxDebtRatio) internal {\n    _checkValueTooLarge(minDebtRatio, maxDebtRatio);\n    _checkValueTooLarge(maxDebtRatio, PRECISION);\n\n    bytes32 data = miscData;\n    data = data.insertUint(minDebtRatio, MIN_DEBT_RATIO_OFFSET, 60);\n    miscData = data.insertUint(maxDebtRatio, MAX_DEBT_RATIO_OFFSET, 60);\n\n    emit UpdateDebtRatioRange(minDebtRatio, maxDebtRatio);\n  }\n\n  /// @dev Internal function to get the `maxRedeemRatioPerTick`.\n  function _getMaxRedeemRatioPerTick() internal view returns (uint256) {\n    return miscData.decodeUint(MAX_REDEEM_RATIO_OFFSET, 30);\n  }\n\n  /// @dev Internal function to update maximum redeem ratio per tick.\n  /// @param ratio The ratio to update, multiplied by 1e9.\n  function _updateMaxRedeemRatioPerTick(uint256 ratio) internal {\n    _checkValueTooLarge(ratio, FEE_PRECISION);\n\n    miscData = miscData.insertUint(ratio, MAX_REDEEM_RATIO_OFFSET, 30);\n\n    emit UpdateMaxRedeemRatioPerTick(ratio);\n  }\n\n  /***********************************************\n   * Internal Functions For `rebalanceRatioData` *\n   ***********************************************/\n\n  /// @dev Internal function to get `debtRatio` and `bonusRatio` for rebalance.\n  /// @return debtRatio The minimum debt ratio to start rebalance, multiplied by 1e18.\n  /// @return bonusRatio The bonus ratio during rebalance, multiplied by 1e9.\n  function _getRebalanceRatios() internal view returns (uint256 debtRatio, uint256 bonusRatio) {\n    bytes32 data = rebalanceRatioData;\n    debtRatio = data.decodeUint(REBALANCE_DEBT_RATIO_OFFSET, 60);\n    bonusRatio = data.decodeUint(REBALANCE_BONUS_RATIO_OFFSET, 30);\n  }\n\n  /// @dev Internal function to update ratio for rebalance.\n  /// @param debtRatio The minimum debt ratio to start rebalance, multiplied by 1e18.\n  /// @param bonusRatio The bonus ratio during rebalance, multiplied by 1e9.\n  function _updateRebalanceRatios(uint256 debtRatio, uint256 bonusRatio) internal {\n    _checkValueTooLarge(debtRatio, PRECISION);\n    _checkValueTooLarge(bonusRatio, FEE_PRECISION);\n\n    bytes32 data = rebalanceRatioData;\n    data = data.insertUint(debtRatio, REBALANCE_DEBT_RATIO_OFFSET, 60);\n    rebalanceRatioData = data.insertUint(bonusRatio, REBALANCE_BONUS_RATIO_OFFSET, 30);\n\n    emit UpdateRebalanceRatios(debtRatio, bonusRatio);\n  }\n\n  /// @dev Internal function to get `debtRatio` and `bonusRatio` for liquidate.\n  /// @return debtRatio The minimum debt ratio to start liquidate, multiplied by 1e18.\n  /// @return bonusRatio The bonus ratio during liquidate, multiplied by 1e9.\n  function _getLiquidateRatios() internal view returns (uint256 debtRatio, uint256 bonusRatio) {\n    bytes32 data = rebalanceRatioData;\n    debtRatio = data.decodeUint(LIQUIDATE_DEBT_RATIO_OFFSET, 60);\n    bonusRatio = data.decodeUint(LIQUIDATE_BONUS_RATIO_OFFSET, 30);\n  }\n\n  /// @dev Internal function to update ratio for liquidate.\n  /// @param debtRatio The minimum debt ratio to start liquidate, multiplied by 1e18.\n  /// @param bonusRatio The bonus ratio during liquidate, multiplied by 1e9.\n  function _updateLiquidateRatios(uint256 debtRatio, uint256 bonusRatio) internal {\n    _checkValueTooLarge(debtRatio, PRECISION);\n    _checkValueTooLarge(bonusRatio, FEE_PRECISION);\n\n    bytes32 data = rebalanceRatioData;\n    data = data.insertUint(debtRatio, LIQUIDATE_DEBT_RATIO_OFFSET, 60);\n    rebalanceRatioData = data.insertUint(bonusRatio, LIQUIDATE_BONUS_RATIO_OFFSET, 30);\n\n    emit UpdateLiquidateRatios(debtRatio, bonusRatio);\n  }\n\n  /**************************************\n   * Internal Functions For `indexData` *\n   **************************************/\n\n  /// @dev Internal function to get debt and collateral index.\n  /// @return debtIndex The index for debt shares.\n  /// @return collIndex The index for collateral shares.\n  function _getDebtAndCollateralIndex() internal view returns (uint256 debtIndex, uint256 collIndex) {\n    bytes32 data = indexData;\n    debtIndex = data.decodeUint(DEBT_INDEX_OFFSET, 128);\n    collIndex = data.decodeUint(COLLATERAL_INDEX_OFFSET, 128);\n  }\n\n  /// @dev Internal function to update debt index.\n  /// @param index The debt index to update.\n  function _updateDebtIndex(uint256 index) internal {\n    indexData = indexData.insertUint(index, DEBT_INDEX_OFFSET, 128);\n\n    emit DebtIndexSnapshot(index);\n  }\n\n  /// @dev Internal function to update collateral index.\n  /// @param index The collateral index to update.\n  function _updateCollateralIndex(uint256 index) internal {\n    indexData = indexData.insertUint(index, COLLATERAL_INDEX_OFFSET, 128);\n\n    emit CollateralIndexSnapshot(index);\n  }\n\n  /**************************************\n   * Internal Functions For `sharesData` *\n   **************************************/\n\n  /// @dev Internal function to get debt and collateral shares.\n  /// @return debtShares The total number of debt shares.\n  /// @return collShares The total number of collateral shares.\n  function _getDebtAndCollateralShares() internal view returns (uint256 debtShares, uint256 collShares) {\n    bytes32 data = sharesData;\n    debtShares = data.decodeUint(DEBT_SHARES_OFFSET, 128);\n    collShares = data.decodeUint(COLLATERAL_SHARES_OFFSET, 128);\n  }\n\n  /// @dev Internal function to update debt and collateral shares.\n  /// @param debtShares The debt shares to update.\n  /// @param collShares The collateral shares to update.\n  function _updateDebtAndCollateralShares(uint256 debtShares, uint256 collShares) internal {\n    bytes32 data = sharesData;\n    data = data.insertUint(debtShares, DEBT_SHARES_OFFSET, 128);\n    sharesData = data.insertUint(collShares, COLLATERAL_SHARES_OFFSET, 128);\n  }\n\n  /// @dev Internal function to update debt shares.\n  /// @param shares The debt shares to update.\n  function _updateDebtShares(uint256 shares) internal {\n    sharesData = sharesData.insertUint(shares, DEBT_SHARES_OFFSET, 128);\n  }\n\n  /// @dev Internal function to update collateral shares.\n  /// @param shares The collateral shares to update.\n  function _updateCollateralShares(uint256 shares) internal {\n    sharesData = sharesData.insertUint(shares, COLLATERAL_SHARES_OFFSET, 128);\n  }\n\n  /**\n   * @dev This empty reserved space is put in place to allow future versions to add new\n   * variables without shifting down storage in the inheritance chain.\n   */\n  uint256[40] private __gap;\n}\n"
     }
 }

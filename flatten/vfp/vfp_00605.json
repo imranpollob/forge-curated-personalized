@@ -1,115 +1,32 @@
 {
     "vfp_id": "vfp_00605",
-    "project_name": "BARD Token Audit.md",
+    "project_name": "2026-1-offchain-arbitrum-quorum-changes-securityreview.pdf",
     "findings": [
         {
             "id": 0,
             "category": {
                 "1": [
-                    "CWE-710"
+                    "CWE-707"
                 ],
                 "2": [
-                    "CWE-1041"
-                ]
-            },
-            "title": "Duplicate Event Emission in mint",
-            "description": "The `mint` function emits a custom `Mint(to, amount)` event, while the underlying `ERC20._mint` function also emits a `Transfer(address(0), to, amount)` event. These two events convey identical information regarding the creation and allocation of new tokens.\nThe root cause is the redundant emission of a custom event when the standard ERC-20 `Transfer` event from `_mint` already provides the same data, leading to duplication.\nAlthough this does not enable direct exploitation, it can mislead off-chain indexers and user interfaces that rely on event parsing, potentially causing confusion or incorrect state interpretation.\nThe impact is limited to user experience and system clarity, with no direct financial or security risk, but it increases the complexity of event handling and may lead to incorrect assumptions in dependent systems.\n",
-            "severity": "Low",
-            "location": [
-                "BARD.sol::mint#49",
-                "BARD.sol::<constructor>#30"
-            ],
-            "files": [
-                "BARD/contracts/BARD/BARD.sol"
-            ]
-        },
-        {
-            "id": 1,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1068"
-                ]
-            },
-            "title": "Inaccurate Comment in Constructor",
-            "description": "A comment in the constructor states that the first mint is not allowed until one year after deployment, which is misleading because the constructor itself mints 1 billion tokens upon deployment.\nThe cause is a discrepancy between the comment and the actual code behavior, likely due to outdated or incorrect documentation.\nThis could mislead developers or auditors into believing there is a one-year delay before any minting occurs, when in fact the initial mint happens immediately.\nThe impact is a potential misunderstanding of the contract's initialization logic, which could lead to incorrect assumptions during integration or future development.\n",
-            "severity": "Informational",
-            "location": [
-                "BARD.sol::<constructor>#30"
-            ],
-            "files": [
-                "BARD/contracts/BARD/BARD.sol"
-            ]
-        },
-        {
-            "id": 2,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1068"
-                ]
-            },
-            "title": "Inaccurate Comment in mint Function",
-            "description": "The comment above the `mint` function incorrectly states that the minted amount must be less than the maximum inflation rate, when in reality it must be less than the product of the maximum inflation rate and the current total supply.\nThis inaccuracy stems from imprecise documentation that fails to reflect the actual mathematical constraint implemented in the code.\nA developer relying on the comment might misunderstand the minting cap logic, potentially leading to incorrect off-chain calculations or expectations.\nThe impact is a risk of misinterpretation of the minting rules, which could affect governance decisions or integration logic, though the on-chain behavior remains correct.\n",
-            "severity": "Informational",
-            "location": [
-                "BARD.sol::mint#37"
-            ],
-            "files": [
-                "BARD/contracts/BARD/BARD.sol"
-            ]
-        },
-        {
-            "id": 3,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1076"
+                    "CWE-20"
                 ],
                 "3": [
-                    "CWE-1078"
+                    "CWE-1284"
                 ]
             },
-            "title": "Inconsistent Variable Types May Hinder Optimization and Readability",
-            "description": "The contract uses smaller integer types (`uint8`, `uint32`, `uint40`) for constants and state variables where `uint256` would be more appropriate. While functionally correct, this choice provides no storage benefit for constants and incurs a slight gas cost for `lastMintTimestamp` due to type masking.\nThe root cause is suboptimal type selection that does not align with Solidity's EVM optimization patterns, where `uint256` is the native word size and operations on smaller types can be more expensive.\nThis could lead to marginally higher gas consumption during `mint` calls and reduced code clarity for developers expecting consistent type usage.\nThe impact is minor inefficiency and reduced code readability, with no direct security vulnerability but a missed opportunity for optimization.\n",
+            "title": "adjustTotalDelegation allows the new value to be zero",
+            "description": "The adjustTotalDelegation function in L2ArbitrumToken.sol allows the DAO to set the total delegation value to zero via an adjustment. This occurs because while the function checks that the new value is non-negative, it does not prevent it from being exactly zero. The root cause is the lack of an explicit validation check to ensure the new value is greater than zero. An attacker with ownership privileges could set the total delegation to zero, which would cause the quorum calculation to fall back to using getPastCirculatingSupply, potentially altering quorum expectations for existing proposals. However, since the function is protected by the onlyOwner modifier, only the DAO can invoke it, limiting the risk. The impact is limited to a change in quorum calculation logic, which could affect governance outcomes if misused, but does not lead to fund loss or direct exploitation by unauthorized actors.\n",
             "severity": "Informational",
             "location": [
-                "BARD.sol::MAX_INFLATION#14",
-                "BARD.sol::MINT_WAIT_PERIOD#17",
-                "BARD.sol::lastMintTimestamp#20"
+                "governance/src/L2ArbitrumToken.sol::adjustTotalDelegation"
             ],
             "files": [
-                "BARD/contracts/BARD/BARD.sol"
-            ]
-        },
-        {
-            "id": 4,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1041"
-                ]
-            },
-            "title": "Redundant Zero-Address Check in Constructor",
-            "description": "The constructor includes a manual check to ensure `_treasury` is not the zero address before minting, but this is redundant because the `ERC20._mint` function already performs this validation and reverts appropriately.\nThe cause is an unnecessary duplication of a safety check that is already enforced by the inherited OpenZeppelin contract.\nThis increases code complexity without adding security, and creates inconsistency with the `mint` function, which relies solely on `_mint` for this validation.\nThe impact is minimal, limited to increased bytecode size and reduced code clarity, but it violates the principle of least surprise and consistency in error handling.\n",
-            "severity": "Informational",
-            "location": [
-                "BARD.sol::<constructor>#28"
-            ],
-            "files": [
-                "BARD/contracts/BARD/BARD.sol"
+                "governance/src/L2ArbitrumToken.sol"
             ]
         }
     ],
     "affected_files": {
-        "BARD.sol": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.28;\n\nimport {Ownable, Ownable2Step} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";\nimport {ERC20} from \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\nimport {ERC20Burnable} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol\";\nimport {ERC20Permit} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol\";\nimport {ERC20Votes} from \"@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol\";\nimport {Nonces} from \"@openzeppelin/contracts/utils/Nonces.sol\";\nimport \"./IBARD.sol\";\n\ncontract BARD is Ownable2Step, ERC20Burnable, ERC20Permit, ERC20Votes, IBARD {\n    // Maximum inflation rate per year (percentage) expressed as an integer\n    uint8 public constant MAX_INFLATION = 10;\n\n    // The frequency limit on inflationary mint invocations\n    uint32 public constant MINT_WAIT_PERIOD = 365 days;\n\n    //The last time the mint function was called\n    uint40 public lastMintTimestamp;\n\n    constructor(\n        address _initialOwner,\n        address _treasury\n    ) ERC20(\"Lombard\", \"BARD\") ERC20Permit(\"Lombard\") Ownable(_initialOwner) {\n        // first mint not allowed until 1 year after deployment\n        lastMintTimestamp = uint40(block.timestamp);\n        if (_treasury == address(0)) revert ZeroAddressException();\n        // mint initial supply\n        _mint(_treasury, 1_000_000_000 * 1 ether);\n    }\n\n    /**\n     * @notice Mints new BARD tokens\n     * @param to The address to mint tokens to\n     * @param amount The amount of tokens to mint\n     * @dev Only callable by the owner once per year and amount must be less than max inflation rate\n     */\n    function mint(address to, uint256 amount) external onlyOwner {\n        if (block.timestamp - lastMintTimestamp < MINT_WAIT_PERIOD)\n            revert MintWaitPeriodNotClosed(\n                MINT_WAIT_PERIOD - (block.timestamp - lastMintTimestamp)\n            );\n        uint256 _maxInflationAmount = (totalSupply() * MAX_INFLATION) / 100;\n        if (amount > _maxInflationAmount)\n            revert MaxInflationExceeded(_maxInflationAmount);\n        lastMintTimestamp = uint40(block.timestamp);\n        _mint(to, amount);\n        emit Mint(to, amount);\n    }\n\n    /// @notice Prevents the owner from renouncing ownership\n    function renounceOwnership() public view override onlyOwner {\n        revert CantRenounceOwnership();\n    }\n\n    /**\n     * @dev Override of the _update function to satisfy both ERC20 and ERC20Votes\n     */\n    function _update(\n        address from,\n        address to,\n        uint256 value\n    ) internal virtual override(ERC20, ERC20Votes) {\n        super._update(from, to, value);\n    }\n\n    /**\n     * @dev Override of the nonces function to satisfy both IERC20Permit and Nonces\n     */\n    function nonces(\n        address owner\n    ) public view virtual override(ERC20Permit, Nonces) returns (uint256) {\n        return super.nonces(owner);\n    }\n}\n"
+        "L2ArbitrumToken.sol": "// SPDX-License-Identifier: Apache-2.0\npragma solidity 0.8.16;\n\nimport \"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\";\nimport \"./TransferAndCallToken.sol\";\nimport \"@openzeppelin/contracts/utils/Checkpoints.sol\";\n\n/// @title  L2 Arbitrum Token\n/// @notice The L2 counterparty of the Arbitrum token.\n/// @dev    ERC20 with additional functionality:\n///         * Permit - single step transfers via sig\n///         * Votes - delegation and voting compatible with OZ governance\n///         * Burnable - user's can burn their own tokens. Can be used by the airdrop distributor\n///             after the claim period ends\n///         * Mint - allows the owner to mint a maximum of 2% per year\n///         * TransferAndCall - allows users to call a contract after doing a transfer\ncontract L2ArbitrumToken is\n    Initializable,\n    ERC20Upgradeable,\n    ERC20BurnableUpgradeable,\n    ERC20PermitUpgradeable,\n    ERC20VotesUpgradeable,\n    OwnableUpgradeable,\n    TransferAndCallToken\n{\n    using Checkpoints for Checkpoints.History;\n\n    string private constant NAME = \"Arbitrum\";\n    string private constant SYMBOL = \"ARB\";\n    /// @notice The minimum amount of time that must elapse before a mint is allowed\n    uint256 public constant MIN_MINT_INTERVAL = 365 days;\n    /// @notice The maximum amount that can be can be minted - numerator\n    uint256 public constant MINT_CAP_NUMERATOR = 200;\n    /// @notice The maximum amount that can be can be minted - denominator\n    uint256 public constant MINT_CAP_DENOMINATOR = 10_000;\n\n    /// @notice The address of the L1 counterparty of this token\n    address public l1Address;\n    /// @notice The time at which the next mint is allowed - timestamp\n    uint256 public nextMint;\n\n    /// @dev History of the total amount of delegated tokens\n    ///      The initial value is an estimate of the total delegation at the time of upgrade proposal creation.\n    ///      Another proposal can be made later to update this value if needed.\n    Checkpoints.History private _totalDelegationHistory;\n\n    event TotalDelegationAdjusted(uint256 previousTotalDelegation, uint256 newTotalDelegation);\n\n    constructor() {\n        _disableInitializers();\n    }\n\n    /// @notice Initialise the L2 token\n    /// @param _l1TokenAddress The address of the counterparty L1 token\n    /// @param _initialSupply The amount of initial supply to mint\n    /// @param _owner The owner of this contract - controls minting, not upgradeability\n    function initialize(address _l1TokenAddress, uint256 _initialSupply, address _owner)\n        public\n        initializer\n    {\n        require(_l1TokenAddress != address(0), \"ARB: ZERO_L1TOKEN_ADDRESS\");\n        require(_initialSupply != 0, \"ARB: ZERO_INITIAL_SUPPLY\");\n        require(_owner != address(0), \"ARB: ZERO_OWNER\");\n\n        __ERC20_init(NAME, SYMBOL);\n        __ERC20Burnable_init();\n        __ERC20Permit_init(NAME);\n        __ERC20Votes_init();\n        __Ownable_init();\n\n        _mint(_owner, _initialSupply);\n        nextMint = block.timestamp + MIN_MINT_INTERVAL;\n        l1Address = _l1TokenAddress;\n        _transferOwnership(_owner);\n    }\n\n    /// @notice Called after upgrade to set the initial total delegation estimate\n    ///         The initial estimate may be manipulable with artificial delegation/undelegation prior to the upgrade.\n    ///         Since this value is only used for quorum calculation, and the quroum is clamped by the governors to an acceptable range,\n    ///         the risk/impact of manipulation is low.\n    /// @param  initialTotalDelegation The initial total delegation at the time of upgrade proposal creation.\n    ///         This is an estimate since it is chosen at proposal creation time and not effective until the proposal is executed.\n    function postUpgradeInit(uint256 initialTotalDelegation) external onlyOwner {\n        require(\n            _totalDelegationHistory._checkpoints.length == 0,\n            \"ARB: POST_UPGRADE_INIT_ALREADY_CALLED\"\n        );\n        _totalDelegationHistory.push(initialTotalDelegation);\n    }\n\n    /// @notice Adjusts total delegation value by the given amount\n    /// @param  adjustment The amount that the total delegation is off by, negated. This is added to the current total delegation.\n    function adjustTotalDelegation(int256 adjustment)\n        external\n        onlyOwner\n    {\n        uint256 latest = _totalDelegationHistory.latest();\n        int256 newValue = int256(latest) + adjustment;\n\n        // negative newValue should be impossible\n        // since the adjustment should bring the value to true total delegation\n        // which is at minimum zero\n        require(newValue >= 0, \"ARB: NEGATIVE_TOTAL_DELEGATION\");\n        _totalDelegationHistory.push(uint256(newValue));\n\n        emit TotalDelegationAdjusted(latest, uint256(newValue));\n    }\n\n    /// @notice Allows the owner to mint new tokens\n    /// @dev    Only allows minting below an inflation cap.\n    ///         Set to once per year, and a maximum of 2%.\n    function mint(address recipient, uint256 amount) external onlyOwner {\n        // function inspired by: https://github.com/ensdomains/governance/blob/548f3f3607c83717427d9ae3fc1f3a9e66fc7642/contracts/ENSToken.sol#L105\n        require(\n            amount <= (totalSupply() * MINT_CAP_NUMERATOR) / MINT_CAP_DENOMINATOR,\n            \"ARB: MINT_TOO_MUCH\"\n        );\n        require(block.timestamp >= nextMint, \"ARB: MINT_TOO_EARLY\");\n\n        nextMint = block.timestamp + MIN_MINT_INTERVAL;\n        _mint(recipient, amount);\n    }\n\n    /// @notice Get the current total delegation\n    /// @return The current total delegation\n    function getTotalDelegation() external view returns (uint256) {\n        return _totalDelegationHistory.latest();\n    }\n\n    /// @notice Get the total delegation at a specific block number\n    ///         If the blockNumber is prior to the first checkpoint, returns 0\n    /// @param blockNumber The block number to get the total delegation at\n    /// @return The total delegation at the given block number\n    function getTotalDelegationAt(uint256 blockNumber) external view returns (uint256) {\n        return _totalDelegationHistory.getAtBlock(blockNumber);\n    }\n\n    /// @dev Checks if total delegation needs to be updated, and updates it if so\n    ///      by adding a new checkpoint.\n    /// @param fromDelegate The address of the delegate the tokens are being moved from\n    /// @param toDelegate The address of the delegate the tokens are being moved to\n    /// @param amount The amount of tokens being moved\n    function _updateDelegationHistory(address fromDelegate, address toDelegate, uint256 amount)\n        internal\n    {\n        if (fromDelegate != toDelegate) {\n            int256 delta = 0;\n            if (fromDelegate != address(0)) {\n                delta -= int256(amount);\n            }\n            if (toDelegate != address(0)) {\n                delta += int256(amount);\n            }\n            if (delta != 0) {\n                // if the initial estimate is too low, and a large amount of tokens are undelegated\n                // it is technically possible that the newValue is negative\n                // if this happens, we clamp it to zero to avoid underflow\n                int256 newValue = int256(_totalDelegationHistory.latest()) + delta;\n                _totalDelegationHistory.push(uint256(newValue < 0 ? int256(0) : newValue));\n            }\n        }\n    }\n\n    /// @dev Override ERC20VotesUpgradeable to update total delegation history when delegation changes\n    function _delegate(address delegator, address delegatee) internal virtual override {\n        _updateDelegationHistory(delegates(delegator), delegatee, balanceOf(delegator));\n        super._delegate(delegator, delegatee);\n    }\n\n    function _afterTokenTransfer(address from, address to, uint256 amount)\n        internal\n        override(ERC20Upgradeable, ERC20VotesUpgradeable)\n    {\n        super._afterTokenTransfer(from, to, amount);\n        _updateDelegationHistory(delegates(from), delegates(to), amount);\n    }\n\n    function _mint(address to, uint256 amount)\n        internal\n        override(ERC20Upgradeable, ERC20VotesUpgradeable)\n    {\n        super._mint(to, amount);\n    }\n\n    function _burn(address account, uint256 amount)\n        internal\n        override(ERC20Upgradeable, ERC20VotesUpgradeable)\n    {\n        super._burn(account, amount);\n    }\n}\n"
     }
 }

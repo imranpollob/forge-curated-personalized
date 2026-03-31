@@ -3,23 +3,6 @@
     "project_name": "cantina_eco_pr28_pr38_aug2025.pdf",
     "findings": [
         {
-            "id": 10,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ]
-            },
-            "title": "NONCE_ constants can be bools",
-            "description": "The constants NONCE_NOT_USED (0) and NONCE_USED (1) in NonceManager.sol are used to mark nonce states in a mapping. These can be replaced with boolean values (false and true) to save gas, as boolean storage is more efficient and direct boolean checks eliminate comparison operations. For example, `if (usedNonces[owner][salt])` is cheaper than `if (usedNonces[owner][salt] == NONCE_USED)`. The cause is suboptimal data type selection. The impact is higher storage and computation costs than necessary, which can be reduced through simple refactoring.\n",
-            "severity": "Informational",
-            "location": [
-                "NonceManager.sol#L25-L28"
-            ],
-            "files": [
-                "70649332/permit3/src/NonceManager.sol"
-            ]
-        },
-        {
             "id": 9,
             "category": {
                 "1": [
@@ -34,6 +17,23 @@
             "severity": "Informational",
             "location": [
                 "NonceManager.sol#L103-L105"
+            ],
+            "files": [
+                "70649332/permit3/src/NonceManager.sol"
+            ]
+        },
+        {
+            "id": 10,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ]
+            },
+            "title": "NONCE_ constants can be bools",
+            "description": "The constants NONCE_NOT_USED (0) and NONCE_USED (1) in NonceManager.sol are used to mark nonce states in a mapping. These can be replaced with boolean values (false and true) to save gas, as boolean storage is more efficient and direct boolean checks eliminate comparison operations. For example, `if (usedNonces[owner][salt])` is cheaper than `if (usedNonces[owner][salt] == NONCE_USED)`. The cause is suboptimal data type selection. The impact is higher storage and computation costs than necessary, which can be reduced through simple refactoring.\n",
+            "severity": "Informational",
+            "location": [
+                "NonceManager.sol#L25-L28"
             ],
             "files": [
                 "70649332/permit3/src/NonceManager.sol"

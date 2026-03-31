@@ -3,7 +3,27 @@
     "project_name": "cantina_tadle_oct2025.pdf",
     "findings": [
         {
-            "id": 2,
+            "id": 9,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ],
+                "2": [
+                    "CWE-1076"
+                ]
+            },
+            "title": "Missing storage gap in upgradeable base",
+            "description": "The Setup contract, used as a base for upgradeable contracts, does not include a storage gap (__gap), making future upgrades unsafe. Without a gap, adding new state variables can shift existing storage slots, corrupting data. The root cause is omission of a best practice for upgradeable contracts. Future upgrades that add variables may inadvertently overwrite existing state. The impact is potential data corruption and breaking of contract functionality during upgrades.\n",
+            "severity": "Low",
+            "location": [
+                "Implementations.sol::Setup#19-35"
+            ],
+            "files": [
+                "v3-sandbox-audit_1/src/core/Implementations.sol"
+            ]
+        },
+        {
+            "id": 6,
             "category": {
                 "1": [
                     "CWE-707"
@@ -15,63 +35,36 @@
                     "CWE-1287"
                 ]
             },
-            "title": "Proxy upgrade functions do not verify implementation code",
-            "description": "The UpgradeableProxy contract allows upgrading to a new implementation without verifying that the target address contains actual contract code. The functions upgradeTo and initializeImplementation only check for non-zero addresses but do not ensure the new implementation is a valid contract. If an EOA or a self-destructed contract is set as the implementation, delegatecalls will revert, bricking the proxy. The root cause is the absence of a code presence check such as Address.isContract. An attacker could exploit this during initialization if initializeImplementation remains unguarded, allowing them to set a non-contract address and render the proxy inoperable. The impact is loss of functionality and potential permanent denial of service for the proxy contract.\n",
-            "severity": "High",
-            "location": [
-                "UpgradeableProxy.sol::initializeImplementation#71-75",
-                "UpgradeableProxy.sol::upgradeTo#100-113",
-                "UpgradeableProxy.sol#123-145"
-            ],
-            "files": [
-                "v3-sandbox-audit_1/src/proxy/UpgradeableProxy.sol"
-            ]
-        },
-        {
-            "id": 11,
-            "category": {
-                "1": [
-                    "CWE-693"
-                ],
-                "2": [
-                    "CWE-424"
-                ]
-            },
-            "title": "Admin can call user logic through proxy",
-            "description": "The UpgradeableProxy allows the owner to call user-facing functions through the fallback, as there is no transparent proxy pattern to block such calls. This increases the risk of accidental execution of user logic by the admin. The root cause is the lack of a transparent proxy guard. While not directly exploitable, it complicates monitoring and increases operational risk. The impact is potential user errors and confusion in transaction monitoring.\n",
-            "severity": "Low",
-            "location": [
-                "UpgradeableProxy.sol#162-191"
-            ],
-            "files": [
-                "v3-sandbox-audit_1/src/proxy/UpgradeableProxy.sol"
-            ]
-        },
-        {
-            "id": 5,
-            "category": {
-                "1": [
-                    "CWE-284"
-                ],
-                "2": [
-                    "CWE-285"
-                ],
-                "3": [
-                    "CWE-862"
-                ]
-            },
-            "title": "UpgradeableProxy allows unprotected first-time init",
-            "description": "The initializeImplementation function in UpgradeableProxy is external and only checks that the current implementation is not set, without access control. If a proxy is deployed with a zero logic address, any caller can set the initial implementation and execute arbitrary initialization code via delegatecall. This allows an attacker to hijack the proxy before the legitimate owner initializes it. The root cause is missing ownership restriction on a critical initialization function. Exploitation involves front-running the owner to install malicious logic, leading to full control over the proxy's state and funds. The impact is complete compromise of the proxy, including theft of funds and loss of control.\n",
+            "title": "Missing contract code check in TadleImplementations",
+            "description": "The TadleImplementations contract allows setting default and additional implementations without verifying that the provided addresses contain contract code. This could result in routing to EOAs or destroyed contracts, causing reverts or malfunctioning proxies. The root cause is the absence of a code presence check like Address.isContract. While addImplementation was fixed to include a check, setDefaultImplementation still only rejects the zero address. An admin could accidentally or maliciously set a non-contract address as the default, breaking all routing. The impact is denial of service and disruption of dependent systems relying on correct implementation resolution.\n",
             "severity": "Medium",
             "location": [
-                "UpgradeableProxy.sol::initializeImplementation#123-145"
+                "Implementations.sol::setDefaultImplementation#",
+                "Implementations.sol::addImplementation#83-97"
             ],
             "files": [
-                "v3-sandbox-audit_1/src/proxy/UpgradeableProxy.sol"
+                "v3-sandbox-audit_1/src/core/Implementations.sol"
+            ]
+        },
+        {
+            "id": 17,
+            "category": {
+                "1": [
+                    "CWE-710"
+                ]
+            },
+            "title": "TadleImplementations does not inherit AccountImplementations interface",
+            "description": "TadleImplementations implements the getImplementation function but does not explicitly inherit the AccountImplementations interface. This weakens type safety and prevents compile-time checks for interface conformance. The root cause is missing interface inheritance in the contract declaration. While functionally correct, this reduces integration safety and clarity for external callers. The impact is reduced code maintainability and potential integration errors.\n",
+            "severity": "Informational",
+            "location": [
+                "Implementations.sol::TadleImplementations#123"
+            ],
+            "files": [
+                "v3-sandbox-audit_1/src/core/Implementations.sol"
             ]
         }
     ],
     "affected_files": {
-        "UpgradeableProxy.sol": "// SPDX-License-Identifier: GPL-2.0-or-later\npragma solidity ^0.8.20;\n\n/**\n * @title UpgradeableProxy\n * @author Tadle Team\n * @notice Custom implementation of upgradeable proxy that allows initialization with empty logic\n * @dev This contract implements a proxy pattern that supports delayed initialization\n *      of the implementation contract. Compatible with OpenZeppelin contracts v5.1.0\n * @custom:security Implements EIP-1967 standard for proxy storage slots\n * @custom:upgrade-safety Supports safe upgrades with proper validation\n */\nimport {Ownable2Step, Ownable} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";\nimport {Address} from \"@openzeppelin/contracts/utils/Address.sol\";\n\n/**\n * @title UpgradeableProxy\n * @notice Custom implementation of upgradeable proxy that allows initialization with empty logic\n * @dev This contract implements a proxy pattern that supports delayed initialization\n *      of the implementation contract\n * @custom:security Uses EIP-1967 compliant storage slots to prevent storage collisions\n * @custom:access-control Only owner can upgrade implementation contracts\n */\ncontract UpgradeableProxy is Ownable2Step {\n    // ============ Events ============\n\n    /**\n     * @dev Emitted when the proxy is initialized with an admin\n     * @param admin Address of the proxy administrator\n     */\n    event ProxyInitialized(address indexed admin);\n\n    /**\n     * @dev Emitted when the implementation contract is upgraded\n     * @param oldImplementation Address of the previous implementation\n     * @param newImplementation Address of the new implementation\n     */\n    event ImplementationUpgraded(\n        address indexed oldImplementation,\n        address indexed newImplementation\n    );\n\n    // ============ Storage ============\n\n    /// @dev Storage slot for implementation address (EIP-1967 compliant)\n    /// @notice This is the keccak-256 hash of \"eip1967.proxy.implementation\" subtracted by 1\n    /// @custom:storage-location eip1967:eip1967.proxy.implementation\n    bytes32 private constant _IMPLEMENTATION_SLOT =\n        0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;\n\n    /**\n     * @dev Constructor initializes the proxy with admin\n     * @param _admin Address of the proxy admin with upgrade rights\n     * @notice The admin has exclusive rights to upgrade the implementation\n     * @custom:access-control Admin address cannot be zero address\n     */\n    constructor(address _admin) Ownable(_admin) {\n        require(\n            _admin != address(0),\n            \"UpgradeableProxy: admin address cannot be zero\"\n        );\n        emit ProxyInitialized(_admin);\n    }\n\n    /**\n     * @dev Sets the implementation address in the EIP-1967 storage slot\n     * @param newImplementation Address of the new implementation contract\n     * @notice Uses assembly for gas-efficient storage access\n     * @custom:storage-access Directly writes to EIP-1967 implementation slot\n     */\n    function _setImplementation(address newImplementation) private {\n        assembly {\n            sstore(_IMPLEMENTATION_SLOT, newImplementation)\n        }\n    }\n\n    /**\n     * @dev Returns the current implementation address from storage\n     * @return __implementation The current implementation address\n     * @notice Uses assembly for gas-efficient storage access\n     * @custom:storage-access Directly reads from EIP-1967 implementation slot\n     */\n    function _getImplementation()\n        private\n        view\n        returns (address __implementation)\n    {\n        assembly {\n            __implementation := sload(_IMPLEMENTATION_SLOT)\n        }\n    }\n\n    /**\n     * @dev Upgrades the implementation to a new address\n     * @param newImplementation Address of the new implementation contract\n     * @notice Only the owner can upgrade the implementation\n     * @custom:access-control Restricted to contract owner only\n     * @custom:validation Ensures new implementation is valid and different\n     */\n    function upgradeTo(address newImplementation) external onlyOwner {\n        address oldImplementation = _getImplementation();\n        require(\n            newImplementation != address(0),\n            \"UpgradeableProxy: new implementation cannot be zero address\"\n        );\n        require(\n            newImplementation != oldImplementation,\n            \"UpgradeableProxy: new implementation must be different from current\"\n        );\n\n        _setImplementation(newImplementation);\n        emit ImplementationUpgraded(oldImplementation, newImplementation);\n    }\n\n    /**\n     * @dev Initializes the implementation and optionally calls a function on it\n     * @param newImplementation Address of the new implementation contract\n     * @param data Function call data for initialization (optional)\n     * @notice Can only be called once when no implementation is set\n     * @custom:initialization One-time initialization function\n     * @custom:payable Supports payable initialization calls\n     */\n    function initializeImplementation(\n        address newImplementation,\n        bytes memory data\n    ) external payable {\n        address oldImplementation = _getImplementation();\n        require(\n            oldImplementation == address(0),\n            \"UpgradeableProxy: implementation already initialized\"\n        );\n        require(\n            newImplementation != address(0),\n            \"UpgradeableProxy: new implementation cannot be zero address\"\n        );\n\n        _setImplementation(newImplementation);\n\n        // Execute initialization function if data is provided\n        if (data.length > 0) {\n            Address.functionDelegateCall(newImplementation, data);\n        }\n\n        emit ImplementationUpgraded(oldImplementation, newImplementation);\n    }\n\n    /**\n     * @dev Returns the current implementation address\n     * @return The address of the current implementation contract\n     * @notice Public view function to check current implementation\n     */\n    function implementation() external view returns (address) {\n        return _getImplementation();\n    }\n\n    /**\n     * @dev Delegates the current call to implementation\n     * @notice All function calls to this contract are forwarded to the implementation\n     * @custom:payable Supports ETH transfers along with function calls\n     * @custom:security Uses delegatecall to preserve caller context\n     */\n    fallback() external payable {\n        address _impl = _getImplementation();\n        require(\n            _impl != address(0),\n            \"UpgradeableProxy: implementation not initialized\"\n        );\n\n        assembly {\n            // Copy msg.data. We take full control of memory in this inline assembly\n            // block because it will not return to Solidity code. We overwrite the\n            // Solidity scratch pad at memory position 0.\n            calldatacopy(0, 0, calldatasize())\n\n            // Call the implementation.\n            // out and outsize are 0 because we don't know the size yet.\n            let result := delegatecall(gas(), _impl, 0, calldatasize(), 0, 0)\n\n            // Copy the returned data.\n            returndatacopy(0, 0, returndatasize())\n\n            switch result\n            // delegatecall returns 0 on error.\n            case 0 {\n                revert(0, returndatasize())\n            }\n            default {\n                return(0, returndatasize())\n            }\n        }\n    }\n\n    /**\n     * @dev Allows the proxy to receive ETH transfers\n     * @notice Enables the proxy contract to accept plain ETH transfers\n     * @custom:payable Accepts ETH without function call data\n     */\n    receive() external payable {}\n}\n"
+        "Implementations.sol": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport {Ownable2Step, Ownable} from \"@openzeppelin/contracts/access/Ownable2Step.sol\";\n\n/**\n * @title IAuth\n * @dev Interface for authentication contract\n */\ninterface IAuth {\n    function isAdmin(address account) external view returns (bool);\n}\n\n/**\n * @title Setup\n * @dev Base contract for implementation management\n * Stores mappings between function signatures and their implementation addresses\n */\nabstract contract Setup {\n    /// @dev Initialization flag to prevent multiple initialization calls\n    bool internal _initialized;\n\n    /// @dev Auth contract instance for access control\n    IAuth public auth;\n\n    /// @dev Default implementation address for fallback when signature not found\n    address public defaultImplementation;\n\n    /// @dev Mapping of function signatures to their implementation addresses\n    mapping(bytes4 => address) internal sigImplementations;\n\n    /// @dev Mapping of implementation addresses to their function signatures\n    /// @notice This allows efficient removal of all signatures for an implementation\n    mapping(address => bytes4[]) internal implementationSigs;\n}\n\n/**\n * @title Implementations\n * @dev Contract for managing implementation addresses and their function signatures\n */\nabstract contract Implementations is Setup {\n    // Events for implementation management\n    event LogSetDefaultImplementation(address indexed oldImplementation, address indexed newImplementation);\n    event LogAddImplementation(address indexed implementation, bytes4[] sigs);\n    event LogRemoveImplementation(address indexed implementation, bytes4[] sigs);\n\n    /**\n     * @dev Modifier to restrict function access to admin users only\n     * @notice Reverts if caller is not an admin in the auth contract\n     */\n    modifier isAdmin() {\n        require(auth.isAdmin(msg.sender), \"Implementations: not admin\");\n        _;\n    }\n\n    /**\n     * @dev Modifier to ensure contract is only initialized once\n     * @notice Prevents multiple initialization calls that could reset contract state\n     */\n    modifier initializer() {\n        require(!_initialized, \"Implementations: already initialized\");\n        _;\n        _initialized = true;\n    }\n\n    /**\n     * @dev Sets the default implementation address used when no specific implementation is found\n     * @param _defaultImplementation Address of the new default implementation\n     */\n    function setDefaultImplementation(address _defaultImplementation) external isAdmin {\n        require(_defaultImplementation != address(0), \"Implementations: invalid default implementation address\");\n        require(_defaultImplementation != defaultImplementation, \"Implementations: new implementation same as current\");\n\n        emit LogSetDefaultImplementation(defaultImplementation, _defaultImplementation);\n        defaultImplementation = _defaultImplementation;\n    }\n\n    /**\n     * @dev Add new implementation with its function signatures\n     * @param _implementation Address of the implementation contract\n     * @param _sigs Array of function signatures supported by the implementation\n     */\n    function addImplementation(address _implementation, bytes4[] calldata _sigs) external isAdmin {\n        require(_implementation != address(0), \"Implementations: invalid implementation address\");\n        require(implementationSigs[_implementation].length == 0, \"Implementations: implementation already registered\");\n        require(_sigs.length > 0, \"Implementations: empty signatures array\");\n\n        for (uint256 i = 0; i < _sigs.length; i++) {\n            bytes4 _sig = _sigs[i];\n            require(_sig != bytes4(0), \"Implementations: invalid function signature\");\n            require(sigImplementations[_sig] == address(0), \"Implementations: signature already registered\");\n            sigImplementations[_sig] = _implementation;\n        }\n\n        implementationSigs[_implementation] = _sigs;\n        emit LogAddImplementation(_implementation, _sigs);\n    }\n\n    /**\n     * @dev Remove an implementation and its associated function signatures\n     * @param _implementation Address of the implementation to remove\n     */\n    function removeImplementation(address _implementation) external isAdmin {\n        require(_implementation != address(0), \"Implementations: invalid implementation address\");\n        require(implementationSigs[_implementation].length != 0, \"Implementations: implementation not found\");\n        require(_implementation != defaultImplementation, \"Implementations: cannot remove default implementation\");\n\n        bytes4[] memory sigs = implementationSigs[_implementation];\n        for (uint256 i = 0; i < sigs.length; i++) {\n            bytes4 sig = sigs[i];\n            delete sigImplementations[sig];\n        }\n\n        delete implementationSigs[_implementation];\n        emit LogRemoveImplementation(_implementation, sigs);\n    }\n}\n\n/**\n * @title TadleImplementations\n * @dev Implementation registry contract with getter functions\n */\ncontract TadleImplementations is Ownable2Step, Implementations {\n    constructor() Ownable(msg.sender) {}\n\n    /**\n     * @dev Initialize the contract with auth contract address\n     * @param _auth Address of the auth contract for access control\n     */\n    function initialize(address _auth) external onlyOwner initializer {\n        require(_auth != address(0), \"TadleImplementations: invalid auth address\");\n        auth = IAuth(_auth);\n    }\n\n    /**\n     * @dev Get implementation address for a function signature\n     * @param _sig Function signature to lookup\n     * @return Implementation address or default implementation if not found\n     */\n    function getImplementation(bytes4 _sig) external view returns (address) {\n        address _implementation = sigImplementations[_sig];\n        return _implementation == address(0) ? defaultImplementation : _implementation;\n    }\n\n    /**\n     * @dev Get all function signatures for an implementation\n     * @param _impl Implementation address to lookup\n     * @return Array of function signatures\n     */\n    function getImplementationSigs(address _impl) external view returns (bytes4[] memory) {\n        return implementationSigs[_impl];\n    }\n\n    /**\n     * @dev Get specific implementation for a function signature\n     * @param _sig Function signature to lookup\n     * @return Implementation address (returns zero address if not found)\n     */\n    function getSigImplementation(bytes4 _sig) external view returns (address) {\n        return sigImplementations[_sig];\n    }\n}\n"
     }
 }

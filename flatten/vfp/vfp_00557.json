@@ -1,55 +1,35 @@
 {
     "vfp_id": "vfp_00557",
-    "project_name": "ackee-blockchain-everstake-eth2-batch-deposit-report.pdf",
+    "project_name": "Lido V3 _ Consensys Diligence.md",
     "findings": [
         {
             "id": 0,
             "category": {
                 "1": [
-                    "CWE-707"
+                    "CWE-693"
                 ],
                 "2": [
-                    "CWE-20"
+                    "CWE-345"
                 ],
                 "3": [
-                    "CWE-1287"
+                    "CWE-346"
                 ]
             },
-            "title": "Limited deposit validation",
-            "description": "The BatchDepositConsolidation contract lacks sufficient input validation for critical parameters. Specifically, it does not verify that the withdrawal address is not a zero address and does not validate the type of withdrawal. Additionally, it does not check whether the number of deposits in the batch is non-zero, which could allow empty transactions.\nThe root cause is the absence of proper input validation checks in the `batchDeposit` function. This omission increases the risk of accidental misconfiguration, which could lead to invalid validator deposits.\nAn attacker or user could exploit this by providing a zero address as the withdrawal credential, resulting in funds being deposited to an invalid or non-recoverable address. Similarly, submitting an empty batch could waste gas without meaningful effect.\nThe impact of this vulnerability is primarily on fund safety and operational correctness. Invalid deposits could result in irreversible loss of funds due to misconfigured withdrawal credentials. However, since no direct fund theft or system compromise is possible, the severity is classified as informational.\n",
-            "severity": "Informational",
+            "title": "PinnedBeaconProxy Can Hide Malicious Implementation via Constructor",
+            "description": "The vulnerability allows an attacker to deploy a malicious staking vault implementation by manipulating the constructor of the PinnedBeaconProxy, which is otherwise expected to point to a legitimate implementation. The root cause lies in the fact that the VaultHub validates only the proxy's codehash and the isOssified() status from the implementation, but does not verify the actual pinned implementation address in storage. Since the constructor of the proxy is not part of the runtime bytecode, an attacker can craft a malicious constructor that pre-initializes the PINNED_BEACON_STORAGE_SLOT with a malicious implementation address. This implementation can return false for isOssified(), bypassing the VaultHub’s checks. Once connected, the attacker can mint stETH against non-existent collateral and then drain all funds from the vault, leading to a loss of funds for the Lido protocol.\n",
+            "severity": "Critical",
             "location": [
-                "ETH2BatchDepositConsolidation.sol::batchDeposit#23"
+                "PinnedBeaconProxy.sol::constructor#L25-L39",
+                "PinnedBeaconUtils.sol::getPinnedImplementation#L16-L30",
+                "StakingVault.sol::isOssified#L180-L182",
+                "PinnedBeaconUtils.sol::ossified#L36-L38"
             ],
             "files": [
-                "eth2-batch-deposit-contract/contracts/ETH2BatchDepositConsolidation.sol"
-            ]
-        },
-        {
-            "id": 1,
-            "category": {
-                "1": [
-                    "CWE-707"
-                ],
-                "2": [
-                    "CWE-20"
-                ],
-                "3": [
-                    "CWE-1288"
-                ]
-            },
-            "title": "Missing cumulative deposit funds check",
-            "description": "The `batchDeposit` function does not validate that the total ETH sent with the transaction (msg.value) matches the sum of all deposit values specified in the `values` array. This deviates from the expected behavior where the total ETH should exactly cover all deposits.\nThe root cause is the lack of a validation check comparing `msg.value` to the computed sum of `values`. The official ETH2 Deposit Contract only enforces loose bounds on the value, not exact matching, so this check must be enforced at the caller level.\nAn attacker could exploit this by sending less ETH than required, relying on the contract's existing balance to cover the shortfall, effectively stealing value from previous deposits. Alternatively, sending excess ETH would leave funds stranded in the contract with no withdrawal mechanism.\nThe impact includes potential loss of funds due to underpayment exploiting residual balances, transaction failures from underfunding, or permanent locking of excess funds. While no direct theft mechanism exists, the risk of fund loss justifies the finding, though it remains at Info severity due to the narrow exploit conditions.\n",
-            "severity": "Informational",
-            "location": [
-                "ETH2BatchDepositConsolidation.sol::batchDeposit#41-61"
-            ],
-            "files": [
-                "eth2-batch-deposit-contract/contracts/ETH2BatchDepositConsolidation.sol"
+                "core/contracts/0.8.25/vaults/PinnedBeaconProxy.sol"
             ]
         }
     ],
     "affected_files": {
-        "ETH2BatchDepositConsolidation.sol": "// SPDX-License-Identifier: BSD-3-Clause-1\npragma solidity 0.8.30;\n\nimport \"./interfaces/IDepositContract.sol\";\n\ncontract BatchDepositConsolidation {\n    IDepositContract public immutable depositContract;\n    \n    uint constant private pubkeyLength = 48;\n    uint constant private signatureLength = 96;\n    uint constant private depositDataRootLength = 32;\n    uint constant private depositArgsLength =\n        pubkeyLength +\n        signatureLength +\n        depositDataRootLength;\n\n    constructor(IDepositContract _depositContract) {\n        require(address(_depositContract) != address(0),\n                \"deposit contract\");\n        depositContract = _depositContract;   \n    }\n\n    function batchDeposit(uint validUntil, address withdrawAddress, bytes1 withdrawType, uint256[] calldata values, bytes calldata args) external payable {\n        require(\n            block.timestamp < validUntil,\n            \"deposit data agreed upon deadline\");\n        require(\n            args.length % depositArgsLength == 0,\n            \"wrong input\"\n        );\n        uint count = args.length / depositArgsLength;\n        require(count == values.length, \"mismatched num of args\");\n\n        uint signatureStart;\n        uint depositDataRootStart;\n        uint depositDataRootEnd;\n\n        bytes memory rawWithdrawAuthority = abi.encodePacked(withdrawType, hex\"0000000000000000000000\", withdrawAddress);\n\n        for (uint j = 0; j < count; j++) {\n            unchecked\n            {\n                signatureStart = j * depositArgsLength + pubkeyLength;\n                depositDataRootStart = signatureStart + signatureLength;\n                depositDataRootEnd = depositDataRootStart + depositDataRootLength;\n            }\n    \n            depositContract.deposit{value: values[j] }(\n                args[j * depositArgsLength : signatureStart],\n                rawWithdrawAuthority,\n                args[signatureStart : depositDataRootStart],\n                // bytes32 depositDataRoot\n                bytes32(args[depositDataRootStart : depositDataRootEnd])\n            );\n        }\n    }\n}\n"
+        "PinnedBeaconProxy.sol": "// SPDX-FileCopyrightText: 2025 Lido <info@lido.fi>\n// SPDX-License-Identifier: GPL-3.0\n\n// See contracts/COMPILERS.md\npragma solidity 0.8.25;\n\nimport {IBeacon} from \"@openzeppelin/contracts-v5.2/proxy/beacon/IBeacon.sol\";\nimport {BeaconProxy} from \"@openzeppelin/contracts-v5.2/proxy/beacon/BeaconProxy.sol\";\nimport {PinnedBeaconUtils} from \"./lib/PinnedBeaconUtils.sol\";\n\n/**\n * @title PinnedBeaconProxy\n * @author Lido\n * @notice\n *\n * PinnedBeaconProxy is an extended version of OpenZeppelin's BeaconProxy that adds the ability\n * to \"pin\" (ossify) specific implementation versions for individual proxy instances.\n *\n * Implementation details:\n * - Uses PinnedBeaconUtils library to manage pinned implementation state\n * - Pinned implementation is stored in a storage slot (keccak256(\"stakingVault.proxy.pinnedBeacon\") - 1)\n * - When ossified, the proxy will always use the pinned implementation instead of the beacon's implementation\n *\n */\ncontract PinnedBeaconProxy is BeaconProxy {\n    constructor(address beacon, bytes memory data) BeaconProxy(beacon, data) payable {}\n\n    function _implementation() internal view virtual override returns (address) {\n        address pinnedImpl = PinnedBeaconUtils.getPinnedImplementation();\n        if (pinnedImpl != address(0)) {\n            return pinnedImpl;\n        }\n        return IBeacon(_getBeacon()).implementation();\n    }\n\n    function implementation() external view returns (address) {\n        return _implementation();\n    }\n}\n"
     }
 }

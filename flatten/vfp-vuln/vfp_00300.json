@@ -1,5 +1,5 @@
 {
-    "vfp_id": "vfp_00616",
+    "vfp_id": "vfp_00300",
     "project_name": "ackee-blockchain-vfat-sickle-report.pdf",
     "findings": [
         {
@@ -45,68 +45,6 @@
             ],
             "files": [
                 "sickle-public/contracts/SickleRegistry.sol"
-            ]
-        },
-        {
-            "id": 9,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-573"
-                ],
-                "3": [
-                    "CWE-475"
-                ]
-            },
-            "title": "Incorrect usage of Initializable",
-            "description": "The Sickle.sol contract incorrectly uses the Initializable pattern by applying the initializer modifier to both the Multicall constructor and the Sickle constructor, as well as having a separate initialize function. This violates the OpenZeppelin Initializable contract's warning against multiple initializers, risking multiple initializations, callable initialization functions post-deployment, and undefined behavior in proxy patterns. The root cause is a misunderstanding of upgradeable contract patterns. This could allow malicious re-initialization, potentially changing ownership or critical parameters after deployment. The impact includes potential loss of control over the contract, fund loss, or permanent corruption of contract state, especially in an upgradeable architecture.\n",
-            "severity": "Informational",
-            "location": [
-                "Sickle.sol::constructor",
-                "Sickle.sol::initialize"
-            ],
-            "files": [
-                "sickle-public/contracts/Sickle.sol"
-            ]
-        },
-        {
-            "id": 20,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ]
-            },
-            "title": "Usage of magic constants",
-            "description": "The SickleRegistry and FeesLib contracts use magic numbers like 500 (for 5% fee cap) and 10_000 (for basis points) without defining named constants. The root cause is poor code readability practices. Magic constants make the code harder to understand and maintain, as their meaning is not immediately clear. For example, 500 could be misinterpreted without the comment. The impact is reduced code clarity and increased risk of errors during updates (e.g., changing fee limits incorrectly). Using named constants like MAX_FEE would improve transparency and safety.\n",
-            "severity": "Informational",
-            "location": [
-                "SickleRegistry.sol::setFees#126",
-                "FeesLib.sol#59"
-            ],
-            "files": [
-                "sickle-public/contracts/SickleRegistry.sol"
-            ]
-        },
-        {
-            "id": 28,
-            "category": {
-                "1": [
-                    "CWE-710"
-                ],
-                "2": [
-                    "CWE-1164"
-                ]
-            },
-            "title": "Redundant function",
-            "description": "The _Sickle_initialize function in Sickle.sol acts solely as a pass-through to _SickleStorage_initialize without adding any logic or validation. The cause is that the function was created unnecessarily, increasing code complexity without benefit. This redundancy cannot be exploited but may confuse developers about the initialization flow. The impact is on code maintainability and gas efficiency during deployment due to unnecessary function calls, though minimal.\n",
-            "severity": "Informational",
-            "location": [
-                "Sickle.sol::_Sickle_initialize#34-39"
-            ],
-            "files": [
-                "sickle-public/contracts/Sickle.sol"
             ]
         }
     ],
