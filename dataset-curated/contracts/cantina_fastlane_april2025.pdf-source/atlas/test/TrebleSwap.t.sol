@@ -437,7 +437,6 @@ contract TrebleSwapTest is BaseTest {
             control: address(trebleSwapControl),
             callConfig: trebleSwapControl.CALL_CONFIG(),
             dappGasLimit: trebleSwapControl.getDAppGasLimit(),
-            solverGasLimit: trebleSwapControl.getSolverGasLimit(),
             bundlerSurchargeRate: trebleSwapControl.getBundlerSurchargeRate(),
             sessionKey: address(0),
             data: userOpData,

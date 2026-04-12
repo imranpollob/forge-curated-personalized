@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT 
 pragma solidity ^0.8.0;
 
-import "./interfaces/IZenToken.sol";
+import "./ZenToken.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @title EONBackupVault
@@ -31,7 +31,7 @@ contract EONBackupVault is Ownable {
     // Tracks rewarded addresses (index to next address to reward)
     uint256 private nextRewardIndex;
 
-    IZenToken public zenToken;
+    ZenToken public zenToken;
 
     error AddressNotValid();
     error CumulativeHashNotValid();
@@ -79,12 +79,12 @@ contract EONBackupVault is Ownable {
     function setERC20(address addr) public onlyOwner {  
         if (address(zenToken) != address(0)) revert UnauthorizedOperation();  //ERC-20 address already set
         if(addr == address(0)) revert AddressNotValid();
-        zenToken = IZenToken(addr);
+        zenToken = ZenToken(addr);
     }
     
-    /// @notice Distribute ZEN for the next (max) "maxCount" addresses, until we have reached the end of the list
+    /// @notice Distribute ZEN for the next (max) 500 addresses, until we have reached the end of the list
     ///         Can be executed only when we have reached the planned cumulativeHashCheckpoint (meaning all data has been loaded)
-    function distribute(uint256 maxCount) public onlyOwner {
+    function distribute() public onlyOwner {
         if (cumulativeHashCheckpoint == bytes32(0)) revert CumulativeHashCheckpointNotSet();  
         if (address(zenToken) == address(0)) revert ERC20NotSet();
         if (_cumulativeHash != cumulativeHashCheckpoint) revert CumulativeHashNotValid(); //Loaded data not matching - distribution locked
@@ -92,7 +92,7 @@ contract EONBackupVault is Ownable {
 
         uint256 count = 0;
         uint256 _nextRewardIndex = nextRewardIndex;
-        while (_nextRewardIndex != addressList.length && count != maxCount) {
+        while (_nextRewardIndex != addressList.length && count != 500) {
             address addr = addressList[_nextRewardIndex];      
             uint256 amount = balances[addr];
             if (amount > 0) {                
@@ -112,9 +112,8 @@ contract EONBackupVault is Ownable {
 
     /// @notice Return true if admin is able to distribute more
     function moreToDistribute() public view  returns (bool) { 
-        return (address(zenToken) != address(0)) && 
-               (_cumulativeHash != bytes32(0)) &&
-               _cumulativeHash == cumulativeHashCheckpoint && 
-               nextRewardIndex <  addressList.length;
+        return _cumulativeHash != bytes32(0) &&
+                _cumulativeHash == cumulativeHashCheckpoint && 
+                  nextRewardIndex <  addressList.length;
     }
 }

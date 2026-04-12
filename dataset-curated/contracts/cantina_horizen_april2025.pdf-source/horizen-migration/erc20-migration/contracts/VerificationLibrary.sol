@@ -25,12 +25,9 @@ library VerificationLibrary {
         bytes32 s;
         uint8 v = uint8(hexSignature[0]);
         assembly {       
-            r := mload(add(hexSignature, 33)) //  bytes 1-32
+            r := mload(add(hexSignature, 33)) //  bytes 1-33
             s := mload(add(hexSignature, 65)) // bytes 33-65 bytes
         }
-        // Rejects the “high-s” twin ( s′ = n − s ) that signs the very same message, to avoid S-malleability issues
-        if (uint256(s) > 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0)
-            revert InvalidSignature();
         return Signature({r: r, s: s, v: v});
     }
 

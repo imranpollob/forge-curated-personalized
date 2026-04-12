@@ -3,16 +3,14 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./interfaces/IVesting.sol";
 
 /// @title LinearTokenVesting
 /// @notice This contract implements the vesting strategy for the remaining ZEN supply.  
-contract LinearTokenVesting is Ownable, IVesting {
-    
-    uint8 private _allowedOwnershipTransfers = 2;
-
+contract LinearTokenVesting is Ownable {
+ 
     ERC20 public token;
     address public beneficiary;
+    address public immutable admin;
 
     uint256 public amountForEachClaim;
     uint256 public startTimestamp;
@@ -20,8 +18,8 @@ contract LinearTokenVesting is Ownable, IVesting {
     uint256 public intervalsToClaim;
     uint256 public intervalsAlreadyClaimed;
 
-    event Claimed(address indexed claimer, address indexed beneficiary, uint256 claimAmount, uint256 timestamp);
-    event ChangedBeneficiary(address indexed newBeneficiary, address indexed oldBeneficiary);
+    event Claimed(uint256 claimAmount, uint256 timestamp);
+    event ChangedBeneficiary(address newBeneficiary, address oldBeneficiary);
     event ChangedVestingParams(
                                 uint256 newTimeBetweenClaims, 
                                 uint256 newIntervalsToClaim, 
@@ -40,15 +38,26 @@ contract LinearTokenVesting is Ownable, IVesting {
     error VestingNotStartedYet();
     error VestingAlreadyStarted();
     error UnauthorizedAccount(address account);
-    error ImmutableOwner();
+
+
+    modifier isAdmin() {
+        // Checks that the calling account has the admin role
+        if (msg.sender != admin) {
+            revert UnauthorizedAccount(msg.sender);
+        }
+        _;
+    }
 
     /// @notice Smart contract constructor
+    /// @param _admin the account that has the rights to change the vesting parameters or the beneficiary
     /// @param _beneficiary the account that will receive the vested zen
     /// @param _timeBetweenClaims The minimum time in seconds that must be waited between claims
     /// @param _intervalsToClaim The number of vesting periods 
-    constructor(address _beneficiary, uint256 _timeBetweenClaims, uint256 _intervalsToClaim) Ownable(msg.sender) {
+    constructor(address _admin, address _beneficiary, uint256 _timeBetweenClaims, uint256 _intervalsToClaim) Ownable(msg.sender) {
         _setBeneficiary(_beneficiary);
         _setVestingParams(_timeBetweenClaims, _intervalsToClaim);
+
+        admin = _admin;
     }
 
     /// @notice Set official ZEN ERC-20 smart contract that will be used for initial transfer and start vesting
@@ -91,14 +100,14 @@ contract LinearTokenVesting is Ownable, IVesting {
             amountToClaimNow = token.balanceOf(address(this));
         }
 
-        emit Claimed(msg.sender, beneficiary, amountToClaimNow, block.timestamp);
+        emit Claimed(amountToClaimNow, block.timestamp);
 
         token.transfer(beneficiary, amountToClaimNow);
     }
 
     /// @notice Changes the beneficiary of the vesting
     /// @param newBeneficiary Address of the new beneficiary
-    function changeBeneficiary(address newBeneficiary) public onlyOwner {
+    function changeBeneficiary(address newBeneficiary) public isAdmin {
         if (intervalsAlreadyClaimed == intervalsToClaim) revert UnauthorizedOperation();
         if (newBeneficiary == address(token)) revert TokenAndBeneficiaryCantBeTheSame();
 
@@ -111,7 +120,7 @@ contract LinearTokenVesting is Ownable, IVesting {
     /// in a time equal to newTimeBetweenClaims * newNumberOfIntervalsToClaim. Note that the remaining supply includes the amounts already accrued but not claimed yet.
     /// @param newTimeBetweenClaims New duration in seconds of a vesting interval
     /// @param newNumberOfIntervalsToClaim Number of intervals that need to pass for vesting the remaining supply
-    function changeVestingParams(uint256 newTimeBetweenClaims, uint256 newNumberOfIntervalsToClaim) public onlyOwner {
+    function changeVestingParams(uint256 newTimeBetweenClaims, uint256 newNumberOfIntervalsToClaim) public isAdmin {
         if (intervalsAlreadyClaimed == intervalsToClaim) revert UnauthorizedOperation();
         uint256 oldTimeBetweenClaims = timeBetweenClaims;
         uint256 oldNumberOfIntervalsToClaim = intervalsToClaim;
@@ -143,11 +152,4 @@ contract LinearTokenVesting is Ownable, IVesting {
         timeBetweenClaims = newTimeBetweenClaims;
         intervalsToClaim = newNumberOfIntervalsToClaim;        
     }
-
-    function _transferOwnership(address newOwner) internal override {
-        if (_allowedOwnershipTransfers == 0) revert ImmutableOwner();
-
-        unchecked {--_allowedOwnershipTransfers;}
-        super._transferOwnership(newOwner);
-   }
 }

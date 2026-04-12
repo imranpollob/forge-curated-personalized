@@ -161,7 +161,6 @@ contract OuterHelpers is FastLaneOnlineInner {
             control: CONTROL,
             callConfig: CALL_CONFIG,
             dappGasLimit: getDAppGasLimit(),
-            solverGasLimit: getSolverGasLimit(),
             bundlerSurchargeRate: getBundlerSurchargeRate(),
             sessionKey: address(0),
             data: abi.encodeCall(this.swap, (swapIntent, baselineCall)),

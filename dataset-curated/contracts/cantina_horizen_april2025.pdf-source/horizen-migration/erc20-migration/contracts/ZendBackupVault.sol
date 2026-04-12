@@ -4,8 +4,7 @@ pragma solidity ^0.8.0;
 import {VerificationLibrary} from  './VerificationLibrary.sol';
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./VerificationLibrary.sol";
-import "./interfaces/IZenToken.sol";
+import "./ZenToken.sol";
 
 /// @title ZendBackupVault
 /// @notice This contract is used to store balances from old ZEND Mainchain, and, once all are loaded, it allows manual claiming in the new chain.
@@ -35,7 +34,7 @@ contract ZendBackupVault is Ownable {
     // Final expected Cumulative Hash, used for checkpoint, to unlock claim
     bytes32 public cumulativeHashCheckpoint;
 
-    IZenToken public zenToken;
+    ZenToken public zenToken;
 
     string private MESSAGE_CONSTANT;
     /// First part of the message to sign, needed for zen claim operation. It is composed by the token symbol + MESSAGE_CONSTANT
@@ -56,9 +55,9 @@ contract ZendBackupVault is Ownable {
     error InvalidPublicKeySize(uint256 size);
     error UnexpectedZeroPublicKey(PubKey);
     error InvalidPublicKey(uint256 index, uint256 xOrY, bytes32 expected, bytes32 received);
-    error InvalidDirectMultisigScript(uint256 requiredSignaturesInScript, uint256 totalSignaturesInScript);
 
-    event Claimed(address indexed claimer, address indexed destAddress, bytes20 zenAddress, uint256 amount);
+
+    event Claimed(address destAddress, bytes20 zenAddress, uint256 amount);
 
     /// @notice verify if we are in the state in which users can already claim
     modifier canClaim(address destAddress) {
@@ -119,7 +118,7 @@ contract ZendBackupVault is Ownable {
     function setERC20(address addr) public onlyOwner {
         if (address(zenToken) != address(0)) revert UnauthorizedOperation();  //ERC-20 address already set
         if(addr == address(0)) revert AddressNotValid();
-        zenToken = IZenToken(addr);
+        zenToken = ZenToken(addr);
         message_prefix = string(abi.encodePacked(zenToken.symbol(), MESSAGE_CONSTANT));
 
     }
@@ -130,14 +129,14 @@ contract ZendBackupVault is Ownable {
         
         balances[zenAddress] = 0;
         zenToken.transfer(destAddress, amount);
-        emit Claimed(msg.sender, destAddress, zenAddress, amount);
+        emit Claimed(destAddress, zenAddress, amount);
     }
 
     /// @notice Claim a P2PKH balance.
     /// @param  destAddress is the receiver of the funds
     /// @param  hexSignature is the signature of the claiming message. Must be generated in a compressed format to claim a zend address
     ///         generated with the public key in compressed format, or uncompressed otherwise.
-    ///         (Claiming message is predefined and composed by the concatenation of the message_prefix (token symbol + MESSAGE_CONSTANT) and the destination address in EIP-55 format (https://github.com/ethereum/ercs/blob/master/ERCS/erc-55.md) string)
+    ///         (Claiming message is predefined and composed by the concatenation of the message_prefix (token symbol + MESSAGE_CONSTANT) and the destination address in EIP-55 format (https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md) string)
     /// @param  pubKey are the first 32 bytes and second 32 bytes of the signing key (we use always the uncompressed format here)
     ///         Note: we pass the pubkey explicitly because the extraction from the signature would be GAS expensive.
     function claimP2PKH(address destAddress, bytes memory hexSignature, PubKey calldata pubKey) public canClaim(destAddress) {
@@ -161,21 +160,6 @@ contract ZendBackupVault is Ownable {
 
         _claim(destAddress, zenAddress);
     }
-
-    /// @notice Direct claim of special UTXOs generated deterministically from a BaseAddress. 
-    ///         This is a special usecase for users that can't sign a message, and requires they create this special UTXO in the old mainchain before the migration.
-    ///          Check documentation for details.
-    /// @param  baseDestAddress is the receiver of the funds. The zend address will be calculated from this one.
-    function claimDirect(address baseDestAddress) public canClaim(baseDestAddress) {
-        bytes memory addressToBytes = abi.encodePacked(baseDestAddress);
-        bytes20 zenAddress = _extractZenAddressFromScriptOrDestAddress(addressToBytes);
-
-        //check amount to claim
-        uint256 amount = balances[zenAddress];
-        if (amount == 0) revert NothingToClaim(zenAddress);
-
-        _claim(baseDestAddress, zenAddress);
-    }
     
     /// @notice Claim a P2SH balance.
     ///         destAddress is the receiver of the funds
@@ -194,7 +178,7 @@ contract ZendBackupVault is Ownable {
         if(hexSignatures.length != pubKeys.length) revert InvalidSignatureArrayLength(); //check method doc
         if(hexSignatures.length > 16) revert TooManySignatures(); //ZEND multisig scripts support up to 16 signatures
 
-        bytes20 zenAddress = _extractZenAddressFromScriptOrDestAddress(script);
+        bytes20 zenAddress = _extractZenAddressFromScript(script);
         //check amount to claim
         if (balances[zenAddress] == 0) revert NothingToClaim(zenAddress);
         uint256 minSignatures = uint256(uint8(script[0])) - 80;
@@ -229,36 +213,6 @@ contract ZendBackupVault is Ownable {
         _claim(destAddress, zenAddress);
     }
 
-    /// @notice Direct claim of special UTXOs to a multisignature partially generated deterministically from a BaseAddress. 
-    ///         This is a special usecase for users that can't sign a message, and requires they create this special UTXO in the old mainchain before the migration.
-    ///          Check documentation for details.
-    /// @param  script is the redeem script for the multisig wallet.
-    /// @param  baseDestAddress is the receiver of the funds. The zend address will be calculated from this one.
-    function claimDirectMultisig(bytes memory script, address baseDestAddress) public canClaim(baseDestAddress) {
-        //check amount to claim
-        bytes20 zenAddress = _extractZenAddressFromScriptOrDestAddress(script);
-        uint256 amount = balances[zenAddress];
-        if (amount == 0) revert NothingToClaim(zenAddress);
-
-        //generate derivative pub key from base address
-        bytes memory baseAddressToBytes = abi.encodePacked(baseDestAddress);
-        bytes32 pubKeyXFromBaseAddress = sha256(baseAddressToBytes);
-
-        //check is multisig 1 of 2
-        uint256 minSignatures = uint256(uint8(script[0])) - 80;
-        uint256 total = uint256(uint8(script[script.length - 2])) - 80;
-        if(minSignatures != 1 || total != 2) revert InvalidDirectMultisigScript(minSignatures, total);
-
-        //extract second key "x" from script
-        uint256 firstPubKeySize = uint256(uint8(script[1]));
-        uint256 start = firstPubKeySize + 4; //skip first OP (+1), skip size of first key (+1), first key (firstPubKeySize), size of second key (+1) and prefix of second key (+1)
-        bytes32 key = _extractBytes32FromBytes(script, start);
-
-        if(pubKeyXFromBaseAddress != key) revert InvalidPublicKey(1, 0, key, pubKeyXFromBaseAddress);
-
-        _claim(baseDestAddress, zenAddress);
-    }
-
     /// @notice verify public keys from multisignature script
     function _verifyPubKeysFromScript(bytes memory script, PubKey[] calldata pubKeys) internal pure {
         if(script.length < 2) revert InvalidScriptLength();
@@ -277,23 +231,41 @@ contract ZendBackupVault is Ownable {
             if(pubKeys[i].x != 0 && pubKeys[i].y != 0) { //we check pub keys only if both x and y are != 0 
                 //extract key
                 //first 32 bytes
+                bytes32 firstPart;
                 uint256 firstPartStart = pos+1;
-                bytes32 firstPart = _extractBytes32FromBytes(script, firstPartStart);
+                assembly {
+                    let resultPtr := mload(0x40)
+                    let sourcePtr := add(script, 0x20)
+                    let offset := add(sourcePtr, firstPartStart)
 
+                    mstore(resultPtr, mload(offset))
+                    firstPart := mload(resultPtr)
+                }
                 if(pubKeys[i].x != firstPart) revert InvalidPublicKey(i, 0, firstPart, pubKeys[i].x);
 
                 //second part
                 if(nextPubKeySize == HORIZEN_UNCOMPRESSED_PUBLIC_KEY_LENGTH) { //uncompressed case
+                    bytes32 secondPart;
                     uint256 secondPartStart = pos + 33;
-                    bytes32 secondPart = _extractBytes32FromBytes(script, secondPartStart);
-                    
+                    assembly {
+                        let resultPtr := mload(0x40)
+                        let sourcePtr := add(script, 0x20)
+                        let offset := add(sourcePtr, secondPartStart)
+
+                        mstore(resultPtr, mload(offset))
+                        secondPart := mload(resultPtr)
+                    }
                     if(pubKeys[i].y != secondPart) revert InvalidPublicKey(i, 1, secondPart, pubKeys[i].y);
                 }
                 else { //in compressed case, we just check sign
                     uint8 sign;
                     assembly {
-                        let offset := add(add(script, 0x20), pos) // data start + pos
-                        sign := byte(0, mload(offset))            // take the LS byte
+                        let resultPtr := mload(0x40)
+                        let sourcePtr := add(script, 0x01)
+                        let offset := add(sourcePtr, pos) //sign is at first byte
+
+                        mstore(resultPtr, mload(offset))
+                        sign := mload(resultPtr)
                     }
                     uint8 ySign = VerificationLibrary.signByte(pubKeys[i].y);
                     if(sign != ySign) revert InvalidPublicKey(i, 1, bytes32(uint256(sign)), bytes32(uint256(ySign)));
@@ -305,21 +277,10 @@ contract ZendBackupVault is Ownable {
         }
     }
 
-    /// @notice extract zen address from multisignature script or address (direct claim)
-    function _extractZenAddressFromScriptOrDestAddress(bytes memory script) internal pure returns(bytes20) {
+    /// @notice extract zen address from multisignature script
+    function _extractZenAddressFromScript(bytes memory script) internal pure returns(bytes20) {
         bytes32 scriptHash = sha256(script);
         scriptHash = ripemd160(abi.encode(scriptHash));
         return bytes20(scriptHash); 
-    }
-
-    /// @notice extract a bytes32 object from a bytes object starting from the given position
-    function _extractBytes32FromBytes(bytes memory script, uint256 start) internal pure returns(bytes32) {
-        bytes32 ret;
-        assembly {
-            let sourcePtr := add(script, 0x20)
-            let offset := add(sourcePtr, start)
-            ret := mload(offset)
-        }
-        return ret;
     }
 }

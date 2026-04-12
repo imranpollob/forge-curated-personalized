@@ -32,10 +32,9 @@ contract kpkSharesIntegrationTest is kpkSharesTestBase {
         // 4. Create a redemption request
         uint256 redeemShares = sharesMinted / 2; // Redeem half
         vm.startPrank(alice);
-        // Use previewRedemption which accounts for redemption fees
         uint256 redeemRequestId = kpkSharesContract.requestRedemption(
             redeemShares,
-            kpkSharesContract.previewRedemption(redeemShares, SHARES_PRICE, address(usdc)),
+            kpkSharesContract.sharesToAssets(redeemShares, SHARES_PRICE, address(usdc)),
             address(usdc),
             alice
         );
@@ -88,10 +87,9 @@ contract kpkSharesIntegrationTest is kpkSharesTestBase {
         uint256 aliceRedeemShares = aliceShares / 2;
 
         vm.startPrank(alice);
-        // Use previewRedemption which accounts for redemption fees
         uint256 aliceRedeemRequestId = kpkSharesContract.requestRedemption(
             aliceRedeemShares,
-            kpkSharesContract.previewRedemption(aliceRedeemShares, SHARES_PRICE, address(usdc)),
+            kpkSharesContract.sharesToAssets(aliceRedeemShares, SHARES_PRICE, address(usdc)),
             address(usdc),
             alice
         );
@@ -152,13 +150,12 @@ contract kpkSharesIntegrationTest is kpkSharesTestBase {
         skip(timeElapsed);
 
         uint256 initialFeeBalance = kpkSharesWithFees.balanceOf(feeRecipient);
-        uint256 redeemAmount = shares / 4;
 
         // Create redeem request to trigger fee charging
         vm.startPrank(alice);
-        uint256 minAssetsOut =
-            _calculateAdjustedExpectedAssets(kpkSharesWithFees, redeemAmount, SHARES_PRICE, address(usdc), timeElapsed);
-        uint256 requestId = kpkSharesWithFees.requestRedemption(redeemAmount, minAssetsOut, address(usdc), alice);
+        uint256 requestId = kpkSharesWithFees.requestRedemption(
+            shares / 4, kpkSharesWithFees.sharesToAssets(shares / 4, SHARES_PRICE, address(usdc)), address(usdc), alice
+        );
         vm.stopPrank();
 
         // Process the request to trigger all fee types
@@ -168,25 +165,21 @@ contract kpkSharesIntegrationTest is kpkSharesTestBase {
         uint256[] memory rejectRequests = new uint256[](0);
         kpkSharesWithFees.processRequests(approveRequests, rejectRequests, address(usdc), SHARES_PRICE);
 
-        assertGt(
-            kpkSharesWithFees.balanceOf(feeRecipient),
-            initialFeeBalance,
-            "Fee receiver should have received shares as fees"
-        );
+        uint256 finalFeeBalance = kpkSharesWithFees.balanceOf(feeRecipient);
+        assertGt(finalFeeBalance, initialFeeBalance, "Fee receiver should have received shares as fees");
 
         // 3. Create and process another redemption request for more fee testing
-        uint256 redeemShares = kpkSharesWithFees.balanceOf(alice) / 2;
-        // Calculate assets using previewRedemption which accounts for redemption fees
-        uint256 assetsOut = kpkSharesWithFees.previewRedemption(redeemShares, SHARES_PRICE, address(usdc));
-        vm.startPrank(alice);
-        requestId = kpkSharesWithFees.requestRedemption(
-            redeemShares, assetsOut > 100 ? assetsOut - 100 : 1, address(usdc), alice
-        );
-        vm.stopPrank();
+        uint256 remainingShares = kpkSharesWithFees.balanceOf(alice);
+        uint256 redeemShares = remainingShares / 2;
+        uint256 additionalRequestId = _testRequestProcessing(false, alice, redeemShares, SHARES_PRICE, false);
 
         vm.prank(ops);
-        approveRequests[0] = requestId;
-        kpkSharesWithFees.processRequests(approveRequests, rejectRequests, address(usdc), SHARES_PRICE);
+        uint256[] memory additionalApproveRequests = new uint256[](1);
+        additionalApproveRequests[0] = additionalRequestId;
+        uint256[] memory additionalRejectRequests = new uint256[](0);
+        kpkSharesWithFees.processRequests(
+            additionalApproveRequests, additionalRejectRequests, address(usdc), SHARES_PRICE
+        );
 
         // 4. Check final balances
         uint256 finalShares = kpkSharesWithFees.balanceOf(alice);
@@ -211,8 +204,7 @@ contract kpkSharesIntegrationTest is kpkSharesTestBase {
 
         vm.startPrank(ops);
         kpkSharesContract.updateAsset(address(asset1), true, true, true);
-        // Asset2 needs canDeposit: true to be used for subscriptions
-        kpkSharesContract.updateAsset(address(asset2), true, true, true);
+        kpkSharesContract.updateAsset(address(asset2), false, true, true);
         vm.stopPrank();
 
         // 2. Mint assets to users
@@ -270,7 +262,8 @@ contract kpkSharesIntegrationTest is kpkSharesTestBase {
         asset1.mint(carol, 100e8);
         asset1.approve(address(kpkSharesContract), type(uint256).max);
 
-        uint256 shares = 100e18; // Approximate shares for 100e8 assets at SHARES_PRICE
+        uint256 shares = kpkSharesContract.assetsToShares(100e8, SHARES_PRICE, address(asset1));
+
         vm.expectRevert(abi.encodeWithSelector(IkpkShares.NotAnApprovedAsset.selector));
         kpkSharesContract.requestSubscription(100e8, shares, address(asset1), carol);
         vm.stopPrank();
@@ -442,9 +435,8 @@ contract kpkSharesIntegrationTest is kpkSharesTestBase {
 
         // Redeem large amount - this will transfer shares to escrow
         vm.startPrank(alice);
-        // Use previewRedemption which accounts for redemption fees
         uint256 redeemRequestId = kpkSharesContract.requestRedemption(
-            shares, kpkSharesContract.previewRedemption(shares, SHARES_PRICE, address(usdc)), address(usdc), alice
+            shares, kpkSharesContract.sharesToAssets(shares, SHARES_PRICE, address(usdc)), address(usdc), alice
         );
         vm.stopPrank();
 

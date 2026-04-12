@@ -77,7 +77,6 @@ contract TxBuilder {
             control: control,
             callConfig: IDAppControl(control).CALL_CONFIG(),
             dappGasLimit: IDAppControl(control).getDAppGasLimit(),
-            solverGasLimit: IDAppControl(control).getSolverGasLimit(),
             bundlerSurchargeRate: IDAppControl(control).getBundlerSurchargeRate(),
             sessionKey: address(0),
             data: data,

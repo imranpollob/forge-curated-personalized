@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./kpkShares.TestBase.sol";
-import {IAccessControl} from "@openzeppelin/contracts/access/IAccessControl.sol";
+import "@openzeppelin/contracts/access/IAccessControl.sol";
 
 /// @notice Tests for kpkShares administrative functionality
 contract kpkSharesAdminTest is kpkSharesTestBase {
@@ -80,34 +80,6 @@ contract kpkSharesAdminTest is kpkSharesTestBase {
         assertEq(kpkSharesContract.redemptionRequestTtl(), expectedTtl);
     }
 
-    /// @notice Test setSubscriptionRequestTtl with value within limit (branch coverage)
-    /// @dev Tests the false branch of ternary: ttl <= MAX_TTL
-    function testSetSubscriptionRequestTtlWithinLimit() public {
-        uint64 ttl = 3 days; // Within 7 day limit
-        uint64 initialTtl = kpkSharesContract.subscriptionRequestTtl();
-
-        vm.prank(admin);
-        kpkSharesContract.setSubscriptionRequestTtl(ttl);
-
-        // Should set to ttl (not MAX_TTL) since ttl <= MAX_TTL
-        assertEq(kpkSharesContract.subscriptionRequestTtl(), ttl);
-        assertNotEq(kpkSharesContract.subscriptionRequestTtl(), initialTtl);
-    }
-
-    /// @notice Test setRedemptionRequestTtl with value within limit (branch coverage)
-    /// @dev Tests the false branch of ternary: ttl <= MAX_TTL
-    function testSetRedemptionRequestTtlWithinLimit() public {
-        uint64 ttl = 4 days; // Within 7 day limit
-        uint64 initialTtl = kpkSharesContract.redemptionRequestTtl();
-
-        vm.prank(admin);
-        kpkSharesContract.setRedemptionRequestTtl(ttl);
-
-        // Should set to ttl (not MAX_TTL) since ttl <= MAX_TTL
-        assertEq(kpkSharesContract.redemptionRequestTtl(), ttl);
-        assertNotEq(kpkSharesContract.redemptionRequestTtl(), initialTtl);
-    }
-
     // ============================================================================
     // Role Management Tests
     // ============================================================================
@@ -144,14 +116,14 @@ contract kpkSharesAdminTest is kpkSharesTestBase {
         kpkSharesContract.revokeRole(OPERATOR, bob);
     }
 
-    function testHasRole() public view {
+    function testHasRole() public {
         assertTrue(kpkSharesContract.hasRole(DEFAULT_ADMIN_ROLE, admin));
         assertTrue(kpkSharesContract.hasRole(OPERATOR, ops));
         assertFalse(kpkSharesContract.hasRole(OPERATOR, alice));
         assertFalse(kpkSharesContract.hasRole(OPERATOR, bob));
     }
 
-    function testGetRoleAdmin() public view {
+    function testGetRoleAdmin() public {
         bytes32 roleAdmin = kpkSharesContract.getRoleAdmin(OPERATOR);
         assertEq(roleAdmin, DEFAULT_ADMIN_ROLE);
     }
@@ -492,15 +464,12 @@ contract kpkSharesAdminTest is kpkSharesTestBase {
         vm.startPrank(alice);
         usdc.approve(address(kpkSharesContract), depositAmount);
 
-        // Calculate expected shares using assetsToShares
-        // Note: When processRequests is called, fees may be charged first, which dilutes NAV
-        // This means fewer shares will be minted than calculated. We use 0 as minSharesOut
-        // to allow the validation to pass even if fees dilute the price slightly
-        uint256 expectedShares = kpkSharesContract.assetsToShares(depositAmount, SHARES_PRICE, address(usdc));
-
-        // Use 0 as minSharesOut to avoid validation failure due to fee dilution
-        // The actual shares minted will be based on the price after fees are charged
-        uint256 requestId = kpkSharesContract.requestSubscription(depositAmount, expectedShares, address(usdc), alice);
+        uint256 requestId = kpkSharesContract.requestSubscription(
+            depositAmount,
+            kpkSharesContract.assetsToShares(depositAmount, SHARES_PRICE, address(usdc)),
+            address(usdc),
+            alice
+        );
         vm.stopPrank();
         // Process the deposit to create shares
         vm.prank(ops);
@@ -538,56 +507,8 @@ contract kpkSharesAdminTest is kpkSharesTestBase {
         // This is tested indirectly through the recoverAssets function
     }
 
-    /// @notice Test _assetRecoverableAmount false branch: no pending requests (branch coverage)
-    /// @dev Tests the false branch when _hasPendingRequests returns false
-    function testAssetRecoverableAmountNoPendingRequests() public {
-        // Create a non-approved token with no pending requests
-        Mock_ERC20 recoveryToken = new Mock_ERC20("RECOVERY", 18);
-        uint256 recoveryAmount = 500;
-        recoveryToken.mint(address(kpkSharesContract), recoveryAmount);
-
-        // Ensure no pending requests for this token
-        // (it's not approved, so there can't be any)
-        assertEq(recoveryToken.balanceOf(address(kpkSharesContract)), recoveryAmount);
-
-        // Test recovery - should succeed since no pending requests
-        address[] memory assetsToRecover = new address[](1);
-        assetsToRecover[0] = address(recoveryToken);
-
-        uint256 safeBalanceBefore = recoveryToken.balanceOf(kpkSharesContract.portfolioSafe());
-        kpkSharesContract.recoverAssets(assetsToRecover);
-        uint256 safeBalanceAfter = recoveryToken.balanceOf(kpkSharesContract.portfolioSafe());
-
-        // Should recover since no pending requests (false branch of _hasPendingRequests)
-        assertEq(safeBalanceAfter, safeBalanceBefore + recoveryAmount, "Should recover when no pending requests");
-    }
-
-    /// @notice Test _assetRecoverableAmount false branch: no escrowed assets (branch coverage)
-    /// @dev Tests the false branch when escrowed == 0
-    function testAssetRecoverableAmountNoEscrowedAssets() public {
-        // Create a non-approved token with no escrowed assets
-        Mock_ERC20 recoveryToken = new Mock_ERC20("RECOVERY", 18);
-        uint256 recoveryAmount = 500;
-        recoveryToken.mint(address(kpkSharesContract), recoveryAmount);
-
-        // Ensure no escrowed assets (subscriptionAssets[token] == 0)
-        // Since it's not approved, subscriptionAssets should be 0
-        assertEq(kpkSharesContract.subscriptionAssets(address(recoveryToken)), 0, "Should have no escrowed assets");
-
-        // Test recovery - should succeed since no escrowed assets
-        address[] memory assetsToRecover = new address[](1);
-        assetsToRecover[0] = address(recoveryToken);
-
-        uint256 safeBalanceBefore = recoveryToken.balanceOf(kpkSharesContract.portfolioSafe());
-        kpkSharesContract.recoverAssets(assetsToRecover);
-        uint256 safeBalanceAfter = recoveryToken.balanceOf(kpkSharesContract.portfolioSafe());
-
-        // Should recover since no escrowed assets (false branch of escrowed > 0)
-        assertEq(safeBalanceAfter, safeBalanceBefore + recoveryAmount, "Should recover when no escrowed assets");
-    }
-
     /// @notice Test the _assetRecoverer function
-    function testAssetRecoverer() public pure {
+    function testAssetRecoverer() public {
         // The _assetRecoverer should return the safe address
         // We can't call it directly as it's internal, but we can verify
         // that the safe address is set correctly
@@ -733,133 +654,5 @@ contract kpkSharesAdminTest is kpkSharesTestBase {
             safeBalanceAfter, safeBalanceBefore + expectedRecovered, "Safe should have received only unlocked USDC"
         );
         assertEq(contractBalanceAfter, lockedUsdc, "Contract should still have locked USDC");
-    }
-
-    // ============================================================================
-    // Defensive Code Path Coverage Tests
-    // ============================================================================
-
-    /// @notice Test _checkValidRequest() with investor == address(0) branch
-    /// @dev This tests the defensive code path where a request has an invalid investor address
-    /// @dev Note: Due to proxy contract storage layout complexity, we test this indirectly
-    /// @dev by verifying that _checkValidRequest properly handles invalid states through processRequests
-    function testCheckValidRequestWithZeroAddressInvestor() public {
-        // Create a valid subscription request first
-        uint256 depositAmount = _usdcAmount(100);
-        vm.startPrank(alice);
-        usdc.approve(address(kpkSharesContract), depositAmount);
-        uint256 requestId = kpkSharesContract.requestSubscription(
-            depositAmount,
-            kpkSharesContract.assetsToShares(depositAmount, SHARES_PRICE, address(usdc)),
-            address(usdc),
-            alice
-        );
-        vm.stopPrank();
-
-        // Verify subscriptionAssets was set when the request was created
-        uint256 subscriptionAssetsBefore = kpkSharesContract.subscriptionAssets(address(usdc));
-        assertEq(subscriptionAssetsBefore, depositAmount, "Subscription assets should be set when request is created");
-
-        // For proxy contracts with complex inheritance, direct storage manipulation is difficult
-        // Instead, we'll test the behavior by manipulating the request status to a non-PENDING state
-        // which also triggers the _checkValidRequest false branch, demonstrating the defensive code works
-
-        // First, let's process the request normally to change its status
-        vm.prank(ops);
-        uint256[] memory approveRequests = new uint256[](1);
-        approveRequests[0] = requestId;
-        uint256[] memory rejectRequests = new uint256[](0);
-        kpkSharesContract.processRequests(approveRequests, rejectRequests, address(usdc), SHARES_PRICE);
-
-        // Now the request status is PROCESSED, not PENDING
-        // Try to process it again - _checkValidRequest should return false because status != PENDING
-        // This tests the same defensive logic path (the OR condition in _checkValidRequest)
-        vm.prank(ops);
-        kpkSharesContract.processRequests(approveRequests, rejectRequests, address(usdc), SHARES_PRICE);
-
-        // The request should be skipped (no revert, just silently skipped)
-        // This demonstrates that _checkValidRequest properly handles invalid states
-        // While we can't easily test investor == address(0) directly due to storage layout,
-        // we verify the defensive code path works for invalid request states
-
-        // Note: The investor == address(0) branch is defensive code that's difficult to test
-        // directly with proxy contracts, but the same defensive pattern is verified through
-        // testing invalid request status, which uses the same _checkValidRequest function
-    }
-
-    /// @notice Test _updateAsset() with both canDeposit and canRedeem false when asset does not exist
-    /// @dev This tests the defensive validation that prevents adding new assets with both flags false
-    function testUpdateAssetWithBothFlagsFalseForNewAsset() public {
-        // Create a new asset that doesn't exist in the contract
-        Mock_ERC20 newAsset = new Mock_ERC20("NEW_ASSET", 18);
-
-        // Try to add the asset with both canDeposit and canRedeem set to false
-        // This should revert with InvalidArguments
-        vm.prank(ops);
-        vm.expectRevert(abi.encodeWithSelector(IkpkShares.InvalidArguments.selector));
-        kpkSharesContract.updateAsset(address(newAsset), false, false, false);
-    }
-
-    /// @notice Test _shadowAsset() loop not finding asset (defensive code path)
-    /// @dev This tests the defensive code where the loop completes without finding the asset
-    /// @dev This should not happen in normal operation, but we test it for coverage
-    /// @dev We create an inconsistent state where the asset exists in the map but not in the array
-    function testShadowAssetLoopNotFindingAsset() public {
-        // First, add an asset normally
-        Mock_ERC20 testAsset = new Mock_ERC20("TEST_ASSET", 18);
-        vm.prank(ops);
-        kpkSharesContract.updateAsset(address(testAsset), true, true, true);
-
-        // Verify the asset is in the approved assets list
-        assertTrue(kpkSharesContract.isApprovedAsset(address(testAsset)));
-
-        // Get the storage slot for _approvedAssets array
-        // _approvedAssets is at slot 0 (first state variable)
-        bytes32 approvedAssetsSlot = bytes32(uint256(0));
-
-        // Get the length of the array
-        bytes32 lengthSlot = approvedAssetsSlot;
-        bytes32 lengthBytes = vm.load(address(kpkSharesContract), lengthSlot);
-        uint256 arrayLength = uint256(lengthBytes);
-
-        // Find the asset in the array
-        uint256 assetIndex = type(uint256).max; // Use max as "not found" marker
-        for (uint256 i = 0; i < arrayLength; i++) {
-            bytes32 elementSlot = bytes32(uint256(keccak256(abi.encode(approvedAssetsSlot))) + i);
-            bytes32 elementValue = vm.load(address(kpkSharesContract), elementSlot);
-            if (address(uint160(uint256(elementValue))) == address(testAsset)) {
-                assetIndex = i;
-                break;
-            }
-        }
-
-        // Remove the asset from the array by manipulating storage
-        // This creates an inconsistent state where the asset is in the map but not in the array
-        if (assetIndex != type(uint256).max && arrayLength > 1) {
-            // Swap with last element
-            bytes32 lastElementSlot = bytes32(uint256(keccak256(abi.encode(approvedAssetsSlot))) + (arrayLength - 1));
-            bytes32 lastElementValue = vm.load(address(kpkSharesContract), lastElementSlot);
-            bytes32 assetElementSlot = bytes32(uint256(keccak256(abi.encode(approvedAssetsSlot))) + assetIndex);
-            vm.store(address(kpkSharesContract), assetElementSlot, lastElementValue);
-
-            // Pop the last element by decrementing length
-            vm.store(address(kpkSharesContract), lengthSlot, bytes32(arrayLength - 1));
-        } else if (assetIndex != type(uint256).max && arrayLength == 1) {
-            // If it's the only element, just clear the length
-            vm.store(address(kpkSharesContract), lengthSlot, bytes32(0));
-        }
-
-        // Now try to remove the asset - this will call _shadowAsset
-        // The loop won't find the asset because we removed it from the array
-        // but it's still in the map, so _shadowAsset will complete without finding it
-        // This tests the defensive code path where the loop completes without break
-        vm.prank(ops);
-        // Ensure there are no pending requests and it's not the last asset
-        // We need at least one other asset (usdc) for this to work
-        kpkSharesContract.updateAsset(address(testAsset), false, false, false);
-
-        // The _shadowAsset function should have been called, and the loop should have
-        // completed without finding the asset (since we removed it from the array)
-        // This tests the defensive code path where the loop completes without break
     }
 }

@@ -8,6 +8,21 @@ interface IkpkShares is IERC165 {
     // Errors
     //
 
+    /// @notice Error when a transfer of shares is not allowed
+    error TransferNotAllowed();
+
+    /// @notice Error when the sender does not have sufficient assets to fulfill a request
+    error InsufficientAssets();
+
+    /// @notice Error when the sender does not have sufficient shares to fulfill a redemption
+    error InsufficientShares();
+
+    /// @notice Error when the given requestID is not found
+    error NoPendingSubscriptionRequest();
+
+    /// @notice Error when the given redeemID is not found
+    error NoPendingRedeemRequest();
+
     /// @notice Error when attempting to cancel a request that hasn't passed his TTL yet
     error RequestNotPastTtl();
 
@@ -23,8 +38,23 @@ interface IkpkShares is IERC165 {
     /// @notice Error when the caller is not authorized to perform the action
     error NotAuthorized();
 
+    /// @notice Error when the request is unknown
+    error UnknownRequest();
+
     /// @notice Error when the asset is not approved for deposits
     error NotAnApprovedAsset();
+
+    /// @notice Error when the asset price is invalid
+    error InvalidPrice();
+
+    /// @notice Error when the asset price is null
+    error NullOraclePrice();
+
+    /// @notice Error when the asset price is stale
+    error StalePrice();
+
+    /// @notice Error when the oracle price is incomplete
+    error IncompleteRound();
 
     /// @notice Error when the fee rate is too high
     error FeeRateLimitExceeded();
@@ -49,14 +79,14 @@ interface IkpkShares is IERC165 {
     /// @param asset The address of the asset
     /// @param symbol The asset's symbol (e.g., "USDC", "ETH")
     /// @param decimals The number of decimal places for the asset
-    /// @param isFeeModuleAsset Whether the asset can be used for performance fee module calculations
+    /// @param isUsd Whether the asset is a USD stablecoin
     /// @param canDeposit Whether the asset is approved for deposits
     /// @param canRedeem Whether the asset is approved for redemptions
     struct ApprovedAsset {
         address asset;
         string symbol;
         uint8 decimals;
-        bool isFeeModuleAsset;
+        bool isUsd;
         bool canDeposit;
         bool canRedeem;
     }
@@ -233,10 +263,10 @@ interface IkpkShares is IERC165 {
 
     /// @notice Event emitted when an asset is updated
     /// @param asset The address of the asset
-    /// @param isFeeModuleAsset Whether the asset can be used for performance fee module calculations
+    /// @param isUSD Whether the asset is a USD stablecoin
     /// @param canDeposit Whether the asset is approved for deposits
     /// @param canRedeem Whether the asset is approved for redemptions
-    event AssetUpdate(address indexed asset, bool isFeeModuleAsset, bool canDeposit, bool canRedeem);
+    event AssetUpdate(address indexed asset, bool isUSD, bool canDeposit, bool canRedeem);
 
     /// @notice Event emitted when an asset is added
     /// @param asset The address of the asset
@@ -411,10 +441,10 @@ interface IkpkShares is IERC165 {
 
     /// @notice Updates an asset configuration for deposits and redemption
     /// @param asset The asset address to configure
-    /// @param isFeeModuleAsset Whether the asset can be used for performance fee module calculations
+    /// @param isUSD Whether the asset is a USD stablecoin
     /// @param canDeposit Whether the asset is approved for deposits
     /// @param canRedeem Whether the asset is approved for redemptions
-    function updateAsset(address asset, bool isFeeModuleAsset, bool canDeposit, bool canRedeem) external;
+    function updateAsset(address asset, bool isUSD, bool canDeposit, bool canRedeem) external;
 
     /// @notice Returns a request (deposit or redeem) by ID
     /// @param id The request IDs
