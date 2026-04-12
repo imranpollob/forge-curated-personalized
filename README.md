@@ -110,9 +110,9 @@ FORGE-Curated/
 | **Reports with Accessible Source Code** | 208 |
 | **Total Projects** | 252 |
 | **Total Findings** | 2,469 |
-| **Total Solidity Files** | 29,221 |
-| **Total Lines of Code (LoC)** | 4,762,386 |
-| **Avg. LoC per Project** | ~18,898 |
+| **Total Solidity Files** | 29,245 |
+| **Total Lines of Code (LoC)** | 4,763,142 |
+| **Avg. LoC per Project** | ~18,901 |
 | **Avg. Files per Project** | ~116 |
 | **Solidity Version Distribution** | --- |
 | ^0.8 | 198 |
@@ -126,18 +126,18 @@ FORGE-Curated/
 | Severity Level | Count |
 | --- | --- |
 | **Critical** | 67 |
-| **High** | 244 |
-| **Medium** | 430 |
-| **Low** | 772 |
-| **Informational** | 879 |
-| **N/A** | 77 |
+| **High** | 243 |
+| **Medium** | 427 |
+| **Low** | 777 |
+| **Informational** | 903 |
+| **N/A** | 52 |
 
 ### Dataset Composition
 
 | Metric | Value |
 | --- | --- |
-| **Total Vulnerability-File Pairs (VFPs)** | 627 |
-| **High-Impact VFPs (Medium/High/Critical)** | 304 |
+| **Total Vulnerability-File Pairs (VFPs)** | 619 |
+| **High-Impact VFPs (Medium/High/Critical)** | 303 |
 
 > [!NOTE]
 > Many to-many relationship between findings and files, so the number of VFPs is less than total findings.
