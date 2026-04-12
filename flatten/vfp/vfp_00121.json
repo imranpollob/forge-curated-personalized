@@ -3,6 +3,29 @@
     "project_name": "cantina_euler_swap_april2025.pdf",
     "findings": [
         {
+            "id": 0,
+            "category": {
+                "1": [
+                    "CWE-703"
+                ],
+                "2": [
+                    "CWE-754"
+                ],
+                "3": [
+                    "CWE-394"
+                ]
+            },
+            "title": "Unsafe Token Transfer",
+            "description": "The FundsLib contract uses the standard ERC-20 transfer() function to send tokens to the protocol fee recipient. This is problematic because some non-compliant ERC-20 tokens do not return a boolean value, which can cause the transfer to revert unexpectedly. The root cause is the direct use of transfer() without handling tokens that do not strictly adhere to the ERC-20 standard. An attacker could potentially exploit this by using a token that does not return a value, causing the entire transaction to fail. This could lead to denial of service for fee collection and potentially block swaps if the fee transfer is part of a critical path. The impact is medium, as it affects functionality but does not directly lead to fund loss.\n",
+            "severity": "Medium",
+            "location": [
+                "FundsLib.sol#L82"
+            ],
+            "files": [
+                "euler-swap/src/libraries/FundsLib.sol"
+            ]
+        },
+        {
             "id": 5,
             "category": {
                 "1": [

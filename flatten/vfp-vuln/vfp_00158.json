@@ -1,84 +1,32 @@
 {
     "vfp_id": "vfp_00158",
-    "project_name": "Jovay Sequencer System Contracts Audit.md",
+    "project_name": "Sponsored Periphery Audit.md",
     "findings": [
         {
-            "id": 2,
+            "id": 7,
             "category": {
                 "1": [
-                    "CWE-664"
+                    "CWE-693"
                 ],
                 "2": [
-                    "CWE-666"
+                    "CWE-778"
                 ]
             },
-            "title": "`view` Functions Return Future-Dated Chain Configuration",
-            "description": "The `get_config` and `get_configs` functions in the `ChainCfg` contract return the latest configuration checkpoint without verifying whether it is effective at the current block. Since `set_config` sets `effectiveBlockNum` to `block.number + 1`, the new configuration should only take effect in the next block. However, the getter functions do not enforce this delay and return the new configuration immediately, allowing it to be used in the same block it was set. The root cause is the absence of a check in the getter functions to ensure `effectiveBlockNum <= block.number`. An attacker or front-running bot could exploit this by reading the new configuration in the same block and acting on it before the intended delay, potentially causing inconsistent behavior across system components that rely on the one-block deferral. This undermines the integrity of the configuration update mechanism and could lead to race conditions or incorrect system state.\n",
+            "title": "Misleading and Non-Authoritative Whitelist Events in `PermissionedMulticallHandler`",
+            "description": "The `PermissionedMulticallHandler` contract emits custom events `CallerWhitelisted` and `CallerRemovedFromWhitelist` via wrapper functions `whitelistCaller` and `removeCallerFromWhitelist`. However, these events are emitted unconditionally, regardless of whether the underlying role state actually changed, leading to false positives. Additionally, direct calls to `grantRole` and `revokeRole` bypass these custom events entirely, resulting in false negatives. \nThe root cause is the lack of state checks before emitting events and the existence of alternative paths to modify roles without triggering the custom events. \nAn attacker or misconfigured off-chain system could exploit this by relying on these events for state synchronization, leading to an incorrect view of the whitelist. \nThe impact is that off-chain monitoring tools may maintain an inaccurate state of authorized callers, potentially leading to incorrect access decisions or missed security alerts.\n",
             "severity": "Medium",
             "location": [
-                "sys_chaincfg.sol::get_config#40",
-                "sys_chaincfg.sol::get_configs#52",
-                "sys_chaincfg.sol::set_config#74"
+                "PermissionedMulticallHandler.sol::whitelistCaller#60-63",
+                "PermissionedMulticallHandler.sol::removeCallerFromWhitelist#69-72",
+                "PermissionedMulticallHandler.sol::CallerWhitelisted#18",
+                "PermissionedMulticallHandler.sol::CallerRemovedFromWhitelist#21"
             ],
             "files": [
-                "jovay-contracts/sequencer_contracts/sys_contract/artifact_src/solidity/sys_chaincfg.sol"
-            ]
-        },
-        {
-            "id": 22,
-            "category": {
-                "1": [
-                    "CWE-664"
-                ],
-                "2": [
-                    "CWE-400"
-                ],
-                "3": [
-                    "CWE-405"
-                ],
-                "4": [
-                    "CWE-407"
-                ]
-            },
-            "title": "Linear Complexity Creates DoS Vectors",
-            "description": "Multiple contracts use unbounded arrays with linear search operations (e.g., `ChainCfg.set_config`, `InferRuleManager.checkExist`, `DPoSValidatorManager.isArrayContains`), leading to increasing gas costs.\nAs data grows, these operations may exceed block gas limits, preventing further execution.\nThe cause is the use of arrays instead of mappings or sets for large datasets.\nThe impact is a denial-of-service condition where critical functions become unusable, especially in `ChainCfg` which has quadratic complexity on config updates.\n",
-            "severity": "Medium",
-            "location": [
-                "sys_chaincfg.sol::set_config#60",
-                "sys_chaincfg.sol::get_config#40",
-                "rule_mng.sol::checkExist#55",
-                "rule_mng.sol::delRule#204",
-                "rule_mng.sol::updateRule#169",
-                "rule_mng.sol::advanceEpoch#322",
-                "sys_staking.sol::isArrayContains#2492",
-                "permission_control.sol::checkGrantPermission#31",
-                "permission_control.sol::revokeAdmin#80"
-            ],
-            "files": [
-                "jovay-contracts/sequencer_contracts/sys_contract/artifact_src/solidity/sys_chaincfg.sol"
-            ]
-        },
-        {
-            "id": 6,
-            "category": {
-                "1": [
-                    "CWE-284"
-                ]
-            },
-            "title": "Unreadable Historical Checkpoints",
-            "description": "The `ChainCfg` contract stores configuration checkpoints in the private `configCps` array but only exposes the latest checkpoint via `get_config` and `get_configs`. This makes historical configurations inaccessible, rendering the checkpoint mechanism partially useless for auditing or state recovery. The root cause is the lack of public functions to query past checkpoints. While the data is stored, its inaccessibility defeats the purpose of maintaining a history. This limits the ability to verify past configurations or debug issues, reducing transparency and auditability. The impact is a weakened governance and monitoring system, as stakeholders cannot verify how configurations have evolved over time.\n",
-            "severity": "Medium",
-            "location": [
-                "sys_chaincfg.sol::get_config#40",
-                "sys_chaincfg.sol::get_configs#52",
-                "sys_chaincfg.sol::configCps"
-            ],
-            "files": [
-                "jovay-contracts/sequencer_contracts/sys_contract/artifact_src/solidity/sys_chaincfg.sol"
+                "contracts/contracts/handlers/PermissionedMulticallHandler.sol"
             ]
         }
     ],
     "affected_files": {
-        "sys_chaincfg.sol": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract ChainCfg {\n    struct Config {\n        string key;\n        string value;\n    }\n\n    struct ConfigCheckpoint {\n        uint64 blockNum;\n        uint64 effectiveBlockNum;\n        Config[] configs;\n    }\n\n\n    ConfigCheckpoint[] configCps;\n\n    event ConfigUpdate(uint64 indexed blockNum, uint64 indexed effectiveBlockNum, string[] keys, string[] values);\n    \n    address public rootSys;\n    address public constant sysStaking = 0x4100000000000000000000000000000000000000;\n    address public constant intrinsicSys = 0x1111111111111111111111111111111111111111;\n\n    constructor() {\n    }\n\n    modifier onlyOwner() {\n        require(msg.sender == rootSys || msg.sender == sysStaking || msg.sender == intrinsicSys, \"Not owner\");\n        _;\n    }\n\n    function changeSys(address _newOwner)\n        public\n        onlyOwner\n    {\n        rootSys = _newOwner;\n    }\n\n    function get_config(string memory key) public view returns (string memory) {\n        if (configCps.length != 0) {\n            for (uint256 i = 0; i < configCps[configCps.length - 1].configs.length; i++) {\n                Config storage conf = configCps[configCps.length - 1].configs[i];\n                if (keccak256(abi.encodePacked(key)) == keccak256(abi.encodePacked(conf.key))) {\n                    return conf.value;\n                }\n            }\n        }\n        return \"\";\n    }\n\n    function get_configs() public view returns (Config[] memory) {\n        if (configCps.length != 0) {\n            return configCps[configCps.length - 1].configs;\n        }\n        Config[] memory configs;\n        return configs;\n    }\n\n    function set_config(string[] memory keys, string[] memory values) external onlyOwner {\n        require(keys.length == values.length, \"KVs are not match\");\n        if (configCps.length == 3) {\n            delete configCps[0];\n            for (uint256 i = 1; i < configCps.length; i++) {\n                configCps[i - 1] = configCps[i];\n            }\n            configCps.pop(); \n        }\n\n        uint256 old_config_cps_number = configCps.length;\n\n        ConfigCheckpoint storage cfgCp = configCps.push();\n        cfgCp.blockNum = uint64(block.number);\n        cfgCp.effectiveBlockNum = uint64(block.number + 1);\n\n        if (old_config_cps_number != 0) {\n            require(configCps[configCps.length - 2].effectiveBlockNum <= block.number, \"INVALID_STATE\");\n\n            for (uint256 i = 0; i < configCps[configCps.length - 2].configs.length; i++) {\n                Config storage conf = configCps[configCps.length - 2].configs[i];\n                bool found = false;\n                for (uint256 j = 0; j < keys.length; j++) {\n                    if (keccak256(abi.encodePacked(conf.key)) == keccak256(abi.encodePacked(keys[j]))) {\n                        found = true; \n                        break;\n                    }\n                }\n                if (!found) {\n                    cfgCp.configs.push(Config({\n                        key: conf.key,\n                        value: conf.value\n                    }));\n                }\n            }\n        }\n\n        for (uint256 i = 0; i < keys.length; i++) {\n            cfgCp.configs.push(Config({\n                key: keys[i],\n                value: values[i]\n            }));\n        }\n\n        emit ConfigUpdate(uint64(block.number), uint64(block.number + 1), keys, values);\n    }\n}"
+        "PermissionedMulticallHandler.sol": "// SPDX-License-Identifier: GPL-3.0-only\npragma solidity ^0.8.0;\n\nimport { MulticallHandler } from \"./MulticallHandler.sol\";\nimport { AccessControl } from \"@openzeppelin/contracts/access/AccessControl.sol\";\n\n/**\n * @title PermissionedMulticallHandler\n * @notice Extension of MulticallHandler that restricts access to whitelisted callers\n * @dev Uses OpenZeppelin's AccessControl for caller permission management.\n * Only addresses with the WHITELISTED_CALLER_ROLE can call handleV3AcrossMessage.\n */\ncontract PermissionedMulticallHandler is MulticallHandler, AccessControl {\n    /// @notice Role identifier for whitelisted callers\n    bytes32 public constant WHITELISTED_CALLER_ROLE = keccak256(\"WHITELISTED_CALLER_ROLE\");\n\n    /// @notice Emitted when a caller is whitelisted\n    event CallerWhitelisted(address indexed caller);\n\n    /// @notice Emitted when a caller is removed from whitelist\n    event CallerRemovedFromWhitelist(address indexed caller);\n\n    /// @notice Error thrown when caller is not whitelisted\n    error CallerNotWhitelisted(address caller);\n\n    /**\n     * @notice Constructor that sets up the initial admin\n     * @param admin Address that will have DEFAULT_ADMIN_ROLE\n     */\n    constructor(address admin) {\n        _grantRole(DEFAULT_ADMIN_ROLE, admin);\n    }\n\n    /**\n     * @notice Overrides handleV3AcrossMessage to add caller whitelist check\n     * @dev Only addresses with WHITELISTED_CALLER_ROLE can call this function\n     * @param token The token being transferred\n     * @param amount The amount of tokens\n     * @param relayer The relayer address\n     * @param message The encoded Instructions struct\n     */\n    function handleV3AcrossMessage(\n        address token,\n        uint256 amount,\n        address relayer,\n        bytes memory message\n    ) public override {\n        if (!hasRole(WHITELISTED_CALLER_ROLE, msg.sender)) {\n            revert CallerNotWhitelisted(msg.sender);\n        }\n\n        // Call parent implementation\n        super.handleV3AcrossMessage(token, amount, relayer, message);\n    }\n\n    /**\n     * @notice Add a caller to the whitelist\n     * @param caller Address to whitelist\n     */\n    function whitelistCaller(address caller) external onlyRole(DEFAULT_ADMIN_ROLE) {\n        grantRole(WHITELISTED_CALLER_ROLE, caller);\n        emit CallerWhitelisted(caller);\n    }\n\n    /**\n     * @notice Remove a caller from the whitelist\n     * @param caller Address to remove from whitelist\n     */\n    function removeCallerFromWhitelist(address caller) external onlyRole(DEFAULT_ADMIN_ROLE) {\n        revokeRole(WHITELISTED_CALLER_ROLE, caller);\n        emit CallerRemovedFromWhitelist(caller);\n    }\n}\n"
     }
 }
