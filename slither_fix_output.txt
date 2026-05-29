@@ -1,0 +1,46 @@
+Part A - py-solc-x Compiler Setup
+Installed versions: 0.8.0, 0.8.16, 0.8.18, 0.8.20, 0.8.21, 0.8.24, 0.8.26, 0.8.27, 0.8.28, 0.8.29
+py-solc-x install folder: /home/pollmix/.solcx
+
+Part C/D - Project-Level Slither Results
+sample_id      pragma     result    seconds error_type     contracts functions ext_calls state_vars error
+-------------- ---------- -------- -------- -------------- --------- --------- --------- ---------- -----
+vfp_00605      0.8.16     fail         0.68 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol" not found: File not found. Searched the following locations: "".
+vfp_00143      0.8.26     fail         0.65 ImportError            0         0         0      False Error: Source "hypervul_dataset/samples/types/PoolId.sol" not found: File not found. Searched the following locations: "".
+vfp_00029      0.8.18     fail         0.65 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts-upgradeable/access/extensions/AccessControlEnumerableUpgradeable.sol" not found: File not found. Searched the following locations: "".
+vfp_00329      0.8.0      fail         0.67 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts/proxy/Clones.sol" not found: File not found.
+vfp_00301      0.8.24     fail         0.67 ImportError            0         0         0      False Error: Source "hypervul_dataset/samples/libs/LibBlobs.sol" not found: File not found. Searched the following locations: "".
+vfp_00281      0.8.18     fail         0.66 ImportError            0         0         0      False Error: Source "hypervul_dataset/samples/vfp_00281/Interfaces/ITroveManager.sol" not found: File not found. Searched the following locations: "".
+vfp_00187      0.8.28     fail         0.67 ImportError            0         0         0      False Error: Source "solady/utils/SafeTransferLib.sol" not found: File not found. Searched the following locations: "".
+vfp_00136      0.8.26     fail         0.66 ImportError            0         0         0      False Error: Source "hypervul_dataset/samples/vfp_00136/base/BasePositionManager.sol" not found: File not found. Searched the following locations: "".
+vfp_00537      0.8.28     fail         0.66 ImportError            0         0         0      False Error: Source "@oz/token/ERC20/IERC20.sol" not found: File not found. Searched the following locations: "".
+vfp_00121      0.8.27     fail         0.67 ImportError            0         0         0      False Error: Source "openzeppelin-contracts/token/ERC20/utils/SafeERC20.sol" not found: File not found. Searched the following locations: "".
+vfp_00569      0.8.29     fail         0.66 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts/access/Ownable2Step.sol" not found: File not found. Searched the following locations: "".
+vfp_00462      0.8.24     fail         0.66 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol" not found: File not found. Searched the following locations: "".
+vfp_00034      0.8.21     fail         0.66 ImportError            0         0         0      False Error: Source "aave-v3-origin/src/core/contracts/interfaces/IAToken.sol" not found: File not found. Searched the following locations: "".
+vfp_00033      0.8.21     fail         0.72 ImportError            0         0         0      False Error: Source "openzeppelin-contracts/contracts/access/extensions/AccessControlEnumerable.sol" not found: File not found. Searched the following locations: "".
+vfp_00125      0.8.27     fail         0.69 ImportError            0         0         0      False Error: Source "hypervul_dataset/samples/vfp_00125/interfaces/IUniswapV2Callee.sol" not found: File not found. Searched the following locations: "".
+vfp_00275      0.8.20     fail         0.64 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol" not found: File not found. Searched the following locations: "".
+vfp_00289      0.8.18     fail         0.65 ImportError            0         0         0      False Error: Source "hypervul_dataset/samples/Dependencies/LiquityMath.sol" not found: File not found. Searched the following locations: "".
+vfp_00513      0.8.28     fail         0.69 ImportError            0         0         0      False Error: Source "@oz/token/ERC20/IERC20.sol" not found: File not found. Searched the following locations: "".
+vfp_00575      0.8.26     fail         0.68 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol" not found: File not found. Searched the following locations: "".
+vfp_00030      0.8.18     fail         0.76 ImportError            0         0         0      False Error: Source "hypervul_dataset/samples/vfp_00030/libraries/LibVestingPlan.sol" not found: File not found. Searched the following locations: "".
+neg_00307      0.8.26     fail         0.68 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol" not found: File not found. Searched the following locations: "".
+neg_00101      0.8.28     fail         0.67 ImportError            0         0         0      False Error: Source "@openzeppelin/contracts/access/extensions/AccessControlEnumerable.sol" not found: File not found. Searched the following locations: "".
+neg_00453      0.8.20     fail         0.73 ImportError            0         0         0      False Error: Source "forge-std/Test.sol" not found: File not found. Searched the following locations: "".
+neg_00389      0.8.0      fail         0.64 ImportError            0         0         0      False Error: Source "/home/pollmix/Coding/FORGE-Curated/hypervul_dataset/samples/neg_00389/AerodromeTestBase.sol" not found: File not found.
+neg_00439      0.8.0      success      0.33                        0         0         0      False 
+  Slither found: contracts=0, functions=0, external_calls=0, state_variables_detected=False
+
+Part E - Summary
+Total files tested: 25
+Success count: 1 (4.0%)
+Failure count: 24 (96.0%)
+Failures by error type:
+  CompilerError: 0
+  ImportError: 24
+  SyntaxError: 0
+  Timeout: 0
+  Other: 0
+Average number of external calls detected in successful contracts: 0.00
+Average processing time for successful runs: 0.33s

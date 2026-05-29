@@ -1,0 +1,43 @@
+Part A - Source Code Availability in flatten/vfp-vuln
+Total VFPs: 303
+VFPs with source code: 303
+VFPs without source code: 0
+Total .sol files across VFPs with source code: 420
+Average .sol files per VFP with source code: 1.39
+Min .sol files per VFP with source code: 1
+Max .sol files per VFP with source code: 13
+
+Part B - Per-VFP Multi-Label Profile in flatten/vfp-vuln
+Class                  VFP count (positive samples)
+---------------------- ----------------------------
+arithmetic_oracle                                81
+reentrancy                                       67
+defi_protection                                  56
+access_control                                   36
+state_management                                 83
+unchecked_call                                   40
+race_condition                                   10
+input_validation                                 84
+VFPs with no mapped class: 24
+
+Part C - Unfiltered Dataset Profile in flatten/vfp
+Total VFPs: 619
+VFPs with source code: 619
+VFPs without source code: 0
+Total unique CWEs: 194
+
+Class                  VFP count (positive samples)
+---------------------- ----------------------------
+arithmetic_oracle                               149
+reentrancy                                      144
+defi_protection                                 111
+access_control                                   74
+state_management                                166
+unchecked_call                                   93
+race_condition                                   25
+input_validation                                205
+VFPs with no mapped class: 139
+
+Part D - dataset-curated Contracts
+.sol files in dataset-curated/contracts/: 29235
+.sol files in dataset-curated/contracts-raw/: 2252

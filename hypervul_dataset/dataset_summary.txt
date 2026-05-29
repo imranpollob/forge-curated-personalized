@@ -1,0 +1,45 @@
+Total positive samples: 480
+Total negative samples: 700
+Total samples: 1180
+
+Per-class positive count across full dataset:
+reentrancy: 144
+arithmetic_oracle: 149
+defi_protection: 111
+access_control: 74
+state_management: 166
+unchecked_call: 93
+input_validation: 205
+
+Per-class count in train / val / test splits:
+train samples: 826
+  reentrancy: 101
+  arithmetic_oracle: 104
+  defi_protection: 78
+  access_control: 52
+  state_management: 116
+  unchecked_call: 65
+  input_validation: 144
+val samples: 177
+  reentrancy: 22
+  arithmetic_oracle: 23
+  defi_protection: 16
+  access_control: 11
+  state_management: 25
+  unchecked_call: 15
+  input_validation: 30
+test samples: 177
+  reentrancy: 21
+  arithmetic_oracle: 22
+  defi_protection: 17
+  access_control: 11
+  state_management: 25
+  unchecked_call: 13
+  input_validation: 31
+
+Number of multi-label samples: 209
+Distribution of label vector length:
+0 classes: 700
+1 class: 271
+2 classes: 92
+3+ classes: 117
