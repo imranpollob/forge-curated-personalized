@@ -1,0 +1,117 @@
+{
+  "sample_id": "neg_00675",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "euler-swap_test_utils_MinimalRouter.sol",
+      "start_line": 30,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_unlockCallback",
+      "file": "euler-swap_test_utils_MinimalRouter.sol",
+      "start_line": 43,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "MIN_PRICE_LIMIT",
+      "var_type": "uint160 public constant",
+      "file": "euler-swap_test_utils_MinimalRouter.sol",
+      "line": 19
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "MAX_PRICE_LIMIT",
+      "var_type": "uint160 public constant",
+      "file": "euler-swap_test_utils_MinimalRouter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "TRANSFER:euler-swap_test_utils_MinimalRouter.sol:40",
+      "call_type": "TRANSFER",
+      "line": 40,
+      "enclosing_function": "swap",
+      "file": "euler-swap_test_utils_MinimalRouter.sol",
+      "raw_text": "if (ethBalance > 0) CurrencyLibrary.ADDRESS_ZERO.transfer(msg.sender, ethBalance);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        4
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 4
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "euler-swap_test_utils_MinimalRouter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_unlockCallback",
+      "file": "euler-swap_test_utils_MinimalRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "MIN_PRICE_LIMIT",
+      "file": "euler-swap_test_utils_MinimalRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "MAX_PRICE_LIMIT",
+      "file": "euler-swap_test_utils_MinimalRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "TRANSFER:euler-swap_test_utils_MinimalRouter.sol:40",
+      "file": "euler-swap_test_utils_MinimalRouter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 1,
+    "n_functions": 2,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00675",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

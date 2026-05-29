@@ -1,0 +1,199 @@
+{
+  "sample_id": "neg_00178",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "assertQuotable",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getOrderParameters",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPriceTolerance",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getMaxImprovementBps",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "estimateTradeOutput",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "ALLOW_PARTIAL_FILL",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 11,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "areSignaturesPaused",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isCreationPaused",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 13,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isKilled",
+      "file": "stonks_contracts_interfaces_IStonks.sol",
+      "start_line": 14,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "hash",
+      "file": "stonks_contracts_test_HashHelper.sol",
+      "start_line": 22,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "assertQuotable",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getOrderParameters",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPriceTolerance",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getMaxImprovementBps",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "estimateTradeOutput",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "ALLOW_PARTIAL_FILL",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "areSignaturesPaused",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isCreationPaused",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isKilled",
+      "file": "stonks_contracts_interfaces_IStonks.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "hash",
+      "file": "stonks_contracts_test_HashHelper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00178",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

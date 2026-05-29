@@ -1,0 +1,212 @@
+{
+  "sample_id": "vfp_00143",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 185,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addMargin",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 210,
+      "end_line": 213,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "margin",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 233,
+      "end_line": 236,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "repay",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 242,
+      "end_line": 242,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "close",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 249,
+      "end_line": 249,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "liquidateBurn",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 254,
+      "end_line": 254,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "liquidateCall",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 260,
+      "end_line": 260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "modify",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 265,
+      "end_line": 265,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "defaultMarginFee",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 269,
+      "end_line": 269,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "marginLevels",
+      "file": "IMarginPositionManager.sol",
+      "start_line": 273,
+      "end_line": 273,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addMargin",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "margin",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "repay",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "close",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "liquidateBurn",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "liquidateCall",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "modify",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "defaultMarginFee",
+      "file": "IMarginPositionManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "marginLevels",
+      "file": "IMarginPositionManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00143",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

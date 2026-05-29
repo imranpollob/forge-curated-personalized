@@ -1,0 +1,407 @@
+{
+  "sample_id": "vfp_00381",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_domainNameAndVersion",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 69,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "orderIdentifier",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 82,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "orderIdentifier",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 88,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "open",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 98,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_open",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 126,
+      "end_line": 138,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 153,
+      "end_line": 182,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_openForWithPermit2",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 191,
+      "end_line": 235,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_openForWithAuthorization",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 247,
+      "end_line": 295,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "refund",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 304,
+      "end_line": 313,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_finalise",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 324,
+      "end_line": 332,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "finalise",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 345,
+      "end_line": 366,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "finaliseWithSignature",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 379,
+      "end_line": 409,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_resolveLock",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 418,
+      "end_line": 439,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "purchaseOrder",
+      "file": "InputSettlerEscrow.sol",
+      "start_line": 455,
+      "end_line": 470,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "SIGNATURE_TYPE_PERMIT2",
+      "var_type": "bytes1 internal constant",
+      "file": "InputSettlerEscrow.sol",
+      "line": 53
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "SIGNATURE_TYPE_3009",
+      "var_type": "bytes1 internal constant",
+      "file": "InputSettlerEscrow.sol",
+      "line": 54
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "SIGNATURE_TYPE_SELF",
+      "var_type": "bytes1 internal constant",
+      "file": "InputSettlerEscrow.sol",
+      "line": 55
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "orderStatus",
+      "var_type": "mapping(bytes32 orderId => OrderStatus) public",
+      "file": "InputSettlerEscrow.sol",
+      "line": 64
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "var_type": "ISignatureTransfer constant",
+      "file": "InputSettlerEscrow.sol",
+      "line": 67
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:InputSettlerEscrow.sol:191",
+      "call_type": "INTERFACE_CALL",
+      "line": 191,
+      "enclosing_function": "_openForWithPermit2",
+      "file": "InputSettlerEscrow.sol",
+      "raw_text": "PERMIT2.permitWitnessTransferFrom("
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:InputSettlerEscrow.sol:229",
+      "call_type": "CALL",
+      "line": 229,
+      "enclosing_function": "_openForWithAuthorization",
+      "file": "InputSettlerEscrow.sol",
+      "raw_text": "(bool success,) = token.call(callData);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        6,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        7,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 20
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_domainNameAndVersion",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "orderIdentifier",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "orderIdentifier",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "open",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_open",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_openForWithPermit2",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_openForWithAuthorization",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "refund",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_finalise",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "finalise",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "finaliseWithSignature",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_resolveLock",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "purchaseOrder",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "SIGNATURE_TYPE_PERMIT2",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "SIGNATURE_TYPE_3009",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "SIGNATURE_TYPE_SELF",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "orderStatus",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:InputSettlerEscrow.sol:191",
+      "file": "InputSettlerEscrow.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:InputSettlerEscrow.sol:229",
+      "file": "InputSettlerEscrow.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 21,
+    "n_hyperedges": 2,
+    "n_functions": 14,
+    "n_state_vars": 5,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 7.5
+  },
+  "label": {
+    "vfp_id": "vfp_00381",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "sample_id": "vfp_00200",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getMinNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 50,
+      "end_line": 55,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getKeyedNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 62,
+      "end_line": 68,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getRawNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 74,
+      "end_line": 77,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "increaseMinNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 82,
+      "end_line": 101,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_splitKeyedNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 108,
+      "end_line": 111,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_combineKeyedNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "incrementMinNonceIfEquals",
+      "file": "NonceHolder.sol",
+      "start_line": 130,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "incrementMinNonceIfEqualsKeyed",
+      "file": "NonceHolder.sol",
+      "start_line": 159,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getDeploymentNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 179,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "incrementDeploymentNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 189,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isNonceUsed",
+      "file": "NonceHolder.sol",
+      "start_line": 207,
+      "end_line": 215,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "validateNonceUsage",
+      "file": "NonceHolder.sol",
+      "start_line": 224,
+      "end_line": 232,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_splitRawNonce",
+      "file": "NonceHolder.sol",
+      "start_line": 237,
+      "end_line": 240,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DEPLOY_NONCE_MULTIPLIER",
+      "var_type": "uint256 private constant",
+      "file": "NonceHolder.sol",
+      "line": 27
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MAXIMAL_MIN_NONCE_INCREMENT",
+      "var_type": "uint256 private constant",
+      "file": "NonceHolder.sol",
+      "line": 30
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "rawNonces",
+      "var_type": "mapping(uint256 account => uint256 packedMinAndDeploymentNonce) internal",
+      "file": "NonceHolder.sol",
+      "line": 36
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "__DEPRECATED_nonceValues",
+      "var_type": "mapping(uint256 account => mapping(uint256 nonce => uint256 storedValue)) internal",
+      "file": "NonceHolder.sol",
+      "line": 42
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "keyedNonces",
+      "var_type": "mapping(uint256 account => mapping(uint192 nonceKey => uint64 nonceValue)) internal",
+      "file": "NonceHolder.sol",
+      "line": 45
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getMinNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getKeyedNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getRawNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "increaseMinNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_splitKeyedNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_combineKeyedNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "incrementMinNonceIfEquals",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "incrementMinNonceIfEqualsKeyed",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getDeploymentNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "incrementDeploymentNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isNonceUsed",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "validateNonceUsage",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_splitRawNonce",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DEPLOY_NONCE_MULTIPLIER",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MAXIMAL_MIN_NONCE_INCREMENT",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "rawNonces",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "__DEPRECATED_nonceValues",
+      "file": "NonceHolder.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "keyedNonces",
+      "file": "NonceHolder.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00200",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

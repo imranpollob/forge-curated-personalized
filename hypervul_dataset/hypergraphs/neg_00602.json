@@ -1,0 +1,193 @@
+{
+  "sample_id": "neg_00602",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_executeCheckpoint",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol",
+      "start_line": 27,
+      "end_line": 33,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_executeCheckpoint",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol",
+      "start_line": 40,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setExternalFirewall",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol",
+      "start_line": 52,
+      "end_line": 58,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "initializeFirewallConfig",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol",
+      "start_line": 57,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "upgradeNextAndCall",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol",
+      "start_line": 72,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_implementation",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol",
+      "start_line": 88,
+      "end_line": 91,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_checkNonPayable",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol",
+      "start_line": 98,
+      "end_line": 102,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "STORAGE_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol",
+      "line": 20
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "NEXT_IMPLEMENTATION_SLOT",
+      "var_type": "bytes32 internal constant",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol",
+      "line": 43
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_executeCheckpoint",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_executeCheckpoint",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setExternalFirewall",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "initializeFirewallConfig",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "upgradeNextAndCall",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_implementation",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_checkNonPayable",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "STORAGE_SLOT",
+      "file": "forta-firewall-contracts_src_CheckpointExecutor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "NEXT_IMPLEMENTATION_SLOT",
+      "file": "forta-firewall-contracts_src_ProxyFirewall.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00602",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

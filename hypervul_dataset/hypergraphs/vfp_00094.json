@@ -1,0 +1,237 @@
+{
+  "sample_id": "vfp_00094",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_stopCooldown",
+      "file": "Ethena.sol",
+      "start_line": 14,
+      "end_line": 14,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_startCooldown",
+      "file": "Ethena.sol",
+      "start_line": 16,
+      "end_line": 28,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_finalizeCooldown",
+      "file": "Ethena.sol",
+      "start_line": 30,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "Ethena.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "Ethena.sol",
+      "start_line": 63,
+      "end_line": 69,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "Ethena.sol",
+      "start_line": 71,
+      "end_line": 81,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "Ethena.sol",
+      "start_line": 83,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "canFinalizeWithdrawRequest",
+      "file": "Ethena.sol",
+      "start_line": 91,
+      "end_line": 100,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "HOLDER_IMPLEMENTATION",
+      "var_type": "address public",
+      "file": "Ethena.sol",
+      "line": 55
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:Ethena.sol:48",
+      "call_type": "TRANSFER",
+      "line": 48,
+      "enclosing_function": "_finalizeCooldown",
+      "file": "Ethena.sol",
+      "raw_text": "USDe.transfer(manager, tokensClaimed);"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "TRANSFER:Ethena.sol:77",
+      "call_type": "TRANSFER",
+      "line": 77,
+      "enclosing_function": "_initiateWithdrawImpl",
+      "file": "Ethena.sol",
+      "raw_text": "sUSDe.transfer(address(holder), balanceToTransfer);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        9
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        8,
+        10
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_stopCooldown",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_startCooldown",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_finalizeCooldown",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "canFinalizeWithdrawRequest",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "HOLDER_IMPLEMENTATION",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:Ethena.sol:48",
+      "file": "Ethena.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "TRANSFER:Ethena.sol:77",
+      "file": "Ethena.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 2,
+    "n_functions": 8,
+    "n_state_vars": 1,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.5
+  },
+  "label": {
+    "vfp_id": "vfp_00094",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

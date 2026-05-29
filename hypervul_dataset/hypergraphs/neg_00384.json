@@ -1,0 +1,237 @@
+{
+  "sample_id": "neg_00384",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "phoenix-fees_src_AssetSink.sol",
+      "start_line": 26,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setReleaser",
+      "file": "phoenix-fees_src_AssetSink.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimTo",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "start_line": 44,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAllowableCallers",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setAllowableSource",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "start_line": 64,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "releaser",
+      "var_type": "address public",
+      "file": "phoenix-fees_src_AssetSink.sol",
+      "line": 14
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "allowableSource",
+      "var_type": "address public",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "line": 18
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "allowableCallers",
+      "var_type": "mapping(address callers => bool allowed) public",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "line": 22
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ASSET_SINK",
+      "var_type": "AssetSink public immutable",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "line": 24
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "MINIMUM_RELEASE_GAS",
+      "var_type": "uint256 public constant",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "line": 25
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "TRANSFER:phoenix-fees_src_AssetSink.sol:33",
+      "call_type": "TRANSFER",
+      "line": 33,
+      "enclosing_function": "release",
+      "file": "phoenix-fees_src_AssetSink.sol",
+      "raw_text": "asset.transfer(recipient, amount);"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:phoenix-fees_src_crosschain_FirepitDestination.sol:53",
+      "call_type": "INTERFACE_CALL",
+      "line": 53,
+      "enclosing_function": "claimTo",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol",
+      "raw_text": "try ASSET_SINK.release(assets, claimer) {}"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        10
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        8,
+        9,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "phoenix-fees_src_AssetSink.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setReleaser",
+      "file": "phoenix-fees_src_AssetSink.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimTo",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAllowableCallers",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setAllowableSource",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "releaser",
+      "file": "phoenix-fees_src_AssetSink.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "allowableSource",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "allowableCallers",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ASSET_SINK",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "MINIMUM_RELEASE_GAS",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "TRANSFER:phoenix-fees_src_AssetSink.sol:33",
+      "file": "phoenix-fees_src_AssetSink.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:phoenix-fees_src_crosschain_FirepitDestination.sol:53",
+      "file": "phoenix-fees_src_crosschain_FirepitDestination.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 12,
+    "n_hyperedges": 2,
+    "n_functions": 5,
+    "n_state_vars": 5,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00384",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

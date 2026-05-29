@@ -1,0 +1,166 @@
+{
+  "sample_id": "vfp_00042",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setRatios",
+      "file": "RatiosStrategy.sol",
+      "start_line": 17,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "calculateState",
+      "file": "RatiosStrategy.sol",
+      "start_line": 53,
+      "end_line": 103,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "calculateDepositAmounts",
+      "file": "RatiosStrategy.sol",
+      "start_line": 106,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "calculateWithdrawalAmounts",
+      "file": "RatiosStrategy.sol",
+      "start_line": 161,
+      "end_line": 248,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "calculateRebalanceAmounts",
+      "file": "RatiosStrategy.sol",
+      "start_line": 251,
+      "end_line": 319,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "D18",
+      "var_type": "uint256 public constant",
+      "file": "RatiosStrategy.sol",
+      "line": 8
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "RATIOS_STRATEGY_SET_RATIOS_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "RatiosStrategy.sol",
+      "line": 10
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "ratios",
+      "var_type": "mapping(address vault => mapping(address subvault => Ratio)) public",
+      "file": "RatiosStrategy.sol",
+      "line": 14
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setRatios",
+      "file": "RatiosStrategy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "calculateState",
+      "file": "RatiosStrategy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "calculateDepositAmounts",
+      "file": "RatiosStrategy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "calculateWithdrawalAmounts",
+      "file": "RatiosStrategy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "calculateRebalanceAmounts",
+      "file": "RatiosStrategy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "D18",
+      "file": "RatiosStrategy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "RATIOS_STRATEGY_SET_RATIOS_ROLE",
+      "file": "RatiosStrategy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "ratios",
+      "file": "RatiosStrategy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00042",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-190",
+      "CWE-435",
+      "CWE-682",
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "sample_id": "neg_00225",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "generateMerkleTree",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 8,
+      "end_line": 22,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "hashPair",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 24,
+      "end_line": 26,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "leftChildIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rightChildIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 32,
+      "end_line": 34,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getProof",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 36,
+      "end_line": 45,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "checkLeafNode",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 47,
+      "end_line": 49,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "siblingIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 51,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "parentIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "concatenate",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 63,
+      "end_line": 70,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol",
+      "start_line": 72,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "generateMerkleTree",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "hashPair",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "leftChildIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rightChildIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getProof",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "checkLeafNode",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "siblingIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "parentIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "concatenate",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getIndex",
+      "file": "core_test_utils_MerkleTreeGenerator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00225",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

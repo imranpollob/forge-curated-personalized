@@ -1,0 +1,464 @@
+{
+  "sample_id": "vfp_00460",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "equals",
+      "file": "LimitOrderHook.sol",
+      "start_line": 31,
+      "end_line": 33,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "unsafeIncrement",
+      "file": "LimitOrderHook.sol",
+      "start_line": 36,
+      "end_line": 40,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_afterInitialize",
+      "file": "LimitOrderHook.sol",
+      "start_line": 183,
+      "end_line": 188,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "LimitOrderHook.sol",
+      "start_line": 191,
+      "end_line": 213,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "placeOrder",
+      "file": "LimitOrderHook.sol",
+      "start_line": 221,
+      "end_line": 272,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "cancelOrder",
+      "file": "LimitOrderHook.sol",
+      "start_line": 281,
+      "end_line": 334,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LimitOrderHook.sol",
+      "start_line": 342,
+      "end_line": 382,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LimitOrderHook.sol",
+      "start_line": 389,
+      "end_line": 418,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_handlePlaceCallback",
+      "file": "LimitOrderHook.sol",
+      "start_line": 425,
+      "end_line": 459,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_handleCancelCallback",
+      "file": "LimitOrderHook.sol",
+      "start_line": 466,
+      "end_line": 524,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_handleWithdrawCallback",
+      "file": "LimitOrderHook.sol",
+      "start_line": 530,
+      "end_line": 546,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_fillOrder",
+      "file": "LimitOrderHook.sol",
+      "start_line": 553,
+      "end_line": 606,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getCrossedTicks",
+      "file": "LimitOrderHook.sol",
+      "start_line": 613,
+      "end_line": 628,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getTickLowerLast",
+      "file": "LimitOrderHook.sol",
+      "start_line": 634,
+      "end_line": 636,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getOrderId",
+      "file": "LimitOrderHook.sol",
+      "start_line": 643,
+      "end_line": 649,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setOrderId",
+      "file": "LimitOrderHook.sol",
+      "start_line": 655,
+      "end_line": 657,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getTickLower",
+      "file": "LimitOrderHook.sol",
+      "start_line": 663,
+      "end_line": 668,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getOrderLiquidity",
+      "file": "LimitOrderHook.sol",
+      "start_line": 674,
+      "end_line": 676,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getTick",
+      "file": "LimitOrderHook.sol",
+      "start_line": 682,
+      "end_line": 685,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "LimitOrderHook.sol",
+      "start_line": 691,
+      "end_line": 708,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "ZERO_BYTES",
+      "var_type": "bytes internal constant",
+      "file": "LimitOrderHook.sol",
+      "line": 118
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ORDER_ID_DEFAULT",
+      "var_type": "OrderIdLibrary.OrderId private constant",
+      "file": "LimitOrderHook.sol",
+      "line": 121
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "orderIdNext",
+      "var_type": "OrderIdLibrary.OrderId public",
+      "file": "LimitOrderHook.sol",
+      "line": 124
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "tickLowerLasts",
+      "var_type": "mapping(PoolId => int24) public",
+      "file": "LimitOrderHook.sol",
+      "line": 127
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "orders",
+      "var_type": "mapping(bytes32 => OrderIdLibrary.OrderId) public",
+      "file": "LimitOrderHook.sol",
+      "line": 130
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "orderInfos",
+      "var_type": "mapping(OrderIdLibrary.OrderId => OrderInfo) public",
+      "file": "LimitOrderHook.sol",
+      "line": 133
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "equals",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "unsafeIncrement",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_afterInitialize",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "placeOrder",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "cancelOrder",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_handlePlaceCallback",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_handleCancelCallback",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_handleWithdrawCallback",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_fillOrder",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getCrossedTicks",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getTickLowerLast",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getOrderId",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setOrderId",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getTickLower",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getOrderLiquidity",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getTick",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "ZERO_BYTES",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ORDER_ID_DEFAULT",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "orderIdNext",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "tickLowerLasts",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "orders",
+      "file": "LimitOrderHook.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "orderInfos",
+      "file": "LimitOrderHook.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 0,
+    "n_functions": 20,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00460",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-221",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "sample_id": "neg_00148",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getZappers",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol",
+      "start_line": 41,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBots",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol",
+      "start_line": 66,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getConnectedBots",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol",
+      "start_line": 78,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint256 public constant override",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol",
+      "line": 32
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "contractType",
+      "var_type": "bytes32 public constant override",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol",
+      "line": 33
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_partialLiquidationBotSerializer",
+      "var_type": "address internal immutable",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol",
+      "line": 35
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getZappers",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBots",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getConnectedBots",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "contractType",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_partialLiquidationBotSerializer",
+      "file": "periphery-v3_contracts_compressors_PeripheryCompressor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00148",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

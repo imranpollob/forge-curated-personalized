@@ -1,0 +1,435 @@
+{
+  "sample_id": "vfp_00566",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__PeripheryManager_init",
+      "file": "PeripheryManager.sol",
+      "start_line": 42,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setSwapper",
+      "file": "PeripheryManager.sol",
+      "start_line": 60,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setYieldDistributor",
+      "file": "PeripheryManager.sol",
+      "start_line": 71,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swapper",
+      "file": "PeripheryManager.sol",
+      "start_line": 81,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "yieldDistributor",
+      "file": "PeripheryManager.sol",
+      "start_line": 89,
+      "end_line": 91,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__RebalancingManager_init",
+      "file": "RebalancingManager.sol",
+      "start_line": 57,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "RebalancingManager.sol",
+      "start_line": 67,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_rebalanceSameAssets",
+      "file": "RebalancingManager.sol",
+      "start_line": 99,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_rebalanceDiffAssets",
+      "file": "RebalancingManager.sol",
+      "start_line": 128,
+      "end_line": 161,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "__VaultManager_init",
+      "file": "VaultManager.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addVault",
+      "file": "VaultManager.sol",
+      "start_line": 102,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "removeVault",
+      "file": "VaultManager.sol",
+      "start_line": 137,
+      "end_line": 155,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updateVaultSettings",
+      "file": "VaultManager.sol",
+      "start_line": 165,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setMainVault",
+      "file": "VaultManager.sol",
+      "start_line": 183,
+      "end_line": 189,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isVault",
+      "file": "VaultManager.sol",
+      "start_line": 196,
+      "end_line": 198,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "VaultManager.sol",
+      "start_line": 206,
+      "end_line": 215,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_vaultValue",
+      "file": "VaultManager.sol",
+      "start_line": 223,
+      "end_line": 225,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_checkVaultSettings",
+      "file": "VaultManager.sol",
+      "start_line": 231,
+      "end_line": 235,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_vaultAsset",
+      "file": "VaultManager.sol",
+      "start_line": 242,
+      "end_line": 244,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_vaultsOverview",
+      "file": "VaultManager.sol",
+      "start_line": 260,
+      "end_line": 276,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "PERIPHERY_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "PeripheryManager.sol",
+      "line": 15
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "REBALANCING_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "RebalancingManager.sol",
+      "line": 27
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "VAULT_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "VaultManager.sol",
+      "line": 23
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "SENTINEL_VAULTS",
+      "var_type": "address public constant",
+      "file": "VaultManager.sol",
+      "line": 27
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__PeripheryManager_init",
+      "file": "PeripheryManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setSwapper",
+      "file": "PeripheryManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setYieldDistributor",
+      "file": "PeripheryManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swapper",
+      "file": "PeripheryManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "yieldDistributor",
+      "file": "PeripheryManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__RebalancingManager_init",
+      "file": "RebalancingManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "RebalancingManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_rebalanceSameAssets",
+      "file": "RebalancingManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_rebalanceDiffAssets",
+      "file": "RebalancingManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "__VaultManager_init",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addVault",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "removeVault",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updateVaultSettings",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setMainVault",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isVault",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_vaultValue",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_checkVaultSettings",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_vaultAsset",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_vaultsOverview",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "PERIPHERY_MANAGER_ROLE",
+      "file": "PeripheryManager.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "REBALANCING_MANAGER_ROLE",
+      "file": "RebalancingManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "VAULT_MANAGER_ROLE",
+      "file": "VaultManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "SENTINEL_VAULTS",
+      "file": "VaultManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 0,
+    "n_functions": 20,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00566",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-358",
+      "CWE-693",
+      "CWE-703",
+      "CWE-807"
+    ]
+  }
+}

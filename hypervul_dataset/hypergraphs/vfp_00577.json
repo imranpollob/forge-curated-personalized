@@ -1,0 +1,602 @@
+{
+  "sample_id": "vfp_00577",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPrices",
+      "file": "MockPriceOracle.sol",
+      "start_line": 18,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "MockPriceOracle.sol",
+      "start_line": 24,
+      "end_line": 26,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "MockPriceOracle.sol",
+      "start_line": 29,
+      "end_line": 32,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "MockPriceOracle.sol",
+      "start_line": 35,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "MockPriceOracle.sol",
+      "start_line": 40,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PegKeeper.sol",
+      "start_line": 96,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isBorrowAllowed",
+      "file": "PegKeeper.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isFundingEnabled",
+      "file": "PegKeeper.sol",
+      "start_line": 120,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getFxUSDPrice",
+      "file": "PegKeeper.sol",
+      "start_line": 125,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "buyback",
+      "file": "PegKeeper.sol",
+      "start_line": 134,
+      "end_line": 139,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "stabilize",
+      "file": "PegKeeper.sol",
+      "start_line": 142,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "onSwap",
+      "file": "PegKeeper.sol",
+      "start_line": 152,
+      "end_line": 163,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updateConverter",
+      "file": "PegKeeper.sol",
+      "start_line": 171,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "updateCurvePool",
+      "file": "PegKeeper.sol",
+      "start_line": 177,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "updatePriceThreshold",
+      "file": "PegKeeper.sol",
+      "start_line": 183,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_updateConverter",
+      "file": "PegKeeper.sol",
+      "start_line": 193,
+      "end_line": 200,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_updateCurvePool",
+      "file": "PegKeeper.sol",
+      "start_line": 204,
+      "end_line": 211,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_updatePriceThreshold",
+      "file": "PegKeeper.sol",
+      "start_line": 215,
+      "end_line": 220,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_doSwap",
+      "file": "PegKeeper.sol",
+      "start_line": 227,
+      "end_line": 233,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getFxUSDEmaPrice",
+      "file": "PegKeeper.sol",
+      "start_line": 237,
+      "end_line": 244,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "anchorPrice",
+      "var_type": "uint256 public",
+      "file": "MockPriceOracle.sol",
+      "line": 8
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "minPrice",
+      "var_type": "uint256 public",
+      "file": "MockPriceOracle.sol",
+      "line": 9
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "maxPrice",
+      "var_type": "uint256 public",
+      "file": "MockPriceOracle.sol",
+      "line": 10
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "PRECISION",
+      "var_type": "uint256 private constant",
+      "file": "PegKeeper.sol",
+      "line": 34
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "BUYBACK_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "PegKeeper.sol",
+      "line": 37
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "STABILIZE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "PegKeeper.sol",
+      "line": 40
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "CONTEXT_NO_CONTEXT",
+      "var_type": "uint8 private constant",
+      "file": "PegKeeper.sol",
+      "line": 43
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "CONTEXT_BUYBACK",
+      "var_type": "uint8 private constant",
+      "file": "PegKeeper.sol",
+      "line": 44
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "CONTEXT_STABILIZE",
+      "var_type": "uint8 private constant",
+      "file": "PegKeeper.sol",
+      "line": 45
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "fxUSD",
+      "var_type": "address public immutable",
+      "file": "PegKeeper.sol",
+      "line": 52
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "stable",
+      "var_type": "address public immutable",
+      "file": "PegKeeper.sol",
+      "line": 55
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "fxBASE",
+      "var_type": "address public immutable",
+      "file": "PegKeeper.sol",
+      "line": 58
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "context",
+      "var_type": "uint8 private",
+      "file": "PegKeeper.sol",
+      "line": 65
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "converter",
+      "var_type": "address public",
+      "file": "PegKeeper.sol",
+      "line": 68
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "curvePool",
+      "var_type": "address public",
+      "file": "PegKeeper.sol",
+      "line": 71
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "priceThreshold",
+      "var_type": "uint256 public",
+      "file": "PegKeeper.sol",
+      "line": 74
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPrices",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isBorrowAllowed",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isFundingEnabled",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getFxUSDPrice",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "buyback",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "stabilize",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "onSwap",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updateConverter",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "updateCurvePool",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "updatePriceThreshold",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_updateConverter",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_updateCurvePool",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_updatePriceThreshold",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_doSwap",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getFxUSDEmaPrice",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "anchorPrice",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "minPrice",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "maxPrice",
+      "file": "MockPriceOracle.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "PRECISION",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "BUYBACK_ROLE",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "STABILIZE_ROLE",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "CONTEXT_NO_CONTEXT",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "CONTEXT_BUYBACK",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "CONTEXT_STABILIZE",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "fxUSD",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "stable",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "fxBASE",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "context",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "converter",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "curvePool",
+      "file": "PegKeeper.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "priceThreshold",
+      "file": "PegKeeper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 36,
+    "n_hyperedges": 0,
+    "n_functions": 20,
+    "n_state_vars": 16,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00577",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-654",
+      "CWE-664",
+      "CWE-666",
+      "CWE-693"
+    ]
+  }
+}

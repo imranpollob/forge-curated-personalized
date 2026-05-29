@@ -1,0 +1,205 @@
+{
+  "sample_id": "vfp_00321",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_memberAdd",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 44,
+      "end_line": 58,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_memberRemove",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 61,
+      "end_line": 77,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_memberJoin",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 80,
+      "end_line": 110,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "actionJoin",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 117,
+      "end_line": 119,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "actionJoinRequired",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 123,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "actionLeave",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 128,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "actionKick",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 157,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "actionChallengeMake",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 183,
+      "end_line": 204,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "actionChallengeDecide",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "start_line": 209,
+      "end_line": 234,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "daoNameSpace",
+      "var_type": "string constant private",
+      "file": "RocketDAONodeTrustedActions.sol",
+      "line": 32
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_memberAdd",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_memberRemove",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_memberJoin",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "actionJoin",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "actionJoinRequired",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "actionLeave",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "actionKick",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "actionChallengeMake",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "actionChallengeDecide",
+      "file": "RocketDAONodeTrustedActions.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "daoNameSpace",
+      "file": "RocketDAONodeTrustedActions.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00321",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-697",
+      "CWE-707"
+    ]
+  }
+}

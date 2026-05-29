@@ -1,0 +1,177 @@
+{
+  "sample_id": "vfp_00597",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isAdmin",
+      "file": "Implementations.sol",
+      "start_line": 11,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setDefaultImplementation",
+      "file": "Implementations.sol",
+      "start_line": 70,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addImplementation",
+      "file": "Implementations.sol",
+      "start_line": 83,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeImplementation",
+      "file": "Implementations.sol",
+      "start_line": 103,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Implementations.sol",
+      "start_line": 130,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getImplementation",
+      "file": "Implementations.sol",
+      "start_line": 140,
+      "end_line": 143,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getImplementationSigs",
+      "file": "Implementations.sol",
+      "start_line": 150,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSigImplementation",
+      "file": "Implementations.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isAdmin",
+      "file": "Implementations.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setDefaultImplementation",
+      "file": "Implementations.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addImplementation",
+      "file": "Implementations.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeImplementation",
+      "file": "Implementations.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Implementations.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getImplementation",
+      "file": "Implementations.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getImplementationSigs",
+      "file": "Implementations.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSigImplementation",
+      "file": "Implementations.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00597",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

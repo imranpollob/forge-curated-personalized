@@ -1,0 +1,94 @@
+{
+  "sample_id": "neg_00326",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFee",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol",
+      "start_line": 11,
+      "end_line": 18,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setFee",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol",
+      "start_line": 20,
+      "end_line": 22,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol",
+      "start_line": 25,
+      "end_line": 25,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "fee",
+      "var_type": "uint24 public",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol",
+      "line": 7
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFee",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setFee",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "fee",
+      "file": "uniswap-hooks_test_mocks_BaseOverrideFeeMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00326",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

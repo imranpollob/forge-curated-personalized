@@ -1,0 +1,862 @@
+{
+  "sample_id": "neg_00027",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "totalStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 32,
+      "end_line": 34,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "queuedStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 39,
+      "end_line": 41,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addValidation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 46,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "increaseStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 57,
+      "end_line": 60,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setBeneficiary",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 65,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decreaseStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 74,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 85,
+      "end_line": 91,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "signalExit",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 96,
+      "end_line": 99,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "addDelegation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 104,
+      "end_line": 122,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "signalDelegationExit",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 128,
+      "end_line": 133,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdrawDelegation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 138,
+      "end_line": 146,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getDelegation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 151,
+      "end_line": 157,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getDelegationPeriodDetails",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 162,
+      "end_line": 169,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getValidation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 174,
+      "end_line": 192,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getValidationPeriodDetails",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 197,
+      "end_line": 207,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getWithdrawable",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 212,
+      "end_line": 214,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "firstActive",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 219,
+      "end_line": 221,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "firstQueued",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 226,
+      "end_line": 228,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "next",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 233,
+      "end_line": 235,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getDelegatorsRewards",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 240,
+      "end_line": 245,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getValidationTotals",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 251,
+      "end_line": 265,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getValidationsNum",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 270,
+      "end_line": 272,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "issuance",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 277,
+      "end_line": 279,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "native_addValidation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 318,
+      "end_line": 323,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "native_increaseStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 325,
+      "end_line": 325,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "native_setBeneficiary",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 327,
+      "end_line": 331,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "native_decreaseStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 333,
+      "end_line": 333,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "native_withdrawStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 335,
+      "end_line": 335,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "native_signalExit",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 337,
+      "end_line": 337,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "native_addDelegation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 339,
+      "end_line": 343,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "native_withdrawDelegation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 345,
+      "end_line": 345,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "native_signalDelegationExit",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 347,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "native_totalStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 350,
+      "end_line": 350,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "native_queuedStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 352,
+      "end_line": 352,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "native_getDelegation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 354,
+      "end_line": 356,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "native_getValidation",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 358,
+      "end_line": 363,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "native_getWithdrawable",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 365,
+      "end_line": 365,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "native_firstActive",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 367,
+      "end_line": 367,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "native_firstQueued",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 369,
+      "end_line": 369,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "native_next",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 371,
+      "end_line": 371,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "native_getDelegatorContract",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 373,
+      "end_line": 373,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "native_getDelegatorsRewards",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 375,
+      "end_line": 378,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "native_getValidationTotals",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 380,
+      "end_line": 382,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "native_getValidationsNum",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 384,
+      "end_line": 384,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "native_issuance",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 386,
+      "end_line": 386,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "native_getControlSwitches",
+      "file": "thor_builtin_gen_staker.sol",
+      "start_line": 388,
+      "end_line": 388,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "CALL:thor_builtin_gen_staker.sol:74",
+      "call_type": "CALL",
+      "line": 74,
+      "enclosing_function": "withdrawStake",
+      "file": "thor_builtin_gen_staker.sol",
+      "raw_text": "(bool success, ) = msg.sender.call{value: stake}(\"\");"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "CALL:thor_builtin_gen_staker.sol:121",
+      "call_type": "CALL",
+      "line": 121,
+      "enclosing_function": "withdrawDelegation",
+      "file": "thor_builtin_gen_staker.sol",
+      "raw_text": "(bool success, ) = msg.sender.call{value: stake}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        46
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        10,
+        47
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 47
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "totalStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "queuedStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addValidation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "increaseStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setBeneficiary",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decreaseStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "signalExit",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "addDelegation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "signalDelegationExit",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdrawDelegation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getDelegation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getDelegationPeriodDetails",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getValidation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getValidationPeriodDetails",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getWithdrawable",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "firstActive",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "firstQueued",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "next",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getDelegatorsRewards",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getValidationTotals",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getValidationsNum",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "issuance",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "native_addValidation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "native_increaseStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "native_setBeneficiary",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "native_decreaseStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "native_withdrawStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "native_signalExit",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "native_addDelegation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "native_withdrawDelegation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "native_signalDelegationExit",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "native_totalStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "native_queuedStake",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "native_getDelegation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "native_getValidation",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "native_getWithdrawable",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "native_firstActive",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "native_firstQueued",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "native_next",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "native_getDelegatorContract",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "native_getDelegatorsRewards",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "native_getValidationTotals",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "native_getValidationsNum",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "native_issuance",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "native_getControlSwitches",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "CALL:thor_builtin_gen_staker.sol:74",
+      "file": "thor_builtin_gen_staker.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "CALL:thor_builtin_gen_staker.sol:121",
+      "file": "thor_builtin_gen_staker.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 48,
+    "n_hyperedges": 2,
+    "n_functions": 46,
+    "n_state_vars": 0,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00027",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

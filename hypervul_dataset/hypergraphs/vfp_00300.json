@@ -1,0 +1,319 @@
+{
+  "sample_id": "vfp_00300",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setImageIdTrusted",
+      "file": "Risc0Verifier.sol",
+      "start_line": 45,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyProof",
+      "file": "Risc0Verifier.sol",
+      "start_line": 51,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setProgramTrusted",
+      "file": "SP1Verifier.sol",
+      "start_line": 42,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "verifyProof",
+      "file": "SP1Verifier.sol",
+      "start_line": 48,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "RISCZERO_GROTH16_VERIFIER",
+      "var_type": "bytes32 internal constant",
+      "file": "Risc0Verifier.sol",
+      "line": 12
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "FIXED_JOURNAL_HEADER",
+      "var_type": "bytes private constant",
+      "file": "Risc0Verifier.sol",
+      "line": 15
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "taikoChainId",
+      "var_type": "uint64 public immutable",
+      "file": "Risc0Verifier.sol",
+      "line": 16
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "riscoGroth16Verifier",
+      "var_type": "address public immutable",
+      "file": "Risc0Verifier.sol",
+      "line": 17
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "isImageTrusted",
+      "var_type": "mapping(bytes32 imageId => bool trusted) public",
+      "file": "Risc0Verifier.sol",
+      "line": 20
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "Risc0Verifier.sol",
+      "line": 22
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "SP1_REMOTE_VERIFIER",
+      "var_type": "bytes32 internal constant",
+      "file": "SP1Verifier.sol",
+      "line": 12
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "taikoChainId",
+      "var_type": "uint64 public immutable",
+      "file": "SP1Verifier.sol",
+      "line": 14
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "sp1RemoteVerifier",
+      "var_type": "address public immutable",
+      "file": "SP1Verifier.sol",
+      "line": 15
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "isProgramTrusted",
+      "var_type": "mapping(bytes32 provingProgramVKey => bool trusted) public",
+      "file": "SP1Verifier.sol",
+      "line": 18
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "SP1Verifier.sol",
+      "line": 20
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "STATICCALL:Risc0Verifier.sol:76",
+      "call_type": "STATICCALL",
+      "line": 76,
+      "enclosing_function": "verifyProof",
+      "file": "Risc0Verifier.sol",
+      "raw_text": "(bool success,) = riscoGroth16Verifier.staticcall("
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "STATICCALL:SP1Verifier.sol:71",
+      "call_type": "STATICCALL",
+      "line": 71,
+      "enclosing_function": "verifyProof",
+      "file": "SP1Verifier.sol",
+      "raw_text": "(bool success,) = sp1RemoteVerifier.staticcall("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        6,
+        7,
+        8,
+        12,
+        13,
+        16
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setImageIdTrusted",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyProof",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setProgramTrusted",
+      "file": "SP1Verifier.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "verifyProof",
+      "file": "SP1Verifier.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "RISCZERO_GROTH16_VERIFIER",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "FIXED_JOURNAL_HEADER",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "taikoChainId",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "riscoGroth16Verifier",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "isImageTrusted",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "SP1_REMOTE_VERIFIER",
+      "file": "SP1Verifier.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "taikoChainId",
+      "file": "SP1Verifier.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "sp1RemoteVerifier",
+      "file": "SP1Verifier.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "isProgramTrusted",
+      "file": "SP1Verifier.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "SP1Verifier.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "STATICCALL:Risc0Verifier.sol:76",
+      "file": "Risc0Verifier.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "STATICCALL:SP1Verifier.sol:71",
+      "file": "SP1Verifier.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 2,
+    "n_functions": 4,
+    "n_state_vars": 11,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "vfp_00300",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical"
+    ],
+    "cwe_list": [
+      "CWE-693",
+      "CWE-807"
+    ]
+  }
+}

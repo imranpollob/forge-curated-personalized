@@ -1,0 +1,684 @@
+{
+  "sample_id": "vfp_00457",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setFeeModule",
+      "file": "OneToOneQueue.sol",
+      "start_line": 198,
+      "end_line": 204,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "OneToOneQueue.sol",
+      "start_line": 210,
+      "end_line": 216,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRecoveryAddress",
+      "file": "OneToOneQueue.sol",
+      "start_line": 222,
+      "end_line": 227,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addOfferAsset",
+      "file": "OneToOneQueue.sol",
+      "start_line": 234,
+      "end_line": 242,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateAssetMinimumOrderSize",
+      "file": "OneToOneQueue.sol",
+      "start_line": 249,
+      "end_line": 256,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeOfferAsset",
+      "file": "OneToOneQueue.sol",
+      "start_line": 262,
+      "end_line": 268,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addWantAsset",
+      "file": "OneToOneQueue.sol",
+      "start_line": 274,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "removeWantAsset",
+      "file": "OneToOneQueue.sol",
+      "start_line": 287,
+      "end_line": 293,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateOfferAssetRecipient",
+      "file": "OneToOneQueue.sol",
+      "start_line": 299,
+      "end_line": 306,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "manageERC20",
+      "file": "OneToOneQueue.sol",
+      "start_line": 311,
+      "end_line": 316,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "forceRefundOrders",
+      "file": "OneToOneQueue.sol",
+      "start_line": 322,
+      "end_line": 327,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "forceProcessOrders",
+      "file": "OneToOneQueue.sol",
+      "start_line": 333,
+      "end_line": 338,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "forceRefund",
+      "file": "OneToOneQueue.sol",
+      "start_line": 344,
+      "end_line": 346,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "forceProcess",
+      "file": "OneToOneQueue.sol",
+      "start_line": 352,
+      "end_line": 354,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "submitOrderAndProcess",
+      "file": "OneToOneQueue.sol",
+      "start_line": 362,
+      "end_line": 372,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "submitOrderAndProcessAll",
+      "file": "OneToOneQueue.sol",
+      "start_line": 380,
+      "end_line": 388,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getOrderStatus",
+      "file": "OneToOneQueue.sol",
+      "start_line": 393,
+      "end_line": 421,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "submitOrder",
+      "file": "OneToOneQueue.sol",
+      "start_line": 427,
+      "end_line": 475,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "processOrders",
+      "file": "OneToOneQueue.sol",
+      "start_line": 484,
+      "end_line": 547,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_verifyDepositor",
+      "file": "OneToOneQueue.sol",
+      "start_line": 552,
+      "end_line": 605,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_getWantAmountInWantDecimals",
+      "file": "OneToOneQueue.sol",
+      "start_line": 610,
+      "end_line": 633,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkBalanceQueue",
+      "file": "OneToOneQueue.sol",
+      "start_line": 636,
+      "end_line": 641,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_callOptionalReturnBool",
+      "file": "OneToOneQueue.sol",
+      "start_line": 647,
+      "end_line": 658,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_forceRefund",
+      "file": "OneToOneQueue.sol",
+      "start_line": 662,
+      "end_line": 692,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_forceProcess",
+      "file": "OneToOneQueue.sol",
+      "start_line": 695,
+      "end_line": 707,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_getOrderEnsureDefault",
+      "file": "OneToOneQueue.sol",
+      "start_line": 710,
+      "end_line": 720,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "usedSignatureHashes",
+      "var_type": "mapping(bytes32 => bool) public",
+      "file": "OneToOneQueue.sol",
+      "line": 86
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "supportedOfferAssets",
+      "var_type": "mapping(address => bool) public",
+      "file": "OneToOneQueue.sol",
+      "line": 89
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "supportedWantAssets",
+      "var_type": "mapping(address => bool) public",
+      "file": "OneToOneQueue.sol",
+      "line": 92
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "minimumOrderSizePerAsset",
+      "var_type": "mapping(address => uint256) public",
+      "file": "OneToOneQueue.sol",
+      "line": 95
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "feeModule",
+      "var_type": "IFeeModule public",
+      "file": "OneToOneQueue.sol",
+      "line": 98
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "offerAssetRecipient",
+      "var_type": "address public",
+      "file": "OneToOneQueue.sol",
+      "line": 101
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "feeRecipient",
+      "var_type": "address public",
+      "file": "OneToOneQueue.sol",
+      "line": 104
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "recoveryAddress",
+      "var_type": "address public",
+      "file": "OneToOneQueue.sol",
+      "line": 107
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "queue",
+      "var_type": "mapping(uint256 => Order) public",
+      "file": "OneToOneQueue.sol",
+      "line": 110
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "lastProcessedOrder",
+      "var_type": "uint256 public",
+      "file": "OneToOneQueue.sol",
+      "line": 114
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "latestOrder",
+      "var_type": "uint256 public",
+      "file": "OneToOneQueue.sol",
+      "line": 117
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OneToOneQueue.sol:372",
+      "call_type": "INTERFACE_CALL",
+      "line": 372,
+      "enclosing_function": "submitOrder",
+      "file": "OneToOneQueue.sol",
+      "raw_text": "feeModule.calculateOfferFees(params.amountOffer, params.offerAsset, params.wantAsset, params.receiver);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        14,
+        15,
+        17,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        37
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 37
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setFeeModule",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRecoveryAddress",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addOfferAsset",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateAssetMinimumOrderSize",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeOfferAsset",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addWantAsset",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "removeWantAsset",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateOfferAssetRecipient",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "manageERC20",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "forceRefundOrders",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "forceProcessOrders",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "forceRefund",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "forceProcess",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "submitOrderAndProcess",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "submitOrderAndProcessAll",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getOrderStatus",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "submitOrder",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "processOrders",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_verifyDepositor",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_getWantAmountInWantDecimals",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkBalanceQueue",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_callOptionalReturnBool",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_forceRefund",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_forceProcess",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_getOrderEnsureDefault",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "usedSignatureHashes",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "supportedOfferAssets",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "supportedWantAssets",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "minimumOrderSizePerAsset",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "feeModule",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "offerAssetRecipient",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "feeRecipient",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "recoveryAddress",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "queue",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "lastProcessedOrder",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "latestOrder",
+      "file": "OneToOneQueue.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OneToOneQueue.sol:372",
+      "file": "OneToOneQueue.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 38,
+    "n_hyperedges": 1,
+    "n_functions": 26,
+    "n_state_vars": 11,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 13.0
+  },
+  "label": {
+    "vfp_id": "vfp_00457",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-1284",
+      "CWE-1285",
+      "CWE-129",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-248",
+      "CWE-664",
+      "CWE-666",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-703",
+      "CWE-707",
+      "CWE-755"
+    ]
+  }
+}

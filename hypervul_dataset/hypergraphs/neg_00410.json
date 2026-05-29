@@ -1,0 +1,274 @@
+{
+  "sample_id": "neg_00410",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "parseZendSignature",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "start_line": 22,
+      "end_line": 32,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyZendSignatureBool",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "start_line": 34,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyZendSignature",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createMessageHash",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "start_line": 57,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pubKeyUncompressedToZenAddress",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pubKeyCompressedToZenAddress",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "signByte",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "start_line": 78,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "beneficiary",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IVesting.sol",
+      "start_line": 5,
+      "end_line": 5,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "startVesting",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IVesting.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mint",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "notifyMintingDone",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "MESSAGE_MAGIC_BYTES",
+      "var_type": "bytes private constant",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "line": 12
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_VerificationLibrary.sol:60",
+      "call_type": "INTERFACE_CALL",
+      "line": 60,
+      "enclosing_function": "createMessageHash",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol",
+      "raw_text": "bytes memory mmb2 = abi.encodePacked(uint8(MESSAGE_MAGIC_BYTES.length), MESSAGE_MAGIC_BYTES);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        12,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "parseZendSignature",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyZendSignatureBool",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyZendSignature",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createMessageHash",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pubKeyUncompressedToZenAddress",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pubKeyCompressedToZenAddress",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "signByte",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "beneficiary",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IVesting.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "startVesting",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IVesting.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mint",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "notifyMintingDone",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "MESSAGE_MAGIC_BYTES",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_VerificationLibrary.sol:60",
+      "file": "horizen-migration_erc20-migration_contracts_VerificationLibrary.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 1,
+    "n_functions": 12,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00410",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

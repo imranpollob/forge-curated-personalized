@@ -1,0 +1,162 @@
+{
+  "sample_id": "vfp_00467",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getAllCollateralMarkets",
+      "file": "Migrator.sol",
+      "start_line": 58,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAllPositions",
+      "file": "Migrator.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "migrateAllPositions",
+      "file": "Migrator.sol",
+      "start_line": 83,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_collectMendiPositions",
+      "file": "Migrator.sol",
+      "start_line": 158,
+      "end_line": 188,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getMaldaMarket",
+      "file": "Migrator.sol",
+      "start_line": 193,
+      "end_line": 206,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "allowedMarkets",
+      "var_type": "mapping(address => bool) public",
+      "file": "Migrator.sol",
+      "line": 31
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MENDI_COMPTROLLER",
+      "var_type": "address public constant",
+      "file": "Migrator.sol",
+      "line": 33
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MALDA_OPERATOR",
+      "var_type": "address public immutable",
+      "file": "Migrator.sol",
+      "line": 34
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getAllCollateralMarkets",
+      "file": "Migrator.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAllPositions",
+      "file": "Migrator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "migrateAllPositions",
+      "file": "Migrator.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_collectMendiPositions",
+      "file": "Migrator.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getMaldaMarket",
+      "file": "Migrator.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "allowedMarkets",
+      "file": "Migrator.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MENDI_COMPTROLLER",
+      "file": "Migrator.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MALDA_OPERATOR",
+      "file": "Migrator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00467",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

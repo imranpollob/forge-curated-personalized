@@ -1,0 +1,486 @@
+{
+  "sample_id": "neg_00138",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "exactInputSingle",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol",
+      "start_line": 24,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol",
+      "start_line": 37,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exactOutputSingle",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol",
+      "start_line": 53,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol",
+      "start_line": 66,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "hire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "start_line": 25,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "start_line": 30,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "distributeHiringBonus",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "start_line": 41,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getAllEmployees",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "start_line": 66,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getEmployeeAtIndex",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "start_line": 70,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "employeeCount",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "start_line": 75,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addr",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol",
+      "start_line": 9,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setAddr",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol",
+      "start_line": 13,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "ans",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol",
+      "start_line": 18,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "employees",
+      "var_type": "bytes32[] public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "line": 11
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "ansResolver",
+      "var_type": "IMockAnsResolver public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "line": 12
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "octoDistributor",
+      "var_type": "IOctoDistributor public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "line": 13
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "specToken",
+      "var_type": "address public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "line": 14
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "usdcToken",
+      "var_type": "address public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "line": 15
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "addresses",
+      "var_type": "mapping(bytes32 => address) public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol",
+      "line": 6
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "names",
+      "var_type": "mapping(address => bytes32) public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol",
+      "line": 7
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:26",
+      "call_type": "INTERFACE_CALL",
+      "line": 26,
+      "enclosing_function": "hire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "raw_text": "bytes32 ansNode = ansResolver.ans(employee);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:27",
+      "call_type": "INTERFACE_CALL",
+      "line": 27,
+      "enclosing_function": "hire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "raw_text": "employees.push(ansNode);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:31",
+      "call_type": "INTERFACE_CALL",
+      "line": 31,
+      "enclosing_function": "fire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "raw_text": "bytes32 ansNode = ansResolver.ans(employee);"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:35",
+      "call_type": "INTERFACE_CALL",
+      "line": 35,
+      "enclosing_function": "fire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "raw_text": "employees.pop();"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:57",
+      "call_type": "INTERFACE_CALL",
+      "line": 57,
+      "enclosing_function": "distributeHiringBonus",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol",
+      "raw_text": "octoDistributor.transferHiringDistributions("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        13,
+        14,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        13,
+        14,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        5,
+        13,
+        14,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        5,
+        13,
+        14,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        6,
+        13,
+        15,
+        16,
+        17,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "exactInputSingle",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exactOutputSingle",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "autonomous-agent-contracts_contracts_interfaces_ISwapRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "hire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fire",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "distributeHiringBonus",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getAllEmployees",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getEmployeeAtIndex",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "employeeCount",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addr",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setAddr",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "ans",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "employees",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "ansResolver",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "octoDistributor",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "specToken",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "usdcToken",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "addresses",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "names",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAnsResolver.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:26",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:27",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:31",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:35",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol:57",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompany.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 25,
+    "n_hyperedges": 5,
+    "n_functions": 13,
+    "n_state_vars": 7,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 4.4
+  },
+  "label": {
+    "vfp_id": "neg_00138",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

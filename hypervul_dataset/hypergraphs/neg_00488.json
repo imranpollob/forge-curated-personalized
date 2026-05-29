@@ -1,0 +1,222 @@
+{
+  "sample_id": "neg_00488",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deploy",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol",
+      "start_line": 45,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getWrappedDigest",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol",
+      "start_line": 30,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol",
+      "start_line": 52,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "INITIAL_GOVERNOR",
+      "var_type": "address public immutable",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol",
+      "line": 29
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "tea",
+      "var_type": "address public",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol",
+      "line": 32
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "mintManager",
+      "var_type": "address public",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol",
+      "line": 34
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "timelockController",
+      "var_type": "address public",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol",
+      "line": 36
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "owner",
+      "var_type": "address public",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol",
+      "line": 15
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol",
+      "line": 17
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "NAME_HASH",
+      "var_type": "bytes32 private constant",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol",
+      "line": 19
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "VERSION_HASH",
+      "var_type": "bytes32 private constant",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol",
+      "line": 20
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "TRANSFER:tea-token_src_TeaToken_TokenDeploy.sol:58",
+      "call_type": "TRANSFER",
+      "line": 58,
+      "enclosing_function": "deploy",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol",
+      "raw_text": "Tea(payable(tea)).transfer(INITIAL_GOVERNOR, Tea(payable(tea)).totalSupply());"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        11
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 11
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deploy",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getWrappedDigest",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "INITIAL_GOVERNOR",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "tea",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "mintManager",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "timelockController",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "owner",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR_TYPEHASH",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "NAME_HASH",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "VERSION_HASH",
+      "file": "tea-token_test_helpers_ERC1271Wallet.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "TRANSFER:tea-token_src_TeaToken_TokenDeploy.sol:58",
+      "file": "tea-token_src_TeaToken_TokenDeploy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 12,
+    "n_hyperedges": 1,
+    "n_functions": 3,
+    "n_state_vars": 8,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "neg_00488",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

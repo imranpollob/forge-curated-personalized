@@ -1,0 +1,63 @@
+{
+  "sample_id": "neg_00169",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addressProvider",
+      "file": "permissionless_contracts_interfaces_base_IDeployerTrait.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "bytecodeRepository",
+      "file": "permissionless_contracts_interfaces_base_IDeployerTrait.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addressProvider",
+      "file": "permissionless_contracts_interfaces_base_IDeployerTrait.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "bytecodeRepository",
+      "file": "permissionless_contracts_interfaces_base_IDeployerTrait.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 2,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00169",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

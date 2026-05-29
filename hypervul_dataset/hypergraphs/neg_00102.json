@@ -1,0 +1,111 @@
+{
+  "sample_id": "neg_00102",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "someFunction",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol",
+      "start_line": 13,
+      "end_line": 22,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "authority_canCall_immediate",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol",
+      "start_line": 24,
+      "end_line": 26,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "authority_canCall_delay",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "authority_getSchedule",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol",
+      "start_line": 32,
+      "end_line": 35,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "SOME_FUNCTION_CALLDATA",
+      "var_type": "bytes internal",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol",
+      "line": 9
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "someFunction",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "authority_canCall_immediate",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "authority_canCall_delay",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "authority_getSchedule",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "SOME_FUNCTION_CALLDATA",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_certora_harnesses_AccessManagedHarness.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00102",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

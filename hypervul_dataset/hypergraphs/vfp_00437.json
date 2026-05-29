@@ -1,0 +1,1158 @@
+{
+  "sample_id": "vfp_00437",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "name",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 228,
+      "end_line": 230,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 234,
+      "end_line": 236,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 241,
+      "end_line": 243,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mintOption",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 247,
+      "end_line": 421,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "settleOption",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 435,
+      "end_line": 581,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "positionSplitter",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 585,
+      "end_line": 628,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPricePerCallAssetViaTick",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 634,
+      "end_line": 637,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getPremiumAmount",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 647,
+      "end_line": 657,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_getCurrentSqrtPriceX96",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 662,
+      "end_line": 665,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getPremiumAmount",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 675,
+      "end_line": 691,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getPrice",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 697,
+      "end_line": 710,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getFee",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 716,
+      "end_line": 718,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updatePoolApporvals",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 729,
+      "end_line": 761,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "updatePoolSettings",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 770,
+      "end_line": 791,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setApprovedSwapperAndHook",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 793,
+      "end_line": 801,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setApprovedMinter",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 803,
+      "end_line": 806,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "emergencyWithdraw",
+      "file": "OptionMarketOTMFE.sol",
+      "start_line": 810,
+      "end_line": 812,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "optionIds",
+      "var_type": "uint256 public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 123
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "BUFFER_TIME",
+      "var_type": "uint256",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 126
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "dpFee",
+      "var_type": "IClammFeeStrategyV2 public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 129
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "optionPricing",
+      "var_type": "IOptionPricingV2 public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 131
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "verifiedSpotPrice",
+      "var_type": "IVerifiedSpotPrice public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 134
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "positionManager",
+      "var_type": "IPositionManager public immutable",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 137
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "primePool",
+      "var_type": "IUniswapV3Pool public immutable",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 139
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "callAsset",
+      "var_type": "address public immutable",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 142
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "putAsset",
+      "var_type": "address public immutable",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 144
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "feeTo",
+      "var_type": "address public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 147
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "tokenURIFetcher",
+      "var_type": "address public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 150
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "callAssetDecimals",
+      "var_type": "uint8 public immutable",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 153
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "putAssetDecimals",
+      "var_type": "uint8 public immutable",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 155
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "maxTickDiff",
+      "var_type": "uint24 public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 158
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "maxUpperTick",
+      "var_type": "int24",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 161
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "minLowerTick",
+      "var_type": "int24",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 163
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "minLiquidityToUse",
+      "var_type": "uint128",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 166
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "opData",
+      "var_type": "mapping(uint256 => OptionData) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 169
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "opTickMap",
+      "var_type": "mapping(uint256 => OptionTicks[]) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 171
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "approvedPools",
+      "var_type": "mapping(address => bool) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 173
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "settlers",
+      "var_type": "mapping(address => bool) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 175
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "approvedTTLs",
+      "var_type": "mapping(uint256 => bool) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 177
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "ttlStartTime",
+      "var_type": "mapping(uint256 => uint256) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 179
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "approvedSwapper",
+      "var_type": "mapping(address => bool) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 181
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "approvedHooks",
+      "var_type": "mapping(address => bool) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 183
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "approvedMinters",
+      "var_type": "mapping(address => bool) public",
+      "file": "OptionMarketOTMFE.sol",
+      "line": 185
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:215",
+      "call_type": "INTERFACE_CALL",
+      "line": 215,
+      "enclosing_function": "",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "if (primePool.token0() != _callAsset && primePool.token1() != _callAsset) revert InvalidPool();"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:216",
+      "call_type": "INTERFACE_CALL",
+      "line": 216,
+      "enclosing_function": "",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "if (primePool.token0() != _putAsset && primePool.token1() != _putAsset) {"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:352",
+      "call_type": "INTERFACE_CALL",
+      "line": 352,
+      "enclosing_function": "mintOption",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "positionManager.usePosition(opTick._handler, usePositionData);"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:375",
+      "call_type": "INTERFACE_CALL",
+      "line": 375,
+      "enclosing_function": "mintOption",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "verifiedSpotPrice.getSpotPrice(primePool, callAsset, callAssetDecimals),"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:407",
+      "call_type": "INTERFACE_CALL",
+      "line": 407,
+      "enclosing_function": "mintOption",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "positionManager.donateToPosition(opTick._handler, donatePositionData);"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:450",
+      "call_type": "INTERFACE_CALL",
+      "line": 450,
+      "enclosing_function": "settleOption",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "bool isAmount0 = oData.isCall ? primePool.token0() == callAsset : primePool.token0() == putAsset;"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "TRANSFER:OptionMarketOTMFE.sol:509",
+      "call_type": "TRANSFER",
+      "line": 509,
+      "enclosing_function": "settleOption",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "ac.assetToUse.transfer(address(_params.swapper[i]), amountToSwap);"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:571",
+      "call_type": "INTERFACE_CALL",
+      "line": 571,
+      "enclosing_function": "settleOption",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "positionManager.unusePosition(opTick._handler, unusePositionData);"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "TRANSFER:OptionMarketOTMFE.sol:577",
+      "call_type": "TRANSFER",
+      "line": 577,
+      "enclosing_function": "settleOption",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "ac.assetToGet.transfer(msg.sender, ac.totalProfit);"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "STATICCALL:OptionMarketOTMFE.sol:663",
+      "call_type": "STATICCALL",
+      "line": 663,
+      "enclosing_function": "_getCurrentSqrtPriceX96",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "(, bytes memory result) = address(pool).staticcall(abi.encodeWithSignature(\"slot0()\"));"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:684",
+      "call_type": "INTERFACE_CALL",
+      "line": 684,
+      "enclosing_function": "_getPremiumAmount",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "uint256 premiumInQuote = (amount * optionPricing.getOptionPrice(hook, isPut, expiry, ttl, strike, lastPrice))"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:717",
+      "call_type": "INTERFACE_CALL",
+      "line": 717,
+      "enclosing_function": "getFee",
+      "file": "OptionMarketOTMFE.sol",
+      "raw_text": "return dpFee.onFeeReqReceive(address(this), amount, premium);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        41,
+        42,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        41,
+        42,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        41,
+        42,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        22,
+        23,
+        24,
+        25,
+        34,
+        35,
+        37,
+        40,
+        48
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 48
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        4,
+        22,
+        23,
+        24,
+        25,
+        34,
+        35,
+        37,
+        40,
+        49
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 49
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        4,
+        22,
+        23,
+        24,
+        25,
+        34,
+        35,
+        37,
+        40,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        4,
+        22,
+        23,
+        24,
+        25,
+        34,
+        35,
+        37,
+        40,
+        51
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 51
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        3,
+        4,
+        8,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        52
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 52
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        3,
+        7,
+        9,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        41,
+        42,
+        53
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 53
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        3,
+        11,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        41,
+        42,
+        54
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 54
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "name",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mintOption",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "settleOption",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "positionSplitter",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPricePerCallAssetViaTick",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getPremiumAmount",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_getCurrentSqrtPriceX96",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getPremiumAmount",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getPrice",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getFee",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updatePoolApporvals",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "updatePoolSettings",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setApprovedSwapperAndHook",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setApprovedMinter",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "emergencyWithdraw",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "optionIds",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "BUFFER_TIME",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "dpFee",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "optionPricing",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "verifiedSpotPrice",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "positionManager",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "primePool",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "callAsset",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "putAsset",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "feeTo",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "tokenURIFetcher",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "callAssetDecimals",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "putAssetDecimals",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "maxTickDiff",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "maxUpperTick",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "minLowerTick",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "minLiquidityToUse",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "opData",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "opTickMap",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "approvedPools",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "settlers",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "approvedTTLs",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "ttlStartTime",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "approvedSwapper",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "approvedHooks",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "approvedMinters",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:215",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:216",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:352",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:375",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:407",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:450",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "TRANSFER:OptionMarketOTMFE.sol:509",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:571",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "TRANSFER:OptionMarketOTMFE.sol:577",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "STATICCALL:OptionMarketOTMFE.sol:663",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:684",
+      "file": "OptionMarketOTMFE.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OptionMarketOTMFE.sol:717",
+      "file": "OptionMarketOTMFE.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 55,
+    "n_hyperedges": 10,
+    "n_functions": 17,
+    "n_state_vars": 26,
+    "n_call_sites": 12,
+    "avg_hyperedge_size": 18.7
+  },
+  "label": {
+    "vfp_id": "vfp_00437",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1164",
+      "CWE-1339",
+      "CWE-190",
+      "CWE-20",
+      "CWE-240",
+      "CWE-282",
+      "CWE-283",
+      "CWE-284",
+      "CWE-369",
+      "CWE-435",
+      "CWE-436",
+      "CWE-561",
+      "CWE-682",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

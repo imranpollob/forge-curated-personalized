@@ -1,0 +1,245 @@
+{
+  "sample_id": "vfp_00499",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol",
+      "start_line": 69,
+      "end_line": 73,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol",
+      "start_line": 76,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeUserOp",
+      "file": "MinimalDelegation.sol",
+      "start_line": 87,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "validateUserOp",
+      "file": "MinimalDelegation.sol",
+      "start_line": 104,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "MinimalDelegation.sol",
+      "start_line": 129,
+      "end_line": 171,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_processBatch",
+      "file": "MinimalDelegation.sol",
+      "start_line": 174,
+      "end_line": 180,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_process",
+      "file": "MinimalDelegation.sol",
+      "start_line": 183,
+      "end_line": 196,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_handleVerifySignature",
+      "file": "MinimalDelegation.sol",
+      "start_line": 199,
+      "end_line": 216,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_senderIsExecutor",
+      "file": "MinimalDelegation.sol",
+      "start_line": 220,
+      "end_line": 222,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "CALL:MinimalDelegation.sol:193",
+      "call_type": "CALL",
+      "line": 193,
+      "enclosing_function": "_process",
+      "file": "MinimalDelegation.sol",
+      "raw_text": "(success, output) = to.call{value: _call.value}(_call.data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        3,
+        6,
+        7,
+        10
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeUserOp",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "validateUserOp",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_processBatch",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_process",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_handleVerifySignature",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_senderIsExecutor",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "CALL:MinimalDelegation.sol:193",
+      "file": "MinimalDelegation.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 1,
+    "n_functions": 10,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00499",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-345",
+      "CWE-347",
+      "CWE-357",
+      "CWE-358",
+      "CWE-691",
+      "CWE-693",
+      "CWE-707",
+      "CWE-841"
+    ]
+  }
+}

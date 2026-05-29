@@ -1,0 +1,1205 @@
+{
+  "sample_id": "neg_00459",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol",
+      "start_line": 35,
+      "end_line": 37,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_registerInterface",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol",
+      "start_line": 50,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "clearTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 24,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAdmin",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setExternalAdmin",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 122,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setContractHandler",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 127,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initGlpManager",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 131,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initRewardRouter",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 144,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setKeeper",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 152,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setBuffer",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 156,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setMaxLeverage",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 162,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setFundingRate",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 167,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setShouldToggleIsLeverageEnabled",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 173,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setMarginFeeBasisPoints",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 177,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setSwapFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 182,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 208,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "enableLeverage",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 235,
+      "end_line": 253,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "disableLeverage",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 255,
+      "end_line": 273,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setIsLeverageEnabled",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 275,
+      "end_line": 277,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 279,
+      "end_line": 310,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setUsdgAmounts",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 312,
+      "end_line": 316,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "updateUsdgSupply",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 318,
+      "end_line": 333,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setShortsTrackerAveragePriceWeight",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 335,
+      "end_line": 337,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setGlpCooldownDuration",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 339,
+      "end_line": 342,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setMaxGlobalShortSize",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 344,
+      "end_line": 346,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "removeAdmin",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 348,
+      "end_line": 350,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setIsSwapEnabled",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 352,
+      "end_line": 354,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "setTier",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 356,
+      "end_line": 358,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setReferrerTier",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 360,
+      "end_line": 362,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "govSetCodeOwner",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 364,
+      "end_line": 366,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setVaultUtils",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 368,
+      "end_line": 370,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setMaxGasPrice",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 372,
+      "end_line": 375,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 377,
+      "end_line": 379,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "batchWithdrawFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 381,
+      "end_line": 385,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "setInPrivateLiquidationMode",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 387,
+      "end_line": 389,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setLiquidator",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 391,
+      "end_line": 393,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setInPrivateTransferMode",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 395,
+      "end_line": 397,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "batchSetBonusRewards",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 399,
+      "end_line": 411,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "transferIn",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 413,
+      "end_line": 415,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "signalApprove",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 417,
+      "end_line": 421,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "approve",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 423,
+      "end_line": 428,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "signalWithdrawToken",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 430,
+      "end_line": 434,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "withdrawToken",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 436,
+      "end_line": 441,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "signalMint",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 443,
+      "end_line": 447,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "processMint",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 449,
+      "end_line": 455,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "signalSetGov",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 457,
+      "end_line": 461,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setGov",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 463,
+      "end_line": 468,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "signalSetHandler",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 470,
+      "end_line": 474,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "setHandler",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 476,
+      "end_line": 481,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "signalSetPriceFeed",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 483,
+      "end_line": 487,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "setPriceFeed",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 489,
+      "end_line": 494,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "signalRedeemUsdg",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 496,
+      "end_line": 500,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "redeemUsdg",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 502,
+      "end_line": 518,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "signalVaultSetTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 520,
+      "end_line": 554,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "vaultSetTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 556,
+      "end_line": 590,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "signalClearVaultTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 592,
+      "end_line": 596,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "clearVaultTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 598,
+      "end_line": 603,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "cancelAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 605,
+      "end_line": 607,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 609,
+      "end_line": 618,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_setPendingAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 620,
+      "end_line": 624,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_validateAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 626,
+      "end_line": 629,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_clearAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "start_line": 631,
+      "end_line": 635,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "distribute",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "getRewardToken",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "getDistributionAmount",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "tokensPerInterval",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "_INTERFACE_ID_ERC165",
+      "var_type": "bytes4 private constant",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol",
+      "line": 17
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "_supportedInterfaces",
+      "var_type": "mapping(bytes4 => bool) private",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol",
+      "line": 22
+    },
+    {
+      "node_id": 68,
+      "node_type": "call_site",
+      "name": "TRANSFER:morphex-contracts_contracts_peripherals_Timelock.sol:512",
+      "call_type": "TRANSFER",
+      "line": 512,
+      "enclosing_function": "redeemUsdg",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol",
+      "raw_text": "IERC20(usdg).transfer(address(_vault), _amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        52,
+        68
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 68
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_registerInterface",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "clearTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAdmin",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setExternalAdmin",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setContractHandler",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initGlpManager",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initRewardRouter",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setKeeper",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setBuffer",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setMaxLeverage",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setFundingRate",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setShouldToggleIsLeverageEnabled",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setMarginFeeBasisPoints",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setSwapFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "enableLeverage",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "disableLeverage",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setIsLeverageEnabled",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setUsdgAmounts",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "updateUsdgSupply",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setShortsTrackerAveragePriceWeight",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setGlpCooldownDuration",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setMaxGlobalShortSize",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "removeAdmin",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setIsSwapEnabled",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "setTier",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setReferrerTier",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "govSetCodeOwner",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setVaultUtils",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setMaxGasPrice",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "batchWithdrawFees",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "setInPrivateLiquidationMode",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setLiquidator",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setInPrivateTransferMode",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "batchSetBonusRewards",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "transferIn",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "signalApprove",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "approve",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "signalWithdrawToken",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "withdrawToken",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "signalMint",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "processMint",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "signalSetGov",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setGov",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "signalSetHandler",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "setHandler",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "signalSetPriceFeed",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "setPriceFeed",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "signalRedeemUsdg",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "redeemUsdg",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "signalVaultSetTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "vaultSetTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "signalClearVaultTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "clearVaultTokenConfig",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "cancelAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_setPendingAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_validateAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_clearAction",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "distribute",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "getRewardToken",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "getDistributionAmount",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "tokensPerInterval",
+      "file": "morphex-contracts_contracts_tokens_interfaces_IDistributor.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "_INTERFACE_ID_ERC165",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "_supportedInterfaces",
+      "file": "morphex-contracts_contracts_libraries_introspection_ERC165.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "call_site",
+      "name": "TRANSFER:morphex-contracts_contracts_peripherals_Timelock.sol:512",
+      "file": "morphex-contracts_contracts_peripherals_Timelock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 69,
+    "n_hyperedges": 1,
+    "n_functions": 66,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00459",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

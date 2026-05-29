@@ -1,0 +1,97 @@
+{
+  "sample_id": "neg_00389",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPool",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol",
+      "start_line": 12,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol",
+      "start_line": 24,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "poolImplementation",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol",
+      "start_line": 32,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "owner",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol",
+      "start_line": 35,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPool",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "poolImplementation",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "owner",
+      "file": "lend_src_interfaces_aerodrome_IAerodromeSlipstreamFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00389",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

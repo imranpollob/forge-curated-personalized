@@ -1,0 +1,437 @@
+{
+  "sample_id": "neg_00244",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_maxSupply",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol",
+      "start_line": 26,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_update",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol",
+      "start_line": 37,
+      "end_line": 47,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "numCheckpoints",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkpoints",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_transferVotingUnits",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol",
+      "start_line": 82,
+      "end_line": 82,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getPastTotalSupply",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol",
+      "start_line": 90,
+      "end_line": 92,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getCollateralToken",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 136,
+      "end_line": 136,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getAccountCollateralBalance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 144,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 155,
+      "end_line": 157,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getClaimableAmount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 165,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 176,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getWithdrawalFeeBasisPoints",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 186,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 202,
+      "end_line": 207,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositFromAccount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 226,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 241,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowanceWithSignature",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 260,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "modifyCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 276,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "poolCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 289,
+      "end_line": 289,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "releaseAllCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 296,
+      "end_line": 296,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "reserveClaimableCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 308,
+      "end_line": 312,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "reserveCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 324,
+      "end_line": 328,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "transferCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 336,
+      "end_line": 336,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 347,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "anvil-contracts_contracts_interfaces_ILiquidator.sol",
+      "start_line": 16,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_maxSupply",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_update",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "numCheckpoints",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkpoints",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_transferVotingUnits",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getPastTotalSupply",
+      "file": "anvil-contracts_contracts_governance_AnvilERC20Votes.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getCollateralToken",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getAccountCollateralBalance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getClaimableAmount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getWithdrawalFeeBasisPoints",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositFromAccount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowanceWithSignature",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "modifyCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "poolCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "releaseAllCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "reserveClaimableCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "reserveCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "transferCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "anvil-contracts_contracts_interfaces_ILiquidator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 0,
+    "n_functions": 24,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00244",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

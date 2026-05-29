@@ -1,0 +1,584 @@
+{
+  "sample_id": "vfp_00273",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "Distributor_init",
+      "file": "Distributor.sol",
+      "start_line": 79,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "Distributor.sol",
+      "start_line": 96,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setChainLinkDataConsumer",
+      "file": "Distributor.sol",
+      "start_line": 104,
+      "end_line": 113,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setL1Sender",
+      "file": "Distributor.sol",
+      "start_line": 115,
+      "end_line": 121,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setAavePool",
+      "file": "Distributor.sol",
+      "start_line": 126,
+      "end_line": 132,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAavePoolDataProvider",
+      "file": "Distributor.sol",
+      "start_line": 137,
+      "end_line": 143,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setRewardPool",
+      "file": "Distributor.sol",
+      "start_line": 145,
+      "end_line": 151,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setMinRewardsDistributePeriod",
+      "file": "Distributor.sol",
+      "start_line": 153,
+      "end_line": 157,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setRewardPoolLastCalculatedTimestamp",
+      "file": "Distributor.sol",
+      "start_line": 159,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "addDepositPool",
+      "file": "Distributor.sol",
+      "start_line": 172,
+      "end_line": 225,
+      "visibility": "public",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_onlyExistedDepositPool",
+      "file": "Distributor.sol",
+      "start_line": 227,
+      "end_line": 229,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "updateDepositTokensPrices",
+      "file": "Distributor.sol",
+      "start_line": 235,
+      "end_line": 256,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "supply",
+      "file": "Distributor.sol",
+      "start_line": 262,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Distributor.sol",
+      "start_line": 281,
+      "end_line": 305,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "distributeRewards",
+      "file": "Distributor.sol",
+      "start_line": 307,
+      "end_line": 384,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "withdrawYield",
+      "file": "Distributor.sol",
+      "start_line": 390,
+      "end_line": 398,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "withdrawUndistributedRewards",
+      "file": "Distributor.sol",
+      "start_line": 400,
+      "end_line": 406,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "sendMintMessage",
+      "file": "Distributor.sol",
+      "start_line": 412,
+      "end_line": 422,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_withdrawYield",
+      "file": "Distributor.sol",
+      "start_line": 429,
+      "end_line": 442,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getDistributedRewards",
+      "file": "Distributor.sol",
+      "start_line": 448,
+      "end_line": 453,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "version",
+      "file": "Distributor.sol",
+      "start_line": 459,
+      "end_line": 461,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "Distributor.sol",
+      "start_line": 463,
+      "end_line": 463,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "depositPools",
+      "var_type": "mapping(uint256 => mapping(address => DepositPool)) public",
+      "file": "Distributor.sol",
+      "line": 27
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "distributedRewards",
+      "var_type": "mapping(uint256 => mapping(address => uint256)) public",
+      "file": "Distributor.sol",
+      "line": 30
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "depositPoolAddresses",
+      "var_type": "mapping(uint256 => address[]) public",
+      "file": "Distributor.sol",
+      "line": 33
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "rewardPoolLastCalculatedTimestamp",
+      "var_type": "mapping(uint256 => uint128) public",
+      "file": "Distributor.sol",
+      "line": 35
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "isPrivateDepositPoolAdded",
+      "var_type": "mapping(uint256 => bool) public",
+      "file": "Distributor.sol",
+      "line": 36
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "chainLinkDataConsumer",
+      "var_type": "address public",
+      "file": "Distributor.sol",
+      "line": 42
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "rewardPool",
+      "var_type": "address public",
+      "file": "Distributor.sol",
+      "line": 48
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "l1Sender",
+      "var_type": "address public",
+      "file": "Distributor.sol",
+      "line": 54
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "aavePool",
+      "var_type": "address public",
+      "file": "Distributor.sol",
+      "line": 60
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "aavePoolDataProvider",
+      "var_type": "address public",
+      "file": "Distributor.sol",
+      "line": 61
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "undistributedRewards",
+      "var_type": "uint256 public",
+      "file": "Distributor.sol",
+      "line": 67
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "minRewardsDistributePeriod",
+      "var_type": "uint256 public",
+      "file": "Distributor.sol",
+      "line": 69
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "Distributor_init",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setChainLinkDataConsumer",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setL1Sender",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setAavePool",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAavePoolDataProvider",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setRewardPool",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setMinRewardsDistributePeriod",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setRewardPoolLastCalculatedTimestamp",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "addDepositPool",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_onlyExistedDepositPool",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "updateDepositTokensPrices",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "supply",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "distributeRewards",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "withdrawYield",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "withdrawUndistributedRewards",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "sendMintMessage",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_withdrawYield",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getDistributedRewards",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "version",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "depositPools",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "distributedRewards",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "depositPoolAddresses",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "rewardPoolLastCalculatedTimestamp",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "isPrivateDepositPoolAdded",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "chainLinkDataConsumer",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "rewardPool",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "l1Sender",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "aavePool",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "aavePoolDataProvider",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "undistributedRewards",
+      "file": "Distributor.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "minRewardsDistributePeriod",
+      "file": "Distributor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 34,
+    "n_hyperedges": 0,
+    "n_functions": 22,
+    "n_state_vars": 12,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00273",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-20",
+      "CWE-435",
+      "CWE-670",
+      "CWE-691",
+      "CWE-707"
+    ]
+  }
+}

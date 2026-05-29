@@ -1,0 +1,3064 @@
+{
+  "sample_id": "vfp_00486",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "Hub.sol",
+      "start_line": 76,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "Hub.sol",
+      "start_line": 91,
+      "end_line": 104,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "Hub.sol",
+      "start_line": 107,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "notifyDeposit",
+      "file": "Hub.sol",
+      "start_line": 122,
+      "end_line": 143,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "notifyRedeem",
+      "file": "Hub.sol",
+      "start_line": 146,
+      "end_line": 167,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "notifyPool",
+      "file": "Hub.sol",
+      "start_line": 174,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "notifyShareClass",
+      "file": "Hub.sol",
+      "start_line": 182,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "notifyShareMetadata",
+      "file": "Hub.sol",
+      "start_line": 199,
+      "end_line": 206,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateShareHook",
+      "file": "Hub.sol",
+      "start_line": 209,
+      "end_line": 218,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "notifySharePrice",
+      "file": "Hub.sol",
+      "start_line": 221,
+      "end_line": 228,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "notifyAssetPrice",
+      "file": "Hub.sol",
+      "start_line": 231,
+      "end_line": 236,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setMaxAssetPriceAge",
+      "file": "Hub.sol",
+      "start_line": 239,
+      "end_line": 248,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setMaxSharePriceAge",
+      "file": "Hub.sol",
+      "start_line": 251,
+      "end_line": 260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setPoolMetadata",
+      "file": "Hub.sol",
+      "start_line": 263,
+      "end_line": 267,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setSnapshotHook",
+      "file": "Hub.sol",
+      "start_line": 270,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "updateShareClassMetadata",
+      "file": "Hub.sol",
+      "start_line": 277,
+      "end_line": 284,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateHubManager",
+      "file": "Hub.sol",
+      "start_line": 287,
+      "end_line": 291,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setRequestManager",
+      "file": "Hub.sol",
+      "start_line": 294,
+      "end_line": 302,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "updateBalanceSheetManager",
+      "file": "Hub.sol",
+      "start_line": 305,
+      "end_line": 313,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "addShareClass",
+      "file": "Hub.sol",
+      "start_line": 316,
+      "end_line": 324,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "approveDeposits",
+      "file": "Hub.sol",
+      "start_line": 327,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "approveRedeems",
+      "file": "Hub.sol",
+      "start_line": 350,
+      "end_line": 362,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "issueShares",
+      "file": "Hub.sol",
+      "start_line": 365,
+      "end_line": 390,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "revokeShares",
+      "file": "Hub.sol",
+      "start_line": 393,
+      "end_line": 419,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "forceCancelDepositRequest",
+      "file": "Hub.sol",
+      "start_line": 422,
+      "end_line": 442,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "forceCancelRedeemRequest",
+      "file": "Hub.sol",
+      "start_line": 445,
+      "end_line": 464,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "updateRestriction",
+      "file": "Hub.sol",
+      "start_line": 467,
+      "end_line": 480,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "updateVault",
+      "file": "Hub.sol",
+      "start_line": 483,
+      "end_line": 497,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateContract",
+      "file": "Hub.sol",
+      "start_line": 500,
+      "end_line": 514,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "updateSharePrice",
+      "file": "Hub.sol",
+      "start_line": 517,
+      "end_line": 521,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "initializeHolding",
+      "file": "Hub.sol",
+      "start_line": 524,
+      "end_line": 558,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "initializeLiability",
+      "file": "Hub.sol",
+      "start_line": 561,
+      "end_line": 584,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "updateHoldingValue",
+      "file": "Hub.sol",
+      "start_line": 587,
+      "end_line": 592,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "updateHoldingValuation",
+      "file": "Hub.sol",
+      "start_line": 595,
+      "end_line": 602,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "updateHoldingIsLiability",
+      "file": "Hub.sol",
+      "start_line": 605,
+      "end_line": 612,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setHoldingAccountId",
+      "file": "Hub.sol",
+      "start_line": 615,
+      "end_line": 624,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "createAccount",
+      "file": "Hub.sol",
+      "start_line": 627,
+      "end_line": 631,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setAccountMetadata",
+      "file": "Hub.sol",
+      "start_line": 634,
+      "end_line": 638,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "updateJournal",
+      "file": "Hub.sol",
+      "start_line": 641,
+      "end_line": 647,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "registerAsset",
+      "file": "Hub.sol",
+      "start_line": 654,
+      "end_line": 658,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "request",
+      "file": "Hub.sol",
+      "start_line": 661,
+      "end_line": 665,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "updateHoldingAmount",
+      "file": "Hub.sol",
+      "start_line": 668,
+      "end_line": 690,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "updateShares",
+      "file": "Hub.sol",
+      "start_line": 693,
+      "end_line": 707,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "initiateTransferShares",
+      "file": "Hub.sol",
+      "start_line": 710,
+      "end_line": 722,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_auth",
+      "file": "Hub.sol",
+      "start_line": 729,
+      "end_line": 729,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_protected",
+      "file": "Hub.sol",
+      "start_line": 732,
+      "end_line": 732,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_isManager",
+      "file": "Hub.sol",
+      "start_line": 735,
+      "end_line": 737,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_startTransactionPayment",
+      "file": "Hub.sol",
+      "start_line": 740,
+      "end_line": 744,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_endTransactionPayment",
+      "file": "Hub.sol",
+      "start_line": 746,
+      "end_line": 750,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "gateway",
+      "var_type": "IGateway public",
+      "file": "Hub.sol",
+      "line": 39
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "holdings",
+      "var_type": "IHoldings public",
+      "file": "Hub.sol",
+      "line": 40
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "hubHelpers",
+      "var_type": "IHubHelpers public",
+      "file": "Hub.sol",
+      "line": 41
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "accounting",
+      "var_type": "IAccounting public",
+      "file": "Hub.sol",
+      "line": 42
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "hubRegistry",
+      "var_type": "IHubRegistry public",
+      "file": "Hub.sol",
+      "line": 43
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "sender",
+      "var_type": "IHubMessageSender public",
+      "file": "Hub.sol",
+      "line": 44
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "shareClassManager",
+      "var_type": "IShareClassManager public",
+      "file": "Hub.sol",
+      "line": 45
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "poolEscrowFactory",
+      "var_type": "IPoolEscrowFactory public",
+      "file": "Hub.sol",
+      "line": 46
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:92",
+      "call_type": "INTERFACE_CALL",
+      "line": 92,
+      "enclosing_function": "multicall",
+      "file": "Hub.sol",
+      "raw_text": "bool wasBatching = gateway.isBatching();"
+    },
+    {
+      "node_id": 58,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:94",
+      "call_type": "INTERFACE_CALL",
+      "line": 94,
+      "enclosing_function": "multicall",
+      "file": "Hub.sol",
+      "raw_text": "gateway.startBatching();"
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:95",
+      "call_type": "INTERFACE_CALL",
+      "line": 95,
+      "enclosing_function": "multicall",
+      "file": "Hub.sol",
+      "raw_text": "gateway.startTransactionPayment{value: msg.value}(msg.sender);"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:101",
+      "call_type": "INTERFACE_CALL",
+      "line": 101,
+      "enclosing_function": "multicall",
+      "file": "Hub.sol",
+      "raw_text": "gateway.endBatching();"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:102",
+      "call_type": "INTERFACE_CALL",
+      "line": 102,
+      "enclosing_function": "multicall",
+      "file": "Hub.sol",
+      "raw_text": "gateway.endTransactionPayment();"
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "createPool",
+      "file": "Hub.sol",
+      "raw_text": "require(poolId.centrifugeId() == sender.localCentrifugeId(), InvalidPoolId());"
+    },
+    {
+      "node_id": 63,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:111",
+      "call_type": "INTERFACE_CALL",
+      "line": 111,
+      "enclosing_function": "createPool",
+      "file": "Hub.sol",
+      "raw_text": "hubRegistry.registerPool(poolId, admin, currency);"
+    },
+    {
+      "node_id": 64,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:113",
+      "call_type": "INTERFACE_CALL",
+      "line": 113,
+      "enclosing_function": "createPool",
+      "file": "Hub.sol",
+      "raw_text": "IPoolEscrow escrow = poolEscrowFactory.newEscrow(poolId);"
+    },
+    {
+      "node_id": 65,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:114",
+      "call_type": "INTERFACE_CALL",
+      "line": 114,
+      "enclosing_function": "createPool",
+      "file": "Hub.sol",
+      "raw_text": "gateway.setRefundAddress(poolId, escrow);"
+    },
+    {
+      "node_id": 66,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:133",
+      "call_type": "INTERFACE_CALL",
+      "line": 133,
+      "enclosing_function": "notifyDeposit",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendRequestCallback("
+    },
+    {
+      "node_id": 67,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:157",
+      "call_type": "INTERFACE_CALL",
+      "line": 157,
+      "enclosing_function": "notifyRedeem",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendRequestCallback("
+    },
+    {
+      "node_id": 68,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:178",
+      "call_type": "INTERFACE_CALL",
+      "line": 178,
+      "enclosing_function": "notifyPool",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendNotifyPool(centrifugeId, poolId);"
+    },
+    {
+      "node_id": 69,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:189",
+      "call_type": "INTERFACE_CALL",
+      "line": 189,
+      "enclosing_function": "notifyShareClass",
+      "file": "Hub.sol",
+      "raw_text": "require(shareClassManager.exists(poolId, scId), IShareClassManager.ShareClassNotFound());"
+    },
+    {
+      "node_id": 70,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:191",
+      "call_type": "INTERFACE_CALL",
+      "line": 191,
+      "enclosing_function": "notifyShareClass",
+      "file": "Hub.sol",
+      "raw_text": "(string memory name, string memory symbol, bytes32 salt) = shareClassManager.metadata(scId);"
+    },
+    {
+      "node_id": 71,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:192",
+      "call_type": "INTERFACE_CALL",
+      "line": 192,
+      "enclosing_function": "notifyShareClass",
+      "file": "Hub.sol",
+      "raw_text": "uint8 decimals = hubRegistry.decimals(poolId);"
+    },
+    {
+      "node_id": 72,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:195",
+      "call_type": "INTERFACE_CALL",
+      "line": 195,
+      "enclosing_function": "notifyShareClass",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendNotifyShareClass(centrifugeId, poolId, scId, name, symbol, decimals, salt, hook);"
+    },
+    {
+      "node_id": 73,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:202",
+      "call_type": "INTERFACE_CALL",
+      "line": 202,
+      "enclosing_function": "notifyShareMetadata",
+      "file": "Hub.sol",
+      "raw_text": "(string memory name, string memory symbol,) = shareClassManager.metadata(scId);"
+    },
+    {
+      "node_id": 74,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:205",
+      "call_type": "INTERFACE_CALL",
+      "line": 205,
+      "enclosing_function": "notifyShareMetadata",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendNotifyShareMetadata(centrifugeId, poolId, scId, name, symbol);"
+    },
+    {
+      "node_id": 75,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:217",
+      "call_type": "INTERFACE_CALL",
+      "line": 217,
+      "enclosing_function": "updateShareHook",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendUpdateShareHook(centrifugeId, poolId, scId, hook);"
+    },
+    {
+      "node_id": 76,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:224",
+      "call_type": "INTERFACE_CALL",
+      "line": 224,
+      "enclosing_function": "notifySharePrice",
+      "file": "Hub.sol",
+      "raw_text": "(, D18 poolPerShare) = shareClassManager.metrics(scId);"
+    },
+    {
+      "node_id": 77,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:227",
+      "call_type": "INTERFACE_CALL",
+      "line": 227,
+      "enclosing_function": "notifySharePrice",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendNotifyPricePoolPerShare(centrifugeId, poolId, scId, poolPerShare);"
+    },
+    {
+      "node_id": 78,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:233",
+      "call_type": "INTERFACE_CALL",
+      "line": 233,
+      "enclosing_function": "notifyAssetPrice",
+      "file": "Hub.sol",
+      "raw_text": "D18 pricePoolPerAsset = hubHelpers.pricePoolPerAsset(poolId, scId, assetId);"
+    },
+    {
+      "node_id": 79,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:235",
+      "call_type": "INTERFACE_CALL",
+      "line": 235,
+      "enclosing_function": "notifyAssetPrice",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendNotifyPricePoolPerAsset(poolId, scId, assetId, pricePoolPerAsset);"
+    },
+    {
+      "node_id": 80,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:247",
+      "call_type": "INTERFACE_CALL",
+      "line": 247,
+      "enclosing_function": "setMaxAssetPriceAge",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendMaxAssetPriceAge(poolId, scId, assetId, maxPriceAge);"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:259",
+      "call_type": "INTERFACE_CALL",
+      "line": 259,
+      "enclosing_function": "setMaxSharePriceAge",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendMaxSharePriceAge(centrifugeId, poolId, scId, maxPriceAge);"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:266",
+      "call_type": "INTERFACE_CALL",
+      "line": 266,
+      "enclosing_function": "setPoolMetadata",
+      "file": "Hub.sol",
+      "raw_text": "hubRegistry.setMetadata(poolId, metadata);"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:283",
+      "call_type": "INTERFACE_CALL",
+      "line": 283,
+      "enclosing_function": "updateShareClassMetadata",
+      "file": "Hub.sol",
+      "raw_text": "shareClassManager.updateMetadata(poolId, scId, name, symbol);"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:290",
+      "call_type": "INTERFACE_CALL",
+      "line": 290,
+      "enclosing_function": "updateHubManager",
+      "file": "Hub.sol",
+      "raw_text": "hubRegistry.updateManager(poolId, who, canManage);"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:301",
+      "call_type": "INTERFACE_CALL",
+      "line": 301,
+      "enclosing_function": "setRequestManager",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendSetRequestManager(poolId, scId, assetId, manager);"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:312",
+      "call_type": "INTERFACE_CALL",
+      "line": 312,
+      "enclosing_function": "updateBalanceSheetManager",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendUpdateBalanceSheetManager(centrifugeId, poolId, who, canManage);"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:335",
+      "call_type": "INTERFACE_CALL",
+      "line": 335,
+      "enclosing_function": "approveDeposits",
+      "file": "Hub.sol",
+      "raw_text": "D18 pricePoolPerAsset = hubHelpers.pricePoolPerAsset(poolId, scId, depositAssetId);"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:340",
+      "call_type": "INTERFACE_CALL",
+      "line": 340,
+      "enclosing_function": "approveDeposits",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendRequestCallback("
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:359",
+      "call_type": "INTERFACE_CALL",
+      "line": 359,
+      "enclosing_function": "approveRedeems",
+      "file": "Hub.sol",
+      "raw_text": "D18 price = hubHelpers.pricePoolPerAsset(poolId, scId, payoutAssetId);"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:383",
+      "call_type": "INTERFACE_CALL",
+      "line": 383,
+      "enclosing_function": "issueShares",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendRequestCallback("
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:411",
+      "call_type": "INTERFACE_CALL",
+      "line": 411,
+      "enclosing_function": "revokeShares",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendRequestCallback("
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:434",
+      "call_type": "INTERFACE_CALL",
+      "line": 434,
+      "enclosing_function": "forceCancelDepositRequest",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendRequestCallback("
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:456",
+      "call_type": "INTERFACE_CALL",
+      "line": 456,
+      "enclosing_function": "forceCancelRedeemRequest",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendRequestCallback("
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:476",
+      "call_type": "INTERFACE_CALL",
+      "line": 476,
+      "enclosing_function": "updateRestriction",
+      "file": "Hub.sol",
+      "raw_text": "require(shareClassManager.exists(poolId, scId), IShareClassManager.ShareClassNotFound());"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:479",
+      "call_type": "INTERFACE_CALL",
+      "line": 479,
+      "enclosing_function": "updateRestriction",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendUpdateRestriction(centrifugeId, poolId, scId, payload, extraGasLimit);"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:493",
+      "call_type": "INTERFACE_CALL",
+      "line": 493,
+      "enclosing_function": "updateVault",
+      "file": "Hub.sol",
+      "raw_text": "require(shareClassManager.exists(poolId, scId), IShareClassManager.ShareClassNotFound());"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:496",
+      "call_type": "INTERFACE_CALL",
+      "line": 496,
+      "enclosing_function": "updateVault",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendUpdateVault(poolId, scId, assetId, vaultOrFactory, kind, extraGasLimit);"
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:510",
+      "call_type": "INTERFACE_CALL",
+      "line": 510,
+      "enclosing_function": "updateContract",
+      "file": "Hub.sol",
+      "raw_text": "require(shareClassManager.exists(poolId, scId), IShareClassManager.ShareClassNotFound());"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:513",
+      "call_type": "INTERFACE_CALL",
+      "line": 513,
+      "enclosing_function": "updateContract",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendUpdateContract(centrifugeId, poolId, scId, target, payload, extraGasLimit);"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:536",
+      "call_type": "INTERFACE_CALL",
+      "line": 536,
+      "enclosing_function": "initializeHolding",
+      "file": "Hub.sol",
+      "raw_text": "require(hubRegistry.isRegistered(assetId), IHubRegistry.AssetNotFound());"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:542",
+      "call_type": "INTERFACE_CALL",
+      "line": 542,
+      "enclosing_function": "initializeHolding",
+      "file": "Hub.sol",
+      "raw_text": "accounting.exists(poolId, assetAccount) && accounting.exists(poolId, equityAccount)"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:543",
+      "call_type": "INTERFACE_CALL",
+      "line": 543,
+      "enclosing_function": "initializeHolding",
+      "file": "Hub.sol",
+      "raw_text": "&& accounting.exists(poolId, lossAccount) && accounting.exists(poolId, gainAccount),"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:547",
+      "call_type": "INTERFACE_CALL",
+      "line": 547,
+      "enclosing_function": "initializeHolding",
+      "file": "Hub.sol",
+      "raw_text": "holdings.initialize("
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:553",
+      "call_type": "INTERFACE_CALL",
+      "line": 553,
+      "enclosing_function": "initializeHolding",
+      "file": "Hub.sol",
+      "raw_text": "hubHelpers.holdingAccounts(assetAccount, equityAccount, gainAccount, lossAccount)"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:557",
+      "call_type": "INTERFACE_CALL",
+      "line": 557,
+      "enclosing_function": "initializeHolding",
+      "file": "Hub.sol",
+      "raw_text": "hubHelpers.updateAccountingAmount(poolId, scId, assetId, true, holdings.value(poolId, scId, assetId));"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:571",
+      "call_type": "INTERFACE_CALL",
+      "line": 571,
+      "enclosing_function": "initializeLiability",
+      "file": "Hub.sol",
+      "raw_text": "require(hubRegistry.isRegistered(assetId), IHubRegistry.AssetNotFound());"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:574",
+      "call_type": "INTERFACE_CALL",
+      "line": 574,
+      "enclosing_function": "initializeLiability",
+      "file": "Hub.sol",
+      "raw_text": "accounting.exists(poolId, expenseAccount) && accounting.exists(poolId, liabilityAccount),"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:578",
+      "call_type": "INTERFACE_CALL",
+      "line": 578,
+      "enclosing_function": "initializeLiability",
+      "file": "Hub.sol",
+      "raw_text": "holdings.initialize("
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:579",
+      "call_type": "INTERFACE_CALL",
+      "line": 579,
+      "enclosing_function": "initializeLiability",
+      "file": "Hub.sol",
+      "raw_text": "poolId, scId, assetId, valuation, true, hubHelpers.liabilityAccounts(expenseAccount, liabilityAccount)"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:583",
+      "call_type": "INTERFACE_CALL",
+      "line": 583,
+      "enclosing_function": "initializeLiability",
+      "file": "Hub.sol",
+      "raw_text": "hubHelpers.updateAccountingAmount(poolId, scId, assetId, true, holdings.value(poolId, scId, assetId));"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:590",
+      "call_type": "INTERFACE_CALL",
+      "line": 590,
+      "enclosing_function": "updateHoldingValue",
+      "file": "Hub.sol",
+      "raw_text": "(bool isPositive, uint128 diff) = holdings.update(poolId, scId, assetId);"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:591",
+      "call_type": "INTERFACE_CALL",
+      "line": 591,
+      "enclosing_function": "updateHoldingValue",
+      "file": "Hub.sol",
+      "raw_text": "hubHelpers.updateAccountingValue(poolId, scId, assetId, isPositive, diff);"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:601",
+      "call_type": "INTERFACE_CALL",
+      "line": 601,
+      "enclosing_function": "updateHoldingValuation",
+      "file": "Hub.sol",
+      "raw_text": "holdings.updateValuation(poolId, scId, assetId, valuation);"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:611",
+      "call_type": "INTERFACE_CALL",
+      "line": 611,
+      "enclosing_function": "updateHoldingIsLiability",
+      "file": "Hub.sol",
+      "raw_text": "holdings.updateIsLiability(poolId, scId, assetId, isLiability);"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:621",
+      "call_type": "INTERFACE_CALL",
+      "line": 621,
+      "enclosing_function": "setHoldingAccountId",
+      "file": "Hub.sol",
+      "raw_text": "require(accounting.exists(poolId, accountId), IAccounting.AccountDoesNotExist());"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:623",
+      "call_type": "INTERFACE_CALL",
+      "line": 623,
+      "enclosing_function": "setHoldingAccountId",
+      "file": "Hub.sol",
+      "raw_text": "holdings.setAccountId(poolId, scId, assetId, kind, accountId);"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:644",
+      "call_type": "INTERFACE_CALL",
+      "line": 644,
+      "enclosing_function": "updateJournal",
+      "file": "Hub.sol",
+      "raw_text": "accounting.unlock(poolId);"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:645",
+      "call_type": "INTERFACE_CALL",
+      "line": 645,
+      "enclosing_function": "updateJournal",
+      "file": "Hub.sol",
+      "raw_text": "accounting.addJournal(debits, credits);"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:646",
+      "call_type": "INTERFACE_CALL",
+      "line": 646,
+      "enclosing_function": "updateJournal",
+      "file": "Hub.sol",
+      "raw_text": "accounting.lock();"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:682",
+      "call_type": "INTERFACE_CALL",
+      "line": 682,
+      "enclosing_function": "updateHoldingAmount",
+      "file": "Hub.sol",
+      "raw_text": "? holdings.increase(poolId, scId, assetId, pricePoolPerAsset, amount)"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:683",
+      "call_type": "INTERFACE_CALL",
+      "line": 683,
+      "enclosing_function": "updateHoldingAmount",
+      "file": "Hub.sol",
+      "raw_text": ": holdings.decrease(poolId, scId, assetId, pricePoolPerAsset, amount);"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:685",
+      "call_type": "INTERFACE_CALL",
+      "line": 685,
+      "enclosing_function": "updateHoldingAmount",
+      "file": "Hub.sol",
+      "raw_text": "if (holdings.isInitialized(poolId, scId, assetId)) {"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:686",
+      "call_type": "INTERFACE_CALL",
+      "line": 686,
+      "enclosing_function": "updateHoldingAmount",
+      "file": "Hub.sol",
+      "raw_text": "hubHelpers.updateAccountingAmount(poolId, scId, assetId, isIncrease, value);"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:689",
+      "call_type": "INTERFACE_CALL",
+      "line": 689,
+      "enclosing_function": "updateHoldingAmount",
+      "file": "Hub.sol",
+      "raw_text": "holdings.setSnapshot(poolId, scId, centrifugeId, isSnapshot, nonce);"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:706",
+      "call_type": "INTERFACE_CALL",
+      "line": 706,
+      "enclosing_function": "updateShares",
+      "file": "Hub.sol",
+      "raw_text": "holdings.setSnapshot(poolId, scId, centrifugeId, isSnapshot, nonce);"
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:721",
+      "call_type": "INTERFACE_CALL",
+      "line": 721,
+      "enclosing_function": "initiateTransferShares",
+      "file": "Hub.sol",
+      "raw_text": "sender.sendExecuteTransferShares(centrifugeId, poolId, scId, receiver, amount, extraGasLimit);"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:736",
+      "call_type": "INTERFACE_CALL",
+      "line": 736,
+      "enclosing_function": "_isManager",
+      "file": "Hub.sol",
+      "raw_text": "require(hubRegistry.manager(poolId, msg.sender), IHub.NotManager());"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:741",
+      "call_type": "INTERFACE_CALL",
+      "line": 741,
+      "enclosing_function": "_startTransactionPayment",
+      "file": "Hub.sol",
+      "raw_text": "if (!gateway.isBatching()) {"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:742",
+      "call_type": "INTERFACE_CALL",
+      "line": 742,
+      "enclosing_function": "_startTransactionPayment",
+      "file": "Hub.sol",
+      "raw_text": "gateway.startTransactionPayment{value: msg.value}(msg.sender);"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:747",
+      "call_type": "INTERFACE_CALL",
+      "line": 747,
+      "enclosing_function": "_endTransactionPayment",
+      "file": "Hub.sol",
+      "raw_text": "if (!gateway.isBatching()) {"
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:748",
+      "call_type": "INTERFACE_CALL",
+      "line": 748,
+      "enclosing_function": "_endTransactionPayment",
+      "file": "Hub.sol",
+      "raw_text": "gateway.endTransactionPayment();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        49,
+        54,
+        57
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 57
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        49,
+        54,
+        58
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 58
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        49,
+        54,
+        59
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 59
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        49,
+        54,
+        60
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 60
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        49,
+        54,
+        61
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 61
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        2,
+        49,
+        53,
+        54,
+        56,
+        62
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 62
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        2,
+        49,
+        53,
+        54,
+        56,
+        63
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 63
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        2,
+        49,
+        53,
+        54,
+        56,
+        64
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 64
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        2,
+        49,
+        53,
+        54,
+        56,
+        65
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 65
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        3,
+        51,
+        54,
+        66
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 66
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        4,
+        51,
+        54,
+        67
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 67
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        5,
+        54,
+        68
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 68
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        6,
+        53,
+        54,
+        55,
+        69
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 69
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        6,
+        53,
+        54,
+        55,
+        70
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 70
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        6,
+        53,
+        54,
+        55,
+        71
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 71
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        6,
+        53,
+        54,
+        55,
+        72
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 72
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        7,
+        54,
+        55,
+        73
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 73
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        7,
+        54,
+        55,
+        74
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 74
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        8,
+        54,
+        75
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 75
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        9,
+        54,
+        55,
+        76
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 76
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        9,
+        54,
+        55,
+        77
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 77
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        10,
+        51,
+        54,
+        78
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 78
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        10,
+        51,
+        54,
+        79
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 79
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        11,
+        54,
+        80
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 80
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        12,
+        54,
+        81
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 81
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        13,
+        53,
+        82
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 82
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        15,
+        55,
+        83
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 83
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        16,
+        53,
+        84
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 84
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        17,
+        54,
+        85
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 85
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        18,
+        54,
+        86
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 86
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        20,
+        51,
+        54,
+        55,
+        87
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 87
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        20,
+        51,
+        54,
+        55,
+        88
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 88
+    },
+    {
+      "edge_id": 32,
+      "node_ids": [
+        21,
+        51,
+        55,
+        89
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 89
+    },
+    {
+      "edge_id": 33,
+      "node_ids": [
+        22,
+        54,
+        55,
+        90
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 90
+    },
+    {
+      "edge_id": 34,
+      "node_ids": [
+        23,
+        54,
+        55,
+        91
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 91
+    },
+    {
+      "edge_id": 35,
+      "node_ids": [
+        24,
+        54,
+        55,
+        92
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 92
+    },
+    {
+      "edge_id": 36,
+      "node_ids": [
+        25,
+        54,
+        55,
+        93
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 93
+    },
+    {
+      "edge_id": 37,
+      "node_ids": [
+        26,
+        54,
+        55,
+        94
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 94
+    },
+    {
+      "edge_id": 38,
+      "node_ids": [
+        26,
+        54,
+        55,
+        95
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 95
+    },
+    {
+      "edge_id": 39,
+      "node_ids": [
+        27,
+        54,
+        55,
+        96
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 96
+    },
+    {
+      "edge_id": 40,
+      "node_ids": [
+        27,
+        54,
+        55,
+        97
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 97
+    },
+    {
+      "edge_id": 41,
+      "node_ids": [
+        28,
+        54,
+        55,
+        98
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 98
+    },
+    {
+      "edge_id": 42,
+      "node_ids": [
+        28,
+        54,
+        55,
+        99
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 99
+    },
+    {
+      "edge_id": 43,
+      "node_ids": [
+        30,
+        50,
+        51,
+        52,
+        53,
+        100
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 100
+    },
+    {
+      "edge_id": 44,
+      "node_ids": [
+        30,
+        50,
+        51,
+        52,
+        53,
+        101
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 101
+    },
+    {
+      "edge_id": 45,
+      "node_ids": [
+        30,
+        50,
+        51,
+        52,
+        53,
+        102
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 46,
+      "node_ids": [
+        30,
+        50,
+        51,
+        52,
+        53,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    },
+    {
+      "edge_id": 47,
+      "node_ids": [
+        30,
+        50,
+        51,
+        52,
+        53,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 48,
+      "node_ids": [
+        30,
+        50,
+        51,
+        52,
+        53,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 49,
+      "node_ids": [
+        31,
+        50,
+        51,
+        52,
+        53,
+        106
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 50,
+      "node_ids": [
+        31,
+        50,
+        51,
+        52,
+        53,
+        107
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 51,
+      "node_ids": [
+        31,
+        50,
+        51,
+        52,
+        53,
+        108
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 108
+    },
+    {
+      "edge_id": 52,
+      "node_ids": [
+        31,
+        50,
+        51,
+        52,
+        53,
+        109
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 109
+    },
+    {
+      "edge_id": 53,
+      "node_ids": [
+        31,
+        50,
+        51,
+        52,
+        53,
+        110
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 110
+    },
+    {
+      "edge_id": 54,
+      "node_ids": [
+        32,
+        50,
+        51,
+        111
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 111
+    },
+    {
+      "edge_id": 55,
+      "node_ids": [
+        32,
+        50,
+        51,
+        112
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 112
+    },
+    {
+      "edge_id": 56,
+      "node_ids": [
+        33,
+        50,
+        113
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 113
+    },
+    {
+      "edge_id": 57,
+      "node_ids": [
+        34,
+        50,
+        114
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 114
+    },
+    {
+      "edge_id": 58,
+      "node_ids": [
+        35,
+        50,
+        52,
+        115
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 115
+    },
+    {
+      "edge_id": 59,
+      "node_ids": [
+        35,
+        50,
+        52,
+        116
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 116
+    },
+    {
+      "edge_id": 60,
+      "node_ids": [
+        38,
+        52,
+        117
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 117
+    },
+    {
+      "edge_id": 61,
+      "node_ids": [
+        38,
+        52,
+        118
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 118
+    },
+    {
+      "edge_id": 62,
+      "node_ids": [
+        38,
+        52,
+        119
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 119
+    },
+    {
+      "edge_id": 63,
+      "node_ids": [
+        41,
+        50,
+        51,
+        120
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 120
+    },
+    {
+      "edge_id": 64,
+      "node_ids": [
+        41,
+        50,
+        51,
+        121
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 121
+    },
+    {
+      "edge_id": 65,
+      "node_ids": [
+        41,
+        50,
+        51,
+        122
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 122
+    },
+    {
+      "edge_id": 66,
+      "node_ids": [
+        41,
+        50,
+        51,
+        123
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 123
+    },
+    {
+      "edge_id": 67,
+      "node_ids": [
+        41,
+        50,
+        51,
+        124
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 124
+    },
+    {
+      "edge_id": 68,
+      "node_ids": [
+        42,
+        50,
+        55,
+        125
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 125
+    },
+    {
+      "edge_id": 69,
+      "node_ids": [
+        43,
+        54,
+        126
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 126
+    },
+    {
+      "edge_id": 70,
+      "node_ids": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        46,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        127
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 127
+    },
+    {
+      "edge_id": 71,
+      "node_ids": [
+        47,
+        49,
+        54,
+        128
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 128
+    },
+    {
+      "edge_id": 72,
+      "node_ids": [
+        47,
+        49,
+        54,
+        129
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 129
+    },
+    {
+      "edge_id": 73,
+      "node_ids": [
+        48,
+        49,
+        130
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 130
+    },
+    {
+      "edge_id": 74,
+      "node_ids": [
+        48,
+        49,
+        131
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 131
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "notifyDeposit",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "notifyRedeem",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "notifyPool",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "notifyShareClass",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "notifyShareMetadata",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateShareHook",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "notifySharePrice",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "notifyAssetPrice",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setMaxAssetPriceAge",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setMaxSharePriceAge",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setPoolMetadata",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setSnapshotHook",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "updateShareClassMetadata",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateHubManager",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setRequestManager",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "updateBalanceSheetManager",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "addShareClass",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "approveDeposits",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "approveRedeems",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "issueShares",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "revokeShares",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "forceCancelDepositRequest",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "forceCancelRedeemRequest",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "updateRestriction",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "updateVault",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateContract",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "updateSharePrice",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "initializeHolding",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "initializeLiability",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "updateHoldingValue",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "updateHoldingValuation",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "updateHoldingIsLiability",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setHoldingAccountId",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "createAccount",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setAccountMetadata",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "updateJournal",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "registerAsset",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "request",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "updateHoldingAmount",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "updateShares",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "initiateTransferShares",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_auth",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_protected",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_isManager",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_startTransactionPayment",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_endTransactionPayment",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "gateway",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "holdings",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "hubHelpers",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "accounting",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "hubRegistry",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "sender",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "shareClassManager",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "poolEscrowFactory",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:92",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:94",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:95",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:101",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:102",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:110",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:111",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:113",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:114",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:133",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:157",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:178",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:189",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:191",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:192",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:195",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:202",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:205",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:217",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:224",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:227",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:233",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:235",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:247",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:259",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:266",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:283",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:290",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:301",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:312",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:335",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:340",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:359",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:383",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:411",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:434",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:456",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:476",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:479",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:493",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:496",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:510",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:513",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:536",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:542",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:543",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:547",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:553",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:557",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:571",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:574",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:578",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:579",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:583",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:590",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:591",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:601",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:611",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:621",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:623",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:644",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:645",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:646",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:682",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:683",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:685",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:686",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:689",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:706",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:721",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:736",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:741",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:742",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:747",
+      "file": "Hub.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Hub.sol:748",
+      "file": "Hub.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 132,
+    "n_hyperedges": 75,
+    "n_functions": 49,
+    "n_state_vars": 8,
+    "n_call_sites": 75,
+    "avg_hyperedge_size": 4.76
+  },
+  "label": {
+    "vfp_id": "vfp_00486",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-358",
+      "CWE-693"
+    ]
+  }
+}

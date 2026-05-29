@@ -1,0 +1,824 @@
+{
+  "sample_id": "vfp_00272",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "DepositPool_init",
+      "file": "DepositPool.sol",
+      "start_line": 85,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "DepositPool.sol",
+      "start_line": 93,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDistributor",
+      "file": "DepositPool.sol",
+      "start_line": 101,
+      "end_line": 112,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setRewardPoolProtocolDetails",
+      "file": "DepositPool.sol",
+      "start_line": 114,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "DepositPool.sol",
+      "start_line": 137,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "editReferrerTiers",
+      "file": "DepositPool.sol",
+      "start_line": 162,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "manageUsersInPrivateRewardPool",
+      "file": "DepositPool.sol",
+      "start_line": 188,
+      "end_line": 225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setClaimSender",
+      "file": "DepositPool.sol",
+      "start_line": 231,
+      "end_line": 244,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setClaimReceiver",
+      "file": "DepositPool.sol",
+      "start_line": 246,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "stake",
+      "file": "DepositPool.sol",
+      "start_line": 254,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "DepositPool.sol",
+      "start_line": 268,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "DepositPool.sol",
+      "start_line": 283,
+      "end_line": 285,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimFor",
+      "file": "DepositPool.sol",
+      "start_line": 287,
+      "end_line": 295,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "claimReferrerTier",
+      "file": "DepositPool.sol",
+      "start_line": 297,
+      "end_line": 299,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "claimReferrerTierFor",
+      "file": "DepositPool.sol",
+      "start_line": 301,
+      "end_line": 305,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "lockClaim",
+      "file": "DepositPool.sol",
+      "start_line": 307,
+      "end_line": 351,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_stake",
+      "file": "DepositPool.sol",
+      "start_line": 353,
+      "end_line": 432,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "DepositPool.sol",
+      "start_line": 434,
+      "end_line": 518,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "DepositPool.sol",
+      "start_line": 520,
+      "end_line": 581,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_claimReferrerTier",
+      "file": "DepositPool.sol",
+      "start_line": 583,
+      "end_line": 618,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_applyReferrerTier",
+      "file": "DepositPool.sol",
+      "start_line": 620,
+      "end_line": 676,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getLatestUserReward",
+      "file": "DepositPool.sol",
+      "start_line": 682,
+      "end_line": 691,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getLatestReferrerReward",
+      "file": "DepositPool.sol",
+      "start_line": 693,
+      "end_line": 701,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getCurrentUserReward",
+      "file": "DepositPool.sol",
+      "start_line": 703,
+      "end_line": 709,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getCurrentPoolRate",
+      "file": "DepositPool.sol",
+      "start_line": 711,
+      "end_line": 724,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getCurrentUserMultiplier",
+      "file": "DepositPool.sol",
+      "start_line": 730,
+      "end_line": 738,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getReferrerMultiplier",
+      "file": "DepositPool.sol",
+      "start_line": 740,
+      "end_line": 751,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getUserTotalMultiplier",
+      "file": "DepositPool.sol",
+      "start_line": 753,
+      "end_line": 762,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "removeUpgradeability",
+      "file": "DepositPool.sol",
+      "start_line": 768,
+      "end_line": 770,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "version",
+      "file": "DepositPool.sol",
+      "start_line": 772,
+      "end_line": 774,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "DepositPool.sol",
+      "start_line": 776,
+      "end_line": 778,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "DECIMAL",
+      "var_type": "uint128 constant",
+      "file": "DepositPool.sol",
+      "line": 22
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "isNotUpgradeable",
+      "var_type": "bool public",
+      "file": "DepositPool.sol",
+      "line": 24
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "depositToken",
+      "var_type": "address public",
+      "file": "DepositPool.sol",
+      "line": 27
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "unusedStorage0",
+      "var_type": "address public",
+      "file": "DepositPool.sol",
+      "line": 33
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "unusedStorage1",
+      "var_type": "Pool[] public",
+      "file": "DepositPool.sol",
+      "line": 39
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "rewardPoolsData",
+      "var_type": "mapping(uint256 => RewardPoolData) public",
+      "file": "DepositPool.sol",
+      "line": 42
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "usersData",
+      "var_type": "mapping(address => mapping(uint256 => UserData)) public",
+      "file": "DepositPool.sol",
+      "line": 45
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "totalDepositedInPublicPools",
+      "var_type": "uint256 public",
+      "file": "DepositPool.sol",
+      "line": 48
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "unusedStorage2",
+      "var_type": "mapping(uint256 => RewardPoolLimits) public",
+      "file": "DepositPool.sol",
+      "line": 54
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "referrerTiers",
+      "var_type": "mapping(uint256 => ReferrerTier[]) public",
+      "file": "DepositPool.sol",
+      "line": 57
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "referrersData",
+      "var_type": "mapping(address => mapping(uint256 => ReferrerData)) public",
+      "file": "DepositPool.sol",
+      "line": 58
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "claimSender",
+      "var_type": "mapping(uint256 => mapping(address => mapping(address => bool))) public",
+      "file": "DepositPool.sol",
+      "line": 62
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "claimReceiver",
+      "var_type": "mapping(uint256 => mapping(address => address)) public",
+      "file": "DepositPool.sol",
+      "line": 63
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "isMigrationOver",
+      "var_type": "bool public",
+      "file": "DepositPool.sol",
+      "line": 68
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "distributor",
+      "var_type": "address public",
+      "file": "DepositPool.sol",
+      "line": 71
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "rewardPoolsProtocolDetails",
+      "var_type": "mapping(uint256 => RewardPoolProtocolDetails) public",
+      "file": "DepositPool.sol",
+      "line": 74
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "TRANSFER:DepositPool.sol:144",
+      "call_type": "TRANSFER",
+      "line": 144,
+      "enclosing_function": "migrate",
+      "file": "DepositPool.sol",
+      "raw_text": "IERC20(depositToken).transfer(distributor, remainder_);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        33,
+        38,
+        44,
+        45,
+        47
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 47
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "DepositPool_init",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDistributor",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setRewardPoolProtocolDetails",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "editReferrerTiers",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "manageUsersInPrivateRewardPool",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setClaimSender",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setClaimReceiver",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "stake",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimFor",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "claimReferrerTier",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "claimReferrerTierFor",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "lockClaim",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_stake",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_claimReferrerTier",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_applyReferrerTier",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getLatestUserReward",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getLatestReferrerReward",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getCurrentUserReward",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getCurrentPoolRate",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getCurrentUserMultiplier",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getReferrerMultiplier",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getUserTotalMultiplier",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "removeUpgradeability",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "version",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "DECIMAL",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "isNotUpgradeable",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "depositToken",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "unusedStorage0",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "unusedStorage1",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "rewardPoolsData",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "usersData",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "totalDepositedInPublicPools",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "unusedStorage2",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "referrerTiers",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "referrersData",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "claimSender",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "claimReceiver",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "isMigrationOver",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "distributor",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "rewardPoolsProtocolDetails",
+      "file": "DepositPool.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "TRANSFER:DepositPool.sol:144",
+      "file": "DepositPool.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 48,
+    "n_hyperedges": 1,
+    "n_functions": 31,
+    "n_state_vars": 16,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "vfp_00272",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-670",
+      "CWE-691",
+      "CWE-707",
+      "CWE-841"
+    ]
+  }
+}

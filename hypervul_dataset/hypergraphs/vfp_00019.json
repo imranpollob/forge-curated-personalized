@@ -1,0 +1,223 @@
+{
+  "sample_id": "vfp_00019",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "burn",
+      "file": "MkrSky.sol",
+      "start_line": 23,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "MkrSky.sol",
+      "start_line": 24,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "rely",
+      "file": "MkrSky.sol",
+      "start_line": 61,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deny",
+      "file": "MkrSky.sol",
+      "start_line": 66,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "file",
+      "file": "MkrSky.sol",
+      "start_line": 71,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "collect",
+      "file": "MkrSky.sol",
+      "start_line": 79,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "burn",
+      "file": "MkrSky.sol",
+      "start_line": 89,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "mkrToSky",
+      "file": "MkrSky.sol",
+      "start_line": 96,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "TRANSFER:MkrSky.sol:83",
+      "call_type": "TRANSFER",
+      "line": 83,
+      "enclosing_function": "collect",
+      "file": "MkrSky.sol",
+      "raw_text": "sky.transfer(to, take_);"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:MkrSky.sol:107",
+      "call_type": "TRANSFER",
+      "line": 107,
+      "enclosing_function": "mkrToSky",
+      "file": "MkrSky.sol",
+      "raw_text": "sky.transfer(usr, skyAmt);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        8
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        7,
+        9
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 9
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "burn",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "rely",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deny",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "file",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "collect",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "burn",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "mkrToSky",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "TRANSFER:MkrSky.sol:83",
+      "file": "MkrSky.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:MkrSky.sol:107",
+      "file": "MkrSky.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 2,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00019",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

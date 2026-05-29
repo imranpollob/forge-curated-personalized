@@ -1,0 +1,438 @@
+{
+  "sample_id": "vfp_00261",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L1GasOracle.sol",
+      "start_line": 55,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "CalcL1FeePerByte",
+      "file": "L1GasOracle.sol",
+      "start_line": 73,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setNewBatchBlobFeeAndTxFee",
+      "file": "L1GasOracle.sol",
+      "start_line": 100,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setBlobBaseFeeScalaAndTxFeeScala",
+      "file": "L1GasOracle.sol",
+      "start_line": 123,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setL1Profit",
+      "file": "L1GasOracle.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTotalScala",
+      "file": "L1GasOracle.sol",
+      "start_line": 139,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setMaxL1ExecGasUsedLimit",
+      "file": "L1GasOracle.sol",
+      "start_line": 146,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setMaxL1BlobGasUsedLimit",
+      "file": "L1GasOracle.sol",
+      "start_line": 153,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "addRelayer",
+      "file": "L1GasOracle.sol",
+      "start_line": 160,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "removeRelayer",
+      "file": "L1GasOracle.sol",
+      "start_line": 166,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getTxL1Fee",
+      "file": "L1GasOracle.sol",
+      "start_line": 172,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "l1FeePerByte",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 9
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "lastBatchDaFee",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 12
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "lastBatchExecFee",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 15
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "lastBatchByteLength",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 18
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "blobBaseFeeScala",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 21
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "baseFeeScala",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 22
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "l1Profit",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 25
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "totalScala",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 28
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isRelayer",
+      "var_type": "mapping(address => bool) public",
+      "file": "L1GasOracle.sol",
+      "line": 31
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "MIN_TX_LENGTH_LIMIT",
+      "var_type": "uint256 private constant",
+      "file": "L1GasOracle.sol",
+      "line": 34
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "MAX_TX_LENGTH_LIMIT",
+      "var_type": "uint256 private constant",
+      "file": "L1GasOracle.sol",
+      "line": 37
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "MAX_L1_BASE_FEE_LIMIT",
+      "var_type": "uint256 private constant",
+      "file": "L1GasOracle.sol",
+      "line": 40
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "MAX_L1_BLOB_BASE_FEE_LIMIT",
+      "var_type": "uint256 private constant",
+      "file": "L1GasOracle.sol",
+      "line": 43
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "maxL1ExecGasUsedLimit",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 46
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "maxL1BlobGasUsedLimit",
+      "var_type": "uint256 public",
+      "file": "L1GasOracle.sol",
+      "line": 49
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "CalcL1FeePerByte",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setNewBatchBlobFeeAndTxFee",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setBlobBaseFeeScalaAndTxFeeScala",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setL1Profit",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTotalScala",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setMaxL1ExecGasUsedLimit",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setMaxL1BlobGasUsedLimit",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "addRelayer",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "removeRelayer",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getTxL1Fee",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "l1FeePerByte",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "lastBatchDaFee",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "lastBatchExecFee",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "lastBatchByteLength",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "blobBaseFeeScala",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "baseFeeScala",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "l1Profit",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "totalScala",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isRelayer",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "MIN_TX_LENGTH_LIMIT",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "MAX_TX_LENGTH_LIMIT",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "MAX_L1_BASE_FEE_LIMIT",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "MAX_L1_BLOB_BASE_FEE_LIMIT",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "maxL1ExecGasUsedLimit",
+      "file": "L1GasOracle.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "maxL1BlobGasUsedLimit",
+      "file": "L1GasOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 0,
+    "n_functions": 11,
+    "n_state_vars": 15,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00261",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-664",
+      "CWE-707",
+      "CWE-778"
+    ]
+  }
+}

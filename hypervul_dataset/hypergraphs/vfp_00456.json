@@ -1,0 +1,1024 @@
+{
+  "sample_id": "vfp_00456",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "StableWrapper.sol",
+      "start_line": 162,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositToVault",
+      "file": "StableWrapper.sol",
+      "start_line": 179,
+      "end_line": 192,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initiateWithdrawal",
+      "file": "StableWrapper.sol",
+      "start_line": 202,
+      "end_line": 219,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "initiateWithdrawalFromVault",
+      "file": "StableWrapper.sol",
+      "start_line": 226,
+      "end_line": 244,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "completeWithdrawal",
+      "file": "StableWrapper.sol",
+      "start_line": 250,
+      "end_line": 265,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "permissionedMint",
+      "file": "StableWrapper.sol",
+      "start_line": 276,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "permissionedBurn",
+      "file": "StableWrapper.sol",
+      "start_line": 286,
+      "end_line": 292,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "processWithdrawals",
+      "file": "StableWrapper.sol",
+      "start_line": 301,
+      "end_line": 314,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferAsset",
+      "file": "StableWrapper.sol",
+      "start_line": 322,
+      "end_line": 332,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setKeeper",
+      "file": "StableWrapper.sol",
+      "start_line": 342,
+      "end_line": 346,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setAllowIndependence",
+      "file": "StableWrapper.sol",
+      "start_line": 352,
+      "end_line": 355,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setAsset",
+      "file": "StableWrapper.sol",
+      "start_line": 361,
+      "end_line": 364,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setDecimals",
+      "file": "StableWrapper.sol",
+      "start_line": 373,
+      "end_line": 375,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StableWrapper.sol",
+      "start_line": 380,
+      "end_line": 382,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sharedDecimals",
+      "file": "StableWrapper.sol",
+      "start_line": 387,
+      "end_line": 389,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "depositAndStake",
+      "file": "StreamVault.sol",
+      "start_line": 150,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "unstakeAndWithdraw",
+      "file": "StreamVault.sol",
+      "start_line": 164,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "instantUnstakeAndWithdraw",
+      "file": "StreamVault.sol",
+      "start_line": 179,
+      "end_line": 188,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "bridgeWithRedeem",
+      "file": "StreamVault.sol",
+      "start_line": 190,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "stake",
+      "file": "StreamVault.sol",
+      "start_line": 216,
+      "end_line": 228,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_stakeInternal",
+      "file": "StreamVault.sol",
+      "start_line": 237,
+      "end_line": 273,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "instantUnstake",
+      "file": "StreamVault.sol",
+      "start_line": 283,
+      "end_line": 286,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_instantUnstake",
+      "file": "StreamVault.sol",
+      "start_line": 292,
+      "end_line": 309,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "unstake",
+      "file": "StreamVault.sol",
+      "start_line": 315,
+      "end_line": 318,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_unstake",
+      "file": "StreamVault.sol",
+      "start_line": 324,
+      "end_line": 360,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "StreamVault.sol",
+      "start_line": 370,
+      "end_line": 374,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "StreamVault.sol",
+      "start_line": 379,
+      "end_line": 381,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_redeem",
+      "file": "StreamVault.sol",
+      "start_line": 388,
+      "end_line": 420,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "rollToNextRound",
+      "file": "StreamVault.sol",
+      "start_line": 431,
+      "end_line": 511,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_transferAsset",
+      "file": "StreamVault.sol",
+      "start_line": 518,
+      "end_line": 520,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setStableWrapper",
+      "file": "StreamVault.sol",
+      "start_line": 530,
+      "end_line": 533,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setAllowIndependence",
+      "file": "StreamVault.sol",
+      "start_line": 539,
+      "end_line": 542,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setCap",
+      "file": "StreamVault.sol",
+      "start_line": 548,
+      "end_line": 553,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setVaultParams",
+      "file": "StreamVault.sol",
+      "start_line": 558,
+      "end_line": 563,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "accountVaultBalance",
+      "file": "StreamVault.sol",
+      "start_line": 574,
+      "end_line": 583,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "shares",
+      "file": "StreamVault.sol",
+      "start_line": 590,
+      "end_line": 594,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "shareBalancesHeldByAccount",
+      "file": "StreamVault.sol",
+      "start_line": 601,
+      "end_line": 605,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "shareBalancesHeldByVault",
+      "file": "StreamVault.sol",
+      "start_line": 612,
+      "end_line": 623,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StreamVault.sol",
+      "start_line": 628,
+      "end_line": 630,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "sharedDecimals",
+      "file": "StreamVault.sol",
+      "start_line": 635,
+      "end_line": 637,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "cap",
+      "file": "StreamVault.sol",
+      "start_line": 643,
+      "end_line": 645,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "totalPending",
+      "file": "StreamVault.sol",
+      "start_line": 651,
+      "end_line": 653,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "round",
+      "file": "StreamVault.sol",
+      "start_line": 658,
+      "end_line": 660,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "StreamVault.sol",
+      "start_line": 672,
+      "end_line": 677,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "asset",
+      "var_type": "address public",
+      "file": "StableWrapper.sol",
+      "line": 26
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "currentEpoch",
+      "var_type": "uint32 public",
+      "file": "StableWrapper.sol",
+      "line": 29
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "allowIndependence",
+      "var_type": "bool public",
+      "file": "StableWrapper.sol",
+      "line": 33
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "underlyingDecimals",
+      "var_type": "uint8 public",
+      "file": "StableWrapper.sol",
+      "line": 37
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "keeper",
+      "var_type": "address public",
+      "file": "StableWrapper.sol",
+      "line": 40
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "withdrawalReceipts",
+      "var_type": "mapping(address => WithdrawalReceipt) public",
+      "file": "StableWrapper.sol",
+      "line": 43
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "withdrawalAmountForEpoch",
+      "var_type": "uint256 public",
+      "file": "StableWrapper.sol",
+      "line": 46
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "depositAmountForEpoch",
+      "var_type": "uint256 public",
+      "file": "StableWrapper.sol",
+      "line": 49
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "MINIMUM_VALID_ROUND",
+      "var_type": "uint256 private constant",
+      "file": "StreamVault.sol",
+      "line": 30
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "stakeReceipts",
+      "var_type": "mapping(address => Vault.StakeReceipt) public",
+      "file": "StreamVault.sol",
+      "line": 36
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "roundPricePerShare",
+      "var_type": "mapping(uint256 => uint256) public",
+      "file": "StreamVault.sol",
+      "line": 41
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "vaultParams",
+      "var_type": "Vault.VaultParams public",
+      "file": "StreamVault.sol",
+      "line": 44
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "vaultState",
+      "var_type": "Vault.VaultState public",
+      "file": "StreamVault.sol",
+      "line": 47
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "stableWrapper",
+      "var_type": "address public",
+      "file": "StreamVault.sol",
+      "line": 50
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "omniTotalSupply",
+      "var_type": "uint256 public",
+      "file": "StreamVault.sol",
+      "line": 53
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "allowIndependence",
+      "var_type": "bool public",
+      "file": "StreamVault.sol",
+      "line": 56
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositToVault",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initiateWithdrawal",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "initiateWithdrawalFromVault",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "completeWithdrawal",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "permissionedMint",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "permissionedBurn",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "processWithdrawals",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferAsset",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setKeeper",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setAllowIndependence",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setAsset",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setDecimals",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sharedDecimals",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "depositAndStake",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "unstakeAndWithdraw",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "instantUnstakeAndWithdraw",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "bridgeWithRedeem",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "stake",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_stakeInternal",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "instantUnstake",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_instantUnstake",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "unstake",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_unstake",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_redeem",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "rollToNextRound",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_transferAsset",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setStableWrapper",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setAllowIndependence",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setCap",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setVaultParams",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "accountVaultBalance",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "shares",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "shareBalancesHeldByAccount",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "shareBalancesHeldByVault",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "sharedDecimals",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "cap",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "totalPending",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "round",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "asset",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "currentEpoch",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "allowIndependence",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "underlyingDecimals",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "keeper",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "withdrawalReceipts",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "withdrawalAmountForEpoch",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "depositAmountForEpoch",
+      "file": "StableWrapper.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "MINIMUM_VALID_ROUND",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "stakeReceipts",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "roundPricePerShare",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "vaultParams",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "vaultState",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "stableWrapper",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "omniTotalSupply",
+      "file": "StreamVault.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "allowIndependence",
+      "file": "StreamVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 60,
+    "n_hyperedges": 0,
+    "n_functions": 44,
+    "n_state_vars": 16,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00456",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-1285",
+      "CWE-129",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-394",
+      "CWE-424",
+      "CWE-664",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754",
+      "CWE-799"
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "sample_id": "vfp_00474",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "MainFeeDistributor.sol",
+      "start_line": 96,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swapLzToken",
+      "file": "MainFeeDistributor.sol",
+      "start_line": 108,
+      "end_line": 119,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getFeeReceivers",
+      "file": "MainFeeDistributor.sol",
+      "start_line": 122,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateFeeReceivers",
+      "file": "MainFeeDistributor.sol",
+      "start_line": 134,
+      "end_line": 145,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateBridgeableToken",
+      "file": "MainFeeDistributor.sol",
+      "start_line": 150,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_release",
+      "file": "MainFeeDistributor.sol",
+      "start_line": 163,
+      "end_line": 167,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_addFeeReceiver",
+      "file": "MainFeeDistributor.sol",
+      "start_line": 172,
+      "end_line": 180,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "bridgeableToken",
+      "var_type": "IERC20 public",
+      "file": "MainFeeDistributor.sol",
+      "line": 21
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "var_type": "uint256 public",
+      "file": "MainFeeDistributor.sol",
+      "line": 23
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "shares",
+      "var_type": "mapping(address => uint256) public",
+      "file": "MainFeeDistributor.sol",
+      "line": 25
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "feeReceivers",
+      "var_type": "address[] public",
+      "file": "MainFeeDistributor.sol",
+      "line": 27
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MainFeeDistributor.sol:109",
+      "call_type": "INTERFACE_CALL",
+      "line": 109,
+      "enclosing_function": "swapLzToken",
+      "file": "MainFeeDistributor.sol",
+      "raw_text": "uint256 balance = bridgeableToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MainFeeDistributor.sol:151",
+      "call_type": "INTERFACE_CALL",
+      "line": 151,
+      "enclosing_function": "updateBridgeableToken",
+      "file": "MainFeeDistributor.sol",
+      "raw_text": "if (bridgeableToken.balanceOf(address(this)) > 0) revert NeedToSwapAllLzTokenFirst();"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MainFeeDistributor.sol:176",
+      "call_type": "INTERFACE_CALL",
+      "line": 176,
+      "enclosing_function": "_addFeeReceiver",
+      "file": "MainFeeDistributor.sol",
+      "raw_text": "feeReceivers.push(_feeReceiver);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        7,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        7,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        6,
+        8,
+        9,
+        10,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swapLzToken",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getFeeReceivers",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateFeeReceivers",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateBridgeableToken",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_release",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_addFeeReceiver",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "bridgeableToken",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "shares",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "feeReceivers",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MainFeeDistributor.sol:109",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MainFeeDistributor.sol:151",
+      "file": "MainFeeDistributor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MainFeeDistributor.sol:176",
+      "file": "MainFeeDistributor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 3,
+    "n_functions": 7,
+    "n_state_vars": 4,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00474",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-707"
+    ]
+  }
+}

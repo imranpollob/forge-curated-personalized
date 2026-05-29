@@ -1,0 +1,125 @@
+{
+  "sample_id": "neg_00013",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "stonks_contracts_stubs_ManageableStub.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setOwner",
+      "file": "stonks_contracts_stubs_ManageableStub.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setManager",
+      "file": "stonks_contracts_stubs_ManageableStub.sol",
+      "start_line": 82,
+      "end_line": 86,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setOwner",
+      "file": "stonks_contracts_stubs_ManageableStub.sol",
+      "start_line": 88,
+      "end_line": 92,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "owner",
+      "var_type": "address public",
+      "file": "stonks_contracts_stubs_ManageableStub.sol",
+      "line": 18
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "manager",
+      "var_type": "address public",
+      "file": "stonks_contracts_stubs_ManageableStub.sol",
+      "line": 20
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "stonks_contracts_stubs_ManageableStub.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setOwner",
+      "file": "stonks_contracts_stubs_ManageableStub.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setManager",
+      "file": "stonks_contracts_stubs_ManageableStub.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setOwner",
+      "file": "stonks_contracts_stubs_ManageableStub.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "owner",
+      "file": "stonks_contracts_stubs_ManageableStub.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "manager",
+      "file": "stonks_contracts_stubs_ManageableStub.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00013",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

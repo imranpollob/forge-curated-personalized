@@ -1,0 +1,97 @@
+{
+  "sample_id": "vfp_00441",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSpotPrice",
+      "file": "PoolSpotPrice.sol",
+      "start_line": 9,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getPrice",
+      "file": "PoolSpotPrice.sol",
+      "start_line": 19,
+      "end_line": 36,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "STATICCALL:PoolSpotPrice.sol:14",
+      "call_type": "STATICCALL",
+      "line": 14,
+      "enclosing_function": "getSpotPrice",
+      "file": "PoolSpotPrice.sol",
+      "raw_text": "(, bytes memory result) = address(pool).staticcall(abi.encodeWithSignature(\"slot0()\"));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 2
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSpotPrice",
+      "file": "PoolSpotPrice.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getPrice",
+      "file": "PoolSpotPrice.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "STATICCALL:PoolSpotPrice.sol:14",
+      "file": "PoolSpotPrice.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 1,
+    "n_functions": 2,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00441",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

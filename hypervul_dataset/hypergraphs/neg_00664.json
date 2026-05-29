@@ -1,0 +1,168 @@
+{
+  "sample_id": "neg_00664",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "testGetTakingAmount",
+      "file": "c0197a5b4110e89a7a832fff8e95927e41564e17_fusion-protocol_contracts_mocks_GasBumpChecker.sol",
+      "start_line": 14,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "preInteraction",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_extensions_OrderIdInvalidator.sol",
+      "start_line": 34,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getChainId",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol",
+      "start_line": 25,
+      "end_line": 29,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol",
+      "start_line": 31,
+      "end_line": 36,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_LIMIT_ORDER_PROTOCOL",
+      "var_type": "address private immutable",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_extensions_OrderIdInvalidator.sol",
+      "line": 18
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_ordersIdsHashes",
+      "var_type": "mapping(address maker => mapping(uint32 orderId => bytes32 orderHash)) private",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_extensions_OrderIdInvalidator.sol",
+      "line": 20
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol:34",
+      "call_type": "TRANSFER",
+      "line": 34,
+      "enclosing_function": "withdraw",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol",
+      "raw_text": "payable(msg.sender).transfer(wad);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        7
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "testGetTakingAmount",
+      "file": "c0197a5b4110e89a7a832fff8e95927e41564e17_fusion-protocol_contracts_mocks_GasBumpChecker.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "preInteraction",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_extensions_OrderIdInvalidator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getChainId",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_LIMIT_ORDER_PROTOCOL",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_extensions_OrderIdInvalidator.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_ordersIdsHashes",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_extensions_OrderIdInvalidator.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol:34",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_WrappedTokenMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 1,
+    "n_functions": 5,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00664",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

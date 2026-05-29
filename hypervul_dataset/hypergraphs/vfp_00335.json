@@ -1,0 +1,2409 @@
+{
+  "sample_id": "vfp_00335",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentTax.sol",
+      "start_line": 88,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateSwapParams",
+      "file": "AgentTax.sol",
+      "start_line": 132,
+      "end_line": 162,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateSwapThresholds",
+      "file": "AgentTax.sol",
+      "start_line": 164,
+      "end_line": 180,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateTreasury",
+      "file": "AgentTax.sol",
+      "start_line": 182,
+      "end_line": 187,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AgentTax.sol",
+      "start_line": 189,
+      "end_line": 194,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "handleAgentTaxes",
+      "file": "AgentTax.sol",
+      "start_line": 196,
+      "end_line": 216,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getTaxRecipient",
+      "file": "AgentTax.sol",
+      "start_line": 218,
+      "end_line": 228,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapForAsset",
+      "file": "AgentTax.sol",
+      "start_line": 230,
+      "end_line": 235,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_swapForAsset",
+      "file": "AgentTax.sol",
+      "start_line": 237,
+      "end_line": 305,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateCreator",
+      "file": "AgentTax.sol",
+      "start_line": 307,
+      "end_line": 322,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Bonding.sol",
+      "start_line": 97,
+      "end_line": 123,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_createUserProfile",
+      "file": "Bonding.sol",
+      "start_line": 125,
+      "end_line": 135,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_checkIfProfileExists",
+      "file": "Bonding.sol",
+      "start_line": 137,
+      "end_line": 139,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_approval",
+      "file": "Bonding.sol",
+      "start_line": 141,
+      "end_line": 149,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setInitialSupply",
+      "file": "Bonding.sol",
+      "start_line": 151,
+      "end_line": 153,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setGradThreshold",
+      "file": "Bonding.sol",
+      "start_line": 155,
+      "end_line": 157,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setFee",
+      "file": "Bonding.sol",
+      "start_line": 159,
+      "end_line": 162,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setMaxTx",
+      "file": "Bonding.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setAssetRate",
+      "file": "Bonding.sol",
+      "start_line": 168,
+      "end_line": 172,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setDeployParams",
+      "file": "Bonding.sol",
+      "start_line": 174,
+      "end_line": 176,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getUserTokens",
+      "file": "Bonding.sol",
+      "start_line": 178,
+      "end_line": 186,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "launch",
+      "file": "Bonding.sol",
+      "start_line": 188,
+      "end_line": 286,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "sell",
+      "file": "Bonding.sol",
+      "start_line": 288,
+      "end_line": 339,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "buy",
+      "file": "Bonding.sol",
+      "start_line": 341,
+      "end_line": 396,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_openTradingOnUniswap",
+      "file": "Bonding.sol",
+      "start_line": 398,
+      "end_line": 455,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "unwrapToken",
+      "file": "Bonding.sol",
+      "start_line": 457,
+      "end_line": 478,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BondingTax.sol",
+      "start_line": 58,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "updateSwapParams",
+      "file": "BondingTax.sol",
+      "start_line": 84,
+      "end_line": 110,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateSwapThresholds",
+      "file": "BondingTax.sol",
+      "start_line": 112,
+      "end_line": 128,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "updateTreasury",
+      "file": "BondingTax.sol",
+      "start_line": 130,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "BondingTax.sol",
+      "start_line": 137,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "swapForAsset",
+      "file": "BondingTax.sol",
+      "start_line": 144,
+      "end_line": 182,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "FRouter.sol",
+      "start_line": 33,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "getAmountsOut",
+      "file": "FRouter.sol",
+      "start_line": 48,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "addInitialLiquidity",
+      "file": "FRouter.sol",
+      "start_line": 82,
+      "end_line": 100,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "sell",
+      "file": "FRouter.sol",
+      "start_line": 102,
+      "end_line": 136,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "buy",
+      "file": "FRouter.sol",
+      "start_line": 138,
+      "end_line": 170,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "graduate",
+      "file": "FRouter.sol",
+      "start_line": 172,
+      "end_line": 179,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "approval",
+      "file": "FRouter.sol",
+      "start_line": 181,
+      "end_line": 190,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setTaxManager",
+      "file": "FRouter.sol",
+      "start_line": 192,
+      "end_line": 194,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "AgentTax.sol",
+      "line": 24
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "EXECUTOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "AgentTax.sol",
+      "line": 25
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "DENOM",
+      "var_type": "uint256 internal constant",
+      "file": "AgentTax.sol",
+      "line": 27
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "var_type": "address public",
+      "file": "AgentTax.sol",
+      "line": 29
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "taxToken",
+      "var_type": "address public",
+      "file": "AgentTax.sol",
+      "line": 30
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "router",
+      "var_type": "IRouter public",
+      "file": "AgentTax.sol",
+      "line": 31
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "treasury",
+      "var_type": "address public",
+      "file": "AgentTax.sol",
+      "line": 32
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "feeRate",
+      "var_type": "uint16 public",
+      "file": "AgentTax.sol",
+      "line": 33
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "minSwapThreshold",
+      "var_type": "uint256 public",
+      "file": "AgentTax.sol",
+      "line": 34
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "maxSwapThreshold",
+      "var_type": "uint256 public",
+      "file": "AgentTax.sol",
+      "line": 35
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "agentNft",
+      "var_type": "IAgentNft public",
+      "file": "AgentTax.sol",
+      "line": 36
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "_agentTba",
+      "var_type": "mapping(uint256 agentId => address tba) private",
+      "file": "AgentTax.sol",
+      "line": 53
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "taxHistory",
+      "var_type": "mapping(bytes32 txhash => TaxHistory history) public",
+      "file": "AgentTax.sol",
+      "line": 54
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "agentTaxAmounts",
+      "var_type": "mapping(uint256 agentId => TaxAmounts amounts) public",
+      "file": "AgentTax.sol",
+      "line": 55
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "_agentRecipients",
+      "var_type": "mapping(uint256 agentId => TaxRecipient) private",
+      "file": "AgentTax.sol",
+      "line": 74
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "creatorFeeRate",
+      "var_type": "uint16 public",
+      "file": "AgentTax.sol",
+      "line": 75
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "_feeTo",
+      "var_type": "address private",
+      "file": "Bonding.sol",
+      "line": 25
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "FFactory public",
+      "file": "Bonding.sol",
+      "line": 27
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "router",
+      "var_type": "FRouter public",
+      "file": "Bonding.sol",
+      "line": 28
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "initialSupply",
+      "var_type": "uint256 public",
+      "file": "Bonding.sol",
+      "line": 29
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "fee",
+      "var_type": "uint256 public",
+      "file": "Bonding.sol",
+      "line": 30
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "K",
+      "var_type": "uint256 public constant",
+      "file": "Bonding.sol",
+      "line": 31
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "assetRate",
+      "var_type": "uint256 public",
+      "file": "Bonding.sol",
+      "line": 32
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "gradThreshold",
+      "var_type": "uint256 public",
+      "file": "Bonding.sol",
+      "line": 33
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "maxTx",
+      "var_type": "uint256 public",
+      "file": "Bonding.sol",
+      "line": 34
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "agentFactory",
+      "var_type": "address public",
+      "file": "Bonding.sol",
+      "line": 35
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "_deployParams",
+      "var_type": "DeployParams private",
+      "file": "Bonding.sol",
+      "line": 80
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "profile",
+      "var_type": "mapping(address => Profile) public",
+      "file": "Bonding.sol",
+      "line": 82
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "profiles",
+      "var_type": "address[] public",
+      "file": "Bonding.sol",
+      "line": 83
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "tokenInfo",
+      "var_type": "mapping(address => Token) public",
+      "file": "Bonding.sol",
+      "line": 85
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "tokenInfos",
+      "var_type": "address[] public",
+      "file": "Bonding.sol",
+      "line": 86
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "BondingTax.sol",
+      "line": 19
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "var_type": "address public",
+      "file": "BondingTax.sol",
+      "line": 21
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "taxToken",
+      "var_type": "address public",
+      "file": "BondingTax.sol",
+      "line": 22
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "router",
+      "var_type": "IRouter public",
+      "file": "BondingTax.sol",
+      "line": 23
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "bondingRouter",
+      "var_type": "address public",
+      "file": "BondingTax.sol",
+      "line": 24
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "treasury",
+      "var_type": "address public",
+      "file": "BondingTax.sol",
+      "line": 25
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "minSwapThreshold",
+      "var_type": "uint256 public",
+      "file": "BondingTax.sol",
+      "line": 26
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "maxSwapThreshold",
+      "var_type": "uint256 public",
+      "file": "BondingTax.sol",
+      "line": 27
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "_slippage",
+      "var_type": "uint16 private",
+      "file": "BondingTax.sol",
+      "line": 28
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "FRouter.sol",
+      "line": 21
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "EXECUTOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "FRouter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "FFactory public",
+      "file": "FRouter.sol",
+      "line": 24
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "var_type": "address public",
+      "file": "FRouter.sol",
+      "line": 25
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "taxManager",
+      "var_type": "address public",
+      "file": "FRouter.sol",
+      "line": 26
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:223",
+      "call_type": "INTERFACE_CALL",
+      "line": 223,
+      "enclosing_function": "_getTaxRecipient",
+      "file": "AgentTax.sol",
+      "raw_text": "IAgentNft.VirtualInfo memory info = agentNft.virtualInfo(agentId);"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:264",
+      "call_type": "INTERFACE_CALL",
+      "line": 264,
+      "enclosing_function": "_swapForAsset",
+      "file": "AgentTax.sol",
+      "raw_text": "uint256[] memory amountsOut = router.getAmountsOut(amountToSwap, path);"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:268",
+      "call_type": "INTERFACE_CALL",
+      "line": 268,
+      "enclosing_function": "_swapForAsset",
+      "file": "AgentTax.sol",
+      "raw_text": "router.swapExactTokensForTokens("
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:311",
+      "call_type": "INTERFACE_CALL",
+      "line": 311,
+      "enclosing_function": "updateCreator",
+      "file": "AgentTax.sol",
+      "raw_text": "IAgentNft.VirtualInfo memory info = agentNft.virtualInfo(agentId);"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:132",
+      "call_type": "INTERFACE_CALL",
+      "line": 132,
+      "enclosing_function": "_createUserProfile",
+      "file": "Bonding.sol",
+      "raw_text": "profiles.push(_user);"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:201",
+      "call_type": "INTERFACE_CALL",
+      "line": 201,
+      "enclosing_function": "launch",
+      "file": "Bonding.sol",
+      "raw_text": "address assetToken = router.assetToken();"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:217",
+      "call_type": "INTERFACE_CALL",
+      "line": 217,
+      "enclosing_function": "launch",
+      "file": "Bonding.sol",
+      "raw_text": "address _pair = factory.createPair(address(token), assetToken);"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:225",
+      "call_type": "INTERFACE_CALL",
+      "line": 225,
+      "enclosing_function": "launch",
+      "file": "Bonding.sol",
+      "raw_text": "router.addInitialLiquidity(address(token), supply, liquidity);"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:258",
+      "call_type": "INTERFACE_CALL",
+      "line": 258,
+      "enclosing_function": "launch",
+      "file": "Bonding.sol",
+      "raw_text": "tokenInfos.push(address(token));"
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bonding.sol:283",
+      "call_type": "TRANSFER",
+      "line": 283,
+      "enclosing_function": "launch",
+      "file": "Bonding.sol",
+      "raw_text": "token.transfer(msg.sender, token.balanceOf(address(this)));"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:294",
+      "call_type": "INTERFACE_CALL",
+      "line": 294,
+      "enclosing_function": "sell",
+      "file": "Bonding.sol",
+      "raw_text": "address pairAddress = factory.getPair("
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:296",
+      "call_type": "INTERFACE_CALL",
+      "line": 296,
+      "enclosing_function": "sell",
+      "file": "Bonding.sol",
+      "raw_text": "router.assetToken()"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:347",
+      "call_type": "INTERFACE_CALL",
+      "line": 347,
+      "enclosing_function": "buy",
+      "file": "Bonding.sol",
+      "raw_text": "address pairAddress = factory.getPair("
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:349",
+      "call_type": "INTERFACE_CALL",
+      "line": 349,
+      "enclosing_function": "buy",
+      "file": "Bonding.sol",
+      "raw_text": "router.assetToken()"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:412",
+      "call_type": "INTERFACE_CALL",
+      "line": 412,
+      "enclosing_function": "_openTradingOnUniswap",
+      "file": "Bonding.sol",
+      "raw_text": "address pairAddress = factory.getPair("
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:414",
+      "call_type": "INTERFACE_CALL",
+      "line": 414,
+      "enclosing_function": "_openTradingOnUniswap",
+      "file": "Bonding.sol",
+      "raw_text": "router.assetToken()"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:422",
+      "call_type": "INTERFACE_CALL",
+      "line": 422,
+      "enclosing_function": "_openTradingOnUniswap",
+      "file": "Bonding.sol",
+      "raw_text": "router.graduate(tokenAddress);"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:424",
+      "call_type": "INTERFACE_CALL",
+      "line": 424,
+      "enclosing_function": "_openTradingOnUniswap",
+      "file": "Bonding.sol",
+      "raw_text": "IERC20(router.assetToken()).forceApprove(agentFactory, assetBalance);"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:445",
+      "call_type": "INTERFACE_CALL",
+      "line": 445,
+      "enclosing_function": "_openTradingOnUniswap",
+      "file": "Bonding.sol",
+      "raw_text": "router.approval("
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:466",
+      "call_type": "INTERFACE_CALL",
+      "line": 466,
+      "enclosing_function": "unwrapToken",
+      "file": "Bonding.sol",
+      "raw_text": "address pairAddress = factory.getPair("
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:468",
+      "call_type": "INTERFACE_CALL",
+      "line": 468,
+      "enclosing_function": "unwrapToken",
+      "file": "Bonding.sol",
+      "raw_text": "router.assetToken()"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BondingTax.sol:161",
+      "call_type": "INTERFACE_CALL",
+      "line": 161,
+      "enclosing_function": "swapForAsset",
+      "file": "BondingTax.sol",
+      "raw_text": "uint256[] memory amountsOut = router.getAmountsOut(amount, path);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BondingTax.sol:168",
+      "call_type": "INTERFACE_CALL",
+      "line": 168,
+      "enclosing_function": "swapForAsset",
+      "file": "BondingTax.sol",
+      "raw_text": "router.swapExactTokensForTokens("
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:55",
+      "call_type": "INTERFACE_CALL",
+      "line": 55,
+      "enclosing_function": "getAmountsOut",
+      "file": "FRouter.sol",
+      "raw_text": "address pairAddress = factory.getPair(token, assetToken);"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "addInitialLiquidity",
+      "file": "FRouter.sol",
+      "raw_text": "address pairAddress = factory.getPair(token_, assetToken);"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "sell",
+      "file": "FRouter.sol",
+      "raw_text": "address pairAddress = factory.getPair(tokenAddress, assetToken);"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:120",
+      "call_type": "INTERFACE_CALL",
+      "line": 120,
+      "enclosing_function": "sell",
+      "file": "FRouter.sol",
+      "raw_text": "uint fee = factory.sellTax();"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:124",
+      "call_type": "INTERFACE_CALL",
+      "line": 124,
+      "enclosing_function": "sell",
+      "file": "FRouter.sol",
+      "raw_text": "address feeTo = factory.taxVault();"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:147",
+      "call_type": "INTERFACE_CALL",
+      "line": 147,
+      "enclosing_function": "buy",
+      "file": "FRouter.sol",
+      "raw_text": "address pair = factory.getPair(tokenAddress, assetToken);"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:149",
+      "call_type": "INTERFACE_CALL",
+      "line": 149,
+      "enclosing_function": "buy",
+      "file": "FRouter.sol",
+      "raw_text": "uint fee = factory.buyTax();"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:151",
+      "call_type": "INTERFACE_CALL",
+      "line": 151,
+      "enclosing_function": "buy",
+      "file": "FRouter.sol",
+      "raw_text": "address feeTo = factory.taxVault();"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:176",
+      "call_type": "INTERFACE_CALL",
+      "line": 176,
+      "enclosing_function": "graduate",
+      "file": "FRouter.sol",
+      "raw_text": "address pair = factory.getPair(tokenAddress, assetToken);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        6,
+        7,
+        8,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        55,
+        79,
+        85
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 85
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        7,
+        8,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        52,
+        53,
+        55,
+        79,
+        86
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 86
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        5,
+        7,
+        8,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        52,
+        53,
+        55,
+        79,
+        87
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 87
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        9,
+        40,
+        50,
+        54,
+        88
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 88
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        11,
+        21,
+        45,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        64,
+        67,
+        68,
+        69,
+        70,
+        89
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 89
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        21,
+        45,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        64,
+        67,
+        69,
+        70,
+        90
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 90
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        21,
+        45,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        64,
+        67,
+        69,
+        70,
+        91
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 91
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        21,
+        45,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        64,
+        67,
+        69,
+        70,
+        92
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 92
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        21,
+        45,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        64,
+        67,
+        69,
+        70,
+        93
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 93
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        21,
+        45,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        64,
+        67,
+        69,
+        70,
+        94
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 94
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        22,
+        43,
+        45,
+        57,
+        69,
+        84,
+        95
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 95
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        22,
+        43,
+        45,
+        57,
+        69,
+        84,
+        96
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 96
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        23,
+        43,
+        45,
+        57,
+        63,
+        69,
+        84,
+        97
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 97
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        23,
+        43,
+        45,
+        57,
+        63,
+        69,
+        84,
+        98
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 98
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        23,
+        24,
+        43,
+        45,
+        57,
+        63,
+        65,
+        66,
+        69,
+        84,
+        99
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 99
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        23,
+        24,
+        43,
+        45,
+        57,
+        63,
+        65,
+        66,
+        69,
+        84,
+        100
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 100
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        23,
+        24,
+        43,
+        45,
+        57,
+        63,
+        65,
+        66,
+        69,
+        84,
+        101
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 101
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        23,
+        24,
+        43,
+        45,
+        57,
+        63,
+        65,
+        66,
+        69,
+        84,
+        102
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        23,
+        24,
+        43,
+        45,
+        57,
+        63,
+        65,
+        66,
+        69,
+        84,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        25,
+        45,
+        57,
+        69,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        25,
+        45,
+        57,
+        69,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        7,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        79,
+        106
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        7,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        79,
+        107
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        22,
+        23,
+        33,
+        43,
+        45,
+        57,
+        63,
+        69,
+        84,
+        108
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 108
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        34,
+        43,
+        57,
+        109
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 109
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        22,
+        43,
+        45,
+        57,
+        69,
+        84,
+        110
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 110
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        22,
+        43,
+        45,
+        57,
+        69,
+        84,
+        111
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 111
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        22,
+        43,
+        45,
+        57,
+        69,
+        84,
+        112
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 112
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        23,
+        43,
+        45,
+        57,
+        63,
+        69,
+        84,
+        113
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 113
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        23,
+        43,
+        45,
+        57,
+        63,
+        69,
+        84,
+        114
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 114
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        23,
+        43,
+        45,
+        57,
+        63,
+        69,
+        84,
+        115
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 115
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        37,
+        43,
+        57,
+        116
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 116
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateSwapParams",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateSwapThresholds",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateTreasury",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "handleAgentTaxes",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getTaxRecipient",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapForAsset",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_swapForAsset",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateCreator",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_createUserProfile",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_checkIfProfileExists",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_approval",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setInitialSupply",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setGradThreshold",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setFee",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setMaxTx",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setAssetRate",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setDeployParams",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getUserTokens",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "launch",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "sell",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "buy",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_openTradingOnUniswap",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "unwrapToken",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "updateSwapParams",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateSwapThresholds",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "updateTreasury",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "swapForAsset",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "getAmountsOut",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "addInitialLiquidity",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "sell",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "buy",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "graduate",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "approval",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setTaxManager",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "EXECUTOR_ROLE",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "DENOM",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "taxToken",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "router",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "treasury",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "feeRate",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "minSwapThreshold",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "maxSwapThreshold",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "agentNft",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "_agentTba",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "taxHistory",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "agentTaxAmounts",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "_agentRecipients",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "creatorFeeRate",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "_feeTo",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "router",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "initialSupply",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "fee",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "K",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "assetRate",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "gradThreshold",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "maxTx",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "agentFactory",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "_deployParams",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "profile",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "profiles",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "tokenInfo",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "tokenInfos",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "taxToken",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "router",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "bondingRouter",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "treasury",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "minSwapThreshold",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "maxSwapThreshold",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "_slippage",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "EXECUTOR_ROLE",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "taxManager",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:223",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:264",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:268",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentTax.sol:311",
+      "file": "AgentTax.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:132",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:201",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:217",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:225",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:258",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bonding.sol:283",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:294",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:296",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:347",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:349",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:412",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:414",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:422",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:424",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:445",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:466",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Bonding.sol:468",
+      "file": "Bonding.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BondingTax.sol:161",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BondingTax.sol:168",
+      "file": "BondingTax.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:55",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:89",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:110",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:120",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:124",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:147",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:149",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:151",
+      "file": "FRouter.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FRouter.sol:176",
+      "file": "FRouter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 117,
+    "n_hyperedges": 32,
+    "n_functions": 40,
+    "n_state_vars": 45,
+    "n_call_sites": 32,
+    "avg_hyperedge_size": 9.75
+  },
+  "label": {
+    "vfp_id": "vfp_00335",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-221",
+      "CWE-358",
+      "CWE-664",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754",
+      "CWE-834",
+      "CWE-835"
+    ]
+  }
+}

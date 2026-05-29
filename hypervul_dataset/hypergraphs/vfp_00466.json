@@ -1,0 +1,1286 @@
+{
+  "sample_id": "vfp_00466",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateJumpRateModel",
+      "file": "JumpRateModelV4.sol",
+      "start_line": 102,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateBlocksPerYear",
+      "file": "JumpRateModelV4.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isInterestRateModel",
+      "file": "JumpRateModelV4.sol",
+      "start_line": 123,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "utilizationRate",
+      "file": "JumpRateModelV4.sol",
+      "start_line": 130,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getBorrowRate",
+      "file": "JumpRateModelV4.sol",
+      "start_line": 140,
+      "end_line": 150,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getSupplyRate",
+      "file": "JumpRateModelV4.sol",
+      "start_line": 155,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateJumpRateModel",
+      "file": "JumpRateModelV4.sol",
+      "start_line": 175,
+      "end_line": 187,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_initializeMToken",
+      "file": "mToken.sol",
+      "start_line": 49,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "mToken.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "mToken.sol",
+      "start_line": 85,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "balanceOfUnderlying",
+      "file": "mToken.sol",
+      "start_line": 92,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getAccountSnapshot",
+      "file": "mToken.sol",
+      "start_line": 101,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "borrowRatePerBlock",
+      "file": "mToken.sol",
+      "start_line": 108,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "supplyRatePerBlock",
+      "file": "mToken.sol",
+      "start_line": 115,
+      "end_line": 119,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "borrowBalanceStored",
+      "file": "mToken.sol",
+      "start_line": 124,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getCash",
+      "file": "mToken.sol",
+      "start_line": 131,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "exchangeRateStored",
+      "file": "mToken.sol",
+      "start_line": 138,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "mToken.sol",
+      "start_line": 146,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "mToken.sol",
+      "start_line": 155,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "approve",
+      "file": "mToken.sol",
+      "start_line": 164,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "totalBorrowsCurrent",
+      "file": "mToken.sol",
+      "start_line": 174,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "borrowBalanceCurrent",
+      "file": "mToken.sol",
+      "start_line": 182,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "exchangeRateCurrent",
+      "file": "mToken.sol",
+      "start_line": 190,
+      "end_line": 193,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "seize",
+      "file": "mToken.sol",
+      "start_line": 198,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "reduceReserves",
+      "file": "mToken.sol",
+      "start_line": 205,
+      "end_line": 230,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_borrowBalanceStored",
+      "file": "mToken.sol",
+      "start_line": 238,
+      "end_line": 254,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "mToken.sol",
+      "start_line": 266,
+      "end_line": 273,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_redeem",
+      "file": "mToken.sol",
+      "start_line": 282,
+      "end_line": 290,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_redeemUnderlying",
+      "file": "mToken.sol",
+      "start_line": 299,
+      "end_line": 303,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_borrow",
+      "file": "mToken.sol",
+      "start_line": 311,
+      "end_line": 315,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_borrowWithReceiver",
+      "file": "mToken.sol",
+      "start_line": 323,
+      "end_line": 326,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_repay",
+      "file": "mToken.sol",
+      "start_line": 333,
+      "end_line": 337,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_repayBehalf",
+      "file": "mToken.sol",
+      "start_line": 345,
+      "end_line": 353,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_liquidate",
+      "file": "mToken.sol",
+      "start_line": 364,
+      "end_line": 377,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_seize",
+      "file": "mToken.sol",
+      "start_line": 388,
+      "end_line": 418,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_addReserves",
+      "file": "mToken.sol",
+      "start_line": 424,
+      "end_line": 453,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "__liquidate",
+      "file": "mToken.sol",
+      "start_line": 465,
+      "end_line": 505,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "__repay",
+      "file": "mToken.sol",
+      "start_line": 514,
+      "end_line": 554,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "__borrow",
+      "file": "mToken.sol",
+      "start_line": 560,
+      "end_line": 601,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "__redeem",
+      "file": "mToken.sol",
+      "start_line": 603,
+      "end_line": 661,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "__mint",
+      "file": "mToken.sol",
+      "start_line": 672,
+      "end_line": 730,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_transferTokens",
+      "file": "mToken.sol",
+      "start_line": 740,
+      "end_line": 772,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "accrueInterest",
+      "file": "mTokenStorage.sol",
+      "start_line": 276,
+      "end_line": 278,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_getBlockTimestamp",
+      "file": "mTokenStorage.sol",
+      "start_line": 284,
+      "end_line": 286,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_exchangeRateStored",
+      "file": "mTokenStorage.sol",
+      "start_line": 295,
+      "end_line": 314,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_getCashPrior",
+      "file": "mTokenStorage.sol",
+      "start_line": 321,
+      "end_line": 321,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_doTransferIn",
+      "file": "mTokenStorage.sol",
+      "start_line": 327,
+      "end_line": 327,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_doTransferOut",
+      "file": "mTokenStorage.sol",
+      "start_line": 334,
+      "end_line": 334,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_accrueInterest",
+      "file": "mTokenStorage.sol",
+      "start_line": 337,
+      "end_line": 389,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "blocksPerYear",
+      "var_type": "uint256 public override",
+      "file": "JumpRateModelV4.sol",
+      "line": 42
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "multiplierPerBlock",
+      "var_type": "uint256 public override",
+      "file": "JumpRateModelV4.sol",
+      "line": 47
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "baseRatePerBlock",
+      "var_type": "uint256 public override",
+      "file": "JumpRateModelV4.sol",
+      "line": 52
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "jumpMultiplierPerBlock",
+      "var_type": "uint256 public override",
+      "file": "JumpRateModelV4.sol",
+      "line": 57
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "kink",
+      "var_type": "uint256 public override",
+      "file": "JumpRateModelV4.sol",
+      "line": 62
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public override",
+      "file": "JumpRateModelV4.sol",
+      "line": 67
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "admin",
+      "var_type": "address payable public",
+      "file": "mTokenStorage.sol",
+      "line": 39
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "pendingAdmin",
+      "var_type": "address payable public",
+      "file": "mTokenStorage.sol",
+      "line": 44
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "operator",
+      "var_type": "address public",
+      "file": "mTokenStorage.sol",
+      "line": 49
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "rolesOperator",
+      "var_type": "IRoles public",
+      "file": "mTokenStorage.sol",
+      "line": 54
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public",
+      "file": "mTokenStorage.sol",
+      "line": 60
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "symbol",
+      "var_type": "string public",
+      "file": "mTokenStorage.sol",
+      "line": 65
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "decimals",
+      "var_type": "uint8 public",
+      "file": "mTokenStorage.sol",
+      "line": 70
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "interestRateModel",
+      "var_type": "address public",
+      "file": "mTokenStorage.sol",
+      "line": 76
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "reserveFactorMantissa",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 81
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "accrualBlockTimestamp",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 86
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "borrowIndex",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 91
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "totalBorrows",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 96
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "totalReserves",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 101
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 106
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "totalUnderlying",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 111
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "borrowRateMaxMantissa",
+      "var_type": "uint256 public",
+      "file": "mTokenStorage.sol",
+      "line": 116
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "accountBorrows",
+      "var_type": "mapping(address => BorrowSnapshot) internal",
+      "file": "mTokenStorage.sol",
+      "line": 129
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "accountTokens",
+      "var_type": "mapping(address => uint256) internal",
+      "file": "mTokenStorage.sol",
+      "line": 132
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "transferAllowances",
+      "var_type": "mapping(address => mapping(address => uint256)) internal",
+      "file": "mTokenStorage.sol",
+      "line": 135
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "initialExchangeRateMantissa",
+      "var_type": "uint256 internal",
+      "file": "mTokenStorage.sol",
+      "line": 140
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "RESERVE_FACTOR_MAX_MANTISSA",
+      "var_type": "uint256 internal constant",
+      "file": "mTokenStorage.sol",
+      "line": 145
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "PROTOCOL_SEIZE_SHARE_MANTISSA",
+      "var_type": "uint256 internal constant",
+      "file": "mTokenStorage.sol",
+      "line": 150
+    },
+    {
+      "node_id": 77,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mToken.sol:160",
+      "call_type": "INTERFACE_CALL",
+      "line": 160,
+      "enclosing_function": "reduceReserves",
+      "file": "mToken.sol",
+      "raw_text": "msg.sender == admin || rolesOperator.isAllowedFor(msg.sender, rolesOperator.GUARDIAN_RESERVE()),"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        24,
+        77
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 77
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateJumpRateModel",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateBlocksPerYear",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isInterestRateModel",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "utilizationRate",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getBorrowRate",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getSupplyRate",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateJumpRateModel",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_initializeMToken",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "balanceOfUnderlying",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getAccountSnapshot",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "borrowRatePerBlock",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "supplyRatePerBlock",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "borrowBalanceStored",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getCash",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "exchangeRateStored",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "approve",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "totalBorrowsCurrent",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "borrowBalanceCurrent",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "exchangeRateCurrent",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "seize",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "reduceReserves",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_borrowBalanceStored",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_redeem",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_redeemUnderlying",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_borrow",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_borrowWithReceiver",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_repay",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_repayBehalf",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_liquidate",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_seize",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_addReserves",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "__liquidate",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "__repay",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "__borrow",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "__redeem",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "__mint",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_transferTokens",
+      "file": "mToken.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "accrueInterest",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_getBlockTimestamp",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_exchangeRateStored",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_getCashPrior",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_doTransferIn",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_doTransferOut",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_accrueInterest",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "blocksPerYear",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "multiplierPerBlock",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "baseRatePerBlock",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "jumpMultiplierPerBlock",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "kink",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "JumpRateModelV4.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "admin",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "pendingAdmin",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "operator",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "rolesOperator",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "symbol",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "decimals",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "interestRateModel",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "reserveFactorMantissa",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "accrualBlockTimestamp",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "borrowIndex",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "totalBorrows",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "totalReserves",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "totalUnderlying",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "borrowRateMaxMantissa",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "accountBorrows",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "accountTokens",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "transferAllowances",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "initialExchangeRateMantissa",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "RESERVE_FACTOR_MAX_MANTISSA",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "PROTOCOL_SEIZE_SHARE_MANTISSA",
+      "file": "mTokenStorage.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mToken.sol:160",
+      "file": "mToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 78,
+    "n_hyperedges": 1,
+    "n_functions": 49,
+    "n_state_vars": 28,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00466",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

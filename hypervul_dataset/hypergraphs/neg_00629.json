@@ -1,0 +1,276 @@
+{
+  "sample_id": "neg_00629",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "toUint160",
+      "file": "odos-router-v3_contracts_Permit2_libraries_SafeCast160.sol",
+      "start_line": 10,
+      "end_line": 13,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verify",
+      "file": "odos-router-v3_contracts_Permit2_libraries_SignatureVerification.sol",
+      "start_line": 21,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "start_line": 38,
+      "end_line": 41,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "start_line": 42,
+      "end_line": 47,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "start_line": 49,
+      "end_line": 51,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approve",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "start_line": 53,
+      "end_line": 57,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "start_line": 63,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "UPPER_BIT_MASK",
+      "var_type": "bytes32 constant",
+      "file": "odos-router-v3_contracts_Permit2_libraries_SignatureVerification.sol",
+      "line": 19
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "line": 23
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "symbol",
+      "var_type": "string public",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "line": 24
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "decimals",
+      "var_type": "uint8  public",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "line": 25
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "var_type": "mapping (address => uint)                       public",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "line": 32
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping (address => mapping (address => uint))  public",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "line": 33
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "TRANSFER:odos-router-v3_contracts_WETH_WETH9.sol:43",
+      "call_type": "TRANSFER",
+      "line": 43,
+      "enclosing_function": "withdraw",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol",
+      "raw_text": "msg.sender.transfer(wad);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        12,
+        14
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "toUint160",
+      "file": "odos-router-v3_contracts_Permit2_libraries_SafeCast160.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verify",
+      "file": "odos-router-v3_contracts_Permit2_libraries_SignatureVerification.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approve",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "UPPER_BIT_MASK",
+      "file": "odos-router-v3_contracts_Permit2_libraries_SignatureVerification.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "symbol",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "decimals",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "TRANSFER:odos-router-v3_contracts_WETH_WETH9.sol:43",
+      "file": "odos-router-v3_contracts_WETH_WETH9.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 1,
+    "n_functions": 8,
+    "n_state_vars": 6,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00629",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

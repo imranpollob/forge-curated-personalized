@@ -1,0 +1,186 @@
+{
+  "sample_id": "vfp_00124",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "activateHook",
+      "file": "UniswapHook.sol",
+      "start_line": 37,
+      "end_line": 56,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "poolKey",
+      "file": "UniswapHook.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "validateHookAddress",
+      "file": "UniswapHook.sol",
+      "start_line": 66,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "UniswapHook.sol",
+      "start_line": 68,
+      "end_line": 127,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_beforeInitialize",
+      "file": "UniswapHook.sol",
+      "start_line": 130,
+      "end_line": 136,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_beforeAddLiquidity",
+      "file": "UniswapHook.sol",
+      "start_line": 138,
+      "end_line": 145,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "UniswapHook.sol",
+      "start_line": 147,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "evc",
+      "var_type": "address private immutable",
+      "file": "UniswapHook.sol",
+      "line": 26
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "_poolKey",
+      "var_type": "PoolKey internal",
+      "file": "UniswapHook.sol",
+      "line": 28
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "activateHook",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "poolKey",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "validateHookAddress",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_beforeInitialize",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_beforeAddLiquidity",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "evc",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "_poolKey",
+      "file": "UniswapHook.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00124",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-431",
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

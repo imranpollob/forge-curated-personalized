@@ -1,0 +1,340 @@
+{
+  "sample_id": "vfp_00233",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getAddressOrRevert",
+      "file": "AddressProvider.sol",
+      "start_line": 50,
+      "end_line": 59,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAddressOrRevert",
+      "file": "AddressProvider.sol",
+      "start_line": 62,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLatestVersion",
+      "file": "AddressProvider.sol",
+      "start_line": 66,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getLatestMinorVersion",
+      "file": "AddressProvider.sol",
+      "start_line": 72,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getLatestPatchVersion",
+      "file": "AddressProvider.sol",
+      "start_line": 78,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAddress",
+      "file": "AddressProvider.sol",
+      "start_line": 88,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setAddress",
+      "file": "AddressProvider.sol",
+      "start_line": 92,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setAddress",
+      "file": "AddressProvider.sol",
+      "start_line": 99,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setAddress",
+      "file": "AddressProvider.sol",
+      "start_line": 108,
+      "end_line": 122,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getAllSavedContracts",
+      "file": "AddressProvider.sol",
+      "start_line": 124,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint256 public constant override",
+      "file": "AddressProvider.sol",
+      "line": 30
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "contractType",
+      "var_type": "bytes32 public constant override",
+      "file": "AddressProvider.sol",
+      "line": 31
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "addresses",
+      "var_type": "mapping(string => mapping(uint256 => address)) public override",
+      "file": "AddressProvider.sol",
+      "line": 34
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "latestVersions",
+      "var_type": "mapping(string => uint256) public",
+      "file": "AddressProvider.sol",
+      "line": 36
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "latestMinorVersions",
+      "var_type": "mapping(string => mapping(uint256 => uint256)) public",
+      "file": "AddressProvider.sol",
+      "line": 37
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "latestPatchVersions",
+      "var_type": "mapping(string => mapping(uint256 => uint256)) public",
+      "file": "AddressProvider.sol",
+      "line": 38
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "contractKeys",
+      "var_type": "ContractKey[] internal",
+      "file": "AddressProvider.sol",
+      "line": 40
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AddressProvider.sol:119",
+      "call_type": "INTERFACE_CALL",
+      "line": 119,
+      "enclosing_function": "_setAddress",
+      "file": "AddressProvider.sol",
+      "raw_text": "contractKeys.push(ContractKey(key, _version));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getAddressOrRevert",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAddressOrRevert",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLatestVersion",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getLatestMinorVersion",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getLatestPatchVersion",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAddress",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setAddress",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setAddress",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setAddress",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getAllSavedContracts",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "contractType",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "addresses",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "latestVersions",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "latestMinorVersions",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "latestPatchVersions",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "contractKeys",
+      "file": "AddressProvider.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AddressProvider.sol:119",
+      "file": "AddressProvider.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 1,
+    "n_functions": 10,
+    "n_state_vars": 7,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 10.0
+  },
+  "label": {
+    "vfp_id": "vfp_00233",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1078",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "sample_id": "neg_00321",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__AccessRegistrySubscription_init",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol",
+      "start_line": 64,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "accessRegistryUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol",
+      "start_line": 75,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_accessRegistryUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol",
+      "start_line": 90,
+      "end_line": 100,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_authorizeAccessRegistryUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol",
+      "start_line": 106,
+      "end_line": 106,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__RoleAccess_init",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol",
+      "start_line": 56,
+      "end_line": 63,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "renounceRole",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol",
+      "start_line": 73,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol",
+      "start_line": 93,
+      "end_line": 96,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_authorizeRoleAccess",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol",
+      "start_line": 102,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "accessRegistry",
+      "var_type": "IAccessRegistry public",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol",
+      "line": 35
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol",
+      "line": 115
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[50] private",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol",
+      "line": 111
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__AccessRegistrySubscription_init",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "accessRegistryUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_accessRegistryUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_authorizeAccessRegistryUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__RoleAccess_init",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "renounceRole",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_authorizeRoleAccess",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "accessRegistry",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "fireblocks-smart-contracts_contracts_library_AccessRegistry_AccessRegistrySubscriptionUpgradeable.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "fireblocks-smart-contracts_contracts_library_Utils_RoleAccessUpgradeable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 12,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00321",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "sample_id": "vfp_00423",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getMessageHash",
+      "file": "CompatibilityFallbackHandler.sol",
+      "start_line": 35,
+      "end_line": 37,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "encodeMessageDataForSafe",
+      "file": "CompatibilityFallbackHandler.sol",
+      "start_line": 45,
+      "end_line": 48,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getMessageHashForSafe",
+      "file": "CompatibilityFallbackHandler.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "CompatibilityFallbackHandler.sol",
+      "start_line": 67,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getModules",
+      "file": "CompatibilityFallbackHandler.sol",
+      "start_line": 86,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "simulate",
+      "file": "CompatibilityFallbackHandler.sol",
+      "start_line": 103,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "SAFE_MSG_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "CompatibilityFallbackHandler.sol",
+      "line": 21
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SENTINEL_MODULES",
+      "var_type": "address internal constant",
+      "file": "CompatibilityFallbackHandler.sol",
+      "line": 27
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getMessageHash",
+      "file": "CompatibilityFallbackHandler.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "encodeMessageDataForSafe",
+      "file": "CompatibilityFallbackHandler.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getMessageHashForSafe",
+      "file": "CompatibilityFallbackHandler.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "CompatibilityFallbackHandler.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getModules",
+      "file": "CompatibilityFallbackHandler.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "simulate",
+      "file": "CompatibilityFallbackHandler.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "SAFE_MSG_TYPEHASH",
+      "file": "CompatibilityFallbackHandler.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SENTINEL_MODULES",
+      "file": "CompatibilityFallbackHandler.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00423",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-431",
+      "CWE-691"
+    ]
+  }
+}

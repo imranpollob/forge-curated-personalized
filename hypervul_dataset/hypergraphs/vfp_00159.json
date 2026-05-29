@@ -1,0 +1,580 @@
+{
+  "sample_id": "vfp_00159",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "migrateCreditAccount",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 93,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 116,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_transferCollaterals",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 131,
+      "end_line": 152,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getMinimalAssetAmounts",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 155,
+      "end_line": 174,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_indexOf",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 177,
+      "end_line": 185,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_checkAccountOwner",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 188,
+      "end_line": 195,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getClosingMultiCalls",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 198,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_getOpeningMultiCalls",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 248,
+      "end_line": 327,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_getUnderlyingWithdrawCall",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 330,
+      "end_line": 344,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getPhantomTokenDepositCall",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 347,
+      "end_line": 375,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getPhantomTokenWithdrawalCall",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 378,
+      "end_line": 403,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getPhantomTokenInfo",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 407,
+      "end_line": 416,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getAccountTotalDebt",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 419,
+      "end_line": 426,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_applyPriceUpdates",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 429,
+      "end_line": 434,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_unlockAdapter",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 437,
+      "end_line": 440,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_lockAdapter",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 443,
+      "end_line": 446,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_validateParameters",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 454,
+      "end_line": 540,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_validateCreditManager",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 543,
+      "end_line": 564,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_getCollateralOrOverride",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 567,
+      "end_line": 575,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "serialize",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 577,
+      "end_line": 587,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setPhantomTokenOverride",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 589,
+      "end_line": 599,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "phantomTokenOverrides",
+      "file": "AccountMigratorBot.sol",
+      "start_line": 601,
+      "end_line": 603,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint256 public constant override",
+      "file": "AccountMigratorBot.sol",
+      "line": 66
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "contractType",
+      "var_type": "bytes32 public constant override",
+      "file": "AccountMigratorBot.sol",
+      "line": 67
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "requiredPermissions",
+      "var_type": "uint192 public constant override",
+      "file": "AccountMigratorBot.sol",
+      "line": 69
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "activeCreditAccount",
+      "var_type": "address internal",
+      "file": "AccountMigratorBot.sol",
+      "line": 72
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "_phantomTokenOverrides",
+      "var_type": "mapping(address => PhantomTokenOverride) internal",
+      "file": "AccountMigratorBot.sol",
+      "line": 74
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "_overridenPhantomTokens",
+      "var_type": "EnumerableSet.AddressSet internal",
+      "file": "AccountMigratorBot.sol",
+      "line": 76
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "mcFactory",
+      "var_type": "address public immutable",
+      "file": "AccountMigratorBot.sol",
+      "line": 78
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "contractsRegisterOld",
+      "var_type": "address public immutable",
+      "file": "AccountMigratorBot.sol",
+      "line": 80
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AccountMigratorBot.sol:578",
+      "call_type": "INTERFACE_CALL",
+      "line": 578,
+      "enclosing_function": "serialize",
+      "file": "AccountMigratorBot.sol",
+      "raw_text": "address[] memory overridenPhantomTokens = _overridenPhantomTokens.values();"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AccountMigratorBot.sol:598",
+      "call_type": "INTERFACE_CALL",
+      "line": 598,
+      "enclosing_function": "setPhantomTokenOverride",
+      "file": "AccountMigratorBot.sol",
+      "raw_text": "_overridenPhantomTokens.add(phantomToken);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        19,
+        26,
+        27,
+        28,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        20,
+        26,
+        27,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "migrateCreditAccount",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_transferCollaterals",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getMinimalAssetAmounts",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_indexOf",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_checkAccountOwner",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getClosingMultiCalls",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_getOpeningMultiCalls",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_getUnderlyingWithdrawCall",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getPhantomTokenDepositCall",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getPhantomTokenWithdrawalCall",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getPhantomTokenInfo",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getAccountTotalDebt",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_applyPriceUpdates",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_unlockAdapter",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_lockAdapter",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_validateParameters",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_validateCreditManager",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_getCollateralOrOverride",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "serialize",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setPhantomTokenOverride",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "phantomTokenOverrides",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "contractType",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "requiredPermissions",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "activeCreditAccount",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "_phantomTokenOverrides",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "_overridenPhantomTokens",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "mcFactory",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "contractsRegisterOld",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AccountMigratorBot.sol:578",
+      "file": "AccountMigratorBot.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AccountMigratorBot.sol:598",
+      "file": "AccountMigratorBot.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 32,
+    "n_hyperedges": 2,
+    "n_functions": 22,
+    "n_state_vars": 8,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 4.5
+  },
+  "label": {
+    "vfp_id": "vfp_00159",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-693",
+      "CWE-703",
+      "CWE-754"
+    ]
+  }
+}

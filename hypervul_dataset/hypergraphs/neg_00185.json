@@ -1,0 +1,77 @@
+{
+  "sample_id": "neg_00185",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_sendReleaseMessage",
+      "file": "protocol-fees_src_crosschain_FirepitSource.sol",
+      "start_line": 20,
+      "end_line": 26,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "release",
+      "file": "protocol-fees_src_crosschain_FirepitSource.sol",
+      "start_line": 30,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "DEFAULT_BRIDGE_ID",
+      "var_type": "uint256 public constant",
+      "file": "protocol-fees_src_crosschain_FirepitSource.sol",
+      "line": 13
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_sendReleaseMessage",
+      "file": "protocol-fees_src_crosschain_FirepitSource.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "release",
+      "file": "protocol-fees_src_crosschain_FirepitSource.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "DEFAULT_BRIDGE_ID",
+      "file": "protocol-fees_src_crosschain_FirepitSource.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00185",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

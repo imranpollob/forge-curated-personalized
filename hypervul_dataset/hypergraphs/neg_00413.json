@@ -1,0 +1,216 @@
+{
+  "sample_id": "neg_00413",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "factory",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getRewardTokens",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol",
+      "start_line": 22,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "readTokens",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol",
+      "start_line": 24,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "redeemRewards",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol",
+      "start_line": 29,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol",
+      "start_line": 41,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol",
+      "start_line": 54,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "CHAINLINK_AGGREGATOR_ETH_QUOTE_DECIMALS",
+      "var_type": "uint8 private constant",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol",
+      "line": 26
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "WSTETH_UNIT",
+      "var_type": "uint256 private constant",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol",
+      "line": 27
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "CURVE_YNETH_WSTETH_POOL",
+      "var_type": "ICurveV2TwocryptoPool private immutable",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol",
+      "line": 29
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "WSTETH_ETH_CHAINLINK_AGGREGATOR",
+      "var_type": "IChainlinkAggregator private immutable",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol",
+      "line": 30
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol:55",
+      "call_type": "INTERFACE_CALL",
+      "line": 55,
+      "enclosing_function": "latestRoundData",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol",
+      "raw_text": "uint256 ynEthPerWsteth = CURVE_YNETH_WSTETH_POOL.price_oracle();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "factory",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getRewardTokens",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "readTokens",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "redeemRewards",
+      "file": "protocol_contracts_external-interfaces_IPendleV2Market.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "CHAINLINK_AGGREGATOR_ETH_QUOTE_DECIMALS",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "WSTETH_UNIT",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "CURVE_YNETH_WSTETH_POOL",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "WSTETH_ETH_CHAINLINK_AGGREGATOR",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol:55",
+      "file": "protocol_contracts_release_infrastructure_price-feeds_primitives_ChainlinkLikeYnEthPriceFeed.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 1,
+    "n_functions": 6,
+    "n_state_vars": 4,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "neg_00413",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

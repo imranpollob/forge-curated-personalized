@@ -1,0 +1,255 @@
+{
+  "sample_id": "vfp_00315",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getValidatorCount",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addValidator",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 35,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLastChallenger",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 43,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getValidatorInfo",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 49,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "stake",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 63,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "dissolve",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 81,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "notifyExit",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 99,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "notifyNotExit",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 116,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "challengeExit",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 132,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "notifyFinalBalance",
+      "file": "RocketMegapoolManager.sol",
+      "start_line": 153,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "challengerKey",
+      "var_type": "bytes32 immutable internal",
+      "file": "RocketMegapoolManager.sol",
+      "line": 14
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "setCountKey",
+      "var_type": "bytes32 immutable internal",
+      "file": "RocketMegapoolManager.sol",
+      "line": 15
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "farFutureEpoch",
+      "var_type": "uint256 constant internal",
+      "file": "RocketMegapoolManager.sol",
+      "line": 18
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getValidatorCount",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addValidator",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLastChallenger",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getValidatorInfo",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "stake",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "dissolve",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "notifyExit",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "notifyNotExit",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "challengeExit",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "notifyFinalBalance",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "challengerKey",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "setCountKey",
+      "file": "RocketMegapoolManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "farFutureEpoch",
+      "file": "RocketMegapoolManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00315",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-390",
+      "CWE-435",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-755"
+    ]
+  }
+}

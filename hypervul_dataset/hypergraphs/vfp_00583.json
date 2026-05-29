@@ -1,0 +1,295 @@
+{
+  "sample_id": "vfp_00583",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__TickLogic_init",
+      "file": "TickLogic.sol",
+      "start_line": 32,
+      "end_line": 35,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getRootNode",
+      "file": "TickLogic.sol",
+      "start_line": 46,
+      "end_line": 58,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getRootNodeAndCompress",
+      "file": "TickLogic.sol",
+      "start_line": 65,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_newTickTreeNode",
+      "file": "TickLogic.sol",
+      "start_line": 90,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getTick",
+      "file": "TickLogic.sol",
+      "start_line": 108,
+      "end_line": 116,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getOrCreateTickNode",
+      "file": "TickLogic.sol",
+      "start_line": 121,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_addPositionToTick",
+      "file": "TickLogic.sol",
+      "start_line": 134,
+      "end_line": 162,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_removePositionFromTick",
+      "file": "TickLogic.sol",
+      "start_line": 166,
+      "end_line": 187,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_liquidateTick",
+      "file": "TickLogic.sol",
+      "start_line": 195,
+      "end_line": 234,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_resetTopTick",
+      "file": "TickLogic.sol",
+      "start_line": 238,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PARENT_OFFSET",
+      "var_type": "uint256 private constant",
+      "file": "TickLogic.sol",
+      "line": 19
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "TICK_OFFSET",
+      "var_type": "uint256 private constant",
+      "file": "TickLogic.sol",
+      "line": 20
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "COLL_RATIO_OFFSET",
+      "var_type": "uint256 private constant",
+      "file": "TickLogic.sol",
+      "line": 21
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DEBT_RATIO_OFFSET",
+      "var_type": "uint256 private constant",
+      "file": "TickLogic.sol",
+      "line": 22
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "COLL_SHARE_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "TickLogic.sol",
+      "line": 25
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "DEBT_SHARE_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "TickLogic.sol",
+      "line": 26
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__TickLogic_init",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getRootNode",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getRootNodeAndCompress",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_newTickTreeNode",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getTick",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getOrCreateTickNode",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_addPositionToTick",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_removePositionFromTick",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_liquidateTick",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_resetTopTick",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PARENT_OFFSET",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "TICK_OFFSET",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "COLL_RATIO_OFFSET",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DEBT_RATIO_OFFSET",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "COLL_SHARE_OFFSET",
+      "file": "TickLogic.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "DEBT_SHARE_OFFSET",
+      "file": "TickLogic.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00583",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1164",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-563",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

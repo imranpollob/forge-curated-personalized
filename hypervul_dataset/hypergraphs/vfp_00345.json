@@ -1,0 +1,1992 @@
+{
+  "sample_id": "vfp_00345",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 47,
+      "end_line": 59,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "canDepositQueuedTokens",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 73,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "depositQueuedTokens",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 82,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "shouldUnbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 93,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 110,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "forceUnbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "shouldWithdrawVaults",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 144,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdrawVaults",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 153,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "restakeRewards",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 167,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getVaultDeposits",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 175,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getVaultRewards",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 190,
+      "end_line": 199,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getUnbondingVaults",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 206,
+      "end_line": 232,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getWithdrawableVaults",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 239,
+      "end_line": 265,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setDepositController",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 271,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setMinTimeBetweenUnbonding",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 280,
+      "end_line": 283,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PolygonFundFlowController.sol",
+      "start_line": 288,
+      "end_line": 288,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PolygonVault.sol",
+      "start_line": 45,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "PolygonVault.sol",
+      "start_line": 72,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "PolygonVault.sol",
+      "start_line": 83,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "unbond",
+      "file": "PolygonVault.sol",
+      "start_line": 94,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "restakeRewards",
+      "file": "PolygonVault.sol",
+      "start_line": 104,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "withdrawRewards",
+      "file": "PolygonVault.sol",
+      "start_line": 113,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getTotalDeposits",
+      "file": "PolygonVault.sol",
+      "start_line": 127,
+      "end_line": 133,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getPrincipalDeposits",
+      "file": "PolygonVault.sol",
+      "start_line": 139,
+      "end_line": 143,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getRewards",
+      "file": "PolygonVault.sol",
+      "start_line": 149,
+      "end_line": 151,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getQueuedWithdrawals",
+      "file": "PolygonVault.sol",
+      "start_line": 157,
+      "end_line": 160,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "isWithdrawable",
+      "file": "PolygonVault.sol",
+      "start_line": 166,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isUnbonding",
+      "file": "PolygonVault.sol",
+      "start_line": 176,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "minRewardClaimAmount",
+      "file": "PolygonVault.sol",
+      "start_line": 185,
+      "end_line": 187,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_getRatePrecision",
+      "file": "PolygonVault.sol",
+      "start_line": 193,
+      "end_line": 202,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PolygonVault.sol",
+      "start_line": 207,
+      "end_line": 207,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "strategy",
+      "var_type": "IPolygonStrategy public",
+      "file": "PolygonFundFlowController.sol",
+      "line": 17
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "withdrawalPool",
+      "var_type": "IWithdrawalPool public",
+      "file": "PolygonFundFlowController.sol",
+      "line": 19
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "depositController",
+      "var_type": "address public",
+      "file": "PolygonFundFlowController.sol",
+      "line": 22
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "minTimeBetweenUnbonding",
+      "var_type": "uint64 public",
+      "file": "PolygonFundFlowController.sol",
+      "line": 25
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "timeOfLastUnbond",
+      "var_type": "uint64 public",
+      "file": "PolygonFundFlowController.sol",
+      "line": 27
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "EXCHANGE_RATE_PRECISION",
+      "var_type": "uint256 constant",
+      "file": "PolygonVault.sol",
+      "line": 19
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "EXCHANGE_RATE_HIGH_PRECISION",
+      "var_type": "uint256 constant",
+      "file": "PolygonVault.sol",
+      "line": 20
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "token",
+      "var_type": "IERC20Upgradeable public",
+      "file": "PolygonVault.sol",
+      "line": 23
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "vaultController",
+      "var_type": "address public",
+      "file": "PolygonVault.sol",
+      "line": 25
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "stakeManager",
+      "var_type": "IPolygonStakeManager public",
+      "file": "PolygonVault.sol",
+      "line": 27
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "validatorPool",
+      "var_type": "IPolygonStaking public",
+      "file": "PolygonVault.sol",
+      "line": 29
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:60",
+      "call_type": "INTERFACE_CALL",
+      "line": 60,
+      "enclosing_function": "canDepositQueuedTokens",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "return strategy.numVaultsUnbonding() == 0;"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:73",
+      "call_type": "INTERFACE_CALL",
+      "line": 73,
+      "enclosing_function": "shouldUnbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "uint256 queuedWithdrawals = withdrawalPool.getTotalQueuedWithdrawals();"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:74",
+      "call_type": "INTERFACE_CALL",
+      "line": 74,
+      "enclosing_function": "shouldUnbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "uint256 queuedDeposits = strategy.totalQueued();"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:75",
+      "call_type": "INTERFACE_CALL",
+      "line": 75,
+      "enclosing_function": "shouldUnbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "(, , uint256 validatorRemovalDeposits) = strategy.validatorRemoval();"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:78",
+      "call_type": "INTERFACE_CALL",
+      "line": 78,
+      "enclosing_function": "shouldUnbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "strategy.numVaultsUnbonding() != 0 ||"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:88",
+      "call_type": "INTERFACE_CALL",
+      "line": 88,
+      "enclosing_function": "unbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "uint256 queuedWithdrawals = withdrawalPool.getTotalQueuedWithdrawals();"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "unbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "uint256 queuedDeposits = strategy.totalQueued();"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:90",
+      "call_type": "INTERFACE_CALL",
+      "line": 90,
+      "enclosing_function": "unbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "(, , uint256 validatorRemovalDeposits) = strategy.validatorRemoval();"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:93",
+      "call_type": "INTERFACE_CALL",
+      "line": 93,
+      "enclosing_function": "unbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "strategy.numVaultsUnbonding() != 0 ||"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:99",
+      "call_type": "INTERFACE_CALL",
+      "line": 99,
+      "enclosing_function": "unbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "strategy.unbond(toWithdraw);"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:108",
+      "call_type": "INTERFACE_CALL",
+      "line": 108,
+      "enclosing_function": "forceUnbondVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "strategy.forceUnbond(_vaultIds, _amounts);"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:119",
+      "call_type": "INTERFACE_CALL",
+      "line": 119,
+      "enclosing_function": "withdrawVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "strategy.unstakeClaim(_vaultIds);"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:121",
+      "call_type": "INTERFACE_CALL",
+      "line": 121,
+      "enclosing_function": "withdrawVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "(bool upkeepNeeded, ) = withdrawalPool.checkUpkeep(\"\");"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:124",
+      "call_type": "INTERFACE_CALL",
+      "line": 124,
+      "enclosing_function": "withdrawVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "withdrawalPool.performUpkeep(\"\");"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:135",
+      "call_type": "INTERFACE_CALL",
+      "line": 135,
+      "enclosing_function": "getVaultDeposits",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "address[] memory vaults = strategy.getVaults();"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:147",
+      "call_type": "INTERFACE_CALL",
+      "line": 147,
+      "enclosing_function": "getVaultRewards",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "address[] memory vaults = strategy.getVaults();"
+    },
+    {
+      "node_id": 58,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:159",
+      "call_type": "INTERFACE_CALL",
+      "line": 159,
+      "enclosing_function": "getUnbondingVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "address[] memory vaults = strategy.getVaults();"
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:162",
+      "call_type": "INTERFACE_CALL",
+      "line": 162,
+      "enclosing_function": "getUnbondingVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "(bool isActive, uint256 validatorId, ) = strategy.validatorRemoval();"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:188",
+      "call_type": "INTERFACE_CALL",
+      "line": 188,
+      "enclosing_function": "getWithdrawableVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "address[] memory vaults = strategy.getVaults();"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:191",
+      "call_type": "INTERFACE_CALL",
+      "line": 191,
+      "enclosing_function": "getWithdrawableVaults",
+      "file": "PolygonFundFlowController.sol",
+      "raw_text": "(bool isActive, uint256 validatorId, ) = strategy.validatorRemoval();"
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:48",
+      "call_type": "INTERFACE_CALL",
+      "line": 48,
+      "enclosing_function": "initialize",
+      "file": "PolygonVault.sol",
+      "raw_text": "token.safeApprove(_stakeManager, type(uint256).max);"
+    },
+    {
+      "node_id": 63,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:59",
+      "call_type": "INTERFACE_CALL",
+      "line": 59,
+      "enclosing_function": "deposit",
+      "file": "PolygonVault.sol",
+      "raw_text": "token.safeTransferFrom(msg.sender, address(this), _amount);"
+    },
+    {
+      "node_id": 64,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:60",
+      "call_type": "INTERFACE_CALL",
+      "line": 60,
+      "enclosing_function": "deposit",
+      "file": "PolygonVault.sol",
+      "raw_text": "validatorPool.buyVoucherPOL(_amount, 0);"
+    },
+    {
+      "node_id": 65,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:62",
+      "call_type": "INTERFACE_CALL",
+      "line": 62,
+      "enclosing_function": "deposit",
+      "file": "PolygonVault.sol",
+      "raw_text": "uint256 balance = token.balanceOf(address(this));"
+    },
+    {
+      "node_id": 66,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:63",
+      "call_type": "INTERFACE_CALL",
+      "line": 63,
+      "enclosing_function": "deposit",
+      "file": "PolygonVault.sol",
+      "raw_text": "if (balance != 0) token.safeTransfer(msg.sender, balance);"
+    },
+    {
+      "node_id": 67,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:68",
+      "call_type": "INTERFACE_CALL",
+      "line": 68,
+      "enclosing_function": "withdraw",
+      "file": "PolygonVault.sol",
+      "raw_text": "validatorPool.unstakeClaimTokensPOL();"
+    },
+    {
+      "node_id": 68,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:69",
+      "call_type": "INTERFACE_CALL",
+      "line": 69,
+      "enclosing_function": "withdraw",
+      "file": "PolygonVault.sol",
+      "raw_text": "uint256 amount = token.balanceOf(address(this));"
+    },
+    {
+      "node_id": 69,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "withdraw",
+      "file": "PolygonVault.sol",
+      "raw_text": "token.safeTransfer(msg.sender, amount);"
+    },
+    {
+      "node_id": 70,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:76",
+      "call_type": "INTERFACE_CALL",
+      "line": 76,
+      "enclosing_function": "unbond",
+      "file": "PolygonVault.sol",
+      "raw_text": "validatorPool.sellVoucherPOL(_amount, type(uint256).max);"
+    },
+    {
+      "node_id": 71,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:78",
+      "call_type": "INTERFACE_CALL",
+      "line": 78,
+      "enclosing_function": "unbond",
+      "file": "PolygonVault.sol",
+      "raw_text": "uint256 balance = token.balanceOf(address(this));"
+    },
+    {
+      "node_id": 72,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:79",
+      "call_type": "INTERFACE_CALL",
+      "line": 79,
+      "enclosing_function": "unbond",
+      "file": "PolygonVault.sol",
+      "raw_text": "if (balance != 0) token.safeTransfer(msg.sender, balance);"
+    },
+    {
+      "node_id": 73,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:85",
+      "call_type": "INTERFACE_CALL",
+      "line": 85,
+      "enclosing_function": "restakeRewards",
+      "file": "PolygonVault.sol",
+      "raw_text": "validatorPool.restakePOL();"
+    },
+    {
+      "node_id": 74,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:92",
+      "call_type": "INTERFACE_CALL",
+      "line": 92,
+      "enclosing_function": "withdrawRewards",
+      "file": "PolygonVault.sol",
+      "raw_text": "validatorPool.withdrawRewardsPOL();"
+    },
+    {
+      "node_id": 75,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:95",
+      "call_type": "INTERFACE_CALL",
+      "line": 95,
+      "enclosing_function": "withdrawRewards",
+      "file": "PolygonVault.sol",
+      "raw_text": "uint256 balance = token.balanceOf(address(this));"
+    },
+    {
+      "node_id": 76,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:96",
+      "call_type": "INTERFACE_CALL",
+      "line": 96,
+      "enclosing_function": "withdrawRewards",
+      "file": "PolygonVault.sol",
+      "raw_text": "token.safeTransfer(msg.sender, balance);"
+    },
+    {
+      "node_id": 77,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:105",
+      "call_type": "INTERFACE_CALL",
+      "line": 105,
+      "enclosing_function": "getTotalDeposits",
+      "file": "PolygonVault.sol",
+      "raw_text": "token.balanceOf(address(this));"
+    },
+    {
+      "node_id": 78,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:111",
+      "call_type": "INTERFACE_CALL",
+      "line": 111,
+      "enclosing_function": "getPrincipalDeposits",
+      "file": "PolygonVault.sol",
+      "raw_text": "(validatorPool.balanceOf(address(this)) * validatorPool.exchangeRate()) /"
+    },
+    {
+      "node_id": 79,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:117",
+      "call_type": "INTERFACE_CALL",
+      "line": 117,
+      "enclosing_function": "getRewards",
+      "file": "PolygonVault.sol",
+      "raw_text": "return validatorPool.getLiquidRewards(address(this));"
+    },
+    {
+      "node_id": 80,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:122",
+      "call_type": "INTERFACE_CALL",
+      "line": 122,
+      "enclosing_function": "getQueuedWithdrawals",
+      "file": "PolygonVault.sol",
+      "raw_text": "(uint256 shares, ) = validatorPool.unbonds(address(this));"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:123",
+      "call_type": "INTERFACE_CALL",
+      "line": 123,
+      "enclosing_function": "getQueuedWithdrawals",
+      "file": "PolygonVault.sol",
+      "raw_text": "return (shares * validatorPool.withdrawExchangeRate()) / _getRatePrecision();"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:128",
+      "call_type": "INTERFACE_CALL",
+      "line": 128,
+      "enclosing_function": "isWithdrawable",
+      "file": "PolygonVault.sol",
+      "raw_text": "(uint256 shares, uint256 withdrawEpoch) = validatorPool.unbonds(address(this));"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:130",
+      "call_type": "INTERFACE_CALL",
+      "line": 130,
+      "enclosing_function": "isWithdrawable",
+      "file": "PolygonVault.sol",
+      "raw_text": "shares != 0 && stakeManager.epoch() >= (withdrawEpoch + stakeManager.withdrawalDelay());"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:135",
+      "call_type": "INTERFACE_CALL",
+      "line": 135,
+      "enclosing_function": "isUnbonding",
+      "file": "PolygonVault.sol",
+      "raw_text": "(, uint256 withdrawEpoch) = validatorPool.unbonds(address(this));"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:136",
+      "call_type": "INTERFACE_CALL",
+      "line": 136,
+      "enclosing_function": "isUnbonding",
+      "file": "PolygonVault.sol",
+      "raw_text": "return stakeManager.epoch() < (withdrawEpoch + stakeManager.withdrawalDelay());"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:141",
+      "call_type": "INTERFACE_CALL",
+      "line": 141,
+      "enclosing_function": "minRewardClaimAmount",
+      "file": "PolygonVault.sol",
+      "raw_text": "return validatorPool.minAmount();"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:146",
+      "call_type": "INTERFACE_CALL",
+      "line": 146,
+      "enclosing_function": "_getRatePrecision",
+      "file": "PolygonVault.sol",
+      "raw_text": "uint256 validatorId = validatorPool.validatorId();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        31,
+        42
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 42
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        31,
+        32,
+        34,
+        35,
+        43
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 43
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        31,
+        32,
+        34,
+        35,
+        44
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 44
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        31,
+        32,
+        34,
+        35,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        3,
+        31,
+        32,
+        34,
+        35,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        4,
+        31,
+        32,
+        34,
+        35,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        4,
+        31,
+        32,
+        34,
+        35,
+        48
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 48
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        4,
+        31,
+        32,
+        34,
+        35,
+        49
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 49
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        4,
+        31,
+        32,
+        34,
+        35,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        4,
+        31,
+        32,
+        34,
+        35,
+        51
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 51
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        5,
+        31,
+        52
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 52
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        7,
+        31,
+        32,
+        53
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 53
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        7,
+        31,
+        32,
+        54
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 54
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        7,
+        31,
+        32,
+        55
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 55
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        9,
+        31,
+        56
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 56
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        10,
+        31,
+        57
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 57
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        11,
+        31,
+        58
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 58
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        11,
+        31,
+        59
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 59
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        6,
+        12,
+        31,
+        60
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 60
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        6,
+        12,
+        31,
+        61
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 61
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        0,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        40,
+        41,
+        62
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 62
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        17,
+        38,
+        41,
+        63
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 63
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        17,
+        38,
+        41,
+        64
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 64
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        17,
+        38,
+        41,
+        65
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 65
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        17,
+        38,
+        41,
+        66
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 66
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        18,
+        38,
+        41,
+        67
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 67
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        18,
+        38,
+        41,
+        68
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 68
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        18,
+        38,
+        41,
+        69
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 69
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        19,
+        38,
+        41,
+        70
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 70
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        19,
+        38,
+        41,
+        71
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 71
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        19,
+        38,
+        41,
+        72
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 72
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        8,
+        31,
+        41,
+        73
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 73
+    },
+    {
+      "edge_id": 32,
+      "node_ids": [
+        21,
+        38,
+        41,
+        74
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 74
+    },
+    {
+      "edge_id": 33,
+      "node_ids": [
+        21,
+        38,
+        41,
+        75
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 75
+    },
+    {
+      "edge_id": 34,
+      "node_ids": [
+        21,
+        38,
+        41,
+        76
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 76
+    },
+    {
+      "edge_id": 35,
+      "node_ids": [
+        22,
+        38,
+        77
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 77
+    },
+    {
+      "edge_id": 36,
+      "node_ids": [
+        22,
+        23,
+        38,
+        41,
+        78
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 78
+    },
+    {
+      "edge_id": 37,
+      "node_ids": [
+        8,
+        21,
+        22,
+        24,
+        31,
+        38,
+        41,
+        79
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 79
+    },
+    {
+      "edge_id": 38,
+      "node_ids": [
+        22,
+        25,
+        38,
+        41,
+        80
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 80
+    },
+    {
+      "edge_id": 39,
+      "node_ids": [
+        22,
+        25,
+        38,
+        41,
+        81
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 81
+    },
+    {
+      "edge_id": 40,
+      "node_ids": [
+        26,
+        40,
+        41,
+        82
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 82
+    },
+    {
+      "edge_id": 41,
+      "node_ids": [
+        26,
+        40,
+        41,
+        83
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 83
+    },
+    {
+      "edge_id": 42,
+      "node_ids": [
+        27,
+        40,
+        41,
+        84
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 84
+    },
+    {
+      "edge_id": 43,
+      "node_ids": [
+        27,
+        40,
+        41,
+        85
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 85
+    },
+    {
+      "edge_id": 44,
+      "node_ids": [
+        28,
+        41,
+        86
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 86
+    },
+    {
+      "edge_id": 45,
+      "node_ids": [
+        22,
+        23,
+        25,
+        29,
+        36,
+        37,
+        38,
+        41,
+        87
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 87
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "canDepositQueuedTokens",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "depositQueuedTokens",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "shouldUnbondVaults",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unbondVaults",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "forceUnbondVaults",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "shouldWithdrawVaults",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdrawVaults",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "restakeRewards",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getVaultDeposits",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getVaultRewards",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getUnbondingVaults",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getWithdrawableVaults",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setDepositController",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setMinTimeBetweenUnbonding",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "unbond",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "restakeRewards",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "withdrawRewards",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getTotalDeposits",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getPrincipalDeposits",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getRewards",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getQueuedWithdrawals",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "isWithdrawable",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isUnbonding",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "minRewardClaimAmount",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_getRatePrecision",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "strategy",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "withdrawalPool",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "depositController",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "minTimeBetweenUnbonding",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "timeOfLastUnbond",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "EXCHANGE_RATE_PRECISION",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "EXCHANGE_RATE_HIGH_PRECISION",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "token",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "vaultController",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "stakeManager",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "validatorPool",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:60",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:73",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:74",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:75",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:78",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:88",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:89",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:90",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:93",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:99",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:108",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:119",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:121",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:124",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:135",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:147",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:159",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:162",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:188",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonFundFlowController.sol:191",
+      "file": "PolygonFundFlowController.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:48",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:59",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:60",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:62",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:63",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:68",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:69",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:70",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:76",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:78",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:79",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:85",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:92",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:95",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:96",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:105",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:111",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:117",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:122",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:123",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:128",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:130",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:135",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:136",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:141",
+      "file": "PolygonVault.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PolygonVault.sol:146",
+      "file": "PolygonVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 88,
+    "n_hyperedges": 46,
+    "n_functions": 31,
+    "n_state_vars": 11,
+    "n_call_sites": 46,
+    "avg_hyperedge_size": 4.608695652173913
+  },
+  "label": {
+    "vfp_id": "vfp_00345",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-266",
+      "CWE-269",
+      "CWE-284",
+      "CWE-435",
+      "CWE-439"
+    ]
+  }
+}

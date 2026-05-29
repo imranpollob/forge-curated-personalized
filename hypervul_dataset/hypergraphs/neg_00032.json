@@ -1,0 +1,357 @@
+{
+  "sample_id": "neg_00032",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "onERC20Transfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 47,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onERC20AuthTransfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 57,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "checkERC20Transfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 68,
+      "end_line": 101,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateRestriction",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 108,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "freeze",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 127,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "unfreeze",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 138,
+      "end_line": 143,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isFrozen",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 146,
+      "end_line": 148,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateMember",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 151,
+      "end_line": 160,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isMember",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 163,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "start_line": 173,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "authTransferTo",
+      "file": "protocol-v3_src_misc_interfaces_IEscrow.sol",
+      "start_line": 15,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "FREEZE_BIT",
+      "var_type": "uint8 public constant",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "line": 34
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "root",
+      "var_type": "IRoot public immutable",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "line": 36
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:74",
+      "call_type": "INTERFACE_CALL",
+      "line": 74,
+      "enclosing_function": "checkERC20Transfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "raw_text": "if (fromHookData.getBit(FREEZE_BIT) == true && !root.endorsed(from)) {"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:85",
+      "call_type": "INTERFACE_CALL",
+      "line": 85,
+      "enclosing_function": "checkERC20Transfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "raw_text": "if (from == address(0) && root.endorsed(to)) {"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:129",
+      "call_type": "INTERFACE_CALL",
+      "line": 129,
+      "enclosing_function": "freeze",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "raw_text": "require(!root.endorsed(user), EndorsedUserCannotBeFrozen());"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:153",
+      "call_type": "INTERFACE_CALL",
+      "line": 153,
+      "enclosing_function": "updateMember",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol",
+      "raw_text": "require(!root.endorsed(user), EndorsedUserCannotBeUpdated());"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        11,
+        12,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        11,
+        12,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        4,
+        11,
+        12,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        7,
+        11,
+        12,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "onERC20Transfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onERC20AuthTransfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "checkERC20Transfer",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateRestriction",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "freeze",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "unfreeze",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isFrozen",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateMember",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isMember",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "authTransferTo",
+      "file": "protocol-v3_src_misc_interfaces_IEscrow.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "FREEZE_BIT",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "root",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:74",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:85",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:129",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-v3_src_hooks_FreelyTransferable.sol:153",
+      "file": "protocol-v3_src_hooks_FreelyTransferable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 4,
+    "n_functions": 11,
+    "n_state_vars": 2,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "neg_00032",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

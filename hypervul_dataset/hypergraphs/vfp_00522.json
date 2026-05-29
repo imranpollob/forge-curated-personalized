@@ -1,0 +1,3825 @@
+{
+  "sample_id": "vfp_00522",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 34,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "burn",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 40,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 44,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "makers",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 45,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "referral",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 46,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "owner",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 113,
+      "end_line": 115,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 121,
+      "end_line": 124,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 130,
+      "end_line": 134,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 139,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 143,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 160,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 174,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 187,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 205,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 242,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 281,
+      "end_line": 294,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "name",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 296,
+      "end_line": 298,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 300,
+      "end_line": 302,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 304,
+      "end_line": 306,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 308,
+      "end_line": 310,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 312,
+      "end_line": 318,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 320,
+      "end_line": 326,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 328,
+      "end_line": 334,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "AAVEAutomatorBase.sol",
+      "start_line": 336,
+      "end_line": 341,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "mint",
+      "file": "AutomatorBase.sol",
+      "start_line": 30,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "burn",
+      "file": "AutomatorBase.sol",
+      "start_line": 36,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "AutomatorBase.sol",
+      "start_line": 40,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "makers",
+      "file": "AutomatorBase.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "referral",
+      "file": "AutomatorBase.sol",
+      "start_line": 42,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "AutomatorBase.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "owner",
+      "file": "AutomatorBase.sol",
+      "start_line": 103,
+      "end_line": 105,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "AutomatorBase.sol",
+      "start_line": 111,
+      "end_line": 114,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "AutomatorBase.sol",
+      "start_line": 120,
+      "end_line": 124,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "AutomatorBase.sol",
+      "start_line": 129,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AutomatorBase.sol",
+      "start_line": 133,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AutomatorBase.sol",
+      "start_line": 148,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AutomatorBase.sol",
+      "start_line": 161,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "AutomatorBase.sol",
+      "start_line": 174,
+      "end_line": 189,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "AutomatorBase.sol",
+      "start_line": 191,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "AutomatorBase.sol",
+      "start_line": 228,
+      "end_line": 265,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "AutomatorBase.sol",
+      "start_line": 267,
+      "end_line": 282,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "name",
+      "file": "AutomatorBase.sol",
+      "start_line": 284,
+      "end_line": 286,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "AutomatorBase.sol",
+      "start_line": 288,
+      "end_line": 290,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "AutomatorBase.sol",
+      "start_line": 292,
+      "end_line": 294,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "AutomatorBase.sol",
+      "start_line": 296,
+      "end_line": 298,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "AutomatorBase.sol",
+      "start_line": 300,
+      "end_line": 306,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "AutomatorBase.sol",
+      "start_line": 308,
+      "end_line": 314,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "AutomatorBase.sol",
+      "start_line": 316,
+      "end_line": 322,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "AutomatorBase.sol",
+      "start_line": 324,
+      "end_line": 329,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 35,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 56,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 68,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 80,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 87,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "AutomatorBaseFactory.sol",
+      "start_line": 94,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "AutomatorFactory.sol",
+      "start_line": 35,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "AutomatorFactory.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "AutomatorFactory.sol",
+      "start_line": 56,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "AutomatorFactory.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "AutomatorFactory.sol",
+      "start_line": 68,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "AutomatorFactory.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "AutomatorFactory.sol",
+      "start_line": 80,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "AutomatorFactory.sol",
+      "start_line": 87,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "AutomatorFactory.sol",
+      "start_line": 94,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "mint",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 30,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "burn",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 36,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 40,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "makers",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "referral",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 42,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 49,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 51,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 52,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "approve",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 53,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "owner",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 123,
+      "end_line": 126,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 132,
+      "end_line": 136,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 141,
+      "end_line": 143,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 145,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 161,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 175,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 188,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 205,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 242,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 281,
+      "end_line": 294,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "name",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 296,
+      "end_line": 298,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 300,
+      "end_line": 302,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 304,
+      "end_line": 306,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 308,
+      "end_line": 310,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 312,
+      "end_line": 318,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 320,
+      "end_line": 326,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 328,
+      "end_line": 334,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "CrvUSDAutomatorBase.sol",
+      "start_line": 336,
+      "end_line": 341,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 35,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 56,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 68,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 80,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 87,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "start_line": 94,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "mint",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 16,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "approve",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 19,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 21,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "mint",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 39,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "burn",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 45,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 49,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "makers",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 50,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "referral",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 51,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 52,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "owner",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 114,
+      "end_line": 116,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 122,
+      "end_line": 125,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 131,
+      "end_line": 135,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 140,
+      "end_line": 142,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 144,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 160,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 174,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 187,
+      "end_line": 202,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 204,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 241,
+      "end_line": 278,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 280,
+      "end_line": 293,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "name",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 295,
+      "end_line": 297,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 299,
+      "end_line": 301,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 303,
+      "end_line": 305,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 307,
+      "end_line": 309,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 311,
+      "end_line": 317,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 319,
+      "end_line": 325,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 327,
+      "end_line": 333,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "RCHAutomatorBase.sol",
+      "start_line": 335,
+      "end_line": 340,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 35,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 56,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 68,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 80,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 87,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "RCHAutomatorFactory.sol",
+      "start_line": 94,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "mint",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 30,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "burn",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 36,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 40,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "makers",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "referral",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 42,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "owner",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 103,
+      "end_line": 105,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 111,
+      "end_line": 114,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 120,
+      "end_line": 124,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 129,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 133,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 148,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 159,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 161,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 160,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 174,
+      "end_line": 189,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 161,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 191,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 162,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 228,
+      "end_line": 265,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 163,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 267,
+      "end_line": 282,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 164,
+      "node_type": "function",
+      "name": "name",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 284,
+      "end_line": 286,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 165,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 288,
+      "end_line": 290,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 166,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 292,
+      "end_line": 294,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 167,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 296,
+      "end_line": 298,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 168,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 300,
+      "end_line": 306,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 169,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 308,
+      "end_line": 314,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 170,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 316,
+      "end_line": 322,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 171,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "StETHAutomatorBase.sol",
+      "start_line": 324,
+      "end_line": 329,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 172,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 35,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 173,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 174,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 56,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 175,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 176,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 68,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 177,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 178,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 80,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 179,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 87,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 180,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "StETHAutomatorFactory.sol",
+      "start_line": 94,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "referral",
+      "var_type": "address public",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 10
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "var_type": "address public",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 11
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "automator",
+      "var_type": "address public immutable",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 12
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "vaults",
+      "var_type": "mapping(address => bool) public",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "makers",
+      "var_type": "mapping(address => bool) public",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 14
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "automators",
+      "var_type": "address[] public",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 16
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "credits",
+      "var_type": "mapping(address => uint256) public",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 17
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "var_type": "mapping(address => mapping(address => address)) public",
+      "file": "AutomatorBaseFactory.sol",
+      "line": 18
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "referral",
+      "var_type": "address public",
+      "file": "AutomatorFactory.sol",
+      "line": 10
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "var_type": "address public",
+      "file": "AutomatorFactory.sol",
+      "line": 11
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "automator",
+      "var_type": "address public immutable",
+      "file": "AutomatorFactory.sol",
+      "line": 12
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "vaults",
+      "var_type": "mapping(address => bool) public",
+      "file": "AutomatorFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "makers",
+      "var_type": "mapping(address => bool) public",
+      "file": "AutomatorFactory.sol",
+      "line": 14
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "automators",
+      "var_type": "address[] public",
+      "file": "AutomatorFactory.sol",
+      "line": 16
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "credits",
+      "var_type": "mapping(address => uint256) public",
+      "file": "AutomatorFactory.sol",
+      "line": 17
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "var_type": "mapping(address => mapping(address => address)) public",
+      "file": "AutomatorFactory.sol",
+      "line": 18
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "referral",
+      "var_type": "address public",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 10
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "var_type": "address public",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 11
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "automator",
+      "var_type": "address public immutable",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 12
+    },
+    {
+      "node_id": 200,
+      "node_type": "state_var",
+      "name": "vaults",
+      "var_type": "mapping(address => bool) public",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 201,
+      "node_type": "state_var",
+      "name": "makers",
+      "var_type": "mapping(address => bool) public",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 14
+    },
+    {
+      "node_id": 202,
+      "node_type": "state_var",
+      "name": "automators",
+      "var_type": "address[] public",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 16
+    },
+    {
+      "node_id": 203,
+      "node_type": "state_var",
+      "name": "credits",
+      "var_type": "mapping(address => uint256) public",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 17
+    },
+    {
+      "node_id": 204,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "var_type": "mapping(address => mapping(address => address)) public",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "line": 18
+    },
+    {
+      "node_id": 205,
+      "node_type": "state_var",
+      "name": "referral",
+      "var_type": "address public",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 10
+    },
+    {
+      "node_id": 206,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "var_type": "address public",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 11
+    },
+    {
+      "node_id": 207,
+      "node_type": "state_var",
+      "name": "automator",
+      "var_type": "address public immutable",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 12
+    },
+    {
+      "node_id": 208,
+      "node_type": "state_var",
+      "name": "vaults",
+      "var_type": "mapping(address => bool) public",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 209,
+      "node_type": "state_var",
+      "name": "makers",
+      "var_type": "mapping(address => bool) public",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 14
+    },
+    {
+      "node_id": 210,
+      "node_type": "state_var",
+      "name": "automators",
+      "var_type": "address[] public",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 16
+    },
+    {
+      "node_id": 211,
+      "node_type": "state_var",
+      "name": "credits",
+      "var_type": "mapping(address => uint256) public",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 17
+    },
+    {
+      "node_id": 212,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "var_type": "mapping(address => mapping(address => address)) public",
+      "file": "RCHAutomatorFactory.sol",
+      "line": 18
+    },
+    {
+      "node_id": 213,
+      "node_type": "state_var",
+      "name": "referral",
+      "var_type": "address public",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 10
+    },
+    {
+      "node_id": 214,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "var_type": "address public",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 11
+    },
+    {
+      "node_id": 215,
+      "node_type": "state_var",
+      "name": "automator",
+      "var_type": "address public immutable",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 12
+    },
+    {
+      "node_id": 216,
+      "node_type": "state_var",
+      "name": "vaults",
+      "var_type": "mapping(address => bool) public",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 217,
+      "node_type": "state_var",
+      "name": "makers",
+      "var_type": "mapping(address => bool) public",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 14
+    },
+    {
+      "node_id": 218,
+      "node_type": "state_var",
+      "name": "automators",
+      "var_type": "address[] public",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 16
+    },
+    {
+      "node_id": 219,
+      "node_type": "state_var",
+      "name": "credits",
+      "var_type": "mapping(address => uint256) public",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 17
+    },
+    {
+      "node_id": 220,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "var_type": "mapping(address => mapping(address => address)) public",
+      "file": "StETHAutomatorFactory.sol",
+      "line": 18
+    },
+    {
+      "node_id": 221,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutomatorBaseFactory.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "createAutomator",
+      "file": "AutomatorBaseFactory.sol",
+      "raw_text": "automators.push(_automator);"
+    },
+    {
+      "node_id": 222,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutomatorFactory.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "createAutomator",
+      "file": "AutomatorFactory.sol",
+      "raw_text": "automators.push(_automator);"
+    },
+    {
+      "node_id": 223,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CrvUSDAutomatorFactory.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "createAutomator",
+      "file": "CrvUSDAutomatorFactory.sol",
+      "raw_text": "automators.push(_automator);"
+    },
+    {
+      "node_id": 224,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RCHAutomatorFactory.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "createAutomator",
+      "file": "RCHAutomatorFactory.sol",
+      "raw_text": "automators.push(_automator);"
+    },
+    {
+      "node_id": 225,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StETHAutomatorFactory.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "createAutomator",
+      "file": "StETHAutomatorFactory.sol",
+      "raw_text": "automators.push(_automator);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        50,
+        183,
+        186,
+        187,
+        188,
+        221
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 221
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        50,
+        183,
+        186,
+        187,
+        188,
+        222
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 222
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        50,
+        183,
+        186,
+        187,
+        188,
+        223
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 223
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        50,
+        183,
+        186,
+        187,
+        188,
+        224
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 224
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        50,
+        183,
+        186,
+        187,
+        188,
+        225
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 225
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "burn",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "makers",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "referral",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "owner",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "name",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "AAVEAutomatorBase.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "mint",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "burn",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "makers",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "referral",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "owner",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "name",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "AutomatorBase.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "mint",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "burn",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "makers",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "referral",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "approve",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "owner",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "name",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "CrvUSDAutomatorBase.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "mint",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "approve",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "mint",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "burn",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "makers",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "referral",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "owner",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "name",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "RCHAutomatorBase.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "mint",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "burn",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "vaults",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "makers",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "referral",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "owner",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "_transferOwnership",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "_checkOwner",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 159,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 160,
+      "node_type": "function",
+      "name": "claimRedemptions",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 161,
+      "node_type": "function",
+      "name": "mintProducts",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 162,
+      "node_type": "function",
+      "name": "burnProducts",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 163,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 164,
+      "node_type": "function",
+      "name": "name",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 165,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 166,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 167,
+      "node_type": "function",
+      "name": "getRedemption",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 168,
+      "node_type": "function",
+      "name": "getPricePerShare",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 169,
+      "node_type": "function",
+      "name": "getUnredeemedCollateral",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 170,
+      "node_type": "function",
+      "name": "totalCollateral",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 171,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "StETHAutomatorBase.sol"
+    },
+    {
+      "node_id": 172,
+      "node_type": "function",
+      "name": "createAutomator",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 173,
+      "node_type": "function",
+      "name": "automatorsLength",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 174,
+      "node_type": "function",
+      "name": "setReferral",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 175,
+      "node_type": "function",
+      "name": "setFeeCollector",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 176,
+      "node_type": "function",
+      "name": "topUp",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 177,
+      "node_type": "function",
+      "name": "enableVaults",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 178,
+      "node_type": "function",
+      "name": "disableVaults",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 179,
+      "node_type": "function",
+      "name": "enableMakers",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 180,
+      "node_type": "function",
+      "name": "disableMakers",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "referral",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "automator",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "vaults",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "makers",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "automators",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "credits",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "referral",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "automator",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "vaults",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "makers",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "automators",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "credits",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "referral",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "automator",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 200,
+      "node_type": "state_var",
+      "name": "vaults",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 201,
+      "node_type": "state_var",
+      "name": "makers",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 202,
+      "node_type": "state_var",
+      "name": "automators",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 203,
+      "node_type": "state_var",
+      "name": "credits",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 204,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 205,
+      "node_type": "state_var",
+      "name": "referral",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 206,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 207,
+      "node_type": "state_var",
+      "name": "automator",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 208,
+      "node_type": "state_var",
+      "name": "vaults",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 209,
+      "node_type": "state_var",
+      "name": "makers",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 210,
+      "node_type": "state_var",
+      "name": "automators",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 211,
+      "node_type": "state_var",
+      "name": "credits",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 212,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 213,
+      "node_type": "state_var",
+      "name": "referral",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 214,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 215,
+      "node_type": "state_var",
+      "name": "automator",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 216,
+      "node_type": "state_var",
+      "name": "vaults",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 217,
+      "node_type": "state_var",
+      "name": "makers",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 218,
+      "node_type": "state_var",
+      "name": "automators",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 219,
+      "node_type": "state_var",
+      "name": "credits",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 220,
+      "node_type": "state_var",
+      "name": "getAutomator",
+      "file": "StETHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 221,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutomatorBaseFactory.sol:47",
+      "file": "AutomatorBaseFactory.sol"
+    },
+    {
+      "node_id": 222,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutomatorFactory.sol:47",
+      "file": "AutomatorFactory.sol"
+    },
+    {
+      "node_id": 223,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CrvUSDAutomatorFactory.sol:47",
+      "file": "CrvUSDAutomatorFactory.sol"
+    },
+    {
+      "node_id": 224,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RCHAutomatorFactory.sol:47",
+      "file": "RCHAutomatorFactory.sol"
+    },
+    {
+      "node_id": 225,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StETHAutomatorFactory.sol:47",
+      "file": "StETHAutomatorFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 226,
+    "n_hyperedges": 5,
+    "n_functions": 181,
+    "n_state_vars": 40,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "vfp_00522",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-191",
+      "CWE-20",
+      "CWE-636",
+      "CWE-682",
+      "CWE-703",
+      "CWE-707",
+      "CWE-755"
+    ]
+  }
+}

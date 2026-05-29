@@ -1,0 +1,556 @@
+{
+  "sample_id": "neg_00009",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "agentWallets",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "agentETHBalance",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getAgentTokenBalance",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAgentWallet",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 13,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 14,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawETH",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 15,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 16,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "distributor",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 28,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "distributeTradingProfitsToStakers",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 29,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "deployAgent",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 31,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deployAgentWithETH",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 36,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getTokensReceived",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getSPECAmountForTokens",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "swapExactSPECForTokens",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 45,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "swapExactTokensForSPEC",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 52,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "accumulateSwapFees",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 59,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 61,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "feeWallet",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 64,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "uniswapRouter",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 66,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "uniswapFactory",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 68,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "uniswapV3Router",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 70,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "agentTokenImplementation",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 72,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "spectralToken",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 74,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "agentBalances",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 76,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "agentTokensSold",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 78,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "agentWallets",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 80,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "totalSPECDeposited",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 82,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "agentTokenUniswapPool",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 84,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "isAgentToken",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 86,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "parameters",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol",
+      "start_line": 88,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "agentWallets",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "agentETHBalance",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getAgentTokenBalance",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAgentWallet",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawETH",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAgentBalances.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "distributor",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "distributeTradingProfitsToStakers",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "deployAgent",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deployAgentWithETH",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getTokensReceived",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getSPECAmountForTokens",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "swapExactSPECForTokens",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "swapExactTokensForSPEC",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "accumulateSwapFees",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "feeWallet",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "uniswapRouter",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "uniswapFactory",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "uniswapV3Router",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "agentTokenImplementation",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "spectralToken",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "agentBalances",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "agentTokensSold",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "agentWallets",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "totalSPECDeposited",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "agentTokenUniswapPool",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "isAgentToken",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "parameters",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IAutonomousAgentDeployer.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 31,
+    "n_hyperedges": 0,
+    "n_functions": 31,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00009",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

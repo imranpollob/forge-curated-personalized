@@ -1,0 +1,210 @@
+{
+  "sample_id": "neg_00245",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPeer",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol",
+      "start_line": 47,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setPeer",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol",
+      "start_line": 60,
+      "end_line": 63,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getPeerOrRevert",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol",
+      "start_line": 71,
+      "end_line": 75,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setDelegate",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol",
+      "start_line": 87,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol",
+      "start_line": 10,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol",
+      "start_line": 18,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "burnAndRedeemIfPossible",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol",
+      "start_line": 27,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "burnAndRedeemIfPossible",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol",
+      "start_line": 43,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol",
+      "start_line": 51,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "endpoint",
+      "var_type": "ILayerZeroEndpointV2 public immutable",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol",
+      "line": 16
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "peers",
+      "var_type": "mapping(uint32 eid => bytes32 peer) public",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol",
+      "line": 19
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPeer",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setPeer",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getPeerOrRevert",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setDelegate",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "burnAndRedeemIfPossible",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "burnAndRedeemIfPossible",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_ThunderheadDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "endpoint",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "peers",
+      "file": "cb325156_nucleus-boring-vault_src_base_Roles_CrossChain_OAppAuth_OAppAuthCore.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00245",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

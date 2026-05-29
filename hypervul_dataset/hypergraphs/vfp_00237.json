@@ -1,0 +1,547 @@
+{
+  "sample_id": "vfp_00237",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPriceFeeds",
+      "file": "PriceFeedStore.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isAllowedPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getStalenessPeriod",
+      "file": "PriceFeedStore.sol",
+      "start_line": 65,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAllowanceTimestamp",
+      "file": "PriceFeedStore.sol",
+      "start_line": 70,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getKnownTokens",
+      "file": "PriceFeedStore.sol",
+      "start_line": 75,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getKnownPriceFeeds",
+      "file": "PriceFeedStore.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "start_line": 89,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setStalenessPeriod",
+      "file": "PriceFeedStore.sol",
+      "start_line": 120,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "allowPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "start_line": 141,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "forbidPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "start_line": 157,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "priceFeedInfo",
+      "file": "PriceFeedStore.sol",
+      "start_line": 167,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint256 public constant override",
+      "file": "PriceFeedStore.sol",
+      "line": 26
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "contractType",
+      "var_type": "bytes32 public constant override",
+      "file": "PriceFeedStore.sol",
+      "line": 27
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_knownPriceFeeds",
+      "var_type": "EnumerableSet.AddressSet internal",
+      "file": "PriceFeedStore.sol",
+      "line": 34
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_knownTokens",
+      "var_type": "EnumerableSet.AddressSet internal",
+      "file": "PriceFeedStore.sol",
+      "line": 37
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_allowedPriceFeeds",
+      "var_type": "mapping(address token => EnumerableSet.AddressSet) internal",
+      "file": "PriceFeedStore.sol",
+      "line": 40
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_allowanceTimestamps",
+      "var_type": "mapping(address token => mapping(address priceFeed => uint256))",
+      "file": "PriceFeedStore.sol",
+      "line": 43
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_priceFeedInfo",
+      "var_type": "mapping(address => PriceFeedInfo) internal",
+      "file": "PriceFeedStore.sol",
+      "line": 46
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:76",
+      "call_type": "INTERFACE_CALL",
+      "line": 76,
+      "enclosing_function": "getKnownTokens",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "return _knownTokens.values();"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:80",
+      "call_type": "INTERFACE_CALL",
+      "line": 80,
+      "enclosing_function": "getKnownPriceFeeds",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "return _knownPriceFeeds.values();"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:85",
+      "call_type": "INTERFACE_CALL",
+      "line": 85,
+      "enclosing_function": "addPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "if (_knownPriceFeeds.contains(priceFeed)) revert PriceFeedAlreadyAddedException(priceFeed);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:100",
+      "call_type": "INTERFACE_CALL",
+      "line": 100,
+      "enclosing_function": "addPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "_knownPriceFeeds.add(priceFeed);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:115",
+      "call_type": "INTERFACE_CALL",
+      "line": 115,
+      "enclosing_function": "setStalenessPeriod",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "if (!_knownPriceFeeds.contains(priceFeed)) revert PriceFeedNotKnownException(priceFeed);"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:127",
+      "call_type": "INTERFACE_CALL",
+      "line": 127,
+      "enclosing_function": "allowPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "if (!_knownPriceFeeds.contains(priceFeed)) revert PriceFeedNotKnownException(priceFeed);"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:131",
+      "call_type": "INTERFACE_CALL",
+      "line": 131,
+      "enclosing_function": "allowPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "_knownTokens.add(token);"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:138",
+      "call_type": "INTERFACE_CALL",
+      "line": 138,
+      "enclosing_function": "forbidPriceFeed",
+      "file": "PriceFeedStore.sol",
+      "raw_text": "if (!_knownPriceFeeds.contains(priceFeed)) revert PriceFeedNotKnownException(priceFeed);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        14,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        13,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        6,
+        11,
+        12,
+        13,
+        17,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        6,
+        11,
+        12,
+        13,
+        17,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        7,
+        13,
+        17,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        8,
+        13,
+        14,
+        15,
+        16,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        8,
+        13,
+        14,
+        15,
+        16,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        9,
+        13,
+        15,
+        16,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPriceFeeds",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isAllowedPriceFeed",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getStalenessPeriod",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAllowanceTimestamp",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getKnownTokens",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getKnownPriceFeeds",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addPriceFeed",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setStalenessPeriod",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "allowPriceFeed",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "forbidPriceFeed",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "priceFeedInfo",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "contractType",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_knownPriceFeeds",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_knownTokens",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_allowedPriceFeeds",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_allowanceTimestamps",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_priceFeedInfo",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:76",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:80",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:85",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:100",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:115",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:127",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:131",
+      "file": "PriceFeedStore.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PriceFeedStore.sol:138",
+      "file": "PriceFeedStore.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 8,
+    "n_functions": 11,
+    "n_state_vars": 7,
+    "n_call_sites": 8,
+    "avg_hyperedge_size": 4.875
+  },
+  "label": {
+    "vfp_id": "vfp_00237",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-20",
+      "CWE-691",
+      "CWE-707",
+      "CWE-841"
+    ]
+  }
+}

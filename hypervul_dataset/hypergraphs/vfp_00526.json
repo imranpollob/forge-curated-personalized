@@ -1,0 +1,695 @@
+{
+  "sample_id": "vfp_00526",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getLeverageManagerStorage",
+      "file": "LeverageManager.sol",
+      "start_line": 99,
+      "end_line": 105,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LeverageManager.sol",
+      "start_line": 107,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "LeverageManager.sol",
+      "start_line": 118,
+      "end_line": 118,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "convertCollateralToDebt",
+      "file": "LeverageManager.sol",
+      "start_line": 121,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "convertCollateralToShares",
+      "file": "LeverageManager.sol",
+      "start_line": 134,
+      "end_line": 142,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "convertDebtToCollateral",
+      "file": "LeverageManager.sol",
+      "start_line": 145,
+      "end_line": 167,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "convertSharesToCollateral",
+      "file": "LeverageManager.sol",
+      "start_line": 170,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "convertSharesToDebt",
+      "file": "LeverageManager.sol",
+      "start_line": 182,
+      "end_line": 191,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "LeverageManager.sol",
+      "start_line": 194,
+      "end_line": 208,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "LeverageManager.sol",
+      "start_line": 211,
+      "end_line": 224,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getLeverageTokenFactory",
+      "file": "LeverageManager.sol",
+      "start_line": 227,
+      "end_line": 229,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getLeverageTokenCollateralAsset",
+      "file": "LeverageManager.sol",
+      "start_line": 232,
+      "end_line": 234,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getLeverageTokenDebtAsset",
+      "file": "LeverageManager.sol",
+      "start_line": 237,
+      "end_line": 239,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getLeverageTokenRebalanceAdapter",
+      "file": "LeverageManager.sol",
+      "start_line": 242,
+      "end_line": 248,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getLeverageTokenConfig",
+      "file": "LeverageManager.sol",
+      "start_line": 251,
+      "end_line": 262,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getLeverageTokenLendingAdapter",
+      "file": "LeverageManager.sol",
+      "start_line": 265,
+      "end_line": 267,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getLeverageTokenInitialCollateralRatio",
+      "file": "LeverageManager.sol",
+      "start_line": 270,
+      "end_line": 279,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getLeverageTokenState",
+      "file": "LeverageManager.sol",
+      "start_line": 282,
+      "end_line": 284,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "createNewLeverageToken",
+      "file": "LeverageManager.sol",
+      "start_line": 287,
+      "end_line": 320,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "LeverageManager.sol",
+      "start_line": 323,
+      "end_line": 348,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "LeverageManager.sol",
+      "start_line": 351,
+      "end_line": 381,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "LeverageManager.sol",
+      "start_line": 384,
+      "end_line": 414,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "LeverageManager.sol",
+      "start_line": 417,
+      "end_line": 447,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "LeverageManager.sol",
+      "start_line": 450,
+      "end_line": 469,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "mint",
+      "file": "LeverageManager.sol",
+      "start_line": 472,
+      "end_line": 491,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "LeverageManager.sol",
+      "start_line": 494,
+      "end_line": 528,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "LeverageManager.sol",
+      "start_line": 531,
+      "end_line": 550,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LeverageManager.sol",
+      "start_line": 553,
+      "end_line": 572,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_convertCollateralToDebt",
+      "file": "LeverageManager.sol",
+      "start_line": 582,
+      "end_line": 603,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_convertCollateralToShares",
+      "file": "LeverageManager.sol",
+      "start_line": 612,
+      "end_line": 650,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_convertSharesToCollateral",
+      "file": "LeverageManager.sol",
+      "start_line": 659,
+      "end_line": 690,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_convertSharesToDebt",
+      "file": "LeverageManager.sol",
+      "start_line": 699,
+      "end_line": 730,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_executeLendingAdapterAction",
+      "file": "LeverageManager.sol",
+      "start_line": 736,
+      "end_line": 758,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_getLeverageTokenState",
+      "file": "LeverageManager.sol",
+      "start_line": 763,
+      "end_line": 781,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "LeverageManager.sol",
+      "start_line": 786,
+      "end_line": 807,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_redeem",
+      "file": "LeverageManager.sol",
+      "start_line": 812,
+      "end_line": 831,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_transferTokens",
+      "file": "LeverageManager.sol",
+      "start_line": 838,
+      "end_line": 848,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "BASE_RATIO",
+      "var_type": "uint256 public constant",
+      "file": "LeverageManager.sol",
+      "line": 87
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "LeverageManager.sol",
+      "line": 88
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getLeverageManagerStorage",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "convertCollateralToDebt",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "convertCollateralToShares",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "convertDebtToCollateral",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "convertSharesToCollateral",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "convertSharesToDebt",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getLeverageTokenFactory",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getLeverageTokenCollateralAsset",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getLeverageTokenDebtAsset",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getLeverageTokenRebalanceAdapter",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getLeverageTokenConfig",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getLeverageTokenLendingAdapter",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getLeverageTokenInitialCollateralRatio",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getLeverageTokenState",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "createNewLeverageToken",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "mint",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_convertCollateralToDebt",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_convertCollateralToShares",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_convertSharesToCollateral",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_convertSharesToDebt",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_executeLendingAdapterAction",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_getLeverageTokenState",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_redeem",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_transferTokens",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "BASE_RATIO",
+      "file": "LeverageManager.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "file": "LeverageManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 39,
+    "n_hyperedges": 0,
+    "n_functions": 37,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00526",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-372",
+      "CWE-664",
+      "CWE-710"
+    ]
+  }
+}

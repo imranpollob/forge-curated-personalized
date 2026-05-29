@@ -1,0 +1,1083 @@
+{
+  "sample_id": "neg_00374",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "owner",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 22,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 23,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "renounceOwnership",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 24,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "acceptOwnership",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 25,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pendingOwner",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 26,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "MORPHO",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 33,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "DECIMALS_OFFSET",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "curator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 44,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isAllocator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "guardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 50,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fee",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 53,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "feeRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 56,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "skimRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 59,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "timelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 62,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "supplyQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 66,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "supplyQueueLength",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 69,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "withdrawQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 74,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "withdrawQueueLength",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 77,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "lastTotalAssets",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 80,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "lostAssets",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 85,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "submitTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 90,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "acceptTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 93,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "revokePendingTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 97,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "submitCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 103,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "acceptCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 106,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "revokePendingCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 110,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "submitMarketRemoval",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 118,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "revokePendingMarketRemoval",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 122,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setName",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 125,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setSymbol",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 128,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "submitGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 135,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "acceptGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 138,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "revokePendingGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 141,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "skim",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 144,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setIsAllocator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 147,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setCurator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 150,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setFee",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 153,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 156,
+      "end_line": 156,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 159,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setSupplyQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 164,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "updateWithdrawQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 176,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "reallocate",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 189,
+      "end_line": 189,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "config",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 196,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "pendingGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 199,
+      "end_line": 199,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "pendingCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 202,
+      "end_line": 202,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "pendingTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 205,
+      "end_line": 205,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "config",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 215,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "pendingGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 218,
+      "end_line": 218,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "pendingCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 221,
+      "end_line": 221,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "pendingTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol",
+      "start_line": 224,
+      "end_line": 224,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "canImplementInterfaceForAddress",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "getInterfaceImplementer",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 75,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "setInterfaceImplementer",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 92,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 112,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "getManager",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 121,
+      "end_line": 128,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "interfaceHash",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 133,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "updateERC165Cache",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 143,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "implementsERC165Interface",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 156,
+      "end_line": 161,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "implementsERC165InterfaceNoCache",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 167,
+      "end_line": 186,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "isERC165Interface",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 191,
+      "end_line": 193,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "noThrowCall",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol",
+      "start_line": 196,
+      "end_line": 220,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "owner",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "renounceOwnership",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "acceptOwnership",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pendingOwner",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "MORPHO",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "DECIMALS_OFFSET",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "curator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isAllocator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "guardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fee",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "feeRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "skimRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "timelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "supplyQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "supplyQueueLength",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "withdrawQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "withdrawQueueLength",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "lastTotalAssets",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "lostAssets",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "submitTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "acceptTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "revokePendingTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "submitCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "acceptCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "revokePendingCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "submitMarketRemoval",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "revokePendingMarketRemoval",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setName",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setSymbol",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "submitGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "acceptGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "revokePendingGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "skim",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setIsAllocator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setCurator",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setFee",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setSupplyQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "updateWithdrawQueue",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "reallocate",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "config",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "pendingGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "pendingCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "pendingTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "config",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "pendingGuardian",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "pendingCap",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "pendingTimelock",
+      "file": "contracts-metamorpho-v1.1_src_interfaces_IMetaMorphoV1_1.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "canImplementInterfaceForAddress",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "getInterfaceImplementer",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "setInterfaceImplementer",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "getManager",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "interfaceHash",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "updateERC165Cache",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "implementsERC165Interface",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "implementsERC165InterfaceNoCache",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "isERC165Interface",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "noThrowCall",
+      "file": "contracts-metamorpho-v1.1_src_mocks_ERC1820Registry.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 62,
+    "n_hyperedges": 0,
+    "n_functions": 62,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00374",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

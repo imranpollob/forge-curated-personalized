@@ -1,0 +1,364 @@
+{
+  "sample_id": "vfp_00341",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 11,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "approve",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 13,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "save",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "currentTicks",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 19,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "currentRatePPM",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "INTEREST_DELAY",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 21,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 22,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setDailyLimit",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 116,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "createDeposits",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 126,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "redeemDeposits",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 183,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getDepositDetails",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 222,
+      "end_line": 252,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "addZCHF",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 258,
+      "end_line": 269,
+      "visibility": "public",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "moveZCHF",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 275,
+      "end_line": 281,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "ZCHFSavingsManager.sol",
+      "start_line": 288,
+      "end_line": 300,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "TRANSFER:ZCHFSavingsManager.sol:296",
+      "call_type": "TRANSFER",
+      "line": 296,
+      "enclosing_function": "rescueTokens",
+      "file": "ZCHFSavingsManager.sol",
+      "raw_text": "payable(receiver).transfer(amount);"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "TRANSFER:ZCHFSavingsManager.sol:298",
+      "call_type": "TRANSFER",
+      "line": 298,
+      "enclosing_function": "rescueTokens",
+      "file": "ZCHFSavingsManager.sol",
+      "raw_text": "IERC20(token).transfer(receiver, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        15,
+        16
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        15,
+        17
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 17
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "approve",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "save",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "currentTicks",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "currentRatePPM",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "INTEREST_DELAY",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setDailyLimit",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "createDeposits",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "redeemDeposits",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getDepositDetails",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "addZCHF",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "moveZCHF",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "TRANSFER:ZCHFSavingsManager.sol:296",
+      "file": "ZCHFSavingsManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "TRANSFER:ZCHFSavingsManager.sol:298",
+      "file": "ZCHFSavingsManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 2,
+    "n_functions": 16,
+    "n_state_vars": 0,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00341",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-707"
+    ]
+  }
+}

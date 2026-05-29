@@ -1,0 +1,454 @@
+{
+  "sample_id": "neg_00182",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "blacklist",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol",
+      "start_line": 51,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "blacklistAccounts",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol",
+      "start_line": 59,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unblacklist",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol",
+      "start_line": 67,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "unblacklistAccounts",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol",
+      "start_line": 75,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "BLACKLIST_MANAGER_ROLE",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol",
+      "start_line": 80,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isBlacklisted",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol",
+      "start_line": 87,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimYieldFor",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 81,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimFee",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 89,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setFeeRate",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 97,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 105,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setClaimRecipient",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 114,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "ONE_HUNDRED_PERCENT",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 119,
+      "end_line": 119,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "FEE_MANAGER_ROLE",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 122,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "CLAIM_RECIPIENT_MANAGER_ROLE",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 125,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "accruedYieldOf",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 132,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "earnerRate",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 135,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "balanceWithYieldOf",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 142,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "principalOf",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 149,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "projectedTotalSupply",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 152,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "totalAccruedYield",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 155,
+      "end_line": 155,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "totalAccruedFee",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 158,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "totalPrincipal",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 161,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "feeRate",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 164,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "feeRecipient",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 167,
+      "end_line": 167,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "claimRecipientFor",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol",
+      "start_line": 175,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "blacklist",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "blacklistAccounts",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unblacklist",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "unblacklistAccounts",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "BLACKLIST_MANAGER_ROLE",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isBlacklisted",
+      "file": "evm-m-extensions_src_components_IBlacklistable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimYieldFor",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimFee",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setFeeRate",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setClaimRecipient",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "ONE_HUNDRED_PERCENT",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "FEE_MANAGER_ROLE",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "CLAIM_RECIPIENT_MANAGER_ROLE",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "accruedYieldOf",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "earnerRate",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "balanceWithYieldOf",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "principalOf",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "projectedTotalSupply",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "totalAccruedYield",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "totalAccruedFee",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "totalPrincipal",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "feeRate",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "feeRecipient",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "claimRecipientFor",
+      "file": "evm-m-extensions_src_projects_yieldToAllWithFee_interfaces_IMYieldFee.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 25,
+    "n_hyperedges": 0,
+    "n_functions": 25,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00182",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

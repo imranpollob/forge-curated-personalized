@@ -1,0 +1,80 @@
+{
+  "sample_id": "neg_00147",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "manageRoot",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_interfaces_branch_strategy_manager_IManagerWithMerkleVerification.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setManageRoot",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_interfaces_branch_strategy_manager_IManagerWithMerkleVerification.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "manageVaultWithMerkleVerification",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_interfaces_branch_strategy_manager_IManagerWithMerkleVerification.sol",
+      "start_line": 19,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "manageRoot",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_interfaces_branch_strategy_manager_IManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setManageRoot",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_interfaces_branch_strategy_manager_IManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "manageVaultWithMerkleVerification",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_interfaces_branch_strategy_manager_IManagerWithMerkleVerification.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00147",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

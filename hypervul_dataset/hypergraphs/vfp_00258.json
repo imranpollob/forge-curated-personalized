@@ -1,0 +1,1905 @@
+{
+  "sample_id": "vfp_00258",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "loadAndValidate",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 47,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "version",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchIndex",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 71,
+      "end_line": 75,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "l1RollingHash",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 80,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "dataHash",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 89,
+      "end_line": 93,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "parentBatchHash",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 98,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "storeVersion",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 107,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "storeBatchIndex",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 118,
+      "end_line": 122,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "storeL1RollingHash",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 129,
+      "end_line": 133,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "storeDataHash",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 138,
+      "end_line": 142,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "storeParentBatchHash",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 147,
+      "end_line": 151,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "computeBatchHash",
+      "file": "BatchHeaderCodec.sol",
+      "start_line": 159,
+      "end_line": 164,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "relayMsgWithProof",
+      "file": "IL1BridgeProof.sol",
+      "start_line": 7,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setTokenMapping",
+      "file": "ITokenBridge.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setTokenMapping",
+      "file": "L1ERC20Bridge.sol",
+      "start_line": 21,
+      "end_line": 29,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "L1ERC20Bridge.sol",
+      "start_line": 31,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "finalizeWithdraw",
+      "file": "L1ERC20Bridge.sol",
+      "start_line": 48,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_transferERC20",
+      "file": "L1ERC20Bridge.sol",
+      "start_line": 59,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "L1ETHBridge.sol",
+      "start_line": 16,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "finalizeWithdraw",
+      "file": "L1ETHBridge.sol",
+      "start_line": 29,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L1Mailbox.sol",
+      "start_line": 65,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setRollup",
+      "file": "L1Mailbox.sol",
+      "start_line": 82,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setWithdrawer",
+      "file": "L1Mailbox.sol",
+      "start_line": 87,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "sendMsg",
+      "file": "L1Mailbox.sol",
+      "start_line": 92,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "relayMsgWithProof",
+      "file": "L1Mailbox.sol",
+      "start_line": 139,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "withdrawDepositFee",
+      "file": "L1Mailbox.sol",
+      "start_line": 162,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setL2GasLimit",
+      "file": "L1Mailbox.sol",
+      "start_line": 173,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "setL2FinalizeDepositGasUsed",
+      "file": "L1Mailbox.sol",
+      "start_line": 185,
+      "end_line": 192,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "nextMsgIndex",
+      "file": "L1Mailbox.sol",
+      "start_line": 197,
+      "end_line": 199,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getMsg",
+      "file": "L1Mailbox.sol",
+      "start_line": 204,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setLastQueueIndex",
+      "file": "L1Mailbox.sol",
+      "start_line": 220,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_appendMsg",
+      "file": "L1Mailbox.sol",
+      "start_line": 227,
+      "end_line": 231,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "popMsgs",
+      "file": "L1Mailbox.sol",
+      "start_line": 236,
+      "end_line": 246,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setTokenMapping",
+      "file": "L2ERC20Bridge.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "L2ERC20Bridge.sol",
+      "start_line": 28,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "finalizeDeposit",
+      "file": "L2ERC20Bridge.sol",
+      "start_line": 63,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L2Mailbox.sol",
+      "start_line": 25,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setL1MailBox",
+      "file": "L2Mailbox.sol",
+      "start_line": 38,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "sendMsg",
+      "file": "L2Mailbox.sol",
+      "start_line": 43,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "relayMsg",
+      "file": "L2Mailbox.sol",
+      "start_line": 85,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "claimAmount",
+      "file": "L2Mailbox.sol",
+      "start_line": 110,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_appendMsg",
+      "file": "L2Mailbox.sol",
+      "start_line": 127,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "msgRoot",
+      "file": "L2Mailbox.sol",
+      "start_line": 133,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_receiveMsgFailed",
+      "file": "L2Mailbox.sol",
+      "start_line": 137,
+      "end_line": 139,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_receiveMsgSuccess",
+      "file": "L2Mailbox.sol",
+      "start_line": 141,
+      "end_line": 143,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_checkMsgClaimValid",
+      "file": "L2Mailbox.sol",
+      "start_line": 145,
+      "end_line": 148,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_finalizeClaimMsg",
+      "file": "L2Mailbox.sol",
+      "start_line": 150,
+      "end_line": 154,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Rollup.sol",
+      "start_line": 88,
+      "end_line": 114,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "importGenesisBatch",
+      "file": "Rollup.sol",
+      "start_line": 122,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "commitBatch",
+      "file": "Rollup.sol",
+      "start_line": 151,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "verifyBatch",
+      "file": "Rollup.sol",
+      "start_line": 187,
+      "end_line": 230,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "revertBatches",
+      "file": "Rollup.sol",
+      "start_line": 236,
+      "end_line": 247,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "getL2MsgRoot",
+      "file": "Rollup.sol",
+      "start_line": 249,
+      "end_line": 251,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_getBlobDataHash",
+      "file": "Rollup.sol",
+      "start_line": 253,
+      "end_line": 271,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_loadBatchHeader",
+      "file": "Rollup.sol",
+      "start_line": 279,
+      "end_line": 289,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_verifyTeeProof",
+      "file": "Rollup.sol",
+      "start_line": 291,
+      "end_line": 297,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "addRelayer",
+      "file": "Rollup.sol",
+      "start_line": 305,
+      "end_line": 311,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "removeRelayer",
+      "file": "Rollup.sol",
+      "start_line": 315,
+      "end_line": 317,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "Rollup.sol",
+      "start_line": 321,
+      "end_line": 327,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "setMaxTxsInChunk",
+      "file": "Rollup.sol",
+      "start_line": 331,
+      "end_line": 333,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "setMaxBlockInChunk",
+      "file": "Rollup.sol",
+      "start_line": 337,
+      "end_line": 339,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "setMaxCallDataInChunk",
+      "file": "Rollup.sol",
+      "start_line": 343,
+      "end_line": 345,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "setL1BlobNumberLimit",
+      "file": "Rollup.sol",
+      "start_line": 349,
+      "end_line": 351,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "setRollupTimeLimit",
+      "file": "Rollup.sol",
+      "start_line": 355,
+      "end_line": 357,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "setL2ChainId",
+      "file": "Rollup.sol",
+      "start_line": 361,
+      "end_line": 363,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "setTeeVerifierAddress",
+      "file": "Rollup.sol",
+      "start_line": 367,
+      "end_line": 370,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "setZkVerifierAddress",
+      "file": "Rollup.sol",
+      "start_line": 374,
+      "end_line": 377,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "BATCH_HEADER_FIXED_LENGTH",
+      "var_type": "uint256 internal constant",
+      "file": "BatchHeaderCodec.sol",
+      "line": 41
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "balance",
+      "var_type": "uint256 public",
+      "file": "L1ETHBridge.sol",
+      "line": 14
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "msgQueue",
+      "var_type": "DoubleEndedQueue.Bytes32Deque private",
+      "file": "L1Mailbox.sol",
+      "line": 21
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "stableRollingHash",
+      "var_type": "bytes32 public",
+      "file": "L1Mailbox.sol",
+      "line": 23
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "pendingQueueIndex",
+      "var_type": "uint256 public",
+      "file": "L1Mailbox.sol",
+      "line": 26
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "nextFinalizeQueueIndex",
+      "var_type": "uint256 public",
+      "file": "L1Mailbox.sol",
+      "line": 29
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "rollup",
+      "var_type": "address public",
+      "file": "L1Mailbox.sol",
+      "line": 32
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "l2GasLimit",
+      "var_type": "uint256 public",
+      "file": "L1Mailbox.sol",
+      "line": 35
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "feeBalance",
+      "var_type": "uint256 public",
+      "file": "L1Mailbox.sol",
+      "line": 37
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "withdrawer",
+      "var_type": "address public",
+      "file": "L1Mailbox.sol",
+      "line": 39
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "l2FinalizeDepositGasUsed",
+      "var_type": "uint256 public",
+      "file": "L1Mailbox.sol",
+      "line": 41
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "lastestQueueIndex",
+      "var_type": "uint256 public",
+      "file": "L1Mailbox.sol",
+      "line": 43
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "l1MailBox",
+      "var_type": "address public",
+      "file": "L2Mailbox.sol",
+      "line": 11
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "receiveMsgStatus",
+      "var_type": "mapping(bytes32 => bool) public",
+      "file": "L2Mailbox.sol",
+      "line": 13
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "maxTxsInChunk",
+      "var_type": "uint32 public",
+      "file": "Rollup.sol",
+      "line": 20
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "maxBlockInChunk",
+      "var_type": "uint32 public",
+      "file": "Rollup.sol",
+      "line": 23
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "maxCallDataInChunk",
+      "var_type": "uint32 public",
+      "file": "Rollup.sol",
+      "line": 26
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "maxZkCircleInChunk",
+      "var_type": "uint32 public",
+      "file": "Rollup.sol",
+      "line": 29
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "l1BlobNumberLimit",
+      "var_type": "uint32 public",
+      "file": "Rollup.sol",
+      "line": 32
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "rollupTimeLimit",
+      "var_type": "uint64 public",
+      "file": "Rollup.sol",
+      "line": 35
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "layer2ChainId",
+      "var_type": "uint64 public",
+      "file": "Rollup.sol",
+      "line": 38
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "lastCommittedBatch",
+      "var_type": "uint256 public",
+      "file": "Rollup.sol",
+      "line": 41
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "lastZkVerifiedBatch",
+      "var_type": "uint256 public",
+      "file": "Rollup.sol",
+      "line": 44
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "lastTeeVerifiedBatch",
+      "var_type": "uint256 public",
+      "file": "Rollup.sol",
+      "line": 47
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "committedBatches",
+      "var_type": "mapping(uint256 => bytes32) public",
+      "file": "Rollup.sol",
+      "line": 50
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "finalizedStateRoots",
+      "var_type": "mapping(uint256 => bytes32) public",
+      "file": "Rollup.sol",
+      "line": 53
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "l2MsgRoots",
+      "var_type": "mapping(uint256 => bytes32) public",
+      "file": "Rollup.sol",
+      "line": 56
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "l1MsgCount",
+      "var_type": "mapping(uint256 => uint256) public",
+      "file": "Rollup.sol",
+      "line": 59
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "zk_verifier",
+      "var_type": "address public",
+      "file": "Rollup.sol",
+      "line": 61
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "tee_verifier",
+      "var_type": "address public",
+      "file": "Rollup.sol",
+      "line": 62
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "l1_mail_box",
+      "var_type": "address public",
+      "file": "Rollup.sol",
+      "line": 63
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "isRelayer",
+      "var_type": "mapping(address => bool) public",
+      "file": "Rollup.sol",
+      "line": 66
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "CALL:L1ETHBridge.sol:36",
+      "call_type": "CALL",
+      "line": 36,
+      "enclosing_function": "finalizeWithdraw",
+      "file": "L1ETHBridge.sol",
+      "raw_text": "(bool success_, ) = to_.call{value: amount_}(\"\");"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "CALL:L1Mailbox.sol:117",
+      "call_type": "CALL",
+      "line": 117,
+      "enclosing_function": "sendMsg",
+      "file": "L1Mailbox.sol",
+      "raw_text": "(bool success_,) = refundAddress_.call{value : refund_}(\"\");"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "CALL:L1Mailbox.sol:142",
+      "call_type": "CALL",
+      "line": 142,
+      "enclosing_function": "relayMsgWithProof",
+      "file": "L1Mailbox.sol",
+      "raw_text": "(bool success,) = target_.call{value : value_}(msg_);"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "CALL:L1Mailbox.sol:152",
+      "call_type": "CALL",
+      "line": 152,
+      "enclosing_function": "withdrawDepositFee",
+      "file": "L1Mailbox.sol",
+      "raw_text": "(bool success,) = _target.call{value : _amount}(\"\");"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L1Mailbox.sol:192",
+      "call_type": "INTERFACE_CALL",
+      "line": 192,
+      "enclosing_function": "getMsg",
+      "file": "L1Mailbox.sol",
+      "raw_text": "return msgQueue.at(_l1MsgCount - lastestQueueIndex - 1);"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L1Mailbox.sol:202",
+      "call_type": "INTERFACE_CALL",
+      "line": 202,
+      "enclosing_function": "_appendMsg",
+      "file": "L1Mailbox.sol",
+      "raw_text": "msgQueue.pushBack(msg_);"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "CALL:L2Mailbox.sol:66",
+      "call_type": "CALL",
+      "line": 66,
+      "enclosing_function": "sendMsg",
+      "file": "L2Mailbox.sol",
+      "raw_text": "(bool success_,) = refundAddress_.call{value : refund_}(\"\");"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "CALL:L2Mailbox.sol:87",
+      "call_type": "CALL",
+      "line": 87,
+      "enclosing_function": "relayMsg",
+      "file": "L2Mailbox.sol",
+      "raw_text": "(bool success,) = target_.call{value : value_}(msg_);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "CALL:L2Mailbox.sol:105",
+      "call_type": "CALL",
+      "line": 105,
+      "enclosing_function": "claimAmount",
+      "file": "L2Mailbox.sol",
+      "raw_text": "(bool success,) = refundAddress_.call{value : amount_}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        16,
+        68,
+        99
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 99
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        23,
+        74,
+        75,
+        77,
+        100
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 100
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        12,
+        73,
+        101
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 101
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        25,
+        75,
+        102
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        29,
+        69,
+        70,
+        71,
+        78,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        23,
+        31,
+        69,
+        71,
+        74,
+        75,
+        77,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        23,
+        74,
+        75,
+        77,
+        105
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        39,
+        79,
+        106
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        40,
+        107
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 107
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "loadAndValidate",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "version",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchIndex",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "l1RollingHash",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "dataHash",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "parentBatchHash",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "storeVersion",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "storeBatchIndex",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "storeL1RollingHash",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "storeDataHash",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "storeParentBatchHash",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "computeBatchHash",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "relayMsgWithProof",
+      "file": "IL1BridgeProof.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setTokenMapping",
+      "file": "ITokenBridge.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setTokenMapping",
+      "file": "L1ERC20Bridge.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "L1ERC20Bridge.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "finalizeWithdraw",
+      "file": "L1ERC20Bridge.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_transferERC20",
+      "file": "L1ERC20Bridge.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "L1ETHBridge.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "finalizeWithdraw",
+      "file": "L1ETHBridge.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setRollup",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setWithdrawer",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "sendMsg",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "relayMsgWithProof",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "withdrawDepositFee",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setL2GasLimit",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "setL2FinalizeDepositGasUsed",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "nextMsgIndex",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getMsg",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setLastQueueIndex",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_appendMsg",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "popMsgs",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setTokenMapping",
+      "file": "L2ERC20Bridge.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "L2ERC20Bridge.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "finalizeDeposit",
+      "file": "L2ERC20Bridge.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setL1MailBox",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "sendMsg",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "relayMsg",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "claimAmount",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_appendMsg",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "msgRoot",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_receiveMsgFailed",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_receiveMsgSuccess",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_checkMsgClaimValid",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_finalizeClaimMsg",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "importGenesisBatch",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "commitBatch",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "verifyBatch",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "revertBatches",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "getL2MsgRoot",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_getBlobDataHash",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_loadBatchHeader",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_verifyTeeProof",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "addRelayer",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "removeRelayer",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "setMaxTxsInChunk",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "setMaxBlockInChunk",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "setMaxCallDataInChunk",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "setL1BlobNumberLimit",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "setRollupTimeLimit",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "setL2ChainId",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "setTeeVerifierAddress",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "setZkVerifierAddress",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "BATCH_HEADER_FIXED_LENGTH",
+      "file": "BatchHeaderCodec.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "balance",
+      "file": "L1ETHBridge.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "msgQueue",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "stableRollingHash",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "pendingQueueIndex",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "nextFinalizeQueueIndex",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "rollup",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "l2GasLimit",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "feeBalance",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "withdrawer",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "l2FinalizeDepositGasUsed",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "lastestQueueIndex",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "l1MailBox",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "receiveMsgStatus",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "maxTxsInChunk",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "maxBlockInChunk",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "maxCallDataInChunk",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "maxZkCircleInChunk",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "l1BlobNumberLimit",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "rollupTimeLimit",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "layer2ChainId",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "lastCommittedBatch",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "lastZkVerifiedBatch",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "lastTeeVerifiedBatch",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "committedBatches",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "finalizedStateRoots",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "l2MsgRoots",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "l1MsgCount",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "zk_verifier",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "tee_verifier",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "l1_mail_box",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "isRelayer",
+      "file": "Rollup.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "CALL:L1ETHBridge.sol:36",
+      "file": "L1ETHBridge.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "CALL:L1Mailbox.sol:117",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "CALL:L1Mailbox.sol:142",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "CALL:L1Mailbox.sol:152",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L1Mailbox.sol:192",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L1Mailbox.sol:202",
+      "file": "L1Mailbox.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "CALL:L2Mailbox.sol:66",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "CALL:L2Mailbox.sol:87",
+      "file": "L2Mailbox.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "CALL:L2Mailbox.sol:105",
+      "file": "L2Mailbox.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 108,
+    "n_hyperedges": 9,
+    "n_functions": 67,
+    "n_state_vars": 32,
+    "n_call_sites": 9,
+    "avg_hyperedge_size": 4.222222222222222
+  },
+  "label": {
+    "vfp_id": "vfp_00258",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1059",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-115",
+      "CWE-1164",
+      "CWE-1283",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-1288",
+      "CWE-1293",
+      "CWE-20",
+      "CWE-284",
+      "CWE-285",
+      "CWE-345",
+      "CWE-390",
+      "CWE-400",
+      "CWE-405",
+      "CWE-408",
+      "CWE-435",
+      "CWE-436",
+      "CWE-563",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-755",
+      "CWE-758",
+      "CWE-841",
+      "CWE-863"
+    ]
+  }
+}

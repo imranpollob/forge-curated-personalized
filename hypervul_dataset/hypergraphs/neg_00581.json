@@ -1,0 +1,256 @@
+{
+  "sample_id": "neg_00581",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "start_line": 75,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "start_line": 131,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMaxPaidTransactionsPerAccount",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "start_line": 142,
+      "end_line": 145,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMaxSponsoredEth",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "start_line": 149,
+      "end_line": 152,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "start_line": 157,
+      "end_line": 169,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "zkMerkleDistributor",
+      "var_type": "IZkMerkleDistributor public",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "line": 35
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "CACHED_MERKLE_ROOT",
+      "var_type": "bytes32 public",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "line": 38
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "paidTransactionCount",
+      "var_type": "mapping(address account => uint256 count) public",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "line": 41
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "maxPaidTransactionsPerAccount",
+      "var_type": "uint256 public",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "line": 44
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "maxSponsoredEth",
+      "var_type": "uint256 public",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "line": 47
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:zk-governance_contracts_AADistributorPaymaster.sol:66",
+      "call_type": "INTERFACE_CALL",
+      "line": 66,
+      "enclosing_function": "",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "raw_text": "CACHED_MERKLE_ROOT = zkMerkleDistributor.MERKLE_ROOT();"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "CALL:zk-governance_contracts_AADistributorPaymaster.sol:124",
+      "call_type": "CALL",
+      "line": 124,
+      "enclosing_function": "validateAndPayForPaymasterTransaction",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "raw_text": "(bool success,) = payable(BOOTLOADER_FORMAL_ADDRESS).call{value: requiredETH}(\"\");"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "CALL:zk-governance_contracts_AADistributorPaymaster.sol:161",
+      "call_type": "CALL",
+      "line": 161,
+      "enclosing_function": "withdraw",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol",
+      "raw_text": "(bool success,) = _to.call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        12
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMaxPaidTransactionsPerAccount",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMaxSponsoredEth",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "zkMerkleDistributor",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "CACHED_MERKLE_ROOT",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "paidTransactionCount",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "maxPaidTransactionsPerAccount",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "maxSponsoredEth",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:zk-governance_contracts_AADistributorPaymaster.sol:66",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "CALL:zk-governance_contracts_AADistributorPaymaster.sol:124",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "CALL:zk-governance_contracts_AADistributorPaymaster.sol:161",
+      "file": "zk-governance_contracts_AADistributorPaymaster.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 2,
+    "n_functions": 5,
+    "n_state_vars": 5,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 4.5
+  },
+  "label": {
+    "vfp_id": "neg_00581",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

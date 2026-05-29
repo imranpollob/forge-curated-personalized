@@ -1,0 +1,376 @@
+{
+  "sample_id": "vfp_00412",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_isCCTPEnabled",
+      "file": "CircleCCTPAdapter.sol",
+      "start_line": 93,
+      "end_line": 95,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_transferUsdc",
+      "file": "CircleCCTPAdapter.sol",
+      "start_line": 103,
+      "end_line": 105,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_transferUsdc",
+      "file": "CircleCCTPAdapter.sol",
+      "start_line": 113,
+      "end_line": 144,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "Ethereum",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 10
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "Optimism",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 11
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "Arbitrum",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 12
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "Solana",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 13
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "Base",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 14
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "Polygon",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 15
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "DoctorWho",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 16
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "Linea",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "UNINITIALIZED",
+      "var_type": "uint32 public constant",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "recipientCircleDomainId",
+      "var_type": "uint32 public immutable",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 38
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "usdcToken",
+      "var_type": "IERC20 public immutable",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 45
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "cctpTokenMessenger",
+      "var_type": "ITokenMessenger public immutable",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 52
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "cctpV2",
+      "var_type": "bool public immutable",
+      "file": "CircleCCTPAdapter.sol",
+      "line": 59
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "STATICCALL:CircleCCTPAdapter.sol:61",
+      "call_type": "STATICCALL",
+      "line": 61,
+      "enclosing_function": "",
+      "file": "CircleCCTPAdapter.sol",
+      "raw_text": "(bool success, bytes memory feeRecipient) = address(cctpTokenMessenger).staticcall("
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CircleCCTPAdapter.sol:80",
+      "call_type": "INTERFACE_CALL",
+      "line": 80,
+      "enclosing_function": "_transferUsdc",
+      "file": "CircleCCTPAdapter.sol",
+      "raw_text": "usdcToken.safeIncreaseAllowance(address(cctpTokenMessenger), amount);"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CircleCCTPAdapter.sol:83",
+      "call_type": "INTERFACE_CALL",
+      "line": 83,
+      "enclosing_function": "_transferUsdc",
+      "file": "CircleCCTPAdapter.sol",
+      "raw_text": "ITokenMinter cctpMinter = cctpTokenMessenger.localMinter();"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CircleCCTPAdapter.sol:105",
+      "call_type": "INTERFACE_CALL",
+      "line": 105,
+      "enclosing_function": "_transferUsdc",
+      "file": "CircleCCTPAdapter.sol",
+      "raw_text": "cctpTokenMessenger.depositForBurn(partAmount, recipientCircleDomainId, to, address(usdcToken));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_isCCTPEnabled",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_transferUsdc",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_transferUsdc",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "Ethereum",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "Optimism",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "Arbitrum",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "Solana",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "Base",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "Polygon",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "DoctorWho",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "Linea",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "UNINITIALIZED",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "recipientCircleDomainId",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "usdcToken",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "cctpTokenMessenger",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "cctpV2",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "STATICCALL:CircleCCTPAdapter.sol:61",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CircleCCTPAdapter.sol:80",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CircleCCTPAdapter.sol:83",
+      "file": "CircleCCTPAdapter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CircleCCTPAdapter.sol:105",
+      "file": "CircleCCTPAdapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 3,
+    "n_functions": 3,
+    "n_state_vars": 13,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "vfp_00412",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

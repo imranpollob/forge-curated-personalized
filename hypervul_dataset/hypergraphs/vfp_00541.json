@@ -1,0 +1,172 @@
+{
+  "sample_id": "vfp_00541",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 21,
+      "end_line": 37,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "owner",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 39,
+      "end_line": 41,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "clock",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 43,
+      "end_line": 45,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 47,
+      "end_line": 51,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getVotingUnits",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 53,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_stake",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 60,
+      "end_line": 71,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_requestUnstake",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 74,
+      "end_line": 81,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_claimUnstake",
+      "file": "ValidatorStakingGovMITO.sol",
+      "start_line": 84,
+      "end_line": 91,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ValidatorStakingGovMITO.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "owner",
+      "file": "ValidatorStakingGovMITO.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "clock",
+      "file": "ValidatorStakingGovMITO.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "ValidatorStakingGovMITO.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getVotingUnits",
+      "file": "ValidatorStakingGovMITO.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_stake",
+      "file": "ValidatorStakingGovMITO.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_requestUnstake",
+      "file": "ValidatorStakingGovMITO.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_claimUnstake",
+      "file": "ValidatorStakingGovMITO.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00541",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-691"
+    ]
+  }
+}

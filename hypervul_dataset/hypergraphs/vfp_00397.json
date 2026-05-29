@@ -1,0 +1,231 @@
+{
+  "sample_id": "vfp_00397",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "nativeToken",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 32,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bridge",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 45,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createRetryableTicket",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 65,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "outboundTransferCustomRefund",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 100,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getGateway",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 115,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 195,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 221,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getL1CallValue",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 280,
+      "end_line": 282,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_pullCustomGas",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol",
+      "start_line": 284,
+      "end_line": 289,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Arbitrum_CustomGasToken_Funder.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "nativeToken",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bridge",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createRetryableTicket",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "outboundTransferCustomRefund",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getGateway",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getL1CallValue",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_pullCustomGas",
+      "file": "Arbitrum_CustomGasToken_Adapter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Arbitrum_CustomGasToken_Funder.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 11,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00397",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1357",
+      "CWE-20",
+      "CWE-477",
+      "CWE-682",
+      "CWE-707",
+      "CWE-710",
+      "CWE-758"
+    ]
+  }
+}

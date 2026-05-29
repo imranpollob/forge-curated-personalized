@@ -1,0 +1,383 @@
+{
+  "sample_id": "vfp_00477",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claims",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 132,
+      "end_line": 139,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "forwardExpiredRewards",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 143,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getExpiredEpochRewards",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 163,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateMerkleDrop",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 180,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "emergencyRescue",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 192,
+      "end_line": 195,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateExpiredRewardsRecipient",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 199,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pause",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 207,
+      "end_line": 209,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 213,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 225,
+      "end_line": 245,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getEpochExpiredRewards",
+      "file": "RewardMerkleDistributor.sol",
+      "start_line": 247,
+      "end_line": 251,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "EPOCH_LENGTH",
+      "var_type": "uint64 public constant",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 37
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "TOKEN",
+      "var_type": "IERC20 public immutable",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 39
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "expiredRewardsRecipient",
+      "var_type": "address public",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 41
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "totalClaimed",
+      "var_type": "uint256 public",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 43
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "merkleDrops",
+      "var_type": "mapping(uint64 epochId => MerkleDrop merkleDrop) public",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 45
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "hasClaimed",
+      "var_type": "mapping(address account => mapping(uint64 epochId => bool hasClaimed)) public",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 47
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "totalClaimedPerUser",
+      "var_type": "mapping(address account => uint256 totalClaimed) public",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 49
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "totalClaimedPerEpoch",
+      "var_type": "mapping(uint64 epochId => uint256 totalClaimed) public",
+      "file": "RewardMerkleDistributor.sol",
+      "line": 51
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RewardMerkleDistributor.sol:157",
+      "call_type": "INTERFACE_CALL",
+      "line": 157,
+      "enclosing_function": "forwardExpiredRewards",
+      "file": "RewardMerkleDistributor.sol",
+      "raw_text": "TOKEN.safeTransfer(expiredRewardsRecipient, totalExpiredRewards);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RewardMerkleDistributor.sol:244",
+      "call_type": "INTERFACE_CALL",
+      "line": 244,
+      "enclosing_function": "_claim",
+      "file": "RewardMerkleDistributor.sol",
+      "raw_text": "TOKEN.safeTransfer(_account, _amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        11,
+        12,
+        13,
+        17,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        8,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claims",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "forwardExpiredRewards",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getExpiredEpochRewards",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateMerkleDrop",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "emergencyRescue",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateExpiredRewardsRecipient",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pause",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getEpochExpiredRewards",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "EPOCH_LENGTH",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "TOKEN",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "expiredRewardsRecipient",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "totalClaimed",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "merkleDrops",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "hasClaimed",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "totalClaimedPerUser",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "totalClaimedPerEpoch",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RewardMerkleDistributor.sol:157",
+      "file": "RewardMerkleDistributor.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RewardMerkleDistributor.sol:244",
+      "file": "RewardMerkleDistributor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 2,
+    "n_functions": 10,
+    "n_state_vars": 8,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 7.5
+  },
+  "label": {
+    "vfp_id": "vfp_00477",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-358",
+      "CWE-691",
+      "CWE-693",
+      "CWE-799",
+      "CWE-837"
+    ]
+  }
+}

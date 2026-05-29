@@ -1,0 +1,327 @@
+{
+  "sample_id": "neg_00113",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 14,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 16,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 22,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 24,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 26,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTokenBal",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 45,
+      "end_line": 47,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTokensDec",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 56,
+      "end_line": 63,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "approve",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 76,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "changeEthAddress",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 98,
+      "end_line": 105,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "convertEthToWeth",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 113,
+      "end_line": 115,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "convertWethToEth",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 123,
+      "end_line": 128,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "safeTransfer",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 137,
+      "end_line": 147,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "safeTransferFrom",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "start_line": 157,
+      "end_line": 165,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "CALL:v3-sandbox-audit_1_src_libraries_TokenHelper.sol:90",
+      "call_type": "CALL",
+      "line": 90,
+      "enclosing_function": "safeTransfer",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol",
+      "raw_text": "(bool success,) = to.call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        14,
+        16
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTokenBal",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTokensDec",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "approve",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "changeEthAddress",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "convertEthToWeth",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "convertWethToEth",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "safeTransfer",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "safeTransferFrom",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "CALL:v3-sandbox-audit_1_src_libraries_TokenHelper.sol:90",
+      "file": "v3-sandbox-audit_1_src_libraries_TokenHelper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 1,
+    "n_functions": 16,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00113",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

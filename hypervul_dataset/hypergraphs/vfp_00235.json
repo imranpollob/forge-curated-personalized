@@ -1,0 +1,218 @@
+{
+  "sample_id": "vfp_00235",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setDelay",
+      "file": "TimeLock.sol",
+      "start_line": 37,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "queueTransaction",
+      "file": "TimeLock.sol",
+      "start_line": 44,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "cancelTransaction",
+      "file": "TimeLock.sol",
+      "start_line": 58,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "TimeLock.sol",
+      "start_line": 68,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "GRACE_PERIOD",
+      "var_type": "uint256 public constant override",
+      "file": "TimeLock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "MINIMUM_DELAY",
+      "var_type": "uint256 public constant override",
+      "file": "TimeLock.sol",
+      "line": 10
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MAXIMUM_DELAY",
+      "var_type": "uint256 public constant override",
+      "file": "TimeLock.sol",
+      "line": 11
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "admin",
+      "var_type": "address public immutable override",
+      "file": "TimeLock.sol",
+      "line": 13
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "delay",
+      "var_type": "uint256 public override",
+      "file": "TimeLock.sol",
+      "line": 14
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "queuedTransactions",
+      "var_type": "mapping(bytes32 txHash => bool) public override",
+      "file": "TimeLock.sol",
+      "line": 16
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "CALL:TimeLock.sol:89",
+      "call_type": "CALL",
+      "line": 89,
+      "enclosing_function": "executeTransaction",
+      "file": "TimeLock.sol",
+      "raw_text": "(bool success, bytes memory returnData) = target.call{value: value}(callData);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setDelay",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "queueTransaction",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "cancelTransaction",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "GRACE_PERIOD",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "MINIMUM_DELAY",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MAXIMUM_DELAY",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "admin",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "delay",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "queuedTransactions",
+      "file": "TimeLock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "CALL:TimeLock.sol:89",
+      "file": "TimeLock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 1,
+    "n_functions": 4,
+    "n_state_vars": 6,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00235",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-691",
+      "CWE-697",
+      "CWE-841"
+    ]
+  }
+}

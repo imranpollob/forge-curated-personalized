@@ -1,0 +1,844 @@
+{
+  "sample_id": "vfp_00595",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getUserClaimedAmount",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol",
+      "start_line": 17,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verify",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol",
+      "start_line": 33,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol",
+      "start_line": 89,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_safeTransferETH",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol",
+      "start_line": 146,
+      "end_line": 149,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_safeTransferERC20",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol",
+      "start_line": 159,
+      "end_line": 165,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol",
+      "start_line": 23,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "depositMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol",
+      "start_line": 64,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol",
+      "start_line": 83,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "createCurve",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 28,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "protectBuy",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 49,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "protectSell",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 66,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "createCurve",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 130,
+      "end_line": 136,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "protectBuy",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 145,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "protectSell",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 184,
+      "end_line": 209,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_createCurveWithFee",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 220,
+      "end_line": 232,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_encodeCreateCurveEvent",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 245,
+      "end_line": 264,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_calculateFeeAmount",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 273,
+      "end_line": 276,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_safeApprove",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "start_line": 285,
+      "end_line": 293,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "buy",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-swap_main.sol",
+      "start_line": 32,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol",
+      "start_line": 25,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "mint",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol",
+      "start_line": 52,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol",
+      "start_line": 90,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol",
+      "start_line": 119,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "collect",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol",
+      "start_line": 149,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "burn",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol",
+      "start_line": 173,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol",
+      "start_line": 33,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol",
+      "start_line": 62,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "main.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "main.sol",
+      "start_line": 24,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "main.sol",
+      "start_line": 33,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "main.sol",
+      "start_line": 80,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "main.sol",
+      "start_line": 118,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "main.sol",
+      "start_line": 154,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol",
+      "line": 176
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol",
+      "line": 104
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "NAD_FUN",
+      "var_type": "address public immutable",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "line": 116
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "EXTRA_VALUE",
+      "var_type": "uint256 public constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "line": 117
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "DEFAULT_FEE",
+      "var_type": "uint256 public constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "line": 118
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "BASIS_POINTS",
+      "var_type": "uint256 private constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "line": 119
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol",
+      "line": 304
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-swap_main.sol",
+      "line": 58
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol",
+      "line": 187
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "weth",
+      "var_type": "TokenInterface public immutable",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol",
+      "line": 14
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol",
+      "line": 94
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "main.sol",
+      "line": 196
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "CALL:dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol:109",
+      "call_type": "CALL",
+      "line": 109,
+      "enclosing_function": "_safeTransferETH",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol",
+      "raw_text": "(bool success, ) = to.call{value: amount}(\"\");"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol:49",
+      "call_type": "INTERFACE_CALL",
+      "line": 49,
+      "enclosing_function": "withdraw",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol",
+      "raw_text": "require(weth.balanceOf(address(this)) >= amount, \"Insufficient WETH balance\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        43,
+        46
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        43,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getUserClaimedAmount",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verify",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_safeTransferETH",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_safeTransferERC20",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "depositMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawMon",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "createCurve",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "protectBuy",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "protectSell",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "createCurve",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "protectBuy",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "protectSell",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_createCurveWithFee",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_encodeCreateCurveEvent",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_calculateFeeAmount",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_safeApprove",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "buy",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-swap_main.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "mint",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "collect",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "burn",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_magma_main.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "NAD_FUN",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "EXTRA_VALUE",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "DEFAULT_FEE",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "BASIS_POINTS",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_nad-fun_main.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-swap_main.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_uniswap-v3_main.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "weth",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "CALL:dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol:109",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_account-manager-v1_main.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol:49",
+      "file": "dataset-curated_contracts_cantina_tadle_oct2025.pdf-source_v3-sandbox-audit_1_src_relayers_monad_testnet_weth_main.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 48,
+    "n_hyperedges": 2,
+    "n_functions": 34,
+    "n_state_vars": 12,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.5
+  },
+  "label": {
+    "vfp_id": "vfp_00595",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1106",
+      "CWE-1339",
+      "CWE-372",
+      "CWE-664",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

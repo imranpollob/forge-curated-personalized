@@ -1,0 +1,533 @@
+{
+  "sample_id": "vfp_00157",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getReleasedLiquidity",
+      "file": "MarginBase.sol",
+      "start_line": 63,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_handleAddLiquidity",
+      "file": "MarginBase.sol",
+      "start_line": 90,
+      "end_line": 119,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_handleRemoveLiquidity",
+      "file": "MarginBase.sol",
+      "start_line": 125,
+      "end_line": 164,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMarginController",
+      "file": "MarginBase.sol",
+      "start_line": 170,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMarginState",
+      "file": "MarginBase.sol",
+      "start_line": 178,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "marginState",
+      "var_type": "MarginState public",
+      "file": "MarginBase.sol",
+      "line": 23
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "marginController",
+      "var_type": "address public",
+      "file": "MarginBase.sol",
+      "line": 24
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "lastStageTimestampStore",
+      "var_type": "mapping(PoolId id => uint256) private",
+      "file": "MarginBase.sol",
+      "line": 25
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "liquidityLockedQueue",
+      "var_type": "mapping(PoolId id => DoubleEndedQueue.Uint256Deque) private",
+      "file": "MarginBase.sol",
+      "line": 26
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "MAX_PRICE_MOVE_PER_SECOND",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 33
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "RATE_BASE",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 34
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "USE_MIDDLE_LEVEL",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 35
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "USE_HIGH_LEVEL",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 36
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "M_LOW",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 37
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "M_MIDDLE",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 38
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "M_HIGH",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 39
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "STAGE_DURATION",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 40
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "STAGE_SIZE",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 41
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "STAGE_LEAVE_PART",
+      "var_type": "uint24 private constant",
+      "file": "MarginBase.sol",
+      "line": 42
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:45",
+      "call_type": "INTERFACE_CALL",
+      "line": 45,
+      "enclosing_function": "",
+      "file": "MarginBase.sol",
+      "raw_text": "MarginState _marginState = marginState.setMaxPriceMovePerSecond(MAX_PRICE_MOVE_PER_SECOND);"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:69",
+      "call_type": "INTERFACE_CALL",
+      "line": 69,
+      "enclosing_function": "_getReleasedLiquidity",
+      "file": "MarginBase.sol",
+      "raw_text": "if (uint256(marginState.stageDuration()) * marginState.stageSize() > 0) {"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:76",
+      "call_type": "INTERFACE_CALL",
+      "line": 76,
+      "enclosing_function": "_getReleasedLiquidity",
+      "file": "MarginBase.sol",
+      "raw_text": "queue.length() > 1 && currentStage.isFree(marginState.stageLeavePart())"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:77",
+      "call_type": "INTERFACE_CALL",
+      "line": 77,
+      "enclosing_function": "_getReleasedLiquidity",
+      "file": "MarginBase.sol",
+      "raw_text": "&& block.timestamp >= lastStageTimestamp + marginState.stageDuration()"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:91",
+      "call_type": "INTERFACE_CALL",
+      "line": 91,
+      "enclosing_function": "_handleAddLiquidity",
+      "file": "MarginBase.sol",
+      "raw_text": "uint256 stageSize = marginState.stageSize();"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:92",
+      "call_type": "INTERFACE_CALL",
+      "line": 92,
+      "enclosing_function": "_handleAddLiquidity",
+      "file": "MarginBase.sol",
+      "raw_text": "if (uint256(marginState.stageDuration()) * stageSize == 0) {"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:126",
+      "call_type": "INTERFACE_CALL",
+      "line": 126,
+      "enclosing_function": "_handleRemoveLiquidity",
+      "file": "MarginBase.sol",
+      "raw_text": "if (uint256(marginState.stageDuration()) * marginState.stageSize() > 0) {"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:156",
+      "call_type": "INTERFACE_CALL",
+      "line": 156,
+      "enclosing_function": "_handleRemoveLiquidity",
+      "file": "MarginBase.sol",
+      "raw_text": "if (!currentStage.isFree(marginState.stageLeavePart()) || queue.length() == 1) {"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        2,
+        5,
+        7,
+        8,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        5,
+        7,
+        8,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        5,
+        7,
+        8,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        2,
+        5,
+        7,
+        8,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        2,
+        5,
+        7,
+        8,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getReleasedLiquidity",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_handleAddLiquidity",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_handleRemoveLiquidity",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMarginController",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMarginState",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "marginState",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "marginController",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "lastStageTimestampStore",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "liquidityLockedQueue",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "MAX_PRICE_MOVE_PER_SECOND",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "RATE_BASE",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "USE_MIDDLE_LEVEL",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "USE_HIGH_LEVEL",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "M_LOW",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "M_MIDDLE",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "M_HIGH",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "STAGE_DURATION",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "STAGE_SIZE",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "STAGE_LEAVE_PART",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:45",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:69",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:76",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:77",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:91",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:92",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:126",
+      "file": "MarginBase.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarginBase.sol:156",
+      "file": "MarginBase.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 27,
+    "n_hyperedges": 7,
+    "n_functions": 5,
+    "n_state_vars": 14,
+    "n_call_sites": 8,
+    "avg_hyperedge_size": 5.428571428571429
+  },
+  "label": {
+    "vfp_id": "vfp_00157",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-691",
+      "CWE-841"
+    ]
+  }
+}

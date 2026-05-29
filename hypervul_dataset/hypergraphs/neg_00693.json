@@ -1,0 +1,148 @@
+{
+  "sample_id": "neg_00693",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyPoolRebalance",
+      "file": "contracts_contracts_MerkleLib.sol",
+      "start_line": 22,
+      "end_line": 28,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyRelayerRefund",
+      "file": "contracts_contracts_MerkleLib.sol",
+      "start_line": 37,
+      "end_line": 43,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyV3SlowRelayFulfillment",
+      "file": "contracts_contracts_MerkleLib.sol",
+      "start_line": 45,
+      "end_line": 51,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isClaimed",
+      "file": "contracts_contracts_MerkleLib.sol",
+      "start_line": 62,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setClaimed",
+      "file": "contracts_contracts_MerkleLib.sol",
+      "start_line": 75,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isClaimed1D",
+      "file": "contracts_contracts_MerkleLib.sol",
+      "start_line": 87,
+      "end_line": 90,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setClaimed1D",
+      "file": "contracts_contracts_MerkleLib.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyPoolRebalance",
+      "file": "contracts_contracts_MerkleLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyRelayerRefund",
+      "file": "contracts_contracts_MerkleLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyV3SlowRelayFulfillment",
+      "file": "contracts_contracts_MerkleLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isClaimed",
+      "file": "contracts_contracts_MerkleLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setClaimed",
+      "file": "contracts_contracts_MerkleLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isClaimed1D",
+      "file": "contracts_contracts_MerkleLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setClaimed1D",
+      "file": "contracts_contracts_MerkleLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00693",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

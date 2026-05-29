@@ -1,0 +1,321 @@
+{
+  "sample_id": "neg_00449",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getData",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "start_line": 39,
+      "end_line": 42,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "assertDataFor",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "start_line": 48,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "assertionResolvedCallback",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "start_line": 92,
+      "end_line": 101,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "assertionDisputedCallback",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "start_line": 105,
+      "end_line": 105,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "syncState",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_polygon-cross-chain-oracle_test_StateSyncMock.sol",
+      "start_line": 23,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "defaultCurrency",
+      "var_type": "IERC20 public immutable",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "line": 14
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "oo",
+      "var_type": "OptimisticOracleV3Interface public immutable",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "line": 15
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "assertionLiveness",
+      "var_type": "uint64 public constant",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "line": 16
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "defaultIdentifier",
+      "var_type": "bytes32 public immutable",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "assertionsData",
+      "var_type": "mapping(bytes32 => DataAssertion) public",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "line": 26
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:35",
+      "call_type": "INTERFACE_CALL",
+      "line": 35,
+      "enclosing_function": "",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "raw_text": "defaultIdentifier = oo.defaultIdentifier();"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:54",
+      "call_type": "INTERFACE_CALL",
+      "line": 54,
+      "enclosing_function": "assertDataFor",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "raw_text": "uint256 bond = oo.getMinimumBond(address(defaultCurrency));"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:55",
+      "call_type": "INTERFACE_CALL",
+      "line": 55,
+      "enclosing_function": "assertDataFor",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "raw_text": "defaultCurrency.safeTransferFrom(msg.sender, address(this), bond);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:56",
+      "call_type": "INTERFACE_CALL",
+      "line": 56,
+      "enclosing_function": "assertDataFor",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "raw_text": "defaultCurrency.safeApprove(address(oo), bond);"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:64",
+      "call_type": "INTERFACE_CALL",
+      "line": 64,
+      "enclosing_function": "assertDataFor",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol",
+      "raw_text": "assertionId = oo.assertTruth("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getData",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "assertDataFor",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "assertionResolvedCallback",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "assertionDisputedCallback",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "syncState",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_polygon-cross-chain-oracle_test_StateSyncMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "defaultCurrency",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "oo",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "assertionLiveness",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "defaultIdentifier",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "assertionsData",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:35",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:54",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:55",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:56",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol:64",
+      "file": "bcdad43734cf94a3a8c0a5020b10edc7df4f2450_protocol_packages_core_contracts_optimistic-oracle-v3_implementation_examples_DataAsserter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 4,
+    "n_functions": 5,
+    "n_state_vars": 5,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "neg_00449",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

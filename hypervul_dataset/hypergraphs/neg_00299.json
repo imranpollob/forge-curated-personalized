@@ -1,0 +1,210 @@
+{
+  "sample_id": "neg_00299",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "quoteExactInput",
+      "file": "sickle-public_contracts_interfaces_external_uniswap_IQuoterV2.sol",
+      "start_line": 15,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferTokenToUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol",
+      "start_line": 12,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferTokensToUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferTokenFromUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol",
+      "start_line": 20,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transferTokensFromUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol",
+      "start_line": 27,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol",
+      "start_line": 36,
+      "end_line": 61,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "increaseLeverage",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol",
+      "start_line": 65,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol",
+      "start_line": 75,
+      "end_line": 92,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "decreaseLeverage",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol",
+      "start_line": 95,
+      "end_line": 102,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "transferLib",
+      "var_type": "TransferLib public immutable",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol",
+      "line": 14
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "strategyAddress",
+      "var_type": "address public immutable",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol",
+      "line": 16
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "quoteExactInput",
+      "file": "sickle-public_contracts_interfaces_external_uniswap_IQuoterV2.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferTokenToUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferTokensToUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferTokenFromUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transferTokensFromUser",
+      "file": "sickle-public_contracts_interfaces_libraries_ITransferLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "increaseLeverage",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "decreaseLeverage",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "transferLib",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "strategyAddress",
+      "file": "sickle-public_contracts_strategies_SimpleLendingStrategy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00299",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

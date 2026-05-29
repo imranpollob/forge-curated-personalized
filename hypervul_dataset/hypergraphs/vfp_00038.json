@@ -1,0 +1,395 @@
+{
+  "sample_id": "vfp_00038",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approveNative",
+      "file": "ERC7914.sol",
+      "start_line": 14,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "approveNativeTransient",
+      "file": "ERC7914.sol",
+      "start_line": 21,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFromNative",
+      "file": "ERC7914.sol",
+      "start_line": 28,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFromNativeTransient",
+      "file": "ERC7914.sol",
+      "start_line": 36,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transientAllowance",
+      "file": "ERC7914.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_transferFrom",
+      "file": "ERC7914.sol",
+      "start_line": 53,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol",
+      "start_line": 60,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol",
+      "start_line": 66,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol",
+      "start_line": 71,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "executeUserOp",
+      "file": "MinimalDelegation.sol",
+      "start_line": 81,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_dispatch",
+      "file": "MinimalDelegation.sol",
+      "start_line": 93,
+      "end_line": 99,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "MinimalDelegation.sol",
+      "start_line": 102,
+      "end_line": 118,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "validateUserOp",
+      "file": "MinimalDelegation.sol",
+      "start_line": 121,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_handleVerifySignature",
+      "file": "MinimalDelegation.sol",
+      "start_line": 156,
+      "end_line": 177,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_checkExpiry",
+      "file": "MinimalDelegation.sol",
+      "start_line": 180,
+      "end_line": 183,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "MinimalDelegation.sol",
+      "start_line": 186,
+      "end_line": 209,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping(address spender => uint256 allowance) public",
+      "file": "ERC7914.sol",
+      "line": 11
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "CALL:ERC7914.sol:75",
+      "call_type": "CALL",
+      "line": 75,
+      "enclosing_function": "_transferFrom",
+      "file": "ERC7914.sol",
+      "raw_text": "(bool success,) = payable(recipient).call{value: amount}(\"\");"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "CALL:MinimalDelegation.sol:115",
+      "call_type": "CALL",
+      "line": 115,
+      "enclosing_function": "_execute",
+      "file": "MinimalDelegation.sol",
+      "raw_text": "(success, output) = to.call{value: _call.value}(_call.data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        5,
+        16,
+        17
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        9,
+        10,
+        11,
+        18
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 18
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approveNative",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "approveNativeTransient",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFromNative",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFromNativeTransient",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transientAllowance",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_transferFrom",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "execute",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "executeUserOp",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_dispatch",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "validateUserOp",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_handleVerifySignature",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_checkExpiry",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "MinimalDelegation.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "CALL:ERC7914.sol:75",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "CALL:MinimalDelegation.sol:115",
+      "file": "MinimalDelegation.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 2,
+    "n_functions": 16,
+    "n_state_vars": 1,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00038",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-284",
+      "CWE-285",
+      "CWE-345",
+      "CWE-347",
+      "CWE-358",
+      "CWE-393",
+      "CWE-430",
+      "CWE-435",
+      "CWE-439",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-710",
+      "CWE-754",
+      "CWE-863"
+    ]
+  }
+}

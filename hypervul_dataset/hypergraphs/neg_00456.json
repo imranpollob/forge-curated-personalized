@@ -1,0 +1,114 @@
+{
+  "sample_id": "neg_00456",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_base_DecodersAndSanitizers_GenericDecoderAndSanitizer.sol",
+      "start_line": 72,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_base_DecodersAndSanitizers_GenericDecoderAndSanitizer.sol",
+      "start_line": 84,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_base_DecodersAndSanitizers_GenericDecoderAndSanitizer.sol",
+      "start_line": 94,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_unifiETHDecoderAndSanitizer.sol",
+      "start_line": 49,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_unifiETHDecoderAndSanitizer.sol",
+      "start_line": 63,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_base_DecodersAndSanitizers_GenericDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_base_DecodersAndSanitizers_GenericDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_base_DecodersAndSanitizers_GenericDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_unifiETHDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_unifiETHDecoderAndSanitizer.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00456",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

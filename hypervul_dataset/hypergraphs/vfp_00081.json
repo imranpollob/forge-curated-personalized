@@ -1,0 +1,717 @@
+{
+  "sample_id": "vfp_00081",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getERC4626StrategyVaultStorage",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 31,
+      "end_line": 35,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 43,
+      "end_line": 51,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 60,
+      "end_line": 65,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 89,
+      "end_line": 94,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 98,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "vault",
+      "file": "ERC4626StrategyVault.sol",
+      "start_line": 106,
+      "end_line": 108,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getSizeMetaVaultStorage",
+      "file": "SizeMetaVault.sol",
+      "start_line": 35,
+      "end_line": 39,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SizeMetaVault.sol",
+      "start_line": 66,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "SizeMetaVault.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "SizeMetaVault.sol",
+      "start_line": 88,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "SizeMetaVault.sol",
+      "start_line": 96,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "SizeMetaVault.sol",
+      "start_line": 101,
+      "end_line": 106,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "SizeMetaVault.sol",
+      "start_line": 110,
+      "end_line": 116,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "SizeMetaVault.sol",
+      "start_line": 121,
+      "end_line": 149,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "SizeMetaVault.sol",
+      "start_line": 154,
+      "end_line": 176,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setPerformanceFeePercent",
+      "file": "SizeMetaVault.sol",
+      "start_line": 180,
+      "end_line": 182,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "SizeMetaVault.sol",
+      "start_line": 185,
+      "end_line": 187,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setRebalanceMaxSlippagePercent",
+      "file": "SizeMetaVault.sol",
+      "start_line": 192,
+      "end_line": 194,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "addStrategy",
+      "file": "SizeMetaVault.sol",
+      "start_line": 198,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "removeStrategy",
+      "file": "SizeMetaVault.sol",
+      "start_line": 210,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "reorderStrategies",
+      "file": "SizeMetaVault.sol",
+      "start_line": 228,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "SizeMetaVault.sol",
+      "start_line": 250,
+      "end_line": 259,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_addStrategy",
+      "file": "SizeMetaVault.sol",
+      "start_line": 265,
+      "end_line": 274,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_removeStrategy",
+      "file": "SizeMetaVault.sol",
+      "start_line": 279,
+      "end_line": 291,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_setRebalanceMaxSlippagePercent",
+      "file": "SizeMetaVault.sol",
+      "start_line": 294,
+      "end_line": 301,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_maxDepositToStrategies",
+      "file": "SizeMetaVault.sol",
+      "start_line": 305,
+      "end_line": 310,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_maxWithdrawFromStrategies",
+      "file": "SizeMetaVault.sol",
+      "start_line": 314,
+      "end_line": 319,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_rebalance",
+      "file": "SizeMetaVault.sol",
+      "start_line": 324,
+      "end_line": 347,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "strategies",
+      "file": "SizeMetaVault.sol",
+      "start_line": 351,
+      "end_line": 353,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "strategies",
+      "file": "SizeMetaVault.sol",
+      "start_line": 356,
+      "end_line": 358,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "strategiesCount",
+      "file": "SizeMetaVault.sol",
+      "start_line": 361,
+      "end_line": 363,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "rebalanceMaxSlippagePercent",
+      "file": "SizeMetaVault.sol",
+      "start_line": 366,
+      "end_line": 368,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "isStrategy",
+      "file": "SizeMetaVault.sol",
+      "start_line": 371,
+      "end_line": 377,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "ERC4626StrategyVaultStorageLocation",
+      "var_type": "bytes32 private constant",
+      "file": "ERC4626StrategyVault.sol",
+      "line": 29
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "MAX_STRATEGIES",
+      "var_type": "uint256 public constant",
+      "file": "SizeMetaVault.sol",
+      "line": 23
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "SizeMetaVaultStorageLocation",
+      "var_type": "bytes32 private constant",
+      "file": "SizeMetaVault.sol",
+      "line": 33
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getERC4626StrategyVaultStorage",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "vault",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getSizeMetaVaultStorage",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setPerformanceFeePercent",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setFeeRecipient",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setRebalanceMaxSlippagePercent",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "addStrategy",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "removeStrategy",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "reorderStrategies",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_addStrategy",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_removeStrategy",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_setRebalanceMaxSlippagePercent",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_maxDepositToStrategies",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_maxWithdrawFromStrategies",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_rebalance",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "strategies",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "strategies",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "strategiesCount",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "rebalanceMaxSlippagePercent",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "isStrategy",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "ERC4626StrategyVaultStorageLocation",
+      "file": "ERC4626StrategyVault.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "MAX_STRATEGIES",
+      "file": "SizeMetaVault.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "SizeMetaVaultStorageLocation",
+      "file": "SizeMetaVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 40,
+    "n_hyperedges": 0,
+    "n_functions": 37,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00081",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1068",
+      "CWE-1265",
+      "CWE-1339",
+      "CWE-400",
+      "CWE-405",
+      "CWE-407",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-710",
+      "CWE-834"
+    ]
+  }
+}

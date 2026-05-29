@@ -1,0 +1,336 @@
+{
+  "sample_id": "vfp_00337",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentVeToken.sol",
+      "start_line": 39,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "stake",
+      "file": "AgentVeToken.sol",
+      "start_line": 59,
+      "end_line": 94,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setCanStake",
+      "file": "AgentVeToken.sol",
+      "start_line": 96,
+      "end_line": 99,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMatureAt",
+      "file": "AgentVeToken.sol",
+      "start_line": 101,
+      "end_line": 108,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AgentVeToken.sol",
+      "start_line": 110,
+      "end_line": 127,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getPastBalanceOf",
+      "file": "AgentVeToken.sol",
+      "start_line": 129,
+      "end_line": 141,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "AgentVeToken.sol",
+      "start_line": 144,
+      "end_line": 149,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "AgentVeToken.sol",
+      "start_line": 151,
+      "end_line": 157,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "approve",
+      "file": "AgentVeToken.sol",
+      "start_line": 159,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_update",
+      "file": "AgentVeToken.sol",
+      "start_line": 167,
+      "end_line": 173,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getPastDelegates",
+      "file": "AgentVeToken.sol",
+      "start_line": 175,
+      "end_line": 180,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "founder",
+      "var_type": "address public",
+      "file": "AgentVeToken.sol",
+      "line": 17
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "var_type": "address public",
+      "file": "AgentVeToken.sol",
+      "line": 18
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "agentNft",
+      "var_type": "address public",
+      "file": "AgentVeToken.sol",
+      "line": 19
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "matureAt",
+      "var_type": "uint256 public",
+      "file": "AgentVeToken.sol",
+      "line": 20
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "canStake",
+      "var_type": "bool public",
+      "file": "AgentVeToken.sol",
+      "line": 21
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "initialLock",
+      "var_type": "uint256 public",
+      "file": "AgentVeToken.sol",
+      "line": 22
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_balanceCheckpoints",
+      "var_type": "mapping(address => Checkpoints.Trace208) private",
+      "file": "AgentVeToken.sol",
+      "line": 28
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "locked",
+      "var_type": "bool internal",
+      "file": "AgentVeToken.sol",
+      "line": 30
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "stake",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setCanStake",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMatureAt",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getPastBalanceOf",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "approve",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_update",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getPastDelegates",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "founder",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "agentNft",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "matureAt",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "canStake",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "initialLock",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_balanceCheckpoints",
+      "file": "AgentVeToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "locked",
+      "file": "AgentVeToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 0,
+    "n_functions": 11,
+    "n_state_vars": 8,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00337",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-664",
+      "CWE-666",
+      "CWE-672"
+    ]
+  }
+}

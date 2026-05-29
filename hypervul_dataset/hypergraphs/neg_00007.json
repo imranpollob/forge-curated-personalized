@@ -1,0 +1,97 @@
+{
+  "sample_id": "neg_00007",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "bridgeERC20To",
+      "file": "contracts_contracts_chain-adapters_Blast_Adapter.sol",
+      "start_line": 31,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Blast_Adapter.sol",
+      "start_line": 93,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Blast_Adapter.sol",
+      "start_line": 105,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleV3AcrossMessage",
+      "file": "contracts_contracts_interfaces_SpokePoolMessageHandler.sol",
+      "start_line": 6,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "bridgeERC20To",
+      "file": "contracts_contracts_chain-adapters_Blast_Adapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Blast_Adapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Blast_Adapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleV3AcrossMessage",
+      "file": "contracts_contracts_interfaces_SpokePoolMessageHandler.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00007",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

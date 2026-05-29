@@ -1,0 +1,199 @@
+{
+  "sample_id": "neg_00689",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "restricted",
+      "file": "evmauth-core_lib_openzeppelin-contracts_certora_harnesses_OwnableHarness.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_ERC2771ContextMock.sol",
+      "start_line": 17,
+      "end_line": 19,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_ERC2771ContextMock.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_contextSuffixLength",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_ERC2771ContextMock.sol",
+      "start_line": 25,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol",
+      "start_line": 48,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOfBatch",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol",
+      "start_line": 57,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setApprovalForAll",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol",
+      "start_line": 71,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isApprovedForAll",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol",
+      "start_line": 78,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "safeTransferFrom",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol",
+      "start_line": 98,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "safeBatchTransferFrom",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol",
+      "start_line": 116,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "restricted",
+      "file": "evmauth-core_lib_openzeppelin-contracts_certora_harnesses_OwnableHarness.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_ERC2771ContextMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_ERC2771ContextMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_contextSuffixLength",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_ERC2771ContextMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOfBatch",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setApprovalForAll",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isApprovedForAll",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "safeTransferFrom",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "safeBatchTransferFrom",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_token_ERC1155_IERC1155.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00689",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

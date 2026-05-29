@@ -1,0 +1,341 @@
+{
+  "sample_id": "vfp_00471",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "init",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 50,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "receiveCallFromVault",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 53,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__stake",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 68,
+      "end_line": 85,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "__enterExitQueue",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 88,
+      "end_line": 115,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__claimExitedAssets",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 118,
+      "end_line": 176,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__removeStakeWiseVaultTokenIfNoBalance",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 179,
+      "end_line": 184,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "__validateStakeWiseVault",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 187,
+      "end_line": 195,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getDebtAssets",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 204,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getManagedAssets",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 212,
+      "end_line": 264,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getExitRequests",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 272,
+      "end_line": 274,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getStakeWiseVaultTokens",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "start_line": 278,
+      "end_line": 280,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "WETH_TOKEN",
+      "var_type": "IWETH public immutable",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "line": 31
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "REFERRER_ADDRESS",
+      "var_type": "address private immutable",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "line": 32
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ADDRESS_LIST_REGISTRY",
+      "var_type": "IAddressListRegistry public immutable",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "line": 33
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "SUPPORTED_IMPLEMENTATIONS_LIST_ID",
+      "var_type": "uint256 public immutable",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "line": 34
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakeWiseV3StakingPositionLib.sol:68",
+      "call_type": "INTERFACE_CALL",
+      "line": 68,
+      "enclosing_function": "__stake",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "raw_text": "WETH_TOKEN.withdraw(assetAmount);"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakeWiseV3StakingPositionLib.sol:184",
+      "call_type": "INTERFACE_CALL",
+      "line": 184,
+      "enclosing_function": "__validateStakeWiseVault",
+      "file": "StakeWiseV3StakingPositionLib.sol",
+      "raw_text": "ADDRESS_LIST_REGISTRY.isInList({"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        2,
+        11,
+        12,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "init",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "receiveCallFromVault",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__stake",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "__enterExitQueue",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__claimExitedAssets",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__removeStakeWiseVaultTokenIfNoBalance",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "__validateStakeWiseVault",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getDebtAssets",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getManagedAssets",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getExitRequests",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getStakeWiseVaultTokens",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "WETH_TOKEN",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "REFERRER_ADDRESS",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ADDRESS_LIST_REGISTRY",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "SUPPORTED_IMPLEMENTATIONS_LIST_ID",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakeWiseV3StakingPositionLib.sol:68",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakeWiseV3StakingPositionLib.sol:184",
+      "file": "StakeWiseV3StakingPositionLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 2,
+    "n_functions": 11,
+    "n_state_vars": 4,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 8.0
+  },
+  "label": {
+    "vfp_id": "vfp_00471",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

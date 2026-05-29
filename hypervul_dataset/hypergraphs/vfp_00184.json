@@ -1,0 +1,82 @@
+{
+  "sample_id": "vfp_00184",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "ALTBCFactory.sol",
+      "start_line": 41,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "altbcBytecode",
+      "var_type": "bytes",
+      "file": "ALTBCFactory.sol",
+      "line": 19
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "string public constant",
+      "file": "ALTBCFactory.sol",
+      "line": 20
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "ALTBCFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "altbcBytecode",
+      "file": "ALTBCFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "ALTBCFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 1,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00184",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-252",
+      "CWE-703",
+      "CWE-754"
+    ]
+  }
+}

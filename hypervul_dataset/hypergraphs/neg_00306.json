@@ -1,0 +1,145 @@
+{
+  "sample_id": "neg_00306",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployProxy",
+      "file": "protocol_contracts_persistent_single-asset-redemption-queue_SingleAssetRedemptionQueueFactory.sol",
+      "start_line": 29,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "formatUniswapV3ExactInputData",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol",
+      "start_line": 29,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "uniswapV3CalcPoolPrice",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol",
+      "start_line": 62,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "uniswapV3DoNRoundTripSwaps",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol",
+      "start_line": 78,
+      "end_line": 112,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "uniswapV3SimpleTradeRandomCaller",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol",
+      "start_line": 114,
+      "end_line": 150,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__uniswapV3GetQuoteAtTick",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol",
+      "start_line": 154,
+      "end_line": 173,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "LIB_ADDRESS",
+      "var_type": "address internal immutable",
+      "file": "protocol_contracts_persistent_single-asset-redemption-queue_SingleAssetRedemptionQueueFactory.sol",
+      "line": 23
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployProxy",
+      "file": "protocol_contracts_persistent_single-asset-redemption-queue_SingleAssetRedemptionQueueFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "formatUniswapV3ExactInputData",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "uniswapV3CalcPoolPrice",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "uniswapV3DoNRoundTripSwaps",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "uniswapV3SimpleTradeRandomCaller",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__uniswapV3GetQuoteAtTick",
+      "file": "protocol_tests_tests_protocols_uniswap_UniswapV3Utils.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "LIB_ADDRESS",
+      "file": "protocol_contracts_persistent_single-asset-redemption-queue_SingleAssetRedemptionQueueFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00306",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

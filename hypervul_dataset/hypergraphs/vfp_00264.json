@@ -1,0 +1,280 @@
+{
+  "sample_id": "vfp_00264",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L2CoinBase.sol",
+      "start_line": 19,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "pause",
+      "file": "L2CoinBase.sol",
+      "start_line": 36,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "L2CoinBase.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setL2EthBridge",
+      "file": "L2CoinBase.sol",
+      "start_line": 56,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addWithdrawer",
+      "file": "L2CoinBase.sol",
+      "start_line": 61,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeWithdrawer",
+      "file": "L2CoinBase.sol",
+      "start_line": 67,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addWhiteAddress",
+      "file": "L2CoinBase.sol",
+      "start_line": 73,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "removeWhiteAddress",
+      "file": "L2CoinBase.sol",
+      "start_line": 79,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "L2CoinBase.sol",
+      "start_line": 85,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawAll",
+      "file": "L2CoinBase.sol",
+      "start_line": 95,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "l2EthBridge",
+      "var_type": "address public",
+      "file": "L2CoinBase.sol",
+      "line": 10
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "isWithdrawer",
+      "var_type": "mapping(address => bool) public",
+      "file": "L2CoinBase.sol",
+      "line": 25
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "whiteListOnL1",
+      "var_type": "mapping(address => bool) public",
+      "file": "L2CoinBase.sol",
+      "line": 28
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "CALL:L2CoinBase.sol:90",
+      "call_type": "CALL",
+      "line": 90,
+      "enclosing_function": "withdraw",
+      "file": "L2CoinBase.sol",
+      "raw_text": "(bool success_, ) = l2EthBridge.call{value : _amount}(message_);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "pause",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setL2EthBridge",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addWithdrawer",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeWithdrawer",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addWhiteAddress",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "removeWhiteAddress",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawAll",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "l2EthBridge",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "isWithdrawer",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "whiteListOnL1",
+      "file": "L2CoinBase.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "CALL:L2CoinBase.sol:90",
+      "file": "L2CoinBase.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 1,
+    "n_functions": 10,
+    "n_state_vars": 3,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00264",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-664",
+      "CWE-665",
+      "CWE-710",
+      "CWE-909"
+    ]
+  }
+}

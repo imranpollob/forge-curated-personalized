@@ -1,0 +1,110 @@
+{
+  "sample_id": "vfp_00443",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "V3DexSwap.sol",
+      "start_line": 50,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "POOL_TICK_SPACING",
+      "var_type": "uint24 public immutable",
+      "file": "V3DexSwap.sol",
+      "line": 16
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "var_type": "address public immutable",
+      "file": "V3DexSwap.sol",
+      "line": 18
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "WETH_TOKEN",
+      "var_type": "address public immutable",
+      "file": "V3DexSwap.sol",
+      "line": 20
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "LINEA_TOKEN",
+      "var_type": "address public immutable",
+      "file": "V3DexSwap.sol",
+      "line": 22
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "V3DexSwap.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "POOL_TICK_SPACING",
+      "file": "V3DexSwap.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "file": "V3DexSwap.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "WETH_TOKEN",
+      "file": "V3DexSwap.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "LINEA_TOKEN",
+      "file": "V3DexSwap.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 1,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00443",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-404",
+      "CWE-664",
+      "CWE-772"
+    ]
+  }
+}

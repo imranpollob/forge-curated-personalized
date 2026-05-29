@@ -1,0 +1,2604 @@
+{
+  "sample_id": "vfp_00001",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentImageService.sol",
+      "start_line": 82,
+      "end_line": 92,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAgentCreator",
+      "file": "AgentImageService.sol",
+      "start_line": 104,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deployImageAgent",
+      "file": "AgentImageService.sol",
+      "start_line": 108,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_configureAgent",
+      "file": "AgentImageService.sol",
+      "start_line": 135,
+      "end_line": 150,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "configureAgent",
+      "file": "AgentImageService.sol",
+      "start_line": 152,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "requestImage",
+      "file": "AgentImageService.sol",
+      "start_line": 164,
+      "end_line": 198,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "fulfillImage",
+      "file": "AgentImageService.sol",
+      "start_line": 200,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestRefund",
+      "file": "AgentImageService.sol",
+      "start_line": 219,
+      "end_line": 242,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "AgentImageService.sol",
+      "start_line": 244,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getRequestDetails",
+      "file": "AgentImageService.sol",
+      "start_line": 254,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getPendingFees",
+      "file": "AgentImageService.sol",
+      "start_line": 277,
+      "end_line": 279,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AgentImageService.sol",
+      "start_line": 281,
+      "end_line": 284,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentToken.sol",
+      "start_line": 35,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "AgentToken.sol",
+      "start_line": 56,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "AgentToken.sol",
+      "start_line": 83,
+      "end_line": 109,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setTaxWallet",
+      "file": "AgentToken.sol",
+      "start_line": 111,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setTaxPercentage",
+      "file": "AgentToken.sol",
+      "start_line": 120,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AgentToken.sol",
+      "start_line": 128,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "removeAllowance",
+      "file": "AgentToken.sol",
+      "start_line": 133,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 103,
+      "end_line": 137,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "deployAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 139,
+      "end_line": 163,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "deployAgentWithETH",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 165,
+      "end_line": 197,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 199,
+      "end_line": 247,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "swapETHForSPEC",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 249,
+      "end_line": 268,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getTokensReceived",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 270,
+      "end_line": 277,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getSPECReceived",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 279,
+      "end_line": 286,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_getTokensFromUniswap",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 288,
+      "end_line": 295,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getTokensFromBondingCurve",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 297,
+      "end_line": 316,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getSPECAmountForTokens",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 319,
+      "end_line": 322,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_createUniswapPool",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 324,
+      "end_line": 345,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "swapExactSPECForTokens",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 347,
+      "end_line": 376,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "swapExactTokensForSPEC",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 378,
+      "end_line": 420,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "accumulateSwapFees",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 422,
+      "end_line": 425,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_distributeSwapFees",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 427,
+      "end_line": 433,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "distributeTradingProfitsToStakers",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 435,
+      "end_line": 443,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "deployUniswapPool",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 445,
+      "end_line": 457,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 459,
+      "end_line": 462,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "withdrawEther",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 464,
+      "end_line": 468,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "setParameter",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 470,
+      "end_line": 473,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "addAlreadyExistingUniswapPool",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 477,
+      "end_line": 482,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setAdmin",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 484,
+      "end_line": 487,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "upgradeAllAgents",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 489,
+      "end_line": 494,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 496,
+      "end_line": 499,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "pause",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 501,
+      "end_line": 503,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 505,
+      "end_line": 507,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "isAgentToken",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 509,
+      "end_line": 511,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setPauser",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 513,
+      "end_line": 516,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "setDistributor",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 518,
+      "end_line": 522,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "setSpectralStaking",
+      "file": "AutonomousAgentDeployer.sol",
+      "start_line": 524,
+      "end_line": 528,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "configureAgent",
+      "file": "IAgentImageService.sol",
+      "start_line": 27,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "requestImage",
+      "file": "IAgentImageService.sol",
+      "start_line": 34,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "fulfillImage",
+      "file": "IAgentImageService.sol",
+      "start_line": 36,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "requestRefund",
+      "file": "IAgentImageService.sol",
+      "start_line": 38,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "IAgentImageService.sol",
+      "start_line": 40,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "getRequestDetails",
+      "file": "IAgentImageService.sol",
+      "start_line": 42,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "agentConfigs",
+      "file": "IAgentImageService.sol",
+      "start_line": 54,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "accumulatedFees",
+      "file": "IAgentImageService.sol",
+      "start_line": 56,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "agents",
+      "var_type": "mapping(address => Agent) public",
+      "file": "AgentImageService.sol",
+      "line": 42
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "agentConfigs",
+      "var_type": "mapping(address => AgentConfig) public",
+      "file": "AgentImageService.sol",
+      "line": 44
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "accumulatedFees",
+      "var_type": "mapping(address => uint256) public",
+      "file": "AgentImageService.sol",
+      "line": 47
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "pendingFees",
+      "var_type": "mapping(address => uint256) public",
+      "file": "AgentImageService.sol",
+      "line": 50
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "imageRequests",
+      "var_type": "mapping(address => mapping(bytes32 => ImageRequest)) public",
+      "file": "AgentImageService.sol",
+      "line": 53
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "agentRequestIds",
+      "var_type": "mapping(address => bytes32[]) private",
+      "file": "AgentImageService.sol",
+      "line": 56
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "requestProcessed",
+      "var_type": "mapping(address => mapping(bytes32 => bool)) private",
+      "file": "AgentImageService.sol",
+      "line": 59
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "parameters",
+      "var_type": "mapping(Parameter => uint256) public",
+      "file": "AgentImageService.sol",
+      "line": 61
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "deployer",
+      "var_type": "IAutonomousAgentDeployer public",
+      "file": "AgentImageService.sol",
+      "line": 63
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "spectralTreasury",
+      "var_type": "address public",
+      "file": "AgentImageService.sol",
+      "line": 64
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint16 public",
+      "file": "AgentImageService.sol",
+      "line": 66
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[50]",
+      "file": "AgentImageService.sol",
+      "line": 68
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "taxPercentage",
+      "var_type": "uint256 public",
+      "file": "AgentToken.sol",
+      "line": 14
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "taxWallet",
+      "var_type": "address public",
+      "file": "AgentToken.sol",
+      "line": 15
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "owner",
+      "var_type": "address public",
+      "file": "AgentToken.sol",
+      "line": 16
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "agentBalances",
+      "var_type": "IAgentBalances public",
+      "file": "AgentToken.sol",
+      "line": 17
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint8",
+      "file": "AgentToken.sol",
+      "line": 19
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "deployer",
+      "var_type": "IAutonomousAgentDeployer public",
+      "file": "AgentToken.sol",
+      "line": 23
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "AgentToken.sol",
+      "line": 25
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "parameters",
+      "var_type": "mapping(Parameter => uint256) public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 20
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "feeWallet",
+      "var_type": "address payable public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 22
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "uniswapRouter",
+      "var_type": "IUniswapV2Router02 public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 24
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "uniswapV3Router",
+      "var_type": "ISwapRouter public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 25
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "uniswapFactory",
+      "var_type": "address public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 27
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "agentTokenImplementation",
+      "var_type": "address public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 28
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "UNISWAP_POOL_CREATION_VALUE",
+      "var_type": "uint256 public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 29
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "spectralToken",
+      "var_type": "address public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 31
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "WETH",
+      "var_type": "address public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 32
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "agentBalances",
+      "var_type": "IAgentBalances public override",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 33
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "agentTokens",
+      "var_type": "mapping (address => bool) public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 35
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "agentTokensSold",
+      "var_type": "mapping (address => uint256) public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 36
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "agentWallets",
+      "var_type": "mapping (address => address) public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 37
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "totalSPECDeposited",
+      "var_type": "mapping (address => uint256) public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 38
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "agentTokenUniswapPool",
+      "var_type": "mapping (address => address) public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 39
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "admin",
+      "var_type": "address public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 41
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint8 public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 43
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "agentsVersion",
+      "var_type": "uint8 public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 44
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "paused",
+      "var_type": "bool public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 46
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "pauser",
+      "var_type": "address public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 47
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "INITIAL_VIRTUAL_LIQUIDITY",
+      "var_type": "uint256 constant",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 49
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "distributor",
+      "var_type": "IOctoDistributor public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 51
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "spectralStaking",
+      "var_type": "ISpectralStaking public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 52
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "accumulatedTaxToSwap",
+      "var_type": "uint256",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 53
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "accumulatedTaxToSwapByAgent",
+      "var_type": "mapping(address => uint256) public",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 54
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[44] private",
+      "file": "AutonomousAgentDeployer.sol",
+      "line": 56
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:95",
+      "call_type": "INTERFACE_CALL",
+      "line": 95,
+      "enclosing_function": "",
+      "file": "AgentImageService.sol",
+      "raw_text": "require(IOctoDistributor(address(deployer.distributor())).agentCreators(agentToken) == msg.sender, \"AgentImageService: : Not agent owner\");"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:100",
+      "call_type": "INTERFACE_CALL",
+      "line": 100,
+      "enclosing_function": "",
+      "file": "AgentImageService.sol",
+      "raw_text": "require(deployer.isAgentToken(agentToken), \"AgentImageService: : Invalid agent token\");"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:105",
+      "call_type": "INTERFACE_CALL",
+      "line": 105,
+      "enclosing_function": "getAgentCreator",
+      "file": "AgentImageService.sol",
+      "raw_text": "return IOctoDistributor(address(deployer.distributor())).agentCreators(agentToken);"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:115",
+      "call_type": "INTERFACE_CALL",
+      "line": 115,
+      "enclosing_function": "deployImageAgent",
+      "file": "AgentImageService.sol",
+      "raw_text": "require(msg.value >= deployer.parameters(IAutonomousAgentDeployer.Parameter.DEPLOYMENT_COST_ETH), \"AgentImageService: Incorrect ETH amount sent for deployment\");"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:117",
+      "call_type": "INTERFACE_CALL",
+      "line": 117,
+      "enclosing_function": "deployImageAgent",
+      "file": "AgentImageService.sol",
+      "raw_text": "(agentToken) = deployer.deployAgentWithETH{value: msg.value}(agentName, agentTicker, minSpecAmount);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:59",
+      "call_type": "TRANSFER",
+      "line": 59,
+      "enclosing_function": "transfer",
+      "file": "AgentToken.sol",
+      "raw_text": "return super.transfer(recipient, amount);"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:61",
+      "call_type": "INTERFACE_CALL",
+      "line": 61,
+      "enclosing_function": "transfer",
+      "file": "AgentToken.sol",
+      "raw_text": "address distributor = address(deployer.distributor());"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:71",
+      "call_type": "TRANSFER",
+      "line": 71,
+      "enclosing_function": "transfer",
+      "file": "AgentToken.sol",
+      "raw_text": "super.transfer(address(deployer), taxAmount);"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:72",
+      "call_type": "INTERFACE_CALL",
+      "line": 72,
+      "enclosing_function": "transfer",
+      "file": "AgentToken.sol",
+      "raw_text": "deployer.accumulateSwapFees(taxAmount);"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:75",
+      "call_type": "TRANSFER",
+      "line": 75,
+      "enclosing_function": "transfer",
+      "file": "AgentToken.sol",
+      "raw_text": "return super.transfer(recipient, amountAfterTax);"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:78",
+      "call_type": "TRANSFER",
+      "line": 78,
+      "enclosing_function": "transfer",
+      "file": "AgentToken.sol",
+      "raw_text": "return super.transfer(recipient, amount);"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "transferFrom",
+      "file": "AgentToken.sol",
+      "raw_text": "address distributor = address(deployer.distributor());"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:101",
+      "call_type": "INTERFACE_CALL",
+      "line": 101,
+      "enclosing_function": "transferFrom",
+      "file": "AgentToken.sol",
+      "raw_text": "deployer.accumulateSwapFees(taxAmount);"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:159",
+      "call_type": "TRANSFER",
+      "line": 159,
+      "enclosing_function": "deployAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "IERC20Upgradeable(_agentToken).transfer(msg.sender, creatorTokensReceived);"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:194",
+      "call_type": "TRANSFER",
+      "line": 194,
+      "enclosing_function": "deployAgentWithETH",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "IERC20Upgradeable(_agentToken).transfer(msg.sender, creatorTokensReceived);"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:217",
+      "call_type": "INTERFACE_CALL",
+      "line": 217,
+      "enclosing_function": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "distributor.setAgentCreator(_agentToken, msg.sender);"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:219",
+      "call_type": "TRANSFER",
+      "line": 219,
+      "enclosing_function": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "IERC20Upgradeable(_agentToken).transfer(feeWallet, parameters[Parameter.AGENT_TOKEN_DEPLOYMENT_FEE]);"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:222",
+      "call_type": "INTERFACE_CALL",
+      "line": 222,
+      "enclosing_function": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "spectralStaking.addDistribution(_agentToken, address(0), 2_000_000 ether, 0);"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:225",
+      "call_type": "INTERFACE_CALL",
+      "line": 225,
+      "enclosing_function": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "agentBalances.deposit(address(this), _agentToken, _agentToken, parameters[Parameter.AGENT_TOKEN_OWNERSHIP]);"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "CALL:AutonomousAgentDeployer.sol:230",
+      "call_type": "CALL",
+      "line": 230,
+      "enclosing_function": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "(bool success, ) = feeWallet.call{value: parameters[Parameter.DEPLOYMENT_TREASURY_FEE]}(\"\");"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:234",
+      "call_type": "INTERFACE_CALL",
+      "line": 234,
+      "enclosing_function": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "agentBalances.depositETH{value: parameters[Parameter.INITIAL_TRADING_BALANCE]}(_agentToken);"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:264",
+      "call_type": "INTERFACE_CALL",
+      "line": 264,
+      "enclosing_function": "swapETHForSPEC",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "specAmount = uniswapV3Router.exactInputSingle{value: ethAmount}(params);"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:293",
+      "call_type": "INTERFACE_CALL",
+      "line": 293,
+      "enclosing_function": "_getTokensFromUniswap",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "uint256[] memory amounts = uniswapRouter.getAmountsOut(_amountIn, path);"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:334",
+      "call_type": "INTERFACE_CALL",
+      "line": 334,
+      "enclosing_function": "_createUniswapPool",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "uniswapRouter.addLiquidity("
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:362",
+      "call_type": "INTERFACE_CALL",
+      "line": 362,
+      "enclosing_function": "swapExactSPECForTokens",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "uniswapRouter.swapExactTokensForTokensSupportingFeeOnTransferTokens(userSpecAmount, amountOutMin, path, msg.sender, _deadline);"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:395",
+      "call_type": "INTERFACE_CALL",
+      "line": 395,
+      "enclosing_function": "swapExactTokensForSPEC",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "uniswapRouter.swapExactTokensForTokensSupportingFeeOnTransferTokens(userSwapAfterTax, amountOutMin, path, msg.sender, deadline);"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:401",
+      "call_type": "INTERFACE_CALL",
+      "line": 401,
+      "enclosing_function": "swapExactTokensForSPEC",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "uniswapRouter.swapExactTokensForTokensSupportingFeeOnTransferTokens(protocolSwapAmount, (protocolSpecAmount * 95) / 100, path, address(this), deadline);"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:429",
+      "call_type": "TRANSFER",
+      "line": 429,
+      "enclosing_function": "_distributeSwapFees",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "IERC20(spectralToken).transfer(feeWallet, splitAmount);"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:431",
+      "call_type": "INTERFACE_CALL",
+      "line": 431,
+      "enclosing_function": "_distributeSwapFees",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "spectralStaking.addDistributionToBuffer(spectralToken, address(0), splitAmount, 0);"
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:441",
+      "call_type": "INTERFACE_CALL",
+      "line": 441,
+      "enclosing_function": "distributeTradingProfitsToStakers",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "spectralStaking.addDistribution(_token, address(0), _amount, 0);"
+    },
+    {
+      "node_id": 132,
+      "node_type": "call_site",
+      "name": "CALL:AutonomousAgentDeployer.sol:466",
+      "call_type": "CALL",
+      "line": 466,
+      "enclosing_function": "withdrawEther",
+      "file": "AutonomousAgentDeployer.sol",
+      "raw_text": "(bool success, ) = payable(owner()).call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        65,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        57,
+        58,
+        64,
+        65,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        57,
+        58,
+        64,
+        65,
+        106
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        13,
+        65,
+        69,
+        72,
+        107
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        13,
+        65,
+        69,
+        72,
+        108
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 108
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        13,
+        65,
+        69,
+        72,
+        109
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 109
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        13,
+        65,
+        69,
+        72,
+        110
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 110
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        13,
+        65,
+        69,
+        72,
+        111
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 111
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        13,
+        65,
+        69,
+        72,
+        112
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 112
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        14,
+        65,
+        69,
+        72,
+        113
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 113
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        14,
+        65,
+        69,
+        72,
+        114
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 114
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        20,
+        64,
+        83,
+        115
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 115
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        21,
+        64,
+        116
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 116
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        20,
+        21,
+        22,
+        64,
+        72,
+        77,
+        81,
+        83,
+        86,
+        87,
+        89,
+        97,
+        98,
+        117
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 117
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        20,
+        21,
+        22,
+        64,
+        72,
+        77,
+        81,
+        83,
+        86,
+        87,
+        89,
+        97,
+        98,
+        118
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 118
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        20,
+        21,
+        22,
+        64,
+        72,
+        77,
+        81,
+        83,
+        86,
+        87,
+        89,
+        97,
+        98,
+        119
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 119
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        20,
+        21,
+        22,
+        64,
+        72,
+        77,
+        81,
+        83,
+        86,
+        87,
+        89,
+        97,
+        98,
+        120
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 120
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        20,
+        21,
+        22,
+        64,
+        72,
+        77,
+        81,
+        83,
+        86,
+        87,
+        89,
+        97,
+        98,
+        121
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 121
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        20,
+        21,
+        22,
+        64,
+        72,
+        77,
+        81,
+        83,
+        86,
+        87,
+        89,
+        97,
+        98,
+        122
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 122
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        21,
+        23,
+        64,
+        79,
+        83,
+        84,
+        123
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 123
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        28,
+        30,
+        31,
+        64,
+        72,
+        77,
+        78,
+        81,
+        82,
+        83,
+        86,
+        87,
+        89,
+        90,
+        97,
+        98,
+        100,
+        124
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 124
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        29,
+        30,
+        72,
+        78,
+        82,
+        83,
+        86,
+        87,
+        89,
+        90,
+        125
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 125
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        30,
+        78,
+        82,
+        83,
+        86,
+        87,
+        89,
+        90,
+        126
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 126
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        31,
+        78,
+        83,
+        86,
+        87,
+        89,
+        90,
+        100,
+        127
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 127
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        31,
+        78,
+        83,
+        86,
+        87,
+        89,
+        90,
+        100,
+        128
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 128
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        30,
+        31,
+        33,
+        77,
+        78,
+        82,
+        83,
+        86,
+        87,
+        89,
+        90,
+        98,
+        100,
+        129
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 129
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        30,
+        31,
+        33,
+        77,
+        78,
+        82,
+        83,
+        86,
+        87,
+        89,
+        90,
+        98,
+        100,
+        130
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 130
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        34,
+        98,
+        131
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 131
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        37,
+        132
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 132
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAgentCreator",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deployImageAgent",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_configureAgent",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "configureAgent",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "requestImage",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "fulfillImage",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestRefund",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getRequestDetails",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getPendingFees",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setTaxWallet",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setTaxPercentage",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "removeAllowance",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "deployAgent",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "deployAgentWithETH",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "initializeAgent",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "swapETHForSPEC",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getTokensReceived",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getSPECReceived",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_getTokensFromUniswap",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getTokensFromBondingCurve",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getSPECAmountForTokens",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_createUniswapPool",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "swapExactSPECForTokens",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "swapExactTokensForSPEC",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "accumulateSwapFees",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_distributeSwapFees",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "distributeTradingProfitsToStakers",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "deployUniswapPool",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "withdrawEther",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "setParameter",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "addAlreadyExistingUniswapPool",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setAdmin",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "upgradeAllAgents",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "pause",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "isAgentToken",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setPauser",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "setDistributor",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "setSpectralStaking",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "configureAgent",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "requestImage",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "fulfillImage",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "requestRefund",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "getRequestDetails",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "agentConfigs",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "accumulatedFees",
+      "file": "IAgentImageService.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "agents",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "agentConfigs",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "accumulatedFees",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "pendingFees",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "imageRequests",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "agentRequestIds",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "requestProcessed",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "parameters",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "deployer",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "spectralTreasury",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "taxPercentage",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "taxWallet",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "owner",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "agentBalances",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "deployer",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "parameters",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "feeWallet",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "uniswapRouter",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "uniswapV3Router",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "uniswapFactory",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "agentTokenImplementation",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "UNISWAP_POOL_CREATION_VALUE",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "spectralToken",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "WETH",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "agentBalances",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "agentTokens",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "agentTokensSold",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "agentWallets",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "totalSPECDeposited",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "agentTokenUniswapPool",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "admin",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "agentsVersion",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "paused",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "pauser",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "INITIAL_VIRTUAL_LIQUIDITY",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "distributor",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "spectralStaking",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "accumulatedTaxToSwap",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "accumulatedTaxToSwapByAgent",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:95",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:100",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:105",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:115",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentImageService.sol:117",
+      "file": "AgentImageService.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:59",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:61",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:71",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:72",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:75",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "TRANSFER:AgentToken.sol:78",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:89",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentToken.sol:101",
+      "file": "AgentToken.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:159",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:194",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:217",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:219",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:222",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:225",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "CALL:AutonomousAgentDeployer.sol:230",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:234",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:264",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:293",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:334",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:362",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:395",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:401",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "TRANSFER:AutonomousAgentDeployer.sol:429",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:431",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AutonomousAgentDeployer.sol:441",
+      "file": "AutonomousAgentDeployer.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "call_site",
+      "name": "CALL:AutonomousAgentDeployer.sol:466",
+      "file": "AutonomousAgentDeployer.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 133,
+    "n_hyperedges": 29,
+    "n_functions": 57,
+    "n_state_vars": 45,
+    "n_call_sites": 31,
+    "avg_hyperedge_size": 8.551724137931034
+  },
+  "label": {
+    "vfp_id": "vfp_00001",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1068",
+      "CWE-1164",
+      "CWE-1288",
+      "CWE-1329",
+      "CWE-20",
+      "CWE-284",
+      "CWE-285",
+      "CWE-330",
+      "CWE-331",
+      "CWE-435",
+      "CWE-561",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-707",
+      "CWE-710",
+      "CWE-863"
+    ]
+  }
+}

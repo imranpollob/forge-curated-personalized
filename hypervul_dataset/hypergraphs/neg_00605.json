@@ -1,0 +1,593 @@
+{
+  "sample_id": "neg_00605",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proofFeeWithGasFeeBound",
+      "file": "pdp_src_Fees.sol",
+      "start_line": 39,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sybilFee",
+      "file": "pdp_src_Fees.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "receiveProofSetEvent",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 39,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getEventCount",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 53,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEvent",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 58,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "listEvents",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 95,
+      "end_line": 100,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 102,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getMaxProvingPeriod",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 112,
+      "end_line": 114,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "challengeWindow",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initChallengeWindowStart",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 124,
+      "end_line": 126,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "thisChallengeWindowStart",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 129,
+      "end_line": 142,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "nextChallengeWindowStart",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 146,
+      "end_line": 156,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getChallengesPerProof",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "proofSetCreated",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 167,
+      "end_line": 167,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "proofSetDeleted",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 169,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "rootsAdded",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 171,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "rootsScheduledRemove",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 173,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "possessionProven",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 177,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "nextProvingPeriod",
+      "file": "pdp_src_SimplePDPService.sol",
+      "start_line": 203,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "ATTO_FIL",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 9
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "FIL_TO_ATTO_FIL",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 10
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "SYBIL_FEE",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 13
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "ESTIMATED_MONTHLY_TIB_STORAGE_REWARD_USD",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 16
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "PROOF_FEE_PERCENTAGE",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 18
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "GAS_LIMIT_LEFT_PERCENTAGE",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 20
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "GAS_LIMIT_RIGHT_PERCENTAGE",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 22
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "USD_DECIMALS",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 23
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "TIB_IN_BYTES",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 26
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "EPOCHS_PER_MONTH",
+      "var_type": "uint256 constant",
+      "file": "pdp_src_Fees.sol",
+      "line": 28
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "proofSetEvents",
+      "var_type": "mapping(uint256 => EventRecord[]) public",
+      "file": "pdp_src_SimplePDPService.sol",
+      "line": 37
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "NO_CHALLENGE_SCHEDULED",
+      "var_type": "uint256 public constant",
+      "file": "pdp_src_SimplePDPService.sol",
+      "line": 82
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "NO_PROVING_DEADLINE",
+      "var_type": "uint256 public constant",
+      "file": "pdp_src_SimplePDPService.sol",
+      "line": 83
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "pdpVerifierAddress",
+      "var_type": "address public",
+      "file": "pdp_src_SimplePDPService.sol",
+      "line": 86
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "provingDeadlines",
+      "var_type": "mapping(uint256 => uint256) public",
+      "file": "pdp_src_SimplePDPService.sol",
+      "line": 87
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "provenThisPeriod",
+      "var_type": "mapping(uint256 => bool) public",
+      "file": "pdp_src_SimplePDPService.sol",
+      "line": 88
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proofFeeWithGasFeeBound",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sybilFee",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "receiveProofSetEvent",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getEventCount",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEvent",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "listEvents",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getMaxProvingPeriod",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "challengeWindow",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initChallengeWindowStart",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "thisChallengeWindowStart",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "nextChallengeWindowStart",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getChallengesPerProof",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "proofSetCreated",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "proofSetDeleted",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "rootsAdded",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "rootsScheduledRemove",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "possessionProven",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "nextProvingPeriod",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "ATTO_FIL",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "FIL_TO_ATTO_FIL",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "SYBIL_FEE",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "ESTIMATED_MONTHLY_TIB_STORAGE_REWARD_USD",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "PROOF_FEE_PERCENTAGE",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "GAS_LIMIT_LEFT_PERCENTAGE",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "GAS_LIMIT_RIGHT_PERCENTAGE",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "USD_DECIMALS",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "TIB_IN_BYTES",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "EPOCHS_PER_MONTH",
+      "file": "pdp_src_Fees.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "proofSetEvents",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "NO_CHALLENGE_SCHEDULED",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "NO_PROVING_DEADLINE",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "pdpVerifierAddress",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "provingDeadlines",
+      "file": "pdp_src_SimplePDPService.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "provenThisPeriod",
+      "file": "pdp_src_SimplePDPService.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 36,
+    "n_hyperedges": 0,
+    "n_functions": 20,
+    "n_state_vars": 16,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00605",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

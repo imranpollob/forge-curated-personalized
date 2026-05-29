@@ -1,0 +1,3424 @@
+{
+  "sample_id": "vfp_00032",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPositionKeeper",
+      "file": "PositionRouter.sol",
+      "start_line": 190,
+      "end_line": 193,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setCallbackGasLimit",
+      "file": "PositionRouter.sol",
+      "start_line": 195,
+      "end_line": 198,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMinExecutionFee",
+      "file": "PositionRouter.sol",
+      "start_line": 200,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setIsLeverageEnabled",
+      "file": "PositionRouter.sol",
+      "start_line": 205,
+      "end_line": 208,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setDelayValues",
+      "file": "PositionRouter.sol",
+      "start_line": 210,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setRequestKeysStartValues",
+      "file": "PositionRouter.sol",
+      "start_line": 217,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeIncreasePositions",
+      "file": "PositionRouter.sol",
+      "start_line": 224,
+      "end_line": 257,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "executeDecreasePositions",
+      "file": "PositionRouter.sol",
+      "start_line": 259,
+      "end_line": 291,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "createIncreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 293,
+      "end_line": 329,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "createIncreasePositionETH",
+      "file": "PositionRouter.sol",
+      "start_line": 331,
+      "end_line": 364,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "createDecreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 366,
+      "end_line": 403,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getRequestQueueLengths",
+      "file": "PositionRouter.sol",
+      "start_line": 405,
+      "end_line": 412,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "executeIncreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 414,
+      "end_line": 457,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "cancelIncreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 459,
+      "end_line": 494,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "executeDecreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 496,
+      "end_line": 541,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "cancelDecreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 543,
+      "end_line": 573,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getRequestKey",
+      "file": "PositionRouter.sol",
+      "start_line": 575,
+      "end_line": 577,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getIncreasePositionRequestPath",
+      "file": "PositionRouter.sol",
+      "start_line": 579,
+      "end_line": 582,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getDecreasePositionRequestPath",
+      "file": "PositionRouter.sol",
+      "start_line": 584,
+      "end_line": 587,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_setTraderReferralCode",
+      "file": "PositionRouter.sol",
+      "start_line": 589,
+      "end_line": 593,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_validateExecution",
+      "file": "PositionRouter.sol",
+      "start_line": 595,
+      "end_line": 615,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_validateCancellation",
+      "file": "PositionRouter.sol",
+      "start_line": 617,
+      "end_line": 633,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_createIncreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 635,
+      "end_line": 683,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_storeIncreasePositionRequest",
+      "file": "PositionRouter.sol",
+      "start_line": 685,
+      "end_line": 695,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_storeDecreasePositionRequest",
+      "file": "PositionRouter.sol",
+      "start_line": 697,
+      "end_line": 707,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_createDecreasePosition",
+      "file": "PositionRouter.sol",
+      "start_line": 709,
+      "end_line": 758,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_callRequestCallback",
+      "file": "PositionRouter.sol",
+      "start_line": 760,
+      "end_line": 785,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Vault.sol",
+      "start_line": 220,
+      "end_line": 238,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setVaultUtils",
+      "file": "Vault.sol",
+      "start_line": 240,
+      "end_line": 243,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setErrorController",
+      "file": "Vault.sol",
+      "start_line": 245,
+      "end_line": 248,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setError",
+      "file": "Vault.sol",
+      "start_line": 250,
+      "end_line": 253,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "allWhitelistedTokensLength",
+      "file": "Vault.sol",
+      "start_line": 255,
+      "end_line": 257,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setInManagerMode",
+      "file": "Vault.sol",
+      "start_line": 259,
+      "end_line": 262,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "Vault.sol",
+      "start_line": 264,
+      "end_line": 267,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "setInPrivateLiquidationMode",
+      "file": "Vault.sol",
+      "start_line": 269,
+      "end_line": 272,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setLiquidator",
+      "file": "Vault.sol",
+      "start_line": 274,
+      "end_line": 277,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setIsSwapEnabled",
+      "file": "Vault.sol",
+      "start_line": 279,
+      "end_line": 282,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setIsLeverageEnabled",
+      "file": "Vault.sol",
+      "start_line": 284,
+      "end_line": 287,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "setMaxGasPrice",
+      "file": "Vault.sol",
+      "start_line": 289,
+      "end_line": 292,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setGov",
+      "file": "Vault.sol",
+      "start_line": 294,
+      "end_line": 297,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setPriceFeed",
+      "file": "Vault.sol",
+      "start_line": 299,
+      "end_line": 302,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "setMaxLeverage",
+      "file": "Vault.sol",
+      "start_line": 304,
+      "end_line": 308,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setBufferAmount",
+      "file": "Vault.sol",
+      "start_line": 310,
+      "end_line": 313,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "setMaxGlobalShortSize",
+      "file": "Vault.sol",
+      "start_line": 315,
+      "end_line": 318,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "Vault.sol",
+      "start_line": 320,
+      "end_line": 348,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "setFundingRate",
+      "file": "Vault.sol",
+      "start_line": 350,
+      "end_line": 358,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setTokenConfig",
+      "file": "Vault.sol",
+      "start_line": 360,
+      "end_line": 391,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "clearTokenConfig",
+      "file": "Vault.sol",
+      "start_line": 393,
+      "end_line": 405,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "Vault.sol",
+      "start_line": 407,
+      "end_line": 414,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "addRouter",
+      "file": "Vault.sol",
+      "start_line": 416,
+      "end_line": 418,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "removeRouter",
+      "file": "Vault.sol",
+      "start_line": 420,
+      "end_line": 422,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "setUsdgAmount",
+      "file": "Vault.sol",
+      "start_line": 424,
+      "end_line": 434,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "upgradeVault",
+      "file": "Vault.sol",
+      "start_line": 437,
+      "end_line": 440,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "directPoolDeposit",
+      "file": "Vault.sol",
+      "start_line": 444,
+      "end_line": 450,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "buyUSDG",
+      "file": "Vault.sol",
+      "start_line": 452,
+      "end_line": 482,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "sellUSDG",
+      "file": "Vault.sol",
+      "start_line": 484,
+      "end_line": 518,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "swap",
+      "file": "Vault.sol",
+      "start_line": 520,
+      "end_line": 561,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "increasePosition",
+      "file": "Vault.sol",
+      "start_line": 563,
+      "end_line": 629,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "decreasePosition",
+      "file": "Vault.sol",
+      "start_line": 631,
+      "end_line": 635,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_decreasePosition",
+      "file": "Vault.sol",
+      "start_line": 637,
+      "end_line": 699,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "liquidatePosition",
+      "file": "Vault.sol",
+      "start_line": 701,
+      "end_line": 754,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "validateLiquidation",
+      "file": "Vault.sol",
+      "start_line": 757,
+      "end_line": 759,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "getMaxPrice",
+      "file": "Vault.sol",
+      "start_line": 761,
+      "end_line": 763,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "getMinPrice",
+      "file": "Vault.sol",
+      "start_line": 765,
+      "end_line": 767,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "getRedemptionAmount",
+      "file": "Vault.sol",
+      "start_line": 769,
+      "end_line": 773,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "getRedemptionCollateral",
+      "file": "Vault.sol",
+      "start_line": 775,
+      "end_line": 781,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "getRedemptionCollateralUsd",
+      "file": "Vault.sol",
+      "start_line": 783,
+      "end_line": 785,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "adjustForDecimals",
+      "file": "Vault.sol",
+      "start_line": 787,
+      "end_line": 791,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "tokenToUsdMin",
+      "file": "Vault.sol",
+      "start_line": 793,
+      "end_line": 798,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "usdToTokenMax",
+      "file": "Vault.sol",
+      "start_line": 800,
+      "end_line": 803,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "usdToTokenMin",
+      "file": "Vault.sol",
+      "start_line": 805,
+      "end_line": 808,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "usdToToken",
+      "file": "Vault.sol",
+      "start_line": 810,
+      "end_line": 814,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "getPosition",
+      "file": "Vault.sol",
+      "start_line": 816,
+      "end_line": 830,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "getPositionKey",
+      "file": "Vault.sol",
+      "start_line": 832,
+      "end_line": 839,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "updateCumulativeFundingRate",
+      "file": "Vault.sol",
+      "start_line": 841,
+      "end_line": 861,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "getNextFundingRate",
+      "file": "Vault.sol",
+      "start_line": 863,
+      "end_line": 872,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "getUtilisation",
+      "file": "Vault.sol",
+      "start_line": 874,
+      "end_line": 879,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "getPositionLeverage",
+      "file": "Vault.sol",
+      "start_line": 881,
+      "end_line": 886,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "getNextAveragePrice",
+      "file": "Vault.sol",
+      "start_line": 890,
+      "end_line": 900,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "getNextGlobalShortAveragePrice",
+      "file": "Vault.sol",
+      "start_line": 904,
+      "end_line": 915,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "getGlobalShortDelta",
+      "file": "Vault.sol",
+      "start_line": 917,
+      "end_line": 928,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "getPositionDelta",
+      "file": "Vault.sol",
+      "start_line": 930,
+      "end_line": 934,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "getDelta",
+      "file": "Vault.sol",
+      "start_line": 936,
+      "end_line": 958,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "getEntryFundingRate",
+      "file": "Vault.sol",
+      "start_line": 960,
+      "end_line": 962,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "getFundingFee",
+      "file": "Vault.sol",
+      "start_line": 964,
+      "end_line": 966,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "getPositionFee",
+      "file": "Vault.sol",
+      "start_line": 968,
+      "end_line": 970,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "getFeeBasisPoints",
+      "file": "Vault.sol",
+      "start_line": 981,
+      "end_line": 983,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "getTargetUsdgAmount",
+      "file": "Vault.sol",
+      "start_line": 985,
+      "end_line": 990,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "_reduceCollateral",
+      "file": "Vault.sol",
+      "start_line": 992,
+      "end_line": 1064,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "_validatePosition",
+      "file": "Vault.sol",
+      "start_line": 1066,
+      "end_line": 1072,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "_validateRouter",
+      "file": "Vault.sol",
+      "start_line": 1074,
+      "end_line": 1078,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "_validateTokens",
+      "file": "Vault.sol",
+      "start_line": 1080,
+      "end_line": 1092,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "_collectSwapFees",
+      "file": "Vault.sol",
+      "start_line": 1094,
+      "end_line": 1100,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "_collectMarginFees",
+      "file": "Vault.sol",
+      "start_line": 1102,
+      "end_line": 1113,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "_transferIn",
+      "file": "Vault.sol",
+      "start_line": 1115,
+      "end_line": 1121,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "_transferOut",
+      "file": "Vault.sol",
+      "start_line": 1123,
+      "end_line": 1126,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "_updateTokenBalance",
+      "file": "Vault.sol",
+      "start_line": 1128,
+      "end_line": 1131,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "_increasePoolAmount",
+      "file": "Vault.sol",
+      "start_line": 1133,
+      "end_line": 1138,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "_decreasePoolAmount",
+      "file": "Vault.sol",
+      "start_line": 1140,
+      "end_line": 1144,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "_validateBufferAmount",
+      "file": "Vault.sol",
+      "start_line": 1146,
+      "end_line": 1150,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "_increaseUsdgAmount",
+      "file": "Vault.sol",
+      "start_line": 1152,
+      "end_line": 1159,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "_decreaseUsdgAmount",
+      "file": "Vault.sol",
+      "start_line": 1161,
+      "end_line": 1173,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "_increaseReservedAmount",
+      "file": "Vault.sol",
+      "start_line": 1175,
+      "end_line": 1179,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "_decreaseReservedAmount",
+      "file": "Vault.sol",
+      "start_line": 1181,
+      "end_line": 1184,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "_increaseGuaranteedUsd",
+      "file": "Vault.sol",
+      "start_line": 1186,
+      "end_line": 1189,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "_decreaseGuaranteedUsd",
+      "file": "Vault.sol",
+      "start_line": 1191,
+      "end_line": 1194,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "_increaseGlobalShortSize",
+      "file": "Vault.sol",
+      "start_line": 1196,
+      "end_line": 1203,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "_decreaseGlobalShortSize",
+      "file": "Vault.sol",
+      "start_line": 1205,
+      "end_line": 1213,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "_onlyGov",
+      "file": "Vault.sol",
+      "start_line": 1216,
+      "end_line": 1218,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "_validateManager",
+      "file": "Vault.sol",
+      "start_line": 1221,
+      "end_line": 1225,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "_validateGasPrice",
+      "file": "Vault.sol",
+      "start_line": 1228,
+      "end_line": 1231,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "_validate",
+      "file": "Vault.sol",
+      "start_line": 1233,
+      "end_line": 1235,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 112,
+      "node_type": "state_var",
+      "name": "minExecutionFee",
+      "var_type": "uint256 public",
+      "file": "PositionRouter.sol",
+      "line": 50
+    },
+    {
+      "node_id": 113,
+      "node_type": "state_var",
+      "name": "minBlockDelayKeeper",
+      "var_type": "uint256 public",
+      "file": "PositionRouter.sol",
+      "line": 52
+    },
+    {
+      "node_id": 114,
+      "node_type": "state_var",
+      "name": "minTimeDelayPublic",
+      "var_type": "uint256 public",
+      "file": "PositionRouter.sol",
+      "line": 53
+    },
+    {
+      "node_id": 115,
+      "node_type": "state_var",
+      "name": "maxTimeDelay",
+      "var_type": "uint256 public",
+      "file": "PositionRouter.sol",
+      "line": 54
+    },
+    {
+      "node_id": 116,
+      "node_type": "state_var",
+      "name": "isLeverageEnabled",
+      "var_type": "bool public",
+      "file": "PositionRouter.sol",
+      "line": 56
+    },
+    {
+      "node_id": 117,
+      "node_type": "state_var",
+      "name": "increasePositionRequestKeys",
+      "var_type": "bytes32[] public",
+      "file": "PositionRouter.sol",
+      "line": 58
+    },
+    {
+      "node_id": 118,
+      "node_type": "state_var",
+      "name": "decreasePositionRequestKeys",
+      "var_type": "bytes32[] public",
+      "file": "PositionRouter.sol",
+      "line": 59
+    },
+    {
+      "node_id": 119,
+      "node_type": "state_var",
+      "name": "increasePositionRequestKeysStart",
+      "var_type": "uint256 public override",
+      "file": "PositionRouter.sol",
+      "line": 61
+    },
+    {
+      "node_id": 120,
+      "node_type": "state_var",
+      "name": "decreasePositionRequestKeysStart",
+      "var_type": "uint256 public override",
+      "file": "PositionRouter.sol",
+      "line": 62
+    },
+    {
+      "node_id": 121,
+      "node_type": "state_var",
+      "name": "callbackGasLimit",
+      "var_type": "uint256 public",
+      "file": "PositionRouter.sol",
+      "line": 64
+    },
+    {
+      "node_id": 122,
+      "node_type": "state_var",
+      "name": "isPositionKeeper",
+      "var_type": "mapping (address => bool) public",
+      "file": "PositionRouter.sol",
+      "line": 66
+    },
+    {
+      "node_id": 123,
+      "node_type": "state_var",
+      "name": "increasePositionsIndex",
+      "var_type": "mapping (address => uint256) public",
+      "file": "PositionRouter.sol",
+      "line": 68
+    },
+    {
+      "node_id": 124,
+      "node_type": "state_var",
+      "name": "increasePositionRequests",
+      "var_type": "mapping (bytes32 => IncreasePositionRequest) public",
+      "file": "PositionRouter.sol",
+      "line": 69
+    },
+    {
+      "node_id": 125,
+      "node_type": "state_var",
+      "name": "decreasePositionsIndex",
+      "var_type": "mapping (address => uint256) public",
+      "file": "PositionRouter.sol",
+      "line": 71
+    },
+    {
+      "node_id": 126,
+      "node_type": "state_var",
+      "name": "decreasePositionRequests",
+      "var_type": "mapping (bytes32 => DecreasePositionRequest) public",
+      "file": "PositionRouter.sol",
+      "line": 72
+    },
+    {
+      "node_id": 127,
+      "node_type": "state_var",
+      "name": "BASIS_POINTS_DIVISOR",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 29
+    },
+    {
+      "node_id": 128,
+      "node_type": "state_var",
+      "name": "FUNDING_RATE_PRECISION",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 30
+    },
+    {
+      "node_id": 129,
+      "node_type": "state_var",
+      "name": "PRICE_PRECISION",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 31
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "MIN_LEVERAGE",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 32
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "USDG_DECIMALS",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 33
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "MAX_FEE_BASIS_POINTS",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 34
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "MAX_LIQUIDATION_FEE_USD",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 35
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "MIN_FUNDING_RATE_INTERVAL",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 36
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "MAX_FUNDING_RATE_FACTOR",
+      "var_type": "uint256 public constant",
+      "file": "Vault.sol",
+      "line": 37
+    },
+    {
+      "node_id": 136,
+      "node_type": "state_var",
+      "name": "isInitialized",
+      "var_type": "bool public override",
+      "file": "Vault.sol",
+      "line": 39
+    },
+    {
+      "node_id": 137,
+      "node_type": "state_var",
+      "name": "isSwapEnabled",
+      "var_type": "bool public override",
+      "file": "Vault.sol",
+      "line": 40
+    },
+    {
+      "node_id": 138,
+      "node_type": "state_var",
+      "name": "isLeverageEnabled",
+      "var_type": "bool public override",
+      "file": "Vault.sol",
+      "line": 41
+    },
+    {
+      "node_id": 139,
+      "node_type": "state_var",
+      "name": "vaultUtils",
+      "var_type": "IVaultUtils public",
+      "file": "Vault.sol",
+      "line": 43
+    },
+    {
+      "node_id": 140,
+      "node_type": "state_var",
+      "name": "errorController",
+      "var_type": "address public",
+      "file": "Vault.sol",
+      "line": 45
+    },
+    {
+      "node_id": 141,
+      "node_type": "state_var",
+      "name": "router",
+      "var_type": "address public override",
+      "file": "Vault.sol",
+      "line": 47
+    },
+    {
+      "node_id": 142,
+      "node_type": "state_var",
+      "name": "priceFeed",
+      "var_type": "address public override",
+      "file": "Vault.sol",
+      "line": 48
+    },
+    {
+      "node_id": 143,
+      "node_type": "state_var",
+      "name": "usdg",
+      "var_type": "address public override",
+      "file": "Vault.sol",
+      "line": 50
+    },
+    {
+      "node_id": 144,
+      "node_type": "state_var",
+      "name": "gov",
+      "var_type": "address public override",
+      "file": "Vault.sol",
+      "line": 51
+    },
+    {
+      "node_id": 145,
+      "node_type": "state_var",
+      "name": "whitelistedTokenCount",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 53
+    },
+    {
+      "node_id": 146,
+      "node_type": "state_var",
+      "name": "maxLeverage",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 55
+    },
+    {
+      "node_id": 147,
+      "node_type": "state_var",
+      "name": "liquidationFeeUsd",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 57
+    },
+    {
+      "node_id": 148,
+      "node_type": "state_var",
+      "name": "taxBasisPoints",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 58
+    },
+    {
+      "node_id": 149,
+      "node_type": "state_var",
+      "name": "stableTaxBasisPoints",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 59
+    },
+    {
+      "node_id": 150,
+      "node_type": "state_var",
+      "name": "mintBurnFeeBasisPoints",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 60
+    },
+    {
+      "node_id": 151,
+      "node_type": "state_var",
+      "name": "swapFeeBasisPoints",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 61
+    },
+    {
+      "node_id": 152,
+      "node_type": "state_var",
+      "name": "stableSwapFeeBasisPoints",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 62
+    },
+    {
+      "node_id": 153,
+      "node_type": "state_var",
+      "name": "marginFeeBasisPoints",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 63
+    },
+    {
+      "node_id": 154,
+      "node_type": "state_var",
+      "name": "minProfitTime",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 65
+    },
+    {
+      "node_id": 155,
+      "node_type": "state_var",
+      "name": "hasDynamicFees",
+      "var_type": "bool public override",
+      "file": "Vault.sol",
+      "line": 66
+    },
+    {
+      "node_id": 156,
+      "node_type": "state_var",
+      "name": "fundingInterval",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 68
+    },
+    {
+      "node_id": 157,
+      "node_type": "state_var",
+      "name": "fundingRateFactor",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 69
+    },
+    {
+      "node_id": 158,
+      "node_type": "state_var",
+      "name": "stableFundingRateFactor",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 70
+    },
+    {
+      "node_id": 159,
+      "node_type": "state_var",
+      "name": "totalTokenWeights",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 71
+    },
+    {
+      "node_id": 160,
+      "node_type": "state_var",
+      "name": "includeAmmPrice",
+      "var_type": "bool public",
+      "file": "Vault.sol",
+      "line": 73
+    },
+    {
+      "node_id": 161,
+      "node_type": "state_var",
+      "name": "useSwapPricing",
+      "var_type": "bool public",
+      "file": "Vault.sol",
+      "line": 74
+    },
+    {
+      "node_id": 162,
+      "node_type": "state_var",
+      "name": "inManagerMode",
+      "var_type": "bool public override",
+      "file": "Vault.sol",
+      "line": 76
+    },
+    {
+      "node_id": 163,
+      "node_type": "state_var",
+      "name": "inPrivateLiquidationMode",
+      "var_type": "bool public override",
+      "file": "Vault.sol",
+      "line": 77
+    },
+    {
+      "node_id": 164,
+      "node_type": "state_var",
+      "name": "maxGasPrice",
+      "var_type": "uint256 public override",
+      "file": "Vault.sol",
+      "line": 79
+    },
+    {
+      "node_id": 165,
+      "node_type": "state_var",
+      "name": "approvedRouters",
+      "var_type": "mapping (address => mapping (address => bool)) public override",
+      "file": "Vault.sol",
+      "line": 81
+    },
+    {
+      "node_id": 166,
+      "node_type": "state_var",
+      "name": "isLiquidator",
+      "var_type": "mapping (address => bool) public override",
+      "file": "Vault.sol",
+      "line": 82
+    },
+    {
+      "node_id": 167,
+      "node_type": "state_var",
+      "name": "isManager",
+      "var_type": "mapping (address => bool) public override",
+      "file": "Vault.sol",
+      "line": 83
+    },
+    {
+      "node_id": 168,
+      "node_type": "state_var",
+      "name": "allWhitelistedTokens",
+      "var_type": "address[] public override",
+      "file": "Vault.sol",
+      "line": 85
+    },
+    {
+      "node_id": 169,
+      "node_type": "state_var",
+      "name": "whitelistedTokens",
+      "var_type": "mapping (address => bool) public override",
+      "file": "Vault.sol",
+      "line": 87
+    },
+    {
+      "node_id": 170,
+      "node_type": "state_var",
+      "name": "tokenDecimals",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 88
+    },
+    {
+      "node_id": 171,
+      "node_type": "state_var",
+      "name": "minProfitBasisPoints",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 89
+    },
+    {
+      "node_id": 172,
+      "node_type": "state_var",
+      "name": "stableTokens",
+      "var_type": "mapping (address => bool) public override",
+      "file": "Vault.sol",
+      "line": 90
+    },
+    {
+      "node_id": 173,
+      "node_type": "state_var",
+      "name": "shortableTokens",
+      "var_type": "mapping (address => bool) public override",
+      "file": "Vault.sol",
+      "line": 91
+    },
+    {
+      "node_id": 174,
+      "node_type": "state_var",
+      "name": "tokenBalances",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 94
+    },
+    {
+      "node_id": 175,
+      "node_type": "state_var",
+      "name": "tokenWeights",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 97
+    },
+    {
+      "node_id": 176,
+      "node_type": "state_var",
+      "name": "usdgAmounts",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 100
+    },
+    {
+      "node_id": 177,
+      "node_type": "state_var",
+      "name": "maxUsdgAmounts",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 103
+    },
+    {
+      "node_id": 178,
+      "node_type": "state_var",
+      "name": "poolAmounts",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 107
+    },
+    {
+      "node_id": 179,
+      "node_type": "state_var",
+      "name": "reservedAmounts",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 110
+    },
+    {
+      "node_id": 180,
+      "node_type": "state_var",
+      "name": "bufferAmounts",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 114
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "guaranteedUsd",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 121
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "cumulativeFundingRates",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 124
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "lastFundingTimes",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 126
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "positions",
+      "var_type": "mapping (bytes32 => Position) public",
+      "file": "Vault.sol",
+      "line": 129
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "feeReserves",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 132
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "globalShortSizes",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 134
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "globalShortAveragePrices",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 135
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "maxGlobalShortSizes",
+      "var_type": "mapping (address => uint256) public override",
+      "file": "Vault.sol",
+      "line": 136
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "errors",
+      "var_type": "mapping (uint256 => string) public",
+      "file": "Vault.sol",
+      "line": 138
+    },
+    {
+      "node_id": 190,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PositionRouter.sol:692",
+      "call_type": "INTERFACE_CALL",
+      "line": 692,
+      "enclosing_function": "_storeIncreasePositionRequest",
+      "file": "PositionRouter.sol",
+      "raw_text": "increasePositionRequestKeys.push(key);"
+    },
+    {
+      "node_id": 191,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PositionRouter.sol:704",
+      "call_type": "INTERFACE_CALL",
+      "line": 704,
+      "enclosing_function": "_storeDecreasePositionRequest",
+      "file": "PositionRouter.sol",
+      "raw_text": "decreasePositionRequestKeys.push(key);"
+    },
+    {
+      "node_id": 192,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:372",
+      "call_type": "INTERFACE_CALL",
+      "line": 372,
+      "enclosing_function": "setTokenConfig",
+      "file": "Vault.sol",
+      "raw_text": "whitelistedTokenCount = whitelistedTokenCount.add(1);"
+    },
+    {
+      "node_id": 193,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:373",
+      "call_type": "INTERFACE_CALL",
+      "line": 373,
+      "enclosing_function": "setTokenConfig",
+      "file": "Vault.sol",
+      "raw_text": "allWhitelistedTokens.push(_token);"
+    },
+    {
+      "node_id": 194,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:396",
+      "call_type": "INTERFACE_CALL",
+      "line": 396,
+      "enclosing_function": "clearTokenConfig",
+      "file": "Vault.sol",
+      "raw_text": "totalTokenWeights = totalTokenWeights.sub(tokenWeights[_token]);"
+    },
+    {
+      "node_id": 195,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:404",
+      "call_type": "INTERFACE_CALL",
+      "line": 404,
+      "enclosing_function": "clearTokenConfig",
+      "file": "Vault.sol",
+      "raw_text": "whitelistedTokenCount = whitelistedTokenCount.sub(1);"
+    },
+    {
+      "node_id": 196,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:468",
+      "call_type": "INTERFACE_CALL",
+      "line": 468,
+      "enclosing_function": "buyUSDG",
+      "file": "Vault.sol",
+      "raw_text": "uint256 feeBasisPoints = vaultUtils.getBuyUsdgFeeBasisPoints(_token, usdgAmount);"
+    },
+    {
+      "node_id": 197,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:508",
+      "call_type": "INTERFACE_CALL",
+      "line": 508,
+      "enclosing_function": "sellUSDG",
+      "file": "Vault.sol",
+      "raw_text": "uint256 feeBasisPoints = vaultUtils.getSellUsdgFeeBasisPoints(_token, usdgAmount);"
+    },
+    {
+      "node_id": 198,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:544",
+      "call_type": "INTERFACE_CALL",
+      "line": 544,
+      "enclosing_function": "swap",
+      "file": "Vault.sol",
+      "raw_text": "uint256 feeBasisPoints = vaultUtils.getSwapFeeBasisPoints(_tokenIn, _tokenOut, usdgAmount);"
+    },
+    {
+      "node_id": 199,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:568",
+      "call_type": "INTERFACE_CALL",
+      "line": 568,
+      "enclosing_function": "increasePosition",
+      "file": "Vault.sol",
+      "raw_text": "vaultUtils.validateIncreasePosition(_account, _collateralToken, _indexToken, _sizeDelta, _isLong);"
+    },
+    {
+      "node_id": 200,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:638",
+      "call_type": "INTERFACE_CALL",
+      "line": 638,
+      "enclosing_function": "_decreasePosition",
+      "file": "Vault.sol",
+      "raw_text": "vaultUtils.validateDecreasePosition(_account, _collateralToken, _indexToken, _collateralDelta, _sizeDelta, _isLong, _receiver);"
+    },
+    {
+      "node_id": 201,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:1095",
+      "call_type": "INTERFACE_CALL",
+      "line": 1095,
+      "enclosing_function": "_collectSwapFees",
+      "file": "Vault.sol",
+      "raw_text": "uint256 afterFeeAmount = _amount.mul(BASIS_POINTS_DIVISOR.sub(_feeBasisPoints)).div(BASIS_POINTS_DIVISOR);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        9,
+        22,
+        23,
+        112,
+        117,
+        123,
+        124,
+        190
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 190
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        10,
+        24,
+        25,
+        112,
+        118,
+        125,
+        126,
+        191
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 191
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        46,
+        145,
+        159,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        177,
+        192
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 192
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        46,
+        145,
+        159,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        177,
+        193
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 193
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        47,
+        145,
+        159,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        177,
+        194
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 194
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        47,
+        145,
+        159,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        177,
+        195
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 195
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        54,
+        129,
+        139,
+        143,
+        161,
+        169,
+        196
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 196
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        55,
+        139,
+        143,
+        161,
+        169,
+        197
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 197
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        56,
+        129,
+        137,
+        139,
+        143,
+        161,
+        169,
+        198
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 198
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        57,
+        116,
+        139,
+        184,
+        186,
+        187,
+        199
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 199
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        58,
+        59,
+        60,
+        139,
+        147,
+        160,
+        163,
+        166,
+        184,
+        185,
+        200
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 200
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        54,
+        55,
+        56,
+        92,
+        127,
+        129,
+        137,
+        139,
+        143,
+        161,
+        169,
+        185,
+        201
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 201
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPositionKeeper",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setCallbackGasLimit",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMinExecutionFee",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setIsLeverageEnabled",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setDelayValues",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setRequestKeysStartValues",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeIncreasePositions",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "executeDecreasePositions",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "createIncreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "createIncreasePositionETH",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "createDecreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getRequestQueueLengths",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "executeIncreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "cancelIncreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "executeDecreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "cancelDecreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getRequestKey",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getIncreasePositionRequestPath",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getDecreasePositionRequestPath",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_setTraderReferralCode",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_validateExecution",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_validateCancellation",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_createIncreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_storeIncreasePositionRequest",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_storeDecreasePositionRequest",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_createDecreasePosition",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_callRequestCallback",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setVaultUtils",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setErrorController",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setError",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "allWhitelistedTokensLength",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setInManagerMode",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "setInPrivateLiquidationMode",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setLiquidator",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setIsSwapEnabled",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setIsLeverageEnabled",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "setMaxGasPrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setGov",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setPriceFeed",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "setMaxLeverage",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setBufferAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "setMaxGlobalShortSize",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "setFundingRate",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setTokenConfig",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "clearTokenConfig",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "addRouter",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "removeRouter",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "setUsdgAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "upgradeVault",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "directPoolDeposit",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "buyUSDG",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "sellUSDG",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "swap",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "increasePosition",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "decreasePosition",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_decreasePosition",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "liquidatePosition",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "validateLiquidation",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "getMaxPrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "getMinPrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "getRedemptionAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "getRedemptionCollateral",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "getRedemptionCollateralUsd",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "adjustForDecimals",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "tokenToUsdMin",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "usdToTokenMax",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "usdToTokenMin",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "usdToToken",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "getPosition",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "getPositionKey",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "updateCumulativeFundingRate",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "getNextFundingRate",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "getUtilisation",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "getPositionLeverage",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "getNextAveragePrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "getNextGlobalShortAveragePrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "getGlobalShortDelta",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "getPositionDelta",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "getDelta",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "getEntryFundingRate",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "getFundingFee",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "getPositionFee",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "getFeeBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "getTargetUsdgAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "_reduceCollateral",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "_validatePosition",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "_validateRouter",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "_validateTokens",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "_collectSwapFees",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "_collectMarginFees",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "_transferIn",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "_transferOut",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "_updateTokenBalance",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "_increasePoolAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "_decreasePoolAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "_validateBufferAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "_increaseUsdgAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "_decreaseUsdgAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "_increaseReservedAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "_decreaseReservedAmount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "_increaseGuaranteedUsd",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "_decreaseGuaranteedUsd",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "_increaseGlobalShortSize",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "_decreaseGlobalShortSize",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "_onlyGov",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "_validateManager",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "_validateGasPrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "_validate",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "state_var",
+      "name": "minExecutionFee",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "state_var",
+      "name": "minBlockDelayKeeper",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "state_var",
+      "name": "minTimeDelayPublic",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "state_var",
+      "name": "maxTimeDelay",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "state_var",
+      "name": "isLeverageEnabled",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "state_var",
+      "name": "increasePositionRequestKeys",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "state_var",
+      "name": "decreasePositionRequestKeys",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "state_var",
+      "name": "increasePositionRequestKeysStart",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "state_var",
+      "name": "decreasePositionRequestKeysStart",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "state_var",
+      "name": "callbackGasLimit",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "state_var",
+      "name": "isPositionKeeper",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "state_var",
+      "name": "increasePositionsIndex",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "state_var",
+      "name": "increasePositionRequests",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "state_var",
+      "name": "decreasePositionsIndex",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "state_var",
+      "name": "decreasePositionRequests",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "state_var",
+      "name": "BASIS_POINTS_DIVISOR",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "state_var",
+      "name": "FUNDING_RATE_PRECISION",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "state_var",
+      "name": "PRICE_PRECISION",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "MIN_LEVERAGE",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "USDG_DECIMALS",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "MAX_FEE_BASIS_POINTS",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "MAX_LIQUIDATION_FEE_USD",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "MIN_FUNDING_RATE_INTERVAL",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "MAX_FUNDING_RATE_FACTOR",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "state_var",
+      "name": "isInitialized",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "state_var",
+      "name": "isSwapEnabled",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "state_var",
+      "name": "isLeverageEnabled",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "state_var",
+      "name": "vaultUtils",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "state_var",
+      "name": "errorController",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "state_var",
+      "name": "router",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "state_var",
+      "name": "priceFeed",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 143,
+      "node_type": "state_var",
+      "name": "usdg",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 144,
+      "node_type": "state_var",
+      "name": "gov",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 145,
+      "node_type": "state_var",
+      "name": "whitelistedTokenCount",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 146,
+      "node_type": "state_var",
+      "name": "maxLeverage",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 147,
+      "node_type": "state_var",
+      "name": "liquidationFeeUsd",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 148,
+      "node_type": "state_var",
+      "name": "taxBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 149,
+      "node_type": "state_var",
+      "name": "stableTaxBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 150,
+      "node_type": "state_var",
+      "name": "mintBurnFeeBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 151,
+      "node_type": "state_var",
+      "name": "swapFeeBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 152,
+      "node_type": "state_var",
+      "name": "stableSwapFeeBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 153,
+      "node_type": "state_var",
+      "name": "marginFeeBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 154,
+      "node_type": "state_var",
+      "name": "minProfitTime",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 155,
+      "node_type": "state_var",
+      "name": "hasDynamicFees",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 156,
+      "node_type": "state_var",
+      "name": "fundingInterval",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 157,
+      "node_type": "state_var",
+      "name": "fundingRateFactor",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 158,
+      "node_type": "state_var",
+      "name": "stableFundingRateFactor",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 159,
+      "node_type": "state_var",
+      "name": "totalTokenWeights",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 160,
+      "node_type": "state_var",
+      "name": "includeAmmPrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 161,
+      "node_type": "state_var",
+      "name": "useSwapPricing",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 162,
+      "node_type": "state_var",
+      "name": "inManagerMode",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 163,
+      "node_type": "state_var",
+      "name": "inPrivateLiquidationMode",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 164,
+      "node_type": "state_var",
+      "name": "maxGasPrice",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 165,
+      "node_type": "state_var",
+      "name": "approvedRouters",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 166,
+      "node_type": "state_var",
+      "name": "isLiquidator",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 167,
+      "node_type": "state_var",
+      "name": "isManager",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 168,
+      "node_type": "state_var",
+      "name": "allWhitelistedTokens",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 169,
+      "node_type": "state_var",
+      "name": "whitelistedTokens",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 170,
+      "node_type": "state_var",
+      "name": "tokenDecimals",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 171,
+      "node_type": "state_var",
+      "name": "minProfitBasisPoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 172,
+      "node_type": "state_var",
+      "name": "stableTokens",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 173,
+      "node_type": "state_var",
+      "name": "shortableTokens",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 174,
+      "node_type": "state_var",
+      "name": "tokenBalances",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 175,
+      "node_type": "state_var",
+      "name": "tokenWeights",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 176,
+      "node_type": "state_var",
+      "name": "usdgAmounts",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 177,
+      "node_type": "state_var",
+      "name": "maxUsdgAmounts",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 178,
+      "node_type": "state_var",
+      "name": "poolAmounts",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 179,
+      "node_type": "state_var",
+      "name": "reservedAmounts",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 180,
+      "node_type": "state_var",
+      "name": "bufferAmounts",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "guaranteedUsd",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "cumulativeFundingRates",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "lastFundingTimes",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "positions",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "feeReserves",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "globalShortSizes",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "globalShortAveragePrices",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "maxGlobalShortSizes",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "errors",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 190,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PositionRouter.sol:692",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 191,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PositionRouter.sol:704",
+      "file": "PositionRouter.sol"
+    },
+    {
+      "node_id": 192,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:372",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 193,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:373",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 194,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:396",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 195,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:404",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 196,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:468",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 197,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:508",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 198,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:544",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 199,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:568",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 200,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:638",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 201,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:1095",
+      "file": "Vault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 202,
+    "n_hyperedges": 12,
+    "n_functions": 112,
+    "n_state_vars": 78,
+    "n_call_sites": 12,
+    "avg_hyperedge_size": 9.583333333333334
+  },
+  "label": {
+    "vfp_id": "vfp_00032",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-424",
+      "CWE-693"
+    ]
+  }
+}

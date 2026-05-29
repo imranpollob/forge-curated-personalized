@@ -1,0 +1,105 @@
+{
+  "sample_id": "vfp_00162",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_consume",
+      "file": "AllocatorLogic.sol",
+      "start_line": 35,
+      "end_line": 59,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_registerAllocator",
+      "file": "AllocatorLogic.sol",
+      "start_line": 69,
+      "end_line": 81,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_hasConsumedAllocatorNonce",
+      "file": "AllocatorLogic.sol",
+      "start_line": 90,
+      "end_line": 92,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getLockDetails",
+      "file": "AllocatorLogic.sol",
+      "start_line": 103,
+      "end_line": 113,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_consume",
+      "file": "AllocatorLogic.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_registerAllocator",
+      "file": "AllocatorLogic.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_hasConsumedAllocatorNonce",
+      "file": "AllocatorLogic.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getLockDetails",
+      "file": "AllocatorLogic.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00162",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

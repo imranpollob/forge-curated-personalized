@@ -1,0 +1,349 @@
+{
+  "sample_id": "neg_00059",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "update",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 31,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateContractAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 46,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addOrUpdateContractNamesAndAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 58,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeContracts",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 71,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getContractNamesAndAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 92,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getContractAddress",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 109,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getContractAddressByHash",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 117,
+      "end_line": 119,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getContractAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 125,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getContractAddressesByHash",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 137,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_addOrUpdateContractNamesAndAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 154,
+      "end_line": 173,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_updateContractAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 179,
+      "end_line": 192,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_keccak256AbiEncode",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "start_line": 197,
+      "end_line": 199,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "ERR_ARRAY_LENGTHS",
+      "var_type": "string internal constant",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "line": 16
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ERR_ADDRESS_ZERO",
+      "var_type": "string internal constant",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "line": 17
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "contractNames",
+      "var_type": "string[] internal",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "line": 19
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "contractAddresses",
+      "var_type": "mapping(bytes32 => address) internal",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "line": 20
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "removeContracts",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "raw_text": "contractNames.pop();"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol:135",
+      "call_type": "INTERFACE_CALL",
+      "line": 135,
+      "enclosing_function": "_addOrUpdateContractNamesAndAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol",
+      "raw_text": "contractNames.push(_contractNames[i]);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        13,
+        14,
+        15,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        9,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "update",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateContractAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addOrUpdateContractNamesAndAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeContracts",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getContractNamesAndAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getContractAddress",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getContractAddressByHash",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getContractAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getContractAddressesByHash",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_addOrUpdateContractNamesAndAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_updateContractAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_keccak256AbiEncode",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "ERR_ARRAY_LENGTHS",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ERR_ADDRESS_ZERO",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "contractNames",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "contractAddresses",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol:70",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol:135",
+      "file": "fassets_contracts_flareSmartContracts_mock_AddressUpdaterMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 2,
+    "n_functions": 12,
+    "n_state_vars": 4,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 6.5
+  },
+  "label": {
+    "vfp_id": "neg_00059",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

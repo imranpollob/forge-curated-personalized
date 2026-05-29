@@ -1,0 +1,436 @@
+{
+  "sample_id": "vfp_00104",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getMessageStorageLibStorage",
+      "file": "MessageStorageLib.sol",
+      "start_line": 88,
+      "end_line": 92,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "generateProof",
+      "file": "MessageStorageLib.sol",
+      "start_line": 102,
+      "end_line": 148,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "MessageStorageLib.sol",
+      "start_line": 154,
+      "end_line": 166,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_hashMessage",
+      "file": "MessageStorageLib.sol",
+      "start_line": 177,
+      "end_line": 179,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_appendLeafToMmr",
+      "file": "MessageStorageLib.sol",
+      "start_line": 187,
+      "end_line": 203,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_createParentNodes",
+      "file": "MessageStorageLib.sol",
+      "start_line": 209,
+      "end_line": 231,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_generateProofData",
+      "file": "MessageStorageLib.sol",
+      "start_line": 241,
+      "end_line": 251,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_findLeafMountain",
+      "file": "MessageStorageLib.sol",
+      "start_line": 260,
+      "end_line": 286,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_collectOtherPeaks",
+      "file": "MessageStorageLib.sol",
+      "start_line": 293,
+      "end_line": 327,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_calculateRoot",
+      "file": "MessageStorageLib.sol",
+      "start_line": 334,
+      "end_line": 355,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_hashPeaksSequentially",
+      "file": "MessageStorageLib.sol",
+      "start_line": 362,
+      "end_line": 377,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getPeakNodeIndices",
+      "file": "MessageStorageLib.sol",
+      "start_line": 382,
+      "end_line": 385,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getPeakNodeIndicesForLeafCount",
+      "file": "MessageStorageLib.sol",
+      "start_line": 392,
+      "end_line": 422,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_calculateLeftSiblingIndex",
+      "file": "MessageStorageLib.sol",
+      "start_line": 430,
+      "end_line": 433,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_calculateMaxPossibleHeight",
+      "file": "MessageStorageLib.sol",
+      "start_line": 440,
+      "end_line": 450,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_hasCompleteMountainAtHeight",
+      "file": "MessageStorageLib.sol",
+      "start_line": 458,
+      "end_line": 460,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_calculatePeakIndex",
+      "file": "MessageStorageLib.sol",
+      "start_line": 468,
+      "end_line": 471,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_calculateTreeSize",
+      "file": "MessageStorageLib.sol",
+      "start_line": 478,
+      "end_line": 480,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_hashInternalNode",
+      "file": "MessageStorageLib.sol",
+      "start_line": 487,
+      "end_line": 492,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_hashOrderedPair",
+      "file": "MessageStorageLib.sol",
+      "start_line": 497,
+      "end_line": 499,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_popcount",
+      "file": "MessageStorageLib.sol",
+      "start_line": 506,
+      "end_line": 513,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_BIT",
+      "var_type": "uint256 private constant",
+      "file": "MessageStorageLib.sol",
+      "line": 36
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_MESSAGE_STORAGE_LIB_STORAGE_LOCATION",
+      "var_type": "bytes32 private constant",
+      "file": "MessageStorageLib.sol",
+      "line": 75
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_MAX_PEAKS",
+      "var_type": "uint256 private constant",
+      "file": "MessageStorageLib.sol",
+      "line": 79
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getMessageStorageLibStorage",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "generateProof",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_hashMessage",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_appendLeafToMmr",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_createParentNodes",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_generateProofData",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_findLeafMountain",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_collectOtherPeaks",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_calculateRoot",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_hashPeaksSequentially",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getPeakNodeIndices",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getPeakNodeIndicesForLeafCount",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_calculateLeftSiblingIndex",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_calculateMaxPossibleHeight",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_hasCompleteMountainAtHeight",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_calculatePeakIndex",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_calculateTreeSize",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_hashInternalNode",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_hashOrderedPair",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_popcount",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_BIT",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_MESSAGE_STORAGE_LIB_STORAGE_LOCATION",
+      "file": "MessageStorageLib.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_MAX_PEAKS",
+      "file": "MessageStorageLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 0,
+    "n_functions": 21,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00104",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

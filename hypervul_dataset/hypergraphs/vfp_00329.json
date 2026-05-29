@@ -1,0 +1,267 @@
+{
+  "sample_id": "vfp_00329",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createVault",
+      "file": "AlphaProVaultFactory.sol",
+      "start_line": 45,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setAllowedFactory",
+      "file": "AlphaProVaultFactory.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "numVaults",
+      "file": "AlphaProVaultFactory.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "AlphaProVaultFactory.sol",
+      "start_line": 68,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setGovernance",
+      "file": "AlphaProVaultFactory.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "acceptGovernance",
+      "file": "AlphaProVaultFactory.sol",
+      "start_line": 86,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "template",
+      "var_type": "address public immutable",
+      "file": "AlphaProVaultFactory.sol",
+      "line": 20
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "vaults",
+      "var_type": "address[] public",
+      "file": "AlphaProVaultFactory.sol",
+      "line": 21
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "isVault",
+      "var_type": "mapping(address => bool) public",
+      "file": "AlphaProVaultFactory.sol",
+      "line": 22
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "allowedFactories",
+      "var_type": "mapping(address => bool) public",
+      "file": "AlphaProVaultFactory.sol",
+      "line": 23
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "governance",
+      "var_type": "address public",
+      "file": "AlphaProVaultFactory.sol",
+      "line": 25
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "pendingGovernance",
+      "var_type": "address public",
+      "file": "AlphaProVaultFactory.sol",
+      "line": 26
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "var_type": "uint24 public",
+      "file": "AlphaProVaultFactory.sol",
+      "line": 27
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVaultFactory.sol:41",
+      "call_type": "INTERFACE_CALL",
+      "line": 41,
+      "enclosing_function": "createVault",
+      "file": "AlphaProVaultFactory.sol",
+      "raw_text": "vaults.push(vaultAddress);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createVault",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setAllowedFactory",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "numVaults",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setGovernance",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "acceptGovernance",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "template",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "vaults",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "isVault",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "allowedFactories",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "governance",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "pendingGovernance",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "file": "AlphaProVaultFactory.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVaultFactory.sol:41",
+      "file": "AlphaProVaultFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 1,
+    "n_functions": 6,
+    "n_state_vars": 7,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "vfp_00329",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

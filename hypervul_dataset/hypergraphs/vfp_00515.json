@@ -1,0 +1,215 @@
+{
+  "sample_id": "vfp_00515",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyCmpPubkey",
+      "file": "LibSecp256k1.sol",
+      "start_line": 17,
+      "end_line": 19,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyUncmpPubkey",
+      "file": "LibSecp256k1.sol",
+      "start_line": 25,
+      "end_line": 38,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyCmpPubkeyWithAddress",
+      "file": "LibSecp256k1.sol",
+      "start_line": 45,
+      "end_line": 51,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "verifyUncmpPubkeyWithAddress",
+      "file": "LibSecp256k1.sol",
+      "start_line": 58,
+      "end_line": 64,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "uncompressPubkey",
+      "file": "LibSecp256k1.sol",
+      "start_line": 71,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "compressPubkey",
+      "file": "LibSecp256k1.sol",
+      "start_line": 96,
+      "end_line": 113,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deriveAddressFromUncmpPubkey",
+      "file": "LibSecp256k1.sol",
+      "start_line": 120,
+      "end_line": 129,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deriveAddressFromCmpPubkey",
+      "file": "LibSecp256k1.sol",
+      "start_line": 136,
+      "end_line": 138,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "AA",
+      "var_type": "uint256 constant",
+      "file": "LibSecp256k1.sol",
+      "line": 9
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "BB",
+      "var_type": "uint256 constant",
+      "file": "LibSecp256k1.sol",
+      "line": 10
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PP",
+      "var_type": "uint256 constant",
+      "file": "LibSecp256k1.sol",
+      "line": 11
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyCmpPubkey",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyUncmpPubkey",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyCmpPubkeyWithAddress",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "verifyUncmpPubkeyWithAddress",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "uncompressPubkey",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "compressPubkey",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deriveAddressFromUncmpPubkey",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deriveAddressFromCmpPubkey",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "AA",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "BB",
+      "file": "LibSecp256k1.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PP",
+      "file": "LibSecp256k1.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00515",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

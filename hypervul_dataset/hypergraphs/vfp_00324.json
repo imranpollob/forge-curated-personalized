@@ -1,0 +1,311 @@
+{
+  "sample_id": "vfp_00324",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 37,
+      "end_line": 60,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getCurrentNodeShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 63,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCurrentVoterShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 69,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getCurrentProtocolDAOShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 75,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setNodeShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setVoterShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 88,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setProtocolDAOShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "calculateSplit",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 100,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getAverageSince",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 118,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getAccumulatorAt",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 144,
+      "end_line": 151,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getCurrentShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 154,
+      "end_line": 159,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_setShare",
+      "file": "RocketNetworkRevenues.sol",
+      "start_line": 164,
+      "end_line": 171,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "shareMagnitude",
+      "var_type": "uint256 private constant",
+      "file": "RocketNetworkRevenues.sol",
+      "line": 12
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "shareScale",
+      "var_type": "uint256 private constant",
+      "file": "RocketNetworkRevenues.sol",
+      "line": 13
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "nodeShareKey",
+      "var_type": "bytes32 private constant",
+      "file": "RocketNetworkRevenues.sol",
+      "line": 14
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "voterShareKey",
+      "var_type": "bytes32 private constant",
+      "file": "RocketNetworkRevenues.sol",
+      "line": 15
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "protocolDAOShareKey",
+      "var_type": "bytes32 private constant",
+      "file": "RocketNetworkRevenues.sol",
+      "line": 16
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getCurrentNodeShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCurrentVoterShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getCurrentProtocolDAOShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setNodeShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setVoterShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setProtocolDAOShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "calculateSplit",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getAverageSince",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getAccumulatorAt",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getCurrentShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_setShare",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "shareMagnitude",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "shareScale",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "nodeShareKey",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "voterShareKey",
+      "file": "RocketNetworkRevenues.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "protocolDAOShareKey",
+      "file": "RocketNetworkRevenues.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 0,
+    "n_functions": 12,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00324",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-284",
+      "CWE-285",
+      "CWE-863"
+    ]
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "sample_id": "neg_00395",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setAddr",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IANSResolver.sol",
+      "start_line": 5,
+      "end_line": 5,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addr",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IANSResolver.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setAgentCreator",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IOctoDistributor.sol",
+      "start_line": 12,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferHiringDistributions",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IOctoDistributor.sol",
+      "start_line": 15,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 42,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAdmin",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 51,
+      "end_line": 54,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setAgentWallet",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 57,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 66,
+      "end_line": 74,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawETH",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 76,
+      "end_line": 84,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 86,
+      "end_line": 99,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 101,
+      "end_line": 112,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claimForAgent",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 114,
+      "end_line": 120,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimETHForAgent",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 124,
+      "end_line": 126,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getLPBalance",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 128,
+      "end_line": 132,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getAgentBalance",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 134,
+      "end_line": 136,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "start_line": 138,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "agentWallets",
+      "var_type": "mapping (address => address) public",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "line": 16
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "agentBalance",
+      "var_type": "mapping (address => mapping(address => uint256)) private",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "line": 18
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "agentETHBalance",
+      "var_type": "mapping (address => uint256) public",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "line": 19
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "admin",
+      "var_type": "address public",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "line": 21
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint8 public",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "line": 23
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[50] private",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "line": 26
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "TRANSFER:autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol:81",
+      "call_type": "TRANSFER",
+      "line": 81,
+      "enclosing_function": "withdrawETH",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "raw_text": "payable(msg.sender).transfer(amount);"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "TRANSFER:autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol:104",
+      "call_type": "TRANSFER",
+      "line": 104,
+      "enclosing_function": "depositETH",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol",
+      "raw_text": "payable(agentWallets[agent]).transfer(msg.value);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        16,
+        18,
+        22
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        10,
+        16,
+        18,
+        23
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 23
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setAddr",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IANSResolver.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addr",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IANSResolver.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setAgentCreator",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IOctoDistributor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferHiringDistributions",
+      "file": "autonomous-agent-contracts_contracts_interfaces_IOctoDistributor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAdmin",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setAgentWallet",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawETH",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claimForAgent",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimETHForAgent",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getLPBalance",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getAgentBalance",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "agentWallets",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "agentBalance",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "agentETHBalance",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "admin",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "TRANSFER:autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol:81",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "TRANSFER:autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol:104",
+      "file": "autonomous-agent-contracts_contracts_testing_AgentBalancesUpgradeTest.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 2,
+    "n_functions": 16,
+    "n_state_vars": 6,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00395",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

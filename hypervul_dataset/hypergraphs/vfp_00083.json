@@ -1,0 +1,175 @@
+{
+  "sample_id": "vfp_00083",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 76,
+      "end_line": 113,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 121,
+      "end_line": 151,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getBlockNumber",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 156,
+      "end_line": 158,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 173,
+      "end_line": 207,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 214,
+      "end_line": 228,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_handleCollectedFees",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 235,
+      "end_line": 235,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 242,
+      "end_line": 259,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_lastCheckpoints",
+      "var_type": "mapping(PoolId id => Checkpoint) private",
+      "file": "AntiSandwichHook.sol",
+      "line": 64
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getBlockNumber",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_handleCollectedFees",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_lastCheckpoints",
+      "file": "AntiSandwichHook.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00083",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-691",
+      "CWE-710",
+      "CWE-834",
+      "CWE-835"
+    ]
+  }
+}

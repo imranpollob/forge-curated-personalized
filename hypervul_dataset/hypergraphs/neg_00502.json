@@ -1,0 +1,385 @@
+{
+  "sample_id": "neg_00502",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 37,
+      "end_line": 39,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isWhitelisted",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 41,
+      "end_line": 44,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "whitelistAddress",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 46,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "whitelistAddress",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 52,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "enableWhitelist",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 64,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "disableWhitelist",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 69,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setTrustedSigner",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 75,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setOperator",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 81,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setTrustedSigner",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 85,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setOperator",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "start_line": 90,
+      "end_line": 93,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getBlackListStatus",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "start_line": 34,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "addBlackList",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "start_line": 39,
+      "end_line": 43,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "removeBlackList",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "start_line": 45,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "mint",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "start_line": 51,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_update",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "start_line": 55,
+      "end_line": 63,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "trustedSigner",
+      "var_type": "address public",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "line": 13
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "whitelistEnabled",
+      "var_type": "bool public",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "line": 15
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_operators",
+      "var_type": "mapping(address => bool) private",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "line": 17
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "_whitelist",
+      "var_type": "mapping(address => bool) private",
+      "file": "aegis-contracts_contracts_AegisConfig.sol",
+      "line": 18
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "minter",
+      "var_type": "address public",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "line": 13
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "isBlackListed",
+      "var_type": "mapping(address => bool) public",
+      "file": "aegis-contracts_contracts_YUSD.sol",
+      "line": 15
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isWhitelisted",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "whitelistAddress",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "whitelistAddress",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "enableWhitelist",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "disableWhitelist",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setTrustedSigner",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setOperator",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setTrustedSigner",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setOperator",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getBlackListStatus",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "addBlackList",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "removeBlackList",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "mint",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_update",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "trustedSigner",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "whitelistEnabled",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_operators",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "_whitelist",
+      "file": "aegis-contracts_contracts_AegisConfig.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "minter",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "isBlackListed",
+      "file": "aegis-contracts_contracts_YUSD.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 0,
+    "n_functions": 16,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00502",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

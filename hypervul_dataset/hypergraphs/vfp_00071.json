@@ -1,0 +1,172 @@
+{
+  "sample_id": "vfp_00071",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "receiver",
+      "file": "BroadcasterOracle.sol",
+      "start_line": 54,
+      "end_line": 56,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "broadcaster",
+      "file": "BroadcasterOracle.sol",
+      "start_line": 62,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyMessage",
+      "file": "BroadcasterOracle.sol",
+      "start_line": 76,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "submit",
+      "file": "BroadcasterOracle.sol",
+      "start_line": 107,
+      "end_line": 116,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_hashPayloadHashes",
+      "file": "BroadcasterOracle.sol",
+      "start_line": 123,
+      "end_line": 137,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getMessage",
+      "file": "BroadcasterOracle.sol",
+      "start_line": 144,
+      "end_line": 152,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_receiver",
+      "var_type": "IReceiver private immutable",
+      "file": "BroadcasterOracle.sol",
+      "line": 26
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_broadcaster",
+      "var_type": "IBroadcaster private immutable",
+      "file": "BroadcasterOracle.sol",
+      "line": 28
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "receiver",
+      "file": "BroadcasterOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "broadcaster",
+      "file": "BroadcasterOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyMessage",
+      "file": "BroadcasterOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "submit",
+      "file": "BroadcasterOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_hashPayloadHashes",
+      "file": "BroadcasterOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getMessage",
+      "file": "BroadcasterOracle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_receiver",
+      "file": "BroadcasterOracle.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_broadcaster",
+      "file": "BroadcasterOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00071",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-345",
+      "CWE-346",
+      "CWE-693",
+      "CWE-707",
+      "CWE-940"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "sample_id": "vfp_00390",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFee",
+      "file": "BaseDynamicFee.sol",
+      "start_line": 37,
+      "end_line": 37,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterInitialize",
+      "file": "BaseDynamicFee.sol",
+      "start_line": 42,
+      "end_line": 51,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "poke",
+      "file": "BaseDynamicFee.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "BaseDynamicFee.sol",
+      "start_line": 79,
+      "end_line": 96,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFee",
+      "file": "BaseDynamicFee.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterInitialize",
+      "file": "BaseDynamicFee.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "poke",
+      "file": "BaseDynamicFee.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "BaseDynamicFee.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00390",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1068",
+      "CWE-284",
+      "CWE-285",
+      "CWE-435",
+      "CWE-710",
+      "CWE-862"
+    ]
+  }
+}

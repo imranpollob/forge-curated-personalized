@@ -1,0 +1,1077 @@
+{
+  "sample_id": "vfp_00528",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__SpokePool_init",
+      "file": "SpokePool.sol",
+      "start_line": 275,
+      "end_line": 286,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "SpokePool.sol",
+      "start_line": 317,
+      "end_line": 317,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pauseDeposits",
+      "file": "SpokePool.sol",
+      "start_line": 326,
+      "end_line": 329,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pauseFills",
+      "file": "SpokePool.sol",
+      "start_line": 337,
+      "end_line": 340,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setCrossDomainAdmin",
+      "file": "SpokePool.sol",
+      "start_line": 346,
+      "end_line": 348,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setWithdrawalRecipient",
+      "file": "SpokePool.sol",
+      "start_line": 354,
+      "end_line": 356,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setEnableRoute",
+      "file": "SpokePool.sol",
+      "start_line": 364,
+      "end_line": 371,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "relayRootBundle",
+      "file": "SpokePool.sol",
+      "start_line": 382,
+      "end_line": 388,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "emergencyDeleteRootBundle",
+      "file": "SpokePool.sol",
+      "start_line": 396,
+      "end_line": 404,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SpokePool.sol",
+      "start_line": 430,
+      "end_line": 450,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "depositFor",
+      "file": "SpokePool.sol",
+      "start_line": 472,
+      "end_line": 484,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositV3",
+      "file": "SpokePool.sol",
+      "start_line": 540,
+      "end_line": 609,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositV3Now",
+      "file": "SpokePool.sol",
+      "start_line": 643,
+      "end_line": 670,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositExclusive",
+      "file": "SpokePool.sol",
+      "start_line": 710,
+      "end_line": 738,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "speedUpV3Deposit",
+      "file": "SpokePool.sol",
+      "start_line": 758,
+      "end_line": 786,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "fillV3Relay",
+      "file": "SpokePool.sol",
+      "start_line": 833,
+      "end_line": 859,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "fillV3RelayWithUpdatedDeposit",
+      "file": "SpokePool.sol",
+      "start_line": 878,
+      "end_line": 912,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "requestV3SlowFill",
+      "file": "SpokePool.sol",
+      "start_line": 929,
+      "end_line": 955,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "fill",
+      "file": "SpokePool.sol",
+      "start_line": 964,
+      "end_line": 980,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "executeV3SlowRelayLeaf",
+      "file": "SpokePool.sol",
+      "start_line": 1003,
+      "end_line": 1027,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "executeRelayerRefundLeaf",
+      "file": "SpokePool.sol",
+      "start_line": 1037,
+      "end_line": 1074,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "chainId",
+      "file": "SpokePool.sol",
+      "start_line": 1084,
+      "end_line": 1086,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getCurrentTime",
+      "file": "SpokePool.sol",
+      "start_line": 1092,
+      "end_line": 1094,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "SpokePool.sol",
+      "start_line": 1100,
+      "end_line": 1164,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_distributeRelayerRefunds",
+      "file": "SpokePool.sol",
+      "start_line": 1166,
+      "end_line": 1191,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_setCrossDomainAdmin",
+      "file": "SpokePool.sol",
+      "start_line": 1193,
+      "end_line": 1197,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_setWithdrawalRecipient",
+      "file": "SpokePool.sol",
+      "start_line": 1199,
+      "end_line": 1203,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_preExecuteLeafHook",
+      "file": "SpokePool.sol",
+      "start_line": 1205,
+      "end_line": 1209,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_bridgeTokensToHubPool",
+      "file": "SpokePool.sol",
+      "start_line": 1212,
+      "end_line": 1212,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_setClaimedLeaf",
+      "file": "SpokePool.sol",
+      "start_line": 1214,
+      "end_line": 1222,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_verifyUpdateV3DepositMessage",
+      "file": "SpokePool.sol",
+      "start_line": 1224,
+      "end_line": 1255,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_verifyDepositorSignature",
+      "file": "SpokePool.sol",
+      "start_line": 1261,
+      "end_line": 1275,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_verifyV3SlowFill",
+      "file": "SpokePool.sol",
+      "start_line": 1277,
+      "end_line": 1290,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_computeAmountPostFees",
+      "file": "SpokePool.sol",
+      "start_line": 1292,
+      "end_line": 1294,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_getV3RelayHash",
+      "file": "SpokePool.sol",
+      "start_line": 1296,
+      "end_line": 1298,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_unwrapwrappedNativeTokenTo",
+      "file": "SpokePool.sol",
+      "start_line": 1301,
+      "end_line": 1308,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_fillRelayV3",
+      "file": "SpokePool.sol",
+      "start_line": 1312,
+      "end_line": 1409,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "SpokePool.sol",
+      "start_line": 1414,
+      "end_line": 1414,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "crossDomainAdmin",
+      "var_type": "address public",
+      "file": "SpokePool.sol",
+      "line": 45
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "withdrawalRecipient",
+      "var_type": "address public",
+      "file": "SpokePool.sol",
+      "line": 49
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "DEPRECATED_wrappedNativeToken",
+      "var_type": "WETH9Interface private",
+      "file": "SpokePool.sol",
+      "line": 56
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "DEPRECATED_depositQuoteTimeBuffer",
+      "var_type": "uint32 private",
+      "file": "SpokePool.sol",
+      "line": 57
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "numberOfDeposits",
+      "var_type": "uint32 public",
+      "file": "SpokePool.sol",
+      "line": 60
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "pausedFills",
+      "var_type": "bool public",
+      "file": "SpokePool.sol",
+      "line": 63
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "pausedDeposits",
+      "var_type": "bool public",
+      "file": "SpokePool.sol",
+      "line": 64
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "rootBundles",
+      "var_type": "RootBundle[] public",
+      "file": "SpokePool.sol",
+      "line": 67
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "enabledDepositRoutes",
+      "var_type": "mapping(address => mapping(uint256 => bool)) public",
+      "file": "SpokePool.sol",
+      "line": 70
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "DEPRECATED_relayFills",
+      "var_type": "mapping(bytes32 => uint256) private",
+      "file": "SpokePool.sol",
+      "line": 75
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "DEPRECATED_fillCounter",
+      "var_type": "mapping(address => uint256) private",
+      "file": "SpokePool.sol",
+      "line": 87
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "DEPRECATED_depositCounter",
+      "var_type": "mapping(address => uint256) private",
+      "file": "SpokePool.sol",
+      "line": 91
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "DEPRECATED_refundsRequested",
+      "var_type": "mapping(bytes32 => uint256) private",
+      "file": "SpokePool.sol",
+      "line": 96
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "fillStatuses",
+      "var_type": "mapping(bytes32 => uint256) public",
+      "file": "SpokePool.sol",
+      "line": 100
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "wrappedNativeToken",
+      "var_type": "WETH9Interface public immutable",
+      "file": "SpokePool.sol",
+      "line": 115
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "depositQuoteTimeBuffer",
+      "var_type": "uint32 public immutable",
+      "file": "SpokePool.sol",
+      "line": 120
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "fillDeadlineBuffer",
+      "var_type": "uint32 public immutable",
+      "file": "SpokePool.sol",
+      "line": 124
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "MAX_TRANSFER_SIZE",
+      "var_type": "uint256 public constant",
+      "file": "SpokePool.sol",
+      "line": 126
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "UPDATE_V3_DEPOSIT_DETAILS_HASH",
+      "var_type": "bytes32 public constant",
+      "file": "SpokePool.sol",
+      "line": 128
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "EMPTY_REPAYMENT_CHAIN_ID",
+      "var_type": "uint256 public constant",
+      "file": "SpokePool.sol",
+      "line": 134
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "EMPTY_RELAYER",
+      "var_type": "address public constant",
+      "file": "SpokePool.sol",
+      "line": 137
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "INFINITE_FILL_DEADLINE",
+      "var_type": "uint32 public constant",
+      "file": "SpokePool.sol",
+      "line": 145
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SpokePool.sol:303",
+      "call_type": "INTERFACE_CALL",
+      "line": 303,
+      "enclosing_function": "relayRootBundle",
+      "file": "SpokePool.sol",
+      "raw_text": "RootBundle storage rootBundle = rootBundles.push();"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:SpokePool.sol:634",
+      "call_type": "DELEGATECALL",
+      "line": 634,
+      "enclosing_function": "fill",
+      "file": "SpokePool.sol",
+      "raw_text": "(bool success, bytes memory data) = address(this).delegatecall("
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SpokePool.sol:930",
+      "call_type": "INTERFACE_CALL",
+      "line": 930,
+      "enclosing_function": "_unwrapwrappedNativeTokenTo",
+      "file": "SpokePool.sol",
+      "raw_text": "wrappedNativeToken.withdraw(amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        7,
+        45,
+        60
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 60
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        18,
+        61
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 61
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        15,
+        16,
+        19,
+        35,
+        36,
+        51,
+        52,
+        57,
+        58,
+        62
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 62
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__SpokePool_init",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pauseDeposits",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pauseFills",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setCrossDomainAdmin",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setWithdrawalRecipient",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setEnableRoute",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "relayRootBundle",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "emergencyDeleteRootBundle",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "depositFor",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositV3",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositV3Now",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositExclusive",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "speedUpV3Deposit",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "fillV3Relay",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "fillV3RelayWithUpdatedDeposit",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "requestV3SlowFill",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "fill",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "executeV3SlowRelayLeaf",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "executeRelayerRefundLeaf",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "chainId",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getCurrentTime",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_distributeRelayerRefunds",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_setCrossDomainAdmin",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_setWithdrawalRecipient",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_preExecuteLeafHook",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_bridgeTokensToHubPool",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_setClaimedLeaf",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_verifyUpdateV3DepositMessage",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_verifyDepositorSignature",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_verifyV3SlowFill",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_computeAmountPostFees",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_getV3RelayHash",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_unwrapwrappedNativeTokenTo",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_fillRelayV3",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "crossDomainAdmin",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "withdrawalRecipient",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "DEPRECATED_wrappedNativeToken",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "DEPRECATED_depositQuoteTimeBuffer",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "numberOfDeposits",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "pausedFills",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "pausedDeposits",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "rootBundles",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "enabledDepositRoutes",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "DEPRECATED_relayFills",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "DEPRECATED_fillCounter",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "DEPRECATED_depositCounter",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "DEPRECATED_refundsRequested",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "fillStatuses",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "wrappedNativeToken",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "depositQuoteTimeBuffer",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "fillDeadlineBuffer",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "MAX_TRANSFER_SIZE",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "UPDATE_V3_DEPOSIT_DETAILS_HASH",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "EMPTY_REPAYMENT_CHAIN_ID",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "EMPTY_RELAYER",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "INFINITE_FILL_DEADLINE",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SpokePool.sol:303",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:SpokePool.sol:634",
+      "file": "SpokePool.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SpokePool.sol:930",
+      "file": "SpokePool.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 63,
+    "n_hyperedges": 3,
+    "n_functions": 38,
+    "n_state_vars": 22,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00528",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-636",
+      "CWE-703",
+      "CWE-707",
+      "CWE-755"
+    ]
+  }
+}

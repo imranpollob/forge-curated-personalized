@@ -1,0 +1,145 @@
+{
+  "sample_id": "neg_00608",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "assetToShares",
+      "file": "contracts_src_lib_ShareMath.sol",
+      "start_line": 9,
+      "end_line": 20,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sharesToAsset",
+      "file": "contracts_src_lib_ShareMath.sol",
+      "start_line": 22,
+      "end_line": 29,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getSharesFromReceipt",
+      "file": "contracts_src_lib_ShareMath.sol",
+      "start_line": 39,
+      "end_line": 51,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pricePerShare",
+      "file": "contracts_src_lib_ShareMath.sol",
+      "start_line": 53,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "assertUint104",
+      "file": "contracts_src_lib_ShareMath.sol",
+      "start_line": 66,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "assertUint128",
+      "file": "contracts_src_lib_ShareMath.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "PLACEHOLDER_UINT",
+      "var_type": "uint256 internal constant",
+      "file": "contracts_src_lib_ShareMath.sol",
+      "line": 7
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "assetToShares",
+      "file": "contracts_src_lib_ShareMath.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sharesToAsset",
+      "file": "contracts_src_lib_ShareMath.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getSharesFromReceipt",
+      "file": "contracts_src_lib_ShareMath.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pricePerShare",
+      "file": "contracts_src_lib_ShareMath.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "assertUint104",
+      "file": "contracts_src_lib_ShareMath.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "assertUint128",
+      "file": "contracts_src_lib_ShareMath.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "PLACEHOLDER_UINT",
+      "file": "contracts_src_lib_ShareMath.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00608",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "sample_id": "neg_00668",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol",
+      "start_line": 76,
+      "end_line": 110,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAmountOut",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol",
+      "start_line": 122,
+      "end_line": 134,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimMessage",
+      "file": "7a6c887b_generic-bridging_src_interfaces_bridges_linea_IMessageService.sol",
+      "start_line": 19,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "7a6c887b_generic-bridging_src_interfaces_bridges_linea_IMessageService.sol",
+      "start_line": 37,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sender",
+      "file": "7a6c887b_generic-bridging_src_interfaces_bridges_linea_IMessageService.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "uniswapRouter",
+      "var_type": "IUniswapSwapRouterLike public immutable",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol",
+      "line": 23
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "quoter",
+      "var_type": "IUniswapQuoterLike public immutable",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol",
+      "line": 27
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol:60",
+      "call_type": "INTERFACE_CALL",
+      "line": 60,
+      "enclosing_function": "swap",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol",
+      "raw_text": "amountOut = uniswapRouter.exactInputSingle("
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol:88",
+      "call_type": "INTERFACE_CALL",
+      "line": 88,
+      "enclosing_function": "getAmountOut",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol",
+      "raw_text": "return quoter.quoteExactInputSingle(assetIn, assetOut, params.fee, amountIn, 0);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        5,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        6,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getAmountOut",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimMessage",
+      "file": "7a6c887b_generic-bridging_src_interfaces_bridges_linea_IMessageService.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "7a6c887b_generic-bridging_src_interfaces_bridges_linea_IMessageService.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sender",
+      "file": "7a6c887b_generic-bridging_src_interfaces_bridges_linea_IMessageService.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "uniswapRouter",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "quoter",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol:60",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol:88",
+      "file": "67cb0291_generic-protocol_src_periphery_swapper_UniswapV3Swapper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 2,
+    "n_functions": 5,
+    "n_state_vars": 2,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00668",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

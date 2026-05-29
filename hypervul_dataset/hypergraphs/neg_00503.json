@@ -1,0 +1,292 @@
+{
+  "sample_id": "neg_00503",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 19,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setTotalPooledEther",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 29,
+      "end_line": 31,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 33,
+      "end_line": 35,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 37,
+      "end_line": 39,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sharesOf",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 41,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getSharesByPooledEth",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 45,
+      "end_line": 47,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPooledEthByShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 49,
+      "end_line": 51,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 53,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferSharesFrom",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 59,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_transfer",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 66,
+      "end_line": 69,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_sharesOf",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 71,
+      "end_line": 73,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_transferShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 75,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_mintShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "start_line": 87,
+      "end_line": 95,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "var_type": "uint256 public",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "line": 8
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "totalPooledEther",
+      "var_type": "uint256 public",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "shares",
+      "var_type": "mapping(address => uint256) private",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol",
+      "line": 11
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setTotalPooledEther",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sharesOf",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getSharesByPooledEth",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPooledEthByShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferSharesFrom",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_transfer",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_sharesOf",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_transferShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_mintShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "totalPooledEther",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "shares",
+      "file": "SmartContracts_contracts_mock_tokens_StETHMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00503",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

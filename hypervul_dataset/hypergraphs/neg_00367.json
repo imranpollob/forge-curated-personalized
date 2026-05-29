@@ -1,0 +1,198 @@
+{
+  "sample_id": "neg_00367",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "start_line": 20,
+      "end_line": 24,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "start_line": 26,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "approve",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "start_line": 34,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "start_line": 40,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "start_line": 50,
+      "end_line": 54,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "line": 7
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "symbol",
+      "var_type": "string public",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "line": 8
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "decimals",
+      "var_type": "uint8 public",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "line": 9
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "var_type": "uint256 public override",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "line": 10
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "var_type": "mapping(address => uint256) public override",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "line": 12
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping(address => mapping(address => uint256)) public override",
+      "file": "aori_test_Mock_MockERC20.sol",
+      "line": 13
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "approve",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "symbol",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "decimals",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "file": "aori_test_Mock_MockERC20.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "aori_test_Mock_MockERC20.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00367",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

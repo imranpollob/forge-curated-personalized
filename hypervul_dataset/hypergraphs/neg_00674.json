@@ -1,0 +1,213 @@
+{
+  "sample_id": "neg_00674",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol",
+      "start_line": 23,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol",
+      "start_line": 28,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bridgeTokens",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol",
+      "start_line": 50,
+      "end_line": 54,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "bridgeMessage",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "permit2Deposit",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol",
+      "start_line": 50,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "bridge",
+      "var_type": "Mock_Bridge public immutable",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "deposits",
+      "var_type": "mapping(address => uint256) public",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol",
+      "line": 48
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SPOKE_POOL",
+      "var_type": "V3SpokePoolInterface public immutable",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol",
+      "line": 19
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "var_type": "IPermit2 public immutable",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol",
+      "line": 22
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "QUOTE_BEFORE_DEADLINE",
+      "var_type": "uint256 public immutable",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol",
+      "line": 26
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_permit2-order_Permit2Depositor.sol:48",
+      "call_type": "INTERFACE_CALL",
+      "line": 48,
+      "enclosing_function": "permit2Deposit",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol",
+      "raw_text": "SPOKE_POOL.depositV3("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        7,
+        8,
+        9,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bridgeTokens",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "bridgeMessage",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "permit2Deposit",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "bridge",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "deposits",
+      "file": "contracts_contracts_chain-adapters_Mock_Adapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SPOKE_POOL",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "QUOTE_BEFORE_DEADLINE",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_permit2-order_Permit2Depositor.sol:48",
+      "file": "contracts_contracts_permit2-order_Permit2Depositor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 1,
+    "n_functions": 5,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "neg_00674",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

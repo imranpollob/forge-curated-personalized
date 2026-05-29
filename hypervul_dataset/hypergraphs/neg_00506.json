@@ -1,0 +1,318 @@
+{
+  "sample_id": "neg_00506",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "name",
+      "file": "Vicuna-core-bl_contracts_dependencies_openzeppelin_contracts_IERC20Detailed.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "Vicuna-core-bl_contracts_dependencies_openzeppelin_contracts_IERC20Detailed.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "Vicuna-core-bl_contracts_dependencies_openzeppelin_contracts_IERC20Detailed.sol",
+      "start_line": 11,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "decodeSupplyParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 18,
+      "end_line": 32,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decodeSupplyWithPermitParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 44,
+      "end_line": 58,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decodeWithdrawParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 67,
+      "end_line": 81,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "decodeBorrowParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 92,
+      "end_line": 109,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decodeRepayParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 119,
+      "end_line": 138,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "decodeRepayWithPermitParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 150,
+      "end_line": 168,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "decodeSwapBorrowRateModeParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 177,
+      "end_line": 190,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "decodeRebalanceStableBorrowRateParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 199,
+      "end_line": 210,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "decodeSetUserUseReserveAsCollateralParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 219,
+      "end_line": 230,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "decodeLiquidationCallParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol",
+      "start_line": 243,
+      "end_line": 274,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "executeSupply",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol",
+      "start_line": 52,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "executeWithdraw",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol",
+      "start_line": 106,
+      "end_line": 163,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "executeFinalizeTransfer",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol",
+      "start_line": 177,
+      "end_line": 229,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "executeUseReserveAsCollateral",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol",
+      "start_line": 247,
+      "end_line": 296,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "name",
+      "file": "Vicuna-core-bl_contracts_dependencies_openzeppelin_contracts_IERC20Detailed.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "Vicuna-core-bl_contracts_dependencies_openzeppelin_contracts_IERC20Detailed.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "Vicuna-core-bl_contracts_dependencies_openzeppelin_contracts_IERC20Detailed.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "decodeSupplyParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decodeSupplyWithPermitParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decodeWithdrawParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "decodeBorrowParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decodeRepayParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "decodeRepayWithPermitParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "decodeSwapBorrowRateModeParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "decodeRebalanceStableBorrowRateParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "decodeSetUserUseReserveAsCollateralParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "decodeLiquidationCallParams",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_CalldataLogic.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "executeSupply",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "executeWithdraw",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "executeFinalizeTransfer",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "executeUseReserveAsCollateral",
+      "file": "Vicuna-core-bl_contracts_protocol_libraries_logic_SupplyLogic.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 0,
+    "n_functions": 17,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00506",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

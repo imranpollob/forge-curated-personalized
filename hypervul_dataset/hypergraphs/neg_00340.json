@@ -1,0 +1,264 @@
+{
+  "sample_id": "neg_00340",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol",
+      "start_line": 7,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol",
+      "start_line": 25,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addPlainReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol",
+      "start_line": 29,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol",
+      "start_line": 44,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "mock__addStakingModuleExitedValidators",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "start_line": 16,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "mock__removeStakingModule",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "start_line": 22,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getStakingModuleIds",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getStakingModule",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "start_line": 38,
+      "end_line": 43,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "modules",
+      "var_type": "mapping(uint256 => StakingRouter.StakingModule) private",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "line": 10
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "moduleIds",
+      "var_type": "uint256[] private",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "line": 12
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol:19",
+      "call_type": "INTERFACE_CALL",
+      "line": 19,
+      "enclosing_function": "mock__addStakingModuleExitedValidators",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "raw_text": "moduleIds.push(moduleId);"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol:28",
+      "call_type": "INTERFACE_CALL",
+      "line": 28,
+      "enclosing_function": "mock__removeStakingModule",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol",
+      "raw_text": "moduleIds.pop();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        9,
+        10,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        10,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addPlainReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getReport",
+      "file": "core_test_0.8.9_contracts_SecondOpinionOracle__Mock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "mock__addStakingModuleExitedValidators",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "mock__removeStakingModule",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getStakingModuleIds",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getStakingModule",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "modules",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "moduleIds",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol:19",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol:28",
+      "file": "core_test_0.8.9_contracts_StakingRouter__MockForSanityChecker.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 2,
+    "n_functions": 9,
+    "n_state_vars": 2,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.5
+  },
+  "label": {
+    "vfp_id": "neg_00340",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

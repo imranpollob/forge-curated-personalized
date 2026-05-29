@@ -1,0 +1,473 @@
+{
+  "sample_id": "vfp_00228",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 41,
+      "end_line": 53,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "lastStage",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "root",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rewardInfo",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 74,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "treasury",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "encodeLeaf",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 89,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimable",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 102,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claim",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 118,
+      "end_line": 127,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claimMultiple",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 132,
+      "end_line": 148,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimBatch",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 153,
+      "end_line": 170,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 174,
+      "end_line": 174,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fetchRewards",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 178,
+      "end_line": 188,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "fetchRewardsMultiple",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 190,
+      "end_line": 205,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "fetchRewardsBatch",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 207,
+      "end_line": 225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "addStage",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 227,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_setTreasury",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 254,
+      "end_line": 261,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_fetchRewards",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 263,
+      "end_line": 270,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_addStage",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 272,
+      "end_line": 286,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_stage",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 288,
+      "end_line": 290,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_claimable",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 292,
+      "end_line": 306,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 308,
+      "end_line": 335,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_availableRewardAmount",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 337,
+      "end_line": 339,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_leaf",
+      "file": "MerkleRewardDistributor.sol",
+      "start_line": 341,
+      "end_line": 349,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "MerkleRewardDistributor.sol",
+      "line": 27
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "MAX_CLAIM_VAULT_SIZE",
+      "var_type": "uint256 public constant",
+      "file": "MerkleRewardDistributor.sol",
+      "line": 30
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "MAX_CLAIM_STAGES_SIZE",
+      "var_type": "uint256 public constant",
+      "file": "MerkleRewardDistributor.sol",
+      "line": 33
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "lastStage",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "root",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rewardInfo",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "treasury",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "encodeLeaf",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimable",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claim",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claimMultiple",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimBatch",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fetchRewards",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "fetchRewardsMultiple",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "fetchRewardsBatch",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "addStage",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_setTreasury",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_fetchRewards",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_addStage",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_stage",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_claimable",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_availableRewardAmount",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_leaf",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "MANAGER_ROLE",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "MAX_CLAIM_VAULT_SIZE",
+      "file": "MerkleRewardDistributor.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "MAX_CLAIM_STAGES_SIZE",
+      "file": "MerkleRewardDistributor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 0,
+    "n_functions": 23,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00228",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1289",
+      "CWE-20",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754"
+    ]
+  }
+}

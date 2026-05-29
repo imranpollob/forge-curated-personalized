@@ -1,0 +1,831 @@
+{
+  "sample_id": "vfp_00223",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getStorageV1",
+      "file": "ReclaimQueue.sol",
+      "start_line": 60,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ReclaimQueue.sol",
+      "start_line": 78,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resolver",
+      "file": "ReclaimQueue.sol",
+      "start_line": 92,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "collector",
+      "file": "ReclaimQueue.sol",
+      "start_line": 96,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "reclaimPeriod",
+      "file": "ReclaimQueue.sol",
+      "start_line": 100,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isEnabled",
+      "file": "ReclaimQueue.sol",
+      "start_line": 104,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "queueInfo",
+      "file": "ReclaimQueue.sol",
+      "start_line": 108,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "queueItem",
+      "file": "ReclaimQueue.sol",
+      "start_line": 120,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "queueIndex",
+      "file": "ReclaimQueue.sol",
+      "start_line": 126,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "queueIndexItem",
+      "file": "ReclaimQueue.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "queueSyncLog",
+      "file": "ReclaimQueue.sol",
+      "start_line": 139,
+      "end_line": 143,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "pendingRequests",
+      "file": "ReclaimQueue.sol",
+      "start_line": 145,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "previewClaim",
+      "file": "ReclaimQueue.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "previewClaimPagination",
+      "file": "ReclaimQueue.sol",
+      "start_line": 168,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "previewSync",
+      "file": "ReclaimQueue.sol",
+      "start_line": 176,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "previewSyncWithBudget",
+      "file": "ReclaimQueue.sol",
+      "start_line": 182,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "request",
+      "file": "ReclaimQueue.sol",
+      "start_line": 214,
+      "end_line": 240,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "claim",
+      "file": "ReclaimQueue.sol",
+      "start_line": 242,
+      "end_line": 265,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "sync",
+      "file": "ReclaimQueue.sol",
+      "start_line": 267,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "ReclaimQueue.sol",
+      "start_line": 285,
+      "end_line": 285,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_authorizePause",
+      "file": "ReclaimQueue.sol",
+      "start_line": 287,
+      "end_line": 287,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "enableQueue",
+      "file": "ReclaimQueue.sol",
+      "start_line": 289,
+      "end_line": 291,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "disableQueue",
+      "file": "ReclaimQueue.sol",
+      "start_line": 293,
+      "end_line": 295,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setResolver",
+      "file": "ReclaimQueue.sol",
+      "start_line": 297,
+      "end_line": 299,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setCollector",
+      "file": "ReclaimQueue.sol",
+      "start_line": 301,
+      "end_line": 303,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "setReclaimPeriod",
+      "file": "ReclaimQueue.sol",
+      "start_line": 305,
+      "end_line": 307,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_convertToAssets",
+      "file": "ReclaimQueue.sol",
+      "start_line": 311,
+      "end_line": 319,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_fetchInitialCalcClaimState",
+      "file": "ReclaimQueue.sol",
+      "start_line": 328,
+      "end_line": 342,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_fetchSyncLogByReqId",
+      "file": "ReclaimQueue.sol",
+      "start_line": 344,
+      "end_line": 352,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_previewClaimPagination",
+      "file": "ReclaimQueue.sol",
+      "start_line": 354,
+      "end_line": 376,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_calcClaim",
+      "file": "ReclaimQueue.sol",
+      "start_line": 378,
+      "end_line": 421,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_execClaim",
+      "file": "ReclaimQueue.sol",
+      "start_line": 423,
+      "end_line": 479,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "ReclaimQueue.sol",
+      "start_line": 481,
+      "end_line": 505,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_calcSync",
+      "file": "ReclaimQueue.sol",
+      "start_line": 507,
+      "end_line": 543,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_sync",
+      "file": "ReclaimQueue.sol",
+      "start_line": 545,
+      "end_line": 588,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_enableQueue",
+      "file": "ReclaimQueue.sol",
+      "start_line": 590,
+      "end_line": 598,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_disableQueue",
+      "file": "ReclaimQueue.sol",
+      "start_line": 600,
+      "end_line": 604,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_setResolver",
+      "file": "ReclaimQueue.sol",
+      "start_line": 606,
+      "end_line": 609,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_setCollector",
+      "file": "ReclaimQueue.sol",
+      "start_line": 611,
+      "end_line": 614,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_setReclaimPeriod",
+      "file": "ReclaimQueue.sol",
+      "start_line": 616,
+      "end_line": 622,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_lowerBinaryLookup",
+      "file": "ReclaimQueue.sol",
+      "start_line": 624,
+      "end_line": 638,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_unsafeAccess",
+      "file": "ReclaimQueue.sol",
+      "start_line": 640,
+      "end_line": 649,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_validateIndex",
+      "file": "ReclaimQueue.sol",
+      "start_line": 651,
+      "end_line": 654,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_NAMESPACE",
+      "var_type": "string private constant",
+      "file": "ReclaimQueue.sol",
+      "line": 57
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "_slot",
+      "var_type": "bytes32 private immutable",
+      "file": "ReclaimQueue.sol",
+      "line": 58
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "MAX_CLAIM_SIZE",
+      "var_type": "uint32 public constant",
+      "file": "ReclaimQueue.sol",
+      "line": 70
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ReclaimQueue.sol:58",
+      "call_type": "INTERFACE_CALL",
+      "line": 58,
+      "enclosing_function": "",
+      "file": "ReclaimQueue.sol",
+      "raw_text": "bytes32 private immutable _slot = _NAMESPACE.storageSlot();"
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getStorageV1",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resolver",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "collector",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "reclaimPeriod",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isEnabled",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "queueInfo",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "queueItem",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "queueIndex",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "queueIndexItem",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "queueSyncLog",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "pendingRequests",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "previewClaim",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "previewClaimPagination",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "previewSync",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "previewSyncWithBudget",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "request",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "claim",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "sync",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_authorizePause",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "enableQueue",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "disableQueue",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setResolver",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setCollector",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "setReclaimPeriod",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_convertToAssets",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_fetchInitialCalcClaimState",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_fetchSyncLogByReqId",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_previewClaimPagination",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_calcClaim",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_execClaim",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_calcSync",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_sync",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_enableQueue",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_disableQueue",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_setResolver",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_setCollector",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_setReclaimPeriod",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_lowerBinaryLookup",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_unsafeAccess",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_validateIndex",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_NAMESPACE",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "_slot",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "MAX_CLAIM_SIZE",
+      "file": "ReclaimQueue.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ReclaimQueue.sol:58",
+      "file": "ReclaimQueue.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 47,
+    "n_hyperedges": 0,
+    "n_functions": 43,
+    "n_state_vars": 3,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00223",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-682",
+      "CWE-707"
+    ]
+  }
+}

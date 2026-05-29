@@ -1,0 +1,812 @@
+{
+  "sample_id": "vfp_00573",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getBTCDerivativeUSDSpotPrices",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 46,
+      "end_line": 48,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBTCDerivativeUSDAnchorPrice",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 58,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 75,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 86,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 91,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateOnchainSpotEncodings",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 108,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateMaxPriceDeviation",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_updateMaxPriceDeviation",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 128,
+      "end_line": 137,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getBTCDerivativeMinMaxPrice",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 143,
+      "end_line": 155,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getBTCDerivativeUSDAnchorPrice",
+      "file": "BTCDerivativeOracleBase.sol",
+      "start_line": 159,
+      "end_line": 159,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrice",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 49,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrices",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 61,
+      "end_line": 74,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 77,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 88,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateOnchainSpotEncodings",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 99,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "updateMaxPriceDeviation",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 108,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_updateMaxPriceDeviation",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 118,
+      "end_line": 127,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_getETHUSDSpotPrice",
+      "file": "ETHPriceOracle.sol",
+      "start_line": 133,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrices",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 61,
+      "end_line": 63,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getLSDETHSpotPrices",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getLSDUSDSpotPrices",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 73,
+      "end_line": 75,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getLSDUSDAnchorPrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 85,
+      "end_line": 99,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 102,
+      "end_line": 105,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 108,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 113,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "updateOnchainSpotEncodings",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 125,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "updateMaxPriceDeviation",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 141,
+      "end_line": 143,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_updateMaxPriceDeviation",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 151,
+      "end_line": 160,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_getETHUSDSpotPrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 166,
+      "end_line": 174,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_getLSDMinMaxPrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 180,
+      "end_line": 207,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_getLSDUSDAnchorPrice",
+      "file": "LSDPriceOracleBase.sol",
+      "start_line": 211,
+      "end_line": 211,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "Chainlink_BTC_USD_Spot",
+      "var_type": "bytes32 public immutable",
+      "file": "BTCDerivativeOracleBase.sol",
+      "line": 18
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_BTCDerivativeUSD",
+      "var_type": "bytes private",
+      "file": "BTCDerivativeOracleBase.sol",
+      "line": 25
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "maxPriceDeviation",
+      "var_type": "uint256 public",
+      "file": "BTCDerivativeOracleBase.sol",
+      "line": 28
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "Chainlink_ETH_USD_Spot",
+      "var_type": "bytes32 public immutable",
+      "file": "ETHPriceOracle.sol",
+      "line": 19
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_ETHUSD",
+      "var_type": "bytes private",
+      "file": "ETHPriceOracle.sol",
+      "line": 26
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "maxPriceDeviation",
+      "var_type": "uint256 public",
+      "file": "ETHPriceOracle.sol",
+      "line": 29
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "Chainlink_ETH_USD_Spot",
+      "var_type": "bytes32 public immutable",
+      "file": "LSDPriceOracleBase.sol",
+      "line": 19
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_ETHUSD",
+      "var_type": "bytes private",
+      "file": "LSDPriceOracleBase.sol",
+      "line": 26
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_LSDETH",
+      "var_type": "bytes private",
+      "file": "LSDPriceOracleBase.sol",
+      "line": 29
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_LSDUSD",
+      "var_type": "bytes private",
+      "file": "LSDPriceOracleBase.sol",
+      "line": 32
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "maxPriceDeviation",
+      "var_type": "uint256 public",
+      "file": "LSDPriceOracleBase.sol",
+      "line": 35
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getBTCDerivativeUSDSpotPrices",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBTCDerivativeUSDAnchorPrice",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateOnchainSpotEncodings",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateMaxPriceDeviation",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_updateMaxPriceDeviation",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getBTCDerivativeMinMaxPrice",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getBTCDerivativeUSDAnchorPrice",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrice",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrices",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateOnchainSpotEncodings",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "updateMaxPriceDeviation",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_updateMaxPriceDeviation",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_getETHUSDSpotPrice",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getETHUSDSpotPrices",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getLSDETHSpotPrices",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getLSDUSDSpotPrices",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getLSDUSDAnchorPrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "getExchangePrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getLiquidatePrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "updateOnchainSpotEncodings",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "updateMaxPriceDeviation",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_updateMaxPriceDeviation",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_getETHUSDSpotPrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_getLSDMinMaxPrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_getLSDUSDAnchorPrice",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "Chainlink_BTC_USD_Spot",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_BTCDerivativeUSD",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "maxPriceDeviation",
+      "file": "BTCDerivativeOracleBase.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "Chainlink_ETH_USD_Spot",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_ETHUSD",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "maxPriceDeviation",
+      "file": "ETHPriceOracle.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "Chainlink_ETH_USD_Spot",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_ETHUSD",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_LSDETH",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "onchainSpotEncodings_LSDUSD",
+      "file": "LSDPriceOracleBase.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "maxPriceDeviation",
+      "file": "LSDPriceOracleBase.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 47,
+    "n_hyperedges": 0,
+    "n_functions": 36,
+    "n_state_vars": 11,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00573",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1111",
+      "CWE-1164",
+      "CWE-1286",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-682",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

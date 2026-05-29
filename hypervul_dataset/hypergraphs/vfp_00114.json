@@ -1,0 +1,673 @@
+{
+  "sample_id": "vfp_00114",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setClaimer",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 41,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 47,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "skim",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 55,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 64,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 77,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "claim",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 94,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "ids",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 131,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 137,
+      "end_line": 139,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "CompoundV3Adapter.sol",
+      "start_line": 141,
+      "end_line": 143,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "createCompoundV3Adapter",
+      "file": "CompoundV3AdapterFactory.sol",
+      "start_line": 18,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setClaimer",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 48,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 54,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "skim",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 62,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 72,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 87,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "claim",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 106,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "ids",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 147,
+      "end_line": 151,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 153,
+      "end_line": 155,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "ERC4626MerklAdapter.sol",
+      "start_line": 157,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "address public immutable",
+      "file": "CompoundV3Adapter.sol",
+      "line": 16
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "var_type": "address public immutable",
+      "file": "CompoundV3Adapter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "asset",
+      "var_type": "address public immutable",
+      "file": "CompoundV3Adapter.sol",
+      "line": 18
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "comet",
+      "var_type": "address public immutable",
+      "file": "CompoundV3Adapter.sol",
+      "line": 19
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "cometRewards",
+      "var_type": "address public immutable",
+      "file": "CompoundV3Adapter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "var_type": "bytes32 public immutable",
+      "file": "CompoundV3Adapter.sol",
+      "line": 21
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "var_type": "address public",
+      "file": "CompoundV3Adapter.sol",
+      "line": 25
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "claimer",
+      "var_type": "address public",
+      "file": "CompoundV3Adapter.sol",
+      "line": 26
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "compoundV3Adapter",
+      "var_type": "mapping(address => mapping(address => address)) public",
+      "file": "CompoundV3AdapterFactory.sol",
+      "line": 12
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "isCompoundV3Adapter",
+      "var_type": "mapping(address => bool) public",
+      "file": "CompoundV3AdapterFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "address public immutable",
+      "file": "ERC4626MerklAdapter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "var_type": "address public immutable",
+      "file": "ERC4626MerklAdapter.sol",
+      "line": 21
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "erc4626Vault",
+      "var_type": "address public immutable",
+      "file": "ERC4626MerklAdapter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "var_type": "bytes32 public immutable",
+      "file": "ERC4626MerklAdapter.sol",
+      "line": 23
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "MERKL_DISTRIBUTOR",
+      "var_type": "address public constant",
+      "file": "ERC4626MerklAdapter.sol",
+      "line": 28
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "var_type": "address public",
+      "file": "ERC4626MerklAdapter.sol",
+      "line": 32
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "claimer",
+      "var_type": "address public",
+      "file": "ERC4626MerklAdapter.sol",
+      "line": 33
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "CALL:CompoundV3Adapter.sol:118",
+      "call_type": "CALL",
+      "line": 118,
+      "enclosing_function": "claim",
+      "file": "CompoundV3Adapter.sol",
+      "raw_text": "(bool success,) = swapper.call(swapData);"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "CALL:ERC4626MerklAdapter.sol:133",
+      "call_type": "CALL",
+      "line": 133,
+      "enclosing_function": "claim",
+      "file": "ERC4626MerklAdapter.sol",
+      "raw_text": "(bool success,) = swapParams[i].swapper.call(swapParams[i].swapData);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        20,
+        21,
+        22,
+        23,
+        26,
+        31,
+        33,
+        36
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 36
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        20,
+        21,
+        22,
+        23,
+        26,
+        31,
+        33,
+        37
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 37
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setClaimer",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "skim",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "claim",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "ids",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "createCompoundV3Adapter",
+      "file": "CompoundV3AdapterFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setClaimer",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "skim",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "claim",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "ids",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "asset",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "comet",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "cometRewards",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "claimer",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "compoundV3Adapter",
+      "file": "CompoundV3AdapterFactory.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "isCompoundV3Adapter",
+      "file": "CompoundV3AdapterFactory.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "erc4626Vault",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "MERKL_DISTRIBUTOR",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "claimer",
+      "file": "ERC4626MerklAdapter.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "CALL:CompoundV3Adapter.sol:118",
+      "file": "CompoundV3Adapter.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "CALL:ERC4626MerklAdapter.sol:133",
+      "file": "ERC4626MerklAdapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 38,
+    "n_hyperedges": 2,
+    "n_functions": 19,
+    "n_state_vars": 17,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 9.0
+  },
+  "label": {
+    "vfp_id": "vfp_00114",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1023",
+      "CWE-1093",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-184",
+      "CWE-20",
+      "CWE-691",
+      "CWE-693",
+      "CWE-697",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

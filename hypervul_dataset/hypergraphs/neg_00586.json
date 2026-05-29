@@ -1,0 +1,148 @@
+{
+  "sample_id": "neg_00586",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "permit",
+      "file": "ZKFi_V1_lib_openzeppelin-contracts_contracts_token_ERC20_extensions_IERC20Permit.sol",
+      "start_line": 66,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ZKFi_V1_lib_openzeppelin-contracts_contracts_token_ERC20_extensions_IERC20Permit.sol",
+      "start_line": 83,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "ZKFi_V1_lib_openzeppelin-contracts_contracts_token_ERC20_extensions_IERC20Permit.sol",
+      "start_line": 89,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "clock",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol",
+      "start_line": 19,
+      "end_line": 21,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_update",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol",
+      "start_line": 25,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol",
+      "start_line": 29,
+      "end_line": 31,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "permit",
+      "file": "ZKFi_V1_lib_openzeppelin-contracts_contracts_token_ERC20_extensions_IERC20Permit.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ZKFi_V1_lib_openzeppelin-contracts_contracts_token_ERC20_extensions_IERC20Permit.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "ZKFi_V1_lib_openzeppelin-contracts_contracts_token_ERC20_extensions_IERC20Permit.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "clock",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_update",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ZKFi_V2_lib_openzeppelin-contracts_contracts_mocks_docs_governance_MyTokenTimestampBased.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00586",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

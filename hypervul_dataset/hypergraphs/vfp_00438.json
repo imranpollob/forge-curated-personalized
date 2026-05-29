@@ -1,0 +1,1524 @@
+{
+  "sample_id": "vfp_00438",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateWhitelistedExecutor",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateWhitelistedMarket",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exerciseOption",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 71,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "settleOption",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 109,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_checkRange",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 133,
+      "end_line": 175,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hashTypedDataV4",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 177,
+      "end_line": 179,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getRangeCheckTypehash",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 181,
+      "end_line": 183,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getDomainSeparator",
+      "file": "ExerciseOptionFirewall.sol",
+      "start_line": 185,
+      "end_line": 187,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateWhitelistedSigner",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "wrap",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 81,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "swap",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 92,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "mintOption",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 105,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "sweep",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 157,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_checkRange",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 168,
+      "end_line": 210,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "hashTypedDataV4",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 212,
+      "end_line": 214,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getRangeCheckTypehash",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 216,
+      "end_line": 218,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getDomainSeparator",
+      "file": "MintOptionFirewall.sol",
+      "start_line": 220,
+      "end_line": 222,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "openSettle",
+      "file": "OpenSettlement.sol",
+      "start_line": 68,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setSettleFeeProtocol",
+      "file": "OpenSettlement.sol",
+      "start_line": 108,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setSettleFeePublic",
+      "file": "OpenSettlement.sol",
+      "start_line": 114,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setIsWhitelistedSettler",
+      "file": "OpenSettlement.sol",
+      "start_line": 121,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setPublicFeeRecipient",
+      "file": "OpenSettlement.sol",
+      "start_line": 130,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "updateIVSetter",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 46,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "updateIVs",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 55,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "updateVolatilityOffset",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 68,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "updateVolatilityMultiplier",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 82,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "updateMinOptionPricePercentage",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 96,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getOptionPrice",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 125,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getOptionPriceViaAdddress",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 154,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_getOptionPrice",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 176,
+      "end_line": 198,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "getOptionPriceViaTTL",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 206,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "getOptionPriceViaTTLViaAddress",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 231,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_getOptionPriceViaTTL",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 252,
+      "end_line": 274,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "getVolatility",
+      "file": "OptionPricingLinearV2.sol",
+      "start_line": 281,
+      "end_line": 298,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "onlyWhitelisted",
+      "file": "V3BaseHandler.sol",
+      "start_line": 158,
+      "end_line": 161,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "registerHook",
+      "file": "V3BaseHandler.sol",
+      "start_line": 166,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "mintPositionHandler",
+      "file": "V3BaseHandler.sol",
+      "start_line": 192,
+      "end_line": 220,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "mintInternal",
+      "file": "V3BaseHandler.sol",
+      "start_line": 222,
+      "end_line": 269,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "burnPositionHandler",
+      "file": "V3BaseHandler.sol",
+      "start_line": 286,
+      "end_line": 312,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "burnInternal",
+      "file": "V3BaseHandler.sol",
+      "start_line": 314,
+      "end_line": 339,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "usePositionHandler",
+      "file": "V3BaseHandler.sol",
+      "start_line": 344,
+      "end_line": 387,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "unusePositionHandler",
+      "file": "V3BaseHandler.sol",
+      "start_line": 392,
+      "end_line": 437,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "donateToPosition",
+      "file": "V3BaseHandler.sol",
+      "start_line": 442,
+      "end_line": 472,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "wildcardHandler",
+      "file": "V3BaseHandler.sol",
+      "start_line": 478,
+      "end_line": 489,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_reserveOps",
+      "file": "V3BaseHandler.sol",
+      "start_line": 494,
+      "end_line": 535,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_tokensToPull",
+      "file": "V3BaseHandler.sol",
+      "start_line": 541,
+      "end_line": 562,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "tokensToPullForUnUse",
+      "file": "V3BaseHandler.sol",
+      "start_line": 568,
+      "end_line": 574,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "tokensToPullForDonate",
+      "file": "V3BaseHandler.sol",
+      "start_line": 580,
+      "end_line": 596,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "tokensToPullForWildcard",
+      "file": "V3BaseHandler.sol",
+      "start_line": 602,
+      "end_line": 606,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "getHandlerIdentifier",
+      "file": "V3BaseHandler.sol",
+      "start_line": 611,
+      "end_line": 616,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "tokensToPullForMint",
+      "file": "V3BaseHandler.sol",
+      "start_line": 622,
+      "end_line": 628,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_getCurrentSqrtPriceX96",
+      "file": "V3BaseHandler.sol",
+      "start_line": 634,
+      "end_line": 636,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_addLiquidity",
+      "file": "V3BaseHandler.sol",
+      "start_line": 648,
+      "end_line": 655,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_removeLiquidity",
+      "file": "V3BaseHandler.sol",
+      "start_line": 664,
+      "end_line": 668,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_computePositionKey",
+      "file": "V3BaseHandler.sol",
+      "start_line": 675,
+      "end_line": 677,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_collectFees",
+      "file": "V3BaseHandler.sol",
+      "start_line": 681,
+      "end_line": 699,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_feeCalculation",
+      "file": "V3BaseHandler.sol",
+      "start_line": 706,
+      "end_line": 731,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "updateHandlerSettings",
+      "file": "V3BaseHandler.sol",
+      "start_line": 741,
+      "end_line": 751,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "sweepTokens",
+      "file": "V3BaseHandler.sol",
+      "start_line": 758,
+      "end_line": 760,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "emergencyPause",
+      "file": "V3BaseHandler.sol",
+      "start_line": 763,
+      "end_line": 765,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "emergencyUnpause",
+      "file": "V3BaseHandler.sol",
+      "start_line": 768,
+      "end_line": 770,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "V3BaseHandler.sol",
+      "start_line": 775,
+      "end_line": 777,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "whitelistedExecutors",
+      "var_type": "mapping(address => bool) public",
+      "file": "ExerciseOptionFirewall.sol",
+      "line": 19
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "whitelistedMarkets",
+      "var_type": "mapping(address => bool) public",
+      "file": "ExerciseOptionFirewall.sol",
+      "line": 20
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "RANGE_CHECK_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "ExerciseOptionFirewall.sol",
+      "line": 55
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "whitelistedSigners",
+      "var_type": "mapping(address => bool) public",
+      "file": "MintOptionFirewall.sol",
+      "line": 21
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "RANGE_CHECK_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "MintOptionFirewall.sol",
+      "line": 59
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "settleFeeProtocol",
+      "var_type": "uint256 public",
+      "file": "OpenSettlement.sol",
+      "line": 31
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "settleFeePublic",
+      "var_type": "uint256 public",
+      "file": "OpenSettlement.sol",
+      "line": 34
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "SETTLE_FEE_PRECISION",
+      "var_type": "uint256 public constant",
+      "file": "OpenSettlement.sol",
+      "line": 37
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "publicFeeRecipient",
+      "var_type": "address public",
+      "file": "OpenSettlement.sol",
+      "line": 40
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "isWhitelistedSettler",
+      "var_type": "mapping(address => bool) public",
+      "file": "OpenSettlement.sol",
+      "line": 43
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "volatilityOffset",
+      "var_type": "mapping(address => uint256) public",
+      "file": "OptionPricingLinearV2.sol",
+      "line": 15
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "volatilityMultiplier",
+      "var_type": "mapping(address => uint256) public",
+      "file": "OptionPricingLinearV2.sol",
+      "line": 18
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "minOptionPricePercentage",
+      "var_type": "mapping(address => uint256) public",
+      "file": "OptionPricingLinearV2.sol",
+      "line": 21
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "VOLATILITY_PRECISION",
+      "var_type": "uint256 public constant",
+      "file": "OptionPricingLinearV2.sol",
+      "line": 24
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "ttlToVol",
+      "var_type": "mapping(address => mapping(uint256 => uint256)) public",
+      "file": "OptionPricingLinearV2.sol",
+      "line": 27
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "ivSetter",
+      "var_type": "mapping(address => bool) public",
+      "file": "OptionPricingLinearV2.sol",
+      "line": 30
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "tokenIds",
+      "var_type": "mapping(uint256 => TokenIdInfo) public",
+      "file": "V3BaseHandler.sol",
+      "line": 111
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "whitelistedApps",
+      "var_type": "mapping(address => bool) public",
+      "file": "V3BaseHandler.sol",
+      "line": 113
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "reservedLiquidityPerUser",
+      "var_type": "mapping(uint256 => mapping(address => ReserveLiquidityInfo)) public",
+      "file": "V3BaseHandler.sol",
+      "line": 115
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "reserveCooldownHook",
+      "var_type": "mapping(address => uint64) public",
+      "file": "V3BaseHandler.sol",
+      "line": 118
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "hookRegistered",
+      "var_type": "mapping(address => bool) public",
+      "file": "V3BaseHandler.sol",
+      "line": 121
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "hookPerms",
+      "var_type": "mapping(address => HookPermInfo) public",
+      "file": "V3BaseHandler.sol",
+      "line": 124
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "feeReceiver",
+      "var_type": "address public",
+      "file": "V3BaseHandler.sol",
+      "line": 127
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "pause",
+      "var_type": "bool",
+      "file": "V3BaseHandler.sol",
+      "line": 130
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "STATICCALL:ExerciseOptionFirewall.sol:164",
+      "call_type": "STATICCALL",
+      "line": 164,
+      "enclosing_function": "_checkRange",
+      "file": "ExerciseOptionFirewall.sol",
+      "raw_text": "(, bytes memory result) = address(optionTicks.pool).staticcall(abi.encodeWithSignature(\"slot0()\"));"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "STATICCALL:MintOptionFirewall.sol:199",
+      "call_type": "STATICCALL",
+      "line": 199,
+      "enclosing_function": "_checkRange",
+      "file": "MintOptionFirewall.sol",
+      "raw_text": "(, bytes memory result) = address(optionTicks.pool).staticcall(abi.encodeWithSignature(\"slot0()\"));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        4,
+        11,
+        63,
+        64,
+        65,
+        66,
+        87
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 87
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        4,
+        11,
+        63,
+        64,
+        65,
+        66,
+        88
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 88
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateWhitelistedExecutor",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateWhitelistedMarket",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exerciseOption",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "settleOption",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_checkRange",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hashTypedDataV4",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getRangeCheckTypehash",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getDomainSeparator",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateWhitelistedSigner",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "wrap",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "swap",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "mintOption",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "sweep",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_checkRange",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "hashTypedDataV4",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getRangeCheckTypehash",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getDomainSeparator",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "openSettle",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setSettleFeeProtocol",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setSettleFeePublic",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setIsWhitelistedSettler",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setPublicFeeRecipient",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "updateIVSetter",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "updateIVs",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "updateVolatilityOffset",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "updateVolatilityMultiplier",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "updateMinOptionPricePercentage",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getOptionPrice",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getOptionPriceViaAdddress",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_getOptionPrice",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "getOptionPriceViaTTL",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "getOptionPriceViaTTLViaAddress",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_getOptionPriceViaTTL",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "getVolatility",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "onlyWhitelisted",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "registerHook",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "mintPositionHandler",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "mintInternal",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "burnPositionHandler",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "burnInternal",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "usePositionHandler",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "unusePositionHandler",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "donateToPosition",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "wildcardHandler",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_reserveOps",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_tokensToPull",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "tokensToPullForUnUse",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "tokensToPullForDonate",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "tokensToPullForWildcard",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "getHandlerIdentifier",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "tokensToPullForMint",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_getCurrentSqrtPriceX96",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_addLiquidity",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_removeLiquidity",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_computePositionKey",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_collectFees",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_feeCalculation",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "updateHandlerSettings",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "sweepTokens",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "emergencyPause",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "emergencyUnpause",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "whitelistedExecutors",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "whitelistedMarkets",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "RANGE_CHECK_TYPEHASH",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "whitelistedSigners",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "RANGE_CHECK_TYPEHASH",
+      "file": "MintOptionFirewall.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "settleFeeProtocol",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "settleFeePublic",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "SETTLE_FEE_PRECISION",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "publicFeeRecipient",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "isWhitelistedSettler",
+      "file": "OpenSettlement.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "volatilityOffset",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "volatilityMultiplier",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "minOptionPricePercentage",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "VOLATILITY_PRECISION",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "ttlToVol",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "ivSetter",
+      "file": "OptionPricingLinearV2.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "tokenIds",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "whitelistedApps",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "reservedLiquidityPerUser",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "reserveCooldownHook",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "hookRegistered",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "hookPerms",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "feeReceiver",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "pause",
+      "file": "V3BaseHandler.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "STATICCALL:ExerciseOptionFirewall.sol:164",
+      "file": "ExerciseOptionFirewall.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "STATICCALL:MintOptionFirewall.sol:199",
+      "file": "MintOptionFirewall.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 89,
+    "n_hyperedges": 2,
+    "n_functions": 63,
+    "n_state_vars": 24,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 8.0
+  },
+  "label": {
+    "vfp_id": "vfp_00438",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1164",
+      "CWE-221",
+      "CWE-223",
+      "CWE-358",
+      "CWE-573",
+      "CWE-628",
+      "CWE-664",
+      "CWE-666",
+      "CWE-669",
+      "CWE-670",
+      "CWE-688",
+      "CWE-691",
+      "CWE-693",
+      "CWE-697",
+      "CWE-710",
+      "CWE-778"
+    ]
+  }
+}

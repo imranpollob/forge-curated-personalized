@@ -1,0 +1,193 @@
+{
+  "sample_id": "neg_00330",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mock__setVaultConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 12,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mock__deleteVaultConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "vaultConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 20,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mock__setVaultRecord",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 24,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "vaultRecord",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isVaultConnected",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 32,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "liabilityShares",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 36,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "start_line": 40,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "vaultConnections",
+      "var_type": "mapping(address => VaultHub.VaultConnection) public",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "line": 9
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "vaultRecords",
+      "var_type": "mapping(address => VaultHub.VaultRecord) public",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol",
+      "line": 10
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mock__setVaultConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mock__deleteVaultConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "vaultConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mock__setVaultRecord",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "vaultRecord",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isVaultConnected",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "liabilityShares",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateConnection",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "vaultConnections",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "vaultRecords",
+      "file": "core_test_0.8.25_vaults_operator-grid_contracts_VaultHub__MockForOperatorGrid.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00330",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

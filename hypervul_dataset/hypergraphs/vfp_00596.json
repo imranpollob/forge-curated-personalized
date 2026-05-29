@@ -1,0 +1,143 @@
+{
+  "sample_id": "vfp_00596",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_setImplementation",
+      "file": "UpgradeableProxy.sol",
+      "start_line": 71,
+      "end_line": 75,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getImplementation",
+      "file": "UpgradeableProxy.sol",
+      "start_line": 83,
+      "end_line": 91,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "upgradeTo",
+      "file": "UpgradeableProxy.sol",
+      "start_line": 100,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "initializeImplementation",
+      "file": "UpgradeableProxy.sol",
+      "start_line": 123,
+      "end_line": 145,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "implementation",
+      "file": "UpgradeableProxy.sol",
+      "start_line": 152,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_IMPLEMENTATION_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "UpgradeableProxy.sol",
+      "line": 48
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_setImplementation",
+      "file": "UpgradeableProxy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getImplementation",
+      "file": "UpgradeableProxy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "upgradeTo",
+      "file": "UpgradeableProxy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "initializeImplementation",
+      "file": "UpgradeableProxy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "implementation",
+      "file": "UpgradeableProxy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_IMPLEMENTATION_SLOT",
+      "file": "UpgradeableProxy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00596",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-284",
+      "CWE-285",
+      "CWE-424",
+      "CWE-693",
+      "CWE-707",
+      "CWE-862"
+    ]
+  }
+}

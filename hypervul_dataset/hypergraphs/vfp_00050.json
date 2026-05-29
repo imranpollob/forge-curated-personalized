@@ -1,0 +1,358 @@
+{
+  "sample_id": "vfp_00050",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 43,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "gameType",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "gameCreator",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rootClaim",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "l1Head",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 81,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "l2BlockNumber",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 86,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "l1BlockNumber",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "proverAddress",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 96,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "configName",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 102,
+      "end_line": 104,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "proof",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 107,
+      "end_line": 117,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "extraData",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 122,
+      "end_line": 132,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 140,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "gameData",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 157,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "l2OutputOracle",
+      "file": "OPSuccinctDisputeGame.sol",
+      "start_line": 169,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "L2_OUTPUT_ORACLE",
+      "var_type": "address internal immutable",
+      "file": "OPSuccinctDisputeGame.sol",
+      "line": 17
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "createdAt",
+      "var_type": "Timestamp public",
+      "file": "OPSuccinctDisputeGame.sol",
+      "line": 20
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "resolvedAt",
+      "var_type": "Timestamp public",
+      "file": "OPSuccinctDisputeGame.sol",
+      "line": 23
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "status",
+      "var_type": "GameStatus public",
+      "file": "OPSuccinctDisputeGame.sol",
+      "line": 26
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "wasRespectedGameTypeWhenCreated",
+      "var_type": "bool public",
+      "file": "OPSuccinctDisputeGame.sol",
+      "line": 29
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "string public constant",
+      "file": "OPSuccinctDisputeGame.sol",
+      "line": 33
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "gameType",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "gameCreator",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rootClaim",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "l1Head",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "l2BlockNumber",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "l1BlockNumber",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "proverAddress",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "configName",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "proof",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "extraData",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "gameData",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "l2OutputOracle",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "L2_OUTPUT_ORACLE",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "createdAt",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "resolvedAt",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "status",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "wasRespectedGameTypeWhenCreated",
+      "file": "OPSuccinctDisputeGame.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "OPSuccinctDisputeGame.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 0,
+    "n_functions": 14,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00050",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-362",
+      "CWE-691"
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "sample_id": "vfp_00252",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addMinter",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "filename",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 29,
+      "end_line": 34,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "run",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 36,
+      "end_line": 39,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "generateComptrollerTxs",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 41,
+      "end_line": 44,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addMinterRoles",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 46,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "addMinterRole",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 51,
+      "end_line": 66,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_validateAndPopulateMainnetOfts",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 69,
+      "end_line": 69,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deployMintableLockboxes",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 71,
+      "end_line": 74,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "deployMintableLockbox",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 76,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "upgradeExistingLockboxes",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 85,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "upgradeExistingLockbox",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "start_line": 90,
+      "end_line": 114,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "CALL:UpgradeAdapterEthereum.s.sol:56",
+      "call_type": "CALL",
+      "line": 56,
+      "enclosing_function": "addMinterRole",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "raw_text": "(bool success, ) = _token.call(data);"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "CALL:UpgradeAdapterEthereum.s.sol:104",
+      "call_type": "CALL",
+      "line": 104,
+      "enclosing_function": "upgradeExistingLockbox",
+      "file": "UpgradeAdapterEthereum.s.sol",
+      "raw_text": "(bool success, ) = proxyAdmin.call(data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        11
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        3,
+        9,
+        10,
+        12
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addMinter",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "filename",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "run",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "generateComptrollerTxs",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addMinterRoles",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "addMinterRole",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_validateAndPopulateMainnetOfts",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deployMintableLockboxes",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "deployMintableLockbox",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "upgradeExistingLockboxes",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "upgradeExistingLockbox",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "CALL:UpgradeAdapterEthereum.s.sol:56",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "CALL:UpgradeAdapterEthereum.s.sol:104",
+      "file": "UpgradeAdapterEthereum.s.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 2,
+    "n_functions": 11,
+    "n_state_vars": 0,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00252",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-430",
+      "CWE-691"
+    ]
+  }
+}

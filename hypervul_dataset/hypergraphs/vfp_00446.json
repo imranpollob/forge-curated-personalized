@@ -1,0 +1,438 @@
+{
+  "sample_id": "vfp_00446",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "totalSupplyForPositions",
+      "file": "CreatorCoin.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "coinType",
+      "file": "CreatorCoin.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CreatorCoin.sol",
+      "start_line": 38,
+      "end_line": 67,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_handleInitialDistribution",
+      "file": "CreatorCoin.sol",
+      "start_line": 71,
+      "end_line": 75,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "claimVesting",
+      "file": "CreatorCoin.sol",
+      "start_line": 80,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getClaimableAmount",
+      "file": "CreatorCoin.sol",
+      "start_line": 101,
+      "end_line": 104,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_calculateVestedAmount",
+      "file": "CreatorCoin.sol",
+      "start_line": 109,
+      "end_line": 125,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MAX_TOTAL_SUPPLY",
+      "var_type": "uint256 public constant",
+      "file": "CoinConstants.sol",
+      "line": 13
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "POOL_LAUNCH_SUPPLY",
+      "var_type": "uint256 public constant",
+      "file": "CoinConstants.sol",
+      "line": 17
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CREATOR_LAUNCH_REWARD",
+      "var_type": "uint256 public constant",
+      "file": "CoinConstants.sol",
+      "line": 21
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "MIN_ORDER_SIZE",
+      "var_type": "uint256 public constant",
+      "file": "CoinConstants.sol",
+      "line": 25
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "DEFAULT_DISCOVERY_TICK_LOWER",
+      "var_type": "int24 internal constant",
+      "file": "CoinConstants.sol",
+      "line": 27
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "DEFAULT_DISCOVERY_TICK_UPPER",
+      "var_type": "int24 internal constant",
+      "file": "CoinConstants.sol",
+      "line": 28
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DEFAULT_NUM_DISCOVERY_POSITIONS",
+      "var_type": "uint16 internal constant",
+      "file": "CoinConstants.sol",
+      "line": 29
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "DEFAULT_DISCOVERY_SUPPLY_SHARE",
+      "var_type": "uint256 internal constant",
+      "file": "CoinConstants.sol",
+      "line": 30
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "vestingStartTime",
+      "var_type": "uint256 public",
+      "file": "CreatorCoin.sol",
+      "line": 19
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "vestingEndTime",
+      "var_type": "uint256 public",
+      "file": "CreatorCoin.sol",
+      "line": 20
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "totalClaimed",
+      "var_type": "uint256 public",
+      "file": "CreatorCoin.sol",
+      "line": 21
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "TOTAL_SUPPLY",
+      "var_type": "uint256 internal constant",
+      "file": "CreatorCoinConstants.sol",
+      "line": 11
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "CREATOR_VESTING_SUPPLY",
+      "var_type": "uint256 internal constant",
+      "file": "CreatorCoinConstants.sol",
+      "line": 12
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "CREATOR_VESTING_DURATION",
+      "var_type": "uint256 internal constant",
+      "file": "CreatorCoinConstants.sol",
+      "line": 13
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "CURRENCY",
+      "var_type": "address internal constant",
+      "file": "CreatorCoinConstants.sol",
+      "line": 14
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "WAD",
+      "var_type": "uint256 internal constant",
+      "file": "MarketConstants.sol",
+      "line": 6
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "CONTENT_COIN_MARKET_SUPPLY",
+      "var_type": "uint256 internal constant",
+      "file": "MarketConstants.sol",
+      "line": 10
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "CREATOR_COIN_MARKET_SUPPLY",
+      "var_type": "uint256 internal constant",
+      "file": "MarketConstants.sol",
+      "line": 14
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "LP_FEE_V4",
+      "var_type": "uint24 internal constant",
+      "file": "MarketConstants.sol",
+      "line": 18
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "TICK_SPACING",
+      "var_type": "int24 internal constant",
+      "file": "MarketConstants.sol",
+      "line": 22
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "totalSupplyForPositions",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "coinType",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_handleInitialDistribution",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "claimVesting",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getClaimableAmount",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_calculateVestedAmount",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MAX_TOTAL_SUPPLY",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "POOL_LAUNCH_SUPPLY",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CREATOR_LAUNCH_REWARD",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "MIN_ORDER_SIZE",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "DEFAULT_DISCOVERY_TICK_LOWER",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "DEFAULT_DISCOVERY_TICK_UPPER",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DEFAULT_NUM_DISCOVERY_POSITIONS",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "DEFAULT_DISCOVERY_SUPPLY_SHARE",
+      "file": "CoinConstants.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "vestingStartTime",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "vestingEndTime",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "totalClaimed",
+      "file": "CreatorCoin.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "TOTAL_SUPPLY",
+      "file": "CreatorCoinConstants.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "CREATOR_VESTING_SUPPLY",
+      "file": "CreatorCoinConstants.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "CREATOR_VESTING_DURATION",
+      "file": "CreatorCoinConstants.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "CURRENCY",
+      "file": "CreatorCoinConstants.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "WAD",
+      "file": "MarketConstants.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "CONTENT_COIN_MARKET_SUPPLY",
+      "file": "MarketConstants.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "CREATOR_COIN_MARKET_SUPPLY",
+      "file": "MarketConstants.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "LP_FEE_V4",
+      "file": "MarketConstants.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "TICK_SPACING",
+      "file": "MarketConstants.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 27,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 20,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00446",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1339",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

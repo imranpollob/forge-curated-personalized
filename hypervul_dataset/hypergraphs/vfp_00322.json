@@ -1,0 +1,122 @@
+{
+  "sample_id": "vfp_00322",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getCooldownTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol",
+      "start_line": 33,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getVoteTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol",
+      "start_line": 38,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getVoteDelayTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol",
+      "start_line": 43,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getExecuteTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol",
+      "start_line": 48,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getActionTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol",
+      "start_line": 53,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getCooldownTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getVoteTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getVoteDelayTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getExecuteTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getActionTime",
+      "file": "RocketDAONodeTrustedSettingsProposals.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00322",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "sample_id": "vfp_00238",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "queueAdmins",
+      "file": "Governor.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "executionAdmins",
+      "file": "Governor.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "queueTransaction",
+      "file": "Governor.sol",
+      "start_line": 108,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "startBatch",
+      "file": "Governor.sol",
+      "start_line": 131,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "Governor.sol",
+      "start_line": 138,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "executeBatch",
+      "file": "Governor.sol",
+      "start_line": 149,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "cancelTransaction",
+      "file": "Governor.sol",
+      "start_line": 155,
+      "end_line": 163,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "cancelBatch",
+      "file": "Governor.sol",
+      "start_line": 166,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "addQueueAdmin",
+      "file": "Governor.sol",
+      "start_line": 176,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "removeQueueAdmin",
+      "file": "Governor.sol",
+      "start_line": 182,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addExecutionAdmin",
+      "file": "Governor.sol",
+      "start_line": 187,
+      "end_line": 190,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "removeExecutionAdmin",
+      "file": "Governor.sol",
+      "start_line": 193,
+      "end_line": 195,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updateVetoAdmin",
+      "file": "Governor.sol",
+      "start_line": 198,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "allowPermissionlessExecution",
+      "file": "Governor.sol",
+      "start_line": 203,
+      "end_line": 208,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "forbidPermissionlessExecution",
+      "file": "Governor.sol",
+      "start_line": 211,
+      "end_line": 216,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_transactionAction",
+      "file": "Governor.sol",
+      "start_line": 223,
+      "end_line": 234,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_batchAction",
+      "file": "Governor.sol",
+      "start_line": 237,
+      "end_line": 258,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_performAction",
+      "file": "Governor.sol",
+      "start_line": 261,
+      "end_line": 274,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_updateVetoAdmin",
+      "file": "Governor.sol",
+      "start_line": 277,
+      "end_line": 283,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getTxHash",
+      "file": "Governor.sol",
+      "start_line": 286,
+      "end_line": 292,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_getTxHash",
+      "file": "Governor.sol",
+      "start_line": 295,
+      "end_line": 297,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint256 public constant override",
+      "file": "Governor.sol",
+      "line": 22
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "contractType",
+      "var_type": "bytes32 public constant override",
+      "file": "Governor.sol",
+      "line": 25
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "timeLock",
+      "var_type": "address public immutable override",
+      "file": "Governor.sol",
+      "line": 28
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_queueAdminsSet",
+      "var_type": "EnumerableSet.AddressSet internal",
+      "file": "Governor.sol",
+      "line": 31
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_executionAdminsSet",
+      "var_type": "EnumerableSet.AddressSet internal",
+      "file": "Governor.sol",
+      "line": 34
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "vetoAdmin",
+      "var_type": "address public override",
+      "file": "Governor.sol",
+      "line": 37
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "isPermissionlessExecutionAllowed",
+      "var_type": "bool public override",
+      "file": "Governor.sol",
+      "line": 40
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "batchInfo",
+      "var_type": "mapping(uint256 => BatchInfo) public override",
+      "file": "Governor.sol",
+      "line": 43
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "batchedTxInfo",
+      "var_type": "mapping(bytes32 => BatchedTxInfo) public override",
+      "file": "Governor.sol",
+      "line": 46
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:56",
+      "call_type": "INTERFACE_CALL",
+      "line": 56,
+      "enclosing_function": "",
+      "file": "Governor.sol",
+      "raw_text": "if (msg.sender != owner() && !_queueAdminsSet.contains(msg.sender)) revert CallerNotQueueAdminException();"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:62",
+      "call_type": "INTERFACE_CALL",
+      "line": 62,
+      "enclosing_function": "",
+      "file": "Governor.sol",
+      "raw_text": "if (!isPermissionlessExecutionAllowed && msg.sender != owner() && !_executionAdminsSet.contains(msg.sender)) {"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:95",
+      "call_type": "INTERFACE_CALL",
+      "line": 95,
+      "enclosing_function": "queueAdmins",
+      "file": "Governor.sol",
+      "raw_text": "return _queueAdminsSet.values();"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:100",
+      "call_type": "INTERFACE_CALL",
+      "line": 100,
+      "enclosing_function": "executionAdmins",
+      "file": "Governor.sol",
+      "raw_text": "return _executionAdminsSet.values();"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:178",
+      "call_type": "INTERFACE_CALL",
+      "line": 178,
+      "enclosing_function": "addQueueAdmin",
+      "file": "Governor.sol",
+      "raw_text": "if (_queueAdminsSet.add(admin)) emit AddQueueAdmin(admin);"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:183",
+      "call_type": "INTERFACE_CALL",
+      "line": 183,
+      "enclosing_function": "removeQueueAdmin",
+      "file": "Governor.sol",
+      "raw_text": "if (_queueAdminsSet.remove(admin)) emit RemoveQueueAdmin(admin);"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:189",
+      "call_type": "INTERFACE_CALL",
+      "line": 189,
+      "enclosing_function": "addExecutionAdmin",
+      "file": "Governor.sol",
+      "raw_text": "if (_executionAdminsSet.add(admin)) emit AddExecutionAdmin(admin);"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:194",
+      "call_type": "INTERFACE_CALL",
+      "line": 194,
+      "enclosing_function": "removeExecutionAdmin",
+      "file": "Governor.sol",
+      "raw_text": "if (_executionAdminsSet.remove(admin)) emit RemoveExecutionAdmin(admin);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        24,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        25,
+        33
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        8,
+        24,
+        34
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 34
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        9,
+        24,
+        35
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 35
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        10,
+        25,
+        36
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 36
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        11,
+        25,
+        37
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 37
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "queueAdmins",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "executionAdmins",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "queueTransaction",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "startBatch",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "executeBatch",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "cancelTransaction",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "cancelBatch",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "addQueueAdmin",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "removeQueueAdmin",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addExecutionAdmin",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "removeExecutionAdmin",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "updateVetoAdmin",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "allowPermissionlessExecution",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "forbidPermissionlessExecution",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_transactionAction",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_batchAction",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_performAction",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_updateVetoAdmin",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getTxHash",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_getTxHash",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "contractType",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "timeLock",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_queueAdminsSet",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_executionAdminsSet",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "vetoAdmin",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "isPermissionlessExecutionAllowed",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "batchInfo",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "batchedTxInfo",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:56",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:62",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:95",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:100",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:178",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:183",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:189",
+      "file": "Governor.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Governor.sol:194",
+      "file": "Governor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 38,
+    "n_hyperedges": 6,
+    "n_functions": 21,
+    "n_state_vars": 9,
+    "n_call_sites": 8,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00238",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-269",
+      "CWE-274",
+      "CWE-284"
+    ]
+  }
+}

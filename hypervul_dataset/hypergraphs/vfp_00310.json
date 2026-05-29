@@ -1,0 +1,126 @@
+{
+  "sample_id": "vfp_00310",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketUpgradeOneDotFour.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getRocketStorageAddress",
+      "file": "RocketUpgradeOneDotFour.sol",
+      "start_line": 102,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "RocketUpgradeOneDotFour.sol",
+      "start_line": 107,
+      "end_line": 211,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_upgradeContract",
+      "file": "RocketUpgradeOneDotFour.sol",
+      "start_line": 214,
+      "end_line": 232,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_addContract",
+      "file": "RocketUpgradeOneDotFour.sol",
+      "start_line": 235,
+      "end_line": 253,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketUpgradeOneDotFour.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getRocketStorageAddress",
+      "file": "RocketUpgradeOneDotFour.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "RocketUpgradeOneDotFour.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_upgradeContract",
+      "file": "RocketUpgradeOneDotFour.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_addContract",
+      "file": "RocketUpgradeOneDotFour.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00310",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-664",
+      "CWE-665",
+      "CWE-909"
+    ]
+  }
+}

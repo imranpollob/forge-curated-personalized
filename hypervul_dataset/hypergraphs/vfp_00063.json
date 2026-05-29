@@ -1,0 +1,85 @@
+{
+  "sample_id": "vfp_00063",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSqrtPriceTarget",
+      "file": "SwapMath.sol",
+      "start_line": 19,
+      "end_line": 34,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "computeSwapStep",
+      "file": "SwapMath.sol",
+      "start_line": 45,
+      "end_line": 92,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "MAX_FEE_PIPS",
+      "var_type": "uint256 internal constant",
+      "file": "SwapMath.sol",
+      "line": 11
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSqrtPriceTarget",
+      "file": "SwapMath.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "computeSwapStep",
+      "file": "SwapMath.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "MAX_FEE_PIPS",
+      "file": "SwapMath.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00063",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

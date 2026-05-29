@@ -1,0 +1,518 @@
+{
+  "sample_id": "neg_00122",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "currentEpoch",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setCurrentEpoch",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 72,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addStake",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setPendingRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 80,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pendingRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 85,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "delegate",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 89,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 93,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "undelegate",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 99,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 104,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getSlashingPenalty",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 118,
+      "end_line": 132,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setCheater",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 134,
+      "end_line": 136,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setSlashRefundRatio",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 138,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getSelfStake",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 142,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "isSlashed",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "start_line": 146,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_currentEpoch",
+      "var_type": "uint256 private",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 47
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_currentSealedEpoch",
+      "var_type": "uint256 private",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 48
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_pendingWithdrawal",
+      "var_type": "mapping(uint256 => uint256) private",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 50
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "getValidator",
+      "var_type": "mapping(uint256 => Validator) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 52
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "getEpochSnapshot",
+      "var_type": "mapping(uint256 => EpochSnapshot) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 53
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "getStake",
+      "var_type": "mapping(address => mapping(uint256 => uint256)) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 54
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "getStashedLockupRewards",
+      "var_type": "mapping(address => mapping(uint256 => Rewards)) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 55
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "getLockupInfo",
+      "var_type": "mapping(address => mapping(uint256 => LockedDelegation)) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 56
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_pendingRewards",
+      "var_type": "mapping(address => mapping(uint256 => uint256)) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 58
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_isLockedUp",
+      "var_type": "mapping(address => mapping(uint256 => bool)) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 59
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_stashedRewardsUntilEpoch",
+      "var_type": "mapping(address => mapping(uint256 => uint256)) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 60
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "epochAccumulatedRewardPerToken",
+      "var_type": "mapping(uint256 => mapping(uint256 => uint256)) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 62
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "slashingRefundRatio",
+      "var_type": "mapping(uint256 validatorID => uint256 refundRatio) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 65
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "cheaters",
+      "var_type": "mapping(uint256 validatorID => bool isCheater) public",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "line": 66
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "TRANSFER:sonic-staking_src_mock_SFCMock.sol:96",
+      "call_type": "TRANSFER",
+      "line": 96,
+      "enclosing_function": "claimRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "raw_text": "payable(msg.sender).transfer(rewards);"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "TRANSFER:sonic-staking_src_mock_SFCMock.sol:114",
+      "call_type": "TRANSFER",
+      "line": 114,
+      "enclosing_function": "withdraw",
+      "file": "sonic-staking_src_mock_SFCMock.sol",
+      "raw_text": "payable(msg.sender).transfer(amount - penalty);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        22,
+        28
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        8,
+        16,
+        26,
+        27,
+        29
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 29
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "currentEpoch",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setCurrentEpoch",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addStake",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setPendingRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pendingRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "delegate",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "undelegate",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getSlashingPenalty",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setCheater",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setSlashRefundRatio",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getSelfStake",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "isSlashed",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_currentEpoch",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_currentSealedEpoch",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_pendingWithdrawal",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "getValidator",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "getEpochSnapshot",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "getStake",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "getStashedLockupRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "getLockupInfo",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_pendingRewards",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_isLockedUp",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_stashedRewardsUntilEpoch",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "epochAccumulatedRewardPerToken",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "slashingRefundRatio",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "cheaters",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "TRANSFER:sonic-staking_src_mock_SFCMock.sol:96",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "TRANSFER:sonic-staking_src_mock_SFCMock.sol:114",
+      "file": "sonic-staking_src_mock_SFCMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 30,
+    "n_hyperedges": 2,
+    "n_functions": 14,
+    "n_state_vars": 14,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00122",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

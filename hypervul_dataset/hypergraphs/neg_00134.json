@@ -1,0 +1,390 @@
+{
+  "sample_id": "neg_00134",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fundFor",
+      "file": "eco-routes_contracts_interfaces_IVault.sol",
+      "start_line": 30,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "eco-routes_contracts_interfaces_IVault.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "refund",
+      "file": "eco-routes_contracts_interfaces_IVault.sol",
+      "start_line": 48,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "recover",
+      "file": "eco-routes_contracts_interfaces_IVault.sol",
+      "start_line": 55,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 58,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 98,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 114,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSentMessageCount",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 132,
+      "end_line": 134,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "sentMessages",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 140,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "simulateMessageReceived",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 152,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setProcessor",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 175,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "simulateHandleMessage",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 185,
+      "end_line": 198,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "handle",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "start_line": 206,
+      "end_line": 212,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "LOCAL_DOMAIN",
+      "var_type": "uint32 public immutable",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 18
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "FEE",
+      "var_type": "uint256 public constant",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 21
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "sentMessageHashes",
+      "var_type": "mapping(bytes32 => bool) public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 24
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "messageCount",
+      "var_type": "uint256 public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 27
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "dispatched",
+      "var_type": "bool public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 30
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "destinationDomain",
+      "var_type": "uint32 public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 31
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "recipientAddress",
+      "var_type": "bytes32 public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 32
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "messageBody",
+      "var_type": "bytes public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 33
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "gasLimit",
+      "var_type": "uint256 public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 34
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "processor",
+      "var_type": "address public",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol",
+      "line": 44
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fundFor",
+      "file": "eco-routes_contracts_interfaces_IVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "eco-routes_contracts_interfaces_IVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "refund",
+      "file": "eco-routes_contracts_interfaces_IVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "recover",
+      "file": "eco-routes_contracts_interfaces_IVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSentMessageCount",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "sentMessages",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "simulateMessageReceived",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setProcessor",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "simulateHandleMessage",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "handle",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "LOCAL_DOMAIN",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "FEE",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "sentMessageHashes",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "messageCount",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "dispatched",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "destinationDomain",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "recipientAddress",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "messageBody",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "gasLimit",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "processor",
+      "file": "eco-routes_contracts_test_TestMetaRouter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 23,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 10,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00134",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

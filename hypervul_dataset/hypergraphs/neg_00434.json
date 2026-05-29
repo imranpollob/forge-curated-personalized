@@ -1,0 +1,318 @@
+{
+  "sample_id": "neg_00434",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "read",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "start_line": 35,
+      "end_line": 38,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "write",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "start_line": 40,
+      "end_line": 45,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "encode",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "start_line": 53,
+      "end_line": 58,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "encode",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "start_line": 60,
+      "end_line": 63,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decodeTimelockConfig",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "start_line": 67,
+      "end_line": 71,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decodeDeployConfig",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "start_line": 73,
+      "end_line": 75,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "VM_ADDRESS",
+      "var_type": "address private constant",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "line": 18
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "vm",
+      "var_type": "Vm private constant",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "line": 19
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:36",
+      "call_type": "INTERFACE_CALL",
+      "line": 36,
+      "enclosing_function": "read",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "raw_text": "string memory json = vm.readFile(path);"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:41",
+      "call_type": "INTERFACE_CALL",
+      "line": 41,
+      "enclosing_function": "write",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "raw_text": "if (vm.exists(path)) vm.removeFile(path);"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:43",
+      "call_type": "INTERFACE_CALL",
+      "line": 43,
+      "enclosing_function": "write",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "raw_text": "vm.writeJson(json, path);"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:44",
+      "call_type": "INTERFACE_CALL",
+      "line": 44,
+      "enclosing_function": "write",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "raw_text": "vm.writeFile(path, cat(vm.readFile(path), '\\n'));"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:54",
+      "call_type": "INTERFACE_CALL",
+      "line": 54,
+      "enclosing_function": "encode",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "raw_text": "string memory k = vm.randomBytes(32).toHexString();"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:61",
+      "call_type": "INTERFACE_CALL",
+      "line": 61,
+      "enclosing_function": "encode",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol",
+      "raw_text": "string memory k = vm.randomBytes(32).toHexString();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        7,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        7,
+        9
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        7,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        7,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        2,
+        7,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        1,
+        2,
+        7,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "read",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "write",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "encode",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "encode",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decodeTimelockConfig",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decodeDeployConfig",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "VM_ADDRESS",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "vm",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:36",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:41",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:43",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:44",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:54",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol:61",
+      "file": "93345425f74fc0277c236410f22d863dcfd10049_protocol_test_util_types_BranchConfigs.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 6,
+    "n_functions": 6,
+    "n_state_vars": 2,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 3.3333333333333335
+  },
+  "label": {
+    "vfp_id": "neg_00434",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "sample_id": "neg_00468",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "start_line": 86,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "start_line": 100,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "start_line": 127,
+      "end_line": 155,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "start_line": 163,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "start_line": 182,
+      "end_line": 211,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "onScrollGatewayCallback",
+      "file": "scroll-contracts_src_libraries_callbacks_IScrollGatewayCallback.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_ENFORCED_TX_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "line": 32
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "messageQueue",
+      "var_type": "address public immutable",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "line": 42
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "feeVault",
+      "var_type": "address public immutable",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "line": 45
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "__deprecated_messageQueue",
+      "var_type": "address private",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "line": 52
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "__deprecated_feeVault",
+      "var_type": "address private",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "line": 55
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "nonces",
+      "var_type": "mapping(address => uint256) public",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "line": 60
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol:178",
+      "call_type": "CALL",
+      "line": 178,
+      "enclosing_function": "_sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "raw_text": "(bool _success, ) = feeVault.call{value: _fee}(\"\");"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol:189",
+      "call_type": "CALL",
+      "line": 189,
+      "enclosing_function": "_sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol",
+      "raw_text": "(bool _success, ) = _refundAddress.call{value: _refund}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        5,
+        7,
+        8,
+        9,
+        12,
+        13
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        5,
+        7,
+        8,
+        9,
+        12,
+        14
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_sendTransaction",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "onScrollGatewayCallback",
+      "file": "scroll-contracts_src_libraries_callbacks_IScrollGatewayCallback.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_ENFORCED_TX_TYPEHASH",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "messageQueue",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "feeVault",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "__deprecated_messageQueue",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "__deprecated_feeVault",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "nonces",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol:178",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol:189",
+      "file": "scroll-contracts_src_L1_gateways_EnforcedTxGateway.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 2,
+    "n_functions": 7,
+    "n_state_vars": 6,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "neg_00468",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

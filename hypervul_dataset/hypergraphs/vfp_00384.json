@@ -1,0 +1,171 @@
+{
+  "sample_id": "vfp_00384",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 128,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swapAndBridge",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 149,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapAndBridgeWithPermit",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 161,
+      "end_line": 167,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swapAndBridgeWithPermit2",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 179,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swapAndBridgeWithAuthorization",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 198,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositWithPermit",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 217,
+      "end_line": 223,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositWithPermit2",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 234,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "depositWithAuthorization",
+      "file": "SpokePoolPeripheryInterface.sol",
+      "start_line": 252,
+      "end_line": 260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SpokePoolPeripheryInterface.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swapAndBridge",
+      "file": "SpokePoolPeripheryInterface.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapAndBridgeWithPermit",
+      "file": "SpokePoolPeripheryInterface.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swapAndBridgeWithPermit2",
+      "file": "SpokePoolPeripheryInterface.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swapAndBridgeWithAuthorization",
+      "file": "SpokePoolPeripheryInterface.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositWithPermit",
+      "file": "SpokePoolPeripheryInterface.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositWithPermit2",
+      "file": "SpokePoolPeripheryInterface.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "depositWithAuthorization",
+      "file": "SpokePoolPeripheryInterface.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00384",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-691"
+    ]
+  }
+}

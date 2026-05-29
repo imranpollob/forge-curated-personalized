@@ -1,0 +1,675 @@
+{
+  "sample_id": "vfp_00386",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setCumulativeHashCheckpoint",
+      "file": "EONBackupVault.sol",
+      "start_line": 55,
+      "end_line": 59,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "batchInsert",
+      "file": "EONBackupVault.sol",
+      "start_line": 63,
+      "end_line": 76,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setERC20",
+      "file": "EONBackupVault.sol",
+      "start_line": 79,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "distribute",
+      "file": "EONBackupVault.sol",
+      "start_line": 87,
+      "end_line": 111,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "moreToDistribute",
+      "file": "EONBackupVault.sol",
+      "start_line": 114,
+      "end_line": 118,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setCumulativeHashCheckpoint",
+      "file": "ZendBackupVault.sol",
+      "start_line": 83,
+      "end_line": 87,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "batchInsert",
+      "file": "ZendBackupVault.sol",
+      "start_line": 94,
+      "end_line": 115,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setERC20",
+      "file": "ZendBackupVault.sol",
+      "start_line": 118,
+      "end_line": 124,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "ZendBackupVault.sol",
+      "start_line": 127,
+      "end_line": 133,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimP2PKH",
+      "file": "ZendBackupVault.sol",
+      "start_line": 142,
+      "end_line": 162,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimP2SH",
+      "file": "ZendBackupVault.sol",
+      "start_line": 177,
+      "end_line": 214,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_verifyPubKeysFromScript",
+      "file": "ZendBackupVault.sol",
+      "start_line": 217,
+      "end_line": 278,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_extractZenAddressFromScript",
+      "file": "ZendBackupVault.sol",
+      "start_line": 281,
+      "end_line": 285,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "balances",
+      "var_type": "mapping(address => uint256) public",
+      "file": "EONBackupVault.sol",
+      "line": 20
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "addressList",
+      "var_type": "address[] private",
+      "file": "EONBackupVault.sol",
+      "line": 23
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_cumulativeHash",
+      "var_type": "bytes32 public",
+      "file": "EONBackupVault.sol",
+      "line": 26
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "cumulativeHashCheckpoint",
+      "var_type": "bytes32 public",
+      "file": "EONBackupVault.sol",
+      "line": 29
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "nextRewardIndex",
+      "var_type": "uint256 private",
+      "file": "EONBackupVault.sol",
+      "line": 32
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "zenToken",
+      "var_type": "ZenToken public",
+      "file": "EONBackupVault.sol",
+      "line": 34
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "HORIZEN_UNCOMPRESSED_PUBLIC_KEY_LENGTH",
+      "var_type": "uint256 constant",
+      "file": "ZendBackupVault.sol",
+      "line": 14
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "HORIZEN_COMPRESSED_PUBLIC_KEY_LENGTH",
+      "var_type": "uint256 constant",
+      "file": "ZendBackupVault.sol",
+      "line": 15
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "balances",
+      "var_type": "mapping(bytes20 => uint256) public",
+      "file": "ZendBackupVault.sol",
+      "line": 29
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_cumulativeHash",
+      "var_type": "bytes32 public",
+      "file": "ZendBackupVault.sol",
+      "line": 32
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "cumulativeHashCheckpoint",
+      "var_type": "bytes32 public",
+      "file": "ZendBackupVault.sol",
+      "line": 35
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "zenToken",
+      "var_type": "ZenToken public",
+      "file": "ZendBackupVault.sol",
+      "line": 37
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "MESSAGE_CONSTANT",
+      "var_type": "string private",
+      "file": "ZendBackupVault.sol",
+      "line": 39
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "message_prefix",
+      "var_type": "string public",
+      "file": "ZendBackupVault.sol",
+      "line": 41
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EONBackupVault.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "batchInsert",
+      "file": "EONBackupVault.sol",
+      "raw_text": "addressList.push(addressValues[i].addr);"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EONBackupVault.sol:100",
+      "call_type": "INTERFACE_CALL",
+      "line": 100,
+      "enclosing_function": "distribute",
+      "file": "EONBackupVault.sol",
+      "raw_text": "zenToken.mint(addr, amount);"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EONBackupVault.sol:109",
+      "call_type": "INTERFACE_CALL",
+      "line": 109,
+      "enclosing_function": "distribute",
+      "file": "EONBackupVault.sol",
+      "raw_text": "zenToken.notifyMintingDone();"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZendBackupVault.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "batchInsert",
+      "file": "ZendBackupVault.sol",
+      "raw_text": "zenToken.mint(address(this), cumulativeBalance);"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZendBackupVault.sol:113",
+      "call_type": "INTERFACE_CALL",
+      "line": 113,
+      "enclosing_function": "batchInsert",
+      "file": "ZendBackupVault.sol",
+      "raw_text": "zenToken.notifyMintingDone();"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZendBackupVault.sol:122",
+      "call_type": "INTERFACE_CALL",
+      "line": 122,
+      "enclosing_function": "setERC20",
+      "file": "ZendBackupVault.sol",
+      "raw_text": "message_prefix = string(abi.encodePacked(zenToken.symbol(), MESSAGE_CONSTANT));"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "TRANSFER:ZendBackupVault.sol:131",
+      "call_type": "TRANSFER",
+      "line": 131,
+      "enclosing_function": "_claim",
+      "file": "ZendBackupVault.sol",
+      "raw_text": "zenToken.transfer(destAddress, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        13,
+        14,
+        15,
+        16,
+        18,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        13,
+        14,
+        15,
+        16,
+        18,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        13,
+        14,
+        15,
+        16,
+        18,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        2,
+        18,
+        25,
+        26,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        8,
+        9,
+        10,
+        13,
+        18,
+        26,
+        33
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 33
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setCumulativeHashCheckpoint",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "batchInsert",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setERC20",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "distribute",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "moreToDistribute",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setCumulativeHashCheckpoint",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "batchInsert",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setERC20",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimP2PKH",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimP2SH",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_verifyPubKeysFromScript",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_extractZenAddressFromScript",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "balances",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "addressList",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_cumulativeHash",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "cumulativeHashCheckpoint",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "nextRewardIndex",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "zenToken",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "HORIZEN_UNCOMPRESSED_PUBLIC_KEY_LENGTH",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "HORIZEN_COMPRESSED_PUBLIC_KEY_LENGTH",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "balances",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_cumulativeHash",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "cumulativeHashCheckpoint",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "zenToken",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "MESSAGE_CONSTANT",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "message_prefix",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EONBackupVault.sol:70",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EONBackupVault.sol:100",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EONBackupVault.sol:109",
+      "file": "EONBackupVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZendBackupVault.sol:110",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZendBackupVault.sol:113",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZendBackupVault.sol:122",
+      "file": "ZendBackupVault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "TRANSFER:ZendBackupVault.sol:131",
+      "file": "ZendBackupVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 34,
+    "n_hyperedges": 7,
+    "n_functions": 13,
+    "n_state_vars": 14,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "vfp_00386",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1106",
+      "CWE-1288",
+      "CWE-188",
+      "CWE-20",
+      "CWE-345",
+      "CWE-347",
+      "CWE-435",
+      "CWE-693",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

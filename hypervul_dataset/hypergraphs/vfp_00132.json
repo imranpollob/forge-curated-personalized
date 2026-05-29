@@ -1,0 +1,821 @@
+{
+  "sample_id": "vfp_00132",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_validateTime",
+      "file": "Genesis.sol",
+      "start_line": 144,
+      "end_line": 147,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Genesis.sol",
+      "start_line": 149,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "participate",
+      "file": "Genesis.sol",
+      "start_line": 219,
+      "end_line": 267,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "onGenesisSuccess",
+      "file": "Genesis.sol",
+      "start_line": 269,
+      "end_line": 393,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "claimAgentToken",
+      "file": "Genesis.sol",
+      "start_line": 395,
+      "end_line": 415,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getClaimableAgentToken",
+      "file": "Genesis.sol",
+      "start_line": 417,
+      "end_line": 421,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "onGenesisFailed",
+      "file": "Genesis.sol",
+      "start_line": 423,
+      "end_line": 451,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isEnded",
+      "file": "Genesis.sol",
+      "start_line": 453,
+      "end_line": 455,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isStarted",
+      "file": "Genesis.sol",
+      "start_line": 457,
+      "end_line": 459,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getParticipantCount",
+      "file": "Genesis.sol",
+      "start_line": 461,
+      "end_line": 463,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getParticipantsPaginated",
+      "file": "Genesis.sol",
+      "start_line": 465,
+      "end_line": 482,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getParticipantsInfo",
+      "file": "Genesis.sol",
+      "start_line": 489,
+      "end_line": 510,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getGenesisInfo",
+      "file": "Genesis.sol",
+      "start_line": 535,
+      "end_line": 559,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "withdrawLeftVirtualsAfterFinalized",
+      "file": "Genesis.sol",
+      "start_line": 561,
+      "end_line": 576,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "resetTime",
+      "file": "Genesis.sol",
+      "start_line": 578,
+      "end_line": 594,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "cancelGenesis",
+      "file": "Genesis.sol",
+      "start_line": 596,
+      "end_line": 606,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "FACTORY_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "Genesis.sol",
+      "line": 16
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "mapAddrToVirtuals",
+      "var_type": "mapping(address => uint256) public",
+      "file": "Genesis.sol",
+      "line": 18
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "claimableAgentTokens",
+      "var_type": "mapping(address => uint256) public",
+      "file": "Genesis.sol",
+      "line": 19
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "participants",
+      "var_type": "address[] public",
+      "file": "Genesis.sol",
+      "line": 20
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "genesisId",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 22
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "FGenesis public",
+      "file": "Genesis.sol",
+      "line": 23
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "startTime",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 26
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "endTime",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 27
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "genesisName",
+      "var_type": "string public",
+      "file": "Genesis.sol",
+      "line": 28
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "genesisTicker",
+      "var_type": "string public",
+      "file": "Genesis.sol",
+      "line": 29
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "genesisCores",
+      "var_type": "uint8[] public",
+      "file": "Genesis.sol",
+      "line": 30
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "tbaSalt",
+      "var_type": "bytes32 public",
+      "file": "Genesis.sol",
+      "line": 33
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "tbaImplementation",
+      "var_type": "address public",
+      "file": "Genesis.sol",
+      "line": 34
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "daoVotingPeriod",
+      "var_type": "uint32 public",
+      "file": "Genesis.sol",
+      "line": 35
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "daoThreshold",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 36
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "agentFactoryAddress",
+      "var_type": "address public",
+      "file": "Genesis.sol",
+      "line": 37
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "virtualTokenAddress",
+      "var_type": "address public",
+      "file": "Genesis.sol",
+      "line": 38
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "reserveAmount",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 39
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "maxContributionVirtualAmount",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 40
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "agentTokenTotalSupply",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 41
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "agentTokenLpSupply",
+      "var_type": "uint256 public",
+      "file": "Genesis.sol",
+      "line": 42
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "agentTokenAddress",
+      "var_type": "address public",
+      "file": "Genesis.sol",
+      "line": 44
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "isFailed",
+      "var_type": "bool public",
+      "file": "Genesis.sol",
+      "line": 45
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "isCancelled",
+      "var_type": "bool public",
+      "file": "Genesis.sol",
+      "line": 46
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "ERR_NOT_STARTED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 72
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_STARTED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 73
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "ERR_NOT_ENDED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 74
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_ENDED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 75
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_FAILED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 76
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_CANCELLED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 77
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "ERR_START_TIME_FUTURE",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 78
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "ERR_END_AFTER_START",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 80
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "ERR_TOKEN_LAUNCHED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 82
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "ERR_TOKEN_NOT_LAUNCHED",
+      "var_type": "string private constant",
+      "file": "Genesis.sol",
+      "line": 83
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Genesis.sol:254",
+      "call_type": "INTERFACE_CALL",
+      "line": 254,
+      "enclosing_function": "participate",
+      "file": "Genesis.sol",
+      "raw_text": "participants.push(userAddress);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        17,
+        19,
+        20,
+        32,
+        34,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_validateTime",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "participate",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "onGenesisSuccess",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "claimAgentToken",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getClaimableAgentToken",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "onGenesisFailed",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isEnded",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isStarted",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getParticipantCount",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getParticipantsPaginated",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getParticipantsInfo",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getGenesisInfo",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "withdrawLeftVirtualsAfterFinalized",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "resetTime",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "cancelGenesis",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "FACTORY_ROLE",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "mapAddrToVirtuals",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "claimableAgentTokens",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "participants",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "genesisId",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "startTime",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "endTime",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "genesisName",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "genesisTicker",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "genesisCores",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "tbaSalt",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "tbaImplementation",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "daoVotingPeriod",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "daoThreshold",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "agentFactoryAddress",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "virtualTokenAddress",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "reserveAmount",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "maxContributionVirtualAmount",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "agentTokenTotalSupply",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "agentTokenLpSupply",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "agentTokenAddress",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "isFailed",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "isCancelled",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "ERR_NOT_STARTED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_STARTED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "ERR_NOT_ENDED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_ENDED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_FAILED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "ERR_ALREADY_CANCELLED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "ERR_START_TIME_FUTURE",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "ERR_END_AFTER_START",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "ERR_TOKEN_LAUNCHED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "ERR_TOKEN_NOT_LAUNCHED",
+      "file": "Genesis.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Genesis.sol:254",
+      "file": "Genesis.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 51,
+    "n_hyperedges": 1,
+    "n_functions": 16,
+    "n_state_vars": 34,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "vfp_00132",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1050",
+      "CWE-400",
+      "CWE-405",
+      "CWE-664",
+      "CWE-682",
+      "CWE-691",
+      "CWE-841"
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "sample_id": "neg_00017",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__ERC2771ContextInitializableUpgradeable_init",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "start_line": 91,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "start_line": 101,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "start_line": 114,
+      "end_line": 116,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_updateTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "start_line": 126,
+      "end_line": 129,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_authorizeTrustedForwarderUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "start_line": 137,
+      "end_line": 137,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "trustedForwarder_",
+      "var_type": "address internal",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "line": 36
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol",
+      "line": 146
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__ERC2771ContextInitializableUpgradeable_init",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_updateTrustedForwarder",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_authorizeTrustedForwarderUpdate",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "trustedForwarder_",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "fireblocks-smart-contracts_contracts_library_MetaTx_ERC2771ContextInitializableUpgradeable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00017",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

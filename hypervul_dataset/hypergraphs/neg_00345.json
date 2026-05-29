@@ -1,0 +1,190 @@
+{
+  "sample_id": "neg_00345",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_interfaces_IEnjoyoorsWithdrawalApprover.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol",
+      "start_line": 41,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol",
+      "start_line": 50,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "changeWithdrawalPeriod",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol",
+      "start_line": 62,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_isWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol",
+      "start_line": 85,
+      "end_line": 91,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "listToken",
+      "file": "efbc1b269e0f84c631437156a6fa878d51935822_enjoyoors-evm-contracts_contracts_vault_access_TokenListing.sol",
+      "start_line": 27,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SETUP_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol",
+      "line": 13
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "withdrawalPeriodSeconds",
+      "var_type": "uint256 public",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol",
+      "line": 26
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "TOKEN_LISTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "efbc1b269e0f84c631437156a6fa878d51935822_enjoyoors-evm-contracts_contracts_vault_access_TokenListing.sol",
+      "line": 14
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_interfaces_IEnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "changeWithdrawalPeriod",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_isWithdrawalApproved",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "listToken",
+      "file": "efbc1b269e0f84c631437156a6fa878d51935822_enjoyoors-evm-contracts_contracts_vault_access_TokenListing.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SETUP_ROLE",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "withdrawalPeriodSeconds",
+      "file": "EnjoyoorsWithdrawalApprover_contracts_vault_EnjoyoorsWithdrawalApprover.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "TOKEN_LISTER_ROLE",
+      "file": "efbc1b269e0f84c631437156a6fa878d51935822_enjoyoors-evm-contracts_contracts_vault_access_TokenListing.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00345",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

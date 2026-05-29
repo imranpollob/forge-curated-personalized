@@ -1,0 +1,729 @@
+{
+  "sample_id": "neg_00444",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 70,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mint",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 104,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 127,
+      "end_line": 169,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mintBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 171,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_mintBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 203,
+      "end_line": 253,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "burn",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 255,
+      "end_line": 260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 271,
+      "end_line": 294,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "burnBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 296,
+      "end_line": 303,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_burnBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 316,
+      "end_line": 352,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 355,
+      "end_line": 362,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getMakerPayoff",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 364,
+      "end_line": 366,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getMinterPayoff",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 368,
+      "end_line": 372,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getProductId",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 375,
+      "end_line": 377,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "start_line": 380,
+      "end_line": 382,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "var_type": "bytes32 public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 36
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "EIP712DOMAIN_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 40
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "MINT_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 44
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 46
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "symbol",
+      "var_type": "string public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 47
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "strategy",
+      "var_type": "ISmartTrendStrategy public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 50
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "collateral",
+      "var_type": "IERC20Metadata public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 51
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "oracle",
+      "var_type": "ISpotOracle public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 52
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "totalFee",
+      "var_type": "uint256 public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 54
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "var_type": "address public",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "line": 55
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:111",
+      "call_type": "INTERFACE_CALL",
+      "line": 111,
+      "enclosing_function": "mint",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "collateral.safeTransferFrom(_msgSender(), address(this), depositAmount);"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:155",
+      "call_type": "INTERFACE_CALL",
+      "line": 155,
+      "enclosing_function": "_mint",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "collateral.safeTransferFrom(params.maker, address(this), params.makerCollateral);"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:182",
+      "call_type": "INTERFACE_CALL",
+      "line": 182,
+      "enclosing_function": "mintBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "collateral.safeTransferFrom(_msgSender(), address(this), depositAmount);"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:236",
+      "call_type": "INTERFACE_CALL",
+      "line": 236,
+      "enclosing_function": "_mintBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "collateral.safeTransferFrom(params.maker, address(this), params.makerCollateral);"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:258",
+      "call_type": "INTERFACE_CALL",
+      "line": 258,
+      "enclosing_function": "burn",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "collateral.safeTransfer(_msgSender(), payoff);"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:278",
+      "call_type": "INTERFACE_CALL",
+      "line": 278,
+      "enclosing_function": "_burn",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "require(oracle.settlePrices(expiry) > 0, \"Vault: not settled\");"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:301",
+      "call_type": "INTERFACE_CALL",
+      "line": 301,
+      "enclosing_function": "burnBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "collateral.safeTransfer(_msgSender(), totalPayoff);"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:328",
+      "call_type": "INTERFACE_CALL",
+      "line": 328,
+      "enclosing_function": "_burnBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "require(oracle.settlePrices(product.expiry) > 0, \"Vault: not settled\");"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:359",
+      "call_type": "INTERFACE_CALL",
+      "line": 359,
+      "enclosing_function": "harvest",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "collateral.safeTransfer(feeCollector, fee);"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:365",
+      "call_type": "INTERFACE_CALL",
+      "line": 365,
+      "enclosing_function": "getMakerPayoff",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "payoff = strategy.getMakerPayoff(anchorPrices, oracle.settlePrices(expiry), amount);"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:369",
+      "call_type": "INTERFACE_CALL",
+      "line": 369,
+      "enclosing_function": "getMinterPayoff",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol",
+      "raw_text": "uint256 payoffWithFee = strategy.getMinterPayoff(anchorPrices, oracle.settlePrices(expiry), amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        20,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        2,
+        3,
+        4,
+        14,
+        16,
+        20,
+        22,
+        23,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        20,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        4,
+        14,
+        16,
+        20,
+        22,
+        23,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        20,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        6,
+        20,
+        21,
+        22,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        7,
+        20,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        7,
+        8,
+        20,
+        21,
+        22,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        9,
+        20,
+        22,
+        23,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        19,
+        20,
+        21,
+        22,
+        33
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        5,
+        6,
+        7,
+        8,
+        11,
+        19,
+        20,
+        21,
+        22,
+        23,
+        34
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 34
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mint",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mintBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_mintBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "burn",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "burnBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_burnBatch",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getMakerPayoff",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getMinterPayoff",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getProductId",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "EIP712DOMAIN_TYPEHASH",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "MINT_TYPEHASH",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "symbol",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "strategy",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "collateral",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "oracle",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "totalFee",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "feeCollector",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:111",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:155",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:182",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:236",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:258",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:278",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:301",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:328",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:359",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:365",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sofa-protocol_contracts_vaults_SmartTrendVault.sol:369",
+      "file": "sofa-protocol_contracts_vaults_SmartTrendVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 35,
+    "n_hyperedges": 11,
+    "n_functions": 14,
+    "n_state_vars": 10,
+    "n_call_sites": 11,
+    "avg_hyperedge_size": 6.181818181818182
+  },
+  "label": {
+    "vfp_id": "neg_00444",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

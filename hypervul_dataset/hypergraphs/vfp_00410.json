@@ -1,0 +1,184 @@
+{
+  "sample_id": "vfp_00410",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "CCIPProver.sol",
+      "start_line": 63,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "ccipReceive",
+      "file": "CCIPProver.sol",
+      "start_line": 76,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "CCIPProver.sol",
+      "start_line": 105,
+      "end_line": 123,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "CCIPProver.sol",
+      "start_line": 133,
+      "end_line": 150,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_unpackData",
+      "file": "CCIPProver.sol",
+      "start_line": 159,
+      "end_line": 172,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_formatCCIPMessage",
+      "file": "CCIPProver.sol",
+      "start_line": 183,
+      "end_line": 201,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "CCIPProver.sol",
+      "start_line": 207,
+      "end_line": 209,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "PROOF_TYPE",
+      "var_type": "string public constant",
+      "file": "CCIPProver.sol",
+      "line": 27
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "var_type": "address public immutable",
+      "file": "CCIPProver.sol",
+      "line": 30
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "ccipReceive",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_unpackData",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_formatCCIPMessage",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "PROOF_TYPE",
+      "file": "CCIPProver.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "file": "CCIPProver.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00410",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

@@ -1,0 +1,1140 @@
+{
+  "sample_id": "vfp_00518",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fill",
+      "file": "Eco7683DestinationSettler.sol",
+      "start_line": 27,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "fulfillStorage",
+      "file": "Eco7683DestinationSettler.sol",
+      "start_line": 72,
+      "end_line": 77,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "fulfillHyperInstantWithRelayer",
+      "file": "Eco7683DestinationSettler.sol",
+      "start_line": 79,
+      "end_line": 87,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "open",
+      "file": "Eco7683OriginSettler.sol",
+      "start_line": 55,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "Eco7683OriginSettler.sol",
+      "start_line": 97,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "Eco7683OriginSettler.sol",
+      "start_line": 147,
+      "end_line": 231,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "resolveFor",
+      "file": "Eco7683OriginSettler.sol",
+      "start_line": 238,
+      "end_line": 326,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_verifyOpenFor",
+      "file": "Eco7683OriginSettler.sol",
+      "start_line": 329,
+      "end_line": 354,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_openEcoIntent",
+      "file": "Eco7683OriginSettler.sol",
+      "start_line": 357,
+      "end_line": 385,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "domainSeparatorV4",
+      "file": "Eco7683OriginSettler.sol",
+      "start_line": 388,
+      "end_line": 390,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "fulfillStorage",
+      "file": "Inbox.sol",
+      "start_line": 63,
+      "end_line": 84,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fulfillHyperInstant",
+      "file": "Inbox.sol",
+      "start_line": 96,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "fulfillHyperInstantWithRelayer",
+      "file": "Inbox.sol",
+      "start_line": 127,
+      "end_line": 193,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "fulfillHyperBatched",
+      "file": "Inbox.sol",
+      "start_line": 205,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sendBatch",
+      "file": "Inbox.sol",
+      "start_line": 231,
+      "end_line": 243,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "sendBatchWithRelayer",
+      "file": "Inbox.sol",
+      "start_line": 254,
+      "end_line": 308,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "Inbox.sol",
+      "start_line": 320,
+      "end_line": 342,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setMailbox",
+      "file": "Inbox.sol",
+      "start_line": 349,
+      "end_line": 354,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "makeSolvingPublic",
+      "file": "Inbox.sol",
+      "start_line": 360,
+      "end_line": 365,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "changeSolverWhitelist",
+      "file": "Inbox.sol",
+      "start_line": 373,
+      "end_line": 379,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_fulfill",
+      "file": "Inbox.sol",
+      "start_line": 390,
+      "end_line": 464,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getRewardStatus",
+      "file": "IntentSource.sol",
+      "start_line": 35,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getVaultState",
+      "file": "IntentSource.sol",
+      "start_line": 46,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getPermitContract",
+      "file": "IntentSource.sol",
+      "start_line": 55,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getIntentHash",
+      "file": "IntentSource.sol",
+      "start_line": 68,
+      "end_line": 78,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "intentVaultAddress",
+      "file": "IntentSource.sol",
+      "start_line": 85,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "publish",
+      "file": "IntentSource.sol",
+      "start_line": 97,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "publishAndFund",
+      "file": "IntentSource.sol",
+      "start_line": 111,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "fund",
+      "file": "IntentSource.sol",
+      "start_line": 139,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "fundFor",
+      "file": "IntentSource.sol",
+      "start_line": 165,
+      "end_line": 188,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "publishAndFundFor",
+      "file": "IntentSource.sol",
+      "start_line": 198,
+      "end_line": 227,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "isIntentFunded",
+      "file": "IntentSource.sol",
+      "start_line": 234,
+      "end_line": 247,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "withdrawRewards",
+      "file": "IntentSource.sol",
+      "start_line": 254,
+      "end_line": 286,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "batchWithdraw",
+      "file": "IntentSource.sol",
+      "start_line": 293,
+      "end_line": 306,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "refund",
+      "file": "IntentSource.sol",
+      "start_line": 313,
+      "end_line": 349,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "recoverToken",
+      "file": "IntentSource.sol",
+      "start_line": 358,
+      "end_line": 399,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_isRewardFunded",
+      "file": "IntentSource.sol",
+      "start_line": 408,
+      "end_line": 425,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_getIntentVaultAddress",
+      "file": "IntentSource.sol",
+      "start_line": 435,
+      "end_line": 462,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_validateAndPublishIntent",
+      "file": "IntentSource.sol",
+      "start_line": 470,
+      "end_line": 496,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_disableNativeReward",
+      "file": "IntentSource.sol",
+      "start_line": 505,
+      "end_line": 516,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_validateInitialFundingState",
+      "file": "IntentSource.sol",
+      "start_line": 523,
+      "end_line": 530,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_validateFundingState",
+      "file": "IntentSource.sol",
+      "start_line": 537,
+      "end_line": 547,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_fundIntent",
+      "file": "IntentSource.sol",
+      "start_line": 556,
+      "end_line": 626,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_fundIntentFor",
+      "file": "IntentSource.sol",
+      "start_line": 628,
+      "end_line": 673,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_validateSourceChain",
+      "file": "IntentSource.sol",
+      "start_line": 680,
+      "end_line": 687,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_returnExcessEth",
+      "file": "IntentSource.sol",
+      "start_line": 694,
+      "end_line": 699,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "GASLESS_CROSSCHAIN_ORDER_TYPEHASH",
+      "var_type": "bytes32 public",
+      "file": "Eco7683OriginSettler.sol",
+      "line": 26
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "INTENT_SOURCE",
+      "var_type": "address public immutable",
+      "file": "Eco7683OriginSettler.sol",
+      "line": 32
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "fulfilled",
+      "var_type": "mapping(bytes32 => address) public",
+      "file": "Inbox.sol",
+      "line": 26
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "solverWhitelist",
+      "var_type": "mapping(address => bool) public",
+      "file": "Inbox.sol",
+      "line": 29
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "mailbox",
+      "var_type": "address public",
+      "file": "Inbox.sol",
+      "line": 32
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "isSolvingPublic",
+      "var_type": "bool public",
+      "file": "Inbox.sol",
+      "line": 35
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "vaults",
+      "var_type": "mapping(bytes32 intentHash => VaultStorage) public",
+      "file": "IntentSource.sol",
+      "line": 26
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "TRANSFER:Eco7683OriginSettler.sol:338",
+      "call_type": "TRANSFER",
+      "line": 338,
+      "enclosing_function": "_openEcoIntent",
+      "file": "Eco7683OriginSettler.sol",
+      "raw_text": "payable(vault).transfer(_intent.reward.nativeValue);"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "TRANSFER:Eco7683OriginSettler.sol:349",
+      "call_type": "TRANSFER",
+      "line": 349,
+      "enclosing_function": "_openEcoIntent",
+      "file": "Eco7683OriginSettler.sol",
+      "raw_text": "payable(msg.sender).transfer(address(this).balance);"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "CALL:Inbox.sol:133",
+      "call_type": "CALL",
+      "line": 133,
+      "enclosing_function": "fulfillHyperInstantWithRelayer",
+      "file": "Inbox.sol",
+      "raw_text": "(bool success, ) = payable(msg.sender).call{"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "CALL:Inbox.sol:226",
+      "call_type": "CALL",
+      "line": 226,
+      "enclosing_function": "sendBatchWithRelayer",
+      "file": "Inbox.sol",
+      "raw_text": "(bool success, ) = payable(msg.sender).call{value: msg.value - fee}("
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "CALL:Inbox.sol:361",
+      "call_type": "CALL",
+      "line": 361,
+      "enclosing_function": "_fulfill",
+      "file": "Inbox.sol",
+      "raw_text": "(bool success, bytes memory result) = call.target.call{"
+    },
+    {
+      "node_id": 58,
+      "node_type": "call_site",
+      "name": "TRANSFER:IntentSource.sol:451",
+      "call_type": "TRANSFER",
+      "line": 451,
+      "enclosing_function": "_fundIntent",
+      "file": "IntentSource.sol",
+      "raw_text": "payable(vault).transfer(reward.nativeValue);"
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "CALL:IntentSource.sol:572",
+      "call_type": "CALL",
+      "line": 572,
+      "enclosing_function": "_returnExcessEth",
+      "file": "IntentSource.sol",
+      "raw_text": "(bool success, ) = payable(msg.sender).call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        4,
+        8,
+        47,
+        53
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 53
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        4,
+        8,
+        47,
+        54
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 54
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        11,
+        50,
+        55
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 55
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        14,
+        15,
+        48,
+        50,
+        56
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 56
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        2,
+        11,
+        13,
+        20,
+        48,
+        49,
+        50,
+        51,
+        57
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 57
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        27,
+        28,
+        42,
+        52,
+        58
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 58
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        27,
+        28,
+        45,
+        52,
+        59
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 59
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fill",
+      "file": "Eco7683DestinationSettler.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "fulfillStorage",
+      "file": "Eco7683DestinationSettler.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "fulfillHyperInstantWithRelayer",
+      "file": "Eco7683DestinationSettler.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "open",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "resolveFor",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_verifyOpenFor",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_openEcoIntent",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "domainSeparatorV4",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "fulfillStorage",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fulfillHyperInstant",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "fulfillHyperInstantWithRelayer",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "fulfillHyperBatched",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sendBatch",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "sendBatchWithRelayer",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setMailbox",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "makeSolvingPublic",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "changeSolverWhitelist",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_fulfill",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getRewardStatus",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getVaultState",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getPermitContract",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getIntentHash",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "intentVaultAddress",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "publish",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "publishAndFund",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "fund",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "fundFor",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "publishAndFundFor",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "isIntentFunded",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "withdrawRewards",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "batchWithdraw",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "refund",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "recoverToken",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_isRewardFunded",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_getIntentVaultAddress",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_validateAndPublishIntent",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_disableNativeReward",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_validateInitialFundingState",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_validateFundingState",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_fundIntent",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_fundIntentFor",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_validateSourceChain",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_returnExcessEth",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "GASLESS_CROSSCHAIN_ORDER_TYPEHASH",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "INTENT_SOURCE",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "fulfilled",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "solverWhitelist",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "mailbox",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "isSolvingPublic",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "vaults",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "TRANSFER:Eco7683OriginSettler.sol:338",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "TRANSFER:Eco7683OriginSettler.sol:349",
+      "file": "Eco7683OriginSettler.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "CALL:Inbox.sol:133",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "CALL:Inbox.sol:226",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "CALL:Inbox.sol:361",
+      "file": "Inbox.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "call_site",
+      "name": "TRANSFER:IntentSource.sol:451",
+      "file": "IntentSource.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "CALL:IntentSource.sol:572",
+      "file": "IntentSource.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 60,
+    "n_hyperedges": 7,
+    "n_functions": 46,
+    "n_state_vars": 7,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 5.571428571428571
+  },
+  "label": {
+    "vfp_id": "vfp_00518",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-116",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-1288",
+      "CWE-172",
+      "CWE-190",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-358",
+      "CWE-372",
+      "CWE-664",
+      "CWE-669",
+      "CWE-682",
+      "CWE-693",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-74",
+      "CWE-754",
+      "CWE-755",
+      "CWE-778"
+    ]
+  }
+}

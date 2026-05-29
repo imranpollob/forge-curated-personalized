@@ -1,0 +1,357 @@
+{
+  "sample_id": "vfp_00022",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claimAndSwap",
+      "file": "Swapper.sol",
+      "start_line": 43,
+      "end_line": 92,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_compoundEscrowToken",
+      "file": "Swapper.sol",
+      "start_line": 94,
+      "end_line": 116,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "rewardDistributor",
+      "var_type": "IRewardsDistributor public immutable",
+      "file": "Swapper.sol",
+      "line": 20
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "executor",
+      "var_type": "address public immutable",
+      "file": "Swapper.sol",
+      "line": 23
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "escrow",
+      "var_type": "Escrow public immutable",
+      "file": "Swapper.sol",
+      "line": 26
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "escrowToken",
+      "var_type": "IERC20 public immutable",
+      "file": "Swapper.sol",
+      "line": 29
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:39",
+      "call_type": "INTERFACE_CALL",
+      "line": 39,
+      "enclosing_function": "",
+      "file": "Swapper.sol",
+      "raw_text": "escrowToken = IERC20(escrow.token());"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:64",
+      "call_type": "INTERFACE_CALL",
+      "line": 64,
+      "enclosing_function": "claimAndSwap",
+      "file": "Swapper.sol",
+      "raw_text": "uint256 beforeAmount = escrowToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "claimAndSwap",
+      "file": "Swapper.sol",
+      "raw_text": "rewardDistributor.claim(users, _claim.tokens, _claim.amounts, _claim.proofs);"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:Swapper.sol:73",
+      "call_type": "DELEGATECALL",
+      "line": 73,
+      "enclosing_function": "claimAndSwap",
+      "file": "Swapper.sol",
+      "raw_text": "(bool success,) = executor.delegatecall("
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:82",
+      "call_type": "INTERFACE_CALL",
+      "line": 82,
+      "enclosing_function": "claimAndSwap",
+      "file": "Swapper.sol",
+      "raw_text": "uint256 afterAmount = escrowToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:109",
+      "call_type": "INTERFACE_CALL",
+      "line": 109,
+      "enclosing_function": "_compoundEscrowToken",
+      "file": "Swapper.sol",
+      "raw_text": "escrowToken.approve(address(escrow), lock.amount);"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "_compoundEscrowToken",
+      "file": "Swapper.sol",
+      "raw_text": "lock.tokenId = escrow.createLockFor(lock.amount, msg.sender);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:114",
+      "call_type": "INTERFACE_CALL",
+      "line": 114,
+      "enclosing_function": "_compoundEscrowToken",
+      "file": "Swapper.sol",
+      "raw_text": "escrowToken.safeTransfer(msg.sender, remaining);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        3,
+        5,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        3,
+        5,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        2,
+        3,
+        5,
+        9
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        2,
+        3,
+        5,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claimAndSwap",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_compoundEscrowToken",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "rewardDistributor",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "executor",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "escrow",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "escrowToken",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:39",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:64",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:70",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:Swapper.sol:73",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:82",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:109",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:110",
+      "file": "Swapper.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swapper.sol:114",
+      "file": "Swapper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 7,
+    "n_functions": 2,
+    "n_state_vars": 4,
+    "n_call_sites": 8,
+    "avg_hyperedge_size": 5.857142857142857
+  },
+  "label": {
+    "vfp_id": "vfp_00022",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-250",
+      "CWE-269",
+      "CWE-284",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754",
+      "CWE-807"
+    ]
+  }
+}

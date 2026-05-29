@@ -1,0 +1,500 @@
+{
+  "sample_id": "vfp_00222",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "update",
+      "file": "SP1Helios.sol",
+      "start_line": 153,
+      "end_line": 250,
+      "visibility": "public",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateStorageSlot",
+      "file": "SP1Helios.sol",
+      "start_line": 257,
+      "end_line": 272,
+      "visibility": "public",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyStorageSlotsProof",
+      "file": "SP1Helios.sol",
+      "start_line": 279,
+      "end_line": 295,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "latestExecutionStateRoot",
+      "file": "SP1Helios.sol",
+      "start_line": 297,
+      "end_line": 299,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "latestExecutionBlockNumber",
+      "file": "SP1Helios.sol",
+      "start_line": 301,
+      "end_line": 303,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getSyncCommitteePeriod",
+      "file": "SP1Helios.sol",
+      "start_line": 306,
+      "end_line": 308,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getCurrentEpoch",
+      "file": "SP1Helios.sol",
+      "start_line": 311,
+      "end_line": 313,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getStorageSlot",
+      "file": "SP1Helios.sol",
+      "start_line": 316,
+      "end_line": 322,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateLightClientVkey",
+      "file": "SP1Helios.sol",
+      "start_line": 325,
+      "end_line": 329,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateStorageSlotVkey",
+      "file": "SP1Helios.sol",
+      "start_line": 332,
+      "end_line": 336,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "changeGuardian",
+      "file": "SP1Helios.sol",
+      "start_line": 338,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "relinquishGuardian",
+      "file": "SP1Helios.sol",
+      "start_line": 349,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "computeStorageSlotKey",
+      "file": "SP1Helios.sol",
+      "start_line": 356,
+      "end_line": 362,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "GENESIS_VALIDATORS_ROOT",
+      "var_type": "bytes32 public immutable",
+      "file": "SP1Helios.sol",
+      "line": 62
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "GENESIS_TIME",
+      "var_type": "uint256 public immutable",
+      "file": "SP1Helios.sol",
+      "line": 63
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "SECONDS_PER_SLOT",
+      "var_type": "uint256 public immutable",
+      "file": "SP1Helios.sol",
+      "line": 64
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "SLOTS_PER_PERIOD",
+      "var_type": "uint256 public immutable",
+      "file": "SP1Helios.sol",
+      "line": 65
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "SLOTS_PER_EPOCH",
+      "var_type": "uint256 public immutable",
+      "file": "SP1Helios.sol",
+      "line": 66
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "SOURCE_CHAIN_ID",
+      "var_type": "uint256 public immutable",
+      "file": "SP1Helios.sol",
+      "line": 67
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "head",
+      "var_type": "uint256 public",
+      "file": "SP1Helios.sol",
+      "line": 75
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "executionBlockNumber",
+      "var_type": "uint256 public",
+      "file": "SP1Helios.sol",
+      "line": 78
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "headers",
+      "var_type": "mapping(uint256 => bytes32) public",
+      "file": "SP1Helios.sol",
+      "line": 81
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "executionStateRoots",
+      "var_type": "mapping(uint256 => bytes32) public",
+      "file": "SP1Helios.sol",
+      "line": 84
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "syncCommittees",
+      "var_type": "mapping(uint256 => bytes32) public",
+      "file": "SP1Helios.sol",
+      "line": 87
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "storageSlots",
+      "var_type": "mapping(bytes32 => bytes32) public",
+      "file": "SP1Helios.sol",
+      "line": 91
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "lightClientVkey",
+      "var_type": "bytes32 public",
+      "file": "SP1Helios.sol",
+      "line": 94
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "storageSlotVkey",
+      "var_type": "bytes32 public",
+      "file": "SP1Helios.sol",
+      "line": 97
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "verifier",
+      "var_type": "address public",
+      "file": "SP1Helios.sol",
+      "line": 100
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "guardian",
+      "var_type": "address public",
+      "file": "SP1Helios.sol",
+      "line": 103
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "string public constant",
+      "file": "SP1Helios.sol",
+      "line": 107
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "update",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateStorageSlot",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "verifyStorageSlotsProof",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "latestExecutionStateRoot",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "latestExecutionBlockNumber",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getSyncCommitteePeriod",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getCurrentEpoch",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getStorageSlot",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateLightClientVkey",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateStorageSlotVkey",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "changeGuardian",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "relinquishGuardian",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "computeStorageSlotKey",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "GENESIS_VALIDATORS_ROOT",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "GENESIS_TIME",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "SECONDS_PER_SLOT",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "SLOTS_PER_PERIOD",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "SLOTS_PER_EPOCH",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "SOURCE_CHAIN_ID",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "head",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "executionBlockNumber",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "headers",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "executionStateRoots",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "syncCommittees",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "storageSlots",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "lightClientVkey",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "storageSlotVkey",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "verifier",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "guardian",
+      "file": "SP1Helios.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "SP1Helios.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 30,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 17,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00222",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1164",
+      "CWE-1419",
+      "CWE-571",
+      "CWE-664",
+      "CWE-665",
+      "CWE-710"
+    ]
+  }
+}

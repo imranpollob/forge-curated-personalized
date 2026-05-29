@@ -1,0 +1,232 @@
+{
+  "sample_id": "neg_00401",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "5eb634c4ca7e1597e943c8c46e91683d76ac3ba9_ass-cake-earn-contract_src_interfaces_IAssToken.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mint",
+      "file": "5eb634c4ca7e1597e943c8c46e91683d76ac3ba9_ass-cake-earn-contract_src_interfaces_IAssToken.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "5eb634c4ca7e1597e943c8c46e91683d76ac3ba9_ass-cake-earn-contract_src_interfaces_IAssToken.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setTransferLimitConfig",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "start_line": 59,
+      "end_line": 77,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_setTransferLimitConfigs",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "start_line": 83,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_checkAndUpdateTransferLimit",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "start_line": 97,
+      "end_line": 144,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isMoreThanACalendarDay",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "start_line": 154,
+      "end_line": 158,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "transferLimitConfigs",
+      "var_type": "mapping(uint32 dstEid => TransferLimit limit) public",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "dailyTransferAmount",
+      "var_type": "mapping(uint32 dstEid => uint256 amount) public",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "lastUpdatedTime",
+      "var_type": "mapping(uint32 dstEid => uint256 lastUpdatedTime) public",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "line": 25
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "userDailyTransferAmount",
+      "var_type": "mapping(uint32 dstEid => mapping(address user => uint256 amount)) public",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "line": 30
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "userDailyAttempt",
+      "var_type": "mapping(uint32 dstEid => mapping(address user => uint256 attempt)) public",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "line": 33
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "lastUserUpdatedTime",
+      "var_type": "mapping(uint32 dstEid => mapping(address user => uint256 updatedTime)) public",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol",
+      "line": 36
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "5eb634c4ca7e1597e943c8c46e91683d76ac3ba9_ass-cake-earn-contract_src_interfaces_IAssToken.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mint",
+      "file": "5eb634c4ca7e1597e943c8c46e91683d76ac3ba9_ass-cake-earn-contract_src_interfaces_IAssToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "5eb634c4ca7e1597e943c8c46e91683d76ac3ba9_ass-cake-earn-contract_src_interfaces_IAssToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setTransferLimitConfig",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_setTransferLimitConfigs",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_checkAndUpdateTransferLimit",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isMoreThanACalendarDay",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "transferLimitConfigs",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "dailyTransferAmount",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "lastUpdatedTime",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "userDailyTransferAmount",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "userDailyAttempt",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "lastUserUpdatedTime",
+      "file": "audit_astherus-earn-contract_contracts_oft_TransferLimiter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00401",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

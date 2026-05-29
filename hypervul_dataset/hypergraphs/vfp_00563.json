@@ -1,0 +1,117 @@
+{
+  "sample_id": "vfp_00563",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createVaultWithDashboard",
+      "file": "VaultFactory.sol",
+      "start_line": 51,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createVaultWithDashboardWithoutConnectingToVaultHub",
+      "file": "VaultFactory.sol",
+      "start_line": 97,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "var_type": "address public immutable",
+      "file": "VaultFactory.sol",
+      "line": 23
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "BEACON",
+      "var_type": "address public immutable",
+      "file": "VaultFactory.sol",
+      "line": 24
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "DASHBOARD_IMPL",
+      "var_type": "address public immutable",
+      "file": "VaultFactory.sol",
+      "line": 25
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createVaultWithDashboard",
+      "file": "VaultFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createVaultWithDashboardWithoutConnectingToVaultHub",
+      "file": "VaultFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "file": "VaultFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "BEACON",
+      "file": "VaultFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "DASHBOARD_IMPL",
+      "file": "VaultFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00563",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1188",
+      "CWE-1419",
+      "CWE-20",
+      "CWE-453",
+      "CWE-664",
+      "CWE-665",
+      "CWE-707"
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "sample_id": "neg_00684",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Royalty.sol",
+      "start_line": 27,
+      "end_line": 29,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Royalty.sol",
+      "start_line": 34,
+      "end_line": 37,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "safeTransferFrom",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol",
+      "start_line": 55,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "safeBatchTransferFrom",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol",
+      "start_line": 71,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol",
+      "start_line": 83,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOfBatch",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol",
+      "start_line": 89,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setApprovalForAll",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol",
+      "start_line": 98,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isApprovedForAll",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol",
+      "start_line": 104,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Royalty.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Royalty.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "safeTransferFrom",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "safeBatchTransferFrom",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOfBatch",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setApprovalForAll",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isApprovedForAll",
+      "file": "capyfi-sc_lib_openzeppelin-contracts_lib_forge-std_src_interfaces_IERC1155.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00684",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

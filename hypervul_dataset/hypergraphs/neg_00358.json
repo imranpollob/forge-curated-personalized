@@ -1,0 +1,352 @@
+{
+  "sample_id": "neg_00358",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "batch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_Protocols_EulerDecoderAndSanitizer.sol",
+      "start_line": 21,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "enableCollateral",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_Protocols_EulerDecoderAndSanitizer.sol",
+      "start_line": 64,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "enableController",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_Protocols_EulerDecoderAndSanitizer.sol",
+      "start_line": 79,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferRemote",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_WarpRouteWrapper.sol",
+      "start_line": 11,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "depositAndBridge",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_WarpRouteWrapper.sol",
+      "start_line": 62,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "localDomain",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 39,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "delivered",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "defaultIsm",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "defaultHook",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 45,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requiredHook",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "latestDispatchedId",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 49,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 51,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 60,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 69,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 79,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 89,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 100,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "process",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 111,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "recipientIsm",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol",
+      "start_line": 113,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "batch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_Protocols_EulerDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "enableCollateral",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_Protocols_EulerDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "enableController",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_base_DecodersAndSanitizers_Protocols_EulerDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferRemote",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_WarpRouteWrapper.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "depositAndBridge",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_WarpRouteWrapper.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "localDomain",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "delivered",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "defaultIsm",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "defaultHook",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requiredHook",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "latestDispatchedId",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "dispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "quoteDispatch",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "process",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "recipientIsm",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_interfaces_hyperlane_IMailbox.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 0,
+    "n_functions": 19,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00358",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

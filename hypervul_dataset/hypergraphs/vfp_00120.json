@@ -1,0 +1,379 @@
+{
+  "sample_id": "vfp_00120",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "ERC4626Feed.sol",
+      "start_line": 83,
+      "end_line": 86,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_latestRoundData",
+      "file": "ERC4626Feed.sol",
+      "start_line": 97,
+      "end_line": 101,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "ERC4626Feed.sol",
+      "start_line": 111,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getRoundData",
+      "file": "ERC4626Feed.sol",
+      "start_line": 125,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint256 public constant",
+      "file": "ERC4626Feed.sol",
+      "line": 20
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "IERC4626 public immutable",
+      "file": "ERC4626Feed.sol",
+      "line": 23
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "token",
+      "var_type": "IERC20Metadata public immutable",
+      "file": "ERC4626Feed.sol",
+      "line": 26
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "decimals",
+      "var_type": "uint8 public immutable",
+      "file": "ERC4626Feed.sol",
+      "line": 29
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "description",
+      "var_type": "string public",
+      "file": "ERC4626Feed.sol",
+      "line": 32
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ONE_SHARE",
+      "var_type": "uint256 public immutable",
+      "file": "ERC4626Feed.sol",
+      "line": 35
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "ONE_ASSET",
+      "var_type": "uint256 public immutable",
+      "file": "ERC4626Feed.sol",
+      "line": 38
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "SCALING_NUMERATOR",
+      "var_type": "uint256 public immutable",
+      "file": "ERC4626Feed.sol",
+      "line": 41
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "SCALING_DENOMINATOR",
+      "var_type": "uint256 public immutable",
+      "file": "ERC4626Feed.sol",
+      "line": 44
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:45",
+      "call_type": "INTERFACE_CALL",
+      "line": 45,
+      "enclosing_function": "",
+      "file": "ERC4626Feed.sol",
+      "raw_text": "ONE_SHARE = 10 ** vault.decimals();"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:46",
+      "call_type": "INTERFACE_CALL",
+      "line": 46,
+      "enclosing_function": "",
+      "file": "ERC4626Feed.sol",
+      "raw_text": "ONE_ASSET = 10 ** token.decimals();"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:50",
+      "call_type": "INTERFACE_CALL",
+      "line": 50,
+      "enclosing_function": "",
+      "file": "ERC4626Feed.sol",
+      "raw_text": "decimals = token.decimals();"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:56",
+      "call_type": "INTERFACE_CALL",
+      "line": 56,
+      "enclosing_function": "",
+      "file": "ERC4626Feed.sol",
+      "raw_text": "uint256 token_decimals = token.decimals();"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:66",
+      "call_type": "INTERFACE_CALL",
+      "line": 66,
+      "enclosing_function": "",
+      "file": "ERC4626Feed.sol",
+      "raw_text": "description = string.concat(vault.symbol(), \" / \", token.symbol());"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:71",
+      "call_type": "INTERFACE_CALL",
+      "line": 71,
+      "enclosing_function": "getPrice",
+      "file": "ERC4626Feed.sol",
+      "raw_text": "uint256 price = vault.convertToAssets(ONE_SHARE);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:72",
+      "call_type": "INTERFACE_CALL",
+      "line": 72,
+      "enclosing_function": "getPrice",
+      "file": "ERC4626Feed.sol",
+      "raw_text": "return SCALING_NUMERATOR.mulDiv(price, SCALING_DENOMINATOR);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_latestRoundData",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getRoundData",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "token",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "decimals",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "description",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ONE_SHARE",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "ONE_ASSET",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "SCALING_NUMERATOR",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "SCALING_DENOMINATOR",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:45",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:46",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:50",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:56",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:66",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:71",
+      "file": "ERC4626Feed.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC4626Feed.sol:72",
+      "file": "ERC4626Feed.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 2,
+    "n_functions": 4,
+    "n_state_vars": 9,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 9.0
+  },
+  "label": {
+    "vfp_id": "vfp_00120",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-693",
+      "CWE-703",
+      "CWE-710",
+      "CWE-754",
+      "CWE-807"
+    ]
+  }
+}

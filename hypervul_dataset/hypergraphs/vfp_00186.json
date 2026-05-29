@@ -1,0 +1,4496 @@
+{
+  "sample_id": "vfp_00186",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setGauge",
+      "file": "GaugeManager.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "approveTransform",
+      "file": "GaugeManager.sol",
+      "start_line": 81,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setTransformer",
+      "file": "GaugeManager.sol",
+      "start_line": 88,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setV3Utils",
+      "file": "GaugeManager.sol",
+      "start_line": 94,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "stakePosition",
+      "file": "GaugeManager.sol",
+      "start_line": 100,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "unstakePosition",
+      "file": "GaugeManager.sol",
+      "start_line": 131,
+      "end_line": 167,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "compoundRewards",
+      "file": "GaugeManager.sol",
+      "start_line": 171,
+      "end_line": 273,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "GaugeManager.sol",
+      "start_line": 276,
+      "end_line": 298,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "executeV3UtilsWithOptionalCompound",
+      "file": "GaugeManager.sol",
+      "start_line": 309,
+      "end_line": 386,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_compoundIntoPosition",
+      "file": "GaugeManager.sol",
+      "start_line": 389,
+      "end_line": 467,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "swapAndIncreaseStakedPosition",
+      "file": "GaugeManager.sol",
+      "start_line": 473,
+      "end_line": 536,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "migrateToVault",
+      "file": "GaugeManager.sol",
+      "start_line": 542,
+      "end_line": 580,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "transform",
+      "file": "GaugeManager.sol",
+      "start_line": 587,
+      "end_line": 697,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "GaugeManager.sol",
+      "start_line": 699,
+      "end_line": 709,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setReward",
+      "file": "GaugeManager.sol",
+      "start_line": 715,
+      "end_line": 719,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setFeeWithdrawer",
+      "file": "GaugeManager.sol",
+      "start_line": 725,
+      "end_line": 728,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "GaugeManager.sol",
+      "start_line": 735,
+      "end_line": 744,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "vaultInfo",
+      "file": "V3Vault.sol",
+      "start_line": 167,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "lendInfo",
+      "file": "V3Vault.sol",
+      "start_line": 187,
+      "end_line": 190,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "loanInfo",
+      "file": "V3Vault.sol",
+      "start_line": 192,
+      "end_line": 214,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "ownerOf",
+      "file": "V3Vault.sol",
+      "start_line": 216,
+      "end_line": 218,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "loanCount",
+      "file": "V3Vault.sol",
+      "start_line": 220,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "loanAtIndex",
+      "file": "V3Vault.sol",
+      "start_line": 224,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "V3Vault.sol",
+      "start_line": 228,
+      "end_line": 230,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "V3Vault.sol",
+      "start_line": 232,
+      "end_line": 234,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "V3Vault.sol",
+      "start_line": 236,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "V3Vault.sol",
+      "start_line": 241,
+      "end_line": 244,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "V3Vault.sol",
+      "start_line": 246,
+      "end_line": 259,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "V3Vault.sol",
+      "start_line": 261,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "V3Vault.sol",
+      "start_line": 276,
+      "end_line": 288,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "V3Vault.sol",
+      "start_line": 290,
+      "end_line": 303,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "V3Vault.sol",
+      "start_line": 305,
+      "end_line": 308,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "V3Vault.sol",
+      "start_line": 310,
+      "end_line": 313,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "V3Vault.sol",
+      "start_line": 315,
+      "end_line": 318,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "V3Vault.sol",
+      "start_line": 320,
+      "end_line": 323,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "V3Vault.sol",
+      "start_line": 325,
+      "end_line": 328,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "mint",
+      "file": "V3Vault.sol",
+      "start_line": 330,
+      "end_line": 333,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "V3Vault.sol",
+      "start_line": 335,
+      "end_line": 338,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "V3Vault.sol",
+      "start_line": 340,
+      "end_line": 343,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "V3Vault.sol",
+      "start_line": 345,
+      "end_line": 348,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "mint",
+      "file": "V3Vault.sol",
+      "start_line": 350,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "create",
+      "file": "V3Vault.sol",
+      "start_line": 355,
+      "end_line": 357,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "createWithPermit",
+      "file": "V3Vault.sol",
+      "start_line": 359,
+      "end_line": 365,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "V3Vault.sol",
+      "start_line": 367,
+      "end_line": 413,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "approveTransform",
+      "file": "V3Vault.sol",
+      "start_line": 415,
+      "end_line": 422,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "transform",
+      "file": "V3Vault.sol",
+      "start_line": 424,
+      "end_line": 484,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "V3Vault.sol",
+      "start_line": 486,
+      "end_line": 534,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "decreaseLiquidityAndCollect",
+      "file": "V3Vault.sol",
+      "start_line": 536,
+      "end_line": 575,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "repay",
+      "file": "V3Vault.sol",
+      "start_line": 577,
+      "end_line": 583,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "repay",
+      "file": "V3Vault.sol",
+      "start_line": 585,
+      "end_line": 591,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "V3Vault.sol",
+      "start_line": 607,
+      "end_line": 685,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "remove",
+      "file": "V3Vault.sol",
+      "start_line": 687,
+      "end_line": 703,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "withdrawReserves",
+      "file": "V3Vault.sol",
+      "start_line": 707,
+      "end_line": 725,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "setTransformer",
+      "file": "V3Vault.sol",
+      "start_line": 727,
+      "end_line": 738,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "setLimits",
+      "file": "V3Vault.sol",
+      "start_line": 740,
+      "end_line": 765,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "setReserveFactor",
+      "file": "V3Vault.sol",
+      "start_line": 767,
+      "end_line": 772,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "setReserveProtectionFactor",
+      "file": "V3Vault.sol",
+      "start_line": 774,
+      "end_line": 780,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "setTokenConfig",
+      "file": "V3Vault.sol",
+      "start_line": 782,
+      "end_line": 793,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "setEmergencyAdmin",
+      "file": "V3Vault.sol",
+      "start_line": 795,
+      "end_line": 798,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "V3Vault.sol",
+      "start_line": 802,
+      "end_line": 847,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "V3Vault.sol",
+      "start_line": 849,
+      "end_line": 886,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_repay",
+      "file": "V3Vault.sol",
+      "start_line": 888,
+      "end_line": 952,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_getBalanceAndReserves",
+      "file": "V3Vault.sol",
+      "start_line": 954,
+      "end_line": 965,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_sendPositionValue",
+      "file": "V3Vault.sol",
+      "start_line": 967,
+      "end_line": 1011,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_cleanupLoan",
+      "file": "V3Vault.sol",
+      "start_line": 1013,
+      "end_line": 1016,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_calculateLiquidation",
+      "file": "V3Vault.sol",
+      "start_line": 1018,
+      "end_line": 1056,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_handleReserveLiquidation",
+      "file": "V3Vault.sol",
+      "start_line": 1058,
+      "end_line": 1074,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_calculateTokenCollateralFactorX32",
+      "file": "V3Vault.sol",
+      "start_line": 1076,
+      "end_line": 1081,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_updateGlobalInterest",
+      "file": "V3Vault.sol",
+      "start_line": 1083,
+      "end_line": 1098,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_calculateGlobalInterest",
+      "file": "V3Vault.sol",
+      "start_line": 1100,
+      "end_line": 1124,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_requireLoanIsHealthy",
+      "file": "V3Vault.sol",
+      "start_line": 1126,
+      "end_line": 1131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_updateAndCheckCollateral",
+      "file": "V3Vault.sol",
+      "start_line": 1133,
+      "end_line": 1171,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_resetDailyLendIncreaseLimit",
+      "file": "V3Vault.sol",
+      "start_line": 1173,
+      "end_line": 1183,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_resetDailyDebtIncreaseLimit",
+      "file": "V3Vault.sol",
+      "start_line": 1185,
+      "end_line": 1195,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_checkLoanIsHealthy",
+      "file": "V3Vault.sol",
+      "start_line": 1197,
+      "end_line": 1206,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_convertToShares",
+      "file": "V3Vault.sol",
+      "start_line": 1208,
+      "end_line": 1214,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_convertToAssets",
+      "file": "V3Vault.sol",
+      "start_line": 1216,
+      "end_line": 1222,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_addTokenToOwner",
+      "file": "V3Vault.sol",
+      "start_line": 1224,
+      "end_line": 1228,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_removeTokenFromOwner",
+      "file": "V3Vault.sol",
+      "start_line": 1230,
+      "end_line": 1241,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "setGaugeManager",
+      "file": "V3Vault.sol",
+      "start_line": 1246,
+      "end_line": 1249,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "stakePosition",
+      "file": "V3Vault.sol",
+      "start_line": 1252,
+      "end_line": 1258,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "unstakePosition",
+      "file": "V3Vault.sol",
+      "start_line": 1261,
+      "end_line": 1266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_unstakeForLiquidation",
+      "file": "V3Vault.sol",
+      "start_line": 1271,
+      "end_line": 1275,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "Q32",
+      "var_type": "uint256 internal constant",
+      "file": "Constants.sol",
+      "line": 5
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "Q64",
+      "var_type": "uint256 internal constant",
+      "file": "Constants.sol",
+      "line": 6
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "Q96",
+      "var_type": "uint256 internal constant",
+      "file": "Constants.sol",
+      "line": 7
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "Q128",
+      "var_type": "uint256 internal constant",
+      "file": "Constants.sol",
+      "line": 8
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "Q160",
+      "var_type": "uint256 internal constant",
+      "file": "Constants.sol",
+      "line": 9
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "aeroToken",
+      "var_type": "IERC20 public immutable",
+      "file": "GaugeManager.sol",
+      "line": 34
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "IVault public immutable",
+      "file": "GaugeManager.sol",
+      "line": 35
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "v3Utils",
+      "var_type": "address payable public",
+      "file": "GaugeManager.sol",
+      "line": 38
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "MAX_REWARD_X64",
+      "var_type": "uint64 public constant",
+      "file": "GaugeManager.sol",
+      "line": 41
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "totalRewardX64",
+      "var_type": "uint64 public",
+      "file": "GaugeManager.sol",
+      "line": 42
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "feeWithdrawer",
+      "var_type": "address public",
+      "file": "GaugeManager.sol",
+      "line": 43
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "poolToGauge",
+      "var_type": "mapping(address => address) public",
+      "file": "GaugeManager.sol",
+      "line": 46
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "tokenIdToGauge",
+      "var_type": "mapping(uint256 => address) public",
+      "file": "GaugeManager.sol",
+      "line": 47
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "positionOwners",
+      "var_type": "mapping(uint256 => address) public",
+      "file": "GaugeManager.sol",
+      "line": 48
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "isVaultPosition",
+      "var_type": "mapping(uint256 => bool) public",
+      "file": "GaugeManager.sol",
+      "line": 49
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "transformerAllowList",
+      "var_type": "mapping(address => bool) public",
+      "file": "GaugeManager.sol",
+      "line": 52
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "transformedTokenId",
+      "var_type": "uint256 public",
+      "file": "GaugeManager.sol",
+      "line": 53
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "transformApprovals",
+      "var_type": "mapping(address => mapping(uint256 => mapping(address => bool))) public",
+      "file": "GaugeManager.sol",
+      "line": 56
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "MAX_COLLATERAL_FACTOR_X32",
+      "var_type": "uint32 public constant",
+      "file": "V3Vault.sol",
+      "line": 30
+    },
+    {
+      "node_id": 102,
+      "node_type": "state_var",
+      "name": "MIN_LIQUIDATION_PENALTY_X32",
+      "var_type": "uint32 public constant",
+      "file": "V3Vault.sol",
+      "line": 32
+    },
+    {
+      "node_id": 103,
+      "node_type": "state_var",
+      "name": "MAX_LIQUIDATION_PENALTY_X32",
+      "var_type": "uint32 public constant",
+      "file": "V3Vault.sol",
+      "line": 33
+    },
+    {
+      "node_id": 104,
+      "node_type": "state_var",
+      "name": "MIN_RESERVE_PROTECTION_FACTOR_X32",
+      "var_type": "uint32 public constant",
+      "file": "V3Vault.sol",
+      "line": 35
+    },
+    {
+      "node_id": 105,
+      "node_type": "state_var",
+      "name": "MAX_DAILY_LEND_INCREASE_X32",
+      "var_type": "uint32 public constant",
+      "file": "V3Vault.sol",
+      "line": 37
+    },
+    {
+      "node_id": 106,
+      "node_type": "state_var",
+      "name": "MAX_DAILY_DEBT_INCREASE_X32",
+      "var_type": "uint32 public constant",
+      "file": "V3Vault.sol",
+      "line": 38
+    },
+    {
+      "node_id": 107,
+      "node_type": "state_var",
+      "name": "BORROW_SAFETY_BUFFER_X32",
+      "var_type": "uint32 public constant",
+      "file": "V3Vault.sol",
+      "line": 40
+    },
+    {
+      "node_id": 108,
+      "node_type": "state_var",
+      "name": "nonfungiblePositionManager",
+      "var_type": "INonfungiblePositionManager public immutable",
+      "file": "V3Vault.sol",
+      "line": 42
+    },
+    {
+      "node_id": 109,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "IUniswapV3Factory public immutable",
+      "file": "V3Vault.sol",
+      "line": 44
+    },
+    {
+      "node_id": 110,
+      "node_type": "state_var",
+      "name": "interestRateModel",
+      "var_type": "IInterestRateModel public immutable",
+      "file": "V3Vault.sol",
+      "line": 46
+    },
+    {
+      "node_id": 111,
+      "node_type": "state_var",
+      "name": "oracle",
+      "var_type": "IV3Oracle public immutable",
+      "file": "V3Vault.sol",
+      "line": 48
+    },
+    {
+      "node_id": 112,
+      "node_type": "state_var",
+      "name": "permit2",
+      "var_type": "IPermit2 public immutable",
+      "file": "V3Vault.sol",
+      "line": 50
+    },
+    {
+      "node_id": 113,
+      "node_type": "state_var",
+      "name": "asset",
+      "var_type": "address public immutable override",
+      "file": "V3Vault.sol",
+      "line": 52
+    },
+    {
+      "node_id": 114,
+      "node_type": "state_var",
+      "name": "assetDecimals",
+      "var_type": "uint8 private immutable",
+      "file": "V3Vault.sol",
+      "line": 54
+    },
+    {
+      "node_id": 115,
+      "node_type": "state_var",
+      "name": "tokenConfigs",
+      "var_type": "mapping(address => TokenConfig) public",
+      "file": "V3Vault.sol",
+      "line": 102
+    },
+    {
+      "node_id": 116,
+      "node_type": "state_var",
+      "name": "debtSharesTotal",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 104
+    },
+    {
+      "node_id": 117,
+      "node_type": "state_var",
+      "name": "lastDebtExchangeRateX96",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 106
+    },
+    {
+      "node_id": 118,
+      "node_type": "state_var",
+      "name": "lastLendExchangeRateX96",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 107
+    },
+    {
+      "node_id": 119,
+      "node_type": "state_var",
+      "name": "globalDebtLimit",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 109
+    },
+    {
+      "node_id": 120,
+      "node_type": "state_var",
+      "name": "globalLendLimit",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 110
+    },
+    {
+      "node_id": 121,
+      "node_type": "state_var",
+      "name": "minLoanSize",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 112
+    },
+    {
+      "node_id": 122,
+      "node_type": "state_var",
+      "name": "dailyLendIncreaseLimitMin",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 114
+    },
+    {
+      "node_id": 123,
+      "node_type": "state_var",
+      "name": "dailyLendIncreaseLimitLeft",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 115
+    },
+    {
+      "node_id": 124,
+      "node_type": "state_var",
+      "name": "dailyDebtIncreaseLimitMin",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 117
+    },
+    {
+      "node_id": 125,
+      "node_type": "state_var",
+      "name": "dailyDebtIncreaseLimitLeft",
+      "var_type": "uint256 public",
+      "file": "V3Vault.sol",
+      "line": 118
+    },
+    {
+      "node_id": 126,
+      "node_type": "state_var",
+      "name": "loans",
+      "var_type": "mapping(uint256 => Loan) public override",
+      "file": "V3Vault.sol",
+      "line": 124
+    },
+    {
+      "node_id": 127,
+      "node_type": "state_var",
+      "name": "ownedTokens",
+      "var_type": "mapping(address => uint256[]) private",
+      "file": "V3Vault.sol",
+      "line": 126
+    },
+    {
+      "node_id": 128,
+      "node_type": "state_var",
+      "name": "ownedTokensIndex",
+      "var_type": "mapping(uint256 => uint256) private",
+      "file": "V3Vault.sol",
+      "line": 127
+    },
+    {
+      "node_id": 129,
+      "node_type": "state_var",
+      "name": "tokenOwner",
+      "var_type": "mapping(uint256 => address) private",
+      "file": "V3Vault.sol",
+      "line": 128
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "transformedTokenId",
+      "var_type": "uint256 public override",
+      "file": "V3Vault.sol",
+      "line": 130
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "transformerAllowList",
+      "var_type": "mapping(address => bool) public",
+      "file": "V3Vault.sol",
+      "line": 132
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "transformApprovals",
+      "var_type": "mapping(address => mapping(uint256 => mapping(address => bool))) public",
+      "file": "V3Vault.sol",
+      "line": 133
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "lastExchangeRateUpdate",
+      "var_type": "uint64 public",
+      "file": "V3Vault.sol",
+      "line": 135
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "reserveFactorX32",
+      "var_type": "uint32 public",
+      "file": "V3Vault.sol",
+      "line": 137
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "reserveProtectionFactorX32",
+      "var_type": "uint32 public",
+      "file": "V3Vault.sol",
+      "line": 139
+    },
+    {
+      "node_id": 136,
+      "node_type": "state_var",
+      "name": "dailyLendIncreaseLimitLastReset",
+      "var_type": "uint32 public",
+      "file": "V3Vault.sol",
+      "line": 141
+    },
+    {
+      "node_id": 137,
+      "node_type": "state_var",
+      "name": "dailyDebtIncreaseLimitLastReset",
+      "var_type": "uint32 public",
+      "file": "V3Vault.sol",
+      "line": 142
+    },
+    {
+      "node_id": 138,
+      "node_type": "state_var",
+      "name": "emergencyAdmin",
+      "var_type": "address public",
+      "file": "V3Vault.sol",
+      "line": 144
+    },
+    {
+      "node_id": 139,
+      "node_type": "state_var",
+      "name": "gaugeManager",
+      "var_type": "address public",
+      "file": "V3Vault.sol",
+      "line": 147
+    },
+    {
+      "node_id": 140,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:101",
+      "call_type": "INTERFACE_CALL",
+      "line": 101,
+      "enclosing_function": "stakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "address nftOwner = nonfungiblePositionManager.ownerOf(tokenId);"
+    },
+    {
+      "node_id": 141,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:112",
+      "call_type": "INTERFACE_CALL",
+      "line": 112,
+      "enclosing_function": "stakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.positions(tokenId);"
+    },
+    {
+      "node_id": 142,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:118",
+      "call_type": "INTERFACE_CALL",
+      "line": 118,
+      "enclosing_function": "stakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.safeTransferFrom(nftOwner, address(this), tokenId);"
+    },
+    {
+      "node_id": 143,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:119",
+      "call_type": "INTERFACE_CALL",
+      "line": 119,
+      "enclosing_function": "stakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(gauge, tokenId);"
+    },
+    {
+      "node_id": 144,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:146",
+      "call_type": "INTERFACE_CALL",
+      "line": 146,
+      "enclosing_function": "unstakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroBefore = aeroToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 145,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:148",
+      "call_type": "INTERFACE_CALL",
+      "line": 148,
+      "enclosing_function": "unstakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroAmount = aeroToken.balanceOf(address(this)) - aeroBefore;"
+    },
+    {
+      "node_id": 146,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:151",
+      "call_type": "INTERFACE_CALL",
+      "line": 151,
+      "enclosing_function": "unstakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.safeTransfer(owner, aeroAmount);"
+    },
+    {
+      "node_id": 147,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:159",
+      "call_type": "INTERFACE_CALL",
+      "line": 159,
+      "enclosing_function": "unstakePosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.safeTransferFrom(address(this), returnTo, tokenId);"
+    },
+    {
+      "node_id": 148,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:193",
+      "call_type": "INTERFACE_CALL",
+      "line": 193,
+      "enclosing_function": "compoundRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroBefore = aeroToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 149,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:195",
+      "call_type": "INTERFACE_CALL",
+      "line": 195,
+      "enclosing_function": "compoundRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroAmount = aeroToken.balanceOf(address(this)) - aeroBefore;"
+    },
+    {
+      "node_id": 150,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:201",
+      "call_type": "INTERFACE_CALL",
+      "line": 201,
+      "enclosing_function": "compoundRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.positions(tokenId);"
+    },
+    {
+      "node_id": 151,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:224",
+      "call_type": "INTERFACE_CALL",
+      "line": 224,
+      "enclosing_function": "compoundRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.balanceOf(address(this)),"
+    },
+    {
+      "node_id": 152,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:246",
+      "call_type": "INTERFACE_CALL",
+      "line": 246,
+      "enclosing_function": "compoundRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.increaseLiquidity("
+    },
+    {
+      "node_id": 153,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:258",
+      "call_type": "INTERFACE_CALL",
+      "line": 258,
+      "enclosing_function": "compoundRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(gauge, tokenId);"
+    },
+    {
+      "node_id": 154,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:291",
+      "call_type": "INTERFACE_CALL",
+      "line": 291,
+      "enclosing_function": "claimRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroBefore = aeroToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 155,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:293",
+      "call_type": "INTERFACE_CALL",
+      "line": 293,
+      "enclosing_function": "claimRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroAmount = aeroToken.balanceOf(address(this)) - aeroBefore;"
+    },
+    {
+      "node_id": 156,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:296",
+      "call_type": "INTERFACE_CALL",
+      "line": 296,
+      "enclosing_function": "claimRewards",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.safeTransfer(owner, aeroAmount);"
+    },
+    {
+      "node_id": 157,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:334",
+      "call_type": "INTERFACE_CALL",
+      "line": 334,
+      "enclosing_function": "executeV3UtilsWithOptionalCompound",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroBefore = aeroToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 158,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:336",
+      "call_type": "INTERFACE_CALL",
+      "line": 336,
+      "enclosing_function": "executeV3UtilsWithOptionalCompound",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroAmount = aeroToken.balanceOf(address(this)) - aeroBefore;"
+    },
+    {
+      "node_id": 159,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:342",
+      "call_type": "INTERFACE_CALL",
+      "line": 342,
+      "enclosing_function": "executeV3UtilsWithOptionalCompound",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(v3Utils, tokenId);"
+    },
+    {
+      "node_id": 160,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:363",
+      "call_type": "INTERFACE_CALL",
+      "line": 363,
+      "enclosing_function": "executeV3UtilsWithOptionalCompound",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.safeTransfer(owner, aeroAmount);"
+    },
+    {
+      "node_id": 161,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:367",
+      "call_type": "INTERFACE_CALL",
+      "line": 367,
+      "enclosing_function": "executeV3UtilsWithOptionalCompound",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(gauge, tokenToStake);"
+    },
+    {
+      "node_id": 162,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:402",
+      "call_type": "INTERFACE_CALL",
+      "line": 402,
+      "enclosing_function": "_compoundIntoPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.positions(tokenId);"
+    },
+    {
+      "node_id": 163,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:425",
+      "call_type": "INTERFACE_CALL",
+      "line": 425,
+      "enclosing_function": "_compoundIntoPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.balanceOf(address(this)),"
+    },
+    {
+      "node_id": 164,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:444",
+      "call_type": "INTERFACE_CALL",
+      "line": 444,
+      "enclosing_function": "_compoundIntoPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.increaseLiquidity("
+    },
+    {
+      "node_id": 165,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:492",
+      "call_type": "INTERFACE_CALL",
+      "line": 492,
+      "enclosing_function": "swapAndIncreaseStakedPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "(,, address token0, address token1,,,,,,,,) = nonfungiblePositionManager.positions(tokenId);"
+    },
+    {
+      "node_id": 166,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:495",
+      "call_type": "INTERFACE_CALL",
+      "line": 495,
+      "enclosing_function": "swapAndIncreaseStakedPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroBefore = aeroToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 167,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:497",
+      "call_type": "INTERFACE_CALL",
+      "line": 497,
+      "enclosing_function": "swapAndIncreaseStakedPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroAmount = aeroToken.balanceOf(address(this)) - aeroBefore;"
+    },
+    {
+      "node_id": 168,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:499",
+      "call_type": "INTERFACE_CALL",
+      "line": 499,
+      "enclosing_function": "swapAndIncreaseStakedPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.safeTransfer(owner, aeroAmount);"
+    },
+    {
+      "node_id": 169,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:527",
+      "call_type": "INTERFACE_CALL",
+      "line": 527,
+      "enclosing_function": "swapAndIncreaseStakedPosition",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(gauge, tokenId);"
+    },
+    {
+      "node_id": 170,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:551",
+      "call_type": "INTERFACE_CALL",
+      "line": 551,
+      "enclosing_function": "migrateToVault",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroBefore = aeroToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 171,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:553",
+      "call_type": "INTERFACE_CALL",
+      "line": 553,
+      "enclosing_function": "migrateToVault",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroAmount = aeroToken.balanceOf(address(this)) - aeroBefore;"
+    },
+    {
+      "node_id": 172,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:556",
+      "call_type": "INTERFACE_CALL",
+      "line": 556,
+      "enclosing_function": "migrateToVault",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.safeTransfer(owner, aeroAmount);"
+    },
+    {
+      "node_id": 173,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:563",
+      "call_type": "INTERFACE_CALL",
+      "line": 563,
+      "enclosing_function": "migrateToVault",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(address(vault), tokenId);"
+    },
+    {
+      "node_id": 174,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:566",
+      "call_type": "INTERFACE_CALL",
+      "line": 566,
+      "enclosing_function": "migrateToVault",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.safeTransferFrom("
+    },
+    {
+      "node_id": 175,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:615",
+      "call_type": "INTERFACE_CALL",
+      "line": 615,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroBefore = aeroToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 176,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:617",
+      "call_type": "INTERFACE_CALL",
+      "line": 617,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "uint256 aeroAmount = aeroToken.balanceOf(address(this)) - aeroBefore;"
+    },
+    {
+      "node_id": 177,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:628",
+      "call_type": "INTERFACE_CALL",
+      "line": 628,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.safeTransfer(transformer, aeroAmount);"
+    },
+    {
+      "node_id": 178,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:651",
+      "call_type": "INTERFACE_CALL",
+      "line": 651,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "aeroToken.safeTransfer(owner, aeroAmount);"
+    },
+    {
+      "node_id": 179,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:658",
+      "call_type": "INTERFACE_CALL",
+      "line": 658,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(transformer, tokenId);"
+    },
+    {
+      "node_id": 180,
+      "node_type": "call_site",
+      "name": "CALL:GaugeManager.sol:659",
+      "call_type": "CALL",
+      "line": 659,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "(bool success,) = transformer.call(callData);"
+    },
+    {
+      "node_id": 181,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:666",
+      "call_type": "INTERFACE_CALL",
+      "line": 666,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "require(nonfungiblePositionManager.ownerOf(newTokenId) == address(this),"
+    },
+    {
+      "node_id": 182,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:670",
+      "call_type": "INTERFACE_CALL",
+      "line": 670,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(address(0), newTokenId);"
+    },
+    {
+      "node_id": 183,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:673",
+      "call_type": "INTERFACE_CALL",
+      "line": 673,
+      "enclosing_function": "transform",
+      "file": "GaugeManager.sol",
+      "raw_text": "nonfungiblePositionManager.approve(gauge, newTokenId);"
+    },
+    {
+      "node_id": 184,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:356",
+      "call_type": "INTERFACE_CALL",
+      "line": 356,
+      "enclosing_function": "create",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.safeTransferFrom(msg.sender, address(this), tokenId, abi.encode(recipient));"
+    },
+    {
+      "node_id": 185,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:363",
+      "call_type": "INTERFACE_CALL",
+      "line": 363,
+      "enclosing_function": "createWithPermit",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.permit(address(this), tokenId, deadline, v, r, s);"
+    },
+    {
+      "node_id": 186,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:364",
+      "call_type": "INTERFACE_CALL",
+      "line": 364,
+      "enclosing_function": "createWithPermit",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.safeTransferFrom(msg.sender, address(this), tokenId, abi.encode(recipient));"
+    },
+    {
+      "node_id": 187,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:453",
+      "call_type": "INTERFACE_CALL",
+      "line": 453,
+      "enclosing_function": "transform",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.approve(transformer, tokenId);"
+    },
+    {
+      "node_id": 188,
+      "node_type": "call_site",
+      "name": "CALL:V3Vault.sol:455",
+      "call_type": "CALL",
+      "line": 455,
+      "enclosing_function": "transform",
+      "file": "V3Vault.sol",
+      "raw_text": "(bool success,) = transformer.call(data);"
+    },
+    {
+      "node_id": 189,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:472",
+      "call_type": "INTERFACE_CALL",
+      "line": 472,
+      "enclosing_function": "transform",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.approve(address(0), newTokenId);"
+    },
+    {
+      "node_id": 190,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:481",
+      "call_type": "INTERFACE_CALL",
+      "line": 481,
+      "enclosing_function": "transform",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.approve(gaugeManager, newTokenId);"
+    },
+    {
+      "node_id": 191,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:555",
+      "call_type": "INTERFACE_CALL",
+      "line": 555,
+      "enclosing_function": "decreaseLiquidityAndCollect",
+      "file": "V3Vault.sol",
+      "raw_text": "(amount0, amount1) = nonfungiblePositionManager.decreaseLiquidity("
+    },
+    {
+      "node_id": 192,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:569",
+      "call_type": "INTERFACE_CALL",
+      "line": 569,
+      "enclosing_function": "decreaseLiquidityAndCollect",
+      "file": "V3Vault.sol",
+      "raw_text": "(amount0, amount1) = nonfungiblePositionManager.collect(collectParams);"
+    },
+    {
+      "node_id": 193,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:648",
+      "call_type": "INTERFACE_CALL",
+      "line": 648,
+      "enclosing_function": "liquidate",
+      "file": "V3Vault.sol",
+      "raw_text": "permit2.permitTransferFrom("
+    },
+    {
+      "node_id": 194,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:701",
+      "call_type": "INTERFACE_CALL",
+      "line": 701,
+      "enclosing_function": "remove",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.safeTransferFrom(address(this), recipient, tokenId, data);"
+    },
+    {
+      "node_id": 195,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:836",
+      "call_type": "INTERFACE_CALL",
+      "line": 836,
+      "enclosing_function": "_deposit",
+      "file": "V3Vault.sol",
+      "raw_text": "permit2.permitTransferFrom("
+    },
+    {
+      "node_id": 196,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:925",
+      "call_type": "INTERFACE_CALL",
+      "line": 925,
+      "enclosing_function": "_repay",
+      "file": "V3Vault.sol",
+      "raw_text": "permit2.permitTransferFrom("
+    },
+    {
+      "node_id": 197,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:980",
+      "call_type": "INTERFACE_CALL",
+      "line": 980,
+      "enclosing_function": "_sendPositionValue",
+      "file": "V3Vault.sol",
+      "raw_text": "(,,,,,,, liquidity,,,,) = nonfungiblePositionManager.positions(tokenId);"
+    },
+    {
+      "node_id": 198,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:984",
+      "call_type": "INTERFACE_CALL",
+      "line": 984,
+      "enclosing_function": "_sendPositionValue",
+      "file": "V3Vault.sol",
+      "raw_text": "(liquidity, fees0, fees1) = oracle.getLiquidityAndFees(tokenId);"
+    },
+    {
+      "node_id": 199,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1003",
+      "call_type": "INTERFACE_CALL",
+      "line": 1003,
+      "enclosing_function": "_sendPositionValue",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.decreaseLiquidity("
+    },
+    {
+      "node_id": 200,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1008",
+      "call_type": "INTERFACE_CALL",
+      "line": 1008,
+      "enclosing_function": "_sendPositionValue",
+      "file": "V3Vault.sol",
+      "raw_text": "(amount0, amount1) = nonfungiblePositionManager.collect("
+    },
+    {
+      "node_id": 201,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1077",
+      "call_type": "INTERFACE_CALL",
+      "line": 1077,
+      "enclosing_function": "_calculateTokenCollateralFactorX32",
+      "file": "V3Vault.sol",
+      "raw_text": "(,, address token0, address token1,,,,,,,,) = nonfungiblePositionManager.positions(tokenId);"
+    },
+    {
+      "node_id": 202,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1115",
+      "call_type": "INTERFACE_CALL",
+      "line": 1115,
+      "enclosing_function": "_calculateGlobalInterest",
+      "file": "V3Vault.sol",
+      "raw_text": "(uint256 borrowRateX64, uint256 supplyRateX64) = interestRateModel.getRatesPerSecondX64(balance, debt);"
+    },
+    {
+      "node_id": 203,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1141",
+      "call_type": "INTERFACE_CALL",
+      "line": 1141,
+      "enclosing_function": "_updateAndCheckCollateral",
+      "file": "V3Vault.sol",
+      "raw_text": "(,, address token0, address token1,,,,,,,,) = nonfungiblePositionManager.positions(tokenId);"
+    },
+    {
+      "node_id": 204,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1202",
+      "call_type": "INTERFACE_CALL",
+      "line": 1202,
+      "enclosing_function": "_checkLoanIsHealthy",
+      "file": "V3Vault.sol",
+      "raw_text": "(fullValue, feeValue,,) = oracle.getValue(tokenId, address(asset));"
+    },
+    {
+      "node_id": 205,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1256",
+      "call_type": "INTERFACE_CALL",
+      "line": 1256,
+      "enclosing_function": "stakePosition",
+      "file": "V3Vault.sol",
+      "raw_text": "nonfungiblePositionManager.approve(gaugeManager, tokenId);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        89,
+        94,
+        95,
+        96,
+        97,
+        108,
+        139,
+        140
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 140
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        89,
+        94,
+        95,
+        96,
+        97,
+        108,
+        139,
+        141
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 141
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        89,
+        94,
+        95,
+        96,
+        97,
+        108,
+        139,
+        142
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 142
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        89,
+        94,
+        95,
+        96,
+        97,
+        108,
+        139,
+        143
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 143
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        88,
+        89,
+        95,
+        96,
+        97,
+        99,
+        139,
+        144
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 144
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        88,
+        89,
+        95,
+        96,
+        97,
+        99,
+        139,
+        145
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 145
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        5,
+        88,
+        89,
+        95,
+        96,
+        97,
+        99,
+        139,
+        146
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 146
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        5,
+        88,
+        89,
+        95,
+        96,
+        97,
+        99,
+        139,
+        147
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 147
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        6,
+        88,
+        89,
+        92,
+        95,
+        96,
+        97,
+        148
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 148
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        6,
+        88,
+        89,
+        92,
+        95,
+        96,
+        97,
+        149
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 149
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        6,
+        88,
+        89,
+        92,
+        95,
+        96,
+        97,
+        150
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 150
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        6,
+        88,
+        89,
+        92,
+        95,
+        96,
+        97,
+        151
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 151
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        6,
+        88,
+        89,
+        92,
+        95,
+        96,
+        97,
+        152
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 152
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        6,
+        88,
+        89,
+        92,
+        95,
+        96,
+        97,
+        153
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 153
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        7,
+        88,
+        89,
+        95,
+        96,
+        97,
+        154
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 154
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        7,
+        88,
+        89,
+        95,
+        96,
+        97,
+        155
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 155
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        7,
+        88,
+        89,
+        95,
+        96,
+        97,
+        156
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 156
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        8,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        157
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 157
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        8,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        158
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 158
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        8,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        159
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 159
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        8,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        160
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 160
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        8,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        161
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 161
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        8,
+        9,
+        88,
+        89,
+        90,
+        92,
+        95,
+        96,
+        97,
+        162
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 162
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        8,
+        9,
+        88,
+        89,
+        90,
+        92,
+        95,
+        96,
+        97,
+        163
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 163
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        8,
+        9,
+        88,
+        89,
+        90,
+        92,
+        95,
+        96,
+        97,
+        164
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 164
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        10,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        165
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 165
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        10,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        166
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 166
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        10,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        167
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 167
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        10,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        168
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 168
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        10,
+        88,
+        89,
+        90,
+        95,
+        96,
+        97,
+        169
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 169
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        11,
+        88,
+        89,
+        95,
+        96,
+        97,
+        170
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 170
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        11,
+        88,
+        89,
+        95,
+        96,
+        97,
+        171
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 171
+    },
+    {
+      "edge_id": 32,
+      "node_ids": [
+        11,
+        88,
+        89,
+        95,
+        96,
+        97,
+        172
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 172
+    },
+    {
+      "edge_id": 33,
+      "node_ids": [
+        11,
+        88,
+        89,
+        95,
+        96,
+        97,
+        173
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 173
+    },
+    {
+      "edge_id": 34,
+      "node_ids": [
+        11,
+        88,
+        89,
+        95,
+        96,
+        97,
+        174
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 174
+    },
+    {
+      "edge_id": 35,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        175
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 175
+    },
+    {
+      "edge_id": 36,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        176
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 176
+    },
+    {
+      "edge_id": 37,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        177
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 177
+    },
+    {
+      "edge_id": 38,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        178
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 178
+    },
+    {
+      "edge_id": 39,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        179
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 179
+    },
+    {
+      "edge_id": 40,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        180
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 180
+    },
+    {
+      "edge_id": 41,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        181
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 181
+    },
+    {
+      "edge_id": 42,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        182
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 182
+    },
+    {
+      "edge_id": 43,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        183
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 183
+    },
+    {
+      "edge_id": 44,
+      "node_ids": [
+        41,
+        108,
+        184
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 184
+    },
+    {
+      "edge_id": 45,
+      "node_ids": [
+        42,
+        108,
+        185
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 185
+    },
+    {
+      "edge_id": 46,
+      "node_ids": [
+        42,
+        108,
+        186
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 186
+    },
+    {
+      "edge_id": 47,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        187
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 187
+    },
+    {
+      "edge_id": 48,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        188
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 188
+    },
+    {
+      "edge_id": 49,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        189
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 189
+    },
+    {
+      "edge_id": 50,
+      "node_ids": [
+        12,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        126,
+        129,
+        139,
+        190
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 190
+    },
+    {
+      "edge_id": 51,
+      "node_ids": [
+        47,
+        99,
+        108,
+        126,
+        129,
+        191
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 191
+    },
+    {
+      "edge_id": 52,
+      "node_ids": [
+        47,
+        99,
+        108,
+        126,
+        129,
+        192
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 192
+    },
+    {
+      "edge_id": 53,
+      "node_ids": [
+        50,
+        99,
+        112,
+        113,
+        116,
+        125,
+        126,
+        129,
+        193
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 193
+    },
+    {
+      "edge_id": 54,
+      "node_ids": [
+        51,
+        108,
+        126,
+        129,
+        194
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 194
+    },
+    {
+      "edge_id": 55,
+      "node_ids": [
+        35,
+        36,
+        59,
+        112,
+        113,
+        120,
+        123,
+        195
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 195
+    },
+    {
+      "edge_id": 56,
+      "node_ids": [
+        48,
+        61,
+        112,
+        113,
+        116,
+        121,
+        125,
+        126,
+        129,
+        196
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 196
+    },
+    {
+      "edge_id": 57,
+      "node_ids": [
+        50,
+        63,
+        99,
+        108,
+        111,
+        112,
+        113,
+        116,
+        125,
+        126,
+        129,
+        197
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 197
+    },
+    {
+      "edge_id": 58,
+      "node_ids": [
+        50,
+        63,
+        99,
+        108,
+        111,
+        112,
+        113,
+        116,
+        125,
+        126,
+        129,
+        198
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 198
+    },
+    {
+      "edge_id": 59,
+      "node_ids": [
+        50,
+        63,
+        99,
+        108,
+        111,
+        112,
+        113,
+        116,
+        125,
+        126,
+        129,
+        199
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 199
+    },
+    {
+      "edge_id": 60,
+      "node_ids": [
+        50,
+        63,
+        99,
+        108,
+        111,
+        112,
+        113,
+        116,
+        125,
+        126,
+        129,
+        200
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 200
+    },
+    {
+      "edge_id": 61,
+      "node_ids": [
+        12,
+        19,
+        46,
+        47,
+        50,
+        67,
+        70,
+        74,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        107,
+        108,
+        111,
+        112,
+        113,
+        115,
+        116,
+        119,
+        121,
+        125,
+        126,
+        129,
+        139,
+        201
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 201
+    },
+    {
+      "edge_id": 62,
+      "node_ids": [
+        12,
+        13,
+        17,
+        18,
+        19,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        46,
+        47,
+        48,
+        50,
+        52,
+        54,
+        55,
+        59,
+        60,
+        61,
+        68,
+        69,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        108,
+        110,
+        112,
+        113,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        129,
+        133,
+        134,
+        135,
+        138,
+        139,
+        202
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 202
+    },
+    {
+      "edge_id": 63,
+      "node_ids": [
+        13,
+        46,
+        48,
+        50,
+        61,
+        64,
+        71,
+        98,
+        99,
+        108,
+        112,
+        113,
+        115,
+        116,
+        119,
+        121,
+        125,
+        126,
+        129,
+        203
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 203
+    },
+    {
+      "edge_id": 64,
+      "node_ids": [
+        12,
+        19,
+        46,
+        47,
+        50,
+        70,
+        74,
+        88,
+        89,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        107,
+        108,
+        111,
+        112,
+        113,
+        116,
+        119,
+        121,
+        125,
+        126,
+        129,
+        139,
+        204
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 204
+    },
+    {
+      "edge_id": 65,
+      "node_ids": [
+        4,
+        89,
+        94,
+        95,
+        96,
+        97,
+        108,
+        139,
+        205
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 205
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setGauge",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "approveTransform",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setTransformer",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setV3Utils",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "stakePosition",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "unstakePosition",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "compoundRewards",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "executeV3UtilsWithOptionalCompound",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_compoundIntoPosition",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "swapAndIncreaseStakedPosition",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "migrateToVault",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "transform",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setReward",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setFeeWithdrawer",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "withdrawFees",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "vaultInfo",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "lendInfo",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "loanInfo",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "ownerOf",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "loanCount",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "loanAtIndex",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "mint",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "mint",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "create",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "createWithPermit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "approveTransform",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "transform",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "decreaseLiquidityAndCollect",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "repay",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "repay",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "remove",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "withdrawReserves",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "setTransformer",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "setLimits",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "setReserveFactor",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "setReserveProtectionFactor",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "setTokenConfig",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "setEmergencyAdmin",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_repay",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_getBalanceAndReserves",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_sendPositionValue",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_cleanupLoan",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_calculateLiquidation",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_handleReserveLiquidation",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_calculateTokenCollateralFactorX32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_updateGlobalInterest",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_calculateGlobalInterest",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_requireLoanIsHealthy",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_updateAndCheckCollateral",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_resetDailyLendIncreaseLimit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_resetDailyDebtIncreaseLimit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_checkLoanIsHealthy",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_convertToShares",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_convertToAssets",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_addTokenToOwner",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_removeTokenFromOwner",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "setGaugeManager",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "stakePosition",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "unstakePosition",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_unstakeForLiquidation",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "Q32",
+      "file": "Constants.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "Q64",
+      "file": "Constants.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "Q96",
+      "file": "Constants.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "Q128",
+      "file": "Constants.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "Q160",
+      "file": "Constants.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "aeroToken",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "v3Utils",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "MAX_REWARD_X64",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "totalRewardX64",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "feeWithdrawer",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "poolToGauge",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "tokenIdToGauge",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "positionOwners",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "isVaultPosition",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "transformerAllowList",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "transformedTokenId",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "transformApprovals",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "MAX_COLLATERAL_FACTOR_X32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "state_var",
+      "name": "MIN_LIQUIDATION_PENALTY_X32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "state_var",
+      "name": "MAX_LIQUIDATION_PENALTY_X32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "state_var",
+      "name": "MIN_RESERVE_PROTECTION_FACTOR_X32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "state_var",
+      "name": "MAX_DAILY_LEND_INCREASE_X32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "state_var",
+      "name": "MAX_DAILY_DEBT_INCREASE_X32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "state_var",
+      "name": "BORROW_SAFETY_BUFFER_X32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "state_var",
+      "name": "nonfungiblePositionManager",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "state_var",
+      "name": "interestRateModel",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "state_var",
+      "name": "oracle",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "state_var",
+      "name": "permit2",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "state_var",
+      "name": "asset",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "state_var",
+      "name": "assetDecimals",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "state_var",
+      "name": "tokenConfigs",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "state_var",
+      "name": "debtSharesTotal",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "state_var",
+      "name": "lastDebtExchangeRateX96",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "state_var",
+      "name": "lastLendExchangeRateX96",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "state_var",
+      "name": "globalDebtLimit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "state_var",
+      "name": "globalLendLimit",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "state_var",
+      "name": "minLoanSize",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "state_var",
+      "name": "dailyLendIncreaseLimitMin",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "state_var",
+      "name": "dailyLendIncreaseLimitLeft",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "state_var",
+      "name": "dailyDebtIncreaseLimitMin",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "state_var",
+      "name": "dailyDebtIncreaseLimitLeft",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "state_var",
+      "name": "loans",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "state_var",
+      "name": "ownedTokens",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "state_var",
+      "name": "ownedTokensIndex",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "state_var",
+      "name": "tokenOwner",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "transformedTokenId",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "transformerAllowList",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "transformApprovals",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "lastExchangeRateUpdate",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "reserveFactorX32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "reserveProtectionFactorX32",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "state_var",
+      "name": "dailyLendIncreaseLimitLastReset",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "state_var",
+      "name": "dailyDebtIncreaseLimitLastReset",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "state_var",
+      "name": "emergencyAdmin",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "state_var",
+      "name": "gaugeManager",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:101",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:112",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:118",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 143,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:119",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 144,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:146",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 145,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:148",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 146,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:151",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 147,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:159",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 148,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:193",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 149,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:195",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 150,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:201",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 151,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:224",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 152,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:246",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 153,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:258",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 154,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:291",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 155,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:293",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 156,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:296",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 157,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:334",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 158,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:336",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 159,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:342",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 160,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:363",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 161,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:367",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 162,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:402",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 163,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:425",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 164,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:444",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 165,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:492",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 166,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:495",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 167,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:497",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 168,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:499",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 169,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:527",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 170,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:551",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 171,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:553",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 172,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:556",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 173,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:563",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 174,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:566",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 175,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:615",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 176,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:617",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 177,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:628",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 178,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:651",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 179,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:658",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 180,
+      "node_type": "call_site",
+      "name": "CALL:GaugeManager.sol:659",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 181,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:666",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 182,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:670",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 183,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GaugeManager.sol:673",
+      "file": "GaugeManager.sol"
+    },
+    {
+      "node_id": 184,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:356",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 185,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:363",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 186,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:364",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 187,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:453",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 188,
+      "node_type": "call_site",
+      "name": "CALL:V3Vault.sol:455",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 189,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:472",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 190,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:481",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 191,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:555",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 192,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:569",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 193,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:648",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 194,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:701",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 195,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:836",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 196,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:925",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 197,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:980",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 198,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:984",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 199,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1003",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 200,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1008",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 201,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1077",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 202,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1115",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 203,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1141",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 204,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1202",
+      "file": "V3Vault.sol"
+    },
+    {
+      "node_id": 205,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:V3Vault.sol:1256",
+      "file": "V3Vault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 206,
+    "n_hyperedges": 66,
+    "n_functions": 83,
+    "n_state_vars": 57,
+    "n_call_sites": 66,
+    "avg_hyperedge_size": 10.863636363636363
+  },
+  "label": {
+    "vfp_id": "vfp_00186",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1164",
+      "CWE-1284",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-372",
+      "CWE-394",
+      "CWE-440",
+      "CWE-477",
+      "CWE-664",
+      "CWE-684",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754"
+    ]
+  }
+}

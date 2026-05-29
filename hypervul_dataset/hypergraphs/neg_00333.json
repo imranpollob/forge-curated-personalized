@@ -1,0 +1,203 @@
+{
+  "sample_id": "neg_00333",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_sendRefund",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "start_line": 62,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_handleCrossChainMessage",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "start_line": 76,
+      "end_line": 98,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "prove",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "start_line": 112,
+      "end_line": 134,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "start_line": 144,
+      "end_line": 149,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "start_line": 159,
+      "end_line": 163,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "eco-routes_contracts_test_FakePermit.sol",
+      "start_line": 5,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "eco-routes_contracts_test_FakePermit.sol",
+      "start_line": 13,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MIN_GAS_LIMIT",
+      "var_type": "uint256 public immutable",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "line": 23
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "DEFAULT_MIN_GAS_LIMIT",
+      "var_type": "uint256 private constant",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "line": 29
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:eco-routes_contracts_prover_MessageBridgeProver.sol:45",
+      "call_type": "TRANSFER",
+      "line": 45,
+      "enclosing_function": "_sendRefund",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol",
+      "raw_text": "payable(recipient).transfer(amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        9
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 9
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_sendRefund",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_handleCrossChainMessage",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "prove",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "eco-routes_contracts_test_FakePermit.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "eco-routes_contracts_test_FakePermit.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MIN_GAS_LIMIT",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "DEFAULT_MIN_GAS_LIMIT",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:eco-routes_contracts_prover_MessageBridgeProver.sol:45",
+      "file": "eco-routes_contracts_prover_MessageBridgeProver.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 1,
+    "n_functions": 7,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00333",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "sample_id": "neg_00206",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "4a986871444ef82f1db2d49421fac046f45e9c3d_p2p-lending-proxy_src_@openzeppelin_contracts_utils_Context.sol",
+      "start_line": 17,
+      "end_line": 19,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "4a986871444ef82f1db2d49421fac046f45e9c3d_p2p-lending-proxy_src_@openzeppelin_contracts_utils_Context.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "checkCalldata",
+      "file": "P2pResolvProxyFactory_src_common_IAllowedCalldataChecker.sol",
+      "start_line": 15,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol",
+      "start_line": 11,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol",
+      "start_line": 13,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawAll",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol",
+      "start_line": 15,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol",
+      "start_line": 19,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "4a986871444ef82f1db2d49421fac046f45e9c3d_p2p-lending-proxy_src_@openzeppelin_contracts_utils_Context.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "4a986871444ef82f1db2d49421fac046f45e9c3d_p2p-lending-proxy_src_@openzeppelin_contracts_utils_Context.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "checkCalldata",
+      "file": "P2pResolvProxyFactory_src_common_IAllowedCalldataChecker.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawAll",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "P2pResolvProxy_src_@resolv_IStUSR.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00206",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

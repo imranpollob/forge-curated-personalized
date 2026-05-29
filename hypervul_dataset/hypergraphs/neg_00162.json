@@ -1,0 +1,246 @@
+{
+  "sample_id": "neg_00162",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "revertZeroAddress",
+      "file": "sBOLD_contracts_libraries_Common.sol",
+      "start_line": 7,
+      "end_line": 9,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setPrice",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol",
+      "start_line": 11,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRevert",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol",
+      "start_line": 15,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPriceUnsafe",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol",
+      "start_line": 19,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setQuotes",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol",
+      "start_line": 11,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setReceiver",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol",
+      "start_line": 15,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "swap",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol",
+      "start_line": 19,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "price",
+      "var_type": "PythStructs.Price",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol",
+      "line": 7
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "doRevert",
+      "var_type": "bool",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol",
+      "line": 8
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "revertMsg",
+      "var_type": "string",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol",
+      "line": 9
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "quotes",
+      "var_type": "mapping(address => uint256)",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol",
+      "line": 8
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "receiver",
+      "var_type": "address public",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol",
+      "line": 9
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "TRANSFER:sBOLD_contracts_mocks_MockRouter.sol:22",
+      "call_type": "TRANSFER",
+      "line": 22,
+      "enclosing_function": "swap",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol",
+      "raw_text": "IERC20(dst).transfer(receiver, quotes[src]);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        10,
+        11,
+        12
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "revertZeroAddress",
+      "file": "sBOLD_contracts_libraries_Common.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setPrice",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRevert",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPriceUnsafe",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setQuotes",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setReceiver",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "swap",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "price",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "doRevert",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "revertMsg",
+      "file": "sBOLD_contracts_mocks_MockPyth.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "quotes",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "receiver",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "TRANSFER:sBOLD_contracts_mocks_MockRouter.sol:22",
+      "file": "sBOLD_contracts_mocks_MockRouter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 1,
+    "n_functions": 7,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00162",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

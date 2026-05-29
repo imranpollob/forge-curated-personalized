@@ -1,0 +1,949 @@
+{
+  "sample_id": "neg_00588",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "sstoreColdZeroToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sstoreColdZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 20,
+      "end_line": 22,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sstoreColdNonZeroValueToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 24,
+      "end_line": 26,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sstoreColdNonZeroToSameNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sstoreColdNonZeroToDifferentNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 32,
+      "end_line": 34,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "sstoreWarmZeroToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 36,
+      "end_line": 40,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "sstoreWarmZeroToNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 42,
+      "end_line": 46,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "sstoreWarmNonZeroValueToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 48,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "sstoreWarmNonZeroToSameNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 54,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "sstoreWarmNonZeroToDifferentNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 60,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToNonZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 66,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToNonZeroToSameNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 74,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 82,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToZeroToSameNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 90,
+      "end_line": 96,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmZeroToNonZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 98,
+      "end_line": 104,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmZeroToNonZeroBackToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "start_line": 106,
+      "end_line": 112,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "start_line": 32,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateRollupAddress",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "start_line": 42,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "rollupInitialized",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "start_line": 51,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_enqueueInitializationMsg",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_currentDataCostToReport",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "start_line": 74,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 18,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setOutbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 125,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "removeOldOutbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 138,
+      "end_line": 145,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setDelayedInbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 152,
+      "end_line": 156,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "pause",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 165,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "resume",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 173,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 181,
+      "end_line": 183,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_authorizeSecondaryUpgrade",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 188,
+      "end_line": 190,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setValidator",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 199,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setOwner",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 217,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setMinimumAssertionPeriod",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 228,
+      "end_line": 234,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setValidatorAfkBlocks",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 245,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setConfirmPeriodBlocks",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 256,
+      "end_line": 263,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "decreaseBaseStake",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 268,
+      "end_line": 331,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "increaseBaseStake",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 336,
+      "end_line": 343,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "forceRefundStaker",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 345,
+      "end_line": 355,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "forceCreateAssertion",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 357,
+      "end_line": 374,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "forceConfirmAssertion",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 376,
+      "end_line": 386,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setLoserStakeEscrow",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 388,
+      "end_line": 397,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setWasmModuleRoot",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 403,
+      "end_line": 409,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "setSequencerInbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 415,
+      "end_line": 421,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setInbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 427,
+      "end_line": 433,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "setValidatorWhitelistDisabled",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 439,
+      "end_line": 445,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "setAnyTrustFastConfirmer",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 451,
+      "end_line": 457,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "setChallengeManager",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "start_line": 463,
+      "end_line": 469,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "zeroFromStart",
+      "var_type": "uint256 public",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "line": 9
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "nonZeroFromStart",
+      "var_type": "uint256 public",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol",
+      "line": 10
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "bridge",
+      "var_type": "IBridge public override",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "line": 24
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "rollup",
+      "var_type": "address public override",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "line": 25
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol:44",
+      "call_type": "INTERFACE_CALL",
+      "line": 44,
+      "enclosing_function": "updateRollupAddress",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol",
+      "raw_text": "address newRollup = address(bridge.rollup());"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol:33",
+      "call_type": "INTERFACE_CALL",
+      "line": 33,
+      "enclosing_function": "initialize",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "raw_text": "if (!bridge.allowedDelayedInboxes(address(connectedContracts.rollupEventInbox))) {"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol:79",
+      "call_type": "INTERFACE_CALL",
+      "line": 79,
+      "enclosing_function": "initialize",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol",
+      "raw_text": "uint256 currentInboxCount = bridge.sequencerMessageCount();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        17,
+        48,
+        49,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        16,
+        48,
+        49,
+        51
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 51
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        16,
+        48,
+        49,
+        52
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 52
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "sstoreColdZeroToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sstoreColdZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sstoreColdNonZeroValueToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sstoreColdNonZeroToSameNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sstoreColdNonZeroToDifferentNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "sstoreWarmZeroToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "sstoreWarmZeroToNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "sstoreWarmNonZeroValueToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "sstoreWarmNonZeroToSameNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "sstoreWarmNonZeroToDifferentNonZeroValue",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToNonZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToNonZeroToSameNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmNonZeroToZeroToSameNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmZeroToNonZeroToNonZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "sstoreMultipleWarmZeroToNonZeroBackToZero",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateRollupAddress",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "rollupInitialized",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_enqueueInitializationMsg",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_currentDataCostToReport",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setOutbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "removeOldOutbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setDelayedInbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "pause",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "resume",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_authorizeSecondaryUpgrade",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setValidator",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setOwner",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setMinimumAssertionPeriod",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setValidatorAfkBlocks",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setConfirmPeriodBlocks",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "decreaseBaseStake",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "increaseBaseStake",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "forceRefundStaker",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "forceCreateAssertion",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "forceConfirmAssertion",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setLoserStakeEscrow",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setWasmModuleRoot",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "setSequencerInbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setInbox",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "setValidatorWhitelistDisabled",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "setAnyTrustFastConfirmer",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "setChallengeManager",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "zeroFromStart",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "nonZeroFromStart",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_gas-dimensions_src_Sstore.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "bridge",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "rollup",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol:44",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_AbsRollupEventInbox.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol:33",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol:79",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_rollup_RollupAdminLogic.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 53,
+    "n_hyperedges": 3,
+    "n_functions": 46,
+    "n_state_vars": 4,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00588",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

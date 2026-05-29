@@ -1,0 +1,4374 @@
+{
+  "sample_id": "vfp_00415",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSAccounting.sol",
+      "start_line": 83,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "finalizeUpgradeV2",
+      "file": "CSAccounting.sol",
+      "start_line": 106,
+      "end_line": 123,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resume",
+      "file": "CSAccounting.sol",
+      "start_line": 126,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pauseFor",
+      "file": "CSAccounting.sol",
+      "start_line": 131,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setChargePenaltyRecipient",
+      "file": "CSAccounting.sol",
+      "start_line": 136,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setBondLockPeriod",
+      "file": "CSAccounting.sol",
+      "start_line": 143,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addBondCurve",
+      "file": "CSAccounting.sol",
+      "start_line": 150,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateBondCurve",
+      "file": "CSAccounting.sol",
+      "start_line": 157,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setBondCurve",
+      "file": "CSAccounting.sol",
+      "start_line": 165,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "CSAccounting.sol",
+      "start_line": 175,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "CSAccounting.sol",
+      "start_line": 183,
+      "end_line": 187,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositStETH",
+      "file": "CSAccounting.sol",
+      "start_line": 190,
+      "end_line": 198,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositStETH",
+      "file": "CSAccounting.sol",
+      "start_line": 201,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositWstETH",
+      "file": "CSAccounting.sol",
+      "start_line": 213,
+      "end_line": 221,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "depositWstETH",
+      "file": "CSAccounting.sol",
+      "start_line": 224,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "claimRewardsStETH",
+      "file": "CSAccounting.sol",
+      "start_line": 236,
+      "end_line": 255,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "claimRewardsWstETH",
+      "file": "CSAccounting.sol",
+      "start_line": 258,
+      "end_line": 277,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "claimRewardsUnstETH",
+      "file": "CSAccounting.sol",
+      "start_line": 280,
+      "end_line": 299,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "lockBondETH",
+      "file": "CSAccounting.sol",
+      "start_line": 302,
+      "end_line": 307,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "releaseLockedBondETH",
+      "file": "CSAccounting.sol",
+      "start_line": 310,
+      "end_line": 315,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "compensateLockedBondETH",
+      "file": "CSAccounting.sol",
+      "start_line": 318,
+      "end_line": 330,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "settleLockedBondETH",
+      "file": "CSAccounting.sol",
+      "start_line": 333,
+      "end_line": 345,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "penalize",
+      "file": "CSAccounting.sol",
+      "start_line": 348,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "chargeFee",
+      "file": "CSAccounting.sol",
+      "start_line": 356,
+      "end_line": 361,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "pullFeeRewards",
+      "file": "CSAccounting.sol",
+      "start_line": 364,
+      "end_line": 372,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "recoverERC20",
+      "file": "CSAccounting.sol",
+      "start_line": 375,
+      "end_line": 381,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "recoverStETHShares",
+      "file": "CSAccounting.sol",
+      "start_line": 385,
+      "end_line": 389,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "renewBurnerAllowance",
+      "file": "CSAccounting.sol",
+      "start_line": 392,
+      "end_line": 394,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSAccounting.sol",
+      "start_line": 397,
+      "end_line": 399,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getBondSummary",
+      "file": "CSAccounting.sol",
+      "start_line": 402,
+      "end_line": 407,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "getUnbondedKeysCount",
+      "file": "CSAccounting.sol",
+      "start_line": 410,
+      "end_line": 418,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "getUnbondedKeysCountToEject",
+      "file": "CSAccounting.sol",
+      "start_line": 421,
+      "end_line": 429,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "getBondAmountByKeysCountWstETH",
+      "file": "CSAccounting.sol",
+      "start_line": 432,
+      "end_line": 440,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "getRequiredBondForNextKeysWstETH",
+      "file": "CSAccounting.sol",
+      "start_line": 443,
+      "end_line": 451,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "getClaimableBondShares",
+      "file": "CSAccounting.sol",
+      "start_line": 454,
+      "end_line": 458,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "getClaimableRewardsAndBondShares",
+      "file": "CSAccounting.sol",
+      "start_line": 461,
+      "end_line": 478,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "feeDistributor",
+      "file": "CSAccounting.sol",
+      "start_line": 482,
+      "end_line": 484,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "getBondSummaryShares",
+      "file": "CSAccounting.sol",
+      "start_line": 487,
+      "end_line": 492,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getRequiredBondForNextKeys",
+      "file": "CSAccounting.sol",
+      "start_line": 495,
+      "end_line": 508,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_pullFeeRewards",
+      "file": "CSAccounting.sol",
+      "start_line": 510,
+      "end_line": 521,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_unwrapStETHPermitIfRequired",
+      "file": "CSAccounting.sol",
+      "start_line": 523,
+      "end_line": 541,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_unwrapWstETHPermitIfRequired",
+      "file": "CSAccounting.sol",
+      "start_line": 543,
+      "end_line": 561,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_getClaimableBondShares",
+      "file": "CSAccounting.sol",
+      "start_line": 564,
+      "end_line": 577,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_getRequiredBond",
+      "file": "CSAccounting.sol",
+      "start_line": 579,
+      "end_line": 596,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_getRequiredBondShares",
+      "file": "CSAccounting.sol",
+      "start_line": 598,
+      "end_line": 603,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_getUnbondedKeysCount",
+      "file": "CSAccounting.sol",
+      "start_line": 606,
+      "end_line": 638,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSAccounting.sol",
+      "start_line": 640,
+      "end_line": 642,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_onlyExistingNodeOperator",
+      "file": "CSAccounting.sol",
+      "start_line": 644,
+      "end_line": 653,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_onlyNodeOperatorManagerOrRewardAddresses",
+      "file": "CSAccounting.sol",
+      "start_line": 655,
+      "end_line": 667,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_setChargePenaltyRecipient",
+      "file": "CSAccounting.sol",
+      "start_line": 669,
+      "end_line": 677,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "getCurvesCount",
+      "file": "CSBondCurve.sol",
+      "start_line": 47,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "getCurveInfo",
+      "file": "CSBondCurve.sol",
+      "start_line": 52,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "getBondCurve",
+      "file": "CSBondCurve.sol",
+      "start_line": 59,
+      "end_line": 63,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "getBondCurveId",
+      "file": "CSBondCurve.sol",
+      "start_line": 66,
+      "end_line": 70,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "getBondAmountByKeysCount",
+      "file": "CSBondCurve.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "getKeysCountByBondAmount",
+      "file": "CSBondCurve.sol",
+      "start_line": 81,
+      "end_line": 86,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "__CSBondCurve_init",
+      "file": "CSBondCurve.sol",
+      "start_line": 89,
+      "end_line": 96,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_addBondCurve",
+      "file": "CSBondCurve.sol",
+      "start_line": 99,
+      "end_line": 110,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_updateBondCurve",
+      "file": "CSBondCurve.sol",
+      "start_line": 114,
+      "end_line": 130,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_setBondCurve",
+      "file": "CSBondCurve.sol",
+      "start_line": 134,
+      "end_line": 143,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_getBondAmountByKeysCount",
+      "file": "CSBondCurve.sol",
+      "start_line": 145,
+      "end_line": 171,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_getKeysCountByBondAmount",
+      "file": "CSBondCurve.sol",
+      "start_line": 173,
+      "end_line": 218,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_getLegacyBondCurvesLength",
+      "file": "CSBondCurve.sol",
+      "start_line": 221,
+      "end_line": 223,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_addIntervalsToBondCurve",
+      "file": "CSBondCurve.sol",
+      "start_line": 225,
+      "end_line": 246,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_getCurveInfo",
+      "file": "CSBondCurve.sol",
+      "start_line": 248,
+      "end_line": 257,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_checkBondCurve",
+      "file": "CSBondCurve.sol",
+      "start_line": 259,
+      "end_line": 289,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_getCSBondCurveStorage",
+      "file": "CSBondCurve.sol",
+      "start_line": 291,
+      "end_line": 299,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 91,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "finalizeUpgradeV2",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 106,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "setRebateRecipient",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 113,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "distributeFees",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 120,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "processOracleReport",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 149,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "recoverERC20",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 234,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 243,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "pendingSharesToDistribute",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 248,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "getHistoricalDistributionData",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 253,
+      "end_line": 257,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "getFeesToDistribute",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 260,
+      "end_line": 289,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "hashLeaf",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 292,
+      "end_line": 300,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_setRebateRecipient",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 302,
+      "end_line": 309,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSFeeDistributor.sol",
+      "start_line": 311,
+      "end_line": 313,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSModule.sol",
+      "start_line": 143,
+      "end_line": 155,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "finalizeUpgradeV2",
+      "file": "CSModule.sol",
+      "start_line": 158,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "resume",
+      "file": "CSModule.sol",
+      "start_line": 167,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "pauseFor",
+      "file": "CSModule.sol",
+      "start_line": 172,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "createNodeOperator",
+      "file": "CSModule.sol",
+      "start_line": 177,
+      "end_line": 224,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "addValidatorKeysETH",
+      "file": "CSModule.sol",
+      "start_line": 227,
+      "end_line": 253,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "addValidatorKeysStETH",
+      "file": "CSModule.sol",
+      "start_line": 256,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "addValidatorKeysWstETH",
+      "file": "CSModule.sol",
+      "start_line": 284,
+      "end_line": 309,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "proposeNodeOperatorManagerAddressChange",
+      "file": "CSModule.sol",
+      "start_line": 312,
+      "end_line": 321,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "confirmNodeOperatorManagerAddressChange",
+      "file": "CSModule.sol",
+      "start_line": 324,
+      "end_line": 331,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "proposeNodeOperatorRewardAddressChange",
+      "file": "CSModule.sol",
+      "start_line": 334,
+      "end_line": 343,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "confirmNodeOperatorRewardAddressChange",
+      "file": "CSModule.sol",
+      "start_line": 346,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "resetNodeOperatorManagerAddress",
+      "file": "CSModule.sol",
+      "start_line": 356,
+      "end_line": 361,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "changeNodeOperatorRewardAddress",
+      "file": "CSModule.sol",
+      "start_line": 364,
+      "end_line": 373,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "onRewardsMinted",
+      "file": "CSModule.sol",
+      "start_line": 377,
+      "end_line": 381,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "updateExitedValidatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 384,
+      "end_line": 409,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "updateTargetValidatorsLimits",
+      "file": "CSModule.sol",
+      "start_line": 412,
+      "end_line": 454,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "onExitedAndStuckValidatorsCountsUpdated",
+      "file": "CSModule.sol",
+      "start_line": 459,
+      "end_line": 462,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "unsafeUpdateValidatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 465,
+      "end_line": 475,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "decreaseVettedSigningKeysCount",
+      "file": "CSModule.sol",
+      "start_line": 478,
+      "end_line": 527,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "removeKeys",
+      "file": "CSModule.sol",
+      "start_line": 530,
+      "end_line": 576,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "updateDepositableValidatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 579,
+      "end_line": 584,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "migrateToPriorityQueue",
+      "file": "CSModule.sol",
+      "start_line": 588,
+      "end_line": 630,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "reportELRewardsStealingPenalty",
+      "file": "CSModule.sol",
+      "start_line": 633,
+      "end_line": 658,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "cancelELRewardsStealingPenalty",
+      "file": "CSModule.sol",
+      "start_line": 661,
+      "end_line": 675,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "settleELRewardsStealingPenalty",
+      "file": "CSModule.sol",
+      "start_line": 678,
+      "end_line": 698,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "compensateELRewardsStealingPenalty",
+      "file": "CSModule.sol",
+      "start_line": 701,
+      "end_line": 716,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "submitWithdrawals",
+      "file": "CSModule.sol",
+      "start_line": 719,
+      "end_line": 812,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "onWithdrawalCredentialsChanged",
+      "file": "CSModule.sol",
+      "start_line": 819,
+      "end_line": 824,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "reportValidatorExitDelay",
+      "file": "CSModule.sol",
+      "start_line": 827,
+      "end_line": 839,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "onValidatorExitTriggered",
+      "file": "CSModule.sol",
+      "start_line": 842,
+      "end_line": 855,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "obtainDepositData",
+      "file": "CSModule.sol",
+      "start_line": 860,
+      "end_line": 980,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "cleanDepositQueue",
+      "file": "CSModule.sol",
+      "start_line": 983,
+      "end_line": 1050,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSModule.sol",
+      "start_line": 1053,
+      "end_line": 1055,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "depositQueuePointers",
+      "file": "CSModule.sol",
+      "start_line": 1058,
+      "end_line": 1063,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "depositQueueItem",
+      "file": "CSModule.sol",
+      "start_line": 1066,
+      "end_line": 1071,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "isValidatorWithdrawn",
+      "file": "CSModule.sol",
+      "start_line": 1074,
+      "end_line": 1079,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "getType",
+      "file": "CSModule.sol",
+      "start_line": 1082,
+      "end_line": 1084,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "getStakingModuleSummary",
+      "file": "CSModule.sol",
+      "start_line": 1087,
+      "end_line": 1099,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "getNodeOperator",
+      "file": "CSModule.sol",
+      "start_line": 1102,
+      "end_line": 1106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "getNodeOperatorManagementProperties",
+      "file": "CSModule.sol",
+      "start_line": 1109,
+      "end_line": 1120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "getNodeOperatorOwner",
+      "file": "CSModule.sol",
+      "start_line": 1123,
+      "end_line": 1131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "getNodeOperatorNonWithdrawnKeys",
+      "file": "CSModule.sol",
+      "start_line": 1134,
+      "end_line": 1141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "getNodeOperatorSummary",
+      "file": "CSModule.sol",
+      "start_line": 1151,
+      "end_line": 1207,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "getNodeOperatorTotalDepositedKeys",
+      "file": "CSModule.sol",
+      "start_line": 1210,
+      "end_line": 1214,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "getSigningKeys",
+      "file": "CSModule.sol",
+      "start_line": 1217,
+      "end_line": 1225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "getSigningKeysWithSignatures",
+      "file": "CSModule.sol",
+      "start_line": 1228,
+      "end_line": 1245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "getNonce",
+      "file": "CSModule.sol",
+      "start_line": 1248,
+      "end_line": 1250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "getNodeOperatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 1253,
+      "end_line": 1255,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "getActiveNodeOperatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 1258,
+      "end_line": 1260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "getNodeOperatorIsActive",
+      "file": "CSModule.sol",
+      "start_line": 1263,
+      "end_line": 1267,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "getNodeOperatorIds",
+      "file": "CSModule.sol",
+      "start_line": 1270,
+      "end_line": 1286,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "isValidatorExitDelayPenaltyApplicable",
+      "file": "CSModule.sol",
+      "start_line": 1289,
+      "end_line": 1302,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "exitDeadlineThreshold",
+      "file": "CSModule.sol",
+      "start_line": 1305,
+      "end_line": 1313,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "accounting",
+      "file": "CSModule.sol",
+      "start_line": 1316,
+      "end_line": 1318,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "_incrementModuleNonce",
+      "file": "CSModule.sol",
+      "start_line": 1320,
+      "end_line": 1324,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "_addKeysAndUpdateDepositableValidatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 1326,
+      "end_line": 1379,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "_updateExitedValidatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 1383,
+      "end_line": 1414,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "_updateDepositableValidatorsCount",
+      "file": "CSModule.sol",
+      "start_line": 1416,
+      "end_line": 1467,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "_enqueueNodeOperatorKeys",
+      "file": "CSModule.sol",
+      "start_line": 1469,
+      "end_line": 1498,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "_enqueueNodeOperatorKeys",
+      "file": "CSModule.sol",
+      "start_line": 1501,
+      "end_line": 1522,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "_markOperatorIsCreatedInTX",
+      "file": "CSModule.sol",
+      "start_line": 1524,
+      "end_line": 1529,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "_isOperatorCreatedInTX",
+      "file": "CSModule.sol",
+      "start_line": 1531,
+      "end_line": 1538,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "_getQueue",
+      "file": "CSModule.sol",
+      "start_line": 1542,
+      "end_line": 1552,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "_checkCanAddKeys",
+      "file": "CSModule.sol",
+      "start_line": 1554,
+      "end_line": 1568,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "_onlyNodeOperatorManager",
+      "file": "CSModule.sol",
+      "start_line": 1570,
+      "end_line": 1582,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "_onlyExistingNodeOperator",
+      "file": "CSModule.sol",
+      "start_line": 1584,
+      "end_line": 1590,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "_onlyValidIndexRange",
+      "file": "CSModule.sol",
+      "start_line": 1592,
+      "end_line": 1603,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSModule.sol",
+      "start_line": 1605,
+      "end_line": 1607,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "_keyPointer",
+      "file": "CSModule.sol",
+      "start_line": 1610,
+      "end_line": 1615,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "MIN_CURVE_LENGTH",
+      "file": "ICSBondCurve.sol",
+      "start_line": 77,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "MAX_CURVE_LENGTH",
+      "file": "ICSBondCurve.sol",
+      "start_line": 79,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "DEFAULT_BOND_CURVE_ID",
+      "file": "ICSBondCurve.sol",
+      "start_line": 81,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "getCurvesCount",
+      "file": "ICSBondCurve.sol",
+      "start_line": 85,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "getCurveInfo",
+      "file": "ICSBondCurve.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "getBondCurve",
+      "file": "ICSBondCurve.sol",
+      "start_line": 98,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "getBondCurveId",
+      "file": "ICSBondCurve.sol",
+      "start_line": 105,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "getBondAmountByKeysCount",
+      "file": "ICSBondCurve.sol",
+      "start_line": 115,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "getKeysCountByBondAmount",
+      "file": "ICSBondCurve.sol",
+      "start_line": 124,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 159,
+      "node_type": "state_var",
+      "name": "PAUSE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSAccounting.sol",
+      "line": 32
+    },
+    {
+      "node_id": 160,
+      "node_type": "state_var",
+      "name": "RESUME_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSAccounting.sol",
+      "line": 33
+    },
+    {
+      "node_id": 161,
+      "node_type": "state_var",
+      "name": "MANAGE_BOND_CURVES_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSAccounting.sol",
+      "line": 34
+    },
+    {
+      "node_id": 162,
+      "node_type": "state_var",
+      "name": "SET_BOND_CURVE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSAccounting.sol",
+      "line": 36
+    },
+    {
+      "node_id": 163,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSAccounting.sol",
+      "line": 38
+    },
+    {
+      "node_id": 164,
+      "node_type": "state_var",
+      "name": "MODULE",
+      "var_type": "ICSModule public immutable",
+      "file": "CSAccounting.sol",
+      "line": 40
+    },
+    {
+      "node_id": 165,
+      "node_type": "state_var",
+      "name": "FEE_DISTRIBUTOR",
+      "var_type": "ICSFeeDistributor public immutable",
+      "file": "CSAccounting.sol",
+      "line": 41
+    },
+    {
+      "node_id": 166,
+      "node_type": "state_var",
+      "name": "_feeDistributorOld",
+      "var_type": "ICSFeeDistributor internal",
+      "file": "CSAccounting.sol",
+      "line": 44
+    },
+    {
+      "node_id": 167,
+      "node_type": "state_var",
+      "name": "chargePenaltyRecipient",
+      "var_type": "address public",
+      "file": "CSAccounting.sol",
+      "line": 45
+    },
+    {
+      "node_id": 168,
+      "node_type": "state_var",
+      "name": "CS_BOND_CURVE_STORAGE_LOCATION",
+      "var_type": "bytes32 private constant",
+      "file": "CSBondCurve.sol",
+      "line": 39
+    },
+    {
+      "node_id": 169,
+      "node_type": "state_var",
+      "name": "MIN_CURVE_LENGTH",
+      "var_type": "uint256 public constant",
+      "file": "CSBondCurve.sol",
+      "line": 42
+    },
+    {
+      "node_id": 170,
+      "node_type": "state_var",
+      "name": "DEFAULT_BOND_CURVE_ID",
+      "var_type": "uint256 public constant",
+      "file": "CSBondCurve.sol",
+      "line": 43
+    },
+    {
+      "node_id": 171,
+      "node_type": "state_var",
+      "name": "MAX_CURVE_LENGTH",
+      "var_type": "uint256 public constant",
+      "file": "CSBondCurve.sol",
+      "line": 44
+    },
+    {
+      "node_id": 172,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSFeeDistributor.sol",
+      "line": 24
+    },
+    {
+      "node_id": 173,
+      "node_type": "state_var",
+      "name": "STETH",
+      "var_type": "IStETH public immutable",
+      "file": "CSFeeDistributor.sol",
+      "line": 26
+    },
+    {
+      "node_id": 174,
+      "node_type": "state_var",
+      "name": "ACCOUNTING",
+      "var_type": "address public immutable",
+      "file": "CSFeeDistributor.sol",
+      "line": 27
+    },
+    {
+      "node_id": 175,
+      "node_type": "state_var",
+      "name": "ORACLE",
+      "var_type": "address public immutable",
+      "file": "CSFeeDistributor.sol",
+      "line": 28
+    },
+    {
+      "node_id": 176,
+      "node_type": "state_var",
+      "name": "treeRoot",
+      "var_type": "bytes32 public",
+      "file": "CSFeeDistributor.sol",
+      "line": 31
+    },
+    {
+      "node_id": 177,
+      "node_type": "state_var",
+      "name": "treeCid",
+      "var_type": "string public",
+      "file": "CSFeeDistributor.sol",
+      "line": 34
+    },
+    {
+      "node_id": 178,
+      "node_type": "state_var",
+      "name": "logCid",
+      "var_type": "string public",
+      "file": "CSFeeDistributor.sol",
+      "line": 37
+    },
+    {
+      "node_id": 179,
+      "node_type": "state_var",
+      "name": "distributedShares",
+      "var_type": "mapping(uint256 nodeOperatorId => uint256 distributed)\n        public",
+      "file": "CSFeeDistributor.sol",
+      "line": 40
+    },
+    {
+      "node_id": 180,
+      "node_type": "state_var",
+      "name": "totalClaimableShares",
+      "var_type": "uint256 public",
+      "file": "CSFeeDistributor.sol",
+      "line": 44
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "_distributionDataHistory",
+      "var_type": "mapping(uint256 index => DistributionData)\n        internal",
+      "file": "CSFeeDistributor.sol",
+      "line": 47
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "distributionDataHistoryCount",
+      "var_type": "uint256 public",
+      "file": "CSFeeDistributor.sol",
+      "line": 51
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "rebateRecipient",
+      "var_type": "address public",
+      "file": "CSFeeDistributor.sol",
+      "line": 54
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "PAUSE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 37
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "RESUME_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 38
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "STAKING_ROUTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 39
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "REPORT_EL_REWARDS_STEALING_PENALTY_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 41
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "SETTLE_EL_REWARDS_STEALING_PENALTY_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 43
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "VERIFIER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 45
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 46
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "CREATE_NODE_OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSModule.sol",
+      "line": 47
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "DEPOSIT_SIZE",
+      "var_type": "uint256 public constant",
+      "file": "CSModule.sol",
+      "line": 50
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "FORCED_TARGET_LIMIT_MODE_ID",
+      "var_type": "uint8 private constant",
+      "file": "CSModule.sol",
+      "line": 52
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "OPERATORS_CREATED_IN_TX_MAP_TSLOT",
+      "var_type": "bytes32 private constant",
+      "file": "CSModule.sol",
+      "line": 54
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "MODULE_TYPE",
+      "var_type": "bytes32 private immutable",
+      "file": "CSModule.sol",
+      "line": 57
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "var_type": "ILidoLocator public immutable",
+      "file": "CSModule.sol",
+      "line": 58
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "STETH",
+      "var_type": "IStETH public immutable",
+      "file": "CSModule.sol",
+      "line": 59
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "PARAMETERS_REGISTRY",
+      "var_type": "ICSParametersRegistry public immutable",
+      "file": "CSModule.sol",
+      "line": 60
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "ACCOUNTING",
+      "var_type": "ICSAccounting public immutable",
+      "file": "CSModule.sol",
+      "line": 61
+    },
+    {
+      "node_id": 200,
+      "node_type": "state_var",
+      "name": "EXIT_PENALTIES",
+      "var_type": "ICSExitPenalties public immutable",
+      "file": "CSModule.sol",
+      "line": 62
+    },
+    {
+      "node_id": 201,
+      "node_type": "state_var",
+      "name": "FEE_DISTRIBUTOR",
+      "var_type": "address public immutable",
+      "file": "CSModule.sol",
+      "line": 63
+    },
+    {
+      "node_id": 202,
+      "node_type": "state_var",
+      "name": "QUEUE_LOWEST_PRIORITY",
+      "var_type": "uint256 public immutable",
+      "file": "CSModule.sol",
+      "line": 66
+    },
+    {
+      "node_id": 203,
+      "node_type": "state_var",
+      "name": "QUEUE_LEGACY_PRIORITY",
+      "var_type": "uint256 public immutable",
+      "file": "CSModule.sol",
+      "line": 68
+    },
+    {
+      "node_id": 204,
+      "node_type": "state_var",
+      "name": "_queueByPriority",
+      "var_type": "mapping(uint256 queuePriority => QueueLib.Queue queue)\n        internal",
+      "file": "CSModule.sol",
+      "line": 76
+    },
+    {
+      "node_id": 205,
+      "node_type": "state_var",
+      "name": "_legacyQueue",
+      "var_type": "QueueLib.Queue internal",
+      "file": "CSModule.sol",
+      "line": 81
+    },
+    {
+      "node_id": 206,
+      "node_type": "state_var",
+      "name": "_accountingOld",
+      "var_type": "ICSAccounting internal",
+      "file": "CSModule.sol",
+      "line": 85
+    },
+    {
+      "node_id": 207,
+      "node_type": "state_var",
+      "name": "_earlyAdoption",
+      "var_type": "address internal",
+      "file": "CSModule.sol",
+      "line": 89
+    },
+    {
+      "node_id": 208,
+      "node_type": "state_var",
+      "name": "_publicRelease",
+      "var_type": "bool internal",
+      "file": "CSModule.sol",
+      "line": 92
+    },
+    {
+      "node_id": 209,
+      "node_type": "state_var",
+      "name": "_nonce",
+      "var_type": "uint256 private",
+      "file": "CSModule.sol",
+      "line": 94
+    },
+    {
+      "node_id": 210,
+      "node_type": "state_var",
+      "name": "_nodeOperators",
+      "var_type": "mapping(uint256 => NodeOperator) private",
+      "file": "CSModule.sol",
+      "line": 95
+    },
+    {
+      "node_id": 211,
+      "node_type": "state_var",
+      "name": "_isValidatorWithdrawn",
+      "var_type": "mapping(uint256 noKeyIndexPacked => bool) private",
+      "file": "CSModule.sol",
+      "line": 97
+    },
+    {
+      "node_id": 212,
+      "node_type": "state_var",
+      "name": "_isValidatorSlashed",
+      "var_type": "mapping(uint256 noKeyIndexPacked => bool) private",
+      "file": "CSModule.sol",
+      "line": 99
+    },
+    {
+      "node_id": 213,
+      "node_type": "state_var",
+      "name": "_totalDepositedValidators",
+      "var_type": "uint64 private",
+      "file": "CSModule.sol",
+      "line": 101
+    },
+    {
+      "node_id": 214,
+      "node_type": "state_var",
+      "name": "_totalExitedValidators",
+      "var_type": "uint64 private",
+      "file": "CSModule.sol",
+      "line": 102
+    },
+    {
+      "node_id": 215,
+      "node_type": "state_var",
+      "name": "_depositableValidatorsCount",
+      "var_type": "uint64 private",
+      "file": "CSModule.sol",
+      "line": 103
+    },
+    {
+      "node_id": 216,
+      "node_type": "state_var",
+      "name": "_nodeOperatorsCount",
+      "var_type": "uint64 private",
+      "file": "CSModule.sol",
+      "line": 104
+    },
+    {
+      "node_id": 217,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:103",
+      "call_type": "INTERFACE_CALL",
+      "line": 103,
+      "enclosing_function": "initialize",
+      "file": "CSAccounting.sol",
+      "raw_text": "LIDO.approve(LIDO_LOCATOR.burner(), type(uint256).max);"
+    },
+    {
+      "node_id": 218,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:171",
+      "call_type": "INTERFACE_CALL",
+      "line": 171,
+      "enclosing_function": "setBondCurve",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 219,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:186",
+      "call_type": "INTERFACE_CALL",
+      "line": 186,
+      "enclosing_function": "depositETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 220,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:209",
+      "call_type": "INTERFACE_CALL",
+      "line": 209,
+      "enclosing_function": "depositStETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 221,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:232",
+      "call_type": "INTERFACE_CALL",
+      "line": 232,
+      "enclosing_function": "depositWstETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 222,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:254",
+      "call_type": "INTERFACE_CALL",
+      "line": 254,
+      "enclosing_function": "claimRewardsStETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 223,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:276",
+      "call_type": "INTERFACE_CALL",
+      "line": 276,
+      "enclosing_function": "claimRewardsWstETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 224,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:298",
+      "call_type": "INTERFACE_CALL",
+      "line": 298,
+      "enclosing_function": "claimRewardsUnstETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 225,
+      "node_type": "call_site",
+      "name": "CALL:CSAccounting.sol:321",
+      "call_type": "CALL",
+      "line": 321,
+      "enclosing_function": "compensateLockedBondETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "(bool success, ) = LIDO_LOCATOR.elRewardsVault().call{"
+    },
+    {
+      "node_id": 226,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:321",
+      "call_type": "INTERFACE_CALL",
+      "line": 321,
+      "enclosing_function": "compensateLockedBondETH",
+      "file": "CSAccounting.sol",
+      "raw_text": "(bool success, ) = LIDO_LOCATOR.elRewardsVault().call{"
+    },
+    {
+      "node_id": 227,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:371",
+      "call_type": "INTERFACE_CALL",
+      "line": 371,
+      "enclosing_function": "pullFeeRewards",
+      "file": "CSAccounting.sol",
+      "raw_text": "MODULE.updateDepositableValidatorsCount(nodeOperatorId);"
+    },
+    {
+      "node_id": 228,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:393",
+      "call_type": "INTERFACE_CALL",
+      "line": 393,
+      "enclosing_function": "renewBurnerAllowance",
+      "file": "CSAccounting.sol",
+      "raw_text": "LIDO.approve(LIDO_LOCATOR.burner(), type(uint256).max);"
+    },
+    {
+      "node_id": 229,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:466",
+      "call_type": "INTERFACE_CALL",
+      "line": 466,
+      "enclosing_function": "getClaimableRewardsAndBondShares",
+      "file": "CSAccounting.sol",
+      "raw_text": "uint256 feesToDistribute = FEE_DISTRIBUTOR.getFeesToDistribute("
+    },
+    {
+      "node_id": 230,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:515",
+      "call_type": "INTERFACE_CALL",
+      "line": 515,
+      "enclosing_function": "_pullFeeRewards",
+      "file": "CSAccounting.sol",
+      "raw_text": "uint256 distributed = FEE_DISTRIBUTOR.distributeFees("
+    },
+    {
+      "node_id": 231,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:584",
+      "call_type": "INTERFACE_CALL",
+      "line": 584,
+      "enclosing_function": "_getRequiredBond",
+      "file": "CSAccounting.sol",
+      "raw_text": "uint256 nonWithdrawnKeys = MODULE.getNodeOperatorNonWithdrawnKeys("
+    },
+    {
+      "node_id": 232,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:610",
+      "call_type": "INTERFACE_CALL",
+      "line": 610,
+      "enclosing_function": "_getUnbondedKeysCount",
+      "file": "CSAccounting.sol",
+      "raw_text": "uint256 nonWithdrawnKeys = MODULE.getNodeOperatorNonWithdrawnKeys("
+    },
+    {
+      "node_id": 233,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:144",
+      "call_type": "INTERFACE_CALL",
+      "line": 144,
+      "enclosing_function": "distributeFees",
+      "file": "CSFeeDistributor.sol",
+      "raw_text": "STETH.transferShares(ACCOUNTING, sharesToDistribute);"
+    },
+    {
+      "node_id": 234,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:159",
+      "call_type": "INTERFACE_CALL",
+      "line": 159,
+      "enclosing_function": "processOracleReport",
+      "file": "CSFeeDistributor.sol",
+      "raw_text": "STETH.sharesOf(address(this))"
+    },
+    {
+      "node_id": 235,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:201",
+      "call_type": "INTERFACE_CALL",
+      "line": 201,
+      "enclosing_function": "processOracleReport",
+      "file": "CSFeeDistributor.sol",
+      "raw_text": "STETH.transferShares(rebateRecipient, rebate);"
+    },
+    {
+      "node_id": 236,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:249",
+      "call_type": "INTERFACE_CALL",
+      "line": 249,
+      "enclosing_function": "pendingSharesToDistribute",
+      "file": "CSFeeDistributor.sol",
+      "raw_text": "return STETH.sharesOf(address(this)) - totalClaimableShares;"
+    },
+    {
+      "node_id": 237,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:131",
+      "call_type": "INTERFACE_CALL",
+      "line": 131,
+      "enclosing_function": "",
+      "file": "CSModule.sol",
+      "raw_text": "STETH = IStETH(LIDO_LOCATOR.lido());"
+    },
+    {
+      "node_id": 238,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:133",
+      "call_type": "INTERFACE_CALL",
+      "line": 133,
+      "enclosing_function": "",
+      "file": "CSModule.sol",
+      "raw_text": "QUEUE_LOWEST_PRIORITY = PARAMETERS_REGISTRY.QUEUE_LOWEST_PRIORITY();"
+    },
+    {
+      "node_id": 239,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:134",
+      "call_type": "INTERFACE_CALL",
+      "line": 134,
+      "enclosing_function": "",
+      "file": "CSModule.sol",
+      "raw_text": "QUEUE_LEGACY_PRIORITY = PARAMETERS_REGISTRY.QUEUE_LEGACY_PRIORITY();"
+    },
+    {
+      "node_id": 240,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:137",
+      "call_type": "INTERFACE_CALL",
+      "line": 137,
+      "enclosing_function": "",
+      "file": "CSModule.sol",
+      "raw_text": "FEE_DISTRIBUTOR = address(ACCOUNTING.feeDistributor());"
+    },
+    {
+      "node_id": 241,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:151",
+      "call_type": "INTERFACE_CALL",
+      "line": 151,
+      "enclosing_function": "initialize",
+      "file": "CSModule.sol",
+      "raw_text": "_grantRole(STAKING_ROUTER_ROLE, address(LIDO_LOCATOR.stakingRouter()));"
+    },
+    {
+      "node_id": 242,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:380",
+      "call_type": "INTERFACE_CALL",
+      "line": 380,
+      "enclosing_function": "onRewardsMinted",
+      "file": "CSModule.sol",
+      "raw_text": "STETH.transferShares(FEE_DISTRIBUTOR, totalShares);"
+    },
+    {
+      "node_id": 243,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:554",
+      "call_type": "INTERFACE_CALL",
+      "line": 554,
+      "enclosing_function": "removeKeys",
+      "file": "CSModule.sol",
+      "raw_text": "uint256 amountToCharge = PARAMETERS_REGISTRY.getKeyRemovalCharge("
+    },
+    {
+      "node_id": 244,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:834",
+      "call_type": "INTERFACE_CALL",
+      "line": 834,
+      "enclosing_function": "reportValidatorExitDelay",
+      "file": "CSModule.sol",
+      "raw_text": "EXIT_PENALTIES.processExitDelayReport("
+    },
+    {
+      "node_id": 245,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:849",
+      "call_type": "INTERFACE_CALL",
+      "line": 849,
+      "enclosing_function": "onValidatorExitTriggered",
+      "file": "CSModule.sol",
+      "raw_text": "EXIT_PENALTIES.processTriggeredExit("
+    },
+    {
+      "node_id": 246,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:1310",
+      "call_type": "INTERFACE_CALL",
+      "line": 1310,
+      "enclosing_function": "exitDeadlineThreshold",
+      "file": "CSModule.sol",
+      "raw_text": "PARAMETERS_REGISTRY.getAllowedExitDelay("
+    },
+    {
+      "node_id": 247,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:1336",
+      "call_type": "INTERFACE_CALL",
+      "line": 1336,
+      "enclosing_function": "_addKeysAndUpdateDepositableValidatorsCount",
+      "file": "CSModule.sol",
+      "raw_text": "uint256 keysLimit = PARAMETERS_REGISTRY.getKeysLimit(curveId);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        186,
+        196,
+        217
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 217
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        8,
+        164,
+        218
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 218
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        9,
+        164,
+        219
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 219
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        11,
+        164,
+        220
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 220
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        13,
+        164,
+        221
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 221
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        15,
+        164,
+        222
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 222
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        16,
+        164,
+        223
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 223
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        17,
+        164,
+        224
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 224
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        20,
+        225
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 225
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        20,
+        226
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 226
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        24,
+        164,
+        227
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 227
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        27,
+        228
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 228
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        35,
+        165,
+        229
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 229
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        15,
+        16,
+        17,
+        24,
+        39,
+        164,
+        165,
+        230
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 230
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        29,
+        33,
+        35,
+        37,
+        38,
+        42,
+        43,
+        44,
+        164,
+        165,
+        231
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 231
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        30,
+        31,
+        45,
+        164,
+        232
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 232
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        70,
+        173,
+        174,
+        179,
+        180,
+        233
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 233
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        71,
+        173,
+        176,
+        177,
+        178,
+        180,
+        181,
+        182,
+        183,
+        234
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 234
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        71,
+        173,
+        176,
+        177,
+        178,
+        180,
+        181,
+        182,
+        183,
+        235
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 235
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        74,
+        173,
+        180,
+        236
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 236
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        0,
+        186,
+        196,
+        241
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 241
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        94,
+        165,
+        173,
+        242
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 242
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        100,
+        198,
+        210,
+        243
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 243
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        109,
+        200,
+        244
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 244
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        110,
+        200,
+        245
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 245
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        133,
+        198,
+        246
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 246
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        85,
+        86,
+        87,
+        136,
+        198,
+        210,
+        247
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 247
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "finalizeUpgradeV2",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resume",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pauseFor",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setChargePenaltyRecipient",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setBondLockPeriod",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addBondCurve",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateBondCurve",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setBondCurve",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "depositETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositStETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositStETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositWstETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "depositWstETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "claimRewardsStETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "claimRewardsWstETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "claimRewardsUnstETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "lockBondETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "releaseLockedBondETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "compensateLockedBondETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "settleLockedBondETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "penalize",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "chargeFee",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "pullFeeRewards",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "recoverERC20",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "recoverStETHShares",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "renewBurnerAllowance",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getBondSummary",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "getUnbondedKeysCount",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "getUnbondedKeysCountToEject",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "getBondAmountByKeysCountWstETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "getRequiredBondForNextKeysWstETH",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "getClaimableBondShares",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "getClaimableRewardsAndBondShares",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "feeDistributor",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "getBondSummaryShares",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getRequiredBondForNextKeys",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_pullFeeRewards",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_unwrapStETHPermitIfRequired",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_unwrapWstETHPermitIfRequired",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_getClaimableBondShares",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_getRequiredBond",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_getRequiredBondShares",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_getUnbondedKeysCount",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_onlyExistingNodeOperator",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_onlyNodeOperatorManagerOrRewardAddresses",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_setChargePenaltyRecipient",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "getCurvesCount",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "getCurveInfo",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "getBondCurve",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "getBondCurveId",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "getBondAmountByKeysCount",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "getKeysCountByBondAmount",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "__CSBondCurve_init",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_addBondCurve",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_updateBondCurve",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_setBondCurve",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_getBondAmountByKeysCount",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_getKeysCountByBondAmount",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_getLegacyBondCurvesLength",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_addIntervalsToBondCurve",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_getCurveInfo",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_checkBondCurve",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_getCSBondCurveStorage",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "finalizeUpgradeV2",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "setRebateRecipient",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "distributeFees",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "processOracleReport",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "recoverERC20",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "pendingSharesToDistribute",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "getHistoricalDistributionData",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "getFeesToDistribute",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "hashLeaf",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_setRebateRecipient",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "finalizeUpgradeV2",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "resume",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "pauseFor",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "createNodeOperator",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "addValidatorKeysETH",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "addValidatorKeysStETH",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "addValidatorKeysWstETH",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "proposeNodeOperatorManagerAddressChange",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "confirmNodeOperatorManagerAddressChange",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "proposeNodeOperatorRewardAddressChange",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "confirmNodeOperatorRewardAddressChange",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "resetNodeOperatorManagerAddress",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "changeNodeOperatorRewardAddress",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "onRewardsMinted",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "updateExitedValidatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "updateTargetValidatorsLimits",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "onExitedAndStuckValidatorsCountsUpdated",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "unsafeUpdateValidatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "decreaseVettedSigningKeysCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "removeKeys",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "updateDepositableValidatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "migrateToPriorityQueue",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "reportELRewardsStealingPenalty",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "cancelELRewardsStealingPenalty",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "settleELRewardsStealingPenalty",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "compensateELRewardsStealingPenalty",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "submitWithdrawals",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "onWithdrawalCredentialsChanged",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "reportValidatorExitDelay",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "onValidatorExitTriggered",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "obtainDepositData",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "cleanDepositQueue",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "depositQueuePointers",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "depositQueueItem",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "isValidatorWithdrawn",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "getType",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "getStakingModuleSummary",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "getNodeOperator",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "getNodeOperatorManagementProperties",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "getNodeOperatorOwner",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "getNodeOperatorNonWithdrawnKeys",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "getNodeOperatorSummary",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "getNodeOperatorTotalDepositedKeys",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "getSigningKeys",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "getSigningKeysWithSignatures",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "getNonce",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "getNodeOperatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "getActiveNodeOperatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "getNodeOperatorIsActive",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "getNodeOperatorIds",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "isValidatorExitDelayPenaltyApplicable",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "exitDeadlineThreshold",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "accounting",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "_incrementModuleNonce",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "_addKeysAndUpdateDepositableValidatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "_updateExitedValidatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "_updateDepositableValidatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "_enqueueNodeOperatorKeys",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "_enqueueNodeOperatorKeys",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "_markOperatorIsCreatedInTX",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "_isOperatorCreatedInTX",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "_getQueue",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "_checkCanAddKeys",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "_onlyNodeOperatorManager",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "_onlyExistingNodeOperator",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "_onlyValidIndexRange",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "_keyPointer",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "MIN_CURVE_LENGTH",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "MAX_CURVE_LENGTH",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "DEFAULT_BOND_CURVE_ID",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "getCurvesCount",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "getCurveInfo",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "getBondCurve",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "getBondCurveId",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "getBondAmountByKeysCount",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "getKeysCountByBondAmount",
+      "file": "ICSBondCurve.sol"
+    },
+    {
+      "node_id": 159,
+      "node_type": "state_var",
+      "name": "PAUSE_ROLE",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 160,
+      "node_type": "state_var",
+      "name": "RESUME_ROLE",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 161,
+      "node_type": "state_var",
+      "name": "MANAGE_BOND_CURVES_ROLE",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 162,
+      "node_type": "state_var",
+      "name": "SET_BOND_CURVE_ROLE",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 163,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 164,
+      "node_type": "state_var",
+      "name": "MODULE",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 165,
+      "node_type": "state_var",
+      "name": "FEE_DISTRIBUTOR",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 166,
+      "node_type": "state_var",
+      "name": "_feeDistributorOld",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 167,
+      "node_type": "state_var",
+      "name": "chargePenaltyRecipient",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 168,
+      "node_type": "state_var",
+      "name": "CS_BOND_CURVE_STORAGE_LOCATION",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 169,
+      "node_type": "state_var",
+      "name": "MIN_CURVE_LENGTH",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 170,
+      "node_type": "state_var",
+      "name": "DEFAULT_BOND_CURVE_ID",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 171,
+      "node_type": "state_var",
+      "name": "MAX_CURVE_LENGTH",
+      "file": "CSBondCurve.sol"
+    },
+    {
+      "node_id": 172,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 173,
+      "node_type": "state_var",
+      "name": "STETH",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 174,
+      "node_type": "state_var",
+      "name": "ACCOUNTING",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 175,
+      "node_type": "state_var",
+      "name": "ORACLE",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 176,
+      "node_type": "state_var",
+      "name": "treeRoot",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 177,
+      "node_type": "state_var",
+      "name": "treeCid",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 178,
+      "node_type": "state_var",
+      "name": "logCid",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 179,
+      "node_type": "state_var",
+      "name": "distributedShares",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 180,
+      "node_type": "state_var",
+      "name": "totalClaimableShares",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "_distributionDataHistory",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "distributionDataHistoryCount",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "rebateRecipient",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "PAUSE_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "RESUME_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "STAKING_ROUTER_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "REPORT_EL_REWARDS_STEALING_PENALTY_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "SETTLE_EL_REWARDS_STEALING_PENALTY_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "VERIFIER_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "CREATE_NODE_OPERATOR_ROLE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "DEPOSIT_SIZE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "FORCED_TARGET_LIMIT_MODE_ID",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "OPERATORS_CREATED_IN_TX_MAP_TSLOT",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "MODULE_TYPE",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "STETH",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "PARAMETERS_REGISTRY",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "ACCOUNTING",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 200,
+      "node_type": "state_var",
+      "name": "EXIT_PENALTIES",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 201,
+      "node_type": "state_var",
+      "name": "FEE_DISTRIBUTOR",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 202,
+      "node_type": "state_var",
+      "name": "QUEUE_LOWEST_PRIORITY",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 203,
+      "node_type": "state_var",
+      "name": "QUEUE_LEGACY_PRIORITY",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 204,
+      "node_type": "state_var",
+      "name": "_queueByPriority",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 205,
+      "node_type": "state_var",
+      "name": "_legacyQueue",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 206,
+      "node_type": "state_var",
+      "name": "_accountingOld",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 207,
+      "node_type": "state_var",
+      "name": "_earlyAdoption",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 208,
+      "node_type": "state_var",
+      "name": "_publicRelease",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 209,
+      "node_type": "state_var",
+      "name": "_nonce",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 210,
+      "node_type": "state_var",
+      "name": "_nodeOperators",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 211,
+      "node_type": "state_var",
+      "name": "_isValidatorWithdrawn",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 212,
+      "node_type": "state_var",
+      "name": "_isValidatorSlashed",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 213,
+      "node_type": "state_var",
+      "name": "_totalDepositedValidators",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 214,
+      "node_type": "state_var",
+      "name": "_totalExitedValidators",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 215,
+      "node_type": "state_var",
+      "name": "_depositableValidatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 216,
+      "node_type": "state_var",
+      "name": "_nodeOperatorsCount",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 217,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:103",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 218,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:171",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 219,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:186",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 220,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:209",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 221,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:232",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 222,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:254",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 223,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:276",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 224,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:298",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 225,
+      "node_type": "call_site",
+      "name": "CALL:CSAccounting.sol:321",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 226,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:321",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 227,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:371",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 228,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:393",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 229,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:466",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 230,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:515",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 231,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:584",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 232,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSAccounting.sol:610",
+      "file": "CSAccounting.sol"
+    },
+    {
+      "node_id": 233,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:144",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 234,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:159",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 235,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:201",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 236,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSFeeDistributor.sol:249",
+      "file": "CSFeeDistributor.sol"
+    },
+    {
+      "node_id": 237,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:131",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 238,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:133",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 239,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:134",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 240,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:137",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 241,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:151",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 242,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:380",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 243,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:554",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 244,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:834",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 245,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:849",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 246,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:1310",
+      "file": "CSModule.sol"
+    },
+    {
+      "node_id": 247,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSModule.sol:1336",
+      "file": "CSModule.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 248,
+    "n_hyperedges": 27,
+    "n_functions": 159,
+    "n_state_vars": 58,
+    "n_call_sites": 31,
+    "avg_hyperedge_size": 4.407407407407407
+  },
+  "label": {
+    "vfp_id": "vfp_00415",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-1164",
+      "CWE-20",
+      "CWE-372",
+      "CWE-404",
+      "CWE-459",
+      "CWE-561",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-755"
+    ]
+  }
+}

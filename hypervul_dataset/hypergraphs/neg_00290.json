@@ -1,0 +1,193 @@
+{
+  "sample_id": "neg_00290",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__Testable_init",
+      "file": "managed-oracle_src_common_implementation_Testable.sol",
+      "start_line": 20,
+      "end_line": 22,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setCurrentTime",
+      "file": "managed-oracle_src_common_implementation_Testable.sol",
+      "start_line": 37,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCurrentTime",
+      "file": "managed-oracle_src_common_implementation_Testable.sol",
+      "start_line": 46,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isEnforced",
+      "file": "managed-oracle_src_common_interfaces_DisableableAddressWhitelistInterface.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "payOracleFees",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol",
+      "start_line": 15,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "payOracleFeesErc20",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol",
+      "start_line": 23,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "computeRegularFee",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol",
+      "start_line": 34,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "computeFinalFee",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol",
+      "start_line": 44,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "timerAddress",
+      "var_type": "address public",
+      "file": "managed-oracle_src_common_implementation_Testable.sol",
+      "line": 13
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "managed-oracle_src_common_implementation_Testable.sol",
+      "line": 60
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__Testable_init",
+      "file": "managed-oracle_src_common_implementation_Testable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setCurrentTime",
+      "file": "managed-oracle_src_common_implementation_Testable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCurrentTime",
+      "file": "managed-oracle_src_common_implementation_Testable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isEnforced",
+      "file": "managed-oracle_src_common_interfaces_DisableableAddressWhitelistInterface.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "payOracleFees",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "payOracleFeesErc20",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "computeRegularFee",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "computeFinalFee",
+      "file": "managed-oracle_src_data-verification-mechanism_interfaces_StoreInterface.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "timerAddress",
+      "file": "managed-oracle_src_common_implementation_Testable.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "managed-oracle_src_common_implementation_Testable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00290",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

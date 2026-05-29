@@ -1,0 +1,4364 @@
+{
+  "sample_id": "vfp_00090",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setApproval",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 45,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isApproved",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 51,
+      "end_line": 53,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "enterPosition",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 56,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "migratePosition",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 67,
+      "end_line": 77,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_enterPosition",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 79,
+      "end_line": 105,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "exitPosition",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 108,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 133,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 173,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "forceWithdraw",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 182,
+      "end_line": 192,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 195,
+      "end_line": 197,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "healthFactor",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 200,
+      "end_line": 200,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "balanceOfCollateral",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 203,
+      "end_line": 203,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_checkExit",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 208,
+      "end_line": 214,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_isMigrate",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 217,
+      "end_line": 219,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_enterOrMigrate",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 222,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 248,
+      "end_line": 269,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 272,
+      "end_line": 280,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_flashBorrowAndEnter",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 285,
+      "end_line": 293,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_supplyCollateral",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 296,
+      "end_line": 298,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_withdrawCollateral",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 301,
+      "end_line": 307,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_liquidate",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 310,
+      "end_line": 316,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_exitWithRepay",
+      "file": "AbstractLendingRouter.sol",
+      "start_line": 319,
+      "end_line": 327,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_getRewardPoolSlot",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 29,
+      "end_line": 31,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getVaultRewardStateSlot",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 33,
+      "end_line": 35,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getAccountRewardDebtSlot",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 37,
+      "end_line": 41,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "migrateRewardPool",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 44,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getRewardSettings",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 69,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "getRewardDebt",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateRewardToken",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 83,
+      "end_line": 136,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "claimRewardTokens",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 140,
+      "end_line": 145,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "updateAccountRewards",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 148,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_claimVaultRewards",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 185,
+      "end_line": 217,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_claimRewardToken",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 222,
+      "end_line": 255,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_accumulateSecondaryRewardViaClaim",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 259,
+      "end_line": 272,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_accumulateSecondaryRewardViaEmissionRate",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 274,
+      "end_line": 285,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_getAccumulatedRewardViaEmissionRate",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 287,
+      "end_line": 314,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_executeClaim",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 317,
+      "end_line": 317,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_withdrawFromPreviousRewardPool",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 318,
+      "end_line": 318,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_depositIntoNewRewardPool",
+      "file": "AbstractRewardManager.sol",
+      "start_line": 319,
+      "end_line": 319,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "NUM_TOKENS",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 39,
+      "end_line": 39,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "PRIMARY_INDEX",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_totalPoolSupply",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 52,
+      "end_line": 52,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_checkReentrancyContext",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 55,
+      "end_line": 55,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_initialApproveTokens",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 58,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_joinPoolAndStake",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 64,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_unstakeAndExitPool",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 72,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 104,
+      "end_line": 107,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_mintYieldTokens",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 109,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_checkPoolShare",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 135,
+      "end_line": 143,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 145,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_executeDepositTrades",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 181,
+      "end_line": 220,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_executeRedemptionTrades",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 223,
+      "end_line": 251,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 253,
+      "end_line": 256,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "__postLiquidation",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 258,
+      "end_line": 263,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "__initiateWithdraw",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 265,
+      "end_line": 287,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_withdrawPendingRequests",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 289,
+      "end_line": 297,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 300,
+      "end_line": 306,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_isWithdrawRequestPending",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 308,
+      "end_line": 310,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 316,
+      "end_line": 316,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "getWithdrawRequestValue",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 319,
+      "end_line": 335,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "hasPendingWithdrawals",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 338,
+      "end_line": 350,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 353,
+      "end_line": 375,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "finalizeAndRedeemWithdrawRequest",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 378,
+      "end_line": 400,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "tokenizeWithdrawRequest",
+      "file": "AbstractSingleSidedLP.sol",
+      "start_line": 403,
+      "end_line": 417,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "AbstractStakingStrategy.sol",
+      "start_line": 50,
+      "end_line": 62,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "AbstractStakingStrategy.sol",
+      "start_line": 64,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_mintYieldTokens",
+      "file": "AbstractStakingStrategy.sol",
+      "start_line": 77,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractStakingStrategy.sol",
+      "start_line": 82,
+      "end_line": 117,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_executeInstantRedemption",
+      "file": "AbstractStakingStrategy.sol",
+      "start_line": 121,
+      "end_line": 139,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "AbstractStakingStrategy.sol",
+      "start_line": 141,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_postLiquidation",
+      "file": "AbstractStakingStrategy.sol",
+      "start_line": 143,
+      "end_line": 149,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "getWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 64,
+      "end_line": 68,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "isPendingWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 71,
+      "end_line": 73,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "setApprovedVault",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 76,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "stakeTokens",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 82,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 97,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "finalizeAndRedeemWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 123,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "finalizeRequestManual",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 149,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "tokenizeWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 162,
+      "end_line": 204,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 207,
+      "end_line": 211,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "_finalizeWithdraw",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 215,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 250,
+      "end_line": 254,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 261,
+      "end_line": 261,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 264,
+      "end_line": 264,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_preStakingTrade",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 268,
+      "end_line": 286,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_executeTrade",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 288,
+      "end_line": 304,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "getWithdrawRequestValue",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "start_line": 307,
+      "end_line": 340,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "name",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 87,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "convertSharesToYieldToken",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 98,
+      "end_line": 101,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "convertYieldTokenToShares",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 104,
+      "end_line": 107,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 110,
+      "end_line": 115,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "price",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "price",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 123,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 136,
+      "end_line": 138,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "convertYieldTokenToAsset",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 141,
+      "end_line": 146,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "effectiveSupply",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 149,
+      "end_line": 151,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "feesAccrued",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 156,
+      "end_line": 158,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "collectFees",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 161,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "clearCurrentAccount",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 187,
+      "end_line": 189,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 191,
+      "end_line": 205,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 207,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "allowTransfer",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 219,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "preLiquidation",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 228,
+      "end_line": 247,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "postLiquidation",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 249,
+      "end_line": 263,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "redeemNative",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 268,
+      "end_line": 277,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 280,
+      "end_line": 286,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "initiateWithdrawNative",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 291,
+      "end_line": 295,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 297,
+      "end_line": 307,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "_calculateAdditionalFeesInYieldToken",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 311,
+      "end_line": 324,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "_accrueFees",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 326,
+      "end_line": 331,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "_update",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 333,
+      "end_line": 345,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "_isWithdrawRequestPending",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 349,
+      "end_line": 352,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "_yieldTokenBalance",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 354,
+      "end_line": 356,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "_executeTrade",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 359,
+      "end_line": 375,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "_delegateCall",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 377,
+      "end_line": 388,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 392,
+      "end_line": 399,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "_mintSharesGivenAssets",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 402,
+      "end_line": 413,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "_burnShares",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 416,
+      "end_line": 437,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "_transferYieldTokenToOwner",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 441,
+      "end_line": 443,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 447,
+      "end_line": 447,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "_postLiquidation",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 450,
+      "end_line": 450,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "_mintYieldTokens",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 453,
+      "end_line": 453,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 456,
+      "end_line": 461,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 463,
+      "end_line": 468,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "AbstractYieldStrategy.sol",
+      "start_line": 471,
+      "end_line": 476,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "NUM_TOKENS",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 30,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "PRIMARY_INDEX",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 31,
+      "end_line": 31,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 32,
+      "end_line": 37,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "_rewriteAltETH",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "_transferYieldTokenToOwner",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 72,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "_totalPoolSupply",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "_checkReentrancyContext",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "checkReentrancyContext",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 146,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 162,
+      "end_line": 167,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "initialApproveTokens",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 169,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "joinPoolAndStake",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 180,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "unstakeAndExitPool",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 198,
+      "end_line": 212,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "transferYieldTokenToOwner",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 214,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "_enterPool",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 219,
+      "end_line": 242,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "_exitPool",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 244,
+      "end_line": 289,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "_stakeLpTokens",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 291,
+      "end_line": 298,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "_unstakeLpTokens",
+      "file": "CurveConvex2Token.sol",
+      "start_line": 301,
+      "end_line": 308,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "GenericERC4626.sol",
+      "start_line": 18,
+      "end_line": 25,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "GenericERC4626.sol",
+      "start_line": 27,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "GenericERC4626.sol",
+      "start_line": 32,
+      "end_line": 40,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "canFinalizeWithdrawRequest",
+      "file": "GenericERC4626.sol",
+      "start_line": 42,
+      "end_line": 44,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "getRewardSettings",
+      "file": "IRewardManager.sol",
+      "start_line": 41,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "getRewardDebt",
+      "file": "IRewardManager.sol",
+      "start_line": 50,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "updateAccountRewards",
+      "file": "IRewardManager.sol",
+      "start_line": 62,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "updateRewardToken",
+      "file": "IRewardManager.sol",
+      "start_line": 75,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "migrateRewardPool",
+      "file": "IRewardManager.sol",
+      "start_line": 86,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "claimRewardTokens",
+      "file": "IRewardManager.sol",
+      "start_line": 89,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "initializeMarket",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 40,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "marketParams",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 54,
+      "end_line": 56,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "marketParams",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 58,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "morphoId",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "_allocate",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 76,
+      "end_line": 87,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 159,
+      "node_type": "function",
+      "name": "allocateAndEnterPosition",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 89,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 160,
+      "node_type": "function",
+      "name": "allocateAndMigratePosition",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 101,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 161,
+      "node_type": "function",
+      "name": "_flashBorrowAndEnter",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 111,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 162,
+      "node_type": "function",
+      "name": "onMorphoFlashLoan",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 128,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 163,
+      "node_type": "function",
+      "name": "_supplyCollateral",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 150,
+      "end_line": 164,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 164,
+      "node_type": "function",
+      "name": "_withdrawCollateral",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 166,
+      "end_line": 175,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 165,
+      "node_type": "function",
+      "name": "_exitWithRepay",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 177,
+      "end_line": 202,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 166,
+      "node_type": "function",
+      "name": "onMorphoRepay",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 204,
+      "end_line": 242,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 167,
+      "node_type": "function",
+      "name": "_liquidate",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 244,
+      "end_line": 255,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 168,
+      "node_type": "function",
+      "name": "onMorphoLiquidate",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 257,
+      "end_line": 263,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 169,
+      "node_type": "function",
+      "name": "balanceOfCollateral",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 265,
+      "end_line": 268,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 170,
+      "node_type": "function",
+      "name": "healthFactor",
+      "file": "MorphoLendingRouter.sol",
+      "start_line": 270,
+      "end_line": 285,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 171,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 26,
+      "end_line": 36,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 172,
+      "node_type": "function",
+      "name": "__postLiquidation",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 38,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 173,
+      "node_type": "function",
+      "name": "_postLiquidation",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 44,
+      "end_line": 70,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 174,
+      "node_type": "function",
+      "name": "_mintSharesGivenAssets",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 72,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 175,
+      "node_type": "function",
+      "name": "_burnShares",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 90,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 176,
+      "node_type": "function",
+      "name": "__initiateWithdraw",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 113,
+      "end_line": 118,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 177,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 121,
+      "end_line": 140,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 178,
+      "node_type": "function",
+      "name": "_updateAccountRewards",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 142,
+      "end_line": 153,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 179,
+      "node_type": "function",
+      "name": "claimAccountRewards",
+      "file": "RewardManagerMixin.sol",
+      "start_line": 155,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 180,
+      "node_type": "function",
+      "name": "_toAddress",
+      "file": "UniV3Adapter.sol",
+      "start_line": 16,
+      "end_line": 28,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 181,
+      "node_type": "function",
+      "name": "_getTokenAddress",
+      "file": "UniV3Adapter.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 182,
+      "node_type": "function",
+      "name": "_exactInSingle",
+      "file": "UniV3Adapter.sol",
+      "start_line": 34,
+      "end_line": 46,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 183,
+      "node_type": "function",
+      "name": "_exactOutSingle",
+      "file": "UniV3Adapter.sol",
+      "start_line": 48,
+      "end_line": 58,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 184,
+      "node_type": "function",
+      "name": "_exactInBatch",
+      "file": "UniV3Adapter.sol",
+      "start_line": 60,
+      "end_line": 73,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 185,
+      "node_type": "function",
+      "name": "_exactOutBatch",
+      "file": "UniV3Adapter.sol",
+      "start_line": 75,
+      "end_line": 88,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 186,
+      "node_type": "function",
+      "name": "getExecutionData",
+      "file": "UniV3Adapter.sol",
+      "start_line": 90,
+      "end_line": 112,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "s_isApproved",
+      "var_type": "mapping(address user => mapping(address operator => bool approved)) private",
+      "file": "AbstractLendingRouter.sol",
+      "line": 29
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "REWARD_POOL_SLOT",
+      "var_type": "uint256 private constant",
+      "file": "AbstractRewardManager.sol",
+      "line": 24
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "VAULT_REWARD_STATE_SLOT",
+      "var_type": "uint256 private constant",
+      "file": "AbstractRewardManager.sol",
+      "line": 25
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "ACCOUNT_REWARD_DEBT_SLOT",
+      "var_type": "uint256 private constant",
+      "file": "AbstractRewardManager.sol",
+      "line": 26
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "ACCOUNT_ESCROW_STATE_SLOT",
+      "var_type": "uint256 private constant",
+      "file": "AbstractRewardManager.sol",
+      "line": 27
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "MAX_POOL_SHARE",
+      "var_type": "uint256 immutable",
+      "file": "AbstractSingleSidedLP.sol",
+      "line": 29
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "LP_LIB",
+      "var_type": "address internal immutable",
+      "file": "AbstractSingleSidedLP.sol",
+      "line": 30
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "withdrawToken",
+      "var_type": "address internal immutable",
+      "file": "AbstractStakingStrategy.sol",
+      "line": 35
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "YIELD_TOKEN",
+      "var_type": "address public immutable override",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "line": 36
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "WITHDRAW_TOKEN",
+      "var_type": "address public immutable override",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "line": 38
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "STAKING_TOKEN",
+      "var_type": "address public immutable override",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "line": 40
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "isApprovedVault",
+      "var_type": "mapping(address => bool) public override",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "line": 42
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "s_accountWithdrawRequest",
+      "var_type": "mapping(address vault => mapping(address account => WithdrawRequest)) private",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "line": 43
+    },
+    {
+      "node_id": 200,
+      "node_type": "state_var",
+      "name": "s_tokenizedWithdrawRequest",
+      "var_type": "mapping(uint256 requestId => TokenizedWithdrawRequest) private",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "line": 44
+    },
+    {
+      "node_id": 201,
+      "node_type": "state_var",
+      "name": "VIRTUAL_SHARES",
+      "var_type": "uint256 internal constant",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 34
+    },
+    {
+      "node_id": 202,
+      "node_type": "state_var",
+      "name": "VIRTUAL_YIELD_TOKENS",
+      "var_type": "uint256 internal constant",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 35
+    },
+    {
+      "node_id": 203,
+      "node_type": "state_var",
+      "name": "SHARE_PRECISION",
+      "var_type": "uint256 internal constant",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 36
+    },
+    {
+      "node_id": 204,
+      "node_type": "state_var",
+      "name": "asset",
+      "var_type": "address public immutable override",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 39
+    },
+    {
+      "node_id": 205,
+      "node_type": "state_var",
+      "name": "yieldToken",
+      "var_type": "address public immutable override",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 41
+    },
+    {
+      "node_id": 206,
+      "node_type": "state_var",
+      "name": "feeRate",
+      "var_type": "uint256 public immutable override",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 43
+    },
+    {
+      "node_id": 207,
+      "node_type": "state_var",
+      "name": "withdrawRequestManager",
+      "var_type": "IWithdrawRequestManager internal immutable",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 45
+    },
+    {
+      "node_id": 208,
+      "node_type": "state_var",
+      "name": "_yieldTokenDecimals",
+      "var_type": "uint8 internal immutable",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 47
+    },
+    {
+      "node_id": 209,
+      "node_type": "state_var",
+      "name": "_assetDecimals",
+      "var_type": "uint8 internal immutable",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 48
+    },
+    {
+      "node_id": 210,
+      "node_type": "state_var",
+      "name": "s_name",
+      "var_type": "string private",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 51
+    },
+    {
+      "node_id": 211,
+      "node_type": "state_var",
+      "name": "s_symbol",
+      "var_type": "string private",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 52
+    },
+    {
+      "node_id": 212,
+      "node_type": "state_var",
+      "name": "s_lastFeeAccrualTime",
+      "var_type": "uint32 private",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 54
+    },
+    {
+      "node_id": 213,
+      "node_type": "state_var",
+      "name": "s_accruedFeesInYieldToken",
+      "var_type": "uint256 private",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 55
+    },
+    {
+      "node_id": 214,
+      "node_type": "state_var",
+      "name": "s_escrowedShares",
+      "var_type": "uint256 private",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 56
+    },
+    {
+      "node_id": 215,
+      "node_type": "state_var",
+      "name": "t_CurrentAccount",
+      "var_type": "address internal transient",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 64
+    },
+    {
+      "node_id": 216,
+      "node_type": "state_var",
+      "name": "t_CurrentLendingRouter",
+      "var_type": "address internal transient",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 66
+    },
+    {
+      "node_id": 217,
+      "node_type": "state_var",
+      "name": "t_AllowTransfer_To",
+      "var_type": "address internal transient",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 68
+    },
+    {
+      "node_id": 218,
+      "node_type": "state_var",
+      "name": "t_AllowTransfer_Amount",
+      "var_type": "uint256 internal transient",
+      "file": "AbstractYieldStrategy.sol",
+      "line": 69
+    },
+    {
+      "node_id": 219,
+      "node_type": "state_var",
+      "name": "_NUM_TOKENS",
+      "var_type": "uint256 internal constant",
+      "file": "CurveConvex2Token.sol",
+      "line": 23
+    },
+    {
+      "node_id": 220,
+      "node_type": "state_var",
+      "name": "CURVE_POOL_TOKEN",
+      "var_type": "ERC20 internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 25
+    },
+    {
+      "node_id": 221,
+      "node_type": "state_var",
+      "name": "_PRIMARY_INDEX",
+      "var_type": "uint8 internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 26
+    },
+    {
+      "node_id": 222,
+      "node_type": "state_var",
+      "name": "TOKEN_1",
+      "var_type": "address internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 27
+    },
+    {
+      "node_id": 223,
+      "node_type": "state_var",
+      "name": "TOKEN_2",
+      "var_type": "address internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 28
+    },
+    {
+      "node_id": 224,
+      "node_type": "state_var",
+      "name": "CURVE_POOL",
+      "var_type": "address internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 93
+    },
+    {
+      "node_id": 225,
+      "node_type": "state_var",
+      "name": "CURVE_GAUGE",
+      "var_type": "address internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 97
+    },
+    {
+      "node_id": 226,
+      "node_type": "state_var",
+      "name": "CONVEX_BOOSTER",
+      "var_type": "address internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 99
+    },
+    {
+      "node_id": 227,
+      "node_type": "state_var",
+      "name": "CONVEX_REWARD_POOL",
+      "var_type": "address internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 101
+    },
+    {
+      "node_id": 228,
+      "node_type": "state_var",
+      "name": "CONVEX_POOL_ID",
+      "var_type": "uint256 internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 102
+    },
+    {
+      "node_id": 229,
+      "node_type": "state_var",
+      "name": "ASSET",
+      "var_type": "address internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 105
+    },
+    {
+      "node_id": 230,
+      "node_type": "state_var",
+      "name": "CURVE_INTERFACE",
+      "var_type": "CurveInterface internal immutable",
+      "file": "CurveConvex2Token.sol",
+      "line": 108
+    },
+    {
+      "node_id": 231,
+      "node_type": "state_var",
+      "name": "currentRequestId",
+      "var_type": "uint256 private",
+      "file": "GenericERC4626.sol",
+      "line": 12
+    },
+    {
+      "node_id": 232,
+      "node_type": "state_var",
+      "name": "s_withdrawRequestShares",
+      "var_type": "mapping(uint256 => uint256) private",
+      "file": "GenericERC4626.sol",
+      "line": 13
+    },
+    {
+      "node_id": 233,
+      "node_type": "state_var",
+      "name": "s_morphoParams",
+      "var_type": "mapping(address vault => MorphoParams params) private",
+      "file": "MorphoLendingRouter.sol",
+      "line": 38
+    },
+    {
+      "node_id": 234,
+      "node_type": "state_var",
+      "name": "REWARD_MANAGER",
+      "var_type": "IRewardManager public immutable",
+      "file": "RewardManagerMixin.sol",
+      "line": 11
+    },
+    {
+      "node_id": 235,
+      "node_type": "state_var",
+      "name": "t_Liquidator_SharesBefore",
+      "var_type": "uint256 internal transient",
+      "file": "RewardManagerMixin.sol",
+      "line": 13
+    },
+    {
+      "node_id": 236,
+      "node_type": "state_var",
+      "name": "t_LiquidateAccount_SharesBefore",
+      "var_type": "uint256 internal transient",
+      "file": "RewardManagerMixin.sol",
+      "line": 14
+    },
+    {
+      "node_id": 237,
+      "node_type": "call_site",
+      "name": "TRANSFER:AbstractRewardManager.sol:242",
+      "call_type": "TRANSFER",
+      "line": 242,
+      "enclosing_function": "_claimRewardToken",
+      "file": "AbstractRewardManager.sol",
+      "raw_text": "try IEIP20NonStandard(rewardToken).transfer(account, rewardToClaim) {"
+    },
+    {
+      "node_id": 238,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:43",
+      "call_type": "INTERFACE_CALL",
+      "line": 43,
+      "enclosing_function": "",
+      "file": "AbstractStakingStrategy.sol",
+      "raw_text": "withdrawToken = address(withdrawRequestManager) != address(0) ? withdrawRequestManager.WITHDRAW_TOKEN() : address(0);"
+    },
+    {
+      "node_id": 239,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:49",
+      "call_type": "INTERFACE_CALL",
+      "line": 49,
+      "enclosing_function": "convertToAssets",
+      "file": "AbstractStakingStrategy.sol",
+      "raw_text": "(bool hasRequest, uint256 value) = withdrawRequestManager.getWithdrawRequestValue("
+    },
+    {
+      "node_id": 240,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:68",
+      "call_type": "INTERFACE_CALL",
+      "line": 68,
+      "enclosing_function": "_initiateWithdraw",
+      "file": "AbstractStakingStrategy.sol",
+      "raw_text": "requestId = withdrawRequestManager.initiateWithdraw({"
+    },
+    {
+      "node_id": 241,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:76",
+      "call_type": "INTERFACE_CALL",
+      "line": 76,
+      "enclosing_function": "_mintYieldTokens",
+      "file": "AbstractStakingStrategy.sol",
+      "raw_text": "withdrawRequestManager.stakeTokens(address(asset), assets, depositData);"
+    },
+    {
+      "node_id": 242,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:86",
+      "call_type": "INTERFACE_CALL",
+      "line": 86,
+      "enclosing_function": "_redeemShares",
+      "file": "AbstractStakingStrategy.sol",
+      "raw_text": "(WithdrawRequest memory w, ) = withdrawRequestManager.getWithdrawRequest(address(this), sharesOwner);"
+    },
+    {
+      "node_id": 243,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "_redeemShares",
+      "file": "AbstractStakingStrategy.sol",
+      "raw_text": "(uint256 tokensClaimed, bool finalized) = withdrawRequestManager.finalizeAndRedeemWithdrawRequest({"
+    },
+    {
+      "node_id": 244,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:144",
+      "call_type": "INTERFACE_CALL",
+      "line": 144,
+      "enclosing_function": "_postLiquidation",
+      "file": "AbstractStakingStrategy.sol",
+      "raw_text": "didTokenize = withdrawRequestManager.tokenizeWithdrawRequest(liquidateAccount, liquidator, sharesToLiquidator);"
+    },
+    {
+      "node_id": 245,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:AbstractWithdrawRequestManager.sol:284",
+      "call_type": "DELEGATECALL",
+      "line": 284,
+      "enclosing_function": "_executeTrade",
+      "file": "AbstractWithdrawRequestManager.sol",
+      "raw_text": ".delegatecall(abi.encodeWithSelector(TRADING_MODULE.executeTrade.selector, dexId, trade));"
+    },
+    {
+      "node_id": 246,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractYieldStrategy.sol:351",
+      "call_type": "INTERFACE_CALL",
+      "line": 351,
+      "enclosing_function": "_isWithdrawRequestPending",
+      "file": "AbstractYieldStrategy.sol",
+      "raw_text": "&& withdrawRequestManager.isPendingWithdrawRequest(address(this), account);"
+    },
+    {
+      "node_id": 247,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:AbstractYieldStrategy.sol:379",
+      "call_type": "DELEGATECALL",
+      "line": 379,
+      "enclosing_function": "_delegateCall",
+      "file": "AbstractYieldStrategy.sol",
+      "raw_text": "(success, result) = target.delegatecall(data);"
+    },
+    {
+      "node_id": 248,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:79",
+      "call_type": "INTERFACE_CALL",
+      "line": 79,
+      "enclosing_function": "_totalPoolSupply",
+      "file": "CurveConvex2Token.sol",
+      "raw_text": "return CURVE_POOL_TOKEN.totalSupply();"
+    },
+    {
+      "node_id": 249,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:174",
+      "call_type": "INTERFACE_CALL",
+      "line": 174,
+      "enclosing_function": "initialApproveTokens",
+      "file": "CurveConvex2Token.sol",
+      "raw_text": "CURVE_POOL_TOKEN.checkApprove(address(CONVEX_BOOSTER), type(uint256).max);"
+    },
+    {
+      "node_id": 250,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:176",
+      "call_type": "INTERFACE_CALL",
+      "line": 176,
+      "enclosing_function": "initialApproveTokens",
+      "file": "CurveConvex2Token.sol",
+      "raw_text": "CURVE_POOL_TOKEN.checkApprove(address(CURVE_GAUGE), type(uint256).max);"
+    },
+    {
+      "node_id": 251,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:216",
+      "call_type": "INTERFACE_CALL",
+      "line": 216,
+      "enclosing_function": "transferYieldTokenToOwner",
+      "file": "CurveConvex2Token.sol",
+      "raw_text": "CURVE_POOL_TOKEN.safeTransfer(owner, yieldTokens);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        30,
+        32,
+        237
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 237
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        57,
+        193,
+        239
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 239
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        7,
+        8,
+        16,
+        195,
+        199,
+        200,
+        240
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 240
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        48,
+        241
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 241
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        15,
+        194,
+        242
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 242
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        15,
+        194,
+        243
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 243
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        71,
+        244
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 244
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        7,
+        82,
+        86,
+        195,
+        197,
+        199,
+        200,
+        231,
+        232,
+        245
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 245
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        57,
+        58,
+        101,
+        102,
+        104,
+        106,
+        119,
+        193,
+        204,
+        207,
+        214,
+        215,
+        216,
+        217,
+        218,
+        246
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 246
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        7,
+        82,
+        86,
+        116,
+        195,
+        197,
+        199,
+        200,
+        231,
+        232,
+        247
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 247
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        42,
+        220,
+        248
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 248
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        136,
+        220,
+        222,
+        223,
+        224,
+        225,
+        226,
+        249
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 249
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        136,
+        220,
+        222,
+        223,
+        224,
+        225,
+        226,
+        250
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 250
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        139,
+        220,
+        251
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 251
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setApproval",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isApproved",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "enterPosition",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "migratePosition",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_enterPosition",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "exitPosition",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "forceWithdraw",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "healthFactor",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "balanceOfCollateral",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_checkExit",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_isMigrate",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_enterOrMigrate",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_flashBorrowAndEnter",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_supplyCollateral",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_withdrawCollateral",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_liquidate",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_exitWithRepay",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_getRewardPoolSlot",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getVaultRewardStateSlot",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getAccountRewardDebtSlot",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "migrateRewardPool",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getRewardSettings",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "getRewardDebt",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateRewardToken",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "claimRewardTokens",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "updateAccountRewards",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_claimVaultRewards",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_claimRewardToken",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_accumulateSecondaryRewardViaClaim",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_accumulateSecondaryRewardViaEmissionRate",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_getAccumulatedRewardViaEmissionRate",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_executeClaim",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_withdrawFromPreviousRewardPool",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_depositIntoNewRewardPool",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "NUM_TOKENS",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "PRIMARY_INDEX",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_totalPoolSupply",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_checkReentrancyContext",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_initialApproveTokens",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_joinPoolAndStake",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_unstakeAndExitPool",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_mintYieldTokens",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_checkPoolShare",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_executeDepositTrades",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_executeRedemptionTrades",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "__postLiquidation",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "__initiateWithdraw",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_withdrawPendingRequests",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_isWithdrawRequestPending",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "getWithdrawRequestValue",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "hasPendingWithdrawals",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "finalizeAndRedeemWithdrawRequest",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "tokenizeWithdrawRequest",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_mintYieldTokens",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_executeInstantRedemption",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_postLiquidation",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "getWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "isPendingWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "setApprovedVault",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "stakeTokens",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "finalizeAndRedeemWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "finalizeRequestManual",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "tokenizeWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "_finalizeWithdraw",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_preStakingTrade",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_executeTrade",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "getWithdrawRequestValue",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "name",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "convertSharesToYieldToken",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "convertYieldTokenToShares",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "price",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "price",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "convertYieldTokenToAsset",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "effectiveSupply",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "feesAccrued",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "collectFees",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "clearCurrentAccount",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "allowTransfer",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "preLiquidation",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "postLiquidation",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "redeemNative",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "initiateWithdraw",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "initiateWithdrawNative",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "_calculateAdditionalFeesInYieldToken",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "_accrueFees",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "_update",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "_isWithdrawRequestPending",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "_yieldTokenBalance",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "_executeTrade",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "_delegateCall",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "_mintSharesGivenAssets",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "_burnShares",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "_transferYieldTokenToOwner",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "_postLiquidation",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "_mintYieldTokens",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "_redeemShares",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "NUM_TOKENS",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "PRIMARY_INDEX",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "_rewriteAltETH",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "_transferYieldTokenToOwner",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "_totalPoolSupply",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "_checkReentrancyContext",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "checkReentrancyContext",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "TOKENS",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "initialApproveTokens",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "joinPoolAndStake",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "unstakeAndExitPool",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "transferYieldTokenToOwner",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "_enterPool",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "_exitPool",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "_stakeLpTokens",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "_unstakeLpTokens",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "GenericERC4626.sol"
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "GenericERC4626.sol"
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "GenericERC4626.sol"
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "canFinalizeWithdrawRequest",
+      "file": "GenericERC4626.sol"
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "getRewardSettings",
+      "file": "IRewardManager.sol"
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "getRewardDebt",
+      "file": "IRewardManager.sol"
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "updateAccountRewards",
+      "file": "IRewardManager.sol"
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "updateRewardToken",
+      "file": "IRewardManager.sol"
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "migrateRewardPool",
+      "file": "IRewardManager.sol"
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "claimRewardTokens",
+      "file": "IRewardManager.sol"
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "initializeMarket",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "marketParams",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "marketParams",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "morphoId",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "_allocate",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 159,
+      "node_type": "function",
+      "name": "allocateAndEnterPosition",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 160,
+      "node_type": "function",
+      "name": "allocateAndMigratePosition",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 161,
+      "node_type": "function",
+      "name": "_flashBorrowAndEnter",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 162,
+      "node_type": "function",
+      "name": "onMorphoFlashLoan",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 163,
+      "node_type": "function",
+      "name": "_supplyCollateral",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 164,
+      "node_type": "function",
+      "name": "_withdrawCollateral",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 165,
+      "node_type": "function",
+      "name": "_exitWithRepay",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 166,
+      "node_type": "function",
+      "name": "onMorphoRepay",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 167,
+      "node_type": "function",
+      "name": "_liquidate",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 168,
+      "node_type": "function",
+      "name": "onMorphoLiquidate",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 169,
+      "node_type": "function",
+      "name": "balanceOfCollateral",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 170,
+      "node_type": "function",
+      "name": "healthFactor",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 171,
+      "node_type": "function",
+      "name": "_preLiquidation",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 172,
+      "node_type": "function",
+      "name": "__postLiquidation",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 173,
+      "node_type": "function",
+      "name": "_postLiquidation",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 174,
+      "node_type": "function",
+      "name": "_mintSharesGivenAssets",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 175,
+      "node_type": "function",
+      "name": "_burnShares",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 176,
+      "node_type": "function",
+      "name": "__initiateWithdraw",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 177,
+      "node_type": "function",
+      "name": "_initiateWithdraw",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 178,
+      "node_type": "function",
+      "name": "_updateAccountRewards",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 179,
+      "node_type": "function",
+      "name": "claimAccountRewards",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 180,
+      "node_type": "function",
+      "name": "_toAddress",
+      "file": "UniV3Adapter.sol"
+    },
+    {
+      "node_id": 181,
+      "node_type": "function",
+      "name": "_getTokenAddress",
+      "file": "UniV3Adapter.sol"
+    },
+    {
+      "node_id": 182,
+      "node_type": "function",
+      "name": "_exactInSingle",
+      "file": "UniV3Adapter.sol"
+    },
+    {
+      "node_id": 183,
+      "node_type": "function",
+      "name": "_exactOutSingle",
+      "file": "UniV3Adapter.sol"
+    },
+    {
+      "node_id": 184,
+      "node_type": "function",
+      "name": "_exactInBatch",
+      "file": "UniV3Adapter.sol"
+    },
+    {
+      "node_id": 185,
+      "node_type": "function",
+      "name": "_exactOutBatch",
+      "file": "UniV3Adapter.sol"
+    },
+    {
+      "node_id": 186,
+      "node_type": "function",
+      "name": "getExecutionData",
+      "file": "UniV3Adapter.sol"
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "s_isApproved",
+      "file": "AbstractLendingRouter.sol"
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "REWARD_POOL_SLOT",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "VAULT_REWARD_STATE_SLOT",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "ACCOUNT_REWARD_DEBT_SLOT",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "ACCOUNT_ESCROW_STATE_SLOT",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "MAX_POOL_SHARE",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "LP_LIB",
+      "file": "AbstractSingleSidedLP.sol"
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "withdrawToken",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "YIELD_TOKEN",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "WITHDRAW_TOKEN",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "STAKING_TOKEN",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "isApprovedVault",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "s_accountWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 200,
+      "node_type": "state_var",
+      "name": "s_tokenizedWithdrawRequest",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 201,
+      "node_type": "state_var",
+      "name": "VIRTUAL_SHARES",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 202,
+      "node_type": "state_var",
+      "name": "VIRTUAL_YIELD_TOKENS",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 203,
+      "node_type": "state_var",
+      "name": "SHARE_PRECISION",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 204,
+      "node_type": "state_var",
+      "name": "asset",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 205,
+      "node_type": "state_var",
+      "name": "yieldToken",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 206,
+      "node_type": "state_var",
+      "name": "feeRate",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 207,
+      "node_type": "state_var",
+      "name": "withdrawRequestManager",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 208,
+      "node_type": "state_var",
+      "name": "_yieldTokenDecimals",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 209,
+      "node_type": "state_var",
+      "name": "_assetDecimals",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 210,
+      "node_type": "state_var",
+      "name": "s_name",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 211,
+      "node_type": "state_var",
+      "name": "s_symbol",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 212,
+      "node_type": "state_var",
+      "name": "s_lastFeeAccrualTime",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 213,
+      "node_type": "state_var",
+      "name": "s_accruedFeesInYieldToken",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 214,
+      "node_type": "state_var",
+      "name": "s_escrowedShares",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 215,
+      "node_type": "state_var",
+      "name": "t_CurrentAccount",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 216,
+      "node_type": "state_var",
+      "name": "t_CurrentLendingRouter",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 217,
+      "node_type": "state_var",
+      "name": "t_AllowTransfer_To",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 218,
+      "node_type": "state_var",
+      "name": "t_AllowTransfer_Amount",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 219,
+      "node_type": "state_var",
+      "name": "_NUM_TOKENS",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 220,
+      "node_type": "state_var",
+      "name": "CURVE_POOL_TOKEN",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 221,
+      "node_type": "state_var",
+      "name": "_PRIMARY_INDEX",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 222,
+      "node_type": "state_var",
+      "name": "TOKEN_1",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 223,
+      "node_type": "state_var",
+      "name": "TOKEN_2",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 224,
+      "node_type": "state_var",
+      "name": "CURVE_POOL",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 225,
+      "node_type": "state_var",
+      "name": "CURVE_GAUGE",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 226,
+      "node_type": "state_var",
+      "name": "CONVEX_BOOSTER",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 227,
+      "node_type": "state_var",
+      "name": "CONVEX_REWARD_POOL",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 228,
+      "node_type": "state_var",
+      "name": "CONVEX_POOL_ID",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 229,
+      "node_type": "state_var",
+      "name": "ASSET",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 230,
+      "node_type": "state_var",
+      "name": "CURVE_INTERFACE",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 231,
+      "node_type": "state_var",
+      "name": "currentRequestId",
+      "file": "GenericERC4626.sol"
+    },
+    {
+      "node_id": 232,
+      "node_type": "state_var",
+      "name": "s_withdrawRequestShares",
+      "file": "GenericERC4626.sol"
+    },
+    {
+      "node_id": 233,
+      "node_type": "state_var",
+      "name": "s_morphoParams",
+      "file": "MorphoLendingRouter.sol"
+    },
+    {
+      "node_id": 234,
+      "node_type": "state_var",
+      "name": "REWARD_MANAGER",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 235,
+      "node_type": "state_var",
+      "name": "t_Liquidator_SharesBefore",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 236,
+      "node_type": "state_var",
+      "name": "t_LiquidateAccount_SharesBefore",
+      "file": "RewardManagerMixin.sol"
+    },
+    {
+      "node_id": 237,
+      "node_type": "call_site",
+      "name": "TRANSFER:AbstractRewardManager.sol:242",
+      "file": "AbstractRewardManager.sol"
+    },
+    {
+      "node_id": 238,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:43",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 239,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:49",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 240,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:68",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 241,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:76",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 242,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:86",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 243,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:89",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 244,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractStakingStrategy.sol:144",
+      "file": "AbstractStakingStrategy.sol"
+    },
+    {
+      "node_id": 245,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:AbstractWithdrawRequestManager.sol:284",
+      "file": "AbstractWithdrawRequestManager.sol"
+    },
+    {
+      "node_id": 246,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AbstractYieldStrategy.sol:351",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 247,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:AbstractYieldStrategy.sol:379",
+      "file": "AbstractYieldStrategy.sol"
+    },
+    {
+      "node_id": 248,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:79",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 249,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:174",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 250,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:176",
+      "file": "CurveConvex2Token.sol"
+    },
+    {
+      "node_id": 251,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CurveConvex2Token.sol:216",
+      "file": "CurveConvex2Token.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 252,
+    "n_hyperedges": 14,
+    "n_functions": 187,
+    "n_state_vars": 50,
+    "n_call_sites": 15,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "vfp_00090",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1024",
+      "CWE-115",
+      "CWE-1265",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-1339",
+      "CWE-191",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-372",
+      "CWE-390",
+      "CWE-394",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-439",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754",
+      "CWE-755"
+    ]
+  }
+}

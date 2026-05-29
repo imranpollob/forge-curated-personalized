@@ -1,0 +1,210 @@
+{
+  "sample_id": "neg_00313",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 30,
+      "end_line": 50,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setUnlimitedRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 64,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getCurrentRateLimit",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 68,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "triggerRateLimitDecrease",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 86,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "triggerRateLimitIncrease",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 108,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_min",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "start_line": 132,
+      "end_line": 134,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "exampleCall",
+      "file": "spark-alm-controller_test_unit_mocks_MockTarget.sol",
+      "start_line": 14,
+      "end_line": 25,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CONTROLLER",
+      "var_type": "bytes32 public override constant",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "line": 14
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "_data",
+      "var_type": "mapping(bytes32 => RateLimitData) private",
+      "file": "spark-alm-controller_src_RateLimits.sol",
+      "line": 16
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setUnlimitedRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getRateLimitData",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getCurrentRateLimit",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "triggerRateLimitDecrease",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "triggerRateLimitIncrease",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_min",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "exampleCall",
+      "file": "spark-alm-controller_test_unit_mocks_MockTarget.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CONTROLLER",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "_data",
+      "file": "spark-alm-controller_src_RateLimits.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00313",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

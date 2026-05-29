@@ -1,0 +1,72 @@
+{
+  "sample_id": "neg_00436",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "callVerifier",
+      "file": "zksync-sso-clave-contracts_src_helpers_VerifierCaller.sol",
+      "start_line": 13,
+      "end_line": 43,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "call_site",
+      "name": "STATICCALL:zksync-sso-clave-contracts_src_helpers_VerifierCaller.sol:16",
+      "call_type": "STATICCALL",
+      "line": 16,
+      "enclosing_function": "callVerifier",
+      "file": "zksync-sso-clave-contracts_src_helpers_VerifierCaller.sol",
+      "raw_text": "(bool success, bytes memory data) = verifier.staticcall(input);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 1
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "callVerifier",
+      "file": "zksync-sso-clave-contracts_src_helpers_VerifierCaller.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "call_site",
+      "name": "STATICCALL:zksync-sso-clave-contracts_src_helpers_VerifierCaller.sol:16",
+      "file": "zksync-sso-clave-contracts_src_helpers_VerifierCaller.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 2,
+    "n_hyperedges": 1,
+    "n_functions": 1,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00436",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

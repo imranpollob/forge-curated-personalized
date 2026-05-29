@@ -1,0 +1,1585 @@
+{
+  "sample_id": "vfp_00231",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "version",
+      "file": "MarketConfigurator.sol",
+      "start_line": 172,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "contractType",
+      "file": "MarketConfigurator.sol",
+      "start_line": 178,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "curatorName",
+      "file": "MarketConfigurator.sol",
+      "start_line": 183,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setEmergencyAdmin",
+      "file": "MarketConfigurator.sol",
+      "start_line": 191,
+      "end_line": 195,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "MarketConfigurator.sol",
+      "start_line": 197,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "MarketConfigurator.sol",
+      "start_line": 202,
+      "end_line": 205,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "emergencyRevokeRole",
+      "file": "MarketConfigurator.sol",
+      "start_line": 207,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "previewCreateMarket",
+      "file": "MarketConfigurator.sol",
+      "start_line": 216,
+      "end_line": 224,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "createMarket",
+      "file": "MarketConfigurator.sol",
+      "start_line": 226,
+      "end_line": 254,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "shutdownMarket",
+      "file": "MarketConfigurator.sol",
+      "start_line": 256,
+      "end_line": 260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addToken",
+      "file": "MarketConfigurator.sol",
+      "start_line": 262,
+      "end_line": 270,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "configurePool",
+      "file": "MarketConfigurator.sol",
+      "start_line": 272,
+      "end_line": 275,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "emergencyConfigurePool",
+      "file": "MarketConfigurator.sol",
+      "start_line": 277,
+      "end_line": 285,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_deployPool",
+      "file": "MarketConfigurator.sol",
+      "start_line": 287,
+      "end_line": 294,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "previewCreateCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 300,
+      "end_line": 308,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "createCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 310,
+      "end_line": 324,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "shutdownCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 326,
+      "end_line": 336,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "configureCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 338,
+      "end_line": 346,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "emergencyConfigureCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 348,
+      "end_line": 356,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_deployCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 358,
+      "end_line": 365,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "updatePriceOracle",
+      "file": "MarketConfigurator.sol",
+      "start_line": 371,
+      "end_line": 396,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "configurePriceOracle",
+      "file": "MarketConfigurator.sol",
+      "start_line": 398,
+      "end_line": 406,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "emergencyConfigurePriceOracle",
+      "file": "MarketConfigurator.sol",
+      "start_line": 408,
+      "end_line": 416,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_deployPriceOracle",
+      "file": "MarketConfigurator.sol",
+      "start_line": 418,
+      "end_line": 422,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "updateInterestRateModel",
+      "file": "MarketConfigurator.sol",
+      "start_line": 428,
+      "end_line": 443,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "configureInterestRateModel",
+      "file": "MarketConfigurator.sol",
+      "start_line": 445,
+      "end_line": 453,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "emergencyConfigureInterestRateModel",
+      "file": "MarketConfigurator.sol",
+      "start_line": 455,
+      "end_line": 463,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_deployInterestRateModel",
+      "file": "MarketConfigurator.sol",
+      "start_line": 465,
+      "end_line": 472,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateRateKeeper",
+      "file": "MarketConfigurator.sol",
+      "start_line": 478,
+      "end_line": 490,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "configureRateKeeper",
+      "file": "MarketConfigurator.sol",
+      "start_line": 492,
+      "end_line": 500,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "emergencyConfigureRateKeeper",
+      "file": "MarketConfigurator.sol",
+      "start_line": 502,
+      "end_line": 510,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_deployRateKeeper",
+      "file": "MarketConfigurator.sol",
+      "start_line": 512,
+      "end_line": 519,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "updateLossPolicy",
+      "file": "MarketConfigurator.sol",
+      "start_line": 525,
+      "end_line": 548,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "configureLossPolicy",
+      "file": "MarketConfigurator.sol",
+      "start_line": 550,
+      "end_line": 558,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "emergencyConfigureLossPolicy",
+      "file": "MarketConfigurator.sol",
+      "start_line": 560,
+      "end_line": 568,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_deployLossPolicy",
+      "file": "MarketConfigurator.sol",
+      "start_line": 570,
+      "end_line": 577,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "getMarketFactories",
+      "file": "MarketConfigurator.sol",
+      "start_line": 583,
+      "end_line": 585,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "getCreditFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 587,
+      "end_line": 589,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getAuthorizedFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 591,
+      "end_line": 593,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "getFactoryTargets",
+      "file": "MarketConfigurator.sol",
+      "start_line": 595,
+      "end_line": 597,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "authorizeFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 599,
+      "end_line": 602,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "unauthorizeFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 604,
+      "end_line": 607,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "upgradePoolFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 609,
+      "end_line": 616,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "upgradePriceOracleFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 618,
+      "end_line": 625,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "upgradeInterestRateModelFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 627,
+      "end_line": 634,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "upgradeRateKeeperFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 636,
+      "end_line": 643,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "upgradeLossPolicyFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 645,
+      "end_line": 652,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "upgradeCreditFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 654,
+      "end_line": 661,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "getPeripheryContracts",
+      "file": "MarketConfigurator.sol",
+      "start_line": 667,
+      "end_line": 669,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "isPeripheryContract",
+      "file": "MarketConfigurator.sol",
+      "start_line": 671,
+      "end_line": 673,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "addPeripheryContract",
+      "file": "MarketConfigurator.sol",
+      "start_line": 675,
+      "end_line": 683,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "removePeripheryContract",
+      "file": "MarketConfigurator.sol",
+      "start_line": 685,
+      "end_line": 690,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_getDomain",
+      "file": "MarketConfigurator.sol",
+      "start_line": 692,
+      "end_line": 698,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_ensureCallerIsSelf",
+      "file": "MarketConfigurator.sol",
+      "start_line": 704,
+      "end_line": 706,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_ensureCallerIsAdmin",
+      "file": "MarketConfigurator.sol",
+      "start_line": 708,
+      "end_line": 710,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_ensureCallerIsEmergencyAdmin",
+      "file": "MarketConfigurator.sol",
+      "start_line": 712,
+      "end_line": 714,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_ensureRegisteredMarket",
+      "file": "MarketConfigurator.sol",
+      "start_line": 716,
+      "end_line": 720,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_ensureRegisteredCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 722,
+      "end_line": 726,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_grantRole",
+      "file": "MarketConfigurator.sol",
+      "start_line": 729,
+      "end_line": 731,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_revokeRole",
+      "file": "MarketConfigurator.sol",
+      "start_line": 734,
+      "end_line": 736,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_registerMarket",
+      "file": "MarketConfigurator.sol",
+      "start_line": 739,
+      "end_line": 741,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_registerCreditSuite",
+      "file": "MarketConfigurator.sol",
+      "start_line": 744,
+      "end_line": 746,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_validateCallTarget",
+      "file": "MarketConfigurator.sol",
+      "start_line": 749,
+      "end_line": 753,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_getLatestPatch",
+      "file": "MarketConfigurator.sol",
+      "start_line": 755,
+      "end_line": 759,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_getLatestPatch",
+      "file": "MarketConfigurator.sol",
+      "start_line": 761,
+      "end_line": 763,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_getLatestMarketFactories",
+      "file": "MarketConfigurator.sol",
+      "start_line": 765,
+      "end_line": 773,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_getLatestCreditFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 775,
+      "end_line": 777,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_authorizeFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 779,
+      "end_line": 783,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_unauthorizeFactory",
+      "file": "MarketConfigurator.sol",
+      "start_line": 785,
+      "end_line": 789,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_migrateFactoryTargets",
+      "file": "MarketConfigurator.sol",
+      "start_line": 791,
+      "end_line": 802,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_executeMarketHooks",
+      "file": "MarketConfigurator.sol",
+      "start_line": 804,
+      "end_line": 811,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_executeHook",
+      "file": "MarketConfigurator.sol",
+      "start_line": 813,
+      "end_line": 815,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_configure",
+      "file": "MarketConfigurator.sol",
+      "start_line": 817,
+      "end_line": 819,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_emergencyConfigure",
+      "file": "MarketConfigurator.sol",
+      "start_line": 821,
+      "end_line": 823,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_executeHook",
+      "file": "MarketConfigurator.sol",
+      "start_line": 825,
+      "end_line": 834,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_registeredCreditManagers",
+      "file": "MarketConfigurator.sol",
+      "start_line": 836,
+      "end_line": 838,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_registeredCreditManagers",
+      "file": "MarketConfigurator.sol",
+      "start_line": 840,
+      "end_line": 842,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_quotaKeeper",
+      "file": "MarketConfigurator.sol",
+      "start_line": 844,
+      "end_line": 846,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_interestRateModel",
+      "file": "MarketConfigurator.sol",
+      "start_line": 848,
+      "end_line": 850,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_rateKeeper",
+      "file": "MarketConfigurator.sol",
+      "start_line": 852,
+      "end_line": 854,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "admin",
+      "var_type": "address public immutable override",
+      "file": "MarketConfigurator.sol",
+      "line": 64
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "emergencyAdmin",
+      "var_type": "address public override",
+      "file": "MarketConfigurator.sol",
+      "line": 65
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "_curatorName",
+      "var_type": "bytes32 internal immutable",
+      "file": "MarketConfigurator.sol",
+      "line": 66
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "acl",
+      "var_type": "address public immutable override",
+      "file": "MarketConfigurator.sol",
+      "line": 68
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "contractsRegister",
+      "var_type": "address public immutable override",
+      "file": "MarketConfigurator.sol",
+      "line": 69
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "treasury",
+      "var_type": "address public immutable override",
+      "file": "MarketConfigurator.sol",
+      "line": 70
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "_peripheryContracts",
+      "var_type": "mapping(bytes32 domain => EnumerableSet.AddressSet) internal",
+      "file": "MarketConfigurator.sol",
+      "line": 72
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "_marketFactories",
+      "var_type": "mapping(address pool => MarketFactories) internal",
+      "file": "MarketConfigurator.sol",
+      "line": 74
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "_creditFactories",
+      "var_type": "mapping(address creditManager => address) internal",
+      "file": "MarketConfigurator.sol",
+      "line": 75
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "_authorizedFactories",
+      "var_type": "mapping(address target => address) internal",
+      "file": "MarketConfigurator.sol",
+      "line": 77
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "_factoryTargets",
+      "var_type": "mapping(address factory => mapping(address suite => EnumerableSet.AddressSet)) internal",
+      "file": "MarketConfigurator.sol",
+      "line": 78
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarketConfigurator.sol:184",
+      "call_type": "INTERFACE_CALL",
+      "line": 184,
+      "enclosing_function": "curatorName",
+      "file": "MarketConfigurator.sol",
+      "raw_text": "return _curatorName.fromSmallString();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        82,
+        91
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 91
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "version",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "contractType",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "curatorName",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setEmergencyAdmin",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "emergencyRevokeRole",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "previewCreateMarket",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "createMarket",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "shutdownMarket",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addToken",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "configurePool",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "emergencyConfigurePool",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_deployPool",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "previewCreateCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "createCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "shutdownCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "configureCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "emergencyConfigureCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_deployCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "updatePriceOracle",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "configurePriceOracle",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "emergencyConfigurePriceOracle",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_deployPriceOracle",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "updateInterestRateModel",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "configureInterestRateModel",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "emergencyConfigureInterestRateModel",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_deployInterestRateModel",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "updateRateKeeper",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "configureRateKeeper",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "emergencyConfigureRateKeeper",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_deployRateKeeper",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "updateLossPolicy",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "configureLossPolicy",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "emergencyConfigureLossPolicy",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_deployLossPolicy",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "getMarketFactories",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "getCreditFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getAuthorizedFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "getFactoryTargets",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "authorizeFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "unauthorizeFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "upgradePoolFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "upgradePriceOracleFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "upgradeInterestRateModelFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "upgradeRateKeeperFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "upgradeLossPolicyFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "upgradeCreditFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "getPeripheryContracts",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "isPeripheryContract",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "addPeripheryContract",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "removePeripheryContract",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_getDomain",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_ensureCallerIsSelf",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_ensureCallerIsAdmin",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_ensureCallerIsEmergencyAdmin",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_ensureRegisteredMarket",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_ensureRegisteredCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_grantRole",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_revokeRole",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_registerMarket",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_registerCreditSuite",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_validateCallTarget",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_getLatestPatch",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_getLatestPatch",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_getLatestMarketFactories",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_getLatestCreditFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_authorizeFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_unauthorizeFactory",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_migrateFactoryTargets",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_executeMarketHooks",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_executeHook",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_configure",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_emergencyConfigure",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_executeHook",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_registeredCreditManagers",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_registeredCreditManagers",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_quotaKeeper",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_interestRateModel",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_rateKeeper",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "admin",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "emergencyAdmin",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "_curatorName",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "acl",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "contractsRegister",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "treasury",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "_peripheryContracts",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "_marketFactories",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "_creditFactories",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "_authorizedFactories",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "_factoryTargets",
+      "file": "MarketConfigurator.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MarketConfigurator.sol:184",
+      "file": "MarketConfigurator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 92,
+    "n_hyperedges": 1,
+    "n_functions": 80,
+    "n_state_vars": 11,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00231",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-394",
+      "CWE-670",
+      "CWE-691",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754",
+      "CWE-841"
+    ]
+  }
+}

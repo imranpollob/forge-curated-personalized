@@ -1,0 +1,173 @@
+{
+  "sample_id": "neg_00549",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "perform",
+      "file": "governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol",
+      "start_line": 15,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "perform",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol",
+      "start_line": 14,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "govAddressRegisry",
+      "var_type": "ITreasuryGovGetter public immutable",
+      "file": "governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol",
+      "line": 9
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "addressRegistry",
+      "var_type": "IL1AddressRegistry public immutable",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol",
+      "line": 8
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol:16",
+      "call_type": "INTERFACE_CALL",
+      "line": 16,
+      "enclosing_function": "perform",
+      "file": "governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol",
+      "raw_text": "CancelTimelockOperation.cancel(govAddressRegisry.treasuryGov(), proposalID);"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol:26",
+      "call_type": "INTERFACE_CALL",
+      "line": 26,
+      "enclosing_function": "perform",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol",
+      "raw_text": "IL1CustomGateway customGateway = addressRegistry.customGateway();"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol:42",
+      "call_type": "INTERFACE_CALL",
+      "line": 42,
+      "enclosing_function": "perform",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol",
+      "raw_text": "addressRegistry.gatewayRouter().setGateways{"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 4
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 5
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "perform",
+      "file": "governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "perform",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "govAddressRegisry",
+      "file": "governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "addressRegistry",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol:16",
+      "file": "governance_src_gov-action-contracts_governance_CancelTreasuryGovProposalAction.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol:26",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol:42",
+      "file": "governance_src_gov-action-contracts_token-bridge_RegisterAndSetArbCustomGatewayAction.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 3,
+    "n_functions": 2,
+    "n_state_vars": 2,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00549",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

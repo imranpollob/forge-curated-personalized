@@ -1,0 +1,314 @@
+{
+  "sample_id": "vfp_00020",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 72,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "delegate",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 98,
+      "end_line": 103,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimAndCompound",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 112,
+      "end_line": 136,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "vote",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 141,
+      "end_line": 143,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 149,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "retireStrategy",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 171,
+      "end_line": 176,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 181,
+      "end_line": 181,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "implementation",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "start_line": 183,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "AUTOCOMPOUND_STRATEGY_ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 38
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "AUTOCOMPOUND_STRATEGY_VOTE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 41
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "AUTOCOMPOUND_STRATEGY_CLAIM_COMPOUND_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 44
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "voter",
+      "var_type": "GaugeVoter public",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 48
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "AvKATVault public",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 51
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "swapper",
+      "var_type": "Swapper public",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 54
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "ivotesAdapter",
+      "var_type": "EscrowIVotesAdapter public",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 57
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "delegatee",
+      "var_type": "address public",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "line": 60
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AragonMerklAutoCompoundStrategy.sol:126",
+      "call_type": "INTERFACE_CALL",
+      "line": 126,
+      "enclosing_function": "claimAndCompound",
+      "file": "AragonMerklAutoCompoundStrategy.sol",
+      "raw_text": "(uint256 claimedAmount,) = swapper.claimAndSwap(claimTokens, _actions, 0);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        13,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "delegate",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimAndCompound",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "vote",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "retireStrategy",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "implementation",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "AUTOCOMPOUND_STRATEGY_ADMIN_ROLE",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "AUTOCOMPOUND_STRATEGY_VOTE_ROLE",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "AUTOCOMPOUND_STRATEGY_CLAIM_COMPOUND_ROLE",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "voter",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "swapper",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "ivotesAdapter",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "delegatee",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AragonMerklAutoCompoundStrategy.sol:126",
+      "file": "AragonMerklAutoCompoundStrategy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 1,
+    "n_functions": 8,
+    "n_state_vars": 8,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00020",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-250",
+      "CWE-269",
+      "CWE-284",
+      "CWE-435"
+    ]
+  }
+}

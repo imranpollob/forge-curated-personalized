@@ -1,0 +1,162 @@
+{
+  "sample_id": "neg_00682",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol",
+      "start_line": 66,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol",
+      "start_line": 78,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "L2_GAS_LIMIT",
+      "var_type": "uint32 public constant",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol",
+      "line": 30
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "L1_WETH",
+      "var_type": "WETH9Interface public immutable",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol",
+      "line": 32
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "L1_STANDARD_BRIDGE",
+      "var_type": "IL1StandardBridge public immutable",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol",
+      "line": 34
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol:58",
+      "call_type": "INTERFACE_CALL",
+      "line": 58,
+      "enclosing_function": "relayTokens",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol",
+      "raw_text": "L1_WETH.withdraw(amount);"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol:59",
+      "call_type": "INTERFACE_CALL",
+      "line": 59,
+      "enclosing_function": "relayTokens",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol",
+      "raw_text": "L1_STANDARD_BRIDGE.depositETHTo{ value: amount }(to, L2_GAS_LIMIT, \"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 5
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "L2_GAS_LIMIT",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "L1_WETH",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "L1_STANDARD_BRIDGE",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol:58",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol:59",
+      "file": "758570a9ace4a3c2335d2628342f71a33fbbc908_contracts_chain-adapters_Mode_Adapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 2,
+    "n_functions": 2,
+    "n_state_vars": 3,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "neg_00682",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

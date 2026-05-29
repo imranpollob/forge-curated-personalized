@@ -1,0 +1,833 @@
+{
+  "sample_id": "vfp_00049",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 217,
+      "end_line": 262,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deleteL2Outputs",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 268,
+      "end_line": 290,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "proposeL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 315,
+      "end_line": 372,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "proposeL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 385,
+      "end_line": 434,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkpointBlockHash",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 439,
+      "end_line": 445,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 450,
+      "end_line": 452,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getL2OutputIndexAfter",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 459,
+      "end_line": 482,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getL2OutputAfter",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 489,
+      "end_line": 491,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "latestOutputIndex",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 496,
+      "end_line": 498,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "nextOutputIndex",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 502,
+      "end_line": 504,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "latestBlockNumber",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 510,
+      "end_line": 512,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "nextBlockNumber",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 516,
+      "end_line": 518,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "lastProposalTimestamp",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 523,
+      "end_line": 525,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "computeL2Timestamp",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 530,
+      "end_line": 532,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isValidOpSuccinctConfig",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 537,
+      "end_line": 540,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "updateSubmissionInterval",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 544,
+      "end_line": 547,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "addOpSuccinctConfig",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 554,
+      "end_line": 574,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "deleteOpSuccinctConfig",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 578,
+      "end_line": 581,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 585,
+      "end_line": 588,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "addProposer",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 592,
+      "end_line": 595,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "removeProposer",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 599,
+      "end_line": 602,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "enableOptimisticMode",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 606,
+      "end_line": 610,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "disableOptimisticMode",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "start_line": 614,
+      "end_line": 618,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "startingBlockNumber",
+      "var_type": "uint256 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 50
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "startingTimestamp",
+      "var_type": "uint256 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 53
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "l2Outputs",
+      "var_type": "Types.OutputProposal[] internal",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 56
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "submissionInterval",
+      "var_type": "uint256 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 60
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "l2BlockTime",
+      "var_type": "uint256 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 64
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "challenger",
+      "var_type": "address public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 68
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "proposer",
+      "var_type": "address public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 73
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "finalizationPeriodSeconds",
+      "var_type": "uint256 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 77
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "aggregationVkey",
+      "var_type": "bytes32 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 81
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "rangeVkeyCommitment",
+      "var_type": "bytes32 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 86
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "verifier",
+      "var_type": "address public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 89
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "rollupConfigHash",
+      "var_type": "bytes32 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 93
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "owner",
+      "var_type": "address public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 96
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "approvedProposers",
+      "var_type": "mapping(address => bool) public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 99
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "historicBlockHashes",
+      "var_type": "mapping(uint256 => bytes32) public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 102
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "optimisticMode",
+      "var_type": "bool public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 105
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "fallbackTimeout",
+      "var_type": "uint256 public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 110
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "opSuccinctConfigs",
+      "var_type": "mapping(bytes32 => OpSuccinctConfig) public",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 113
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "GENESIS_CONFIG_NAME",
+      "var_type": "bytes32 public constant",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 116
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "string public constant",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 182
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "initializerVersion",
+      "var_type": "uint8 public constant",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "line": 185
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OPSuccinctL2OutputOracle.sol:231",
+      "call_type": "INTERFACE_CALL",
+      "line": 231,
+      "enclosing_function": "initialize",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "raw_text": "l2Outputs.push("
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OPSuccinctL2OutputOracle.sol:365",
+      "call_type": "INTERFACE_CALL",
+      "line": 365,
+      "enclosing_function": "proposeL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "raw_text": "l2Outputs.push("
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OPSuccinctL2OutputOracle.sol:427",
+      "call_type": "INTERFACE_CALL",
+      "line": 427,
+      "enclosing_function": "proposeL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol",
+      "raw_text": "l2Outputs.push("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        39,
+        40,
+        41,
+        44
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 44
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        25,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        39,
+        40,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        25,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        39,
+        40,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deleteL2Outputs",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "proposeL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "proposeL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkpointBlockHash",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getL2Output",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getL2OutputIndexAfter",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getL2OutputAfter",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "latestOutputIndex",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "nextOutputIndex",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "latestBlockNumber",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "nextBlockNumber",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "lastProposalTimestamp",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "computeL2Timestamp",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isValidOpSuccinctConfig",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "updateSubmissionInterval",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "addOpSuccinctConfig",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "deleteOpSuccinctConfig",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "addProposer",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "removeProposer",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "enableOptimisticMode",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "disableOptimisticMode",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "startingBlockNumber",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "startingTimestamp",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "l2Outputs",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "submissionInterval",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "l2BlockTime",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "challenger",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "proposer",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "finalizationPeriodSeconds",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "aggregationVkey",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "rangeVkeyCommitment",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "verifier",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "rollupConfigHash",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "owner",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "approvedProposers",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "historicBlockHashes",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "optimisticMode",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "fallbackTimeout",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "opSuccinctConfigs",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "GENESIS_CONFIG_NAME",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "initializerVersion",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OPSuccinctL2OutputOracle.sol:231",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OPSuccinctL2OutputOracle.sol:365",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OPSuccinctL2OutputOracle.sol:427",
+      "file": "OPSuccinctL2OutputOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 47,
+    "n_hyperedges": 3,
+    "n_functions": 23,
+    "n_state_vars": 21,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 13.666666666666666
+  },
+  "label": {
+    "vfp_id": "vfp_00049",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-284",
+      "CWE-285",
+      "CWE-862"
+    ]
+  }
+}

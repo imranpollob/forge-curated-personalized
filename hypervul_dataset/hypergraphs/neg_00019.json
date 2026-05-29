@@ -1,0 +1,91 @@
+{
+  "sample_id": "neg_00019",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getStructHash",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol",
+      "start_line": 23,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getTypedDataHash",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "var_type": "bytes32 internal",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol",
+      "line": 5
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "PERMIT_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol",
+      "line": 12
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getStructHash",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getTypedDataHash",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "PERMIT_TYPEHASH",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_helpers_SigUtils.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00019",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "sample_id": "neg_00493",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "execute",
+      "file": "eco-routes_contracts_interfaces_IExecutor.sol",
+      "start_line": 42,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "lzReceive",
+      "file": "eco-routes_contracts_interfaces_layerzero_ILayerZeroReceiver.sol",
+      "start_line": 31,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "allowInitializePath",
+      "file": "eco-routes_contracts_interfaces_layerzero_ILayerZeroReceiver.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "nextNonce",
+      "file": "eco-routes_contracts_interfaces_layerzero_ILayerZeroReceiver.sol",
+      "start_line": 54,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setAll",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 23,
+      "end_line": 33,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setChainId",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 35,
+      "end_line": 37,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setEmittingContract",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 39,
+      "end_line": 41,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setTopics",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 43,
+      "end_line": 45,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setData",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 47,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "validateEvent",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 51,
+      "end_line": 61,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "inspectLogIdentifier",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 63,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "inspectPolymerState",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "start_line": 69,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "chainId",
+      "var_type": "uint32[] public",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "line": 6
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "emittingContract",
+      "var_type": "address[] public",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "line": 7
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "topics",
+      "var_type": "bytes[] public",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "line": 8
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "data",
+      "var_type": "bytes[] public",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "line": 9
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:17",
+      "call_type": "INTERFACE_CALL",
+      "line": 17,
+      "enclosing_function": "",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "chainId.push(_chainId);"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:18",
+      "call_type": "INTERFACE_CALL",
+      "line": 18,
+      "enclosing_function": "",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "emittingContract.push(_emittingContract);"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:19",
+      "call_type": "INTERFACE_CALL",
+      "line": 19,
+      "enclosing_function": "",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "topics.push(_topics);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:20",
+      "call_type": "INTERFACE_CALL",
+      "line": 20,
+      "enclosing_function": "",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "data.push(abi.encode(_data));"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:29",
+      "call_type": "INTERFACE_CALL",
+      "line": 29,
+      "enclosing_function": "setAll",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "chainId.push(_chainId);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:30",
+      "call_type": "INTERFACE_CALL",
+      "line": 30,
+      "enclosing_function": "setAll",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "emittingContract.push(_emittingContract);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:31",
+      "call_type": "INTERFACE_CALL",
+      "line": 31,
+      "enclosing_function": "setAll",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "topics.push(_topics);"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:32",
+      "call_type": "INTERFACE_CALL",
+      "line": 32,
+      "enclosing_function": "setAll",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "data.push(abi.encode(_data));"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:36",
+      "call_type": "INTERFACE_CALL",
+      "line": 36,
+      "enclosing_function": "setChainId",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "chainId.push(_chainId);"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:40",
+      "call_type": "INTERFACE_CALL",
+      "line": 40,
+      "enclosing_function": "setEmittingContract",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "emittingContract.push(_emittingContract);"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:44",
+      "call_type": "INTERFACE_CALL",
+      "line": 44,
+      "enclosing_function": "setTopics",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "topics.push(_topics);"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:48",
+      "call_type": "INTERFACE_CALL",
+      "line": 48,
+      "enclosing_function": "setData",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol",
+      "raw_text": "data.push(abi.encode(_data));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        12,
+        13,
+        14,
+        15,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        12,
+        13,
+        14,
+        15,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        12,
+        13,
+        14,
+        15,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        12,
+        13,
+        14,
+        15,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        12,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        6,
+        13,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        7,
+        14,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        8,
+        15,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "execute",
+      "file": "eco-routes_contracts_interfaces_IExecutor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "lzReceive",
+      "file": "eco-routes_contracts_interfaces_layerzero_ILayerZeroReceiver.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "allowInitializePath",
+      "file": "eco-routes_contracts_interfaces_layerzero_ILayerZeroReceiver.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "nextNonce",
+      "file": "eco-routes_contracts_interfaces_layerzero_ILayerZeroReceiver.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setAll",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setChainId",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setEmittingContract",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setTopics",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setData",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "validateEvent",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "inspectLogIdentifier",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "inspectPolymerState",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "chainId",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "emittingContract",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "topics",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "data",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:17",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:18",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:19",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:20",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:29",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:30",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:31",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:32",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:36",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:40",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:44",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:eco-routes_contracts_test_TestCrossL2ProverV2.sol:48",
+      "file": "eco-routes_contracts_test_TestCrossL2ProverV2.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 28,
+    "n_hyperedges": 8,
+    "n_functions": 12,
+    "n_state_vars": 4,
+    "n_call_sites": 12,
+    "avg_hyperedge_size": 4.5
+  },
+  "label": {
+    "vfp_id": "neg_00493",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

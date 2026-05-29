@@ -1,0 +1,324 @@
+{
+  "sample_id": "vfp_00323",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 43,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "delegateUpgrade",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 84,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setUseLatestDelegate",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 102,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getUseLatestDelegate",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getDelegate",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 120,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getEffectiveDelegate",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 125,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getDelegateExpired",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 130,
+      "end_line": 134,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getContractAddress",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 137,
+      "end_line": 141,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getRevertMessage",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 144,
+      "end_line": 152,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "contractExists",
+      "file": "RocketMegapoolProxy.sol",
+      "start_line": 155,
+      "end_line": 161,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "self",
+      "var_type": "address immutable private",
+      "file": "RocketMegapoolProxy.sol",
+      "line": 18
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "rocketStorage",
+      "var_type": "RocketStorageInterface immutable private",
+      "file": "RocketMegapoolProxy.sol",
+      "line": 19
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketMegapoolProxy.sol:36",
+      "call_type": "INTERFACE_CALL",
+      "line": 36,
+      "enclosing_function": "",
+      "file": "RocketMegapoolProxy.sol",
+      "raw_text": "address withdrawalAddress = rocketStorage.getNodeWithdrawalAddress(nodeAddress);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:RocketMegapoolProxy.sol:76",
+      "call_type": "DELEGATECALL",
+      "line": 76,
+      "enclosing_function": "",
+      "file": "RocketMegapoolProxy.sol",
+      "raw_text": "(bool success, bytes memory data) = delegateContract.delegatecall(_input);"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketMegapoolProxy.sol:87",
+      "call_type": "INTERFACE_CALL",
+      "line": 87,
+      "enclosing_function": "delegateUpgrade",
+      "file": "RocketMegapoolProxy.sol",
+      "raw_text": "address withdrawalAddress = rocketStorage.getNodeWithdrawalAddress(nodeAddress);"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketMegapoolProxy.sol:138",
+      "call_type": "INTERFACE_CALL",
+      "line": 138,
+      "enclosing_function": "getContractAddress",
+      "file": "RocketMegapoolProxy.sol",
+      "raw_text": "address contractAddress = rocketStorage.getAddress(keccak256(abi.encodePacked(\"contract.address\", _contractName)));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        2,
+        11,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        11,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "delegateUpgrade",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setUseLatestDelegate",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getUseLatestDelegate",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getDelegate",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getEffectiveDelegate",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getDelegateExpired",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getContractAddress",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getRevertMessage",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "contractExists",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "self",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "rocketStorage",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketMegapoolProxy.sol:36",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:RocketMegapoolProxy.sol:76",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketMegapoolProxy.sol:87",
+      "file": "RocketMegapoolProxy.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketMegapoolProxy.sol:138",
+      "file": "RocketMegapoolProxy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 2,
+    "n_functions": 10,
+    "n_state_vars": 2,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 5.5
+  },
+  "label": {
+    "vfp_id": "vfp_00323",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-372",
+      "CWE-664"
+    ]
+  }
+}

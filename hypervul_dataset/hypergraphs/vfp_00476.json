@@ -1,0 +1,396 @@
+{
+  "sample_id": "vfp_00476",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "migrateToPRL",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 113,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "migrateToPRLAndBridge",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 124,
+      "end_line": 139,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "emergencyRescue",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 155,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pause",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 162,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 168,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_lzReceive",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 185,
+      "end_line": 211,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_decodeMessage",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 219,
+      "end_line": 228,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_buildSendParam",
+      "file": "PrincipalMigrationContract.sol",
+      "start_line": 237,
+      "end_line": 251,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "EXTRA_OPTION_START",
+      "var_type": "uint256 private constant",
+      "file": "PrincipalMigrationContract.sol",
+      "line": 30
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "MIMO",
+      "var_type": "IERC20 public immutable",
+      "file": "PrincipalMigrationContract.sol",
+      "line": 32
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PRL",
+      "var_type": "IERC20 public immutable",
+      "file": "PrincipalMigrationContract.sol",
+      "line": 34
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "lockBox",
+      "var_type": "IOFT public immutable",
+      "file": "PrincipalMigrationContract.sol",
+      "line": 36
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:115",
+      "call_type": "INTERFACE_CALL",
+      "line": 115,
+      "enclosing_function": "migrateToPRL",
+      "file": "PrincipalMigrationContract.sol",
+      "raw_text": "MIMO.safeTransferFrom(msg.sender, address(this), _amount);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:116",
+      "call_type": "INTERFACE_CALL",
+      "line": 116,
+      "enclosing_function": "migrateToPRL",
+      "file": "PrincipalMigrationContract.sol",
+      "raw_text": "PRL.safeTransfer(_recipient, _amount);"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:136",
+      "call_type": "INTERFACE_CALL",
+      "line": 136,
+      "enclosing_function": "migrateToPRLAndBridge",
+      "file": "PrincipalMigrationContract.sol",
+      "raw_text": "MIMO.safeTransferFrom(msg.sender, address(this), _sendParam.amount);"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:137",
+      "call_type": "INTERFACE_CALL",
+      "line": 137,
+      "enclosing_function": "migrateToPRLAndBridge",
+      "file": "PrincipalMigrationContract.sol",
+      "raw_text": "PRL.approve(address(lockBox), _sendParam.amount);"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:202",
+      "call_type": "INTERFACE_CALL",
+      "line": 202,
+      "enclosing_function": "_lzReceive",
+      "file": "PrincipalMigrationContract.sol",
+      "raw_text": "PRL.safeTransfer(receiver, amount);"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:208",
+      "call_type": "INTERFACE_CALL",
+      "line": 208,
+      "enclosing_function": "_lzReceive",
+      "file": "PrincipalMigrationContract.sol",
+      "raw_text": "PRL.approve(address(lockBox), amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        9,
+        10,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        9,
+        10,
+        11,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        9,
+        10,
+        11,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        10,
+        11,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        10,
+        11,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "migrateToPRL",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "migrateToPRLAndBridge",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "emergencyRescue",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pause",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_lzReceive",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_decodeMessage",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_buildSendParam",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "EXTRA_OPTION_START",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "MIMO",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PRL",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "lockBox",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:115",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:116",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:136",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:137",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:202",
+      "file": "PrincipalMigrationContract.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PrincipalMigrationContract.sol:208",
+      "file": "PrincipalMigrationContract.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 6,
+    "n_functions": 8,
+    "n_state_vars": 4,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 4.333333333333333
+  },
+  "label": {
+    "vfp_id": "vfp_00476",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

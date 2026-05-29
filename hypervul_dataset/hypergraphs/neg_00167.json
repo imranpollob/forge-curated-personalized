@@ -1,0 +1,402 @@
+{
+  "sample_id": "neg_00167",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 62,
+      "end_line": 75,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "name",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 80,
+      "end_line": 82,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 88,
+      "end_line": 90,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 92,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 112,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "lockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 129,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferableBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 140,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "debtFreeBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 151,
+      "end_line": 158,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "debtLockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 160,
+      "end_line": 167,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "timelockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 169,
+      "end_line": 187,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "nonTimelockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 189,
+      "end_line": 196,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 198,
+      "end_line": 219,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "cleanupExpiredTimelocks",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 224,
+      "end_line": 241,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_getTimelockDuration",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 243,
+      "end_line": 249,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 254,
+      "end_line": 261,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "implementation",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 266,
+      "end_line": 268,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "start_line": 274,
+      "end_line": 279,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "collateralPool",
+      "var_type": "address public",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "line": 36
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "tokenName",
+      "var_type": "string private",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "line": 38
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "tokenSymbol",
+      "var_type": "string private",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "line": 39
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "timelocksByAccount",
+      "var_type": "mapping(address => TimelockQueue) private",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "line": 41
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ignoreTimelocked",
+      "var_type": "bool private",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "line": 42
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "initialized",
+      "var_type": "bool private",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol",
+      "line": 43
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "name",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "lockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferableBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "debtFreeBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "debtLockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "timelockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "nonTimelockedBalanceOf",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "cleanupExpiredTimelocks",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_getTimelockDuration",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "implementation",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "collateralPool",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "tokenName",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "tokenSymbol",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "timelocksByAccount",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ignoreTimelocked",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "initialized",
+      "file": "fassets_contracts_collateralPool_implementation_CollateralPoolToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 23,
+    "n_hyperedges": 0,
+    "n_functions": 17,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00167",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

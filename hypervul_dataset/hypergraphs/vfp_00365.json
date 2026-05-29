@@ -1,0 +1,718 @@
+{
+  "sample_id": "vfp_00365",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SwapFacility.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swap",
+      "file": "SwapFacility.sol",
+      "start_line": 70,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapInM",
+      "file": "SwapFacility.sol",
+      "start_line": 81,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swapInMWithPermit",
+      "file": "SwapFacility.sol",
+      "start_line": 89,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swapInMWithPermit",
+      "file": "SwapFacility.sol",
+      "start_line": 106,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "swapOutM",
+      "file": "SwapFacility.sol",
+      "start_line": 121,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "swapInToken",
+      "file": "SwapFacility.sol",
+      "start_line": 130,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapOutToken",
+      "file": "SwapFacility.sol",
+      "start_line": 168,
+      "end_line": 205,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "msgSender",
+      "file": "SwapFacility.sol",
+      "start_line": 210,
+      "end_line": 212,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "SwapFacility.sol",
+      "start_line": 223,
+      "end_line": 235,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_swapInM",
+      "file": "SwapFacility.sol",
+      "start_line": 243,
+      "end_line": 249,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_swapOutM",
+      "file": "SwapFacility.sol",
+      "start_line": 257,
+      "end_line": 269,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_mBalanceOf",
+      "file": "SwapFacility.sol",
+      "start_line": 276,
+      "end_line": 278,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_revertIfNotApprovedExtension",
+      "file": "SwapFacility.sol",
+      "start_line": 286,
+      "end_line": 288,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_revertIfNotApprovedSwapper",
+      "file": "SwapFacility.sol",
+      "start_line": 294,
+      "end_line": 296,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_isApprovedEarner",
+      "file": "SwapFacility.sol",
+      "start_line": 303,
+      "end_line": 307,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "swapIn",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 58,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "swapOut",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 104,
+      "end_line": 145,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "whitelistToken",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 148,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_whitelistToken",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 152,
+      "end_line": 157,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_decodeInputAndOutputTokens",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 165,
+      "end_line": 183,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_revertIfNotWhitelistedToken",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 189,
+      "end_line": 191,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_revertIfZeroRecipient",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 197,
+      "end_line": 199,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_revertIfZeroAmount",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 205,
+      "end_line": 207,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_revertIfInvalidSwapInPath",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 214,
+      "end_line": 219,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_revertIfInvalidSwapOutPath",
+      "file": "UniswapV3SwapAdapter.sol",
+      "start_line": 226,
+      "end_line": 231,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "EARNERS_LIST_IGNORED_KEY",
+      "var_type": "bytes32 public constant",
+      "file": "SwapFacility.sol",
+      "line": 27
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "EARNERS_LIST_NAME",
+      "var_type": "bytes32 public constant",
+      "file": "SwapFacility.sol",
+      "line": 28
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "M_SWAPPER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "SwapFacility.sol",
+      "line": 29
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "mToken",
+      "var_type": "address public immutable",
+      "file": "SwapFacility.sol",
+      "line": 33
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "registrar",
+      "var_type": "address public immutable",
+      "file": "SwapFacility.sol",
+      "line": 37
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "swapAdapter",
+      "var_type": "address public immutable",
+      "file": "SwapFacility.sol",
+      "line": 40
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "UNISWAP_V3_FEE",
+      "var_type": "uint24 internal constant",
+      "file": "UniswapV3SwapAdapter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "PATH_ADDR_SIZE",
+      "var_type": "uint256 internal constant",
+      "file": "UniswapV3SwapAdapter.sol",
+      "line": 25
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "PATH_FEE_SIZE",
+      "var_type": "uint256 internal constant",
+      "file": "UniswapV3SwapAdapter.sol",
+      "line": 28
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "PATH_NEXT_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "UniswapV3SwapAdapter.sol",
+      "line": 31
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "swapRouter",
+      "var_type": "address public immutable",
+      "file": "UniswapV3SwapAdapter.sol",
+      "line": 33
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "baseToken",
+      "var_type": "address public immutable",
+      "file": "UniswapV3SwapAdapter.sol",
+      "line": 35
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "whitelistedTokens",
+      "var_type": "mapping(address token => bool whitelisted) public",
+      "file": "UniswapV3SwapAdapter.sol",
+      "line": 37
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "TRANSFER:SwapFacility.sol:145",
+      "call_type": "TRANSFER",
+      "line": 145,
+      "enclosing_function": "swapInToken",
+      "file": "SwapFacility.sol",
+      "raw_text": "IERC20(baseToken).transfer(recipient, amountOut);"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "TRANSFER:SwapFacility.sol:237",
+      "call_type": "TRANSFER",
+      "line": 237,
+      "enclosing_function": "_swapOutM",
+      "file": "SwapFacility.sol",
+      "raw_text": "IERC20(mToken).transfer(recipient, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        31,
+        39
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 39
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        11,
+        29,
+        40
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 40
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swap",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapInM",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swapInMWithPermit",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swapInMWithPermit",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "swapOutM",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "swapInToken",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapOutToken",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "msgSender",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_swapInM",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_swapOutM",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_mBalanceOf",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_revertIfNotApprovedExtension",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_revertIfNotApprovedSwapper",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_isApprovedEarner",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "swapIn",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "swapOut",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "whitelistToken",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_whitelistToken",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_decodeInputAndOutputTokens",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_revertIfNotWhitelistedToken",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_revertIfZeroRecipient",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_revertIfZeroAmount",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_revertIfInvalidSwapInPath",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_revertIfInvalidSwapOutPath",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "EARNERS_LIST_IGNORED_KEY",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "EARNERS_LIST_NAME",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "M_SWAPPER_ROLE",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "mToken",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "registrar",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "swapAdapter",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "UNISWAP_V3_FEE",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "PATH_ADDR_SIZE",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "PATH_FEE_SIZE",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "PATH_NEXT_OFFSET",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "swapRouter",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "baseToken",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "whitelistedTokens",
+      "file": "UniswapV3SwapAdapter.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "TRANSFER:SwapFacility.sol:145",
+      "file": "SwapFacility.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "TRANSFER:SwapFacility.sol:237",
+      "file": "SwapFacility.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 41,
+    "n_hyperedges": 2,
+    "n_functions": 26,
+    "n_state_vars": 13,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.5
+  },
+  "label": {
+    "vfp_id": "vfp_00365",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1164",
+      "CWE-1339",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

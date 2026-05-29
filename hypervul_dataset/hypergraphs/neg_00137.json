@@ -1,0 +1,97 @@
+{
+  "sample_id": "neg_00137",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol",
+      "start_line": 5,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol",
+      "start_line": 9,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pendingCake",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol",
+      "start_line": 13,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "nonfungiblePositionManager",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pendingCake",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "nonfungiblePositionManager",
+      "file": "sickle-public_contracts_interfaces_external_IMasterchefV3.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00137",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

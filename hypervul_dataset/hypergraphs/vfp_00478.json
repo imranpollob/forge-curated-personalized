@@ -1,0 +1,460 @@
+{
+  "sample_id": "vfp_00478",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "requestWithdraw",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 173,
+      "end_line": 187,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "cancelWithdrawalRequests",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 191,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "findUnlockingIDs",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 204,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateTimeLockDuration",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 247,
+      "end_line": 253,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateStartPenaltyPercentage",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 257,
+      "end_line": 263,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateFeeReceiver",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 267,
+      "end_line": 270,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pause",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 274,
+      "end_line": 276,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 280,
+      "end_line": 282,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 290,
+      "end_line": 293,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_withdrawMultiple",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 299,
+      "end_line": 309,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 315,
+      "end_line": 327,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_cancelWithdrawalRequest",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 331,
+      "end_line": 344,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_calculateFee",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 352,
+      "end_line": 366,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_update",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 376,
+      "end_line": 378,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "TimeLockPenaltyERC20.sol",
+      "start_line": 383,
+      "end_line": 385,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MAX_PENALTY_PERCENTAGE",
+      "var_type": "uint256 private constant",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 50
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "MIN_TIMELOCK_DURATION",
+      "var_type": "uint64 constant",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 52
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "MAX_TIMELOCK_DURATION",
+      "var_type": "uint64 constant",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 54
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "underlying",
+      "var_type": "IERC20 public",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 57
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "feeReceiver",
+      "var_type": "address public",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 59
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "timeLockDuration",
+      "var_type": "uint64 public",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 61
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "unlockingAmount",
+      "var_type": "uint256 public",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 63
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "startPenaltyPercentage",
+      "var_type": "uint256 public",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 65
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "userVsWithdrawals",
+      "var_type": "mapping(address user => mapping(uint256 requestId => WithdrawalRequest request)) public",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 67
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "userVsNextID",
+      "var_type": "mapping(address user => uint256 nextRequestId) public",
+      "file": "TimeLockPenaltyERC20.sol",
+      "line": 69
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TimeLockPenaltyERC20.sol:364",
+      "call_type": "INTERFACE_CALL",
+      "line": 364,
+      "enclosing_function": "_calculateFee",
+      "file": "TimeLockPenaltyERC20.sol",
+      "raw_text": "uint256 feePercentage = startPenaltyPercentage.mulDivUp(timeLeft, lockDuration);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        9,
+        10,
+        12,
+        22,
+        23,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "requestWithdraw",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "cancelWithdrawalRequests",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "findUnlockingIDs",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateTimeLockDuration",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateStartPenaltyPercentage",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateFeeReceiver",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pause",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_withdrawMultiple",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_cancelWithdrawalRequest",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_calculateFee",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_update",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MAX_PENALTY_PERCENTAGE",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "MIN_TIMELOCK_DURATION",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "MAX_TIMELOCK_DURATION",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "underlying",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "feeReceiver",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "timeLockDuration",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "unlockingAmount",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "startPenaltyPercentage",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "userVsWithdrawals",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "userVsNextID",
+      "file": "TimeLockPenaltyERC20.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TimeLockPenaltyERC20.sol:364",
+      "file": "TimeLockPenaltyERC20.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 1,
+    "n_functions": 15,
+    "n_state_vars": 10,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "vfp_00478",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

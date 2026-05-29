@@ -1,0 +1,441 @@
+{
+  "sample_id": "neg_00490",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "safeMint",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "safeMintPublic",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMetadataContract",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "increaseSponsorPoints",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setWeiPerSponsorPoint",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 11,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "refund",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 13,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getTokensOfOwner",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 14,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTokensWithData",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 15,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTokensTraitValues",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol",
+      "start_line": 16,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mockFunction",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 11,
+      "end_line": 15,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "mockFunctionEmptyReturn",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 17,
+      "end_line": 19,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "mockFunctionWithArgs",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 21,
+      "end_line": 25,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "mockFunctionNonPayable",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 27,
+      "end_line": 31,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "mockStaticFunction",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 33,
+      "end_line": 35,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "mockFunctionRevertsNoReason",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 37,
+      "end_line": 39,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "mockFunctionRevertsReason",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 41,
+      "end_line": 43,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "mockFunctionThrows",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 45,
+      "end_line": 47,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "mockFunctionOutOfGas",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 49,
+      "end_line": 53,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "mockFunctionWritesStorage",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 55,
+      "end_line": 60,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "isTrustedForwarder",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_array",
+      "var_type": "uint256[] private",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_trustedForwarder",
+      "var_type": "address private",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "line": 64
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:neulock-onchain_contracts_mocks_CallReceiverMock.sol:51",
+      "call_type": "INTERFACE_CALL",
+      "line": 51,
+      "enclosing_function": "mockFunctionOutOfGas",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol",
+      "raw_text": "_array.push(i);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        18,
+        21,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "safeMint",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "safeMintPublic",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMetadataContract",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "increaseSponsorPoints",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setWeiPerSponsorPoint",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "refund",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getTokensOfOwner",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTokensWithData",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTokensTraitValues",
+      "file": "neulock-onchain_contracts_interfaces_INeuV1.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mockFunction",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "mockFunctionEmptyReturn",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "mockFunctionWithArgs",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "mockFunctionNonPayable",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "mockStaticFunction",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "mockFunctionRevertsNoReason",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "mockFunctionRevertsReason",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "mockFunctionThrows",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "mockFunctionOutOfGas",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "mockFunctionWritesStorage",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "isTrustedForwarder",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_array",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_trustedForwarder",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:neulock-onchain_contracts_mocks_CallReceiverMock.sol:51",
+      "file": "neulock-onchain_contracts_mocks_CallReceiverMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 1,
+    "n_functions": 21,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00490",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

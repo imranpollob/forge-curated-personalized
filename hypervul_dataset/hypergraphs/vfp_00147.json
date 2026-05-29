@@ -1,0 +1,415 @@
+{
+  "sample_id": "vfp_00147",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "unlock",
+      "file": "LikwidVault.sol",
+      "start_line": 50,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LikwidVault.sol",
+      "start_line": 63,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "modifyLiquidity",
+      "file": "LikwidVault.sol",
+      "start_line": 76,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swap",
+      "file": "LikwidVault.sol",
+      "start_line": 111,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "lend",
+      "file": "LikwidVault.sol",
+      "start_line": 163,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "marginBalance",
+      "file": "LikwidVault.sol",
+      "start_line": 189,
+      "end_line": 219,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "sync",
+      "file": "LikwidVault.sol",
+      "start_line": 222,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "take",
+      "file": "LikwidVault.sol",
+      "start_line": 234,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "settle",
+      "file": "LikwidVault.sol",
+      "start_line": 243,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "settleFor",
+      "file": "LikwidVault.sol",
+      "start_line": 248,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "clear",
+      "file": "LikwidVault.sol",
+      "start_line": 253,
+      "end_line": 261,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "mint",
+      "file": "LikwidVault.sol",
+      "start_line": 264,
+      "end_line": 271,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "burn",
+      "file": "LikwidVault.sol",
+      "start_line": 274,
+      "end_line": 278,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_settle",
+      "file": "LikwidVault.sol",
+      "start_line": 284,
+      "end_line": 298,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_appendDelta",
+      "file": "LikwidVault.sol",
+      "start_line": 304,
+      "end_line": 314,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_appendPoolBalanceDelta",
+      "file": "LikwidVault.sol",
+      "start_line": 320,
+      "end_line": 323,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_getAndUpdatePool",
+      "file": "LikwidVault.sol",
+      "start_line": 328,
+      "end_line": 338,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_isUnlocked",
+      "file": "LikwidVault.sol",
+      "start_line": 342,
+      "end_line": 344,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_pools",
+      "var_type": "mapping(PoolId id => Pool.State) private",
+      "file": "LikwidVault.sol",
+      "line": 33
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "unlocked",
+      "var_type": "bool transient",
+      "file": "LikwidVault.sol",
+      "line": 36
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "nonzeroDeltaCount",
+      "var_type": "uint256 transient",
+      "file": "LikwidVault.sol",
+      "line": 37
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "TRANSFER:LikwidVault.sol:238",
+      "call_type": "TRANSFER",
+      "line": 238,
+      "enclosing_function": "take",
+      "file": "LikwidVault.sol",
+      "raw_text": "currency.transfer(to, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        7,
+        21
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 21
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "unlock",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "modifyLiquidity",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "swap",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "lend",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "marginBalance",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "sync",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "take",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "settle",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "settleFor",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "clear",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "mint",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "burn",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_settle",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_appendDelta",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_appendPoolBalanceDelta",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_getAndUpdatePool",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_isUnlocked",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_pools",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "unlocked",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "nonzeroDeltaCount",
+      "file": "LikwidVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "TRANSFER:LikwidVault.sol:238",
+      "file": "LikwidVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 1,
+    "n_functions": 18,
+    "n_state_vars": 3,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00147",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-670",
+      "CWE-691",
+      "CWE-693",
+      "CWE-707"
+    ]
+  }
+}

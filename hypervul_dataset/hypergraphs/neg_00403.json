@@ -1,0 +1,178 @@
+{
+  "sample_id": "neg_00403",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setNativeMappingValue",
+      "file": "linea-monorepo_contracts_src__testing_mocks_bridging_MockTokenBridge.sol",
+      "start_line": 7,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_updateL2L1MessageStatusToClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "start_line": 47,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_hashMessage",
+      "file": "linea-monorepo_contracts_src_messaging_libraries_MessageHashing.sol",
+      "start_line": 21,
+      "end_line": 47,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "INBOX_STATUS_UNKNOWN",
+      "var_type": "uint8 public constant",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "line": 13
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "INBOX_STATUS_RECEIVED",
+      "var_type": "uint8 public constant",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "line": 14
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "OUTBOX_STATUS_UNKNOWN",
+      "var_type": "uint8 public constant",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "line": 17
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "OUTBOX_STATUS_SENT",
+      "var_type": "uint8 public constant",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "line": 18
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "OUTBOX_STATUS_RECEIVED",
+      "var_type": "uint8 public constant",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "line": 19
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "outboxL1L2MessageStatus",
+      "var_type": "mapping(bytes32 messageHash => uint256 messageStatus) public",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "line": 23
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "inboxL2L1MessageStatus",
+      "var_type": "mapping(bytes32 messageHash => uint256 messageStatus) public",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol",
+      "line": 30
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setNativeMappingValue",
+      "file": "linea-monorepo_contracts_src__testing_mocks_bridging_MockTokenBridge.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_updateL2L1MessageStatusToClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_hashMessage",
+      "file": "linea-monorepo_contracts_src_messaging_libraries_MessageHashing.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "INBOX_STATUS_UNKNOWN",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "INBOX_STATUS_RECEIVED",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "OUTBOX_STATUS_UNKNOWN",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "OUTBOX_STATUS_SENT",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "OUTBOX_STATUS_RECEIVED",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "outboxL1L2MessageStatus",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "inboxL2L1MessageStatus",
+      "file": "linea-monorepo_contracts_src_messaging_l1_v1_L1MessageManagerV1.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 7,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00403",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "sample_id": "neg_00190",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol",
+      "start_line": 26,
+      "end_line": 33,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol",
+      "start_line": 40,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol",
+      "start_line": 81,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "get_pool_from_lp_token",
+      "file": "idle-tranches_contracts_interfaces_curve_IMainRegistry.sol",
+      "start_line": 5,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "get_underlying_coins",
+      "file": "idle-tranches_contracts_interfaces_curve_IMainRegistry.sol",
+      "start_line": 10,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "stMatic",
+      "var_type": "IStMATIC public constant",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol",
+      "line": 20
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:idle-tranches_contracts_IdleCDOPoLidoVariant.sol:64",
+      "call_type": "INTERFACE_CALL",
+      "line": 64,
+      "enclosing_function": "_withdraw",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol",
+      "raw_text": "uint256[] memory tokenIds = stMatic.poLidoNFT().getOwnedTokens(address(this));"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:idle-tranches_contracts_IdleCDOPoLidoVariant.sol:78",
+      "call_type": "INTERFACE_CALL",
+      "line": 78,
+      "enclosing_function": "_withdraw",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol",
+      "raw_text": "stMatic.poLidoNFT().safeTransferFrom(address(this), msg.sender, tokenId);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        5,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        5,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "get_pool_from_lp_token",
+      "file": "idle-tranches_contracts_interfaces_curve_IMainRegistry.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "get_underlying_coins",
+      "file": "idle-tranches_contracts_interfaces_curve_IMainRegistry.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "stMatic",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:idle-tranches_contracts_IdleCDOPoLidoVariant.sol:64",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:idle-tranches_contracts_IdleCDOPoLidoVariant.sol:78",
+      "file": "idle-tranches_contracts_IdleCDOPoLidoVariant.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 2,
+    "n_functions": 5,
+    "n_state_vars": 1,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00190",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "sample_id": "vfp_00525",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFeeManagerStorage",
+      "file": "FeeManager.sol",
+      "start_line": 60,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__FeeManager_init",
+      "file": "FeeManager.sol",
+      "start_line": 68,
+      "end_line": 71,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__FeeManager_init_unchained",
+      "file": "FeeManager.sol",
+      "start_line": 73,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getDefaultManagementFeeAtCreation",
+      "file": "FeeManager.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getFeeAdjustedTotalSupply",
+      "file": "FeeManager.sol",
+      "start_line": 84,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getLastManagementFeeAccrualTimestamp",
+      "file": "FeeManager.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getLeverageTokenActionFee",
+      "file": "FeeManager.sol",
+      "start_line": 96,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getManagementFee",
+      "file": "FeeManager.sol",
+      "start_line": 101,
+      "end_line": 103,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTreasury",
+      "file": "FeeManager.sol",
+      "start_line": 106,
+      "end_line": 108,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTreasuryActionFee",
+      "file": "FeeManager.sol",
+      "start_line": 111,
+      "end_line": 113,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setDefaultManagementFeeAtCreation",
+      "file": "FeeManager.sol",
+      "start_line": 116,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setManagementFee",
+      "file": "FeeManager.sol",
+      "start_line": 124,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "FeeManager.sol",
+      "start_line": 135,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setTreasuryActionFee",
+      "file": "FeeManager.sol",
+      "start_line": 140,
+      "end_line": 145,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "chargeManagementFee",
+      "file": "FeeManager.sol",
+      "start_line": 148,
+      "end_line": 155,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_chargeTreasuryFee",
+      "file": "FeeManager.sol",
+      "start_line": 161,
+      "end_line": 167,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_computeFeesForGrossShares",
+      "file": "FeeManager.sol",
+      "start_line": 177,
+      "end_line": 190,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_computeFeesForNetShares",
+      "file": "FeeManager.sol",
+      "start_line": 200,
+      "end_line": 239,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_computeTreasuryFee",
+      "file": "FeeManager.sol",
+      "start_line": 245,
+      "end_line": 247,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getAccruedManagementFee",
+      "file": "FeeManager.sol",
+      "start_line": 253,
+      "end_line": 262,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_setLeverageTokenActionFee",
+      "file": "FeeManager.sol",
+      "start_line": 269,
+      "end_line": 274,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_setNewLeverageTokenManagementFee",
+      "file": "FeeManager.sol",
+      "start_line": 279,
+      "end_line": 285,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_setTreasury",
+      "file": "FeeManager.sol",
+      "start_line": 290,
+      "end_line": 297,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_validateActionFee",
+      "file": "FeeManager.sol",
+      "start_line": 301,
+      "end_line": 305,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_validateManagementFee",
+      "file": "FeeManager.sol",
+      "start_line": 309,
+      "end_line": 313,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "FEE_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "FeeManager.sol",
+      "line": 31
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "MAX_BPS",
+      "var_type": "uint256 internal constant",
+      "file": "FeeManager.sol",
+      "line": 33
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "MAX_BPS_SQUARED",
+      "var_type": "uint256 internal constant",
+      "file": "FeeManager.sol",
+      "line": 35
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "MAX_ACTION_FEE",
+      "var_type": "uint256 internal constant",
+      "file": "FeeManager.sol",
+      "line": 37
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "MAX_MANAGEMENT_FEE",
+      "var_type": "uint256 internal constant",
+      "file": "FeeManager.sol",
+      "line": 39
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "SECS_PER_YEAR",
+      "var_type": "uint256 internal constant",
+      "file": "FeeManager.sol",
+      "line": 41
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFeeManagerStorage",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__FeeManager_init",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__FeeManager_init_unchained",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getDefaultManagementFeeAtCreation",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getFeeAdjustedTotalSupply",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getLastManagementFeeAccrualTimestamp",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getLeverageTokenActionFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getManagementFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTreasury",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTreasuryActionFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setDefaultManagementFeeAtCreation",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setManagementFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setTreasuryActionFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "chargeManagementFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_chargeTreasuryFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_computeFeesForGrossShares",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_computeFeesForNetShares",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_computeTreasuryFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getAccruedManagementFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_setLeverageTokenActionFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_setNewLeverageTokenManagementFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_setTreasury",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_validateActionFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_validateManagementFee",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "FEE_MANAGER_ROLE",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "MAX_BPS",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "MAX_BPS_SQUARED",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "MAX_ACTION_FEE",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "MAX_MANAGEMENT_FEE",
+      "file": "FeeManager.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "SECS_PER_YEAR",
+      "file": "FeeManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 31,
+    "n_hyperedges": 0,
+    "n_functions": 25,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00525",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1339",
+      "CWE-193",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

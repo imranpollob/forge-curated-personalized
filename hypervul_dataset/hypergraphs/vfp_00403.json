@@ -1,0 +1,1014 @@
+{
+  "sample_id": "vfp_00403",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Vault.sol",
+      "start_line": 70,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "parameter",
+      "file": "Vault.sol",
+      "start_line": 86,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "registrations",
+      "file": "Vault.sol",
+      "start_line": 93,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "accounts",
+      "file": "Vault.sol",
+      "start_line": 100,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkpoints",
+      "file": "Vault.sol",
+      "start_line": 107,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "name",
+      "file": "Vault.sol",
+      "start_line": 113,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_vaultName",
+      "file": "Vault.sol",
+      "start_line": 117,
+      "end_line": 117,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "Vault.sol",
+      "start_line": 121,
+      "end_line": 126,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "totalShares",
+      "file": "Vault.sol",
+      "start_line": 130,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "Vault.sol",
+      "start_line": 140,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "Vault.sol",
+      "start_line": 149,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "updateCoordinator",
+      "file": "Vault.sol",
+      "start_line": 157,
+      "end_line": 160,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "register",
+      "file": "Vault.sol",
+      "start_line": 164,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_isRegistered",
+      "file": "Vault.sol",
+      "start_line": 172,
+      "end_line": 177,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_register",
+      "file": "Vault.sol",
+      "start_line": 181,
+      "end_line": 189,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_registerMarket",
+      "file": "Vault.sol",
+      "start_line": 194,
+      "end_line": 198,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_updateMarket",
+      "file": "Vault.sol",
+      "start_line": 204,
+      "end_line": 210,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateLeverage",
+      "file": "Vault.sol",
+      "start_line": 215,
+      "end_line": 221,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "updateWeights",
+      "file": "Vault.sol",
+      "start_line": 225,
+      "end_line": 237,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "updateParameter",
+      "file": "Vault.sol",
+      "start_line": 241,
+      "end_line": 244,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_updateParameter",
+      "file": "Vault.sol",
+      "start_line": 248,
+      "end_line": 251,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "settle",
+      "file": "Vault.sol",
+      "start_line": 255,
+      "end_line": 261,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "Vault.sol",
+      "start_line": 266,
+      "end_line": 273,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "update",
+      "file": "Vault.sol",
+      "start_line": 280,
+      "end_line": 293,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_checkpoint",
+      "file": "Vault.sol",
+      "start_line": 297,
+      "end_line": 305,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_update",
+      "file": "Vault.sol",
+      "start_line": 313,
+      "end_line": 351,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_socialize",
+      "file": "Vault.sol",
+      "start_line": 356,
+      "end_line": 363,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_settleUnderlying",
+      "file": "Vault.sol",
+      "start_line": 366,
+      "end_line": 369,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_settle",
+      "file": "Vault.sol",
+      "start_line": 374,
+      "end_line": 418,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_credit",
+      "file": "Vault.sol",
+      "start_line": 424,
+      "end_line": 428,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_manage",
+      "file": "Vault.sol",
+      "start_line": 434,
+      "end_line": 445,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_strategy",
+      "file": "Vault.sol",
+      "start_line": 447,
+      "end_line": 452,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_ineligible",
+      "file": "Vault.sol",
+      "start_line": 459,
+      "end_line": 473,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_retarget",
+      "file": "Vault.sol",
+      "start_line": 479,
+      "end_line": 491,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_loadContext",
+      "file": "Vault.sol",
+      "start_line": 496,
+      "end_line": 525,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_saveContext",
+      "file": "Vault.sol",
+      "start_line": 530,
+      "end_line": 535,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_maxDeposit",
+      "file": "Vault.sol",
+      "start_line": 540,
+      "end_line": 544,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_checkpointAtId",
+      "file": "Vault.sol",
+      "start_line": 550,
+      "end_line": 564,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "_name",
+      "var_type": "string private",
+      "file": "Vault.sol",
+      "line": 33
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "asset",
+      "var_type": "Token18 public",
+      "file": "Vault.sol",
+      "line": 36
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "_parameter",
+      "var_type": "VaultParameterStorage private",
+      "file": "Vault.sol",
+      "line": 39
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "totalMarkets",
+      "var_type": "uint256 public",
+      "file": "Vault.sol",
+      "line": 42
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "_registrations",
+      "var_type": "mapping(uint256 => RegistrationStorage) private",
+      "file": "Vault.sol",
+      "line": 45
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_accounts",
+      "var_type": "mapping(address => AccountStorage) private",
+      "file": "Vault.sol",
+      "line": 48
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "_checkpoints",
+      "var_type": "mapping(uint256 => CheckpointStorage) private",
+      "file": "Vault.sol",
+      "line": 51
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "__unused0__",
+      "var_type": "bytes32 private",
+      "file": "Vault.sol",
+      "line": 54
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "coordinator",
+      "var_type": "address public",
+      "file": "Vault.sol",
+      "line": 57
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "mark",
+      "var_type": "UFixed18 public",
+      "file": "Vault.sol",
+      "line": 60
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "__unallocated__",
+      "var_type": "bytes32[54] private",
+      "file": "Vault.sol",
+      "line": 63
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:87",
+      "call_type": "INTERFACE_CALL",
+      "line": 87,
+      "enclosing_function": "parameter",
+      "file": "Vault.sol",
+      "raw_text": "return _parameter.read();"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:185",
+      "call_type": "INTERFACE_CALL",
+      "line": 185,
+      "enclosing_function": "_register",
+      "file": "Vault.sol",
+      "raw_text": "asset.approve(address(market));"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:249",
+      "call_type": "INTERFACE_CALL",
+      "line": 249,
+      "enclosing_function": "_updateParameter",
+      "file": "Vault.sol",
+      "raw_text": "_parameter.store(newParameter);"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:346",
+      "call_type": "INTERFACE_CALL",
+      "line": 346,
+      "enclosing_function": "_update",
+      "file": "Vault.sol",
+      "raw_text": "asset.pull(msg.sender, UFixed18Lib.from(depositAssets));"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:348",
+      "call_type": "INTERFACE_CALL",
+      "line": 348,
+      "enclosing_function": "_update",
+      "file": "Vault.sol",
+      "raw_text": "asset.push(msg.sender, UFixed18Lib.from(claimAmount));"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:497",
+      "call_type": "INTERFACE_CALL",
+      "line": 497,
+      "enclosing_function": "_loadContext",
+      "file": "Vault.sol",
+      "raw_text": "context.parameter = _parameter.read();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        40,
+        49
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 49
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        12,
+        14,
+        38,
+        39,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        19,
+        20,
+        38,
+        39,
+        40,
+        51
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 51
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        23,
+        25,
+        39,
+        52
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 52
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        23,
+        25,
+        39,
+        53
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 53
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        12,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        34,
+        40,
+        41,
+        42,
+        43,
+        44,
+        47,
+        54
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 54
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "parameter",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "registrations",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "accounts",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkpoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "name",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_vaultName",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "totalShares",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "updateCoordinator",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "register",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_isRegistered",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_register",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_registerMarket",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_updateMarket",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateLeverage",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "updateWeights",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "updateParameter",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_updateParameter",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "settle",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "update",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_checkpoint",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_update",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_socialize",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_settleUnderlying",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_settle",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_credit",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_manage",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_strategy",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_ineligible",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_retarget",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_loadContext",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_saveContext",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_maxDeposit",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_checkpointAtId",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "_name",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "asset",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "_parameter",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "totalMarkets",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "_registrations",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_accounts",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "_checkpoints",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "__unused0__",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "coordinator",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "mark",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "__unallocated__",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:87",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:185",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:249",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:346",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:348",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Vault.sol:497",
+      "file": "Vault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 55,
+    "n_hyperedges": 6,
+    "n_functions": 38,
+    "n_state_vars": 11,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 6.5
+  },
+  "label": {
+    "vfp_id": "vfp_00403",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-372",
+      "CWE-664"
+    ]
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "sample_id": "neg_00627",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "outputFilled",
+      "file": "acc7f9ca32ccd9e133f00c644251d7ff976edb24_src_interfaces_IOutputCallback.sol",
+      "start_line": 11,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "accountId",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 86,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "supportsExecutionMode",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 103,
+      "end_line": 110,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "supportsModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 122,
+      "end_line": 127,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "installModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 130,
+      "end_line": 136,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "uninstallModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 139,
+      "end_line": 145,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isModuleInstalled",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 148,
+      "end_line": 159,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "execute",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 162,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "executeFromExecutor",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 167,
+      "end_line": 178,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 187,
+      "end_line": 202,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_validateUserOp",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 211,
+      "end_line": 221,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 228,
+      "end_line": 237,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_installModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 253,
+      "end_line": 276,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_uninstallModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 288,
+      "end_line": 307,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 317,
+      "end_line": 329,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_fallbackHandler",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 332,
+      "end_line": 334,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_checkModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 337,
+      "end_line": 346,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_extractUserOpValidator",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 366,
+      "end_line": 368,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_extractSignatureValidator",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 390,
+      "end_line": 394,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_decodeFallbackData",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 405,
+      "end_line": 410,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_rawSignatureValidation",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "start_line": 413,
+      "end_line": 418,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "canImplementInterfaceForAddress",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_interfaces_IERC1820Implementer.sol",
+      "start_line": 19,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_validators",
+      "var_type": "EnumerableSet.AddressSet private",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "line": 64
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_executors",
+      "var_type": "EnumerableSet.AddressSet private",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "line": 65
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_fallbacks",
+      "var_type": "mapping(bytes4 selector => address) private",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "line": 66
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:102",
+      "call_type": "INTERFACE_CALL",
+      "line": 102,
+      "enclosing_function": "isModuleInstalled",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "raw_text": "if (moduleTypeId == MODULE_TYPE_VALIDATOR) return _validators.contains(module);"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:103",
+      "call_type": "INTERFACE_CALL",
+      "line": 103,
+      "enclosing_function": "isModuleInstalled",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "raw_text": "if (moduleTypeId == MODULE_TYPE_EXECUTOR) return _executors.contains(module);"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:181",
+      "call_type": "INTERFACE_CALL",
+      "line": 181,
+      "enclosing_function": "_installModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "raw_text": "require(_validators.add(module), ERC7579Utils.ERC7579AlreadyInstalledModule(moduleTypeId, module));"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:183",
+      "call_type": "INTERFACE_CALL",
+      "line": 183,
+      "enclosing_function": "_installModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "raw_text": "require(_executors.add(module), ERC7579Utils.ERC7579AlreadyInstalledModule(moduleTypeId, module));"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:203",
+      "call_type": "INTERFACE_CALL",
+      "line": 203,
+      "enclosing_function": "_uninstallModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "raw_text": "require(_validators.remove(module), ERC7579Utils.ERC7579UninstalledModule(moduleTypeId, module));"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:205",
+      "call_type": "INTERFACE_CALL",
+      "line": 205,
+      "enclosing_function": "_uninstallModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol",
+      "raw_text": "require(_executors.remove(module), ERC7579Utils.ERC7579UninstalledModule(moduleTypeId, module));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        9,
+        10,
+        16,
+        22,
+        23,
+        24,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        9,
+        10,
+        16,
+        22,
+        23,
+        24,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        12,
+        22,
+        23,
+        24,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        12,
+        22,
+        23,
+        24,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        13,
+        22,
+        23,
+        24,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        13,
+        22,
+        23,
+        24,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "outputFilled",
+      "file": "acc7f9ca32ccd9e133f00c644251d7ff976edb24_src_interfaces_IOutputCallback.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "accountId",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "supportsExecutionMode",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "supportsModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "installModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "uninstallModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isModuleInstalled",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "execute",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "executeFromExecutor",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_validateUserOp",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_installModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_uninstallModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_fallbackHandler",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_checkModule",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_extractUserOpValidator",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_extractSignatureValidator",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_decodeFallbackData",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_rawSignatureValidation",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "canImplementInterfaceForAddress",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_interfaces_IERC1820Implementer.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_validators",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_executors",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_fallbacks",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:102",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:103",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:181",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:183",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:203",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol:205",
+      "file": "d9f966fc3f7c4eec7f565c2442cc64481e7fb499_openzeppelin-contracts_contracts_account_extensions_draft-AccountERC7579.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 31,
+    "n_hyperedges": 6,
+    "n_functions": 22,
+    "n_state_vars": 3,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 6.666666666666667
+  },
+  "label": {
+    "vfp_id": "neg_00627",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

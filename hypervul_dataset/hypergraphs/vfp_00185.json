@@ -1,0 +1,339 @@
+{
+  "sample_id": "vfp_00185",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getLPToken",
+      "file": "LPToken.sol",
+      "start_line": 60,
+      "end_line": 63,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "LPToken.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mintTokenAndUpdate",
+      "file": "LPToken.sol",
+      "start_line": 79,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateLPToken",
+      "file": "LPToken.sol",
+      "start_line": 94,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateLPTokenWithdrawal",
+      "file": "LPToken.sol",
+      "start_line": 107,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_update",
+      "file": "LPToken.sol",
+      "start_line": 119,
+      "end_line": 121,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_increaseBalance",
+      "file": "LPToken.sol",
+      "start_line": 126,
+      "end_line": 128,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addPoolToAllowList",
+      "file": "LPToken.sol",
+      "start_line": 135,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isPoolAllowed",
+      "file": "LPToken.sol",
+      "start_line": 148,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "proposeFactoryAddress",
+      "file": "LPToken.sol",
+      "start_line": 157,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "confirmFactoryAddress",
+      "file": "LPToken.sol",
+      "start_line": 167,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "LPToken.sol",
+      "start_line": 179,
+      "end_line": 182,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "currentTokenId",
+      "var_type": "uint256 public",
+      "file": "LPToken.sol",
+      "line": 22
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "factoryAddress",
+      "var_type": "address public",
+      "file": "LPToken.sol",
+      "line": 23
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "factoryAddressProposed",
+      "var_type": "address public",
+      "file": "LPToken.sol",
+      "line": 24
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "lpToken",
+      "var_type": "mapping(uint256 tokenId => LPTokenS lpToken)",
+      "file": "LPToken.sol",
+      "line": 27
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "idToPool",
+      "var_type": "mapping(uint256 tokenId => address pool) public",
+      "file": "LPToken.sol",
+      "line": 29
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "allowedPool",
+      "var_type": "mapping(address pool => bool isAllowed)",
+      "file": "LPToken.sol",
+      "line": 31
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "inactiveToken",
+      "var_type": "mapping(uint256 tokenId => bool isInactive) public",
+      "file": "LPToken.sol",
+      "line": 33
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getLPToken",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mintTokenAndUpdate",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateLPToken",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateLPTokenWithdrawal",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_update",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_increaseBalance",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addPoolToAllowList",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isPoolAllowed",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "proposeFactoryAddress",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "confirmFactoryAddress",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "currentTokenId",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "factoryAddress",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "factoryAddressProposed",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "lpToken",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "idToPool",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "allowedPool",
+      "file": "LPToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "inactiveToken",
+      "file": "LPToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 0,
+    "n_functions": 12,
+    "n_state_vars": 7,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00185",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-664",
+      "CWE-666",
+      "CWE-826"
+    ]
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "sample_id": "neg_00213",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "start_line": 40,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "grantShares",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "start_line": 57,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initiateRevokeShares",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "start_line": 75,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "revokeShares",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "start_line": 83,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "MINT_CAP_PERCENT",
+      "var_type": "uint16 private constant",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MINT_PERIOD",
+      "var_type": "uint48 private constant",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MAX_SHARES",
+      "var_type": "uint16 private constant",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "line": 24
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "UNI",
+      "var_type": "IUNI public constant",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "line": 27
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "var_type": "uint16 public",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "line": 30
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "shares",
+      "var_type": "Share[] public",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "line": 33
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:42",
+      "call_type": "INTERFACE_CALL",
+      "line": 42,
+      "enclosing_function": "mint",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "raw_text": "uint256 mintCap = UNI.totalSupply() * MINT_CAP_PERCENT / 100;"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "TRANSFER:protocol-fees_src_UNIMinter.sol:52",
+      "call_type": "TRANSFER",
+      "line": 52,
+      "enclosing_function": "mint",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "raw_text": "if (recipientAmount > 0) UNI.transfer(share.recipient, recipientAmount);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:62",
+      "call_type": "INTERFACE_CALL",
+      "line": 62,
+      "enclosing_function": "grantShares",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "raw_text": "shares.push("
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:85",
+      "call_type": "INTERFACE_CALL",
+      "line": 85,
+      "enclosing_function": "revokeShares",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "raw_text": "uint256 mintingAllowedAfter = UNI.mintingAllowedAfter();"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:96",
+      "call_type": "INTERFACE_CALL",
+      "line": 96,
+      "enclosing_function": "revokeShares",
+      "file": "protocol-fees_src_UNIMinter.sol",
+      "raw_text": "shares.pop();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        7,
+        9,
+        10,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        6,
+        8,
+        9,
+        10,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        3,
+        6,
+        8,
+        9,
+        10,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "grantShares",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initiateRevokeShares",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "revokeShares",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "MINT_CAP_PERCENT",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MINT_PERIOD",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "MAX_SHARES",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "UNI",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "shares",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:42",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "TRANSFER:protocol-fees_src_UNIMinter.sol:52",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:62",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:85",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-fees_src_UNIMinter.sol:96",
+      "file": "protocol-fees_src_UNIMinter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 5,
+    "n_functions": 5,
+    "n_state_vars": 6,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 6.2
+  },
+  "label": {
+    "vfp_id": "neg_00213",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

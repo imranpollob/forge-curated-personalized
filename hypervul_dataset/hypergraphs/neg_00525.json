@@ -1,0 +1,128 @@
+{
+  "sample_id": "neg_00525",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setCompleted",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_Migrations.sol",
+      "start_line": 11,
+      "end_line": 13,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol",
+      "start_line": 23,
+      "end_line": 48,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol",
+      "start_line": 57,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pythUpgradableMagic",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "upgradeUpgradableContract",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol",
+      "start_line": 64,
+      "end_line": 77,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "last_completed_migration",
+      "var_type": "uint public",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_Migrations.sol",
+      "line": 9
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setCompleted",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_Migrations.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pythUpgradableMagic",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "upgradeUpgradableContract",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_pyth_PythUpgradable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "last_completed_migration",
+      "file": "pyth-crosschain_target_chains_ethereum_contracts_contracts_Migrations.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00525",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

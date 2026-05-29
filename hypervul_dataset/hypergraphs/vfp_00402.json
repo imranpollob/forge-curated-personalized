@@ -1,0 +1,469 @@
+{
+  "sample_id": "vfp_00402",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "accumulate",
+      "file": "CheckpointLib.sol",
+      "start_line": 64,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_response",
+      "file": "CheckpointLib.sol",
+      "start_line": 103,
+      "end_line": 114,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_accumulateCollateral",
+      "file": "CheckpointLib.sol",
+      "start_line": 120,
+      "end_line": 128,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_accumulateFee",
+      "file": "CheckpointLib.sol",
+      "start_line": 134,
+      "end_line": 164,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_accumulateOffset",
+      "file": "CheckpointLib.sol",
+      "start_line": 171,
+      "end_line": 183,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_accumulateSettlementFee",
+      "file": "CheckpointLib.sol",
+      "start_line": 190,
+      "end_line": 198,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_accumulateLiquidationFee",
+      "file": "CheckpointLib.sol",
+      "start_line": 203,
+      "end_line": 209,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_accumulatePriceOverride",
+      "file": "CheckpointLib.sol",
+      "start_line": 214,
+      "end_line": 219,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "next",
+      "file": "Guarantee.sol",
+      "start_line": 49,
+      "end_line": 55,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "from",
+      "file": "Guarantee.sol",
+      "start_line": 63,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "takerPos",
+      "file": "Guarantee.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "takerNeg",
+      "file": "Guarantee.sol",
+      "start_line": 90,
+      "end_line": 92,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "taker",
+      "file": "Guarantee.sol",
+      "start_line": 97,
+      "end_line": 99,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "takerTotal",
+      "file": "Guarantee.sol",
+      "start_line": 104,
+      "end_line": 106,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isEmpty",
+      "file": "Guarantee.sol",
+      "start_line": 111,
+      "end_line": 113,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "priceAdjustment",
+      "file": "Guarantee.sol",
+      "start_line": 119,
+      "end_line": 121,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "priceDeviation",
+      "file": "Guarantee.sol",
+      "start_line": 129,
+      "end_line": 134,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "add",
+      "file": "Guarantee.sol",
+      "start_line": 139,
+      "end_line": 153,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "read",
+      "file": "Guarantee.sol",
+      "start_line": 173,
+      "end_line": 186,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "store",
+      "file": "Guarantee.sol",
+      "start_line": 188,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "read",
+      "file": "Guarantee.sol",
+      "start_line": 230,
+      "end_line": 243,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "store",
+      "file": "Guarantee.sol",
+      "start_line": 245,
+      "end_line": 270,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "validate",
+      "file": "Guarantee.sol",
+      "start_line": 277,
+      "end_line": 285,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "validate",
+      "file": "InvariantLib.sol",
+      "start_line": 19,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_validateProtection",
+      "file": "InvariantLib.sol",
+      "start_line": 117,
+      "end_line": 133,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "accumulate",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_response",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_accumulateCollateral",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_accumulateFee",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_accumulateOffset",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_accumulateSettlementFee",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_accumulateLiquidationFee",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_accumulatePriceOverride",
+      "file": "CheckpointLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "next",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "from",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "takerPos",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "takerNeg",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "taker",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "takerTotal",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isEmpty",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "priceAdjustment",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "priceDeviation",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "add",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "read",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "store",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "read",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "store",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "validate",
+      "file": "Guarantee.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "validate",
+      "file": "InvariantLib.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_validateProtection",
+      "file": "InvariantLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 25,
+    "n_hyperedges": 0,
+    "n_functions": 25,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00402",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-372",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-707",
+      "CWE-841"
+    ]
+  }
+}

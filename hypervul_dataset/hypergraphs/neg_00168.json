@@ -1,0 +1,595 @@
+{
+  "sample_id": "neg_00168",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "handleOracleReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 14,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBeaconSpec",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 35,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLastCompletedEpochId",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 42,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleConsensusLayerReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 46,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkExitedValidatorsRatePerDay",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 54,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "checkExtraDataItemsCountPerTransaction",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 55,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "checkNodeOperatorsPerExtraDataItemCount",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 56,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateExitedValidatorsCountByStakingModule",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 60,
+      "end_line": 63,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "reportStakingModuleExitedValidatorsCountByNodeOperator",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 65,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "onValidatorsCountsByNodeOperatorReportingFinished",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 71,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "onOracleReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 76,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 157,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "initializeWithoutMigration",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 170,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "finalizeUpgrade_v2",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 183,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "submitReportData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 400,
+      "end_line": 406,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "submitReportExtraDataEmpty",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 411,
+      "end_line": 413,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "submitReportExtraDataList",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 420,
+      "end_line": 422,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getProcessingState",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 454,
+      "end_line": 477,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_checkOracleMigration",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 505,
+      "end_line": 543,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 545,
+      "end_line": 554,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_handleConsensusReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 556,
+      "end_line": 571,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkMsgSenderIsAllowedToSubmitData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 573,
+      "end_line": 578,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_handleConsensusReportData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 580,
+      "end_line": 645,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_processStakingRouterExitedValidatorsByModule",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 647,
+      "end_line": 686,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_submitReportExtraDataEmpty",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 688,
+      "end_line": 696,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_checkCanSubmitExtraData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 698,
+      "end_line": 714,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_submitReportExtraDataList",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 725,
+      "end_line": 778,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_processExtraDataItems",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 780,
+      "end_line": 844,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_processExtraDataItem",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 846,
+      "end_line": 918,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_storageExtraDataProcessingState",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "start_line": 928,
+      "end_line": 933,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_TYPE_STUCK_VALIDATORS",
+      "var_type": "uint256 public constant",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "line": 355
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_TYPE_EXITED_VALIDATORS",
+      "var_type": "uint256 public constant",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "line": 356
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_FORMAT_EMPTY",
+      "var_type": "uint256 public constant",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "line": 362
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_FORMAT_LIST",
+      "var_type": "uint256 public constant",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol",
+      "line": 382
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "handleOracleReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBeaconSpec",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLastCompletedEpochId",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleConsensusLayerReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkExitedValidatorsRatePerDay",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "checkExtraDataItemsCountPerTransaction",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "checkNodeOperatorsPerExtraDataItemCount",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateExitedValidatorsCountByStakingModule",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "reportStakingModuleExitedValidatorsCountByNodeOperator",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "onValidatorsCountsByNodeOperatorReportingFinished",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "onOracleReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "initializeWithoutMigration",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "finalizeUpgrade_v2",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "submitReportData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "submitReportExtraDataEmpty",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "submitReportExtraDataList",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getProcessingState",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_checkOracleMigration",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_initialize",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_handleConsensusReport",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkMsgSenderIsAllowedToSubmitData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_handleConsensusReportData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_processStakingRouterExitedValidatorsByModule",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_submitReportExtraDataEmpty",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_checkCanSubmitExtraData",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_submitReportExtraDataList",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_processExtraDataItems",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_processExtraDataItem",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_storageExtraDataProcessingState",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_TYPE_STUCK_VALIDATORS",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_TYPE_EXITED_VALIDATORS",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_FORMAT_EMPTY",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "EXTRA_DATA_FORMAT_LIST",
+      "file": "core_contracts_0.8.9_oracle_AccountingOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 34,
+    "n_hyperedges": 0,
+    "n_functions": 30,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00168",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

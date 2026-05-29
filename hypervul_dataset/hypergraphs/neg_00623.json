@@ -1,0 +1,294 @@
+{
+  "sample_id": "neg_00623",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_maxBatchSize",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_ownerOf",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "start_line": 75,
+      "end_line": 86,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_mintConsecutive",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "start_line": 104,
+      "end_line": 133,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_update",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "start_line": 141,
+      "end_line": 159,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_firstConsecutiveId",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_nextConsecutiveId",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "start_line": 172,
+      "end_line": 175,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_sequentialOwnership",
+      "var_type": "Checkpoints.Trace160 private",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "line": 34
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_sequentialBurn",
+      "var_type": "BitMaps.BitMap private",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "line": 35
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "_ownerOf",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "raw_text": "return _sequentialBurn.get(tokenId) ? address(0) : address(_sequentialOwnership.lowerLookup(uint96(tokenId)));"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "_mintConsecutive",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "raw_text": "_sequentialOwnership.push(last, uint160(to));"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:95",
+      "call_type": "INTERFACE_CALL",
+      "line": 95,
+      "enclosing_function": "_update",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "raw_text": "!_sequentialBurn.get(tokenId)"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:97",
+      "call_type": "INTERFACE_CALL",
+      "line": 97,
+      "enclosing_function": "_update",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "raw_text": "_sequentialBurn.set(tokenId);"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "_nextConsecutiveId",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol",
+      "raw_text": "(bool exists, uint96 latestId, ) = _sequentialOwnership.latestCheckpoint();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        6,
+        7,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        6,
+        9
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        7,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        7,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_maxBatchSize",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_ownerOf",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_mintConsecutive",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_update",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_firstConsecutiveId",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_nextConsecutiveId",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_sequentialOwnership",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_sequentialBurn",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:47",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:70",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:95",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:97",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol:110",
+      "file": "ZKFi_claim_lib_openzeppelin-contracts_contracts_token_ERC721_extensions_ERC721Consecutive.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 5,
+    "n_functions": 6,
+    "n_state_vars": 2,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 3.8
+  },
+  "label": {
+    "vfp_id": "neg_00623",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

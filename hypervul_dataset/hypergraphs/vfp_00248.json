@@ -1,0 +1,714 @@
+{
+  "sample_id": "vfp_00248",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EntitlementV2.sol",
+      "start_line": 55,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "EntitlementV2.sol",
+      "start_line": 81,
+      "end_line": 94,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "entitlementContractsV2",
+      "file": "EntitlementV2.sol",
+      "start_line": 102,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "entitlementContractsLength",
+      "file": "EntitlementV2.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addEntitlementContract",
+      "file": "EntitlementV2.sol",
+      "start_line": 131,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeEntitlementContract",
+      "file": "EntitlementV2.sol",
+      "start_line": 154,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "hasEntitlement",
+      "file": "EntitlementV2.sol",
+      "start_line": 166,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "hasEntitlementWithContract",
+      "file": "EntitlementV2.sol",
+      "start_line": 189,
+      "end_line": 199,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "userEntitlementContracts",
+      "file": "EntitlementV2.sol",
+      "start_line": 207,
+      "end_line": 232,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_callerHasContractEntitlement",
+      "file": "EntitlementV2.sol",
+      "start_line": 234,
+      "end_line": 237,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_callerHasNeuEntitlement",
+      "file": "EntitlementV2.sol",
+      "start_line": 239,
+      "end_line": 252,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EntitlementV2.sol",
+      "start_line": 259,
+      "end_line": 259,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_VERSION",
+      "var_type": "uint256 private constant",
+      "file": "EntitlementV2.sol",
+      "line": 27
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "EntitlementV2.sol",
+      "line": 29
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "EntitlementV2.sol",
+      "line": 30
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "entitlementContracts",
+      "var_type": "address[] private",
+      "file": "EntitlementV2.sol",
+      "line": 32
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_entitlementContracts",
+      "var_type": "EnumerableSet.AddressSet private",
+      "file": "EntitlementV2.sol",
+      "line": 33
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_neuContract",
+      "var_type": "INeuTokenV3 private",
+      "file": "EntitlementV2.sol",
+      "line": 34
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:50",
+      "call_type": "INTERFACE_CALL",
+      "line": 50,
+      "enclosing_function": "initialize",
+      "file": "EntitlementV2.sol",
+      "raw_text": "entitlementContracts.push(neuContract);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:65",
+      "call_type": "INTERFACE_CALL",
+      "line": 65,
+      "enclosing_function": "initializeV2",
+      "file": "EntitlementV2.sol",
+      "raw_text": "_entitlementContracts.add(entitlementContracts[i]);"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:78",
+      "call_type": "INTERFACE_CALL",
+      "line": 78,
+      "enclosing_function": "entitlementContractsV2",
+      "file": "EntitlementV2.sol",
+      "raw_text": "return _entitlementContracts.at(index - 1);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:83",
+      "call_type": "INTERFACE_CALL",
+      "line": 83,
+      "enclosing_function": "entitlementContractsLength",
+      "file": "EntitlementV2.sol",
+      "raw_text": "return _entitlementContracts.length() + 1;"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "addEntitlementContract",
+      "file": "EntitlementV2.sol",
+      "raw_text": "require(_entitlementContracts.add(entitlementContract), \"Entitlement contract already added\");"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:102",
+      "call_type": "INTERFACE_CALL",
+      "line": 102,
+      "enclosing_function": "removeEntitlementContract",
+      "file": "EntitlementV2.sol",
+      "raw_text": "require(_entitlementContracts.remove(entitlementContract), \"Entitlement contract not found\");"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:113",
+      "call_type": "INTERFACE_CALL",
+      "line": 113,
+      "enclosing_function": "hasEntitlement",
+      "file": "EntitlementV2.sol",
+      "raw_text": "uint256 contractsLength = _entitlementContracts.length();"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:116",
+      "call_type": "INTERFACE_CALL",
+      "line": 116,
+      "enclosing_function": "hasEntitlement",
+      "file": "EntitlementV2.sol",
+      "raw_text": "if (_callerHasContractEntitlement(user, _entitlementContracts.at(i))) {"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:130",
+      "call_type": "INTERFACE_CALL",
+      "line": 130,
+      "enclosing_function": "hasEntitlementWithContract",
+      "file": "EntitlementV2.sol",
+      "raw_text": "if (_entitlementContracts.contains(entitlementContract)) {"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:139",
+      "call_type": "INTERFACE_CALL",
+      "line": 139,
+      "enclosing_function": "userEntitlementContracts",
+      "file": "EntitlementV2.sol",
+      "raw_text": "uint256 contractsLength = _entitlementContracts.length();"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:150",
+      "call_type": "INTERFACE_CALL",
+      "line": 150,
+      "enclosing_function": "userEntitlementContracts",
+      "file": "EntitlementV2.sol",
+      "raw_text": "address entitlementContract = _entitlementContracts.at(i);"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:171",
+      "call_type": "INTERFACE_CALL",
+      "line": 171,
+      "enclosing_function": "_callerHasNeuEntitlement",
+      "file": "EntitlementV2.sol",
+      "raw_text": "uint256 userNeuBalance = _neuContract.balanceOf(user);"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:174",
+      "call_type": "INTERFACE_CALL",
+      "line": 174,
+      "enclosing_function": "_callerHasNeuEntitlement",
+      "file": "EntitlementV2.sol",
+      "raw_text": "uint256 tokenId = _neuContract.tokenOfOwnerByIndex(user, i);"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:177",
+      "call_type": "INTERFACE_CALL",
+      "line": 177,
+      "enclosing_function": "_callerHasNeuEntitlement",
+      "file": "EntitlementV2.sol",
+      "raw_text": "if (block.timestamp >= _neuContract.entitlementAfterTimestamps(tokenId)) {"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        12,
+        13,
+        14,
+        15,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        15,
+        16,
+        17,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        16,
+        17,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        16,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        4,
+        16,
+        17,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        16,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        6,
+        16,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        6,
+        16,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        7,
+        16,
+        17,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        8,
+        16,
+        17,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        8,
+        16,
+        17,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        6,
+        7,
+        8,
+        10,
+        16,
+        17,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        6,
+        7,
+        8,
+        10,
+        16,
+        17,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        6,
+        7,
+        8,
+        10,
+        16,
+        17,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "entitlementContractsV2",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "entitlementContractsLength",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addEntitlementContract",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeEntitlementContract",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "hasEntitlement",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "hasEntitlementWithContract",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "userEntitlementContracts",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_callerHasContractEntitlement",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_callerHasNeuEntitlement",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_VERSION",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "entitlementContracts",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_entitlementContracts",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_neuContract",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:50",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:65",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:78",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:83",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:89",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:102",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:113",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:116",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:130",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:139",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:150",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:171",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:174",
+      "file": "EntitlementV2.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV2.sol:177",
+      "file": "EntitlementV2.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 32,
+    "n_hyperedges": 14,
+    "n_functions": 12,
+    "n_state_vars": 6,
+    "n_call_sites": 14,
+    "avg_hyperedge_size": 4.571428571428571
+  },
+  "label": {
+    "vfp_id": "vfp_00248",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

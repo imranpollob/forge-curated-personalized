@@ -1,0 +1,169 @@
+{
+  "sample_id": "vfp_00211",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setRouter",
+      "file": "StakeSweeper.sol",
+      "start_line": 37,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setMinOutPercentage",
+      "file": "StakeSweeper.sol",
+      "start_line": 47,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "reinvest",
+      "file": "StakeSweeper.sol",
+      "start_line": 55,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sweep",
+      "file": "StakeSweeper.sol",
+      "start_line": 70,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_swapTokens",
+      "file": "StakeSweeper.sol",
+      "start_line": 88,
+      "end_line": 120,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "defaultRouter",
+      "var_type": "address public",
+      "file": "StakeSweeper.sol",
+      "line": 22
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "minOutPercentage",
+      "var_type": "uint8 public",
+      "file": "StakeSweeper.sol",
+      "line": 23
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "rewardToken",
+      "var_type": "IERC20 public immutable",
+      "file": "StakeSweeper.sol",
+      "line": 24
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setRouter",
+      "file": "StakeSweeper.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setMinOutPercentage",
+      "file": "StakeSweeper.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "reinvest",
+      "file": "StakeSweeper.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "sweep",
+      "file": "StakeSweeper.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_swapTokens",
+      "file": "StakeSweeper.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "defaultRouter",
+      "file": "StakeSweeper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "minOutPercentage",
+      "file": "StakeSweeper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "rewardToken",
+      "file": "StakeSweeper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00211",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-20",
+      "CWE-358",
+      "CWE-664",
+      "CWE-666",
+      "CWE-693",
+      "CWE-707"
+    ]
+  }
+}

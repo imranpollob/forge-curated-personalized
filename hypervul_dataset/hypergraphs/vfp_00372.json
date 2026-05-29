@@ -1,0 +1,473 @@
+{
+  "sample_id": "vfp_00372",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 122,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 144,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 151,
+      "end_line": 197,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 203,
+      "end_line": 211,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 218,
+      "end_line": 314,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "callAnyFunction",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 317,
+      "end_line": 328,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getFunctionSelector",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 333,
+      "end_line": 338,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getFactory",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 341,
+      "end_line": 343,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getP2pTreasury",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 346,
+      "end_line": 348,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getClient",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 351,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getClientBasisPoints",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 356,
+      "end_line": 358,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getTotalDeposited",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 361,
+      "end_line": 363,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getTotalWithdrawn",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 366,
+      "end_line": 368,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getUserPrincipal",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 370,
+      "end_line": 377,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "calculateAccruedRewards",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 379,
+      "end_line": 383,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_getCurrentAssetAmount",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 385,
+      "end_line": 385,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getLastFeeCollectionTime",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 387,
+      "end_line": 389,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "calculateP2pFeeAmount",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 394,
+      "end_line": 397,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "P2pYieldProxy.sol",
+      "start_line": 400,
+      "end_line": 403,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "i_factory",
+      "var_type": "IP2pYieldProxyFactory internal immutable",
+      "file": "P2pYieldProxy.sol",
+      "line": 50
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "i_p2pTreasury",
+      "var_type": "address internal immutable",
+      "file": "P2pYieldProxy.sol",
+      "line": 53
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "i_allowedCalldataChecker",
+      "var_type": "IAllowedCalldataChecker internal immutable",
+      "file": "P2pYieldProxy.sol",
+      "line": 55
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "s_client",
+      "var_type": "address internal",
+      "file": "P2pYieldProxy.sol",
+      "line": 58
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "s_clientBasisPoints",
+      "var_type": "uint96 internal",
+      "file": "P2pYieldProxy.sol",
+      "line": 61
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "s_totalDeposited",
+      "var_type": "mapping(address => uint256) internal",
+      "file": "P2pYieldProxy.sol",
+      "line": 64
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "s_totalWithdrawn",
+      "var_type": "mapping(address => Withdrawn) internal",
+      "file": "P2pYieldProxy.sol",
+      "line": 67
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:P2pYieldProxy.sol:94",
+      "call_type": "INTERFACE_CALL",
+      "line": 94,
+      "enclosing_function": "",
+      "file": "P2pYieldProxy.sol",
+      "raw_text": "i_allowedCalldataChecker.checkCalldata("
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "callAnyFunction",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getFunctionSelector",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getFactory",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getP2pTreasury",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getClient",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getClientBasisPoints",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getTotalDeposited",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getTotalWithdrawn",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getUserPrincipal",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "calculateAccruedRewards",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_getCurrentAssetAmount",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getLastFeeCollectionTime",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "calculateP2pFeeAmount",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "i_factory",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "i_p2pTreasury",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "i_allowedCalldataChecker",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "s_client",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "s_clientBasisPoints",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "s_totalDeposited",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "s_totalWithdrawn",
+      "file": "P2pYieldProxy.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:P2pYieldProxy.sol:94",
+      "file": "P2pYieldProxy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 27,
+    "n_hyperedges": 0,
+    "n_functions": 19,
+    "n_state_vars": 7,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00372",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

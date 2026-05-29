@@ -1,0 +1,674 @@
+{
+  "sample_id": "vfp_00224",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AssetManager.sol",
+      "start_line": 44,
+      "end_line": 53,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isOwner",
+      "file": "AssetManager.sol",
+      "start_line": 57,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isLiquidityManager",
+      "file": "AssetManager.sol",
+      "start_line": 61,
+      "end_line": 63,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quoteInitializeAsset",
+      "file": "AssetManager.sol",
+      "start_line": 67,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "quoteInitializeVLF",
+      "file": "AssetManager.sol",
+      "start_line": 72,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quoteWithdraw",
+      "file": "AssetManager.sol",
+      "start_line": 77,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quoteAllocateVLF",
+      "file": "AssetManager.sol",
+      "start_line": 86,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AssetManager.sol",
+      "start_line": 93,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositWithSupplyVLF",
+      "file": "AssetManager.sol",
+      "start_line": 109,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AssetManager.sol",
+      "start_line": 148,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "allocateVLF",
+      "file": "AssetManager.sol",
+      "start_line": 174,
+      "end_line": 197,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deallocateVLF",
+      "file": "AssetManager.sol",
+      "start_line": 200,
+      "end_line": 214,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "reserveVLF",
+      "file": "AssetManager.sol",
+      "start_line": 217,
+      "end_line": 230,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "settleVLFYield",
+      "file": "AssetManager.sol",
+      "start_line": 233,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "settleVLFLoss",
+      "file": "AssetManager.sol",
+      "start_line": 253,
+      "end_line": 270,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "settleVLFExtraRewards",
+      "file": "AssetManager.sol",
+      "start_line": 273,
+      "end_line": 293,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setBranchLiquidityThreshold",
+      "file": "AssetManager.sol",
+      "start_line": 295,
+      "end_line": 300,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setBranchLiquidityThreshold",
+      "file": "AssetManager.sol",
+      "start_line": 302,
+      "end_line": 314,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AssetManager.sol",
+      "start_line": 318,
+      "end_line": 318,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_authorizePause",
+      "file": "AssetManager.sol",
+      "start_line": 320,
+      "end_line": 320,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "initializeAsset",
+      "file": "AssetManager.sol",
+      "start_line": 322,
+      "end_line": 334,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "initializeVLF",
+      "file": "AssetManager.sol",
+      "start_line": 336,
+      "end_line": 350,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setAssetPair",
+      "file": "AssetManager.sol",
+      "start_line": 352,
+      "end_line": 368,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setEntrypoint",
+      "file": "AssetManager.sol",
+      "start_line": 370,
+      "end_line": 372,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setReclaimQueue",
+      "file": "AssetManager.sol",
+      "start_line": 374,
+      "end_line": 376,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "AssetManager.sol",
+      "start_line": 378,
+      "end_line": 380,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setHubAssetFactory",
+      "file": "AssetManager.sol",
+      "start_line": 382,
+      "end_line": 384,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "setVLFVaultFactory",
+      "file": "AssetManager.sol",
+      "start_line": 386,
+      "end_line": 388,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setStrategist",
+      "file": "AssetManager.sol",
+      "start_line": 390,
+      "end_line": 392,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_scaleToHubDecimals",
+      "file": "AssetManager.sol",
+      "start_line": 396,
+      "end_line": 403,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_scaleToBranchDecimals",
+      "file": "AssetManager.sol",
+      "start_line": 405,
+      "end_line": 414,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "AssetManager.sol",
+      "start_line": 416,
+      "end_line": 419,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "AssetManager.sol",
+      "start_line": 421,
+      "end_line": 424,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_assertOnlyContract",
+      "file": "AssetManager.sol",
+      "start_line": 428,
+      "end_line": 430,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_assertBranchAssetPairNotExist",
+      "file": "AssetManager.sol",
+      "start_line": 432,
+      "end_line": 437,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "LIQUIDITY_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "AssetManager.sol",
+      "line": 31
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "TRANSFER:AssetManager.sol:142",
+      "call_type": "TRANSFER",
+      "line": 142,
+      "enclosing_function": "depositWithSupplyVLF",
+      "file": "AssetManager.sol",
+      "raw_text": "if (supplyAmount < amount) IHubAsset(hubAsset).transfer(to, amount - supplyAmount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        36
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 36
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isOwner",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isLiquidityManager",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quoteInitializeAsset",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "quoteInitializeVLF",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quoteWithdraw",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quoteAllocateVLF",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositWithSupplyVLF",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "allocateVLF",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deallocateVLF",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "reserveVLF",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "settleVLFYield",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "settleVLFLoss",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "settleVLFExtraRewards",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setBranchLiquidityThreshold",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setBranchLiquidityThreshold",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_authorizePause",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "initializeAsset",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "initializeVLF",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setAssetPair",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setEntrypoint",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setReclaimQueue",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setHubAssetFactory",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "setVLFVaultFactory",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setStrategist",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_scaleToHubDecimals",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_scaleToBranchDecimals",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_assertOnlyContract",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_assertBranchAssetPairNotExist",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "LIQUIDITY_MANAGER_ROLE",
+      "file": "AssetManager.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "TRANSFER:AssetManager.sol:142",
+      "file": "AssetManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 37,
+    "n_hyperedges": 1,
+    "n_functions": 35,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00224",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-682",
+      "CWE-707"
+    ]
+  }
+}

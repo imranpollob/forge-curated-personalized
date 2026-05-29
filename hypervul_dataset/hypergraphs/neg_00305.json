@@ -1,0 +1,210 @@
+{
+  "sample_id": "neg_00305",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "start_line": 48,
+      "end_line": 56,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setL2GatewayRouter",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "start_line": 71,
+      "end_line": 73,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "whitelistToken",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "start_line": 80,
+      "end_line": 82,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_bridgeTokensToHubPool",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "start_line": 88,
+      "end_line": 104,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_setL2GatewayRouter",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "start_line": 106,
+      "end_line": 109,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_whitelistToken",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "start_line": 111,
+      "end_line": 114,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "start_line": 117,
+      "end_line": 117,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "handleTelepathy",
+      "file": "contracts_contracts_external_interfaces_SuccinctInterfaces.sol",
+      "start_line": 7,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "send",
+      "file": "contracts_contracts_external_interfaces_SuccinctInterfaces.sol",
+      "start_line": 16,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "l2GatewayRouter",
+      "var_type": "address public",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "line": 18
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "whitelistedTokens",
+      "var_type": "mapping(address => address) public",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol",
+      "line": 22
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setL2GatewayRouter",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "whitelistToken",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_bridgeTokensToHubPool",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_setL2GatewayRouter",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_whitelistToken",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "handleTelepathy",
+      "file": "contracts_contracts_external_interfaces_SuccinctInterfaces.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "send",
+      "file": "contracts_contracts_external_interfaces_SuccinctInterfaces.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "l2GatewayRouter",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "whitelistedTokens",
+      "file": "contracts_contracts_Arbitrum_SpokePool.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00305",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

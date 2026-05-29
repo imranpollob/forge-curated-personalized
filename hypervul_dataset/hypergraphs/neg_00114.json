@@ -1,0 +1,145 @@
+{
+  "sample_id": "neg_00114",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSettings",
+      "file": "fassets_contracts_assetManager_library_Globals.sol",
+      "start_line": 17,
+      "end_line": 26,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getWNat",
+      "file": "fassets_contracts_assetManager_library_Globals.sol",
+      "start_line": 28,
+      "end_line": 34,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPoolCollateral",
+      "file": "fassets_contracts_assetManager_library_Globals.sol",
+      "start_line": 36,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getFAsset",
+      "file": "fassets_contracts_assetManager_library_Globals.sol",
+      "start_line": 44,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getAgentOwnerRegistry",
+      "file": "fassets_contracts_assetManager_library_Globals.sol",
+      "start_line": 52,
+      "end_line": 58,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getBurnAddress",
+      "file": "fassets_contracts_assetManager_library_Globals.sol",
+      "start_line": 60,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ASSET_MANAGER_SETTINGS_POSITION",
+      "var_type": "bytes32 internal constant",
+      "file": "fassets_contracts_assetManager_library_Globals.sol",
+      "line": 15
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSettings",
+      "file": "fassets_contracts_assetManager_library_Globals.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getWNat",
+      "file": "fassets_contracts_assetManager_library_Globals.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPoolCollateral",
+      "file": "fassets_contracts_assetManager_library_Globals.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getFAsset",
+      "file": "fassets_contracts_assetManager_library_Globals.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getAgentOwnerRegistry",
+      "file": "fassets_contracts_assetManager_library_Globals.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getBurnAddress",
+      "file": "fassets_contracts_assetManager_library_Globals.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ASSET_MANAGER_SETTINGS_POSITION",
+      "file": "fassets_contracts_assetManager_library_Globals.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00114",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

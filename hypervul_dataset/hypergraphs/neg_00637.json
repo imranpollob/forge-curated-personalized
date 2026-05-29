@@ -1,0 +1,207 @@
+{
+  "sample_id": "neg_00637",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol",
+      "start_line": 16,
+      "end_line": 29,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol",
+      "start_line": 32,
+      "end_line": 39,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ercburner-audit_contracts_mocks_MockUSDC.sol",
+      "start_line": 12,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "burn",
+      "file": "ercburner-audit_contracts_mocks_MockUSDC.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "ercburner-audit_contracts_mocks_MockUSDC.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "burner",
+      "var_type": "Burner public",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol",
+      "line": 8
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol:26",
+      "call_type": "INTERFACE_CALL",
+      "line": 26,
+      "enclosing_function": "transferFrom",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol",
+      "raw_text": "burner.swapExactInputMultiple(paramsArray, msg.sender, false, bytes(\"\"), address(0));"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol:35",
+      "call_type": "INTERFACE_CALL",
+      "line": 35,
+      "enclosing_function": "transfer",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol",
+      "raw_text": "burner.rescueTokens(address(this), msg.sender, amount);"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "TRANSFER:ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol:37",
+      "call_type": "TRANSFER",
+      "line": 37,
+      "enclosing_function": "transfer",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol",
+      "raw_text": "return super.transfer(recipient, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        5,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        5,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        5,
+        8
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 8
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ercburner-audit_contracts_mocks_MockUSDC.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "burn",
+      "file": "ercburner-audit_contracts_mocks_MockUSDC.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "ercburner-audit_contracts_mocks_MockUSDC.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "burner",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol:26",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol:35",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "TRANSFER:ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol:37",
+      "file": "ercburner-audit_contracts_mocks_MaliciousTokenReentrancy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 3,
+    "n_functions": 5,
+    "n_state_vars": 1,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00637",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

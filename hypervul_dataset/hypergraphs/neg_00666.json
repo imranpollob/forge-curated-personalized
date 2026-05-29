@@ -1,0 +1,410 @@
+{
+  "sample_id": "neg_00666",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "latestBlockHash",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol",
+      "start_line": 29,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "latestBaseFee",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol",
+      "start_line": 32,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "latestBlockNumber",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol",
+      "start_line": 35,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "latestBlockTimestamp",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol",
+      "start_line": 38,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getStateRoot",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getBlockTimestamp",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol",
+      "start_line": 48,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "importBlockHeader",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol",
+      "start_line": 58,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "start_line": 122,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "finalizeBatchDeposit",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "start_line": 145,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawFailedAmount",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "start_line": 177,
+      "end_line": 183,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "distribute",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "start_line": 189,
+      "end_line": 218,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_transferToken",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "start_line": 229,
+      "end_line": 247,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "KEEPER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 70
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "SAFE_ETH_TRANSFER_GAS_LIMIT",
+      "var_type": "uint256 private constant",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 73
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "counterpart",
+      "var_type": "address public immutable",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 76
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "messenger",
+      "var_type": "address public immutable",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 79
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "tokenMapping",
+      "var_type": "mapping(address => address) public",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 86
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "batchHashes",
+      "var_type": "mapping(address => mapping(uint256 => bytes32)) public",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 89
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "failedAmount",
+      "var_type": "mapping(address => uint256) public",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 92
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isDistributed",
+      "var_type": "mapping(bytes32 => bool) public",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "line": 95
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol:219",
+      "call_type": "CALL",
+      "line": 219,
+      "enclosing_function": "_transferToken",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "raw_text": "(success, ) = receiver.call{value: amount, gas: SAFE_ETH_TRANSFER_GAS_LIMIT}(\"\");"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol:224",
+      "call_type": "CALL",
+      "line": 224,
+      "enclosing_function": "_transferToken",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol",
+      "raw_text": "(success, returnData) = token.call(abi.encodeCall(IERC20Upgradeable.transfer, (receiver, amount)));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        9,
+        10,
+        11,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        9,
+        10,
+        11,
+        13,
+        16,
+        17,
+        18,
+        19,
+        21
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 21
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "latestBlockHash",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "latestBaseFee",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "latestBlockNumber",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "latestBlockTimestamp",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getStateRoot",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getBlockTimestamp",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "importBlockHeader",
+      "file": "scroll-contracts_src_L2_predeploys_IL1BlockContainer.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "finalizeBatchDeposit",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawFailedAmount",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "distribute",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_transferToken",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "KEEPER_ROLE",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "SAFE_ETH_TRANSFER_GAS_LIMIT",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "counterpart",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "messenger",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "tokenMapping",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "batchHashes",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "failedAmount",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isDistributed",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol:219",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol:224",
+      "file": "scroll-contracts_src_batch-bridge_L2BatchBridgeGateway.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 2,
+    "n_functions": 12,
+    "n_state_vars": 8,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 9.0
+  },
+  "label": {
+    "vfp_id": "neg_00666",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

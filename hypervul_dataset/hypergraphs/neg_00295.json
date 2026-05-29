@@ -1,0 +1,184 @@
+{
+  "sample_id": "neg_00295",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hash",
+      "file": "minimal-delegation_src_libraries_BatchedCallLib.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "init",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "fromExpiration",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol",
+      "start_line": 18,
+      "end_line": 21,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fromHook",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol",
+      "start_line": 23,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fromIsAdmin",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol",
+      "start_line": 29,
+      "end_line": 33,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPE",
+      "var_type": "bytes internal constant",
+      "file": "minimal-delegation_src_libraries_BatchedCallLib.sol",
+      "line": 17
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPEHASH",
+      "var_type": "bytes32 internal constant",
+      "file": "minimal-delegation_src_libraries_BatchedCallLib.sol",
+      "line": 20
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "CLEAR_20_BYTES",
+      "var_type": "uint256 constant",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol",
+      "line": 10
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "CLEAR_5_BYTES",
+      "var_type": "uint256 constant",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol",
+      "line": 11
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CLEAR_1_BYTE",
+      "var_type": "uint256 constant",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol",
+      "line": 12
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hash",
+      "file": "minimal-delegation_src_libraries_BatchedCallLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "init",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "fromExpiration",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fromHook",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fromIsAdmin",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPE",
+      "file": "minimal-delegation_src_libraries_BatchedCallLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPEHASH",
+      "file": "minimal-delegation_src_libraries_BatchedCallLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "CLEAR_20_BYTES",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "CLEAR_5_BYTES",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CLEAR_1_BYTE",
+      "file": "minimal-delegation_test_utils_SettingsBuilder.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00295",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

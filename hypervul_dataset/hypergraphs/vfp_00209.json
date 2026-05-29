@@ -1,0 +1,157 @@
+{
+  "sample_id": "vfp_00209",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deploy",
+      "file": "GaslessFactory.sol",
+      "start_line": 108,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployDeterministic",
+      "file": "GaslessFactory.sol",
+      "start_line": 161,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "computeAddress",
+      "file": "GaslessFactory.sol",
+      "start_line": 193,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "GaslessFactory.sol",
+      "start_line": 220,
+      "end_line": 227,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "GaslessFactory.sol",
+      "start_line": 235,
+      "end_line": 237,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "GaslessFactory.sol",
+      "start_line": 245,
+      "end_line": 247,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_contextSuffixLength",
+      "file": "GaslessFactory.sol",
+      "start_line": 255,
+      "end_line": 257,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deploy",
+      "file": "GaslessFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployDeterministic",
+      "file": "GaslessFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "computeAddress",
+      "file": "GaslessFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "GaslessFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "GaslessFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "GaslessFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_contextSuffixLength",
+      "file": "GaslessFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00209",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-670",
+      "CWE-691",
+      "CWE-710"
+    ]
+  }
+}
