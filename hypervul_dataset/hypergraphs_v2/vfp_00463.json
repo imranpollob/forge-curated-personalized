@@ -1,0 +1,367 @@
+{
+  "sample_id": "vfp_00463",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 127,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 139,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 155,
+      "end_line": 157,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addOidcAccount",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 163,
+      "end_line": 179,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deleteOidcAccount",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 182,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_deleteOidcAccount",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 187,
+      "end_line": 193,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "startRecovery",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 201,
+      "end_line": 242,
+      "visibility": "public",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 251,
+      "end_line": 285,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "validateSignature",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 289,
+      "end_line": 291,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 294,
+      "end_line": 299,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addressForDigest",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 304,
+      "end_line": 311,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "oidcDataForAddress",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 316,
+      "end_line": 324,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_reverse",
+      "file": "OidcRecoveryValidator.sol",
+      "start_line": 329,
+      "end_line": 341,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "PUB_SIGNALS_LENGTH",
+      "var_type": "uint8 constant",
+      "file": "OidcRecoveryValidator.sol",
+      "line": 23
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "accountData",
+      "var_type": "mapping(address account => OidcData oidcData)",
+      "file": "OidcRecoveryValidator.sol",
+      "line": 105
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "digestIndex",
+      "var_type": "mapping(bytes32 oidcDigest => address account)",
+      "file": "OidcRecoveryValidator.sol",
+      "line": 108
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "keyRegistry",
+      "var_type": "address public",
+      "file": "OidcRecoveryValidator.sol",
+      "line": 111
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "verifier",
+      "var_type": "address public",
+      "file": "OidcRecoveryValidator.sol",
+      "line": 114
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "webAuthValidator",
+      "var_type": "address public",
+      "file": "OidcRecoveryValidator.sol",
+      "line": 117
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addOidcAccount",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deleteOidcAccount",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_deleteOidcAccount",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "startRecovery",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "validateSignature",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addressForDigest",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "oidcDataForAddress",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_reverse",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "PUB_SIGNALS_LENGTH",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "accountData",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "digestIndex",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "keyRegistry",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "verifier",
+      "file": "OidcRecoveryValidator.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "webAuthValidator",
+      "file": "OidcRecoveryValidator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00463",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1025",
+      "CWE-1061",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1164",
+      "CWE-1284",
+      "CWE-1293",
+      "CWE-188",
+      "CWE-198",
+      "CWE-20",
+      "CWE-252",
+      "CWE-345",
+      "CWE-358",
+      "CWE-362",
+      "CWE-372",
+      "CWE-404",
+      "CWE-435",
+      "CWE-664",
+      "CWE-691",
+      "CWE-693",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754",
+      "CWE-772"
+    ]
+  }
+}

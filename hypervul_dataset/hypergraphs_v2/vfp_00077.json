@@ -1,0 +1,417 @@
+{
+  "sample_id": "vfp_00077",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "POOL",
+      "file": "ForeignController.sol",
+      "start_line": 27,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setMintRecipient",
+      "file": "ForeignController.sol",
+      "start_line": 126,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setLayerZeroRecipient",
+      "file": "ForeignController.sol",
+      "start_line": 134,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeRelayer",
+      "file": "ForeignController.sol",
+      "start_line": 146,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "depositPSM",
+      "file": "ForeignController.sol",
+      "start_line": 155,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawPSM",
+      "file": "ForeignController.sol",
+      "start_line": 178,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferUSDCToCCTP",
+      "file": "ForeignController.sol",
+      "start_line": 206,
+      "end_line": 234,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferTokenLayerZero",
+      "file": "ForeignController.sol",
+      "start_line": 239,
+      "end_line": 282,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositERC4626",
+      "file": "ForeignController.sol",
+      "start_line": 288,
+      "end_line": 308,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawERC4626",
+      "file": "ForeignController.sol",
+      "start_line": 310,
+      "end_line": 330,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "redeemERC4626",
+      "file": "ForeignController.sol",
+      "start_line": 333,
+      "end_line": 356,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositAave",
+      "file": "ForeignController.sol",
+      "start_line": 362,
+      "end_line": 378,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdrawAave",
+      "file": "ForeignController.sol",
+      "start_line": 381,
+      "end_line": 410,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setSupplyQueueMorpho",
+      "file": "ForeignController.sol",
+      "start_line": 416,
+      "end_line": 425,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "updateWithdrawQueueMorpho",
+      "file": "ForeignController.sol",
+      "start_line": 427,
+      "end_line": 436,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "reallocateMorpho",
+      "file": "ForeignController.sol",
+      "start_line": 438,
+      "end_line": 447,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_approve",
+      "file": "ForeignController.sol",
+      "start_line": 455,
+      "end_line": 484,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_initiateCCTPTransfer",
+      "file": "ForeignController.sol",
+      "start_line": 486,
+      "end_line": 510,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_rateLimited",
+      "file": "ForeignController.sol",
+      "start_line": 512,
+      "end_line": 514,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ForeignController.sol:277",
+      "call_type": "INTERFACE_CALL",
+      "line": 277,
+      "enclosing_function": "transferTokenLayerZero",
+      "file": "ForeignController.sol",
+      "raw_text": "proxy.doCallWithValue{value: fee.nativeFee}("
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:ForeignController.sol:460",
+      "call_type": "CALL",
+      "line": 460,
+      "enclosing_function": "_approve",
+      "file": "ForeignController.sol",
+      "raw_text": "= address(proxy).call(abi.encodeCall(IALMProxy.doCall, (token, approveData)));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        7,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        6,
+        7,
+        8,
+        11,
+        16,
+        20
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 20
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "POOL",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setMintRecipient",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setLayerZeroRecipient",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "removeRelayer",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "depositPSM",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawPSM",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferUSDCToCCTP",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferTokenLayerZero",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositERC4626",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawERC4626",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "redeemERC4626",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositAave",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdrawAave",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setSupplyQueueMorpho",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "updateWithdrawQueueMorpho",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "reallocateMorpho",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_approve",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_initiateCCTPTransfer",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_rateLimited",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ForeignController.sol:277",
+      "file": "ForeignController.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:ForeignController.sol:460",
+      "file": "ForeignController.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 21,
+    "n_hyperedges": 2,
+    "n_functions": 19,
+    "n_state_vars": 0,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 4.5
+  },
+  "label": {
+    "vfp_id": "vfp_00077",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-435",
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

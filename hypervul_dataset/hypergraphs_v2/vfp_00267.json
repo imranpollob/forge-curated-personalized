@@ -1,0 +1,554 @@
+{
+  "sample_id": "vfp_00267",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swapCompact",
+      "file": "OdosRouterV3.sol",
+      "start_line": 41,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swap",
+      "file": "OdosRouterV3.sol",
+      "start_line": 154,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapWithHook",
+      "file": "OdosRouterV3.sol",
+      "start_line": 179,
+      "end_line": 205,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_swapApproval",
+      "file": "OdosRouterV3.sol",
+      "start_line": 212,
+      "end_line": 248,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swapPermit2",
+      "file": "OdosRouterV3.sol",
+      "start_line": 256,
+      "end_line": 273,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "swapPermit2WithHook",
+      "file": "OdosRouterV3.sol",
+      "start_line": 283,
+      "end_line": 310,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_swapPermit2",
+      "file": "OdosRouterV3.sol",
+      "start_line": 318,
+      "end_line": 350,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "OdosRouterV3.sol",
+      "start_line": 359,
+      "end_line": 423,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "swapMultiCompact",
+      "file": "OdosRouterV3.sol",
+      "start_line": 426,
+      "end_line": 555,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "swapMulti",
+      "file": "OdosRouterV3.sol",
+      "start_line": 563,
+      "end_line": 581,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "swapMultiWithHook",
+      "file": "OdosRouterV3.sol",
+      "start_line": 591,
+      "end_line": 616,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_swapMultiApproval",
+      "file": "OdosRouterV3.sol",
+      "start_line": 624,
+      "end_line": 664,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "swapMultiPermit2",
+      "file": "OdosRouterV3.sol",
+      "start_line": 673,
+      "end_line": 693,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "swapMultiPermit2WithHook",
+      "file": "OdosRouterV3.sol",
+      "start_line": 704,
+      "end_line": 731,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_swapMultiPermit2",
+      "file": "OdosRouterV3.sol",
+      "start_line": 740,
+      "end_line": 802,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_swapMulti",
+      "file": "OdosRouterV3.sol",
+      "start_line": 812,
+      "end_line": 922,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "changeLiquidatorAddress",
+      "file": "OdosRouterV3.sol",
+      "start_line": 926,
+      "end_line": 932,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "writeAddressList",
+      "file": "OdosRouterV3.sol",
+      "start_line": 936,
+      "end_line": 945,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transferRouterFunds",
+      "file": "OdosRouterV3.sol",
+      "start_line": 951,
+      "end_line": 968,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "swapRouterFunds",
+      "file": "OdosRouterV3.sol",
+      "start_line": 975,
+      "end_line": 1036,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_universalBalance",
+      "file": "OdosRouterV3.sol",
+      "start_line": 1041,
+      "end_line": 1047,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_universalTransfer",
+      "file": "OdosRouterV3.sol",
+      "start_line": 1053,
+      "end_line": 1060,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_ETH",
+      "var_type": "address constant",
+      "file": "OdosRouterV3.sol",
+      "line": 21
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "addressListStart",
+      "var_type": "uint256 private constant",
+      "file": "OdosRouterV3.sol",
+      "line": 25
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "addressList",
+      "var_type": "address[] public",
+      "file": "OdosRouterV3.sol",
+      "line": 27
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "liquidatorAddress",
+      "var_type": "address public",
+      "file": "OdosRouterV3.sol",
+      "line": 30
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "FEE_DENOM",
+      "var_type": "uint256 public constant",
+      "file": "OdosRouterV3.sol",
+      "line": 33
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OdosRouterV3.sol:943",
+      "call_type": "INTERFACE_CALL",
+      "line": 943,
+      "enclosing_function": "writeAddressList",
+      "file": "OdosRouterV3.sol",
+      "raw_text": "addressList.push(addresses[i]);"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "CALL:OdosRouterV3.sol:1055",
+      "call_type": "CALL",
+      "line": 1055,
+      "enclosing_function": "_universalTransfer",
+      "file": "OdosRouterV3.sol",
+      "raw_text": "(bool success,) = payable(to).call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        17,
+        24,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        21,
+        22,
+        23,
+        25,
+        26,
+        28
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 28
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swapCompact",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swap",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapWithHook",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_swapApproval",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swapPermit2",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "swapPermit2WithHook",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_swapPermit2",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "swapMultiCompact",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "swapMulti",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "swapMultiWithHook",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_swapMultiApproval",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "swapMultiPermit2",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "swapMultiPermit2WithHook",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_swapMultiPermit2",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_swapMulti",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "changeLiquidatorAddress",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "writeAddressList",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transferRouterFunds",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "swapRouterFunds",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_universalBalance",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_universalTransfer",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_ETH",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "addressListStart",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "addressList",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "liquidatorAddress",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "FEE_DENOM",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OdosRouterV3.sol:943",
+      "file": "OdosRouterV3.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "CALL:OdosRouterV3.sol:1055",
+      "file": "OdosRouterV3.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 29,
+    "n_hyperedges": 2,
+    "n_functions": 22,
+    "n_state_vars": 5,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 13.5
+  },
+  "label": {
+    "vfp_id": "vfp_00267",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-693",
+      "CWE-807"
+    ]
+  }
+}

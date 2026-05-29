@@ -1,0 +1,446 @@
+{
+  "sample_id": "vfp_00588",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swapByDelegation",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 215,
+      "end_line": 267,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swapTokens",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 280,
+      "end_line": 317,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setSwapApiSigner",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 323,
+      "end_line": 326,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeFromExecutor",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 338,
+      "end_line": 357,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 366,
+      "end_line": 368,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateAllowedTokens",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 376,
+      "end_line": 389,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateAllowedAggregatorIds",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 397,
+      "end_line": 410,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_sendTokens",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 421,
+      "end_line": 431,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_validateTokens",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 441,
+      "end_line": 467,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_decodeApiData",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 473,
+      "end_line": 508,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getSelfBalance",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 516,
+      "end_line": 520,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_validateSignature",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "start_line": 526,
+      "end_line": 534,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "WHITELIST_ENFORCED",
+      "var_type": "string public constant",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 44
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "WHITELIST_NOT_ENFORCED",
+      "var_type": "string public constant",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 47
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "delegationManager",
+      "var_type": "IDelegationManager public immutable",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 50
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "metaSwap",
+      "var_type": "IMetaSwap public immutable",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 53
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "argsEqualityCheckEnforcer",
+      "var_type": "address public immutable",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 56
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "swapApiSigner",
+      "var_type": "address public",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 59
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "isTokenAllowed",
+      "var_type": "mapping(IERC20 token => bool allowed) public",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 62
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isAggregatorAllowed",
+      "var_type": "mapping(bytes32 aggregatorIdHash => bool allowed) public",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "line": 65
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:DelegationMetaSwapAdapter.sol:231",
+      "call_type": "INTERFACE_CALL",
+      "line": 231,
+      "enclosing_function": "swapByDelegation",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "raw_text": "delegationManager.redeemDelegations(permissionContexts_, encodedModes_, executionCallDatas_);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:DelegationMetaSwapAdapter.sol:267",
+      "call_type": "INTERFACE_CALL",
+      "line": 267,
+      "enclosing_function": "swapTokens",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "raw_text": "metaSwap.swap{ value: value_ }(_aggregatorId, _tokenFrom, _amountFrom, _swapData);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:DelegationMetaSwapAdapter.sol:344",
+      "call_type": "CALL",
+      "line": 344,
+      "enclosing_function": "_sendTokens",
+      "file": "DelegationMetaSwapAdapter.sol",
+      "raw_text": "(bool success_,) = _recipient.call{ value: _amount }(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        14,
+        19,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        15,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        4,
+        7,
+        15,
+        22
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 22
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swapByDelegation",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swapTokens",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setSwapApiSigner",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeFromExecutor",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateAllowedTokens",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateAllowedAggregatorIds",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_sendTokens",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_validateTokens",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_decodeApiData",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_getSelfBalance",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_validateSignature",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "WHITELIST_ENFORCED",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "WHITELIST_NOT_ENFORCED",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "delegationManager",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "metaSwap",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "argsEqualityCheckEnforcer",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "swapApiSigner",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "isTokenAllowed",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isAggregatorAllowed",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:DelegationMetaSwapAdapter.sol:231",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:DelegationMetaSwapAdapter.sol:267",
+      "file": "DelegationMetaSwapAdapter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:DelegationMetaSwapAdapter.sol:344",
+      "file": "DelegationMetaSwapAdapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 23,
+    "n_hyperedges": 3,
+    "n_functions": 12,
+    "n_state_vars": 8,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00588",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-1265",
+      "CWE-1289",
+      "CWE-20",
+      "CWE-345",
+      "CWE-347",
+      "CWE-358",
+      "CWE-691",
+      "CWE-693",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "sample_id": "neg_00297",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "start_line": 42,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mint",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "notifyMintingDone",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "token",
+      "var_type": "ZenToken public",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "line": 16
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "eonVault",
+      "var_type": "EONBackupVault public",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "line": 18
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "zendVault",
+      "var_type": "ZendBackupVault public",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "line": 19
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "horizenFoundationVestingContract",
+      "var_type": "LinearTokenVesting public",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "line": 20
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "horizenDaoVestingContract",
+      "var_type": "LinearTokenVesting public",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "line": 21
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "VESTING_TIME_BETWEEN_INTERVALS",
+      "var_type": "uint256 internal constant",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "line": 23
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "VESTING_INTERVALS",
+      "var_type": "uint256 internal constant",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "line": 24
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "raw_text": "eonVault.setERC20(address(token));"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:71",
+      "call_type": "INTERFACE_CALL",
+      "line": 71,
+      "enclosing_function": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "raw_text": "zendVault.setERC20(address(token));"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:72",
+      "call_type": "INTERFACE_CALL",
+      "line": 72,
+      "enclosing_function": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "raw_text": "horizenFoundationVestingContract.setERC20(address(token));"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:73",
+      "call_type": "INTERFACE_CALL",
+      "line": 73,
+      "enclosing_function": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "raw_text": "horizenDaoVestingContract.setERC20(address(token));"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:75",
+      "call_type": "INTERFACE_CALL",
+      "line": 75,
+      "enclosing_function": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "raw_text": "eonVault.transferOwnership(owner());"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:76",
+      "call_type": "INTERFACE_CALL",
+      "line": 76,
+      "enclosing_function": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol",
+      "raw_text": "zendVault.transferOwnership(owner());"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployMigrationContracts",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mint",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "notifyMintingDone",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "horizen-migration_erc20-migration_contracts_interfaces_IZenToken.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "token",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "eonVault",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "zendVault",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "horizenFoundationVestingContract",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "horizenDaoVestingContract",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "VESTING_TIME_BETWEEN_INTERVALS",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "VESTING_INTERVALS",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:70",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:71",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:72",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:73",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:75",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol:76",
+      "file": "horizen-migration_erc20-migration_contracts_ZenMigrationFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 6,
+    "n_functions": 4,
+    "n_state_vars": 7,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 9.0
+  },
+  "label": {
+    "vfp_id": "neg_00297",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

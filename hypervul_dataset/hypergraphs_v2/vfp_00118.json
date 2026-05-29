@@ -1,0 +1,217 @@
+{
+  "sample_id": "vfp_00118",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PythLazer.sol",
+      "start_line": 16,
+      "end_line": 21,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "PythLazer.sol",
+      "start_line": 23,
+      "end_line": 25,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PythLazer.sol",
+      "start_line": 27,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateTrustedSigner",
+      "file": "PythLazer.sol",
+      "start_line": 29,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isValidSigner",
+      "file": "PythLazer.sol",
+      "start_line": 61,
+      "end_line": 68,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verifyUpdate",
+      "file": "PythLazer.sol",
+      "start_line": 70,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "version",
+      "file": "PythLazer.sol",
+      "start_line": 108,
+      "end_line": 110,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "trustedSigners",
+      "var_type": "TrustedSignerInfo[100] internal",
+      "file": "PythLazer.sol",
+      "line": 8
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "verification_fee",
+      "var_type": "uint256 public",
+      "file": "PythLazer.sol",
+      "line": 9
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:PythLazer.sol:76",
+      "call_type": "TRANSFER",
+      "line": 76,
+      "enclosing_function": "verifyUpdate",
+      "file": "PythLazer.sol",
+      "raw_text": "payable(msg.sender).transfer(msg.value - verification_fee);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        8,
+        9
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 9
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateTrustedSigner",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isValidSigner",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verifyUpdate",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "version",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "trustedSigners",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "verification_fee",
+      "file": "PythLazer.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "TRANSFER:PythLazer.sol:76",
+      "file": "PythLazer.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 1,
+    "n_functions": 7,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00118",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1164",
+      "CWE-1289",
+      "CWE-20",
+      "CWE-424",
+      "CWE-693",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

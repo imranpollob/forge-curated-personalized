@@ -1,0 +1,1793 @@
+{
+  "sample_id": "vfp_00391",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createPoolStvStart",
+      "file": "Factory.sol",
+      "start_line": 354,
+      "end_line": 369,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createPoolStvStETHStart",
+      "file": "Factory.sol",
+      "start_line": 382,
+      "end_line": 399,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "createPoolStart",
+      "file": "Factory.sol",
+      "start_line": 414,
+      "end_line": 528,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createPoolFinish",
+      "file": "Factory.sol",
+      "start_line": 551,
+      "end_line": 684,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "derivePoolType",
+      "file": "Factory.sol",
+      "start_line": 686,
+      "end_line": 703,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_hashDeploymentConfiguration",
+      "file": "Factory.sol",
+      "start_line": 717,
+      "end_line": 739,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getStvStETHPoolStorage",
+      "file": "StvStETHPool.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StvStETHPool.sol",
+      "start_line": 83,
+      "end_line": 92,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositETHAndMintStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 104,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "depositETHAndMintWsteth",
+      "file": "StvStETHPool.sol",
+      "start_line": 120,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "unlockedAssetsOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 140,
+      "end_line": 147,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "unlockedAssetsOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 154,
+      "end_line": 156,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "unlockedStvOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "unlockedStvOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 173,
+      "end_line": 175,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "stethSharesToBurnForStvOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 183,
+      "end_line": 192,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "transferFromWithLiabilityForWithdrawalQueue",
+      "file": "StvStETHPool.sol",
+      "start_line": 203,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_checkMinStvToLock",
+      "file": "StvStETHPool.sol",
+      "start_line": 208,
+      "end_line": 211,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "StvStETHPool.sol",
+      "start_line": 222,
+      "end_line": 247,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "totalMintedStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 257,
+      "end_line": 259,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "mintedStethSharesOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 266,
+      "end_line": 268,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "totalMintingCapacitySharesOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 275,
+      "end_line": 277,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "remainingMintingCapacitySharesOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 285,
+      "end_line": 296,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "mintWsteth",
+      "file": "StvStETHPool.sol",
+      "start_line": 304,
+      "end_line": 310,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "mintStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 316,
+      "end_line": 322,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "burnWsteth",
+      "file": "StvStETHPool.sol",
+      "start_line": 330,
+      "end_line": 339,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "burnStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 345,
+      "end_line": 349,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_checkRemainingMintingCapacityOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 351,
+      "end_line": 353,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_increaseMintedStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 355,
+      "end_line": 364,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_decreaseMintedStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 366,
+      "end_line": 376,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_transferStethSharesLiability",
+      "file": "StvStETHPool.sol",
+      "start_line": 378,
+      "end_line": 389,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "calcStethSharesToMintForAssets",
+      "file": "StvStETHPool.sol",
+      "start_line": 396,
+      "end_line": 401,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "calcStethSharesToMintForStv",
+      "file": "StvStETHPool.sol",
+      "start_line": 408,
+      "end_line": 410,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "calcAssetsToLockForStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 418,
+      "end_line": 427,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "calcStvToLockForStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 434,
+      "end_line": 436,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "poolReserveRatioBP",
+      "file": "StvStETHPool.sol",
+      "start_line": 446,
+      "end_line": 448,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "poolForcedRebalanceThresholdBP",
+      "file": "StvStETHPool.sol",
+      "start_line": 454,
+      "end_line": 456,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "syncVaultParameters",
+      "file": "StvStETHPool.sol",
+      "start_line": 463,
+      "end_line": 494,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "totalExceedingMintedStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 505,
+      "end_line": 507,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "totalExceedingMintedSteth",
+      "file": "StvStETHPool.sol",
+      "start_line": 514,
+      "end_line": 516,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "totalUnassignedLiabilityShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 528,
+      "end_line": 530,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "rebalanceMintedStethSharesForWithdrawalQueue",
+      "file": "StvStETHPool.sol",
+      "start_line": 545,
+      "end_line": 551,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "forceRebalance",
+      "file": "StvStETHPool.sol",
+      "start_line": 560,
+      "end_line": 568,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "forceRebalanceAndSocializeLoss",
+      "file": "StvStETHPool.sol",
+      "start_line": 576,
+      "end_line": 585,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "previewForceRebalance",
+      "file": "StvStETHPool.sol",
+      "start_line": 595,
+      "end_line": 640,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "isHealthyOf",
+      "file": "StvStETHPool.sol",
+      "start_line": 647,
+      "end_line": 649,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "rebalanceExceedingMintedStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 664,
+      "end_line": 678,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_rebalanceMintedStethShares",
+      "file": "StvStETHPool.sol",
+      "start_line": 683,
+      "end_line": 716,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_isThresholdBreached",
+      "file": "StvStETHPool.sol",
+      "start_line": 718,
+      "end_line": 729,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_checkAllowedLossSocializationPortion",
+      "file": "StvStETHPool.sol",
+      "start_line": 731,
+      "end_line": 739,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "maxLossSocializationBP",
+      "file": "StvStETHPool.sol",
+      "start_line": 759,
+      "end_line": 761,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "setMaxLossSocializationBP",
+      "file": "StvStETHPool.sol",
+      "start_line": 769,
+      "end_line": 779,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "transferWithLiability",
+      "file": "StvStETHPool.sol",
+      "start_line": 794,
+      "end_line": 800,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_transferWithLiability",
+      "file": "StvStETHPool.sol",
+      "start_line": 802,
+      "end_line": 807,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_update",
+      "file": "StvStETHPool.sol",
+      "start_line": 817,
+      "end_line": 826,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "pauseMinting",
+      "file": "StvStETHPool.sol",
+      "start_line": 836,
+      "end_line": 839,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "resumeMinting",
+      "file": "StvStETHPool.sol",
+      "start_line": 845,
+      "end_line": 848,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "VAULT_FACTORY",
+      "var_type": "IVaultFactory public immutable",
+      "file": "Factory.sol",
+      "line": 226
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "VAULT_HUB",
+      "var_type": "IVaultHub public immutable",
+      "file": "Factory.sol",
+      "line": 231
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "STETH",
+      "var_type": "address public immutable",
+      "file": "Factory.sol",
+      "line": 236
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "WSTETH",
+      "var_type": "address public immutable",
+      "file": "Factory.sol",
+      "line": 241
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "LAZY_ORACLE",
+      "var_type": "address public immutable",
+      "file": "Factory.sol",
+      "line": 246
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "STV_POOL_TYPE",
+      "var_type": "bytes32 public immutable",
+      "file": "Factory.sol",
+      "line": 251
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "STV_STETH_POOL_TYPE",
+      "var_type": "bytes32 public immutable",
+      "file": "Factory.sol",
+      "line": 256
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "STRATEGY_POOL_TYPE",
+      "var_type": "bytes32 public immutable",
+      "file": "Factory.sol",
+      "line": 261
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "STV_POOL_FACTORY",
+      "var_type": "StvPoolFactory public immutable",
+      "file": "Factory.sol",
+      "line": 266
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "STV_STETH_POOL_FACTORY",
+      "var_type": "StvStETHPoolFactory public immutable",
+      "file": "Factory.sol",
+      "line": 271
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "WITHDRAWAL_QUEUE_FACTORY",
+      "var_type": "WithdrawalQueueFactory public immutable",
+      "file": "Factory.sol",
+      "line": 276
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "DISTRIBUTOR_FACTORY",
+      "var_type": "DistributorFactory public immutable",
+      "file": "Factory.sol",
+      "line": 281
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "TIMELOCK_FACTORY",
+      "var_type": "TimelockFactory public immutable",
+      "file": "Factory.sol",
+      "line": 286
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "DUMMY_IMPLEMENTATION",
+      "var_type": "address public immutable",
+      "file": "Factory.sol",
+      "line": 291
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "DEFAULT_ADMIN_ROLE",
+      "var_type": "bytes32 public immutable",
+      "file": "Factory.sol",
+      "line": 296
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "DEPLOY_START_FINISH_SPAN_SECONDS",
+      "var_type": "uint256 public constant",
+      "file": "Factory.sol",
+      "line": 301
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "DEPLOY_FINISHED",
+      "var_type": "uint256 public constant",
+      "file": "Factory.sol",
+      "line": 306
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "intermediateState",
+      "var_type": "mapping(bytes32 => uint256) public",
+      "file": "Factory.sol",
+      "line": 316
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "MINTING_FEATURE",
+      "var_type": "bytes32 public constant",
+      "file": "StvStETHPool.sol",
+      "line": 38
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "MINTING_PAUSE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "StvStETHPool.sol",
+      "line": 39
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "MINTING_RESUME_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "StvStETHPool.sol",
+      "line": 40
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "LOSS_SOCIALIZER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "StvStETHPool.sol",
+      "line": 42
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "RESERVE_RATIO_GAP_BP",
+      "var_type": "uint256 public immutable",
+      "file": "StvStETHPool.sol",
+      "line": 45
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "WSTETH",
+      "var_type": "IWstETH public immutable",
+      "file": "StvStETHPool.sol",
+      "line": 47
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "STV_STETH_POOL_STORAGE_LOCATION",
+      "var_type": "bytes32 private constant",
+      "file": "StvStETHPool.sol",
+      "line": 59
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:290",
+      "call_type": "INTERFACE_CALL",
+      "line": 290,
+      "enclosing_function": "createPoolStart",
+      "file": "Factory.sol",
+      "raw_text": "address timelock = TIMELOCK_FACTORY.deploy("
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:299",
+      "call_type": "INTERFACE_CALL",
+      "line": 299,
+      "enclosing_function": "createPoolStart",
+      "file": "Factory.sol",
+      "raw_text": "(, address dashboardAddress) = VAULT_FACTORY.createVaultWithDashboardWithoutConnectingToVaultHub("
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:308",
+      "call_type": "INTERFACE_CALL",
+      "line": 308,
+      "enclosing_function": "createPoolStart",
+      "file": "Factory.sol",
+      "raw_text": "address wqImpl = WITHDRAWAL_QUEUE_FACTORY.deploy("
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:319",
+      "call_type": "INTERFACE_CALL",
+      "line": 319,
+      "enclosing_function": "createPoolStart",
+      "file": "Factory.sol",
+      "raw_text": "address distributor = DISTRIBUTOR_FACTORY.deploy(timelock, _vaultConfig.nodeOperatorManager);"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:324",
+      "call_type": "INTERFACE_CALL",
+      "line": 324,
+      "enclosing_function": "createPoolStart",
+      "file": "Factory.sol",
+      "raw_text": "poolImpl = STV_POOL_FACTORY.deploy("
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:328",
+      "call_type": "INTERFACE_CALL",
+      "line": 328,
+      "enclosing_function": "createPoolStart",
+      "file": "Factory.sol",
+      "raw_text": "poolImpl = STV_STETH_POOL_FACTORY.deploy("
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:385",
+      "call_type": "INTERFACE_CALL",
+      "line": 385,
+      "enclosing_function": "createPoolFinish",
+      "file": "Factory.sol",
+      "raw_text": "if (msg.value < VAULT_HUB.CONNECT_DEPOSIT()) {"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:386",
+      "call_type": "INTERFACE_CALL",
+      "line": 386,
+      "enclosing_function": "createPoolFinish",
+      "file": "Factory.sol",
+      "raw_text": "revert InsufficientConnectDeposit(msg.value, VAULT_HUB.CONNECT_DEPOSIT());"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:414",
+      "call_type": "INTERFACE_CALL",
+      "line": 414,
+      "enclosing_function": "createPoolFinish",
+      "file": "Factory.sol",
+      "raw_text": "dashboard.connectToVaultHub{value: msg.value}();"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:83",
+      "call_type": "INTERFACE_CALL",
+      "line": 83,
+      "enclosing_function": "initialize",
+      "file": "StvStETHPool.sol",
+      "raw_text": "STETH.approve(address(DASHBOARD), type(uint256).max);"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:84",
+      "call_type": "INTERFACE_CALL",
+      "line": 84,
+      "enclosing_function": "initialize",
+      "file": "StvStETHPool.sol",
+      "raw_text": "WSTETH.approve(address(DASHBOARD), type(uint256).max);"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:259",
+      "call_type": "INTERFACE_CALL",
+      "line": 259,
+      "enclosing_function": "burnWsteth",
+      "file": "StvStETHPool.sol",
+      "raw_text": "assert(WSTETH.transferFrom(msg.sender, address(this), _wsteth));"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:266",
+      "call_type": "INTERFACE_CALL",
+      "line": 266,
+      "enclosing_function": "burnStethShares",
+      "file": "StvStETHPool.sol",
+      "raw_text": "STETH.transferSharesFrom(msg.sender, address(this), _stethShares);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1,
+        2,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        73,
+        81
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 81
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        1,
+        2,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        73,
+        82
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 82
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        1,
+        2,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        73,
+        83
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 83
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        1,
+        2,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        73,
+        84
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 84
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        0,
+        1,
+        2,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        73,
+        85
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 85
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        0,
+        1,
+        2,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        73,
+        86
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 86
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        3,
+        57,
+        70,
+        72,
+        73,
+        87
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 87
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        3,
+        57,
+        70,
+        72,
+        73,
+        88
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 88
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        3,
+        57,
+        70,
+        72,
+        73,
+        89
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 89
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        7,
+        59,
+        90
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 90
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        7,
+        59,
+        91
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 91
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        24,
+        59,
+        92
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 92
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        25,
+        93
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 93
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createPoolStvStart",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createPoolStvStETHStart",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "createPoolStart",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createPoolFinish",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "derivePoolType",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_hashDeploymentConfiguration",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getStvStETHPoolStorage",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositETHAndMintStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "depositETHAndMintWsteth",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "unlockedAssetsOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "unlockedAssetsOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "unlockedStvOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "unlockedStvOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "stethSharesToBurnForStvOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "transferFromWithLiabilityForWithdrawalQueue",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_checkMinStvToLock",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "totalMintedStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "mintedStethSharesOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "totalMintingCapacitySharesOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "remainingMintingCapacitySharesOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "mintWsteth",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "mintStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "burnWsteth",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "burnStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_checkRemainingMintingCapacityOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_increaseMintedStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_decreaseMintedStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_transferStethSharesLiability",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "calcStethSharesToMintForAssets",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "calcStethSharesToMintForStv",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "calcAssetsToLockForStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "calcStvToLockForStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "poolReserveRatioBP",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "poolForcedRebalanceThresholdBP",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "syncVaultParameters",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "totalExceedingMintedStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "totalExceedingMintedSteth",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "totalUnassignedLiabilityShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "rebalanceMintedStethSharesForWithdrawalQueue",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "forceRebalance",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "forceRebalanceAndSocializeLoss",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "previewForceRebalance",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "isHealthyOf",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "rebalanceExceedingMintedStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_rebalanceMintedStethShares",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_isThresholdBreached",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_checkAllowedLossSocializationPortion",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "maxLossSocializationBP",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "setMaxLossSocializationBP",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "transferWithLiability",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_transferWithLiability",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_update",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "pauseMinting",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "resumeMinting",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "VAULT_FACTORY",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "VAULT_HUB",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "STETH",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "WSTETH",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "LAZY_ORACLE",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "STV_POOL_TYPE",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "STV_STETH_POOL_TYPE",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "STRATEGY_POOL_TYPE",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "STV_POOL_FACTORY",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "STV_STETH_POOL_FACTORY",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "WITHDRAWAL_QUEUE_FACTORY",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "DISTRIBUTOR_FACTORY",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "TIMELOCK_FACTORY",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "DUMMY_IMPLEMENTATION",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "DEFAULT_ADMIN_ROLE",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "DEPLOY_START_FINISH_SPAN_SECONDS",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "DEPLOY_FINISHED",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "intermediateState",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "MINTING_FEATURE",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "MINTING_PAUSE_ROLE",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "MINTING_RESUME_ROLE",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "LOSS_SOCIALIZER_ROLE",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "RESERVE_RATIO_GAP_BP",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "WSTETH",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "STV_STETH_POOL_STORAGE_LOCATION",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:290",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:299",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:308",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:319",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:324",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:328",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:385",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:386",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Factory.sol:414",
+      "file": "Factory.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:83",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:84",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:259",
+      "file": "StvStETHPool.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StvStETHPool.sol:266",
+      "file": "StvStETHPool.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 94,
+    "n_hyperedges": 13,
+    "n_functions": 56,
+    "n_state_vars": 25,
+    "n_call_sites": 13,
+    "avg_hyperedge_size": 11.0
+  },
+  "label": {
+    "vfp_id": "vfp_00391",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1109",
+      "CWE-1164",
+      "CWE-1339",
+      "CWE-345",
+      "CWE-348",
+      "CWE-372",
+      "CWE-561",
+      "CWE-664",
+      "CWE-682",
+      "CWE-693",
+      "CWE-710"
+    ]
+  }
+}

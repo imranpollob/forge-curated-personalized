@@ -1,0 +1,392 @@
+{
+  "sample_id": "neg_00323",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "batchMint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 38,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchMintMultiple",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 55,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 77,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approve",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 84,
+      "end_line": 86,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeScenario",
+      "file": "linea-monorepo_contracts_src__testing_mocks_base_LineaScenarioTesting.sol",
+      "start_line": 13,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_executeScenario",
+      "file": "linea-monorepo_contracts_src__testing_mocks_base_LineaScenarioTesting.sol",
+      "start_line": 17,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "start_line": 17,
+      "end_line": 20,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "start_line": 22,
+      "end_line": 27,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "start_line": 29,
+      "end_line": 31,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "approve",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "start_line": 33,
+      "end_line": 37,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "start_line": 39,
+      "end_line": 41,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "start_line": 43,
+      "end_line": 57,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MINTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "line": 15
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "scenario",
+      "var_type": "Scenario private",
+      "file": "linea-monorepo_contracts_src__testing_mocks_base_LineaScenarioTesting.sol",
+      "line": 11
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "line": 5
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "symbol",
+      "var_type": "string public",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "line": 6
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "decimals",
+      "var_type": "uint8 public",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "line": 7
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "var_type": "mapping(address => uint256) public",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "line": 14
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping(address => mapping(address => uint256)) public",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "line": 15
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "TRANSFER:linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol:25",
+      "call_type": "TRANSFER",
+      "line": 25,
+      "enclosing_function": "withdraw",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol",
+      "raw_text": "payable(msg.sender).transfer(wad);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        9,
+        19,
+        21
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 21
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "batchMint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchMintMultiple",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approve",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeScenario",
+      "file": "linea-monorepo_contracts_src__testing_mocks_base_LineaScenarioTesting.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_executeScenario",
+      "file": "linea-monorepo_contracts_src__testing_mocks_base_LineaScenarioTesting.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "approve",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MINTER_ROLE",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "scenario",
+      "file": "linea-monorepo_contracts_src__testing_mocks_base_LineaScenarioTesting.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "symbol",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "decimals",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "TRANSFER:linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol:25",
+      "file": "linea-monorepo_contracts_src__testing_mocks_tokens_TestWETH9.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 1,
+    "n_functions": 14,
+    "n_state_vars": 7,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00323",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

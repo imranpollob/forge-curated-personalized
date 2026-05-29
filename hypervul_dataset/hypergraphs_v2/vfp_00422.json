@@ -1,0 +1,198 @@
+{
+  "sample_id": "vfp_00422",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proxyCreationCode",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployProxy",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 27,
+      "end_line": 49,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "createProxyWithNonce",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 57,
+      "end_line": 62,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createProxyWithNonceL2",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 71,
+      "end_line": 74,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "createChainSpecificProxyWithNonce",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 84,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "createProxyWithCallback",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 103,
+      "end_line": 112,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "createProxyWithCallbackL2",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 123,
+      "end_line": 132,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isContract",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 141,
+      "end_line": 150,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getChainId",
+      "file": "SafeProxyFactory.sol",
+      "start_line": 156,
+      "end_line": 165,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proxyCreationCode",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployProxy",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "createProxyWithNonce",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "createProxyWithNonceL2",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "createChainSpecificProxyWithNonce",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "createProxyWithCallback",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "createProxyWithCallbackL2",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isContract",
+      "file": "SafeProxyFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getChainId",
+      "file": "SafeProxyFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00422",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-115",
+      "CWE-362",
+      "CWE-392",
+      "CWE-435",
+      "CWE-436",
+      "CWE-691",
+      "CWE-703",
+      "CWE-710",
+      "CWE-755"
+    ]
+  }
+}

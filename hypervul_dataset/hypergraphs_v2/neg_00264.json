@@ -1,0 +1,229 @@
+{
+  "sample_id": "neg_00264",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyInclusionProof",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "start_line": 51,
+      "end_line": 62,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "get",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "start_line": 69,
+      "end_line": 177,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_parseProof",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "start_line": 183,
+      "end_line": 192,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getNodeID",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "start_line": 198,
+      "end_line": 200,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getNodePath",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "start_line": 205,
+      "end_line": 207,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getSharedNibbleLength",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "start_line": 213,
+      "end_line": 220,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "TREE_RADIX",
+      "var_type": "uint256 internal constant",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "line": 22
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "BRANCH_NODE_LENGTH",
+      "var_type": "uint256 internal constant",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "line": 25
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "LEAF_OR_EXTENSION_NODE_LENGTH",
+      "var_type": "uint256 internal constant",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "line": 28
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "PREFIX_EXTENSION_EVEN",
+      "var_type": "uint8 internal constant",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "line": 31
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PREFIX_EXTENSION_ODD",
+      "var_type": "uint8 internal constant",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "line": 34
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PREFIX_LEAF_EVEN",
+      "var_type": "uint8 internal constant",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "line": 37
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "PREFIX_LEAF_ODD",
+      "var_type": "uint8 internal constant",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol",
+      "line": 40
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyInclusionProof",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "get",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_parseProof",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getNodeID",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getNodePath",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getSharedNibbleLength",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "TREE_RADIX",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "BRANCH_NODE_LENGTH",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "LEAF_OR_EXTENSION_NODE_LENGTH",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "PREFIX_EXTENSION_EVEN",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "PREFIX_EXTENSION_ODD",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PREFIX_LEAF_EVEN",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "PREFIX_LEAF_ODD",
+      "file": "optimism_packages_contracts-bedrock_src_libraries_trie_MerkleTrie.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 7,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00264",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

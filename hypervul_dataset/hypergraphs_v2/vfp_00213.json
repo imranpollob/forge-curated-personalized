@@ -1,0 +1,453 @@
+{
+  "sample_id": "vfp_00213",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 47,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "skim",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 55,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 65,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 80,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "ids",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 94,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 100,
+      "end_line": 102,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 104,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateTotalAssets",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 110,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_updateTotalAssets",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 123,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "adapterData",
+      "file": "BoxAdapterCached.sol",
+      "start_line": 128,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "address public immutable",
+      "file": "BoxAdapterCached.sol",
+      "line": 23
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "var_type": "address public immutable",
+      "file": "BoxAdapterCached.sol",
+      "line": 24
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "box",
+      "var_type": "IBox public immutable",
+      "file": "BoxAdapterCached.sol",
+      "line": 25
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "var_type": "bytes32 public immutable",
+      "file": "BoxAdapterCached.sol",
+      "line": 26
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "var_type": "address public",
+      "file": "BoxAdapterCached.sol",
+      "line": 30
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "totalAssets",
+      "var_type": "uint256 public",
+      "file": "BoxAdapterCached.sol",
+      "line": 31
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "totalAssetsTimestamp",
+      "var_type": "uint256 public",
+      "file": "BoxAdapterCached.sol",
+      "line": 32
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:43",
+      "call_type": "INTERFACE_CALL",
+      "line": 43,
+      "enclosing_function": "",
+      "file": "BoxAdapterCached.sol",
+      "raw_text": "SafeERC20Lib.safeApprove(asset, _parentVault, type(uint256).max);"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:44",
+      "call_type": "INTERFACE_CALL",
+      "line": 44,
+      "enclosing_function": "",
+      "file": "BoxAdapterCached.sol",
+      "raw_text": "SafeERC20Lib.safeApprove(asset, address(_box), type(uint256).max);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:59",
+      "call_type": "INTERFACE_CALL",
+      "line": 59,
+      "enclosing_function": "skim",
+      "file": "BoxAdapterCached.sol",
+      "raw_text": "SafeERC20Lib.safeTransfer(token, skimRecipient, balance);"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:72",
+      "call_type": "INTERFACE_CALL",
+      "line": 72,
+      "enclosing_function": "allocate",
+      "file": "BoxAdapterCached.sol",
+      "raw_text": "int256 newAllocation = totalAssets.toInt256();"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:87",
+      "call_type": "INTERFACE_CALL",
+      "line": 87,
+      "enclosing_function": "deallocate",
+      "file": "BoxAdapterCached.sol",
+      "raw_text": "int256 newAllocation = totalAssets.toInt256();"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:124",
+      "call_type": "INTERFACE_CALL",
+      "line": 124,
+      "enclosing_function": "_updateTotalAssets",
+      "file": "BoxAdapterCached.sol",
+      "raw_text": "totalAssets = box.previewRedeem(box.balanceOf(address(this)));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        12,
+        14,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        11,
+        12,
+        15,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        11,
+        12,
+        15,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        2,
+        3,
+        7,
+        8,
+        11,
+        12,
+        15,
+        16,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "skim",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "ids",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateTotalAssets",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_updateTotalAssets",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "adapterData",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "box",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "totalAssets",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "totalAssetsTimestamp",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:43",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:44",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:59",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:72",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:87",
+      "file": "BoxAdapterCached.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapterCached.sol:124",
+      "file": "BoxAdapterCached.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 23,
+    "n_hyperedges": 4,
+    "n_functions": 10,
+    "n_state_vars": 7,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 5.75
+  },
+  "label": {
+    "vfp_id": "vfp_00213",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

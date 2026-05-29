@@ -1,0 +1,1042 @@
+{
+  "sample_id": "vfp_00059",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "Gateway.sol",
+      "start_line": 86,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "file",
+      "file": "Gateway.sol",
+      "start_line": 119,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handle",
+      "file": "Gateway.sol",
+      "start_line": 136,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_handle",
+      "file": "Gateway.sol",
+      "start_line": 140,
+      "end_line": 202,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_handleBatch",
+      "file": "Gateway.sol",
+      "start_line": 204,
+      "end_line": 221,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "retry",
+      "file": "Gateway.sol",
+      "start_line": 223,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initiateRecovery",
+      "file": "Gateway.sol",
+      "start_line": 234,
+      "end_line": 238,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "disputeRecovery",
+      "file": "Gateway.sol",
+      "start_line": 241,
+      "end_line": 244,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "executeRecovery",
+      "file": "Gateway.sol",
+      "start_line": 247,
+      "end_line": 257,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "send",
+      "file": "Gateway.sol",
+      "start_line": 264,
+      "end_line": 289,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_send",
+      "file": "Gateway.sol",
+      "start_line": 291,
+      "end_line": 365,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "repay",
+      "file": "Gateway.sol",
+      "start_line": 368,
+      "end_line": 379,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_refundTransaction",
+      "file": "Gateway.sol",
+      "start_line": 381,
+      "end_line": 398,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_requestPoolFunding",
+      "file": "Gateway.sol",
+      "start_line": 400,
+      "end_line": 413,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setRefundAddress",
+      "file": "Gateway.sol",
+      "start_line": 416,
+      "end_line": 419,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "subsidizePool",
+      "file": "Gateway.sol",
+      "start_line": 422,
+      "end_line": 425,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_subsidizePool",
+      "file": "Gateway.sol",
+      "start_line": 427,
+      "end_line": 430,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "payTransaction",
+      "file": "Gateway.sol",
+      "start_line": 433,
+      "end_line": 436,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "startBatching",
+      "file": "Gateway.sol",
+      "start_line": 439,
+      "end_line": 441,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "endBatching",
+      "file": "Gateway.sol",
+      "start_line": 444,
+      "end_line": 462,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_encodeLocator",
+      "file": "Gateway.sol",
+      "start_line": 464,
+      "end_line": 466,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_parseLocator",
+      "file": "Gateway.sol",
+      "start_line": 468,
+      "end_line": 471,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_gasLimitSlot",
+      "file": "Gateway.sol",
+      "start_line": 473,
+      "end_line": 475,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_outboundBatchSlot",
+      "file": "Gateway.sol",
+      "start_line": 477,
+      "end_line": 479,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "estimate",
+      "file": "Gateway.sol",
+      "start_line": 486,
+      "end_line": 501,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "Gateway.sol",
+      "start_line": 504,
+      "end_line": 507,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "activeSessionId",
+      "file": "Gateway.sol",
+      "start_line": 510,
+      "end_line": 513,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "votes",
+      "file": "Gateway.sol",
+      "start_line": 516,
+      "end_line": 518,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "MAX_ADAPTER_COUNT",
+      "var_type": "uint8 public constant",
+      "file": "Gateway.sol",
+      "line": 38
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "PRIMARY_ADAPTER_ID",
+      "var_type": "uint8 public constant",
+      "file": "Gateway.sol",
+      "line": 39
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "GLOBAL_POT",
+      "var_type": "PoolId public constant",
+      "file": "Gateway.sol",
+      "line": 40
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "RECOVERY_CHALLENGE_PERIOD",
+      "var_type": "uint256 public constant",
+      "file": "Gateway.sol",
+      "line": 41
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "BATCH_LOCATORS_SLOT",
+      "var_type": "bytes32 public constant",
+      "file": "Gateway.sol",
+      "line": 42
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "localCentrifugeId",
+      "var_type": "uint16 public immutable",
+      "file": "Gateway.sol",
+      "line": 44
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "root",
+      "var_type": "IRoot public immutable",
+      "file": "Gateway.sol",
+      "line": 47
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "gasService",
+      "var_type": "IGasService public",
+      "file": "Gateway.sol",
+      "line": 48
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "processor",
+      "var_type": "IMessageProcessor public",
+      "file": "Gateway.sol",
+      "line": 49
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "isBatching",
+      "var_type": "bool public transient",
+      "file": "Gateway.sol",
+      "line": 52
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "fuel",
+      "var_type": "uint256 public transient",
+      "file": "Gateway.sol",
+      "line": 53
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "transactionRefund",
+      "var_type": "address public transient",
+      "file": "Gateway.sol",
+      "line": 54
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "subsidy",
+      "var_type": "mapping(PoolId => Funds) public",
+      "file": "Gateway.sol",
+      "line": 55
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "underpaid",
+      "var_type": "mapping(uint16 centrifugeId => mapping(bytes32 batchHash => uint256)) public",
+      "file": "Gateway.sol",
+      "line": 56
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "adapters",
+      "var_type": "mapping(uint16 centrifugeId => IAdapter[]) public",
+      "file": "Gateway.sol",
+      "line": 59
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_activeAdapters",
+      "var_type": "mapping(uint16 centrifugeId => mapping(IAdapter adapter => Adapter)) internal",
+      "file": "Gateway.sol",
+      "line": 60
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "failedMessages",
+      "var_type": "mapping(uint16 centrifugeId => mapping(bytes32 messageHash => uint256)) public",
+      "file": "Gateway.sol",
+      "line": 63
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "inboundBatch",
+      "var_type": "mapping(uint16 centrifugeId => mapping(bytes32 batchHash => InboundBatch)) public",
+      "file": "Gateway.sol",
+      "line": 64
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "recoveries",
+      "var_type": "mapping(uint16 centrifugeId => mapping(IAdapter adapter => mapping(bytes32 payloadHash => uint256 timestamp)))\n        public",
+      "file": "Gateway.sol",
+      "line": 65
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:77",
+      "call_type": "INTERFACE_CALL",
+      "line": 77,
+      "enclosing_function": "",
+      "file": "Gateway.sol",
+      "raw_text": "require(!root.paused(), Paused());"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:267",
+      "call_type": "INTERFACE_CALL",
+      "line": 267,
+      "enclosing_function": "send",
+      "file": "Gateway.sol",
+      "raw_text": "PoolId poolId = processor.messagePoolId(message);"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:276",
+      "call_type": "INTERFACE_CALL",
+      "line": 276,
+      "enclosing_function": "send",
+      "file": "Gateway.sol",
+      "raw_text": "uint128 newGasLimit = gasLimitSlot.tloadUint128() + gasService.gasLimit(centrifugeId, message);"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:277",
+      "call_type": "INTERFACE_CALL",
+      "line": 277,
+      "enclosing_function": "send",
+      "file": "Gateway.sol",
+      "raw_text": "require(newGasLimit <= gasService.maxBatchSize(centrifugeId), ExceedsMaxBatchSize());"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:299",
+      "call_type": "INTERFACE_CALL",
+      "line": 299,
+      "enclosing_function": "_send",
+      "file": "Gateway.sol",
+      "raw_text": ": gasService.gasLimit(centrifugeId, batch),"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:372",
+      "call_type": "INTERFACE_CALL",
+      "line": 372,
+      "enclosing_function": "repay",
+      "file": "Gateway.sol",
+      "raw_text": "PoolId poolId = processor.messagePoolId(batch);"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "CALL:Gateway.sol:391",
+      "call_type": "CALL",
+      "line": 391,
+      "enclosing_function": "_refundTransaction",
+      "file": "Gateway.sol",
+      "raw_text": "(bool success,) = payable(transactionRefund_).call{value: fuel_}(new bytes(0));"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:492",
+      "call_type": "INTERFACE_CALL",
+      "line": 492,
+      "enclosing_function": "estimate",
+      "file": "Gateway.sol",
+      "raw_text": "gasLimit += gasService.gasLimit(centrifugeId, inner);"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:493",
+      "call_type": "INTERFACE_CALL",
+      "line": 493,
+      "enclosing_function": "estimate",
+      "file": "Gateway.sol",
+      "raw_text": "pos += processor.messageLength(inner);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        9,
+        32,
+        35,
+        36,
+        37,
+        48
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 48
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        9,
+        32,
+        35,
+        36,
+        37,
+        49
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 49
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        9,
+        32,
+        35,
+        36,
+        37,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        9,
+        10,
+        11,
+        19,
+        28,
+        29,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        51
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 51
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        11,
+        36,
+        41,
+        52
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 52
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        9,
+        12,
+        19,
+        30,
+        32,
+        35,
+        36,
+        37,
+        38,
+        39,
+        53
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 53
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        24,
+        29,
+        35,
+        36,
+        42,
+        54
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 54
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        24,
+        29,
+        35,
+        36,
+        42,
+        55
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 55
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "file",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handle",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_handle",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_handleBatch",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "retry",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initiateRecovery",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "disputeRecovery",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "executeRecovery",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "send",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_send",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "repay",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_refundTransaction",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_requestPoolFunding",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setRefundAddress",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "subsidizePool",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_subsidizePool",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "payTransaction",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "startBatching",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "endBatching",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_encodeLocator",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_parseLocator",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_gasLimitSlot",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_outboundBatchSlot",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "estimate",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "activeSessionId",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "votes",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "MAX_ADAPTER_COUNT",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "PRIMARY_ADAPTER_ID",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "GLOBAL_POT",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "RECOVERY_CHALLENGE_PERIOD",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "BATCH_LOCATORS_SLOT",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "localCentrifugeId",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "root",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "gasService",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "processor",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "isBatching",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "fuel",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "transactionRefund",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "subsidy",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "underpaid",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "adapters",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_activeAdapters",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "failedMessages",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "inboundBatch",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "recoveries",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:77",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:267",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:276",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:277",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:299",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:372",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "CALL:Gateway.sol:391",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:492",
+      "file": "Gateway.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Gateway.sol:493",
+      "file": "Gateway.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 56,
+    "n_hyperedges": 8,
+    "n_functions": 28,
+    "n_state_vars": 19,
+    "n_call_sites": 9,
+    "avg_hyperedge_size": 7.75
+  },
+  "label": {
+    "vfp_id": "vfp_00059",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-435",
+      "CWE-691"
+    ]
+  }
+}

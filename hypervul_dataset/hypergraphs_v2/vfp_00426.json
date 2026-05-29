@@ -1,0 +1,367 @@
+{
+  "sample_id": "vfp_00426",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setup",
+      "file": "Safe.sol",
+      "start_line": 84,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "execTransaction",
+      "file": "Safe.sol",
+      "start_line": 111,
+      "end_line": 202,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handlePayment",
+      "file": "Safe.sol",
+      "start_line": 212,
+      "end_line": 230,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkContractSignature",
+      "file": "Safe.sol",
+      "start_line": 241,
+      "end_line": 266,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkSignatures",
+      "file": "Safe.sol",
+      "start_line": 271,
+      "end_line": 277,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "checkNSignatures",
+      "file": "Safe.sol",
+      "start_line": 282,
+      "end_line": 337,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "checkSignatures",
+      "file": "Safe.sol",
+      "start_line": 350,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "checkNSignatures",
+      "file": "Safe.sol",
+      "start_line": 367,
+      "end_line": 370,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "approveHash",
+      "file": "Safe.sol",
+      "start_line": 375,
+      "end_line": 379,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "domainSeparator",
+      "file": "Safe.sol",
+      "start_line": 384,
+      "end_line": 394,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getTransactionHash",
+      "file": "Safe.sol",
+      "start_line": 399,
+      "end_line": 468,
+      "visibility": "public",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "onBeforeExecTransaction",
+      "file": "Safe.sol",
+      "start_line": 477,
+      "end_line": 488,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "string public constant override",
+      "file": "Safe.sol",
+      "line": 52
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "Safe.sol",
+      "line": 57
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "SAFE_TX_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "Safe.sol",
+      "line": 62
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "nonce",
+      "var_type": "uint256 public override",
+      "file": "Safe.sol",
+      "line": 64
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_deprecatedDomainSeparator",
+      "var_type": "bytes32 private",
+      "file": "Safe.sol",
+      "line": 65
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "signedMessages",
+      "var_type": "mapping(bytes32 => uint256) public override",
+      "file": "Safe.sol",
+      "line": 67
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "approvedHashes",
+      "var_type": "mapping(address => mapping(bytes32 => uint256)) public override",
+      "file": "Safe.sol",
+      "line": 69
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "CALL:Safe.sol:191",
+      "call_type": "CALL",
+      "line": 191,
+      "enclosing_function": "handlePayment",
+      "file": "Safe.sol",
+      "raw_text": "(bool refundSuccess, ) = receiver.call{value: payment}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1,
+        2,
+        15,
+        19
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setup",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "execTransaction",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handlePayment",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkContractSignature",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkSignatures",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "checkNSignatures",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "checkSignatures",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "checkNSignatures",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "approveHash",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "domainSeparator",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getTransactionHash",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "onBeforeExecTransaction",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR_TYPEHASH",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "SAFE_TX_TYPEHASH",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "nonce",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_deprecatedDomainSeparator",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "signedMessages",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "approvedHashes",
+      "file": "Safe.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "CALL:Safe.sol:191",
+      "file": "Safe.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 1,
+    "n_functions": 12,
+    "n_state_vars": 7,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00426",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

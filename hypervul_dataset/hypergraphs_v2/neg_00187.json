@@ -1,0 +1,258 @@
+{
+  "sample_id": "neg_00187",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setNativeRefund",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getAddLiquidity",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol",
+      "start_line": 26,
+      "end_line": 51,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getRemoveLiquidity",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol",
+      "start_line": 53,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol",
+      "start_line": 83,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 18,
+      "end_line": 21,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 23,
+      "end_line": 35,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 37,
+      "end_line": 44,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 49,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "nativeRefund",
+      "var_type": "uint256 public",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol",
+      "line": 18
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "targetOutput",
+      "var_type": "uint256 public",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "applyTargetOutput",
+      "var_type": "bool public",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "line": 10
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setNativeRefund",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getAddLiquidity",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getRemoveLiquidity",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "nativeRefund",
+      "file": "uniswap-hooks_test_mocks_BaseCustomAccountingMock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "targetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "applyTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 0,
+    "n_functions": 11,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00187",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

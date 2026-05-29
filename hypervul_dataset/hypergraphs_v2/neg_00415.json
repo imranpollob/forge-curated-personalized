@@ -1,0 +1,148 @@
+{
+  "sample_id": "neg_00415",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getNttManagerOwner",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getNttManagerToken",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol",
+      "start_line": 44,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getTransceiverType",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quoteDeliveryPrice",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol",
+      "start_line": 55,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol",
+      "start_line": 67,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "upgrade",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol",
+      "start_line": 77,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferTransceiverOwnership",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getNttManagerOwner",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getNttManagerToken",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getTransceiverType",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quoteDeliveryPrice",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "upgrade",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferTransceiverOwnership",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_ITransceiver.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00415",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

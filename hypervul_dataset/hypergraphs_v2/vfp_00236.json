@@ -1,0 +1,248 @@
+{
+  "sample_id": "vfp_00236",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployRateKeeper",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 47,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onCreateMarket",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 80,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onShutdownMarket",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 92,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "onUpdateRateKeeper",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 105,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "onAddToken",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 127,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "configure",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 141,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getRateKeeperType",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 157,
+      "end_line": 163,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_isForbiddenConfigurationCall",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 165,
+      "end_line": 171,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_addToken",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 173,
+      "end_line": 180,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setFrozenEpoch",
+      "file": "RateKeeperFactory.sol",
+      "start_line": 182,
+      "end_line": 184,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "version",
+      "var_type": "uint256 public constant override",
+      "file": "RateKeeperFactory.sol",
+      "line": 29
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "contractType",
+      "var_type": "bytes32 public constant override",
+      "file": "RateKeeperFactory.sol",
+      "line": 32
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "gearStaking",
+      "var_type": "address public immutable",
+      "file": "RateKeeperFactory.sol",
+      "line": 35
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployRateKeeper",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onCreateMarket",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onShutdownMarket",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "onUpdateRateKeeper",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "onAddToken",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "configure",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getRateKeeperType",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_isForbiddenConfigurationCall",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_addToken",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setFrozenEpoch",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "version",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "contractType",
+      "file": "RateKeeperFactory.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "gearStaking",
+      "file": "RateKeeperFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00236",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

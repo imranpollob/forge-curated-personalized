@@ -1,0 +1,691 @@
+{
+  "sample_id": "neg_00630",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "exactInputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "start_line": 46,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "start_line": 101,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exactOutputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "start_line": 151,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "start_line": 206,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_extractTokens",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "start_line": 252,
+      "end_line": 260,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "creditManager",
+      "var_type": "ICreditManager public",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "line": 23
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "creditFilter",
+      "var_type": "ICreditFilter public",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "line": 24
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "router",
+      "var_type": "address public",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "line": 25
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ADDR_SIZE",
+      "var_type": "uint256 private constant",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "line": 28
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:39",
+      "call_type": "INTERFACE_CALL",
+      "line": 39,
+      "enclosing_function": "",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditFilter = ICreditFilter(creditManager.creditFilter());"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:53",
+      "call_type": "INTERFACE_CALL",
+      "line": 53,
+      "enclosing_function": "exactInputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "address creditAccount = creditManager.getCreditAccountOrRevert("
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:57",
+      "call_type": "INTERFACE_CALL",
+      "line": 57,
+      "enclosing_function": "exactInputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.provideCreditAccountAllowance("
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:81",
+      "call_type": "INTERFACE_CALL",
+      "line": 81,
+      "enclosing_function": "exactInputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.executeOrder(msg.sender, router, data),"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:85",
+      "call_type": "INTERFACE_CALL",
+      "line": 85,
+      "enclosing_function": "exactInputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditFilter.checkCollateralChange("
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:108",
+      "call_type": "INTERFACE_CALL",
+      "line": 108,
+      "enclosing_function": "exactInput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "address creditAccount = creditManager.getCreditAccountOrRevert("
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:114",
+      "call_type": "INTERFACE_CALL",
+      "line": 114,
+      "enclosing_function": "exactInput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.provideCreditAccountAllowance("
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:134",
+      "call_type": "INTERFACE_CALL",
+      "line": 134,
+      "enclosing_function": "exactInput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.executeOrder(msg.sender, router, data),"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:139",
+      "call_type": "INTERFACE_CALL",
+      "line": 139,
+      "enclosing_function": "exactInput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditFilter.checkCollateralChange("
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:143",
+      "call_type": "INTERFACE_CALL",
+      "line": 143,
+      "enclosing_function": "exactInput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "balanceInBefore.sub(IERC20(tokenIn).balanceOf(creditAccount)),"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:158",
+      "call_type": "INTERFACE_CALL",
+      "line": 158,
+      "enclosing_function": "exactOutputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "address creditAccount = creditManager.getCreditAccountOrRevert("
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:162",
+      "call_type": "INTERFACE_CALL",
+      "line": 162,
+      "enclosing_function": "exactOutputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.provideCreditAccountAllowance("
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:186",
+      "call_type": "INTERFACE_CALL",
+      "line": 186,
+      "enclosing_function": "exactOutputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.executeOrder(msg.sender, router, data),"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:190",
+      "call_type": "INTERFACE_CALL",
+      "line": 190,
+      "enclosing_function": "exactOutputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditFilter.checkCollateralChange("
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:213",
+      "call_type": "INTERFACE_CALL",
+      "line": 213,
+      "enclosing_function": "exactOutput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "address creditAccount = creditManager.getCreditAccountOrRevert("
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:219",
+      "call_type": "INTERFACE_CALL",
+      "line": 219,
+      "enclosing_function": "exactOutput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.provideCreditAccountAllowance("
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:238",
+      "call_type": "INTERFACE_CALL",
+      "line": 238,
+      "enclosing_function": "exactOutput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditManager.executeOrder(msg.sender, router, data),"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:243",
+      "call_type": "INTERFACE_CALL",
+      "line": 243,
+      "enclosing_function": "exactOutput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "creditFilter.checkCollateralChange("
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:247",
+      "call_type": "INTERFACE_CALL",
+      "line": 247,
+      "enclosing_function": "exactOutput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol",
+      "raw_text": "balanceInBefore.sub(IERC20(tokenIn).balanceOf(creditAccount)),"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        2,
+        5,
+        6,
+        7,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        2,
+        5,
+        6,
+        7,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        2,
+        5,
+        6,
+        7,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        2,
+        5,
+        6,
+        7,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        3,
+        5,
+        6,
+        7,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        3,
+        5,
+        6,
+        7,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        3,
+        5,
+        6,
+        7,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        3,
+        5,
+        6,
+        7,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        3,
+        5,
+        6,
+        7,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "exactInputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exactOutputSingle",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_extractTokens",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "creditManager",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "creditFilter",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "router",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ADDR_SIZE",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:39",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:53",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:57",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:81",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:85",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:108",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:114",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:134",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:139",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:143",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:158",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:162",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:186",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:190",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:213",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:219",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:238",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:243",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol:247",
+      "file": "puffer-contracts_semgrep-rules_security_gearbox-tokens-path-confusion.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 28,
+    "n_hyperedges": 18,
+    "n_functions": 5,
+    "n_state_vars": 4,
+    "n_call_sites": 19,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "neg_00630",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

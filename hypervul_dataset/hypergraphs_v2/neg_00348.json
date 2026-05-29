@@ -1,0 +1,502 @@
+{
+  "sample_id": "neg_00348",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getRate",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol",
+      "start_line": 25,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setImplementation",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol",
+      "start_line": 43,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDataToCallWith",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol",
+      "start_line": 52,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAccountant",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol",
+      "start_line": 35,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol",
+      "start_line": 62,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAllowedSlippage",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "start_line": 91,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "swapWithUniswapV3",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "start_line": 110,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapWithBalancerV2",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "start_line": 194,
+      "end_line": 258,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "swapWithCurve",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "start_line": 272,
+      "end_line": 326,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "implementation",
+      "var_type": "address public",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol",
+      "line": 12
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "dataToCallWith",
+      "var_type": "bytes",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol",
+      "line": 13
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "accountant",
+      "var_type": "AccountantWithRateProviders public",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol",
+      "line": 14
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "decimals",
+      "var_type": "uint8 public",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol",
+      "line": 23
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MAX_SLIPPAGE",
+      "var_type": "uint256 internal constant",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "line": 34
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "allowedSlippage",
+      "var_type": "uint16 public",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "line": 41
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "router",
+      "var_type": "IUniswapV3Router internal immutable",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "line": 58
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "balancerVault",
+      "var_type": "BalancerVault internal immutable",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "line": 63
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "priceRouter",
+      "var_type": "PriceRouter internal immutable",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "line": 68
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "STATICCALL:0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol:28",
+      "call_type": "STATICCALL",
+      "line": 28,
+      "enclosing_function": "getRate",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol",
+      "raw_text": "(bool success, bytes memory result) = implementation.staticcall(dataToCallWith);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol:31",
+      "call_type": "INTERFACE_CALL",
+      "line": 31,
+      "enclosing_function": "setAccountant",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol",
+      "raw_text": "if (_newDecimals != accountant.decimals()) {"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol:58",
+      "call_type": "INTERFACE_CALL",
+      "line": 58,
+      "enclosing_function": "latestRoundData",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol",
+      "raw_text": "uint256 uint256Answer = accountant.getRate();"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:127",
+      "call_type": "INTERFACE_CALL",
+      "line": 127,
+      "enclosing_function": "swapWithUniswapV3",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "raw_text": "uint256 tokenOutQuotedInTokenIn = priceRouter.getValue(tokenOut, tokenOutBalanceDelta, path[0]);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:175",
+      "call_type": "INTERFACE_CALL",
+      "line": 175,
+      "enclosing_function": "swapWithBalancerV2",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "raw_text": "targetData[1] = abi.encodeWithSelector(balancerVault.swap.selector, singleSwap, funds, limit, deadline);"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:194",
+      "call_type": "INTERFACE_CALL",
+      "line": 194,
+      "enclosing_function": "swapWithBalancerV2",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "raw_text": "priceRouter.getValue(ERC20(singleSwap.assetOut), tokenOutDelta, ERC20(singleSwap.assetIn));"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:251",
+      "call_type": "INTERFACE_CALL",
+      "line": 251,
+      "enclosing_function": "swapWithCurve",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol",
+      "raw_text": "uint256 tokenOutQuotedInTokenIn = priceRouter.getValue(info.assetOut, tokenOutDelta, info.assetIn);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        9,
+        10,
+        18
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        11,
+        12,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        4,
+        11,
+        12,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        6,
+        14,
+        15,
+        17,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        7,
+        14,
+        16,
+        17,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        7,
+        14,
+        16,
+        17,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        8,
+        14,
+        17,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getRate",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setImplementation",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDataToCallWith",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setAccountant",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setAllowedSlippage",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "swapWithUniswapV3",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapWithBalancerV2",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "swapWithCurve",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "implementation",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "dataToCallWith",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "accountant",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "decimals",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MAX_SLIPPAGE",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "allowedSlippage",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "router",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "balancerVault",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "priceRouter",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "STATICCALL:0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol:28",
+      "file": "0x5b615c65fcdd17f8dfaa693e5dcc754f92df504a_nucleus-boring-vault_src_helper_OracleRelay.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol:31",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol:58",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_helper_AccountantChainlinkRedstoneAdapter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:127",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:175",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:194",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol:251",
+      "file": "0x7032978ef1fc44271145bb593be45be1c7a0b6c5_nucleus-boring-vault_src_micro-managers_DexSwapperUManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 25,
+    "n_hyperedges": 7,
+    "n_functions": 9,
+    "n_state_vars": 9,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 4.571428571428571
+  },
+  "label": {
+    "vfp_id": "neg_00348",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

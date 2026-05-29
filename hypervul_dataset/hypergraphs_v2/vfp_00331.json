@@ -1,0 +1,477 @@
+{
+  "sample_id": "vfp_00331",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setInitParams",
+      "file": "AgentMigrator.sol",
+      "start_line": 52,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setTokenSupplyParams",
+      "file": "AgentMigrator.sol",
+      "start_line": 66,
+      "end_line": 84,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setTokenTaxParams",
+      "file": "AgentMigrator.sol",
+      "start_line": 86,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setImplementations",
+      "file": "AgentMigrator.sol",
+      "start_line": 100,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "migrateAgent",
+      "file": "AgentMigrator.sol",
+      "start_line": 110,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_createNewDAO",
+      "file": "AgentMigrator.sol",
+      "start_line": 162,
+      "end_line": 178,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_createNewAgentVeToken",
+      "file": "AgentMigrator.sol",
+      "start_line": 180,
+      "end_line": 199,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_createNewAgentToken",
+      "file": "AgentMigrator.sol",
+      "start_line": 201,
+      "end_line": 214,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "pause",
+      "file": "AgentMigrator.sol",
+      "start_line": 216,
+      "end_line": 218,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "AgentMigrator.sol",
+      "start_line": 220,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "reset",
+      "file": "AgentMigrator.sol",
+      "start_line": 224,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_nft",
+      "var_type": "AgentNftV2 private",
+      "file": "AgentMigrator.sol",
+      "line": 16
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_tokenSupplyParams",
+      "var_type": "bytes private",
+      "file": "AgentMigrator.sol",
+      "line": 18
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_tokenTaxParams",
+      "var_type": "bytes private",
+      "file": "AgentMigrator.sol",
+      "line": 19
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_tokenAdmin",
+      "var_type": "address private",
+      "file": "AgentMigrator.sol",
+      "line": 20
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_assetToken",
+      "var_type": "address private",
+      "file": "AgentMigrator.sol",
+      "line": 21
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_uniswapRouter",
+      "var_type": "address private",
+      "file": "AgentMigrator.sol",
+      "line": 22
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "initialAmount",
+      "var_type": "uint256 public",
+      "file": "AgentMigrator.sol",
+      "line": 23
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "tokenImplementation",
+      "var_type": "address public",
+      "file": "AgentMigrator.sol",
+      "line": 24
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "daoImplementation",
+      "var_type": "address public",
+      "file": "AgentMigrator.sol",
+      "line": 25
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "veTokenImplementation",
+      "var_type": "address public",
+      "file": "AgentMigrator.sol",
+      "line": 26
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "maturityDuration",
+      "var_type": "uint256 public",
+      "file": "AgentMigrator.sol",
+      "line": 27
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "migratedAgents",
+      "var_type": "mapping(uint256 => bool) public",
+      "file": "AgentMigrator.sol",
+      "line": 29
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "locked",
+      "var_type": "bool internal",
+      "file": "AgentMigrator.sol",
+      "line": 31
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentMigrator.sol:118",
+      "call_type": "INTERFACE_CALL",
+      "line": 118,
+      "enclosing_function": "migrateAgent",
+      "file": "AgentMigrator.sol",
+      "raw_text": "IAgentNft.VirtualInfo memory virtualInfo = _nft.virtualInfo(id);"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentMigrator.sol:148",
+      "call_type": "INTERFACE_CALL",
+      "line": 148,
+      "enclosing_function": "migrateAgent",
+      "file": "AgentMigrator.sol",
+      "raw_text": "_nft.migrateVirtual(id, dao, token, lp, veToken);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        11,
+        15,
+        17,
+        22,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        11,
+        15,
+        17,
+        22,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setInitParams",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setTokenSupplyParams",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setTokenTaxParams",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setImplementations",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "migrateAgent",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_createNewDAO",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_createNewAgentVeToken",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_createNewAgentToken",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "pause",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "reset",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_nft",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_tokenSupplyParams",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_tokenTaxParams",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_tokenAdmin",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_assetToken",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_uniswapRouter",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "initialAmount",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "tokenImplementation",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "daoImplementation",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "veTokenImplementation",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "maturityDuration",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "migratedAgents",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "locked",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentMigrator.sol:118",
+      "file": "AgentMigrator.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AgentMigrator.sol:148",
+      "file": "AgentMigrator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 2,
+    "n_functions": 11,
+    "n_state_vars": 13,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "vfp_00331",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1419",
+      "CWE-221",
+      "CWE-284",
+      "CWE-285",
+      "CWE-358",
+      "CWE-404",
+      "CWE-454",
+      "CWE-664",
+      "CWE-665",
+      "CWE-669",
+      "CWE-693",
+      "CWE-772",
+      "CWE-863"
+    ]
+  }
+}

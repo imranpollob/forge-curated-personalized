@@ -1,0 +1,221 @@
+{
+  "sample_id": "neg_00241",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "start_line": 35,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "start_line": 78,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "start_line": 87,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "AA_FACTORY_CONTRACT_ADDRESS",
+      "var_type": "address public immutable",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "line": 17
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "SESSION_KEY_VALIDATOR_CONTRACT_ADDRESS",
+      "var_type": "address public immutable",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "line": 18
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "DEPLOY_ACCOUNT_SELECTOR",
+      "var_type": "bytes4 constant",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "line": 19
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "SESSION_CREATE_SELECTOR",
+      "var_type": "bytes4 constant",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "line": 20
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SESSION_REVOKE_KEY_SELECTOR",
+      "var_type": "bytes4 constant",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "line": 21
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "SESSION_REVOKE_KEYS_SELECTOR",
+      "var_type": "bytes4 constant",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "line": 22
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "CALL:zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol:74",
+      "call_type": "CALL",
+      "line": 74,
+      "enclosing_function": "validateAndPayForPaymasterTransaction",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "raw_text": "(bool success, ) = payable(BOOTLOADER_FORMAL_ADDRESS).call{ value: requiredETH }(\"\");"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "CALL:zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol:89",
+      "call_type": "CALL",
+      "line": 89,
+      "enclosing_function": "withdraw",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol",
+      "raw_text": "(bool success, ) = _to.call{ value: balance }(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        10
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "AA_FACTORY_CONTRACT_ADDRESS",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "SESSION_KEY_VALIDATOR_CONTRACT_ADDRESS",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "DEPLOY_ACCOUNT_SELECTOR",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "SESSION_CREATE_SELECTOR",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "SESSION_REVOKE_KEY_SELECTOR",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "SESSION_REVOKE_KEYS_SELECTOR",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "CALL:zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol:74",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "CALL:zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol:89",
+      "file": "zksync-sso-clave-contracts_src_test_ExampleAuthServerPaymaster.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 2,
+    "n_functions": 3,
+    "n_state_vars": 6,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "neg_00241",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

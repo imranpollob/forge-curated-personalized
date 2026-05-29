@@ -1,0 +1,701 @@
+{
+  "sample_id": "vfp_00608",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "MultiSig.sol",
+      "start_line": 88,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setThreshold",
+      "file": "MultiSig.sol",
+      "start_line": 98,
+      "end_line": 104,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setSigner",
+      "file": "MultiSig.sol",
+      "start_line": 112,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_addSigner",
+      "file": "MultiSig.sol",
+      "start_line": 126,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_removeSigner",
+      "file": "MultiSig.sol",
+      "start_line": 139,
+      "end_line": 144,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verifySignatures",
+      "file": "MultiSig.sol",
+      "start_line": 152,
+      "end_line": 154,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "verifyNSignatures",
+      "file": "MultiSig.sol",
+      "start_line": 167,
+      "end_line": 188,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSigners",
+      "file": "MultiSig.sol",
+      "start_line": 194,
+      "end_line": 196,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isSigner",
+      "file": "MultiSig.sol",
+      "start_line": 203,
+      "end_line": 205,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "totalSigners",
+      "file": "MultiSig.sol",
+      "start_line": 211,
+      "end_line": 213,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_setSeed",
+      "file": "OneSig.sol",
+      "start_line": 164,
+      "end_line": 167,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setSeed",
+      "file": "OneSig.sol",
+      "start_line": 174,
+      "end_line": 176,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "OneSig.sol",
+      "start_line": 187,
+      "end_line": 213,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "verifyMerkleRoot",
+      "file": "OneSig.sol",
+      "start_line": 222,
+      "end_line": 237,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "verifyTransactionProof",
+      "file": "OneSig.sol",
+      "start_line": 245,
+      "end_line": 249,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "encodeLeaf",
+      "file": "OneSig.sol",
+      "start_line": 257,
+      "end_line": 272,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "canExecuteTransaction",
+      "file": "OneSig.sol",
+      "start_line": 279,
+      "end_line": 282,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "signerSet",
+      "var_type": "EnumerableSet.AddressSet internal",
+      "file": "MultiSig.sol",
+      "line": 21
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "threshold",
+      "var_type": "uint256 public",
+      "file": "MultiSig.sol",
+      "line": 26
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "SIGNATURE_LENGTH",
+      "var_type": "uint8 constant",
+      "file": "MultiSig.sol",
+      "line": 69
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "string public constant",
+      "file": "OneSig.sol",
+      "line": 20
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "LEAF_ENCODING_VERSION",
+      "var_type": "uint8 public constant",
+      "file": "OneSig.sol",
+      "line": 22
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "EIP191_PREFIX_FOR_EIP712",
+      "var_type": "string private constant",
+      "file": "OneSig.sol",
+      "line": 28
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "EIP712DOMAIN_TYPE_HASH",
+      "var_type": "bytes32 private constant",
+      "file": "OneSig.sol",
+      "line": 34
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "var_type": "bytes32 private constant",
+      "file": "OneSig.sol",
+      "line": 46
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "SIGN_MERKLE_ROOT_TYPE_HASH",
+      "var_type": "bytes32 private constant",
+      "file": "OneSig.sol",
+      "line": 60
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "ONE_SIG_ID",
+      "var_type": "uint64 public immutable",
+      "file": "OneSig.sol",
+      "line": 68
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "seed",
+      "var_type": "bytes32 public",
+      "file": "OneSig.sol",
+      "line": 74
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "nonce",
+      "var_type": "uint64 public",
+      "file": "OneSig.sol",
+      "line": 79
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:87",
+      "call_type": "INTERFACE_CALL",
+      "line": 87,
+      "enclosing_function": "_addSigner",
+      "file": "MultiSig.sol",
+      "raw_text": "if (!signerSet.add(_signer)) revert SignerAlreadyAdded(_signer);"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:94",
+      "call_type": "INTERFACE_CALL",
+      "line": 94,
+      "enclosing_function": "_removeSigner",
+      "file": "MultiSig.sol",
+      "raw_text": "if (!signerSet.remove(_signer)) revert SignerNotFound(_signer);"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:131",
+      "call_type": "INTERFACE_CALL",
+      "line": 131,
+      "enclosing_function": "getSigners",
+      "file": "MultiSig.sol",
+      "raw_text": "return signerSet.values();"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:136",
+      "call_type": "INTERFACE_CALL",
+      "line": 136,
+      "enclosing_function": "isSigner",
+      "file": "MultiSig.sol",
+      "raw_text": "return signerSet.contains(_signer);"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:141",
+      "call_type": "INTERFACE_CALL",
+      "line": 141,
+      "enclosing_function": "totalSigners",
+      "file": "MultiSig.sol",
+      "raw_text": "return signerSet.length();"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "CALL:OneSig.sol:131",
+      "call_type": "CALL",
+      "line": 131,
+      "enclosing_function": "executeTransaction",
+      "file": "OneSig.sol",
+      "raw_text": "(bool success, ) = _transaction.calls[i].to.call{ value: _transaction.calls[i].value }("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        17,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        4,
+        17,
+        18,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        7,
+        17,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        5,
+        6,
+        8,
+        17,
+        18,
+        19,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        0,
+        1,
+        2,
+        4,
+        9,
+        17,
+        18,
+        33
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        12,
+        28,
+        34
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 34
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setThreshold",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setSigner",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_addSigner",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_removeSigner",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verifySignatures",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "verifyNSignatures",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSigners",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isSigner",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "totalSigners",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_setSeed",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setSeed",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "verifyMerkleRoot",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "verifyTransactionProof",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "encodeLeaf",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "canExecuteTransaction",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "signerSet",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "threshold",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "SIGNATURE_LENGTH",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "LEAF_ENCODING_VERSION",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "EIP191_PREFIX_FOR_EIP712",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "EIP712DOMAIN_TYPE_HASH",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "SIGN_MERKLE_ROOT_TYPE_HASH",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "ONE_SIG_ID",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "seed",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "nonce",
+      "file": "OneSig.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:87",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:94",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:131",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:136",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MultiSig.sol:141",
+      "file": "MultiSig.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "CALL:OneSig.sol:131",
+      "file": "OneSig.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 35,
+    "n_hyperedges": 6,
+    "n_functions": 17,
+    "n_state_vars": 12,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00608",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1111",
+      "CWE-115",
+      "CWE-1164",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-1288",
+      "CWE-1293",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-252",
+      "CWE-284",
+      "CWE-285",
+      "CWE-345",
+      "CWE-347",
+      "CWE-358",
+      "CWE-362",
+      "CWE-372",
+      "CWE-390",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-439",
+      "CWE-544",
+      "CWE-563",
+      "CWE-664",
+      "CWE-691",
+      "CWE-693",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754",
+      "CWE-755",
+      "CWE-758",
+      "CWE-778",
+      "CWE-862"
+    ]
+  }
+}

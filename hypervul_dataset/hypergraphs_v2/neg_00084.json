@@ -1,0 +1,642 @@
+{
+  "sample_id": "neg_00084",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getEffectiveRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 104,
+      "end_line": 107,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyRewardsBalanceOrRevert",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 117,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claim",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 185,
+      "end_line": 208,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updatePendingRootDelaySeconds",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 221,
+      "end_line": 227,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "publishRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 255,
+      "end_line": 271,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "revokeRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 278,
+      "end_line": 289,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 301,
+      "end_line": 306,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_verifyRewardsBalanceOrRevert",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 320,
+      "end_line": 335,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getVestedPendingRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "start_line": 342,
+      "end_line": 348,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "proveInitialBalance",
+      "file": "anvil-contracts_contracts_governance_IClaimable.sol",
+      "start_line": 17,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getCollateralToken",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 136,
+      "end_line": 136,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getAccountCollateralBalance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 144,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 155,
+      "end_line": 157,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getClaimableAmount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 165,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 176,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getWithdrawalFeeBasisPoints",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 186,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "claimCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 202,
+      "end_line": 207,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "depositFromAccount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 226,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 241,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowanceWithSignature",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 260,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "modifyCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 276,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "poolCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 289,
+      "end_line": 289,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "releaseAllCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 296,
+      "end_line": 296,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "reserveClaimableCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 308,
+      "end_line": 312,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "reserveCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 324,
+      "end_line": 328,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "transferCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 336,
+      "end_line": 336,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol",
+      "start_line": 347,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 48
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "PUBLISHER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 51
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "REVOKER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 54
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "rewardsRoot",
+      "var_type": "bytes32 public",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 59
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "pendingRewardsRoot",
+      "var_type": "bytes32 public",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 62
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "pendingRootSetTimestamp",
+      "var_type": "uint32 public",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 65
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "pendingRootDelaySeconds",
+      "var_type": "uint32 public",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 68
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "rewardToken",
+      "var_type": "IERC20 public",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 71
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "totalClaimedRewards",
+      "var_type": "mapping(address => uint256) public",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "line": 74
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:anvil-contracts_contracts_Reward.sol:152",
+      "call_type": "INTERFACE_CALL",
+      "line": 152,
+      "enclosing_function": "claim",
+      "file": "anvil-contracts_contracts_Reward.sol",
+      "raw_text": "rewardToken.safeTransfer(msg.sender, _amountToClaim);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        34,
+        35,
+        36
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 36
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getEffectiveRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyRewardsBalanceOrRevert",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claim",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updatePendingRootDelaySeconds",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "publishRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "revokeRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawTokens",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_verifyRewardsBalanceOrRevert",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getVestedPendingRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "proveInitialBalance",
+      "file": "anvil-contracts_contracts_governance_IClaimable.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getCollateralToken",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getAccountCollateralBalance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getClaimableAmount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getWithdrawalFeeBasisPoints",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "claimCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "depositFromAccount",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowance",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "modifyCollateralizableTokenAllowanceWithSignature",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "modifyCollateralReservation",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "poolCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "releaseAllCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "reserveClaimableCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "reserveCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "transferCollateral",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "anvil-contracts_contracts_interfaces_ICollateral.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "PUBLISHER_ROLE",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "REVOKER_ROLE",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "rewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "pendingRewardsRoot",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "pendingRootSetTimestamp",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "pendingRootDelaySeconds",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "rewardToken",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "totalClaimedRewards",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:anvil-contracts_contracts_Reward.sol:152",
+      "file": "anvil-contracts_contracts_Reward.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 37,
+    "n_hyperedges": 1,
+    "n_functions": 27,
+    "n_state_vars": 9,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00084",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "sample_id": "vfp_00101",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "installDynamicParams",
+      "file": "EulerSwapManagement.sol",
+      "start_line": 33,
+      "end_line": 59,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "activate",
+      "file": "EulerSwapManagement.sol",
+      "start_line": 61,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "EulerSwapManagement.sol",
+      "start_line": 132,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "reconfigure",
+      "file": "EulerSwapManagement.sol",
+      "start_line": 142,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "approveVault",
+      "file": "FundsLib.sol",
+      "start_line": 22,
+      "end_line": 31,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawAssets",
+      "file": "FundsLib.sol",
+      "start_line": 43,
+      "end_line": 67,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositAssets",
+      "file": "FundsLib.sol",
+      "start_line": 80,
+      "end_line": 113,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "activateHook",
+      "file": "UniswapHook.sol",
+      "start_line": 39,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "poolKey",
+      "file": "UniswapHook.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "validateHookAddress",
+      "file": "UniswapHook.sol",
+      "start_line": 67,
+      "end_line": 67,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "UniswapHook.sol",
+      "start_line": 69,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "UniswapHook.sol",
+      "start_line": 128,
+      "end_line": 160,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "protocolFeeConfig",
+      "var_type": "address public immutable",
+      "file": "UniswapHook.sol",
+      "line": 28
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_poolKey",
+      "var_type": "PoolKey internal",
+      "file": "UniswapHook.sol",
+      "line": 30
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:59",
+      "call_type": "CALL",
+      "line": 59,
+      "enclosing_function": "withdrawAssets",
+      "file": "FundsLib.sol",
+      "raw_text": "IEVC(evc).call(supplyVault, eulerAccount, 0, abi.encodeCall(IERC4626.withdraw, (avail, to, eulerAccount)));"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:65",
+      "call_type": "CALL",
+      "line": 65,
+      "enclosing_function": "withdrawAssets",
+      "file": "FundsLib.sol",
+      "raw_text": "IEVC(evc).call(borrowVault, eulerAccount, 0, abi.encodeCall(IBorrowing.borrow, (amount, to)));"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:95",
+      "call_type": "CALL",
+      "line": 95,
+      "enclosing_function": "depositAssets",
+      "file": "FundsLib.sol",
+      "raw_text": "IEVC(evc).call(borrowVault, eulerAccount, 0, abi.encodeCall(IRiskManager.disableController, ()));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        14
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        15
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        6,
+        16
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "installDynamicParams",
+      "file": "EulerSwapManagement.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "activate",
+      "file": "EulerSwapManagement.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "EulerSwapManagement.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "reconfigure",
+      "file": "EulerSwapManagement.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "approveVault",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdrawAssets",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositAssets",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "activateHook",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "poolKey",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "validateHookAddress",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "protocolFeeConfig",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_poolKey",
+      "file": "UniswapHook.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:59",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:65",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:95",
+      "file": "FundsLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 3,
+    "n_functions": 12,
+    "n_state_vars": 2,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00101",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1164",
+      "CWE-561",
+      "CWE-691",
+      "CWE-710",
+      "CWE-841"
+    ]
+  }
+}

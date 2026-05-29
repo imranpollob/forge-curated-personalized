@@ -1,0 +1,1934 @@
+{
+  "sample_id": "vfp_00464",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getEncodedBeacon",
+      "file": "AAFactory.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployProxySsoAccount",
+      "file": "AAFactory.sol",
+      "start_line": 45,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchCall",
+      "file": "BatchCaller.sol",
+      "start_line": 32,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "ERC1271Handler.sol",
+      "start_line": 33,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEip712Hash",
+      "file": "ERC1271Handler.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "ssoMessageTypeHash",
+      "file": "ERC1271Handler.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_ssoMessageHash",
+      "file": "ERC1271Handler.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addHook",
+      "file": "HookManager.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "removeHook",
+      "file": "HookManager.sol",
+      "start_line": 35,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "unlinkHook",
+      "file": "HookManager.sol",
+      "start_line": 41,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isHook",
+      "file": "HookManager.sol",
+      "start_line": 47,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "listHooks",
+      "file": "HookManager.sol",
+      "start_line": 52,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "runValidationHooks",
+      "file": "HookManager.sol",
+      "start_line": 61,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_addHook",
+      "file": "HookManager.sol",
+      "start_line": 92,
+      "end_line": 106,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_removeHook",
+      "file": "HookManager.sol",
+      "start_line": 108,
+      "end_line": 116,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_isHook",
+      "file": "HookManager.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_call",
+      "file": "HookManager.sol",
+      "start_line": 122,
+      "end_line": 126,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_validationHooks",
+      "file": "HookManager.sol",
+      "start_line": 128,
+      "end_line": 130,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_executionHooks",
+      "file": "HookManager.sol",
+      "start_line": 132,
+      "end_line": 134,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_supportsHook",
+      "file": "HookManager.sol",
+      "start_line": 136,
+      "end_line": 144,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "validationHook",
+      "file": "IHook.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "preExecutionHook",
+      "file": "IHook.sol",
+      "start_line": 26,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "postExecutionHook",
+      "file": "IHook.sol",
+      "start_line": 29,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "IModule.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "IModule.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "k1AddOwner",
+      "file": "IOwnerManager.sol",
+      "start_line": 27,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "k1RemoveOwner",
+      "file": "IOwnerManager.sol",
+      "start_line": 34,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "k1IsOwner",
+      "file": "IOwnerManager.sol",
+      "start_line": 41,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "k1ListOwners",
+      "file": "IOwnerManager.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "k1AddOwner",
+      "file": "OwnerManager.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "k1RemoveOwner",
+      "file": "OwnerManager.sol",
+      "start_line": 26,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "k1IsOwner",
+      "file": "OwnerManager.sol",
+      "start_line": 31,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "k1ListOwners",
+      "file": "OwnerManager.sol",
+      "start_line": 36,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_k1AddOwner",
+      "file": "OwnerManager.sol",
+      "start_line": 40,
+      "end_line": 44,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_k1RemoveOwner",
+      "file": "OwnerManager.sol",
+      "start_line": 46,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_k1IsOwner",
+      "file": "OwnerManager.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_k1Owners",
+      "file": "OwnerManager.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "sessionState",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 35,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "sessionStatus",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 46,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 52,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 62,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "validateSignature",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 75,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "createSession",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 81,
+      "end_line": 94,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_addValidationKey",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 98,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 105,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "revokeKey",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 115,
+      "end_line": 120,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "revokeKeys",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 124,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "isInitialized",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 133,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "SessionKeyValidator.sol",
+      "start_line": 142,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "checkAndUpdate",
+      "file": "SessionLib.sol",
+      "start_line": 136,
+      "end_line": 150,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "checkAndUpdate",
+      "file": "SessionLib.sol",
+      "start_line": 159,
+      "end_line": 185,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "checkCallPolicy",
+      "file": "SessionLib.sol",
+      "start_line": 196,
+      "end_line": 223,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "validateFeeLimit",
+      "file": "SessionLib.sol",
+      "start_line": 241,
+      "end_line": 253,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "validate",
+      "file": "SessionLib.sol",
+      "start_line": 268,
+      "end_line": 334,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "remainingLimit",
+      "file": "SessionLib.sol",
+      "start_line": 341,
+      "end_line": 358,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "getState",
+      "file": "SessionLib.sol",
+      "start_line": 365,
+      "end_line": 428,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SsoAccount.sol",
+      "start_line": 46,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "SsoAccount.sol",
+      "start_line": 70,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "SsoAccount.sol",
+      "start_line": 95,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_executeCall",
+      "file": "SsoAccount.sol",
+      "start_line": 110,
+      "end_line": 138,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "executeTransactionFromOutside",
+      "file": "SsoAccount.sol",
+      "start_line": 144,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "payForTransaction",
+      "file": "SsoAccount.sol",
+      "start_line": 151,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "prepareForPaymaster",
+      "file": "SsoAccount.sol",
+      "start_line": 165,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "SsoAccount.sol",
+      "start_line": 174,
+      "end_line": 176,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_validateTransaction",
+      "file": "SsoAccount.sol",
+      "start_line": 183,
+      "end_line": 208,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_incrementNonce",
+      "file": "SsoAccount.sol",
+      "start_line": 213,
+      "end_line": 220,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_safeCastToAddress",
+      "file": "SsoAccount.sol",
+      "start_line": 224,
+      "end_line": 227,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "layout",
+      "file": "SsoStorage.sol",
+      "start_line": 30,
+      "end_line": 35,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "addModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 29,
+      "end_line": 31,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "removeModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 34,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "unlinkModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 40,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "isModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 46,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "listModuleValidators",
+      "file": "ValidatorManager.sol",
+      "start_line": 51,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_addModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 55,
+      "end_line": 64,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_removeModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 66,
+      "end_line": 70,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_isModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 72,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_supportsModuleValidator",
+      "file": "ValidatorManager.sol",
+      "start_line": 76,
+      "end_line": 80,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_moduleValidators",
+      "file": "ValidatorManager.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "WebAuthValidator.sol",
+      "start_line": 35,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "WebAuthValidator.sol",
+      "start_line": 43,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "addValidationKey",
+      "file": "WebAuthValidator.sol",
+      "start_line": 55,
+      "end_line": 70,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "validateSignature",
+      "file": "WebAuthValidator.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "WebAuthValidator.sol",
+      "start_line": 85,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "webAuthVerify",
+      "file": "WebAuthValidator.sol",
+      "start_line": 101,
+      "end_line": 150,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "WebAuthValidator.sol",
+      "start_line": 153,
+      "end_line": 158,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_createMessage",
+      "file": "WebAuthValidator.sol",
+      "start_line": 160,
+      "end_line": 166,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_decodeFatSignature",
+      "file": "WebAuthValidator.sol",
+      "start_line": 168,
+      "end_line": 172,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "rawVerify",
+      "file": "WebAuthValidator.sol",
+      "start_line": 180,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "beaconProxyBytecodeHash",
+      "var_type": "bytes32 public immutable",
+      "file": "AAFactory.sol",
+      "line": 20
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "beacon",
+      "var_type": "address public immutable",
+      "file": "AAFactory.sol",
+      "line": 21
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "accountMappings",
+      "var_type": "mapping(string => address) public",
+      "file": "AAFactory.sol",
+      "line": 24
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "_SSO_MESSAGE_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "ERC1271Handler.sol",
+      "line": 23
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "_ERC1271_MAGIC",
+      "var_type": "bytes4 private constant",
+      "file": "ERC1271Handler.sol",
+      "line": 25
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "sessionCounter",
+      "var_type": "mapping(address => uint256) private",
+      "file": "SessionKeyValidator.sol",
+      "line": 27
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "sessions",
+      "var_type": "mapping(bytes32 => SessionLib.SessionStorage) private",
+      "file": "SessionKeyValidator.sol",
+      "line": 29
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "SSO_STORAGE_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "SsoStorage.sol",
+      "line": 7
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "P256_VERIFIER",
+      "var_type": "address private constant",
+      "file": "WebAuthValidator.sol",
+      "line": 22
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "AUTH_DATA_MASK",
+      "var_type": "bytes1 private constant",
+      "file": "WebAuthValidator.sol",
+      "line": 23
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "LOW_S_MAX",
+      "var_type": "bytes32 private constant",
+      "file": "WebAuthValidator.sol",
+      "line": 24
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "HIGH_R_MAX",
+      "var_type": "bytes32 private constant",
+      "file": "WebAuthValidator.sol",
+      "line": 25
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "lowerKeyHalf",
+      "var_type": "mapping(string originDomain => mapping(address accountAddress => bytes32)) public",
+      "file": "WebAuthValidator.sol",
+      "line": 30
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "upperKeyHalf",
+      "var_type": "mapping(string originDomain => mapping(address accountAddress => bytes32)) public",
+      "file": "WebAuthValidator.sol",
+      "line": 31
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AAFactory.sol:53",
+      "call_type": "INTERFACE_CALL",
+      "line": 53,
+      "enclosing_function": "deployProxySsoAccount",
+      "file": "AAFactory.sol",
+      "raw_text": "(bool success, bytes memory returnData) = SystemContractsCaller.systemCallWithReturndata("
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BatchCaller.sol:40",
+      "call_type": "INTERFACE_CALL",
+      "line": 40,
+      "enclosing_function": "batchCall",
+      "file": "BatchCaller.sol",
+      "raw_text": "success = SystemContractsCaller.systemCall("
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BatchCaller.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "batchCall",
+      "file": "BatchCaller.sol",
+      "raw_text": "success = EfficientCall.rawCall(gasleft(), _calls[i].target, _calls[i].value, _calls[i].callData, false);"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:124",
+      "call_type": "INTERFACE_CALL",
+      "line": 124,
+      "enclosing_function": "_executeCall",
+      "file": "SsoAccount.sol",
+      "raw_text": "success = EfficientCall.rawCall({"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:132",
+      "call_type": "INTERFACE_CALL",
+      "line": 132,
+      "enclosing_function": "_executeCall",
+      "file": "SsoAccount.sol",
+      "raw_text": "success = EfficientCall.rawCall(gas, _to, _value, _data, false);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:136",
+      "call_type": "INTERFACE_CALL",
+      "line": 136,
+      "enclosing_function": "_executeCall",
+      "file": "SsoAccount.sol",
+      "raw_text": "EfficientCall.propagateRevert();"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:214",
+      "call_type": "INTERFACE_CALL",
+      "line": 214,
+      "enclosing_function": "_incrementNonce",
+      "file": "SsoAccount.sol",
+      "raw_text": "SystemContractsCaller.systemCallWithPropagatedRevert("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        88,
+        89,
+        90,
+        102
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        58,
+        59,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        58,
+        59,
+        106
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        58,
+        59,
+        107
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        48,
+        65,
+        94,
+        108
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 108
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getEncodedBeacon",
+      "file": "AAFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployProxySsoAccount",
+      "file": "AAFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchCall",
+      "file": "BatchCaller.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "ERC1271Handler.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEip712Hash",
+      "file": "ERC1271Handler.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "ssoMessageTypeHash",
+      "file": "ERC1271Handler.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_ssoMessageHash",
+      "file": "ERC1271Handler.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "removeHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "unlinkHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "listHooks",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "runValidationHooks",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_addHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_removeHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_isHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_call",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_validationHooks",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_executionHooks",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_supportsHook",
+      "file": "HookManager.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "validationHook",
+      "file": "IHook.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "preExecutionHook",
+      "file": "IHook.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "postExecutionHook",
+      "file": "IHook.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "IModule.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "IModule.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "k1AddOwner",
+      "file": "IOwnerManager.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "k1RemoveOwner",
+      "file": "IOwnerManager.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "k1IsOwner",
+      "file": "IOwnerManager.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "k1ListOwners",
+      "file": "IOwnerManager.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "k1AddOwner",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "k1RemoveOwner",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "k1IsOwner",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "k1ListOwners",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_k1AddOwner",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_k1RemoveOwner",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_k1IsOwner",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_k1Owners",
+      "file": "OwnerManager.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "sessionState",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "sessionStatus",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "validateSignature",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "createSession",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_addValidationKey",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "revokeKey",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "revokeKeys",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "isInitialized",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "checkAndUpdate",
+      "file": "SessionLib.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "checkAndUpdate",
+      "file": "SessionLib.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "checkCallPolicy",
+      "file": "SessionLib.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "validateFeeLimit",
+      "file": "SessionLib.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "validate",
+      "file": "SessionLib.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "remainingLimit",
+      "file": "SessionLib.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "getState",
+      "file": "SessionLib.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "executeTransaction",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_executeCall",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "executeTransactionFromOutside",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "payForTransaction",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "prepareForPaymaster",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_validateTransaction",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_incrementNonce",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_safeCastToAddress",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "layout",
+      "file": "SsoStorage.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "addModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "removeModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "unlinkModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "isModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "listModuleValidators",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_addModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_removeModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_isModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_supportsModuleValidator",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_moduleValidators",
+      "file": "ValidatorManager.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "onInstall",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "onUninstall",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "addValidationKey",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "validateSignature",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "validateTransaction",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "webAuthVerify",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_createMessage",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_decodeFatSignature",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "rawVerify",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "beaconProxyBytecodeHash",
+      "file": "AAFactory.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "beacon",
+      "file": "AAFactory.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "accountMappings",
+      "file": "AAFactory.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "_SSO_MESSAGE_TYPEHASH",
+      "file": "ERC1271Handler.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "_ERC1271_MAGIC",
+      "file": "ERC1271Handler.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "sessionCounter",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "sessions",
+      "file": "SessionKeyValidator.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "SSO_STORAGE_SLOT",
+      "file": "SsoStorage.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "P256_VERIFIER",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "AUTH_DATA_MASK",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "LOW_S_MAX",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "HIGH_R_MAX",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "lowerKeyHalf",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "upperKeyHalf",
+      "file": "WebAuthValidator.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AAFactory.sol:53",
+      "file": "AAFactory.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BatchCaller.sol:40",
+      "file": "BatchCaller.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BatchCaller.sol:47",
+      "file": "BatchCaller.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:124",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:132",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:136",
+      "file": "SsoAccount.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SsoAccount.sol:214",
+      "file": "SsoAccount.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 109,
+    "n_hyperedges": 7,
+    "n_functions": 88,
+    "n_state_vars": 14,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 3.142857142857143
+  },
+  "label": {
+    "vfp_id": "vfp_00464",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1059",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1287",
+      "CWE-20",
+      "CWE-252",
+      "CWE-345",
+      "CWE-362",
+      "CWE-392",
+      "CWE-670",
+      "CWE-691",
+      "CWE-693",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754",
+      "CWE-755",
+      "CWE-924"
+    ]
+  }
+}

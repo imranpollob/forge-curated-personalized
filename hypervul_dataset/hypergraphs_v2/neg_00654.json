@@ -1,0 +1,593 @@
+{
+  "sample_id": "neg_00654",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getCodeOwners",
+      "file": "morphex-contracts_contracts_referrals_ReferralReader.sol",
+      "start_line": 8,
+      "end_line": 17,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 69,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawToken",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 105,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "batchStakeBmxForAccount",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 115,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "stakeBmxForAccount",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 128,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "stakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 138,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "unstakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 148,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "mintAndStakeSlt",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 161,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "mintAndStakeSltETH",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 181,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "unstakeAndRedeemSlt",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 207,
+      "end_line": 218,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "unstakeAndRedeemSltETH",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 228,
+      "end_line": 243,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 249,
+      "end_line": 259,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 265,
+      "end_line": 270,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "claimFees",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 276,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "handleRewards",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 291,
+      "end_line": 323,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_stakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 327,
+      "end_line": 335,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_unstakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "start_line": 337,
+      "end_line": 361,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "disable",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_transfer",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "start_line": 48,
+      "end_line": 58,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "isInitialized",
+      "var_type": "bool public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 26
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ws",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 28
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "bmx",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 29
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "bnBmx",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 30
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "slt",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 31
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "stakedBmxTracker",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 33
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "bonusBmxTracker",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 34
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "feeBmxTracker",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 35
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "stakedSltTracker",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 36
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "feeSltTracker",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 37
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "sltManager",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol",
+      "line": 39
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "sender",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "line": 22
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "glp",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "line": 23
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "stakedGlpTracker",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "line": 24
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "feeGlpTracker",
+      "var_type": "address public",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "line": 25
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "isEnabled",
+      "var_type": "bool public",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol",
+      "line": 26
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getCodeOwners",
+      "file": "morphex-contracts_contracts_referrals_ReferralReader.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawToken",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "batchStakeBmxForAccount",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "stakeBmxForAccount",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "stakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "unstakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "mintAndStakeSlt",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "mintAndStakeSltETH",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "unstakeAndRedeemSlt",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "unstakeAndRedeemSltETH",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "claimBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "claimFees",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "handleRewards",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_stakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_unstakeBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "disable",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_transfer",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "isInitialized",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ws",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "bmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "bnBmx",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "slt",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "stakedBmxTracker",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "bonusBmxTracker",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "feeBmxTracker",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "stakedSltTracker",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "feeSltTracker",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "sltManager",
+      "file": "morphex-contracts_contracts_staking_RewardRouterV4.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "sender",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "glp",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "stakedGlpTracker",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "feeGlpTracker",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "isEnabled",
+      "file": "morphex-contracts_contracts_staking_StakedGlpMigrator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 36,
+    "n_hyperedges": 0,
+    "n_functions": 20,
+    "n_state_vars": 16,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00654",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

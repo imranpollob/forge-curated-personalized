@@ -1,0 +1,223 @@
+{
+  "sample_id": "vfp_00165",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fromRegisteredAllocatorIdWithConsumed",
+      "file": "ValidityLib.sol",
+      "start_line": 48,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "toRegisteredAllocatorWithConsumed",
+      "file": "ValidityLib.sol",
+      "start_line": 63,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "later",
+      "file": "ValidityLib.sol",
+      "start_line": 73,
+      "end_line": 82,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "hasValidSponsor",
+      "file": "ValidityLib.sol",
+      "start_line": 95,
+      "end_line": 117,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "hasValidSponsorOrRegistration",
+      "file": "ValidityLib.sol",
+      "start_line": 134,
+      "end_line": 179,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hasConsumedAllocatorNonce",
+      "file": "ValidityLib.sol",
+      "start_line": 188,
+      "end_line": 190,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "excludingNative",
+      "file": "ValidityLib.sol",
+      "start_line": 198,
+      "end_line": 208,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "ensureValidScope",
+      "file": "ValidityLib.sol",
+      "start_line": 218,
+      "end_line": 227,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "scopeNotMultichain",
+      "file": "ValidityLib.sol",
+      "start_line": 238,
+      "end_line": 240,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isValidECDSASignatureCalldata",
+      "file": "ValidityLib.sol",
+      "start_line": 244,
+      "end_line": 293,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isValidERC1271SignatureNowCalldataHalfGas",
+      "file": "ValidityLib.sol",
+      "start_line": 297,
+      "end_line": 315,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fromRegisteredAllocatorIdWithConsumed",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "toRegisteredAllocatorWithConsumed",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "later",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "hasValidSponsor",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "hasValidSponsorOrRegistration",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hasConsumedAllocatorNonce",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "excludingNative",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "ensureValidScope",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "scopeNotMultichain",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isValidECDSASignatureCalldata",
+      "file": "ValidityLib.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isValidERC1271SignatureNowCalldataHalfGas",
+      "file": "ValidityLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 11,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00165",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-345",
+      "CWE-693"
+    ]
+  }
+}

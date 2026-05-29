@@ -1,0 +1,511 @@
+{
+  "sample_id": "vfp_00311",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyValidator",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 47,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyWithdrawal",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 61,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getBlockRoot",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 79,
+      "end_line": 82,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isHistoricalProof",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 85,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "merkleiseWithdrawal",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 91,
+      "end_line": 95,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "merkleiseValidator",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 98,
+      "end_line": 106,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "slotToFork",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 109,
+      "end_line": 116,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "pathBeaconBlockHeaderToStateRoot",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 119,
+      "end_line": 122,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "pathBeaconStateToValidator",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 125,
+      "end_line": 129,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "pathBeaconStateToPastBlockRoot",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 132,
+      "end_line": 144,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "pathBlockToWithdrawal",
+      "file": "BeaconStateVerifier.sol",
+      "start_line": 147,
+      "end_line": 153,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "toIndex",
+      "file": "SSZ.sol",
+      "start_line": 11,
+      "end_line": 15,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "length",
+      "file": "SSZ.sol",
+      "start_line": 18,
+      "end_line": 20,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "from",
+      "file": "SSZ.sol",
+      "start_line": 23,
+      "end_line": 25,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "intoVector",
+      "file": "SSZ.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "intoList",
+      "file": "SSZ.sol",
+      "start_line": 33,
+      "end_line": 35,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "concat",
+      "file": "SSZ.sol",
+      "start_line": 38,
+      "end_line": 48,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "toLittleEndian",
+      "file": "SSZ.sol",
+      "start_line": 51,
+      "end_line": 62,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "merkleisePubkey",
+      "file": "SSZ.sol",
+      "start_line": 65,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "efficientSha256",
+      "file": "SSZ.sol",
+      "start_line": 82,
+      "end_line": 94,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "restoreMerkleRoot",
+      "file": "SSZ.sol",
+      "start_line": 100,
+      "end_line": 117,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "slotsPerHistoricalRoot",
+      "var_type": "uint256 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 12
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "historicalSummaryOffset",
+      "var_type": "uint256 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 13
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "slotPhase0",
+      "var_type": "uint64 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 14
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "slotAltair",
+      "var_type": "uint64 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 15
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "slotBellatrix",
+      "var_type": "uint64 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 16
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "slotCapella",
+      "var_type": "uint64 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 17
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "slotDeneb",
+      "var_type": "uint64 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 18
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "slotElectra",
+      "var_type": "uint64 internal immutable",
+      "file": "BeaconStateVerifier.sol",
+      "line": 19
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyValidator",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyWithdrawal",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getBlockRoot",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isHistoricalProof",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "merkleiseWithdrawal",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "merkleiseValidator",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "slotToFork",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "pathBeaconBlockHeaderToStateRoot",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "pathBeaconStateToValidator",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "pathBeaconStateToPastBlockRoot",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "pathBlockToWithdrawal",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "toIndex",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "length",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "from",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "intoVector",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "intoList",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "concat",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "toLittleEndian",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "merkleisePubkey",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "efficientSha256",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "restoreMerkleRoot",
+      "file": "SSZ.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "slotsPerHistoricalRoot",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "historicalSummaryOffset",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "slotPhase0",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "slotAltair",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "slotBellatrix",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "slotCapella",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "slotDeneb",
+      "file": "BeaconStateVerifier.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "slotElectra",
+      "file": "BeaconStateVerifier.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 29,
+    "n_hyperedges": 0,
+    "n_functions": 21,
+    "n_state_vars": 8,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00311",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1068",
+      "CWE-190",
+      "CWE-435",
+      "CWE-439",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "sample_id": "vfp_00362",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "announceVaultCollateralWithdrawal",
+      "file": "AgentCollateralFacet.sol",
+      "start_line": 51,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "announceAgentPoolTokenRedemption",
+      "file": "AgentCollateralFacet.sol",
+      "start_line": 72,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "beforeCollateralWithdrawal",
+      "file": "AgentCollateralFacet.sol",
+      "start_line": 89,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateCollateral",
+      "file": "AgentCollateralFacet.sol",
+      "start_line": 135,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "upgradeWNatContract",
+      "file": "AgentCollateralFacet.sol",
+      "start_line": 157,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_upgradeWNatContract",
+      "file": "AgentCollateralFacet.sol",
+      "start_line": 170,
+      "end_line": 185,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_announceWithdrawal",
+      "file": "AgentCollateralFacet.sol",
+      "start_line": 187,
+      "end_line": 224,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "attachController",
+      "file": "IIAssetManager.sol",
+      "start_line": 33,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "emergencyPause",
+      "file": "IIAssetManager.sol",
+      "start_line": 41,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "resetEmergencyPauseTotalDuration",
+      "file": "IIAssetManager.sol",
+      "start_line": 48,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "emergencyPauseDetails",
+      "file": "IIAssetManager.sol",
+      "start_line": 54,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "pauseMinting",
+      "file": "IIAssetManager.sol",
+      "start_line": 72,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "unpauseMinting",
+      "file": "IIAssetManager.sol",
+      "start_line": 78,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "upgradeAgentVaultsAndPools",
+      "file": "IIAssetManager.sol",
+      "start_line": 91,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "upgradeWNatContract",
+      "file": "IIAssetManager.sol",
+      "start_line": 102,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "addCollateralType",
+      "file": "IIAssetManager.sol",
+      "start_line": 114,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setCollateralRatiosForToken",
+      "file": "IIAssetManager.sol",
+      "start_line": 122,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "redeemFromAgent",
+      "file": "IIAssetManager.sol",
+      "start_line": 136,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "redeemFromAgentInCollateral",
+      "file": "IIAssetManager.sol",
+      "start_line": 150,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "maxRedemptionFromAgent",
+      "file": "IIAssetManager.sol",
+      "start_line": 161,
+      "end_line": 163,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "beforeCollateralWithdrawal",
+      "file": "IIAssetManager.sol",
+      "start_line": 173,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "updateCollateral",
+      "file": "IIAssetManager.sol",
+      "start_line": 183,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getWNat",
+      "file": "IIAssetManager.sol",
+      "start_line": 196,
+      "end_line": 198,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "assetPriceNatWei",
+      "file": "IIAssetManager.sol",
+      "start_line": 204,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getFAssetsBackedByPool",
+      "file": "IIAssetManager.sol",
+      "start_line": 214,
+      "end_line": 216,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getCollateralPoolTokenTimelockSeconds",
+      "file": "IIAssetManager.sol",
+      "start_line": 223,
+      "end_line": 225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "isLockedVaultToken",
+      "file": "IIAssetManager.sol",
+      "start_line": 233,
+      "end_line": 235,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isVaultCollateralToken",
+      "file": "IIAssetManager.sol",
+      "start_line": 240,
+      "end_line": 242,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "isAgentVaultOwner",
+      "file": "IIAssetManager.sol",
+      "start_line": 248,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getWorkAddress",
+      "file": "IIAssetManager.sol",
+      "start_line": 255,
+      "end_line": 257,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "announceVaultCollateralWithdrawal",
+      "file": "AgentCollateralFacet.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "announceAgentPoolTokenRedemption",
+      "file": "AgentCollateralFacet.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "beforeCollateralWithdrawal",
+      "file": "AgentCollateralFacet.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "updateCollateral",
+      "file": "AgentCollateralFacet.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "upgradeWNatContract",
+      "file": "AgentCollateralFacet.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_upgradeWNatContract",
+      "file": "AgentCollateralFacet.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_announceWithdrawal",
+      "file": "AgentCollateralFacet.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "attachController",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "emergencyPause",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "resetEmergencyPauseTotalDuration",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "emergencyPauseDetails",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "pauseMinting",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "unpauseMinting",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "upgradeAgentVaultsAndPools",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "upgradeWNatContract",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "addCollateralType",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setCollateralRatiosForToken",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "redeemFromAgent",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "redeemFromAgentInCollateral",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "maxRedemptionFromAgent",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "beforeCollateralWithdrawal",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "updateCollateral",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getWNat",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "assetPriceNatWei",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getFAssetsBackedByPool",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getCollateralPoolTokenTimelockSeconds",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "isLockedVaultToken",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isVaultCollateralToken",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "isAgentVaultOwner",
+      "file": "IIAssetManager.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getWorkAddress",
+      "file": "IIAssetManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 30,
+    "n_hyperedges": 0,
+    "n_functions": 30,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00362",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1068",
+      "CWE-284",
+      "CWE-285",
+      "CWE-710",
+      "CWE-863"
+    ]
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "sample_id": "vfp_00030",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__vesting_init",
+      "file": "Vesting.sol",
+      "start_line": 76,
+      "end_line": 91,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "pause",
+      "file": "Vesting.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "Vesting.sol",
+      "start_line": 105,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resetVestingPlans",
+      "file": "Vesting.sol",
+      "start_line": 118,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setupVestingPlans",
+      "file": "Vesting.sol",
+      "start_line": 133,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "claimUnlockedToken",
+      "file": "Vesting.sol",
+      "start_line": 145,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimUnlockedTokenFor",
+      "file": "Vesting.sol",
+      "start_line": 153,
+      "end_line": 155,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimLockedToken",
+      "file": "Vesting.sol",
+      "start_line": 160,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claimLockedTokenByPercentage",
+      "file": "Vesting.sol",
+      "start_line": 167,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimLockedTokenFor",
+      "file": "Vesting.sol",
+      "start_line": 176,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimLockedTokenForByPercentage",
+      "file": "Vesting.sol",
+      "start_line": 185,
+      "end_line": 191,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_setupVestingPlans",
+      "file": "Vesting.sol",
+      "start_line": 204,
+      "end_line": 215,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_resetVestingPlans",
+      "file": "Vesting.sol",
+      "start_line": 222,
+      "end_line": 237,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_ensureSufficientBalance",
+      "file": "Vesting.sol",
+      "start_line": 242,
+      "end_line": 249,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_mintTokenIfPossible",
+      "file": "Vesting.sol",
+      "start_line": 254,
+      "end_line": 256,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_claimUnlockedToken",
+      "file": "Vesting.sol",
+      "start_line": 261,
+      "end_line": 275,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_claimLockedToken",
+      "file": "Vesting.sol",
+      "start_line": 281,
+      "end_line": 299,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getLockedAmountsForToken",
+      "file": "Vesting.sol",
+      "start_line": 309,
+      "end_line": 311,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getClaimableAmountsForToken",
+      "file": "Vesting.sol",
+      "start_line": 317,
+      "end_line": 319,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getUnlockedAmountForToken",
+      "file": "Vesting.sol",
+      "start_line": 325,
+      "end_line": 327,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "SETTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "Vesting.sol",
+      "line": 46
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "Vesting.sol",
+      "line": 47
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "PAUSER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "Vesting.sol",
+      "line": 48
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "UNPAUSER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "Vesting.sol",
+      "line": 49
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "vestingPlans",
+      "var_type": "mapping(address => mapping(address => VestingPlan)) public",
+      "file": "Vesting.sol",
+      "line": 56
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "totalVested",
+      "var_type": "mapping(address => uint256) public",
+      "file": "Vesting.sol",
+      "line": 59
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "lockedClaimPenalty",
+      "var_type": "uint256 public",
+      "file": "Vesting.sol",
+      "line": 61
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "lockedClaimPenaltyReceiver",
+      "var_type": "address public",
+      "file": "Vesting.sol",
+      "line": 62
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[50] private",
+      "file": "Vesting.sol",
+      "line": 66
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "TRANSFER:Vesting.sol:272",
+      "call_type": "TRANSFER",
+      "line": 272,
+      "enclosing_function": "_claimUnlockedToken",
+      "file": "Vesting.sol",
+      "raw_text": "IERC20(token).transfer(user, claimableAmount);"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "TRANSFER:Vesting.sol:295",
+      "call_type": "TRANSFER",
+      "line": 295,
+      "enclosing_function": "_claimLockedToken",
+      "file": "Vesting.sol",
+      "raw_text": "IERC20(token).transfer(user, amount - penalty);"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "TRANSFER:Vesting.sol:296",
+      "call_type": "TRANSFER",
+      "line": 296,
+      "enclosing_function": "_claimLockedToken",
+      "file": "Vesting.sol",
+      "raw_text": "IERC20(token).transfer(lockedClaimPenaltyReceiver, penalty);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        15,
+        16,
+        24,
+        25,
+        26,
+        27,
+        29
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        7,
+        8,
+        9,
+        10,
+        16,
+        24,
+        25,
+        26,
+        27,
+        30
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        7,
+        8,
+        9,
+        10,
+        16,
+        24,
+        25,
+        26,
+        27,
+        31
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 31
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__vesting_init",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "pause",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resetVestingPlans",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setupVestingPlans",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "claimUnlockedToken",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimUnlockedTokenFor",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimLockedToken",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claimLockedTokenByPercentage",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimLockedTokenFor",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimLockedTokenForByPercentage",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_setupVestingPlans",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_resetVestingPlans",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_ensureSufficientBalance",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_mintTokenIfPossible",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_claimUnlockedToken",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_claimLockedToken",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getLockedAmountsForToken",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getClaimableAmountsForToken",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getUnlockedAmountForToken",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "SETTER_ROLE",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "PAUSER_ROLE",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "UNPAUSER_ROLE",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "vestingPlans",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "totalVested",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "lockedClaimPenalty",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "lockedClaimPenaltyReceiver",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "TRANSFER:Vesting.sol:272",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "TRANSFER:Vesting.sol:295",
+      "file": "Vesting.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "TRANSFER:Vesting.sol:296",
+      "file": "Vesting.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 32,
+    "n_hyperedges": 3,
+    "n_functions": 20,
+    "n_state_vars": 9,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 11.666666666666666
+  },
+  "label": {
+    "vfp_id": "vfp_00030",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1025",
+      "CWE-1076",
+      "CWE-362",
+      "CWE-691",
+      "CWE-697",
+      "CWE-710"
+    ]
+  }
+}

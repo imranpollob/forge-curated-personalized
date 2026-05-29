@@ -1,0 +1,165 @@
+{
+  "sample_id": "neg_00155",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getImplementation",
+      "file": "v3-sandbox-audit_1_src_proxy_AccountProxy.sol",
+      "start_line": 15,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_delegate",
+      "file": "v3-sandbox-audit_1_src_proxy_AccountProxy.sol",
+      "start_line": 46,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "v3-sandbox-audit_1_src_proxy_AccountProxy.sol",
+      "start_line": 74,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isConnectors",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isSandboxAdmin",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol",
+      "start_line": 29,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decodeEvent",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol",
+      "start_line": 109,
+      "end_line": 119,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "spell",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol",
+      "start_line": 130,
+      "end_line": 163,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "cast",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol",
+      "start_line": 174,
+      "end_line": 220,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getImplementation",
+      "file": "v3-sandbox-audit_1_src_proxy_AccountProxy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_delegate",
+      "file": "v3-sandbox-audit_1_src_proxy_AccountProxy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "v3-sandbox-audit_1_src_proxy_AccountProxy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isConnectors",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isSandboxAdmin",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "decodeEvent",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "spell",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "cast",
+      "file": "v3-sandbox-audit_1_src_relayers_monad_testnet_implementation_ImplementationV1.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00155",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

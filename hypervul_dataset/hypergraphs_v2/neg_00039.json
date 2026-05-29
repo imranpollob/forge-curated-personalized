@@ -1,0 +1,303 @@
+{
+  "sample_id": "neg_00039",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "withdrawTo",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 13,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "bridgeERC20To",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 21,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__OvmSpokePool_init",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 96,
+      "end_line": 106,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setL1GasLimit",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 116,
+      "end_line": 119,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setRemoteL1Token",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 121,
+      "end_line": 124,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTokenBridge",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 131,
+      "end_line": 134,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_preExecuteLeafHook",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 144,
+      "end_line": 146,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_depositEthToWeth",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 152,
+      "end_line": 155,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_bridgeTokensToHubPool",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 157,
+      "end_line": 212,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "start_line": 215,
+      "end_line": 217,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol",
+      "start_line": 30,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol",
+      "start_line": 42,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[999] private",
+      "file": "contracts_contracts_Ovm_SpokePool.sol",
+      "line": 222
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "succinctSourceAmb",
+      "var_type": "ITelepathyBroadcaster public immutable",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol",
+      "line": 9
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "destinationChainId",
+      "var_type": "uint16 public immutable",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol",
+      "line": 10
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "SEND:contracts_contracts_chain-adapters_Succinct_Adapter.sol:23",
+      "call_type": "SEND",
+      "line": 23,
+      "enclosing_function": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol",
+      "raw_text": "bytes32 messageRoot = succinctSourceAmb.send(destinationChainId, target, message);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        10,
+        13,
+        14,
+        15
+      ],
+      "tau": "SEND",
+      "anchor_call_site_id": 15
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "withdrawTo",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "bridgeERC20To",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__OvmSpokePool_init",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setL1GasLimit",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setRemoteL1Token",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTokenBridge",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_preExecuteLeafHook",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_depositEthToWeth",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_bridgeTokensToHubPool",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "contracts_contracts_Ovm_SpokePool.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "succinctSourceAmb",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "destinationChainId",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "SEND:contracts_contracts_chain-adapters_Succinct_Adapter.sol:23",
+      "file": "contracts_contracts_chain-adapters_Succinct_Adapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 1,
+    "n_functions": 12,
+    "n_state_vars": 3,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00039",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

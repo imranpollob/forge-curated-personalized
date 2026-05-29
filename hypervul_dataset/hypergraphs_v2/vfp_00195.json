@@ -1,0 +1,342 @@
+{
+  "sample_id": "vfp_00195",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "canCall",
+      "file": "Chief.sol",
+      "start_line": 24,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "Chief.sol",
+      "start_line": 28,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "Chief.sol",
+      "start_line": 29,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_addWeight",
+      "file": "Chief.sol",
+      "start_line": 62,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_subWeight",
+      "file": "Chief.sol",
+      "start_line": 70,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "length",
+      "file": "Chief.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "canCall",
+      "file": "Chief.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "launch",
+      "file": "Chief.sol",
+      "start_line": 86,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "lock",
+      "file": "Chief.sol",
+      "start_line": 95,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "free",
+      "file": "Chief.sol",
+      "start_line": 102,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "etch",
+      "file": "Chief.sol",
+      "start_line": 110,
+      "end_line": 124,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "vote",
+      "file": "Chief.sol",
+      "start_line": 126,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "vote",
+      "file": "Chief.sol",
+      "start_line": 131,
+      "end_line": 138,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "lift",
+      "file": "Chief.sol",
+      "start_line": 140,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "GOV",
+      "file": "Chief.sol",
+      "start_line": 150,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "MAX_YAYS",
+      "file": "Chief.sol",
+      "start_line": 154,
+      "end_line": 156,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "TRANSFER:Chief.sol:106",
+      "call_type": "TRANSFER",
+      "line": 106,
+      "enclosing_function": "free",
+      "file": "Chief.sol",
+      "raw_text": "gov.transfer(msg.sender, wad);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        9,
+        16
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "canCall",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_addWeight",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_subWeight",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "length",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "canCall",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "launch",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "lock",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "free",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "etch",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "vote",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "vote",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "lift",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "GOV",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "MAX_YAYS",
+      "file": "Chief.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "TRANSFER:Chief.sol:106",
+      "file": "Chief.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 1,
+    "n_functions": 16,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00195",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-221",
+      "CWE-223",
+      "CWE-664",
+      "CWE-691",
+      "CWE-710",
+      "CWE-778",
+      "CWE-841"
+    ]
+  }
+}

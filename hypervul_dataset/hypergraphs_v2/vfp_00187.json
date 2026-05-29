@@ -1,0 +1,718 @@
+{
+  "sample_id": "vfp_00187",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_executePreOpsCall",
+      "file": "Escrow.sol",
+      "start_line": 57,
+      "end_line": 86,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_executeUserOperation",
+      "file": "Escrow.sol",
+      "start_line": 94,
+      "end_line": 129,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_checkTrustedOpHash",
+      "file": "Escrow.sol",
+      "start_line": 139,
+      "end_line": 153,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_executeSolverOperation",
+      "file": "Escrow.sol",
+      "start_line": 167,
+      "end_line": 268,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_allocateValue",
+      "file": "Escrow.sol",
+      "start_line": 280,
+      "end_line": 307,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_adjustGasLedgerAtSolverOpStart",
+      "file": "Escrow.sol",
+      "start_line": 316,
+      "end_line": 340,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_validateSolverOpGasAndValue",
+      "file": "Escrow.sol",
+      "start_line": 356,
+      "end_line": 390,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_validateSolverOpDeadline",
+      "file": "Escrow.sol",
+      "start_line": 396,
+      "end_line": 421,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_getBidAmount",
+      "file": "Escrow.sol",
+      "start_line": 438,
+      "end_line": 496,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_handleAltOpHash",
+      "file": "Escrow.sol",
+      "start_line": 503,
+      "end_line": 523,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_checkSolverBidToken",
+      "file": "Escrow.sol",
+      "start_line": 530,
+      "end_line": 543,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_solverOpWrapper",
+      "file": "Escrow.sol",
+      "start_line": 556,
+      "end_line": 603,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "solverCall",
+      "file": "Escrow.sol",
+      "start_line": 612,
+      "end_line": 732,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_updateDAppGasLeft",
+      "file": "Escrow.sol",
+      "start_line": 739,
+      "end_line": 746,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_initializeAccountingValues",
+      "file": "GasAccounting.sol",
+      "start_line": 48,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "contribute",
+      "file": "GasAccounting.sol",
+      "start_line": 75,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "GasAccounting.sol",
+      "start_line": 84,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "shortfall",
+      "file": "GasAccounting.sol",
+      "start_line": 110,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "reconcile",
+      "file": "GasAccounting.sol",
+      "start_line": 126,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_contribute",
+      "file": "GasAccounting.sol",
+      "start_line": 188,
+      "end_line": 194,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_borrow",
+      "file": "GasAccounting.sol",
+      "start_line": 202,
+      "end_line": 211,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_assign",
+      "file": "GasAccounting.sol",
+      "start_line": 219,
+      "end_line": 263,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_credit",
+      "file": "GasAccounting.sol",
+      "start_line": 268,
+      "end_line": 272,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_handleSolverFailAccounting",
+      "file": "GasAccounting.sol",
+      "start_line": 282,
+      "end_line": 355,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_writeOffBidFindGas",
+      "file": "GasAccounting.sol",
+      "start_line": 361,
+      "end_line": 365,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_chargeUnreachedSolversForCalldata",
+      "file": "GasAccounting.sol",
+      "start_line": 382,
+      "end_line": 431,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_settle",
+      "file": "GasAccounting.sol",
+      "start_line": 443,
+      "end_line": 563,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_updateAnalytics",
+      "file": "GasAccounting.sol",
+      "start_line": 570,
+      "end_line": 590,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_isBalanceReconciled",
+      "file": "GasAccounting.sol",
+      "start_line": 594,
+      "end_line": 606,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:68",
+      "call_type": "CALL",
+      "line": 68,
+      "enclosing_function": "_executePreOpsCall",
+      "file": "Escrow.sol",
+      "raw_text": "(bool _success, bytes memory _data) = ctx.executionEnvironment.call{ gas: ctx.dappGasLeft }("
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:111",
+      "call_type": "CALL",
+      "line": 111,
+      "enclosing_function": "_executeUserOperation",
+      "file": "Escrow.sol",
+      "raw_text": "(_success, _data) = ctx.executionEnvironment.call{ value: userOp.value, gas: userOp.gas }("
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:291",
+      "call_type": "CALL",
+      "line": 291,
+      "enclosing_function": "_allocateValue",
+      "file": "Escrow.sol",
+      "raw_text": "(bool _success,) = ctx.executionEnvironment.call{ gas: ctx.dappGasLeft }("
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:476",
+      "call_type": "CALL",
+      "line": 476,
+      "enclosing_function": "_getBidAmount",
+      "file": "Escrow.sol",
+      "raw_text": "(bool _success, bytes memory _data) = address(this).call{ gas: _gasLimit }("
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:570",
+      "call_type": "CALL",
+      "line": 570,
+      "enclosing_function": "_solverOpWrapper",
+      "file": "Escrow.sol",
+      "raw_text": "address(this).call{ gas: gasLimit }(abi.encodeCall(this.solverCall, (ctx, solverOp, bidAmount, returnData)));"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:637",
+      "call_type": "CALL",
+      "line": 637,
+      "enclosing_function": "solverCall",
+      "file": "Escrow.sol",
+      "raw_text": "(_success, _data) = ctx.executionEnvironment.call("
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:699",
+      "call_type": "CALL",
+      "line": 699,
+      "enclosing_function": "solverCall",
+      "file": "Escrow.sol",
+      "raw_text": "(_success, _data) = ctx.executionEnvironment.call("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        29
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        30
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        31
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        8,
+        32
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        3,
+        11,
+        33
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        12,
+        34
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 34
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        12,
+        35
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 35
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_executePreOpsCall",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_executeUserOperation",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_checkTrustedOpHash",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_executeSolverOperation",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_allocateValue",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_adjustGasLedgerAtSolverOpStart",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_validateSolverOpGasAndValue",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_validateSolverOpDeadline",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_getBidAmount",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_handleAltOpHash",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_checkSolverBidToken",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_solverOpWrapper",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "solverCall",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_updateDAppGasLeft",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_initializeAccountingValues",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "contribute",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "shortfall",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "reconcile",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_contribute",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_borrow",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_assign",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_credit",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_handleSolverFailAccounting",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_writeOffBidFindGas",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_chargeUnreachedSolversForCalldata",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_settle",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_updateAnalytics",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_isBalanceReconciled",
+      "file": "GasAccounting.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:68",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:111",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:291",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:476",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:570",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:637",
+      "file": "Escrow.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "CALL:Escrow.sol:699",
+      "file": "Escrow.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 36,
+    "n_hyperedges": 7,
+    "n_functions": 29,
+    "n_state_vars": 0,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 2.142857142857143
+  },
+  "label": {
+    "vfp_id": "vfp_00187",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1111",
+      "CWE-190",
+      "CWE-345",
+      "CWE-372",
+      "CWE-649",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-710"
+    ]
+  }
+}

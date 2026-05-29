@@ -1,0 +1,776 @@
+{
+  "sample_id": "vfp_00202",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ZkCappedMinter.sol",
+      "start_line": 41,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_revertIfUnauthorized",
+      "file": "ZkCappedMinter.sol",
+      "start_line": 49,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_revertIfCapExceeded",
+      "file": "ZkCappedMinter.sol",
+      "start_line": 57,
+      "end_line": 61,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isClaimed",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 117,
+      "end_line": 119,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "claim",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 127,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "claimOnBehalf",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 142,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "sweepUnclaimed",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 180,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 194,
+      "end_line": 226,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "invalidateNonce",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 229,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 234,
+      "end_line": 236,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_revertIfUnauthorized",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 239,
+      "end_line": 243,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_setClaimed",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 247,
+      "end_line": 249,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_revertIfAlreadyClaimed",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 253,
+      "end_line": 257,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_revertIfClaimWindowNotOpen",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 260,
+      "end_line": 264,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_revertIfClaimWindowHasNotClosed",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 267,
+      "end_line": 271,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_revertIfClaimAmountExceedsMaximum",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 275,
+      "end_line": 279,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_revertIfAlreadySwept",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 282,
+      "end_line": 286,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_revertIfSignatureIsNotValidNow",
+      "file": "ZkMerkleDistributor.sol",
+      "start_line": 292,
+      "end_line": 297,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ZkTokenV1.sol",
+      "start_line": 42,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ZkTokenV1.sol",
+      "start_line": 58,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "burn",
+      "file": "ZkTokenV1.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ZkTokenV1.sol",
+      "start_line": 73,
+      "end_line": 75,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_update",
+      "file": "ZkTokenV1.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "TOKEN",
+      "var_type": "IMintableAndDelegatable public immutable",
+      "file": "ZkCappedMinter.sol",
+      "line": 11
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "ADMIN",
+      "var_type": "address public immutable",
+      "file": "ZkCappedMinter.sol",
+      "line": 14
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "CAP",
+      "var_type": "uint256 public immutable",
+      "file": "ZkCappedMinter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "minted",
+      "var_type": "uint256 public",
+      "file": "ZkCappedMinter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "ZK_CLAIM_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 34
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ADMIN",
+      "var_type": "address public immutable",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 39
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "TOKEN",
+      "var_type": "IMintableAndDelegatable public immutable",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 42
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "MERKLE_ROOT",
+      "var_type": "bytes32 public immutable",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 45
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "MAXIMUM_TOTAL_CLAIMABLE",
+      "var_type": "uint256 public immutable",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 48
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "WINDOW_START",
+      "var_type": "uint256 public immutable",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 51
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "WINDOW_END",
+      "var_type": "uint256 public immutable",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 54
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "claimedBitMap",
+      "var_type": "BitMaps.BitMap internal",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 57
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "totalClaimed",
+      "var_type": "uint256 public",
+      "file": "ZkMerkleDistributor.sol",
+      "line": 60
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "MINTER_ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ZkTokenV1.sol",
+      "line": 20
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "BURNER_ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ZkTokenV1.sol",
+      "line": 25
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "MINTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ZkTokenV1.sol",
+      "line": 30
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "BURNER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ZkTokenV1.sol",
+      "line": 35
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZkMerkleDistributor.sol:184",
+      "call_type": "INTERFACE_CALL",
+      "line": 184,
+      "enclosing_function": "sweepUnclaimed",
+      "file": "ZkMerkleDistributor.sol",
+      "raw_text": "TOKEN.mint(_unclaimedReceiver, MAXIMUM_TOTAL_CLAIMABLE - totalClaimed);"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZkMerkleDistributor.sol:214",
+      "call_type": "INTERFACE_CALL",
+      "line": 214,
+      "enclosing_function": "_claim",
+      "file": "ZkMerkleDistributor.sol",
+      "raw_text": "TOKEN.mint(_claimant, _amount);"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZkMerkleDistributor.sol:218",
+      "call_type": "INTERFACE_CALL",
+      "line": 218,
+      "enclosing_function": "_claim",
+      "file": "ZkMerkleDistributor.sol",
+      "raw_text": "TOKEN.delegateBySig("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        23,
+        31,
+        35,
+        40
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 40
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        5,
+        7,
+        23,
+        27,
+        30,
+        35,
+        41
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 41
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        5,
+        7,
+        23,
+        27,
+        30,
+        35,
+        42
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 42
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ZkCappedMinter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_revertIfUnauthorized",
+      "file": "ZkCappedMinter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_revertIfCapExceeded",
+      "file": "ZkCappedMinter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isClaimed",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "claim",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "claimOnBehalf",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "sweepUnclaimed",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "invalidateNonce",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_revertIfUnauthorized",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_setClaimed",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_revertIfAlreadyClaimed",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_revertIfClaimWindowNotOpen",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_revertIfClaimWindowHasNotClosed",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_revertIfClaimAmountExceedsMaximum",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_revertIfAlreadySwept",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_revertIfSignatureIsNotValidNow",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "burn",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_update",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "TOKEN",
+      "file": "ZkCappedMinter.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "ADMIN",
+      "file": "ZkCappedMinter.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "CAP",
+      "file": "ZkCappedMinter.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "minted",
+      "file": "ZkCappedMinter.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "ZK_CLAIM_TYPEHASH",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ADMIN",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "TOKEN",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "MERKLE_ROOT",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "MAXIMUM_TOTAL_CLAIMABLE",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "WINDOW_START",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "WINDOW_END",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "claimedBitMap",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "totalClaimed",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "MINTER_ADMIN_ROLE",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "BURNER_ADMIN_ROLE",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "MINTER_ROLE",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "BURNER_ROLE",
+      "file": "ZkTokenV1.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZkMerkleDistributor.sol:184",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZkMerkleDistributor.sol:214",
+      "file": "ZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ZkMerkleDistributor.sol:218",
+      "file": "ZkMerkleDistributor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 43,
+    "n_hyperedges": 3,
+    "n_functions": 23,
+    "n_state_vars": 17,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "vfp_00202",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1111",
+      "CWE-1287",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-345",
+      "CWE-347",
+      "CWE-362",
+      "CWE-435",
+      "CWE-436",
+      "CWE-456",
+      "CWE-664",
+      "CWE-665",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-707",
+      "CWE-710",
+      "CWE-909"
+    ]
+  }
+}

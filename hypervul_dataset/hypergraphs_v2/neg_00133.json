@@ -1,0 +1,324 @@
+{
+  "sample_id": "neg_00133",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isEthereumTestnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "start_line": 27,
+      "end_line": 32,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isEthereumMainnetOrTestnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "start_line": 38,
+      "end_line": 40,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isTaikoMainnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "start_line": 45,
+      "end_line": 47,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isTaikoDevnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "start_line": 53,
+      "end_line": 55,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isDencunSupported",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "start_line": 61,
+      "end_line": 65,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "ETHEREUM_MAINNET",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 6
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ETHEREUM_ROPSTEN",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 7
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "ETHEREUM_RINKEBY",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 8
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ETHEREUM_GOERLI",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 9
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ETHEREUM_KOVAN",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 10
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "ETHEREUM_HOLESKY",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 11
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "ETHEREUM_SEPOLIA",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 12
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "ETHEREUM_HELDER",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 13
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ETHEREUM_HOODI",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 14
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "TAIKO_MAINNET",
+      "var_type": "uint64 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 16
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "TAIKO_HEKLA",
+      "var_type": "uint64 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 17
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "TAIKO_DEVNET",
+      "var_type": "uint64 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 18
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "TAIKO_PRECONF",
+      "var_type": "uint64 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 19
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "TAIKO_HOODI",
+      "var_type": "uint64 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 20
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "ETHEREUM_BLOCK_TIME",
+      "var_type": "uint256 internal constant",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol",
+      "line": 22
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isEthereumTestnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isEthereumMainnetOrTestnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isTaikoMainnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isTaikoDevnet",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isDencunSupported",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "ETHEREUM_MAINNET",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ETHEREUM_ROPSTEN",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "ETHEREUM_RINKEBY",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "ETHEREUM_GOERLI",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ETHEREUM_KOVAN",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "ETHEREUM_HOLESKY",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "ETHEREUM_SEPOLIA",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "ETHEREUM_HELDER",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ETHEREUM_HOODI",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "TAIKO_MAINNET",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "TAIKO_HEKLA",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "TAIKO_DEVNET",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "TAIKO_PRECONF",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "TAIKO_HOODI",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "ETHEREUM_BLOCK_TIME",
+      "file": "taiko-mono_packages_protocol_contracts_shared_libs_LibNetwork.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 15,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00133",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

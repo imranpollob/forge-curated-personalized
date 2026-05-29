@@ -1,0 +1,481 @@
+{
+  "sample_id": "vfp_00436",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 51,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "open",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 90,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resolveFor",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 119,
+      "end_line": 125,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 131,
+      "end_line": 137,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decode",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 146,
+      "end_line": 152,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getCurrentTime",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 158,
+      "end_line": 160,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_resolveFor",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 162,
+      "end_line": 244,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_resolve",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 246,
+      "end_line": 308,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_processPermit2Order",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 310,
+      "end_line": 338,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_toBytes32",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 340,
+      "end_line": 342,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_toAddress",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 344,
+      "end_line": 347,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_callDeposit",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 349,
+      "end_line": 362,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_currentDepositId",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 364,
+      "end_line": 364,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_destinationSettler",
+      "file": "ERC7683OrderDepositor.sol",
+      "start_line": 366,
+      "end_line": 366,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setDestinationSettler",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "start_line": 38,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_callDeposit",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "start_line": 44,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_currentDepositId",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_destinationSettler",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "start_line": 80,
+      "end_line": 82,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "var_type": "IPermit2 public immutable",
+      "file": "ERC7683OrderDepositor.sol",
+      "line": 28
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "QUOTE_BEFORE_DEADLINE",
+      "var_type": "uint256 public immutable",
+      "file": "ERC7683OrderDepositor.sol",
+      "line": 32
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "SPOKE_POOL",
+      "var_type": "SpokePool public immutable",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "line": 25
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "destinationSettlers",
+      "var_type": "mapping(uint256 => address) public",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "line": 28
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC7683OrderDepositor.sol:294",
+      "call_type": "INTERFACE_CALL",
+      "line": 294,
+      "enclosing_function": "_processPermit2Order",
+      "file": "ERC7683OrderDepositor.sol",
+      "raw_text": "PERMIT2.permitWitnessTransferFrom("
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC7683OrderDepositorExternal.sol:56",
+      "call_type": "INTERFACE_CALL",
+      "line": 56,
+      "enclosing_function": "_callDeposit",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "raw_text": "SPOKE_POOL.depositV3("
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC7683OrderDepositorExternal.sol:73",
+      "call_type": "INTERFACE_CALL",
+      "line": 73,
+      "enclosing_function": "_currentDepositId",
+      "file": "ERC7683OrderDepositorExternal.sol",
+      "raw_text": "return SPOKE_POOL.numberOfDeposits();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        8,
+        18,
+        19,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        11,
+        20,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        12,
+        20,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "open",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resolveFor",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decode",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getCurrentTime",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_resolveFor",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_resolve",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_processPermit2Order",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_toBytes32",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_toAddress",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_callDeposit",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_currentDepositId",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_destinationSettler",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setDestinationSettler",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_callDeposit",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_currentDepositId",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_destinationSettler",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "QUOTE_BEFORE_DEADLINE",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "SPOKE_POOL",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "destinationSettlers",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC7683OrderDepositor.sol:294",
+      "file": "ERC7683OrderDepositor.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC7683OrderDepositorExternal.sol:56",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ERC7683OrderDepositorExternal.sol:73",
+      "file": "ERC7683OrderDepositorExternal.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 25,
+    "n_hyperedges": 3,
+    "n_functions": 18,
+    "n_state_vars": 4,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.6666666666666665
+  },
+  "label": {
+    "vfp_id": "vfp_00436",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-20",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

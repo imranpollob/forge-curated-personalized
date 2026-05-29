@@ -1,0 +1,322 @@
+{
+  "sample_id": "vfp_00462",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 87,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "hashIssuer",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addKeys",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 100,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addKey",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 106,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getKey",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 116,
+      "end_line": 123,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getKeys",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 128,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deleteKey",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 135,
+      "end_line": 139,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_addKeys",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 143,
+      "end_line": 153,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_compactKeys",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 158,
+      "end_line": 184,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_deleteKey",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 189,
+      "end_line": 197,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_validateKeyBatch",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 207,
+      "end_line": 230,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_hasNonZeroExponent",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 236,
+      "end_line": 243,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_validateModulus",
+      "file": "OidcKeyRegistry.sol",
+      "start_line": 251,
+      "end_line": 267,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MAX_KEYS",
+      "var_type": "uint8 public constant",
+      "file": "OidcKeyRegistry.sol",
+      "line": 13
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "CIRCOM_BIGINT_CHUNKS",
+      "var_type": "uint8 public constant",
+      "file": "OidcKeyRegistry.sol",
+      "line": 17
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "OIDCKeys",
+      "var_type": "mapping(bytes32 issHash => Key[MAX_KEYS] keys) public",
+      "file": "OidcKeyRegistry.sol",
+      "line": 77
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "keyIndexes",
+      "var_type": "mapping(bytes32 issHash => uint8 keyIndex) public",
+      "file": "OidcKeyRegistry.sol",
+      "line": 81
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "hashIssuer",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addKeys",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addKey",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getKey",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getKeys",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deleteKey",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_addKeys",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_compactKeys",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_deleteKey",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_validateKeyBatch",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_hasNonZeroExponent",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_validateModulus",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MAX_KEYS",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "CIRCOM_BIGINT_CHUNKS",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "OIDCKeys",
+      "file": "OidcKeyRegistry.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "keyIndexes",
+      "file": "OidcKeyRegistry.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00462",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-282",
+      "CWE-283",
+      "CWE-284",
+      "CWE-664",
+      "CWE-682",
+      "CWE-707"
+    ]
+  }
+}

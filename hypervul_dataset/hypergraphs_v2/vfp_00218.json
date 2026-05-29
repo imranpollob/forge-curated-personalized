@@ -1,0 +1,57 @@
+{
+  "sample_id": "vfp_00218",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "EnjoyoorsVaultDeposits.sol",
+      "start_line": 38,
+      "end_line": 52,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "EnjoyoorsVaultDeposits.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 1,
+    "n_hyperedges": 0,
+    "n_functions": 1,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00218",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-221",
+      "CWE-664",
+      "CWE-707"
+    ]
+  }
+}

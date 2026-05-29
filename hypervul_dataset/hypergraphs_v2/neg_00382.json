@@ -1,0 +1,108 @@
+{
+  "sample_id": "neg_00382",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_src_interfaces_IMulticall.sol",
+      "start_line": 10,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setUpTokens",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol",
+      "start_line": 12,
+      "end_line": 15,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "buildTransferCall",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol",
+      "start_line": 17,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "tokenA",
+      "var_type": "ERC20Mock",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol",
+      "line": 9
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "tokenB",
+      "var_type": "ERC20Mock",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol",
+      "line": 10
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_src_interfaces_IMulticall.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setUpTokens",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "buildTransferCall",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "tokenA",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "tokenB",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_minimal-delegation_test_utils_TokenHandler.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00382",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

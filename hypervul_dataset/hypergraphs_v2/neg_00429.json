@@ -1,0 +1,368 @@
+{
+  "sample_id": "neg_00429",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getTransceiverInfosStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 96,
+      "end_line": 105,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getEnabledTransceiversStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 107,
+      "end_line": 112,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTransceiverBitmapStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 114,
+      "end_line": 123,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getRegisteredTransceiversStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 125,
+      "end_line": 130,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getNumTransceiversStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_setTransceiver",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 141,
+      "end_line": 184,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_removeTransceiver",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 186,
+      "end_line": 231,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_getEnabledTransceiversBitmap",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 233,
+      "end_line": 235,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTransceivers",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 238,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTransceiverInfo",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 243,
+      "end_line": 253,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_checkTransceiversInvariants",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 260,
+      "end_line": 280,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_checkTransceiverInvariants",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "start_line": 283,
+      "end_line": 319,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "mint",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_INttToken.sol",
+      "start_line": 27,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_INttToken.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "burn",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_INttToken.sol",
+      "start_line": 37,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MAX_TRANSCEIVERS",
+      "var_type": "uint8 constant",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "line": 41
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "TRANSCEIVER_INFOS_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "line": 81
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "TRANSCEIVER_BITMAP_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "line": 84
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "ENABLED_TRANSCEIVERS_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "line": 87
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "REGISTERED_TRANSCEIVERS_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "line": 90
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "NUM_REGISTERED_TRANSCEIVERS_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol",
+      "line": 93
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getTransceiverInfosStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getEnabledTransceiversStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTransceiverBitmapStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getRegisteredTransceiversStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getNumTransceiversStorage",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_setTransceiver",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_removeTransceiver",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_getEnabledTransceiversBitmap",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTransceivers",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getTransceiverInfo",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_checkTransceiversInvariants",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_checkTransceiverInvariants",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "mint",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_INttToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setMinter",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_INttToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "burn",
+      "file": "832781e_sky-ntt-migration_evm_src_interfaces_INttToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MAX_TRANSCEIVERS",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "TRANSCEIVER_INFOS_SLOT",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "TRANSCEIVER_BITMAP_SLOT",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "ENABLED_TRANSCEIVERS_SLOT",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "REGISTERED_TRANSCEIVERS_SLOT",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "NUM_REGISTERED_TRANSCEIVERS_SLOT",
+      "file": "832781e_sky-ntt-migration_evm_src_NttManager_TransceiverRegistry.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 21,
+    "n_hyperedges": 0,
+    "n_functions": 15,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00429",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

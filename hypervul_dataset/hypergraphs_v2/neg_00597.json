@@ -1,0 +1,555 @@
+{
+  "sample_id": "neg_00597",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_claimSymm_interfaces_IERC20Minter.sol",
+      "start_line": 16,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 55,
+      "end_line": 85,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 99,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addLiquidityByPercentage",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 115,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_addLiquidityProcess",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 124,
+      "end_line": 162,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 171,
+      "end_line": 213,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_mulDivUp",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 222,
+      "end_line": 240,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getLiquidityQuote",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 247,
+      "end_line": 256,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_mintTokenIfPossible",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "start_line": 258,
+      "end_line": 260,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "POOL",
+      "var_type": "IPool public",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "line": 40
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "var_type": "IRouter public",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "line": 41
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "var_type": "IPermit2 public",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "line": 42
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "VAULT",
+      "var_type": "address public",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "line": 43
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "SYMM",
+      "var_type": "address public",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "line": 44
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "USDC",
+      "var_type": "address public",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "line": 45
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "SYMM_LP",
+      "var_type": "address public",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "line": 46
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:180",
+      "call_type": "INTERFACE_CALL",
+      "line": 180,
+      "enclosing_function": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "IERC20[] memory poolTokens = POOL.getTokens();"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:184",
+      "call_type": "INTERFACE_CALL",
+      "line": 184,
+      "enclosing_function": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "usdc.safeTransferFrom(msg.sender, address(this), usdcIn);"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:187",
+      "call_type": "INTERFACE_CALL",
+      "line": 187,
+      "enclosing_function": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "PERMIT2.approve(SYMM, address(ROUTER), uint160(symmIn), uint48(block.timestamp));"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:188",
+      "call_type": "INTERFACE_CALL",
+      "line": 188,
+      "enclosing_function": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "PERMIT2.approve(USDC, address(ROUTER), uint160(usdcIn), uint48(block.timestamp));"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:197",
+      "call_type": "INTERFACE_CALL",
+      "line": 197,
+      "enclosing_function": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "amountsIn = ROUTER.addLiquidityProportional("
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:206",
+      "call_type": "INTERFACE_CALL",
+      "line": 206,
+      "enclosing_function": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "if (usdcIn - amountsIn[1] > 0) usdc.safeTransfer(msg.sender, usdcIn - amountsIn[1]);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:248",
+      "call_type": "INTERFACE_CALL",
+      "line": 248,
+      "enclosing_function": "getLiquidityQuote",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "uint256[] memory balances = POOL.getCurrentLiveBalances();"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:249",
+      "call_type": "INTERFACE_CALL",
+      "line": 249,
+      "enclosing_function": "getLiquidityQuote",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol",
+      "raw_text": "uint256 totalSupply = POOL.totalSupply();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_claimSymm_interfaces_IERC20Minter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addLiquidityByPercentage",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_addLiquidityProcess",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_addLiquidity",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_mulDivUp",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getLiquidityQuote",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_mintTokenIfPossible",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "POOL",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PERMIT2",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "VAULT",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "SYMM",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "USDC",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "SYMM_LP",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:180",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:184",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:187",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:188",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:197",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:206",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:248",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol:249",
+      "file": "1d014156b1d9f0ab3259026127b9220eb2da3292_2025-03-symm-io-stacking_token_contracts_vesting_SymmVesting.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 8,
+    "n_functions": 9,
+    "n_state_vars": 7,
+    "n_call_sites": 8,
+    "avg_hyperedge_size": 11.25
+  },
+  "label": {
+    "vfp_id": "neg_00597",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

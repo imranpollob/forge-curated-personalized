@@ -1,0 +1,291 @@
+{
+  "sample_id": "vfp_00344",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getAccounts",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 48,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onTokenTransfer",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 55,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 66,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkUpkeep",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 76,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "performUpkeep",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 93,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "addSplitter",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 114,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "removeSplitter",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 130,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setRewardThreshold",
+      "file": "LSTRewardsSplitterController.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "splitters",
+      "var_type": "mapping(address => ILSTRewardsSplitter) public",
+      "file": "LSTRewardsSplitterController.sol",
+      "line": 19
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "accounts",
+      "var_type": "address[] internal",
+      "file": "LSTRewardsSplitterController.sol",
+      "line": 21
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "lst",
+      "var_type": "address public",
+      "file": "LSTRewardsSplitterController.sol",
+      "line": 24
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "rewardThreshold",
+      "var_type": "uint256 public",
+      "file": "LSTRewardsSplitterController.sol",
+      "line": 26
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LSTRewardsSplitterController.sol:96",
+      "call_type": "INTERFACE_CALL",
+      "line": 96,
+      "enclosing_function": "addSplitter",
+      "file": "LSTRewardsSplitterController.sol",
+      "raw_text": "accounts.push(_account);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LSTRewardsSplitterController.sol:118",
+      "call_type": "INTERFACE_CALL",
+      "line": 118,
+      "enclosing_function": "removeSplitter",
+      "file": "LSTRewardsSplitterController.sol",
+      "raw_text": "accounts.pop();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        8,
+        9,
+        10,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        8,
+        9,
+        10,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getAccounts",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onTokenTransfer",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkUpkeep",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "performUpkeep",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "addSplitter",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "removeSplitter",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setRewardThreshold",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "splitters",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "accounts",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "lst",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "rewardThreshold",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LSTRewardsSplitterController.sol:96",
+      "file": "LSTRewardsSplitterController.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LSTRewardsSplitterController.sol:118",
+      "file": "LSTRewardsSplitterController.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 2,
+    "n_functions": 8,
+    "n_state_vars": 4,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00344",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1067",
+      "CWE-1176",
+      "CWE-1325",
+      "CWE-400",
+      "CWE-405",
+      "CWE-664",
+      "CWE-770"
+    ]
+  }
+}

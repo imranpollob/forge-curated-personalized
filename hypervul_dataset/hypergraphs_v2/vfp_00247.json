@@ -1,0 +1,2321 @@
+{
+  "sample_id": "vfp_00247",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EntitlementV1.sol",
+      "start_line": 29,
+      "end_line": 45,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addEntitlementContract",
+      "file": "EntitlementV1.sol",
+      "start_line": 47,
+      "end_line": 63,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "removeEntitlementContract",
+      "file": "EntitlementV1.sol",
+      "start_line": 65,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "hasEntitlement",
+      "file": "EntitlementV1.sol",
+      "start_line": 80,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "userEntitlementContracts",
+      "file": "EntitlementV1.sol",
+      "start_line": 94,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_callerHasContractEntitlement",
+      "file": "EntitlementV1.sol",
+      "start_line": 117,
+      "end_line": 120,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EntitlementV1.sol",
+      "start_line": 122,
+      "end_line": 122,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MetadataV2.sol",
+      "start_line": 44,
+      "end_line": 62,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "createTokenMetadata",
+      "file": "MetadataV2.sol",
+      "start_line": 64,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deleteTokenMetadata",
+      "file": "MetadataV2.sol",
+      "start_line": 88,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setTraitMetadataURI",
+      "file": "MetadataV2.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "MetadataV2.sol",
+      "start_line": 103,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "isUserMinted",
+      "file": "MetadataV2.sol",
+      "start_line": 110,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getTraitValue",
+      "file": "MetadataV2.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getTraitValues",
+      "file": "MetadataV2.sol",
+      "start_line": 119,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getTraitMetadataURI",
+      "file": "MetadataV2.sol",
+      "start_line": 132,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "addSeries",
+      "file": "MetadataV2.sol",
+      "start_line": 137,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getSeries",
+      "file": "MetadataV2.sol",
+      "start_line": 167,
+      "end_line": 190,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "isSeriesAvailable",
+      "file": "MetadataV2.sol",
+      "start_line": 192,
+      "end_line": 194,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setSeriesAvailability",
+      "file": "MetadataV2.sol",
+      "start_line": 196,
+      "end_line": 218,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getAvailableSeries",
+      "file": "MetadataV2.sol",
+      "start_line": 220,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setPriceInGwei",
+      "file": "MetadataV2.sol",
+      "start_line": 224,
+      "end_line": 229,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getSeriesMintingPrice",
+      "file": "MetadataV2.sol",
+      "start_line": 231,
+      "end_line": 235,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "sumAllRefundableTokensValue",
+      "file": "MetadataV2.sol",
+      "start_line": 237,
+      "end_line": 261,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getRefundAmount",
+      "file": "MetadataV2.sol",
+      "start_line": 263,
+      "end_line": 271,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "setLogoContract",
+      "file": "MetadataV2.sol",
+      "start_line": 273,
+      "end_line": 277,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_setTokenMetadata",
+      "file": "MetadataV2.sol",
+      "start_line": 279,
+      "end_line": 287,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "increaseSponsorPoints",
+      "file": "MetadataV2.sol",
+      "start_line": 289,
+      "end_line": 302,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "isGovernanceToken",
+      "file": "MetadataV2.sol",
+      "start_line": 303,
+      "end_line": 307,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_isSeriesAvailable",
+      "file": "MetadataV2.sol",
+      "start_line": 309,
+      "end_line": 319,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_removeAvailableSeries",
+      "file": "MetadataV2.sol",
+      "start_line": 321,
+      "end_line": 329,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_getTraitValue",
+      "file": "MetadataV2.sol",
+      "start_line": 331,
+      "end_line": 339,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_makeJsonMetadata",
+      "file": "MetadataV2.sol",
+      "start_line": 341,
+      "end_line": 366,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_seriesOfToken",
+      "file": "MetadataV2.sol",
+      "start_line": 368,
+      "end_line": 378,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_makeMaskedTokenId",
+      "file": "MetadataV2.sol",
+      "start_line": 380,
+      "end_line": 398,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_metadataExists",
+      "file": "MetadataV2.sol",
+      "start_line": 400,
+      "end_line": 403,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_givesGovernanceAccess",
+      "file": "MetadataV2.sol",
+      "start_line": 405,
+      "end_line": 416,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_setTraitMetadataURI",
+      "file": "MetadataV2.sol",
+      "start_line": 418,
+      "end_line": 423,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "MetadataV2.sol",
+      "start_line": 425,
+      "end_line": 429,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "NeuV2.sol",
+      "start_line": 48,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "NeuV2.sol",
+      "start_line": 71,
+      "end_line": 77,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "getTraitMetadataURI",
+      "file": "NeuV2.sol",
+      "start_line": 79,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_setTraitMetadataURI",
+      "file": "NeuV2.sol",
+      "start_line": 88,
+      "end_line": 91,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "NeuV2.sol",
+      "start_line": 93,
+      "end_line": 103,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "setMetadataContract",
+      "file": "NeuV2.sol",
+      "start_line": 105,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "setDaoLockContract",
+      "file": "NeuV2.sol",
+      "start_line": 111,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setStorageContract",
+      "file": "NeuV2.sol",
+      "start_line": 117,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_privateMint",
+      "file": "NeuV2.sol",
+      "start_line": 123,
+      "end_line": 131,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_privateBurn",
+      "file": "NeuV2.sol",
+      "start_line": 133,
+      "end_line": 136,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "safeMint",
+      "file": "NeuV2.sol",
+      "start_line": 138,
+      "end_line": 140,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "safeMintPublic",
+      "file": "NeuV2.sol",
+      "start_line": 142,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "burn",
+      "file": "NeuV2.sol",
+      "start_line": 149,
+      "end_line": 152,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "NeuV2.sol",
+      "start_line": 154,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "refund",
+      "file": "NeuV2.sol",
+      "start_line": 164,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "increaseSponsorPoints",
+      "file": "NeuV2.sol",
+      "start_line": 174,
+      "end_line": 180,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_increaseSponsorPoints",
+      "file": "NeuV2.sol",
+      "start_line": 182,
+      "end_line": 192,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "setWeiPerSponsorPoint",
+      "file": "NeuV2.sol",
+      "start_line": 194,
+      "end_line": 199,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "setTrait",
+      "file": "NeuV2.sol",
+      "start_line": 201,
+      "end_line": 208,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "getTraitValue",
+      "file": "NeuV2.sol",
+      "start_line": 210,
+      "end_line": 217,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "getTraitValues",
+      "file": "NeuV2.sol",
+      "start_line": 219,
+      "end_line": 227,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "setTraitMetadataURI",
+      "file": "NeuV2.sol",
+      "start_line": 229,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "getTokensOfOwner",
+      "file": "NeuV2.sol",
+      "start_line": 235,
+      "end_line": 243,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "getTokensWithData",
+      "file": "NeuV2.sol",
+      "start_line": 245,
+      "end_line": 254,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "getTokensTraitValues",
+      "file": "NeuV2.sol",
+      "start_line": 256,
+      "end_line": 262,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "isGovernanceToken",
+      "file": "NeuV2.sol",
+      "start_line": 264,
+      "end_line": 268,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_update",
+      "file": "NeuV2.sol",
+      "start_line": 272,
+      "end_line": 274,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_increaseBalance",
+      "file": "NeuV2.sol",
+      "start_line": 276,
+      "end_line": 278,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "NeuV2.sol",
+      "start_line": 280,
+      "end_line": 290,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "NeuV2.sol",
+      "start_line": 292,
+      "end_line": 292,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StorageV2.sol",
+      "start_line": 33,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "StorageV2.sol",
+      "start_line": 51,
+      "end_line": 55,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "saveData",
+      "file": "StorageV2.sol",
+      "start_line": 57,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "retrieveData",
+      "file": "StorageV2.sol",
+      "start_line": 72,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "StorageV2.sol",
+      "start_line": 76,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "uint256 private constant",
+      "file": "EntitlementV1.sol",
+      "line": 17
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "EntitlementV1.sol",
+      "line": 19
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "EntitlementV1.sol",
+      "line": 20
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "entitlementContracts",
+      "var_type": "address[] public",
+      "file": "EntitlementV1.sol",
+      "line": 22
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "uint256 private constant",
+      "file": "MetadataV2.sol",
+      "line": 25
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "NEU_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "MetadataV2.sol",
+      "line": 27
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "STORAGE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "MetadataV2.sol",
+      "line": 28
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "MetadataV2.sol",
+      "line": 29
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "MetadataV2.sol",
+      "line": 30
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "REFUND_WINDOW",
+      "var_type": "uint256 private constant",
+      "file": "MetadataV2.sol",
+      "line": 31
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "_traitMetadataURI",
+      "var_type": "string",
+      "file": "MetadataV2.sol",
+      "line": 33
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "_tokenMetadata",
+      "var_type": "mapping(uint256 => TokenMetadata) private",
+      "file": "MetadataV2.sol",
+      "line": 34
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "_series",
+      "var_type": "Series[] private",
+      "file": "MetadataV2.sol",
+      "line": 35
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "_availableSeries",
+      "var_type": "uint16[] private",
+      "file": "MetadataV2.sol",
+      "line": 36
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "_logo",
+      "var_type": "NeuLogoV2 private",
+      "file": "MetadataV2.sol",
+      "line": 37
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "uint256 private constant",
+      "file": "NeuV2.sol",
+      "line": 31
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "NeuV2.sol",
+      "line": 33
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "NeuV2.sol",
+      "line": 34
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "POINTS_INCREASER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "NeuV2.sol",
+      "line": 35
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "GWEI",
+      "var_type": "uint256 private constant",
+      "file": "NeuV2.sol",
+      "line": 37
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "weiPerSponsorPoint",
+      "var_type": "uint256 public",
+      "file": "NeuV2.sol",
+      "line": 39
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "_neuMetadata",
+      "var_type": "INeuMetadataV2 private",
+      "file": "NeuV2.sol",
+      "line": 40
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "_neuDaoLock",
+      "var_type": "INeuDaoLockV1 private",
+      "file": "NeuV2.sol",
+      "line": 41
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "uint256 private constant",
+      "file": "StorageV2.sol",
+      "line": 20
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "StorageV2.sol",
+      "line": 22
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "_neuContract",
+      "var_type": "INeuTokenV1 private",
+      "file": "StorageV2.sol",
+      "line": 24
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "_userdata",
+      "var_type": "mapping(address => bytes) private",
+      "file": "StorageV2.sol",
+      "line": 25
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "_entitlementContract",
+      "var_type": "INeuEntitlementV1 private",
+      "file": "StorageV2.sol",
+      "line": 26
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV1.sol:42",
+      "call_type": "INTERFACE_CALL",
+      "line": 42,
+      "enclosing_function": "initialize",
+      "file": "EntitlementV1.sol",
+      "raw_text": "entitlementContracts.push(neuContract);"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV1.sol:60",
+      "call_type": "INTERFACE_CALL",
+      "line": 60,
+      "enclosing_function": "addEntitlementContract",
+      "file": "EntitlementV1.sol",
+      "raw_text": "entitlementContracts.push(entitlementContract);"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV1.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "removeEntitlementContract",
+      "file": "EntitlementV1.sol",
+      "raw_text": "entitlementContracts.pop();"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:147",
+      "call_type": "INTERFACE_CALL",
+      "line": 147,
+      "enclosing_function": "addSeries",
+      "file": "MetadataV2.sol",
+      "raw_text": "_series.push(Series({"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:160",
+      "call_type": "INTERFACE_CALL",
+      "line": 160,
+      "enclosing_function": "addSeries",
+      "file": "MetadataV2.sol",
+      "raw_text": "_availableSeries.push(seriesIndex);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:188",
+      "call_type": "INTERFACE_CALL",
+      "line": 188,
+      "enclosing_function": "getSeries",
+      "file": "MetadataV2.sol",
+      "raw_text": "logoSvg = _logo.makeLogo("
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:210",
+      "call_type": "INTERFACE_CALL",
+      "line": 210,
+      "enclosing_function": "setSeriesAvailability",
+      "file": "MetadataV2.sol",
+      "raw_text": "_availableSeries.push(seriesIndex);"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:325",
+      "call_type": "INTERFACE_CALL",
+      "line": 325,
+      "enclosing_function": "_removeAvailableSeries",
+      "file": "MetadataV2.sol",
+      "raw_text": "_availableSeries.pop();"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:348",
+      "call_type": "INTERFACE_CALL",
+      "line": 348,
+      "enclosing_function": "_makeJsonMetadata",
+      "file": "MetadataV2.sol",
+      "raw_text": "string memory logoSvg = Base64.encode(bytes(_logo.makeLogo("
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:128",
+      "call_type": "INTERFACE_CALL",
+      "line": 128,
+      "enclosing_function": "_privateMint",
+      "file": "NeuV2.sol",
+      "raw_text": "(tokenId, governance) = _neuMetadata.createTokenMetadata(seriesIndex, originalPrice);"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:135",
+      "call_type": "INTERFACE_CALL",
+      "line": 135,
+      "enclosing_function": "_privateBurn",
+      "file": "NeuV2.sol",
+      "raw_text": "_neuMetadata.deleteTokenMetadata(tokenId);"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:143",
+      "call_type": "INTERFACE_CALL",
+      "line": 143,
+      "enclosing_function": "safeMintPublic",
+      "file": "NeuV2.sol",
+      "raw_text": "uint256 seriesPrice = _neuMetadata.getSeriesMintingPrice(seriesIndex);"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:151",
+      "call_type": "INTERFACE_CALL",
+      "line": 151,
+      "enclosing_function": "burn",
+      "file": "NeuV2.sol",
+      "raw_text": "_neuMetadata.deleteTokenMetadata(tokenId);"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:156",
+      "call_type": "INTERFACE_CALL",
+      "line": 156,
+      "enclosing_function": "withdraw",
+      "file": "NeuV2.sol",
+      "raw_text": "_neuMetadata.sumAllRefundableTokensValue();"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "TRANSFER:NeuV2.sol:160",
+      "call_type": "TRANSFER",
+      "line": 160,
+      "enclosing_function": "withdraw",
+      "file": "NeuV2.sol",
+      "raw_text": "payable(msg.sender).transfer(availableBalance);"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:167",
+      "call_type": "INTERFACE_CALL",
+      "line": 167,
+      "enclosing_function": "refund",
+      "file": "NeuV2.sol",
+      "raw_text": "uint256 refundAmount = _neuMetadata.getRefundAmount(tokenId);"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "TRANSFER:NeuV2.sol:171",
+      "call_type": "TRANSFER",
+      "line": 171,
+      "enclosing_function": "refund",
+      "file": "NeuV2.sol",
+      "raw_text": "payable(msg.sender).transfer(refundAmount);"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "CALL:NeuV2.sol:178",
+      "call_type": "CALL",
+      "line": 178,
+      "enclosing_function": "increaseSponsorPoints",
+      "file": "NeuV2.sol",
+      "raw_text": "(bool sent, ) = address(_neuDaoLock).call{value: msg.value}(\"\");"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:252",
+      "call_type": "INTERFACE_CALL",
+      "line": 252,
+      "enclosing_function": "getTokensWithData",
+      "file": "NeuV2.sol",
+      "raw_text": "isUserMinted[i] = _neuMetadata.isUserMinted(tokenIds[i]);"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StorageV2.sol:59",
+      "call_type": "INTERFACE_CALL",
+      "line": 59,
+      "enclosing_function": "saveData",
+      "file": "StorageV2.sol",
+      "raw_text": "require(_entitlementContract.hasEntitlement(msg.sender), \"Caller does not have entitlement\");"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StorageV2.sol:60",
+      "call_type": "INTERFACE_CALL",
+      "line": 60,
+      "enclosing_function": "saveData",
+      "file": "StorageV2.sol",
+      "raw_text": "require(msg.value == 0 || _neuContract.ownerOf(tokenId) == msg.sender, \"Cannot add points to unowned NEU\");"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StorageV2.sol:68",
+      "call_type": "INTERFACE_CALL",
+      "line": 68,
+      "enclosing_function": "saveData",
+      "file": "StorageV2.sol",
+      "raw_text": "_neuContract.increaseSponsorPoints{value: msg.value}(tokenId);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        74,
+        75,
+        76,
+        77,
+        79,
+        88,
+        94,
+        99,
+        101,
+        102
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        77,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        77,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        16,
+        86,
+        87,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        16,
+        86,
+        87,
+        106
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        17,
+        86,
+        88,
+        107
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        19,
+        86,
+        87,
+        108
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 108
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        8,
+        19,
+        30,
+        86,
+        87,
+        109
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 109
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        11,
+        32,
+        62,
+        85,
+        86,
+        88,
+        95,
+        110
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 110
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        47,
+        49,
+        50,
+        95,
+        111
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 111
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        48,
+        53,
+        95,
+        112
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 112
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        50,
+        95,
+        113
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 113
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        51,
+        95,
+        114
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 114
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        52,
+        95,
+        115
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 115
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        52,
+        95,
+        116
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 116
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        53,
+        95,
+        117
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 117
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        53,
+        95,
+        118
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 118
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        27,
+        85,
+        96,
+        119
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 119
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        62,
+        95,
+        120
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 120
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        71,
+        99,
+        100,
+        101,
+        121
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 121
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        71,
+        99,
+        100,
+        101,
+        122
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 122
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        71,
+        99,
+        100,
+        101,
+        123
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 123
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addEntitlementContract",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "removeEntitlementContract",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "hasEntitlement",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "userEntitlementContracts",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_callerHasContractEntitlement",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "createTokenMetadata",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deleteTokenMetadata",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setTraitMetadataURI",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "isUserMinted",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getTraitValue",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getTraitValues",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getTraitMetadataURI",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "addSeries",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getSeries",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "isSeriesAvailable",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setSeriesAvailability",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getAvailableSeries",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setPriceInGwei",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getSeriesMintingPrice",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "sumAllRefundableTokensValue",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getRefundAmount",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "setLogoContract",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_setTokenMetadata",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "increaseSponsorPoints",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "isGovernanceToken",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_isSeriesAvailable",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_removeAvailableSeries",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_getTraitValue",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_makeJsonMetadata",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_seriesOfToken",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_makeMaskedTokenId",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_metadataExists",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_givesGovernanceAccess",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_setTraitMetadataURI",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "getTraitMetadataURI",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_setTraitMetadataURI",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "setMetadataContract",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "setDaoLockContract",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setStorageContract",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_privateMint",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_privateBurn",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "safeMint",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "safeMintPublic",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "burn",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "refund",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "increaseSponsorPoints",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_increaseSponsorPoints",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "setWeiPerSponsorPoint",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "setTrait",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "getTraitValue",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "getTraitValues",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "setTraitMetadataURI",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "getTokensOfOwner",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "getTokensWithData",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "getTokensTraitValues",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "isGovernanceToken",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_update",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_increaseBalance",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "saveData",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "retrieveData",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "entitlementContracts",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "NEU_ROLE",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "STORAGE_ROLE",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "REFUND_WINDOW",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "_traitMetadataURI",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "_tokenMetadata",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "_series",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "_availableSeries",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "_logo",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "POINTS_INCREASER_ROLE",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "GWEI",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "weiPerSponsorPoint",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "_neuMetadata",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "_neuDaoLock",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "UPGRADER_ROLE",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "_neuContract",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "_userdata",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "_entitlementContract",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV1.sol:42",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV1.sol:60",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EntitlementV1.sol:70",
+      "file": "EntitlementV1.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:147",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:160",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:188",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:210",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:325",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetadataV2.sol:348",
+      "file": "MetadataV2.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:128",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:135",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:143",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:151",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:156",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "TRANSFER:NeuV2.sol:160",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:167",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "TRANSFER:NeuV2.sol:171",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "CALL:NeuV2.sol:178",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:NeuV2.sol:252",
+      "file": "NeuV2.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StorageV2.sol:59",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StorageV2.sol:60",
+      "file": "StorageV2.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StorageV2.sol:68",
+      "file": "StorageV2.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 124,
+    "n_hyperedges": 22,
+    "n_functions": 74,
+    "n_state_vars": 28,
+    "n_call_sites": 22,
+    "avg_hyperedge_size": 4.363636363636363
+  },
+  "label": {
+    "vfp_id": "vfp_00247",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1111",
+      "CWE-1164",
+      "CWE-1176",
+      "CWE-1284",
+      "CWE-20",
+      "CWE-284",
+      "CWE-285",
+      "CWE-400",
+      "CWE-404",
+      "CWE-405",
+      "CWE-431",
+      "CWE-573",
+      "CWE-654",
+      "CWE-664",
+      "CWE-665",
+      "CWE-691",
+      "CWE-693",
+      "CWE-697",
+      "CWE-707",
+      "CWE-710",
+      "CWE-772",
+      "CWE-799",
+      "CWE-834",
+      "CWE-837",
+      "CWE-863",
+      "CWE-909",
+      "CWE-913",
+      "CWE-915"
+    ]
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "sample_id": "vfp_00142",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSlot0",
+      "file": "StateLibrary.sol",
+      "start_line": 62,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBorrowDepositCumulative",
+      "file": "StateLibrary.sol",
+      "start_line": 85,
+      "end_line": 105,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPairReserves",
+      "file": "StateLibrary.sol",
+      "start_line": 113,
+      "end_line": 116,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getRealReserves",
+      "file": "StateLibrary.sol",
+      "start_line": 124,
+      "end_line": 127,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getMirrorReserves",
+      "file": "StateLibrary.sol",
+      "start_line": 135,
+      "end_line": 138,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getTruncatedReserves",
+      "file": "StateLibrary.sol",
+      "start_line": 146,
+      "end_line": 149,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getLendReserves",
+      "file": "StateLibrary.sol",
+      "start_line": 157,
+      "end_line": 160,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getInterestReserves",
+      "file": "StateLibrary.sol",
+      "start_line": 168,
+      "end_line": 171,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getLastStageTimestamp",
+      "file": "StateLibrary.sol",
+      "start_line": 173,
+      "end_line": 176,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getPairPositionState",
+      "file": "StateLibrary.sol",
+      "start_line": 178,
+      "end_line": 192,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getLendPositionState",
+      "file": "StateLibrary.sol",
+      "start_line": 194,
+      "end_line": 209,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getRawStageLiquidities",
+      "file": "StateLibrary.sol",
+      "start_line": 211,
+      "end_line": 231,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getPoolStateSlot",
+      "file": "StateLibrary.sol",
+      "start_line": 238,
+      "end_line": 240,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getCurrentState",
+      "file": "StateLibrary.sol",
+      "start_line": 242,
+      "end_line": 338,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "LAST_STAGE_TIMESTAMP_STORE_SLOT",
+      "var_type": "bytes32 public constant",
+      "file": "StateLibrary.sol",
+      "line": 29
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "LIQUIDITY_LOCKED_QUEUE_SLOT",
+      "var_type": "bytes32 public constant",
+      "file": "StateLibrary.sol",
+      "line": 32
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "POOLS_SLOT",
+      "var_type": "bytes32 public constant",
+      "file": "StateLibrary.sol",
+      "line": 35
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "BORROW_0_CUMULATIVE_LAST_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 38
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "BORROW_1_CUMULATIVE_LAST_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 39
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "DEPOSIT_0_CUMULATIVE_LAST_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 40
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "DEPOSIT_1_CUMULATIVE_LAST_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 41
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "REAL_RESERVES_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 42
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "MIRROR_RESERVES_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 43
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "PAIR_RESERVES_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 44
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "TRUNCATED_RESERVES_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 45
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "LEND_RESERVES_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 46
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "INTEREST_RESERVES_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 47
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "POSITIONS_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 48
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "LEND_POSITIONS_OFFSET",
+      "var_type": "uint256 internal constant",
+      "file": "StateLibrary.sol",
+      "line": 49
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSlot0",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBorrowDepositCumulative",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPairReserves",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getRealReserves",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getMirrorReserves",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getTruncatedReserves",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getLendReserves",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getInterestReserves",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getLastStageTimestamp",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getPairPositionState",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getLendPositionState",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getRawStageLiquidities",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getPoolStateSlot",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getCurrentState",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "LAST_STAGE_TIMESTAMP_STORE_SLOT",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "LIQUIDITY_LOCKED_QUEUE_SLOT",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "POOLS_SLOT",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "BORROW_0_CUMULATIVE_LAST_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "BORROW_1_CUMULATIVE_LAST_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "DEPOSIT_0_CUMULATIVE_LAST_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "DEPOSIT_1_CUMULATIVE_LAST_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "REAL_RESERVES_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "MIRROR_RESERVES_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "PAIR_RESERVES_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "TRUNCATED_RESERVES_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "LEND_RESERVES_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "INTEREST_RESERVES_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "POSITIONS_OFFSET",
+      "file": "StateLibrary.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "LEND_POSITIONS_OFFSET",
+      "file": "StateLibrary.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 29,
+    "n_hyperedges": 0,
+    "n_functions": 14,
+    "n_state_vars": 15,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00142",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-372",
+      "CWE-664"
+    ]
+  }
+}

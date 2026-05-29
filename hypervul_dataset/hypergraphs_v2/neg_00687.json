@@ -1,0 +1,303 @@
+{
+  "sample_id": "neg_00687",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "registerAsset",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 32,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "registerPool",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 41,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateManager",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 57,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMetadata",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 67,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateDependency",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 76,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateCurrency",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 83,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "poolId",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 97,
+      "end_line": 99,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 102,
+      "end_line": 105,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 108,
+      "end_line": 111,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 114,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "exists",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 120,
+      "end_line": 122,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "isRegistered",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "start_line": 125,
+      "end_line": 127,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "var_type": "mapping(AssetId => uint8) internal",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "line": 18
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "metadata",
+      "var_type": "mapping(PoolId => bytes) public",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "line": 20
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "currency",
+      "var_type": "mapping(PoolId => AssetId) public",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "line": 21
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "dependency",
+      "var_type": "mapping(bytes32 => address) public",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "line": 22
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "manager",
+      "var_type": "mapping(PoolId => mapping(address => bool)) public",
+      "file": "protocol-v3_src_hub_HubRegistry.sol",
+      "line": 23
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "registerAsset",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "registerPool",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateManager",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setMetadata",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateDependency",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateCurrency",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "poolId",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "exists",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "isRegistered",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "metadata",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "currency",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "dependency",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "manager",
+      "file": "protocol-v3_src_hub_HubRegistry.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 0,
+    "n_functions": 12,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00687",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

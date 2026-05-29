@@ -1,0 +1,659 @@
+{
+  "sample_id": "vfp_00498",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setLeafByte",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 45,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "executeGetOrSetBytes32",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 55,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "executeGetU64",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 91,
+      "end_line": 100,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeSetU64",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 102,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "modExp256",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 120,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "executeReadPreImage",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 128,
+      "end_line": 273,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeValidatePreimage",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 275,
+      "end_line": 307,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "validateAndCheckCertificate",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 309,
+      "end_line": 340,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "validateSequencerInbox",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 342,
+      "end_line": 364,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "validateDelayedInbox",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 366,
+      "end_line": 391,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "executeReadInboxMessage",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 393,
+      "end_line": 458,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "executeHaltAndSetFinished",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 460,
+      "end_line": 468,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "isPowerOfTwo",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 470,
+      "end_line": 474,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "proveLastLeaf",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 476,
+      "end_line": 511,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "executeLinkModule",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 513,
+      "end_line": 541,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "executeUnlinkModule",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 543,
+      "end_line": 560,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "executeGlobalStateAccess",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 562,
+      "end_line": 590,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "executeNewCoThread",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 592,
+      "end_line": 606,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "provePopCothread",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 608,
+      "end_line": 626,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "executePopCoThread",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 628,
+      "end_line": 647,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "executeSwitchCoThread",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 649,
+      "end_line": 677,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "executeOneStep",
+      "file": "OneStepProverHostIo.sol",
+      "start_line": 679,
+      "end_line": 723,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "LEAF_SIZE",
+      "var_type": "uint256 private constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 28
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "INBOX_NUM",
+      "var_type": "uint256 private constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 29
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "INBOX_HEADER_LEN",
+      "var_type": "uint64 private constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 30
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "DELAYED_HEADER_LEN",
+      "var_type": "uint64 private constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 31
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "CERT_SIZE_LEN",
+      "var_type": "uint256 private constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 34
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "CLAIMED_VALID_LEN",
+      "var_type": "uint256 private constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 35
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "customDAValidator",
+      "var_type": "ICustomDAProofValidator public immutable",
+      "file": "OneStepProverHostIo.sol",
+      "line": 37
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "BLS_MODULUS",
+      "var_type": "uint256 internal constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 113
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "PRIMITIVE_ROOT_OF_UNITY",
+      "var_type": "uint256 internal constant",
+      "file": "OneStepProverHostIo.sol",
+      "line": 115
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "STATICCALL:OneStepProverHostIo.sol:122",
+      "call_type": "STATICCALL",
+      "line": 122,
+      "enclosing_function": "modExp256",
+      "file": "OneStepProverHostIo.sol",
+      "raw_text": "(bool modexpSuccess, bytes memory modExpOutput) = address(0x05).staticcall(modExpInput);"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "STATICCALL:OneStepProverHostIo.sol:196",
+      "call_type": "STATICCALL",
+      "line": 196,
+      "enclosing_function": "executeReadPreImage",
+      "file": "OneStepProverHostIo.sol",
+      "raw_text": "(bool success, bytes memory kzgParams) = address(0x0A).staticcall(kzgProof);"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OneStepProverHostIo.sol:258",
+      "call_type": "INTERFACE_CALL",
+      "line": 258,
+      "enclosing_function": "executeReadPreImage",
+      "file": "OneStepProverHostIo.sol",
+      "raw_text": "customDAValidator.validateReadPreimage(leafContents, preimageOffset, customProof);"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OneStepProverHostIo.sol:334",
+      "call_type": "INTERFACE_CALL",
+      "line": 334,
+      "enclosing_function": "validateAndCheckCertificate",
+      "file": "OneStepProverHostIo.sol",
+      "raw_text": "bool isValid = customDAValidator.validateCertificate(validationProof);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        5,
+        22,
+        26,
+        28,
+        29,
+        30,
+        31
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        5,
+        22,
+        26,
+        28,
+        29,
+        30,
+        32
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        5,
+        22,
+        26,
+        28,
+        29,
+        30,
+        33
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        6,
+        7,
+        22,
+        26,
+        27,
+        28,
+        34
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 34
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setLeafByte",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "executeGetOrSetBytes32",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "executeGetU64",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeSetU64",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "modExp256",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "executeReadPreImage",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeValidatePreimage",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "validateAndCheckCertificate",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "validateSequencerInbox",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "validateDelayedInbox",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "executeReadInboxMessage",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "executeHaltAndSetFinished",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "isPowerOfTwo",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "proveLastLeaf",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "executeLinkModule",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "executeUnlinkModule",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "executeGlobalStateAccess",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "executeNewCoThread",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "provePopCothread",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "executePopCoThread",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "executeSwitchCoThread",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "executeOneStep",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "LEAF_SIZE",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "INBOX_NUM",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "INBOX_HEADER_LEN",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "DELAYED_HEADER_LEN",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "CERT_SIZE_LEN",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "CLAIMED_VALID_LEN",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "customDAValidator",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "BLS_MODULUS",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "PRIMITIVE_ROOT_OF_UNITY",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "STATICCALL:OneStepProverHostIo.sol:122",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "STATICCALL:OneStepProverHostIo.sol:196",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OneStepProverHostIo.sol:258",
+      "file": "OneStepProverHostIo.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OneStepProverHostIo.sol:334",
+      "file": "OneStepProverHostIo.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 35,
+    "n_hyperedges": 4,
+    "n_functions": 22,
+    "n_state_vars": 9,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 7.25
+  },
+  "label": {
+    "vfp_id": "vfp_00498",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1287",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

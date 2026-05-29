@@ -1,0 +1,117 @@
+{
+  "sample_id": "vfp_00217",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_requestWithdrawal",
+      "file": "EnjoyoorsVaultWithdrawals.sol",
+      "start_line": 53,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_claimWithdrawal",
+      "file": "EnjoyoorsVaultWithdrawals.sol",
+      "start_line": 85,
+      "end_line": 106,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getWithdrawalRequestById",
+      "file": "EnjoyoorsVaultWithdrawals.sol",
+      "start_line": 109,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "lastRequestId",
+      "var_type": "uint256 public",
+      "file": "EnjoyoorsVaultWithdrawals.sol",
+      "line": 43
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "withdrawalRequests",
+      "var_type": "mapping(uint256 requestId => WithdrawalRequest)",
+      "file": "EnjoyoorsVaultWithdrawals.sol",
+      "line": 45
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_requestWithdrawal",
+      "file": "EnjoyoorsVaultWithdrawals.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_claimWithdrawal",
+      "file": "EnjoyoorsVaultWithdrawals.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getWithdrawalRequestById",
+      "file": "EnjoyoorsVaultWithdrawals.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "lastRequestId",
+      "file": "EnjoyoorsVaultWithdrawals.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "withdrawalRequests",
+      "file": "EnjoyoorsVaultWithdrawals.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00217",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

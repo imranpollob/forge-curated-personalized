@@ -1,0 +1,258 @@
+{
+  "sample_id": "vfp_00479",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sPRL1.sol",
+      "start_line": 51,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositWithPermit",
+      "file": "sPRL1.sol",
+      "start_line": 62,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "emergencyWithdraw",
+      "file": "sPRL1.sol",
+      "start_line": 83,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sPRL1.sol",
+      "start_line": 91,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "NAME",
+      "var_type": "string constant",
+      "file": "sPRL1.sol",
+      "line": 14
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "SYMBOL",
+      "var_type": "string constant",
+      "file": "sPRL1.sol",
+      "line": 15
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:52",
+      "call_type": "INTERFACE_CALL",
+      "line": 52,
+      "enclosing_function": "deposit",
+      "file": "sPRL1.sol",
+      "raw_text": "underlying.safeTransferFrom(msg.sender, address(this), _assetAmount);"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:76",
+      "call_type": "INTERFACE_CALL",
+      "line": 76,
+      "enclosing_function": "depositWithPermit",
+      "file": "sPRL1.sol",
+      "raw_text": "underlying.safeTransferFrom(msg.sender, address(this), _assetAmount);"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:86",
+      "call_type": "INTERFACE_CALL",
+      "line": 86,
+      "enclosing_function": "emergencyWithdraw",
+      "file": "sPRL1.sol",
+      "raw_text": "underlying.safeTransfer(msg.sender, _unlockingAmount);"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:95",
+      "call_type": "INTERFACE_CALL",
+      "line": 95,
+      "enclosing_function": "withdraw",
+      "file": "sPRL1.sol",
+      "raw_text": "underlying.safeTransfer(feeReceiver, totalFeeAmount);"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:97",
+      "call_type": "INTERFACE_CALL",
+      "line": 97,
+      "enclosing_function": "withdraw",
+      "file": "sPRL1.sol",
+      "raw_text": "underlying.safeTransfer(msg.sender, totalAmountWithdrawn);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        9
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        3,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositWithPermit",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "emergencyWithdraw",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "NAME",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "SYMBOL",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:52",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:76",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:86",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:95",
+      "file": "sPRL1.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sPRL1.sol:97",
+      "file": "sPRL1.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 5,
+    "n_functions": 4,
+    "n_state_vars": 2,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00479",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-362",
+      "CWE-691"
+    ]
+  }
+}

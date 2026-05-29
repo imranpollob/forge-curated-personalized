@@ -1,0 +1,156 @@
+{
+  "sample_id": "neg_00432",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "start_line": 15,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "start_line": 20,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "start_line": 31,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "start_line": 53,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "start_line": 60,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "var_type": "mapping (address => uint256)                      public",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "line": 6
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping (address => mapping (address => uint256)) public",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "line": 7
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "var_type": "uint256 public",
+      "file": "lockstake_test_mocks_GemMock.sol",
+      "line": 9
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "file": "lockstake_test_mocks_GemMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00432",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

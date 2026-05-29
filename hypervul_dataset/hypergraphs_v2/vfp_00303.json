@@ -1,0 +1,121 @@
+{
+  "sample_id": "vfp_00303",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "saveForcedInclusion",
+      "file": "LibForcedInclusion.sol",
+      "start_line": 45,
+      "end_line": 74,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getCurrentForcedInclusionFee",
+      "file": "LibForcedInclusion.sol",
+      "start_line": 77,
+      "end_line": 96,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getForcedInclusions",
+      "file": "LibForcedInclusion.sol",
+      "start_line": 105,
+      "end_line": 129,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getForcedInclusionState",
+      "file": "LibForcedInclusion.sol",
+      "start_line": 136,
+      "end_line": 142,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isOldestForcedInclusionDue",
+      "file": "LibForcedInclusion.sol",
+      "start_line": 155,
+      "end_line": 174,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "saveForcedInclusion",
+      "file": "LibForcedInclusion.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getCurrentForcedInclusionFee",
+      "file": "LibForcedInclusion.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getForcedInclusions",
+      "file": "LibForcedInclusion.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getForcedInclusionState",
+      "file": "LibForcedInclusion.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isOldestForcedInclusionDue",
+      "file": "LibForcedInclusion.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00303",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

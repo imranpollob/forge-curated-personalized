@@ -1,0 +1,966 @@
+{
+  "sample_id": "neg_00634",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 120,
+      "end_line": 142,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getApplication",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 144,
+      "end_line": 148,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "proposeAgent",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 150,
+      "end_line": 199,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 201,
+      "end_line": 229,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "executeApplication",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 231,
+      "end_line": 327,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_createNewDAO",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 329,
+      "end_line": 346,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_createNewAgentToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 348,
+      "end_line": 362,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_createNewAgentVeToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 364,
+      "end_line": 384,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "totalAgents",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 386,
+      "end_line": 388,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setApplicationThreshold",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 390,
+      "end_line": 395,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setVault",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 397,
+      "end_line": 399,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setImplementations",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 401,
+      "end_line": 409,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setMaturityDuration",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 411,
+      "end_line": 415,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setUniswapRouter",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 417,
+      "end_line": 421,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setTokenAdmin",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 423,
+      "end_line": 427,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setTokenSupplyParams",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 429,
+      "end_line": 447,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setTokenTaxParams",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 449,
+      "end_line": 461,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setAssetToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 463,
+      "end_line": 467,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "pause",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 469,
+      "end_line": 471,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 473,
+      "end_line": 475,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 477,
+      "end_line": 484,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "start_line": 486,
+      "end_line": 493,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "proposeAgent",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol",
+      "start_line": 7,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "totalAgents",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "initFromToken",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol",
+      "start_line": 22,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "executeTokenApplication",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol",
+      "start_line": 32,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "_nextId",
+      "var_type": "uint256 private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 27
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "tokenImplementation",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 28
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "daoImplementation",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 29
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "nft",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 30
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "tbaRegistry",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 31
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "applicationThreshold",
+      "var_type": "uint256 public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 32
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "allTokens",
+      "var_type": "address[] public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 34
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "allDAOs",
+      "var_type": "address[] public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 35
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 37
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "maturityDuration",
+      "var_type": "uint256 public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 38
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "WITHDRAW_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 40
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "_applications",
+      "var_type": "mapping(uint256 => Application) private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 74
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "gov",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 76
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "_vault",
+      "var_type": "address private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 87
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "locked",
+      "var_type": "bool internal",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 89
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "allTradingTokens",
+      "var_type": "address[] public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 101
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_uniswapRouter",
+      "var_type": "address private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 102
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "veTokenImplementation",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 103
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "_minter",
+      "var_type": "address private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 104
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "_tokenAdmin",
+      "var_type": "address private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 105
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "defaultDelegatee",
+      "var_type": "address public",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 106
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "_tokenSupplyParams",
+      "var_type": "bytes private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 109
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "_tokenTaxParams",
+      "var_type": "bytes private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 110
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "_tokenMultiplier",
+      "var_type": "uint16 private",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "line": 111
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "TRANSFER:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:267",
+      "call_type": "TRANSFER",
+      "line": 267,
+      "enclosing_function": "executeApplication",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "raw_text": "IERC20(assetToken).transfer(token, initialAmount);"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:344",
+      "call_type": "INTERFACE_CALL",
+      "line": 344,
+      "enclosing_function": "_createNewDAO",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "raw_text": "allDAOs.push(instance);"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:360",
+      "call_type": "INTERFACE_CALL",
+      "line": 360,
+      "enclosing_function": "_createNewAgentToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "raw_text": "allTradingTokens.push(instance);"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:382",
+      "call_type": "INTERFACE_CALL",
+      "line": 382,
+      "enclosing_function": "_createNewAgentVeToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol",
+      "raw_text": "allTokens.push(instance);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        30,
+        31,
+        35,
+        37,
+        38,
+        40,
+        46,
+        51
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 51
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        5,
+        29,
+        30,
+        31,
+        34,
+        35,
+        37,
+        38,
+        40,
+        46,
+        52
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 52
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        6,
+        28,
+        30,
+        31,
+        35,
+        37,
+        38,
+        40,
+        42,
+        43,
+        46,
+        48,
+        49,
+        53
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 53
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        7,
+        30,
+        31,
+        33,
+        35,
+        36,
+        37,
+        38,
+        40,
+        44,
+        46,
+        54
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 54
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getApplication",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "proposeAgent",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "executeApplication",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_createNewDAO",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_createNewAgentToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_createNewAgentVeToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "totalAgents",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setApplicationThreshold",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setVault",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setImplementations",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setMaturityDuration",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setUniswapRouter",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setTokenAdmin",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setTokenSupplyParams",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setTokenTaxParams",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setAssetToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "pause",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_msgSender",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_msgData",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "proposeAgent",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "totalAgents",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "initFromToken",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "executeTokenApplication",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentFactoryV4.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "_nextId",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "tokenImplementation",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "daoImplementation",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "nft",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "tbaRegistry",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "applicationThreshold",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "allTokens",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "allDAOs",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "assetToken",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "maturityDuration",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "WITHDRAW_ROLE",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "_applications",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "gov",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "_vault",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "locked",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "allTradingTokens",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_uniswapRouter",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "veTokenImplementation",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "_minter",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "_tokenAdmin",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "defaultDelegatee",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "_tokenSupplyParams",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "_tokenTaxParams",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "_tokenMultiplier",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "TRANSFER:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:267",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:344",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:360",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol-contracts_contracts_virtualPersona_AgentFactory.sol:382",
+      "file": "protocol-contracts_contracts_virtualPersona_AgentFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 55,
+    "n_hyperedges": 4,
+    "n_functions": 27,
+    "n_state_vars": 24,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 12.25
+  },
+  "label": {
+    "vfp_id": "neg_00634",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

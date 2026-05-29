@@ -1,0 +1,360 @@
+{
+  "sample_id": "neg_00599",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSigner",
+      "file": "onesig_packages_onesig-evm_certora_harnesses_OneSigHarness.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "recoverSignerForIndex",
+      "file": "onesig_packages_onesig-evm_certora_harnesses_OneSigHarness.sol",
+      "start_line": 25,
+      "end_line": 37,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setExecutorRequired",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setExecutorRequired",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 75,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 86,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_addExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 98,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_removeExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 108,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getExecutors",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 117,
+      "end_line": 119,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 126,
+      "end_line": 128,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "totalExecutors",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "start_line": 134,
+      "end_line": 136,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "executorSet",
+      "var_type": "EnumerableSet.AddressSet internal",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "line": 19
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "executorRequired",
+      "var_type": "bool public",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "line": 24
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:67",
+      "call_type": "INTERFACE_CALL",
+      "line": 67,
+      "enclosing_function": "_addExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "raw_text": "if (!executorSet.add(_executor)) revert ExecutorAlreadyActive(_executor);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:73",
+      "call_type": "INTERFACE_CALL",
+      "line": 73,
+      "enclosing_function": "_removeExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "raw_text": "if (!executorSet.remove(_executor)) revert ExecutorNotFound(_executor);"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:79",
+      "call_type": "INTERFACE_CALL",
+      "line": 79,
+      "enclosing_function": "getExecutors",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "raw_text": "return executorSet.values();"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:84",
+      "call_type": "INTERFACE_CALL",
+      "line": 84,
+      "enclosing_function": "isExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "raw_text": "return executorSet.contains(_executor);"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "totalExecutors",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol",
+      "raw_text": "return executorSet.length();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        5,
+        10,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        6,
+        10,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        7,
+        10,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        8,
+        10,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        9,
+        10,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getSigner",
+      "file": "onesig_packages_onesig-evm_certora_harnesses_OneSigHarness.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "recoverSignerForIndex",
+      "file": "onesig_packages_onesig-evm_certora_harnesses_OneSigHarness.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setExecutorRequired",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setExecutorRequired",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_addExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_removeExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getExecutors",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isExecutor",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "totalExecutors",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "executorSet",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "executorRequired",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:67",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:73",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:79",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:84",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:onesig_packages_onesig-evm_contracts_ExecutorStore.sol:89",
+      "file": "onesig_packages_onesig-evm_contracts_ExecutorStore.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 5,
+    "n_functions": 10,
+    "n_state_vars": 2,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 3.4
+  },
+  "label": {
+    "vfp_id": "neg_00599",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

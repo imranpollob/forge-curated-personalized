@@ -1,0 +1,416 @@
+{
+  "sample_id": "vfp_00371",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 84,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdrawUSR",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 105,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawUSRAccruedRewards",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 124,
+      "end_line": 134,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdrawAllUSR",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 137,
+      "end_line": 145,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initiateWithdrawalRESOLV",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 148,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initiateWithdrawalRESOLVAccruedRewards",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 154,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawRESOLV",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 163,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimStakedTokenDistributor",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 176,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getUserPrincipalUSR",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 198,
+      "end_line": 200,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getUserPrincipalRESOLV",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 202,
+      "end_line": 204,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "calculateAccruedRewardsUSR",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 206,
+      "end_line": 208,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "calculateAccruedRewardsRESOLV",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 210,
+      "end_line": 212,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getLastFeeCollectionTimeUSR",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 214,
+      "end_line": 216,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getLastFeeCollectionTimeRESOLV",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 218,
+      "end_line": 220,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_getCurrentAssetAmount",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 222,
+      "end_line": 233,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "P2pResolvProxy.sol",
+      "start_line": 236,
+      "end_line": 239,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "i_USR",
+      "var_type": "address internal immutable",
+      "file": "P2pResolvProxy.sol",
+      "line": 23
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "i_stUSR",
+      "var_type": "address internal immutable",
+      "file": "P2pResolvProxy.sol",
+      "line": 26
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "i_RESOLV",
+      "var_type": "address internal immutable",
+      "file": "P2pResolvProxy.sol",
+      "line": 29
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "i_stRESOLV",
+      "var_type": "address internal immutable",
+      "file": "P2pResolvProxy.sol",
+      "line": 32
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "i_stakedTokenDistributor",
+      "var_type": "IStakedTokenDistributor private immutable",
+      "file": "P2pResolvProxy.sol",
+      "line": 34
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:P2pResolvProxy.sol:193",
+      "call_type": "INTERFACE_CALL",
+      "line": 193,
+      "enclosing_function": "claimStakedTokenDistributor",
+      "file": "P2pResolvProxy.sol",
+      "raw_text": "i_stakedTokenDistributor.claim(_index, _amount, _merkleProof);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        7,
+        20,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdrawUSR",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawUSRAccruedRewards",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdrawAllUSR",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initiateWithdrawalRESOLV",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initiateWithdrawalRESOLVAccruedRewards",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawRESOLV",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimStakedTokenDistributor",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getUserPrincipalUSR",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getUserPrincipalRESOLV",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "calculateAccruedRewardsUSR",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "calculateAccruedRewardsRESOLV",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getLastFeeCollectionTimeUSR",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getLastFeeCollectionTimeRESOLV",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_getCurrentAssetAmount",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "i_USR",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "i_stUSR",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "i_RESOLV",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "i_stRESOLV",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "i_stakedTokenDistributor",
+      "file": "P2pResolvProxy.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:P2pResolvProxy.sol:193",
+      "file": "P2pResolvProxy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 1,
+    "n_functions": 16,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00371",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1284",
+      "CWE-20",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

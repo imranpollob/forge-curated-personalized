@@ -1,0 +1,176 @@
+{
+  "sample_id": "neg_00672",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "clampBetween",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "start_line": 18,
+      "end_line": 24,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "extractErrorSelector",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "start_line": 26,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "extractErrorString",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "start_line": 44,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "selectorToUint",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "assertWithMsg",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "start_line": 56,
+      "end_line": 61,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "minUint8",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "minUint256",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "HEVM_ADDRESS",
+      "var_type": "address constant",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "line": 6
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "hevm",
+      "var_type": "IHevm",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol",
+      "line": 7
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "clampBetween",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "extractErrorSelector",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "extractErrorString",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "selectorToUint",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "assertWithMsg",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "minUint8",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "minUint256",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "HEVM_ADDRESS",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "hevm",
+      "file": "832781e_sky-ntt-migration_evm_echidna_helpers_FuzzingHelpers.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00672",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

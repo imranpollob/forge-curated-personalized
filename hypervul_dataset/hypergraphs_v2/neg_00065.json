@@ -1,0 +1,150 @@
+{
+  "sample_id": "neg_00065",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "disableReentrancy",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol",
+      "start_line": 11,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "enableRentrancy",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol",
+      "start_line": 15,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "reenter",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol",
+      "start_line": 20,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "_reenterTarget",
+      "var_type": "address private",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol",
+      "line": 7
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_reenterData",
+      "var_type": "bytes private",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol",
+      "line": 8
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_reentered",
+      "var_type": "bool",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol",
+      "line": 9
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "SVM_ADDRESS",
+      "var_type": "address internal constant",
+      "file": "evmauth-core_lib_openzeppelin-contracts_lib_halmos-cheatcodes_src_SymTest.sol",
+      "line": 8
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "svm",
+      "var_type": "SVM internal constant",
+      "file": "evmauth-core_lib_openzeppelin-contracts_lib_halmos-cheatcodes_src_SymTest.sol",
+      "line": 10
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "disableReentrancy",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "enableRentrancy",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "reenter",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "_reenterTarget",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_reenterData",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_reentered",
+      "file": "evmauth-core_lib_openzeppelin-contracts_contracts_mocks_TimelockReentrant.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "SVM_ADDRESS",
+      "file": "evmauth-core_lib_openzeppelin-contracts_lib_halmos-cheatcodes_src_SymTest.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "svm",
+      "file": "evmauth-core_lib_openzeppelin-contracts_lib_halmos-cheatcodes_src_SymTest.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00065",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

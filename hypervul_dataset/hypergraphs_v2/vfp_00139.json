@@ -1,0 +1,258 @@
+{
+  "sample_id": "vfp_00139",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setProtocolFeeController",
+      "file": "ProtocolFees.sol",
+      "start_line": 36,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setDefaultProtocolFee",
+      "file": "ProtocolFees.sol",
+      "start_line": 42,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "ProtocolFees.sol",
+      "start_line": 49,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "collectProtocolFees",
+      "file": "ProtocolFees.sol",
+      "start_line": 59,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_isUnlocked",
+      "file": "ProtocolFees.sol",
+      "start_line": 75,
+      "end_line": 75,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getAndUpdatePool",
+      "file": "ProtocolFees.sol",
+      "start_line": 78,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateProtocolFees",
+      "file": "ProtocolFees.sol",
+      "start_line": 80,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "syncedCurrency",
+      "var_type": "Currency transient",
+      "file": "ProtocolFees.sol",
+      "line": 19
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "syncedReserves",
+      "var_type": "uint256 transient",
+      "file": "ProtocolFees.sol",
+      "line": 20
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "protocolFeesAccrued",
+      "var_type": "mapping(Currency currency => uint256 amount) public",
+      "file": "ProtocolFees.sol",
+      "line": 23
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "protocolFeeController",
+      "var_type": "address public",
+      "file": "ProtocolFees.sol",
+      "line": 26
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "defaultProtocolFee",
+      "var_type": "uint24 public",
+      "file": "ProtocolFees.sol",
+      "line": 28
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "TRANSFER:ProtocolFees.sol:71",
+      "call_type": "TRANSFER",
+      "line": 71,
+      "enclosing_function": "collectProtocolFees",
+      "file": "ProtocolFees.sol",
+      "raw_text": "currency.transfer(recipient, amountCollected);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        7,
+        9,
+        10,
+        12
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setProtocolFeeController",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setDefaultProtocolFee",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "collectProtocolFees",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_isUnlocked",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getAndUpdatePool",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateProtocolFees",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "syncedCurrency",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "syncedReserves",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "protocolFeesAccrued",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "protocolFeeController",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "defaultProtocolFee",
+      "file": "ProtocolFees.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "TRANSFER:ProtocolFees.sol:71",
+      "file": "ProtocolFees.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 1,
+    "n_functions": 7,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00139",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-664",
+      "CWE-707"
+    ]
+  }
+}

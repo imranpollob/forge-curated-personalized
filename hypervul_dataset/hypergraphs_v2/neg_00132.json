@@ -1,0 +1,301 @@
+{
+  "sample_id": "neg_00132",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getUsdPrices",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 12,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getPricesAndDecimals",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 17,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setEthUsdBridge",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 32,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "syncEthUsdBridge",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 34,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setTokenFeed",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 36,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTokenEthUsdStalenessOverride",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 44,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setTokenActive",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 46,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isBridgeInSync",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 48,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isFeedInSync",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 50,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "syncTokenFeed",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 52,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "MAX_DECIMALS",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol",
+      "start_line": 54,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "AGENT",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 14,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getOrderDetails",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 19,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "fill",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 52,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getMargin",
+      "file": "stonks_contracts_test_StonksTest.sol",
+      "start_line": 25,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getUsdPrices",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getPricesAndDecimals",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setEthUsdBridge",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "syncEthUsdBridge",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setTokenFeed",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTokenEthUsdStalenessOverride",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setTokenActive",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isBridgeInSync",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "isFeedInSync",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "syncTokenFeed",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "MAX_DECIMALS",
+      "file": "stonks_contracts_interfaces_IOracleRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "AGENT",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getOrderDetails",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "fill",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getMargin",
+      "file": "stonks_contracts_test_StonksTest.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 0,
+    "n_functions": 16,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00132",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

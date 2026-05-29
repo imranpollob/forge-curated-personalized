@@ -1,0 +1,131 @@
+{
+  "sample_id": "neg_00515",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "executor",
+      "file": "thor_builtin_gen_params.sol",
+      "start_line": 10,
+      "end_line": 12,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "set",
+      "file": "thor_builtin_gen_params.sol",
+      "start_line": 14,
+      "end_line": 19,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "get",
+      "file": "thor_builtin_gen_params.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "native_executor",
+      "file": "thor_builtin_gen_params.sol",
+      "start_line": 29,
+      "end_line": 29,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "native_set",
+      "file": "thor_builtin_gen_params.sol",
+      "start_line": 31,
+      "end_line": 31,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "native_get",
+      "file": "thor_builtin_gen_params.sol",
+      "start_line": 32,
+      "end_line": 32,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "executor",
+      "file": "thor_builtin_gen_params.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "set",
+      "file": "thor_builtin_gen_params.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "get",
+      "file": "thor_builtin_gen_params.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "native_executor",
+      "file": "thor_builtin_gen_params.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "native_set",
+      "file": "thor_builtin_gen_params.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "native_get",
+      "file": "thor_builtin_gen_params.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00515",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

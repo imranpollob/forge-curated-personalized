@@ -1,0 +1,202 @@
+{
+  "sample_id": "vfp_00091",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "Dinero.sol",
+      "start_line": 17,
+      "end_line": 39,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "Dinero.sol",
+      "start_line": 41,
+      "end_line": 44,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_decodeBatchIds",
+      "file": "Dinero.sol",
+      "start_line": 46,
+      "end_line": 49,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "Dinero.sol",
+      "start_line": 51,
+      "end_line": 69,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "canFinalizeWithdrawRequest",
+      "file": "Dinero.sol",
+      "start_line": 71,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "s_batchNonce",
+      "var_type": "uint16 internal",
+      "file": "Dinero.sol",
+      "line": 10
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MAX_BATCH_ID",
+      "var_type": "uint256 internal constant",
+      "file": "Dinero.sol",
+      "line": 11
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Dinero.sol:43",
+      "call_type": "INTERFACE_CALL",
+      "line": 43,
+      "enclosing_function": "_stakeTokens",
+      "file": "Dinero.sol",
+      "raw_text": "PirexETH.deposit{value: amount}(address(this), YIELD_TOKEN == address(apxETH));"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Dinero.sol:68",
+      "call_type": "INTERFACE_CALL",
+      "line": 68,
+      "enclosing_function": "_finalizeWithdrawImpl",
+      "file": "Dinero.sol",
+      "raw_text": "WETH.deposit{value: tokensClaimed}();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_initiateWithdrawImpl",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_stakeTokens",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_decodeBatchIds",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_finalizeWithdrawImpl",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "canFinalizeWithdrawRequest",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "s_batchNonce",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "MAX_BATCH_ID",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Dinero.sol:43",
+      "file": "Dinero.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Dinero.sol:68",
+      "file": "Dinero.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 2,
+    "n_functions": 5,
+    "n_state_vars": 2,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00091",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-190",
+      "CWE-372",
+      "CWE-664",
+      "CWE-682"
+    ]
+  }
+}

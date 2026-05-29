@@ -1,0 +1,227 @@
+{
+  "sample_id": "neg_00528",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addFeederInstant",
+      "file": "box_src_periphery_BoxLib.sol",
+      "start_line": 11,
+      "end_line": 15,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addTokenInstant",
+      "file": "box_src_periphery_BoxLib.sol",
+      "start_line": 17,
+      "end_line": 21,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setGuardianInstant",
+      "file": "box_src_periphery_BoxLib.sol",
+      "start_line": 23,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addFundingInstant",
+      "file": "box_src_periphery_BoxLib.sol",
+      "start_line": 29,
+      "end_line": 33,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addFundingFacilityInstant",
+      "file": "box_src_periphery_BoxLib.sol",
+      "start_line": 35,
+      "end_line": 39,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "addFundingCollateralInstant",
+      "file": "box_src_periphery_BoxLib.sol",
+      "start_line": 41,
+      "end_line": 49,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addFundingDebtInstant",
+      "file": "box_src_periphery_BoxLib.sol",
+      "start_line": 51,
+      "end_line": 55,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "box_test_mocks_ERC20MockDecimals.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "price",
+      "file": "box_test_mocks_MockOracle.sol",
+      "start_line": 13,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setPrice",
+      "file": "box_test_mocks_MockOracle.sol",
+      "start_line": 17,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "var_type": "uint8 private immutable",
+      "file": "box_test_mocks_ERC20MockDecimals.sol",
+      "line": 8
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_price",
+      "var_type": "uint256 private",
+      "file": "box_test_mocks_MockOracle.sol",
+      "line": 7
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addFeederInstant",
+      "file": "box_src_periphery_BoxLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addTokenInstant",
+      "file": "box_src_periphery_BoxLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setGuardianInstant",
+      "file": "box_src_periphery_BoxLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addFundingInstant",
+      "file": "box_src_periphery_BoxLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addFundingFacilityInstant",
+      "file": "box_src_periphery_BoxLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "addFundingCollateralInstant",
+      "file": "box_src_periphery_BoxLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addFundingDebtInstant",
+      "file": "box_src_periphery_BoxLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "box_test_mocks_ERC20MockDecimals.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "price",
+      "file": "box_test_mocks_MockOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setPrice",
+      "file": "box_test_mocks_MockOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "file": "box_test_mocks_ERC20MockDecimals.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_price",
+      "file": "box_test_mocks_MockOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 12,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00528",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

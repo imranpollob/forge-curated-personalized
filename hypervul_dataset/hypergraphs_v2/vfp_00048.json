@@ -1,0 +1,510 @@
+{
+  "sample_id": "vfp_00048",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 38,
+      "end_line": 44,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "latestWithdrawableBlock",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 49,
+      "end_line": 53,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pendingAssetsOf",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 56,
+      "end_line": 70,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "claimableAssetsOf",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 73,
+      "end_line": 94,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getAccountData",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 97,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getWithdrawalRequest",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 140,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawalRequests",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 156,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "request",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 162,
+      "end_line": 195,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferPendingAssets",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 198,
+      "end_line": 252,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "pull",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 255,
+      "end_line": 270,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "handleWithdrawals",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 273,
+      "end_line": 292,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 295,
+      "end_line": 309,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "acceptPendingAssets",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 312,
+      "end_line": 330,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "shutdown",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 333,
+      "end_line": 362,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "__init_EigenLayerWithdrawalQueue",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 366,
+      "end_line": 374,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_pushRequest",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 376,
+      "end_line": 396,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_pull",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 398,
+      "end_line": 405,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_handleWithdrawal",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "start_line": 407,
+      "end_line": 431,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "MAX_WITHDRAWALS",
+      "var_type": "uint256 public constant",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 12
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "claimer",
+      "var_type": "address public immutable",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 15
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "delegation",
+      "var_type": "address public immutable",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 17
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "isolatedVault",
+      "var_type": "address public",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 20
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "strategy",
+      "var_type": "address public",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 22
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "operator",
+      "var_type": "address public",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 24
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "isShutdown",
+      "var_type": "bool public",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 26
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_withdrawals",
+      "var_type": "WithdrawalData[] internal",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 28
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "_accountData",
+      "var_type": "mapping(address account => AccountData) internal",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "line": 29
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EigenLayerWithdrawalQueue.sol:383",
+      "call_type": "INTERFACE_CALL",
+      "line": 383,
+      "enclosing_function": "_pushRequest",
+      "file": "EigenLayerWithdrawalQueue.sol",
+      "raw_text": "WithdrawalData storage withdrawal = _withdrawals.push();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        7,
+        13,
+        15,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "latestWithdrawableBlock",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pendingAssetsOf",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "claimableAssetsOf",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getAccountData",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getWithdrawalRequest",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawalRequests",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "request",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferPendingAssets",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "pull",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "handleWithdrawals",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "acceptPendingAssets",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "shutdown",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "__init_EigenLayerWithdrawalQueue",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_pushRequest",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_pull",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_handleWithdrawal",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "MAX_WITHDRAWALS",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "claimer",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "delegation",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "isolatedVault",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "strategy",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "operator",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "isShutdown",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_withdrawals",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "_accountData",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EigenLayerWithdrawalQueue.sol:383",
+      "file": "EigenLayerWithdrawalQueue.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 28,
+    "n_hyperedges": 1,
+    "n_functions": 18,
+    "n_state_vars": 9,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 12.0
+  },
+  "label": {
+    "vfp_id": "vfp_00048",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-252",
+      "CWE-404",
+      "CWE-459",
+      "CWE-664",
+      "CWE-691",
+      "CWE-703",
+      "CWE-754",
+      "CWE-834"
+    ]
+  }
+}

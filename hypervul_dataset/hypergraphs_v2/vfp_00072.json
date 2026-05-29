@@ -1,0 +1,136 @@
+{
+  "sample_id": "vfp_00072",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyBroadcastMessage",
+      "file": "Receiver.sol",
+      "start_line": 21,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateBlockHashProverCopy",
+      "file": "Receiver.sol",
+      "start_line": 43,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "blockHashProverCopy",
+      "file": "Receiver.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_readRemoteSlot",
+      "file": "Receiver.sol",
+      "start_line": 74,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "accumulator",
+      "file": "Receiver.sol",
+      "start_line": 113,
+      "end_line": 115,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_blockHashProverCopies",
+      "var_type": "mapping(bytes32 blockHashProverPointerId => IBlockHashProver blockHashProverCopy) private",
+      "file": "Receiver.sol",
+      "line": 10
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyBroadcastMessage",
+      "file": "Receiver.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateBlockHashProverCopy",
+      "file": "Receiver.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "blockHashProverCopy",
+      "file": "Receiver.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_readRemoteSlot",
+      "file": "Receiver.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "accumulator",
+      "file": "Receiver.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_blockHashProverCopies",
+      "file": "Receiver.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00072",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-248",
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

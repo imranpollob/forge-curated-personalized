@@ -1,0 +1,227 @@
+{
+  "sample_id": "vfp_00110",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getTokenLibStorage",
+      "file": "TokenLib.sol",
+      "start_line": 105,
+      "end_line": 109,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initializeTransfer",
+      "file": "TokenLib.sol",
+      "start_line": 120,
+      "end_line": 192,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "finalizeTransfer",
+      "file": "TokenLib.sol",
+      "start_line": 198,
+      "end_line": 238,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "registerRemoteToken",
+      "file": "TokenLib.sol",
+      "start_line": 246,
+      "end_line": 249,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "ETH_ADDRESS",
+      "var_type": "address public constant",
+      "file": "TokenLib.sol",
+      "line": 83
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "NATIVE_SOL_PUBKEY",
+      "var_type": "Pubkey public constant",
+      "file": "TokenLib.sol",
+      "line": 87
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_TOKEN_LIB_STORAGE_LOCATION",
+      "var_type": "bytes32 private constant",
+      "file": "TokenLib.sol",
+      "line": 95
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TokenLib.sol:160",
+      "call_type": "INTERFACE_CALL",
+      "line": 160,
+      "enclosing_function": "initializeTransfer",
+      "file": "TokenLib.sol",
+      "raw_text": "SafeTransferLib.safeTransferFrom({"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TokenLib.sol:174",
+      "call_type": "INTERFACE_CALL",
+      "line": 174,
+      "enclosing_function": "initializeTransfer",
+      "file": "TokenLib.sol",
+      "raw_text": "SafeTransferLib.safeTransfer({token: transfer.localToken, to: msg.sender, amount: dust});"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TokenLib.sol:228",
+      "call_type": "INTERFACE_CALL",
+      "line": 228,
+      "enclosing_function": "finalizeTransfer",
+      "file": "TokenLib.sol",
+      "raw_text": "SafeTransferLib.safeTransfer({token: transfer.localToken, to: to, amount: localAmount});"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        4,
+        9
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 9
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getTokenLibStorage",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initializeTransfer",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "finalizeTransfer",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "registerRemoteToken",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "ETH_ADDRESS",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "NATIVE_SOL_PUBKEY",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_TOKEN_LIB_STORAGE_LOCATION",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TokenLib.sol:160",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TokenLib.sol:174",
+      "file": "TokenLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TokenLib.sol:228",
+      "file": "TokenLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 3,
+    "n_functions": 4,
+    "n_state_vars": 3,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.6666666666666665
+  },
+  "label": {
+    "vfp_id": "vfp_00110",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1339",
+      "CWE-682"
+    ]
+  }
+}

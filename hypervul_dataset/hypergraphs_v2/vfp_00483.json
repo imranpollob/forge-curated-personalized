@@ -1,0 +1,1160 @@
+{
+  "sample_id": "vfp_00483",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Swap.sol",
+      "start_line": 50,
+      "end_line": 59,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "Swap.sol",
+      "start_line": 61,
+      "end_line": 61,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pause",
+      "file": "Swap.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "Swap.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkOrderInfo",
+      "file": "Swap.sol",
+      "start_line": 71,
+      "end_line": 113,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "validateOrderInfo",
+      "file": "Swap.sol",
+      "start_line": 115,
+      "end_line": 118,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getOrderHashs",
+      "file": "Swap.sol",
+      "start_line": 120,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getOrderHashLength",
+      "file": "Swap.sol",
+      "start_line": 124,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getOrderHash",
+      "file": "Swap.sol",
+      "start_line": 128,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "checkTokenset",
+      "file": "Swap.sol",
+      "start_line": 133,
+      "end_line": 142,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 144,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 163,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "cancelSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 167,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "forceCancelSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 178,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "makerRejectSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 188,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "transferTokenset",
+      "file": "Swap.sol",
+      "start_line": 198,
+      "end_line": 208,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "makerConfirmSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 210,
+      "end_line": 225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "rollbackSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 227,
+      "end_line": 236,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "confirmSwapRequest",
+      "file": "Swap.sol",
+      "start_line": 238,
+      "end_line": 253,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setTakerAddresses",
+      "file": "Swap.sol",
+      "start_line": 255,
+      "end_line": 269,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getTakerAddresses",
+      "file": "Swap.sol",
+      "start_line": 271,
+      "end_line": 273,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "addWhiteListTokens",
+      "file": "Swap.sol",
+      "start_line": 275,
+      "end_line": 286,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "removeWhiteListTokens",
+      "file": "Swap.sol",
+      "start_line": 288,
+      "end_line": 296,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getWhiteListTokens",
+      "file": "Swap.sol",
+      "start_line": 298,
+      "end_line": 303,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getWhiteListTokenLength",
+      "file": "Swap.sol",
+      "start_line": 305,
+      "end_line": 307,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getWhiteListToken",
+      "file": "Swap.sol",
+      "start_line": 309,
+      "end_line": 311,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "chain",
+      "var_type": "string public",
+      "file": "Swap.sol",
+      "line": 17
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "orderHashs",
+      "var_type": "EnumerableSet.Bytes32Set",
+      "file": "Swap.sol",
+      "line": 18
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "swapRequests",
+      "var_type": "mapping(bytes32 => SwapRequest)",
+      "file": "Swap.sol",
+      "line": 19
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "TAKER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "Swap.sol",
+      "line": 21
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "MAKER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "Swap.sol",
+      "line": 22
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "outWhiteAddresses",
+      "var_type": "mapping(string => bool)",
+      "file": "Swap.sol",
+      "line": 24
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "takerReceivers",
+      "var_type": "string[] public",
+      "file": "Swap.sol",
+      "line": 25
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "takerSenders",
+      "var_type": "string[] public",
+      "file": "Swap.sol",
+      "line": 26
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "MAX_MARKER_CONFIRM_DELAY",
+      "var_type": "uint256 public constant",
+      "file": "Swap.sol",
+      "line": 28
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "EXPIRATION",
+      "var_type": "uint256 public constant",
+      "file": "Swap.sol",
+      "line": 29
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "whiteListTokenHashs",
+      "var_type": "EnumerableSet.Bytes32Set",
+      "file": "Swap.sol",
+      "line": 31
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "whiteListTokens",
+      "var_type": "mapping(bytes32 => Token) public",
+      "file": "Swap.sol",
+      "line": 32
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:82",
+      "call_type": "INTERFACE_CALL",
+      "line": 82,
+      "enclosing_function": "checkOrderInfo",
+      "file": "Swap.sol",
+      "raw_text": "if (orderHashs.contains(orderHash)) {"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:103",
+      "call_type": "INTERFACE_CALL",
+      "line": 103,
+      "enclosing_function": "checkOrderInfo",
+      "file": "Swap.sol",
+      "raw_text": "if (!whiteListTokenHashs.contains(Utils.calcTokenHash(orderInfo.order.inTokenset[i]))) {"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:108",
+      "call_type": "INTERFACE_CALL",
+      "line": 108,
+      "enclosing_function": "checkOrderInfo",
+      "file": "Swap.sol",
+      "raw_text": "if (!whiteListTokenHashs.contains(Utils.calcTokenHash(orderInfo.order.outTokenset[i]))) {"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:116",
+      "call_type": "INTERFACE_CALL",
+      "line": 116,
+      "enclosing_function": "validateOrderInfo",
+      "file": "Swap.sol",
+      "raw_text": "require(orderHashs.contains(orderInfo.orderHash), \"order hash not exists\");"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:121",
+      "call_type": "INTERFACE_CALL",
+      "line": 121,
+      "enclosing_function": "getOrderHashs",
+      "file": "Swap.sol",
+      "raw_text": "return orderHashs.values();"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:125",
+      "call_type": "INTERFACE_CALL",
+      "line": 125,
+      "enclosing_function": "getOrderHashLength",
+      "file": "Swap.sol",
+      "raw_text": "return orderHashs.length();"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:129",
+      "call_type": "INTERFACE_CALL",
+      "line": 129,
+      "enclosing_function": "getOrderHash",
+      "file": "Swap.sol",
+      "raw_text": "require(idx < orderHashs.length(), \"out of range\");"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:130",
+      "call_type": "INTERFACE_CALL",
+      "line": 130,
+      "enclosing_function": "getOrderHash",
+      "file": "Swap.sol",
+      "raw_text": "return orderHashs.at(idx);"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:149",
+      "call_type": "INTERFACE_CALL",
+      "line": 149,
+      "enclosing_function": "addSwapRequest",
+      "file": "Swap.sol",
+      "raw_text": "orderHashs.add(orderInfo.orderHash);"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:206",
+      "call_type": "INTERFACE_CALL",
+      "line": 206,
+      "enclosing_function": "transferTokenset",
+      "file": "Swap.sol",
+      "raw_text": "token.safeTransferFrom(from, to, tokenAmount);"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:261",
+      "call_type": "INTERFACE_CALL",
+      "line": 261,
+      "enclosing_function": "setTakerAddresses",
+      "file": "Swap.sol",
+      "raw_text": "takerReceivers.push(takerReceivers_[i]);"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:266",
+      "call_type": "INTERFACE_CALL",
+      "line": 266,
+      "enclosing_function": "setTakerAddresses",
+      "file": "Swap.sol",
+      "raw_text": "takerSenders.push(takerSenders_[i]);"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:278",
+      "call_type": "INTERFACE_CALL",
+      "line": 278,
+      "enclosing_function": "addWhiteListTokens",
+      "file": "Swap.sol",
+      "raw_text": "if (whiteListTokenHashs.add(tokenHash)) {"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:291",
+      "call_type": "INTERFACE_CALL",
+      "line": 291,
+      "enclosing_function": "removeWhiteListTokens",
+      "file": "Swap.sol",
+      "raw_text": "if (whiteListTokenHashs.remove(tokenHash)) {"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:299",
+      "call_type": "INTERFACE_CALL",
+      "line": 299,
+      "enclosing_function": "getWhiteListTokens",
+      "file": "Swap.sol",
+      "raw_text": "tokens = new Token[](whiteListTokenHashs.length());"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:301",
+      "call_type": "INTERFACE_CALL",
+      "line": 301,
+      "enclosing_function": "getWhiteListTokens",
+      "file": "Swap.sol",
+      "raw_text": "tokens[i] = whiteListTokens[whiteListTokenHashs.at(i)];"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:306",
+      "call_type": "INTERFACE_CALL",
+      "line": 306,
+      "enclosing_function": "getWhiteListTokenLength",
+      "file": "Swap.sol",
+      "raw_text": "return whiteListTokenHashs.length();"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:310",
+      "call_type": "INTERFACE_CALL",
+      "line": 310,
+      "enclosing_function": "getWhiteListToken",
+      "file": "Swap.sol",
+      "raw_text": "return whiteListTokens[whiteListTokenHashs.at(nonce)];"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        10,
+        26,
+        27,
+        28,
+        30,
+        31,
+        36,
+        38
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 38
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        10,
+        26,
+        27,
+        28,
+        30,
+        31,
+        36,
+        39
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 39
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        10,
+        26,
+        27,
+        28,
+        30,
+        31,
+        36,
+        40
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 40
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        5,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        27,
+        28,
+        34,
+        35,
+        41
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 41
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        6,
+        27,
+        42
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 42
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        7,
+        27,
+        43
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 43
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        8,
+        27,
+        44
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 44
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        8,
+        27,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        10,
+        27,
+        28,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        15,
+        16,
+        18,
+        28,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        19,
+        31,
+        32,
+        33,
+        48
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 48
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        19,
+        31,
+        32,
+        33,
+        49
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 49
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        21,
+        26,
+        36,
+        37,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        22,
+        36,
+        37,
+        51
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 51
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        23,
+        36,
+        37,
+        52
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 52
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        23,
+        36,
+        37,
+        53
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 53
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        24,
+        36,
+        54
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 54
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        25,
+        36,
+        37,
+        55
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 55
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pause",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "checkOrderInfo",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "validateOrderInfo",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getOrderHashs",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getOrderHashLength",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getOrderHash",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "checkTokenset",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "addSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "cancelSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "forceCancelSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "makerRejectSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "transferTokenset",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "makerConfirmSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "rollbackSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "confirmSwapRequest",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setTakerAddresses",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getTakerAddresses",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "addWhiteListTokens",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "removeWhiteListTokens",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getWhiteListTokens",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getWhiteListTokenLength",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getWhiteListToken",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "chain",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "orderHashs",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "swapRequests",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "TAKER_ROLE",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "MAKER_ROLE",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "outWhiteAddresses",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "takerReceivers",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "takerSenders",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "MAX_MARKER_CONFIRM_DELAY",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "EXPIRATION",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "whiteListTokenHashs",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "whiteListTokens",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:82",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:103",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:108",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:116",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:121",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:125",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:129",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:130",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:149",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:206",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:261",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:266",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:278",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:291",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:299",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:301",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:306",
+      "file": "Swap.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Swap.sol:310",
+      "file": "Swap.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 56,
+    "n_hyperedges": 18,
+    "n_functions": 26,
+    "n_state_vars": 12,
+    "n_call_sites": 18,
+    "avg_hyperedge_size": 5.222222222222222
+  },
+  "label": {
+    "vfp_id": "vfp_00483",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1023",
+      "CWE-187",
+      "CWE-345",
+      "CWE-347",
+      "CWE-693",
+      "CWE-697"
+    ]
+  }
+}

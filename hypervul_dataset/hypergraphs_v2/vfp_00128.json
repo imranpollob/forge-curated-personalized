@@ -1,0 +1,1028 @@
+{
+  "sample_id": "vfp_00128",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ScrollChain.sol",
+      "start_line": 288,
+      "end_line": 300,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "ScrollChain.sol",
+      "start_line": 302,
+      "end_line": 326,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isBatchFinalized",
+      "file": "ScrollChain.sol",
+      "start_line": 333,
+      "end_line": 335,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "lastFinalizedBatchIndex",
+      "file": "ScrollChain.sol",
+      "start_line": 338,
+      "end_line": 340,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isEnforcedModeEnabled",
+      "file": "ScrollChain.sol",
+      "start_line": 343,
+      "end_line": 345,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "importGenesisBatch",
+      "file": "ScrollChain.sol",
+      "start_line": 354,
+      "end_line": 379,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "commitBatchWithBlobProof",
+      "file": "ScrollChain.sol",
+      "start_line": 390,
+      "end_line": 426,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "commitBatches",
+      "file": "ScrollChain.sol",
+      "start_line": 429,
+      "end_line": 435,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "revertBatch",
+      "file": "ScrollChain.sol",
+      "start_line": 441,
+      "end_line": 458,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "finalizeBundleWithProof",
+      "file": "ScrollChain.sol",
+      "start_line": 462,
+      "end_line": 500,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "finalizeBundlePostEuclidV2",
+      "file": "ScrollChain.sol",
+      "start_line": 503,
+      "end_line": 523,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "commitAndFinalizeBatch",
+      "file": "ScrollChain.sol",
+      "start_line": 527,
+      "end_line": 579,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "addSequencer",
+      "file": "ScrollChain.sol",
+      "start_line": 587,
+      "end_line": 595,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "removeSequencer",
+      "file": "ScrollChain.sol",
+      "start_line": 599,
+      "end_line": 603,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "addProver",
+      "file": "ScrollChain.sol",
+      "start_line": 607,
+      "end_line": 614,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "removeProver",
+      "file": "ScrollChain.sol",
+      "start_line": 618,
+      "end_line": 622,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateMaxNumTxInChunk",
+      "file": "ScrollChain.sol",
+      "start_line": 626,
+      "end_line": 631,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "ScrollChain.sol",
+      "start_line": 635,
+      "end_line": 641,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "disableEnforcedBatchMode",
+      "file": "ScrollChain.sol",
+      "start_line": 644,
+      "end_line": 647,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_decodeBoolFromFlag",
+      "file": "ScrollChain.sol",
+      "start_line": 654,
+      "end_line": 656,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_insertBoolToFlag",
+      "file": "ScrollChain.sol",
+      "start_line": 659,
+      "end_line": 669,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_beforeCommitBatch",
+      "file": "ScrollChain.sol",
+      "start_line": 679,
+      "end_line": 707,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_afterCommitBatch",
+      "file": "ScrollChain.sol",
+      "start_line": 712,
+      "end_line": 716,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_beforeFinalizeBatch",
+      "file": "ScrollChain.sol",
+      "start_line": 719,
+      "end_line": 745,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_afterFinalizeBatch",
+      "file": "ScrollChain.sol",
+      "start_line": 748,
+      "end_line": 768,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_checkSkippedL1MessageBitmap",
+      "file": "ScrollChain.sol",
+      "start_line": 775,
+      "end_line": 794,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_getAndCheckBlobVersionedHash",
+      "file": "ScrollChain.sol",
+      "start_line": 799,
+      "end_line": 814,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getBlobVersionedHash",
+      "file": "ScrollChain.sol",
+      "start_line": 818,
+      "end_line": 827,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_getBlobVersionedHash",
+      "file": "ScrollChain.sol",
+      "start_line": 831,
+      "end_line": 836,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_validateV5Batch",
+      "file": "ScrollChain.sol",
+      "start_line": 839,
+      "end_line": 853,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_commitBatchesFromV7",
+      "file": "ScrollChain.sol",
+      "start_line": 860,
+      "end_line": 907,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_finalizeBundlePostEuclidV2",
+      "file": "ScrollChain.sol",
+      "start_line": 915,
+      "end_line": 951,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_commitBatchFromV2ToV6",
+      "file": "ScrollChain.sol",
+      "start_line": 954,
+      "end_line": 1024,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_commitChunksV1",
+      "file": "ScrollChain.sol",
+      "start_line": 1032,
+      "end_line": 1071,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_loadBatchHeader",
+      "file": "ScrollChain.sol",
+      "start_line": 1081,
+      "end_line": 1124,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_commitChunkV1",
+      "file": "ScrollChain.sol",
+      "start_line": 1133,
+      "end_line": 1200,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_loadL1MessageHashes",
+      "file": "ScrollChain.sol",
+      "start_line": 1209,
+      "end_line": 1251,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_finalizePoppedL1Messages",
+      "file": "ScrollChain.sol",
+      "start_line": 1254,
+      "end_line": 1262,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_popL1MessagesCalldata",
+      "file": "ScrollChain.sol",
+      "start_line": 1268,
+      "end_line": 1279,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_popL1Messages",
+      "file": "ScrollChain.sol",
+      "start_line": 1286,
+      "end_line": 1317,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "POINT_EVALUATION_PRECOMPILE_ADDR",
+      "var_type": "address internal constant",
+      "file": "ScrollChain.sol",
+      "line": 138
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "BLS_MODULUS",
+      "var_type": "uint256 internal constant",
+      "file": "ScrollChain.sol",
+      "line": 142
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "V1_MESSAGES_FINALIZED_OFFSET",
+      "var_type": "uint256 private constant",
+      "file": "ScrollChain.sol",
+      "line": 146
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "ENFORCED_MODE_OFFSET",
+      "var_type": "uint256 private constant",
+      "file": "ScrollChain.sol",
+      "line": 147
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "layer2ChainId",
+      "var_type": "uint64 public immutable",
+      "file": "ScrollChain.sol",
+      "line": 150
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "messageQueueV1",
+      "var_type": "address public immutable",
+      "file": "ScrollChain.sol",
+      "line": 153
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "messageQueueV2",
+      "var_type": "address public immutable",
+      "file": "ScrollChain.sol",
+      "line": 156
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "verifier",
+      "var_type": "address public immutable",
+      "file": "ScrollChain.sol",
+      "line": 159
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "systemConfig",
+      "var_type": "address public immutable",
+      "file": "ScrollChain.sol",
+      "line": 162
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "maxNumTxInChunk",
+      "var_type": "uint256 public",
+      "file": "ScrollChain.sol",
+      "line": 188
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "__messageQueue",
+      "var_type": "address private",
+      "file": "ScrollChain.sol",
+      "line": 191
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "__verifier",
+      "var_type": "address private",
+      "file": "ScrollChain.sol",
+      "line": 194
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "isSequencer",
+      "var_type": "mapping(address => bool) public",
+      "file": "ScrollChain.sol",
+      "line": 197
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "isProver",
+      "var_type": "mapping(address => bool) public",
+      "file": "ScrollChain.sol",
+      "line": 200
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "__lastFinalizedBatchIndex",
+      "var_type": "uint256 private",
+      "file": "ScrollChain.sol",
+      "line": 203
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "committedBatches",
+      "var_type": "mapping(uint256 => bytes32) public override",
+      "file": "ScrollChain.sol",
+      "line": 208
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "finalizedStateRoots",
+      "var_type": "mapping(uint256 => bytes32) public override",
+      "file": "ScrollChain.sol",
+      "line": 213
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "withdrawRoots",
+      "var_type": "mapping(uint256 => bytes32) public override",
+      "file": "ScrollChain.sol",
+      "line": 218
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "initialEuclidBatchIndex",
+      "var_type": "uint256 public",
+      "file": "ScrollChain.sol",
+      "line": 221
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "miscData",
+      "var_type": "ScrollChainMiscData public",
+      "file": "ScrollChain.sol",
+      "line": 223
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "STATICCALL:ScrollChain.sol:786",
+      "call_type": "STATICCALL",
+      "line": 786,
+      "enclosing_function": "_getAndCheckBlobVersionedHash",
+      "file": "ScrollChain.sol",
+      "raw_text": "(bool success, bytes memory data) = POINT_EVALUATION_PRECOMPILE_ADDR.staticcall("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        26,
+        32,
+        40,
+        41,
+        58,
+        59,
+        60
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 60
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initializeV2",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isBatchFinalized",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "lastFinalizedBatchIndex",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isEnforcedModeEnabled",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "importGenesisBatch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "commitBatchWithBlobProof",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "commitBatches",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "revertBatch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "finalizeBundleWithProof",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "finalizeBundlePostEuclidV2",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "commitAndFinalizeBatch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "addSequencer",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "removeSequencer",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "addProver",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "removeProver",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateMaxNumTxInChunk",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "disableEnforcedBatchMode",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_decodeBoolFromFlag",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_insertBoolToFlag",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_beforeCommitBatch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_afterCommitBatch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_beforeFinalizeBatch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_afterFinalizeBatch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_checkSkippedL1MessageBitmap",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_getAndCheckBlobVersionedHash",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getBlobVersionedHash",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_getBlobVersionedHash",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_validateV5Batch",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_commitBatchesFromV7",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_finalizeBundlePostEuclidV2",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_commitBatchFromV2ToV6",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_commitChunksV1",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_loadBatchHeader",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_commitChunkV1",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_loadL1MessageHashes",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_finalizePoppedL1Messages",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_popL1MessagesCalldata",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_popL1Messages",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "POINT_EVALUATION_PRECOMPILE_ADDR",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "BLS_MODULUS",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "V1_MESSAGES_FINALIZED_OFFSET",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "ENFORCED_MODE_OFFSET",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "layer2ChainId",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "messageQueueV1",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "messageQueueV2",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "verifier",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "systemConfig",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "maxNumTxInChunk",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "__messageQueue",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "__verifier",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "isSequencer",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "isProver",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "__lastFinalizedBatchIndex",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "committedBatches",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "finalizedStateRoots",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "withdrawRoots",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "initialEuclidBatchIndex",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "miscData",
+      "file": "ScrollChain.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "STATICCALL:ScrollChain.sol:786",
+      "file": "ScrollChain.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 61,
+    "n_hyperedges": 1,
+    "n_functions": 40,
+    "n_state_vars": 20,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 8.0
+  },
+  "label": {
+    "vfp_id": "vfp_00128",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-358",
+      "CWE-693"
+    ]
+  }
+}

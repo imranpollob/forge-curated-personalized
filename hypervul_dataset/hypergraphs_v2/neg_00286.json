@@ -1,0 +1,518 @@
+{
+  "sample_id": "neg_00286",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPriceOracle",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 74,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setVault",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 84,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 96,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setReward",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 107,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMaxSlippage",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 118,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setSwapAdapter",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 128,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setMaxCollInBold",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 142,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "pause",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 157,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 162,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setSPs",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 175,
+      "end_line": 199,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_checkAndStoreCollValueInBold",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "start_line": 202,
+      "end_line": 202,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setAmounts",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "start_line": 12,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setReceiver",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "swap",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "start_line": 20,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "start_line": 26,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "sps",
+      "var_type": "SP[] public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 20
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "feeBps",
+      "var_type": "uint256 public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 22
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "swapFeeBps",
+      "var_type": "uint256 public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 24
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "rewardBps",
+      "var_type": "uint256 public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 26
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "maxSlippage",
+      "var_type": "uint256 public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 28
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "maxCollInBold",
+      "var_type": "uint256 public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 30
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "priceOracle",
+      "var_type": "IPriceOracle public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 32
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "swapAdapter",
+      "var_type": "address public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 34
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "address public",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "line": 36
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "quotes",
+      "var_type": "mapping(address => uint256) public",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "line": 8
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "receiver",
+      "var_type": "address public",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "line": 10
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sBOLD_contracts_base_BaseSBold.sol:185",
+      "call_type": "INTERFACE_CALL",
+      "line": 185,
+      "enclosing_function": "_setSPs",
+      "file": "sBOLD_contracts_base_BaseSBold.sol",
+      "raw_text": "sps.push(SP({sp: spAddress, weight: weight, coll: address(IStabilityPool(spAddress).collToken())}));"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "TRANSFER:sBOLD_contracts_mocks_MockSwap.sol:23",
+      "call_type": "TRANSFER",
+      "line": 23,
+      "enclosing_function": "swap",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "raw_text": "IERC20(dst).transfer(receiver, quotes[src]);"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "TRANSFER:sBOLD_contracts_mocks_MockSwap.sol:29",
+      "call_type": "TRANSFER",
+      "line": 29,
+      "enclosing_function": "withdraw",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol",
+      "raw_text": "IERC20(src).transfer(receiver, balance);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        9,
+        15,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        13,
+        24,
+        25,
+        27
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        14,
+        25,
+        28
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 28
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setPriceOracle",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setVault",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setReward",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMaxSlippage",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setSwapAdapter",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setMaxCollInBold",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "pause",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setSPs",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_checkAndStoreCollValueInBold",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setAmounts",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setReceiver",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "swap",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "sps",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "feeBps",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "swapFeeBps",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "rewardBps",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "maxSlippage",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "maxCollInBold",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "priceOracle",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "swapAdapter",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "quotes",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "receiver",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sBOLD_contracts_base_BaseSBold.sol:185",
+      "file": "sBOLD_contracts_base_BaseSBold.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "TRANSFER:sBOLD_contracts_mocks_MockSwap.sol:23",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "TRANSFER:sBOLD_contracts_mocks_MockSwap.sol:29",
+      "file": "sBOLD_contracts_mocks_MockSwap.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 29,
+    "n_hyperedges": 3,
+    "n_functions": 15,
+    "n_state_vars": 11,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.3333333333333335
+  },
+  "label": {
+    "vfp_id": "neg_00286",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

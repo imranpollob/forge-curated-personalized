@@ -1,0 +1,378 @@
+{
+  "sample_id": "vfp_00538",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getStorage",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 33,
+      "end_line": 39,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 45,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "beacon",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 51,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isInstance",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isInstance",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "instances",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "instances",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 67,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "instancesLength",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 77,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "initVaultType",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 81,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "vaultTypeInitialized",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 93,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "callBeacon",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 100,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "create",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 112,
+      "end_line": 123,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 125,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_isInstance",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 148,
+      "end_line": 153,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_create",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 155,
+      "end_line": 168,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EOLVaultFactory.sol",
+      "start_line": 170,
+      "end_line": 170,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_NAMESPACE",
+      "var_type": "string private constant",
+      "file": "EOLVaultFactory.sol",
+      "line": 30
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_slot",
+      "var_type": "bytes32 private immutable",
+      "file": "EOLVaultFactory.sol",
+      "line": 31
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EOLVaultFactory.sol:31",
+      "call_type": "INTERFACE_CALL",
+      "line": 31,
+      "enclosing_function": "",
+      "file": "EOLVaultFactory.sol",
+      "raw_text": "bytes32 private immutable _slot = _NAMESPACE.storageSlot();"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "CALL:EOLVaultFactory.sol:102",
+      "call_type": "CALL",
+      "line": 102,
+      "enclosing_function": "callBeacon",
+      "file": "EOLVaultFactory.sol",
+      "raw_text": "(bool success, bytes memory result) = address($.infos[t].beacon).call(data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        10,
+        19
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getStorage",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "beacon",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isInstance",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isInstance",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "instances",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "instances",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "instancesLength",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "initVaultType",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "vaultTypeInitialized",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "callBeacon",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "create",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "migrate",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_isInstance",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_create",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "_NAMESPACE",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_slot",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EOLVaultFactory.sol:31",
+      "file": "EOLVaultFactory.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "CALL:EOLVaultFactory.sol:102",
+      "file": "EOLVaultFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 1,
+    "n_functions": 16,
+    "n_state_vars": 2,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00538",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-221",
+      "CWE-664"
+    ]
+  }
+}

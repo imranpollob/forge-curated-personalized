@@ -1,0 +1,592 @@
+{
+  "sample_id": "vfp_00029",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SymmStaking.sol",
+      "start_line": 153,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "rewardTokensCount",
+      "file": "SymmStaking.sol",
+      "start_line": 176,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "lastTimeRewardApplicable",
+      "file": "SymmStaking.sol",
+      "start_line": 185,
+      "end_line": 187,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rewardPerToken",
+      "file": "SymmStaking.sol",
+      "start_line": 194,
+      "end_line": 202,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "earned",
+      "file": "SymmStaking.sol",
+      "start_line": 210,
+      "end_line": 214,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getFullPeriodReward",
+      "file": "SymmStaking.sol",
+      "start_line": 221,
+      "end_line": 223,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SymmStaking.sol",
+      "start_line": 234,
+      "end_line": 243,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "SymmStaking.sol",
+      "start_line": 250,
+      "end_line": 260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "SymmStaking.sol",
+      "start_line": 265,
+      "end_line": 268,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "notifyRewardAmount",
+      "file": "SymmStaking.sol",
+      "start_line": 275,
+      "end_line": 292,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimFor",
+      "file": "SymmStaking.sol",
+      "start_line": 302,
+      "end_line": 305,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "configureRewardToken",
+      "file": "SymmStaking.sol",
+      "start_line": 312,
+      "end_line": 335,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "SymmStaking.sol",
+      "start_line": 343,
+      "end_line": 346,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "pause",
+      "file": "SymmStaking.sol",
+      "start_line": 351,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "SymmStaking.sol",
+      "start_line": 358,
+      "end_line": 360,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_addRewardsForToken",
+      "file": "SymmStaking.sol",
+      "start_line": 366,
+      "end_line": 379,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_claimRewardsFor",
+      "file": "SymmStaking.sol",
+      "start_line": 385,
+      "end_line": 400,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_updateRewardsStates",
+      "file": "SymmStaking.sol",
+      "start_line": 406,
+      "end_line": 423,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "DEFAULT_REWARDS_DURATION",
+      "var_type": "uint256 public constant",
+      "file": "SymmStaking.sol",
+      "line": 24
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "REWARD_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "SymmStaking.sol",
+      "line": 26
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "PAUSER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "SymmStaking.sol",
+      "line": 27
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "UNPAUSER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "SymmStaking.sol",
+      "line": 28
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "stakingToken",
+      "var_type": "address public",
+      "file": "SymmStaking.sol",
+      "line": 125
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "var_type": "uint256 public",
+      "file": "SymmStaking.sol",
+      "line": 127
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "var_type": "mapping(address => uint256) public",
+      "file": "SymmStaking.sol",
+      "line": 128
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "rewardState",
+      "var_type": "mapping(address => TokenRewardState) public",
+      "file": "SymmStaking.sol",
+      "line": 131
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "rewardTokens",
+      "var_type": "address[] public",
+      "file": "SymmStaking.sol",
+      "line": 133
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "isRewardToken",
+      "var_type": "mapping(address => bool) public",
+      "file": "SymmStaking.sol",
+      "line": 135
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "userRewardPerTokenPaid",
+      "var_type": "mapping(address => mapping(address => uint256)) public",
+      "file": "SymmStaking.sol",
+      "line": 138
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "rewards",
+      "var_type": "mapping(address => mapping(address => uint256)) public",
+      "file": "SymmStaking.sol",
+      "line": 140
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "pendingRewards",
+      "var_type": "mapping(address => uint256) public",
+      "file": "SymmStaking.sol",
+      "line": 143
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymmStaking.sol:250",
+      "call_type": "INTERFACE_CALL",
+      "line": 250,
+      "enclosing_function": "configureRewardToken",
+      "file": "SymmStaking.sol",
+      "raw_text": "rewardTokens.pop();"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymmStaking.sol:255",
+      "call_type": "INTERFACE_CALL",
+      "line": 255,
+      "enclosing_function": "configureRewardToken",
+      "file": "SymmStaking.sol",
+      "raw_text": "rewardTokens.push(token);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        11,
+        18,
+        25,
+        26,
+        27,
+        30,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        11,
+        18,
+        25,
+        26,
+        27,
+        30,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "rewardTokensCount",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "lastTimeRewardApplicable",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rewardPerToken",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "earned",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getFullPeriodReward",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "notifyRewardAmount",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimFor",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "configureRewardToken",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "rescueTokens",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "pause",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_addRewardsForToken",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_claimRewardsFor",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_updateRewardsStates",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "DEFAULT_REWARDS_DURATION",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "REWARD_MANAGER_ROLE",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "PAUSER_ROLE",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "UNPAUSER_ROLE",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "stakingToken",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "rewardState",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "rewardTokens",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "isRewardToken",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "userRewardPerTokenPaid",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "rewards",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "pendingRewards",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymmStaking.sol:250",
+      "file": "SymmStaking.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymmStaking.sol:255",
+      "file": "SymmStaking.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 33,
+    "n_hyperedges": 2,
+    "n_functions": 18,
+    "n_state_vars": 13,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "vfp_00029",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1339",
+      "CWE-1419",
+      "CWE-284",
+      "CWE-285",
+      "CWE-664",
+      "CWE-665",
+      "CWE-682",
+      "CWE-862"
+    ]
+  }
+}

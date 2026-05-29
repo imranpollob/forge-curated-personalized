@@ -1,0 +1,3377 @@
+{
+  "sample_id": "vfp_00558",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LazyOracle.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "latestReportData",
+      "file": "LazyOracle.sol",
+      "start_line": 143,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "latestReportTimestamp",
+      "file": "LazyOracle.sol",
+      "start_line": 149,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quarantinePeriod",
+      "file": "LazyOracle.sol",
+      "start_line": 154,
+      "end_line": 156,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "maxRewardRatioBP",
+      "file": "LazyOracle.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "vaultQuarantine",
+      "file": "LazyOracle.sol",
+      "start_line": 166,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "batchVaultsInfo",
+      "file": "LazyOracle.sol",
+      "start_line": 184,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateSanityParams",
+      "file": "LazyOracle.sol",
+      "start_line": 222,
+      "end_line": 227,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateReportData",
+      "file": "LazyOracle.sol",
+      "start_line": 233,
+      "end_line": 246,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateVaultData",
+      "file": "LazyOracle.sol",
+      "start_line": 254,
+      "end_line": 289,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_handleSanityChecks",
+      "file": "LazyOracle.sol",
+      "start_line": 296,
+      "end_line": 314,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_processTotalValue",
+      "file": "LazyOracle.sol",
+      "start_line": 316,
+      "end_line": 361,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_updateSanityParams",
+      "file": "LazyOracle.sol",
+      "start_line": 363,
+      "end_line": 368,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_mintableStETH",
+      "file": "LazyOracle.sol",
+      "start_line": 370,
+      "end_line": 380,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_storage",
+      "file": "LazyOracle.sol",
+      "start_line": 382,
+      "end_line": 386,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_vaultHub",
+      "file": "LazyOracle.sol",
+      "start_line": 388,
+      "end_line": 390,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_operatorGrid",
+      "file": "LazyOracle.sol",
+      "start_line": 392,
+      "end_line": 394,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OperatorGrid.sol",
+      "start_line": 153,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "registerGroup",
+      "file": "OperatorGrid.sol",
+      "start_line": 180,
+      "end_line": 195,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "updateGroupShareLimit",
+      "file": "OperatorGrid.sol",
+      "start_line": 200,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "group",
+      "file": "OperatorGrid.sol",
+      "start_line": 215,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "nodeOperatorAddress",
+      "file": "OperatorGrid.sol",
+      "start_line": 222,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "nodeOperatorCount",
+      "file": "OperatorGrid.sol",
+      "start_line": 230,
+      "end_line": 232,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "registerTiers",
+      "file": "OperatorGrid.sol",
+      "start_line": 237,
+      "end_line": 285,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "tier",
+      "file": "OperatorGrid.sol",
+      "start_line": 290,
+      "end_line": 294,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "tiersCount",
+      "file": "OperatorGrid.sol",
+      "start_line": 298,
+      "end_line": 300,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "alterTiers",
+      "file": "OperatorGrid.sol",
+      "start_line": 306,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "changeTier",
+      "file": "OperatorGrid.sol",
+      "start_line": 399,
+      "end_line": 467,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "resetVaultTier",
+      "file": "OperatorGrid.sol",
+      "start_line": 472,
+      "end_line": 482,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "onMintedShares",
+      "file": "OperatorGrid.sol",
+      "start_line": 491,
+      "end_line": 514,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "onBurnedShares",
+      "file": "OperatorGrid.sol",
+      "start_line": 519,
+      "end_line": 539,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "vaultInfo",
+      "file": "OperatorGrid.sol",
+      "start_line": 551,
+      "end_line": 578,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "effectiveShareLimit",
+      "file": "OperatorGrid.sol",
+      "start_line": 583,
+      "end_line": 590,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_gridRemainingShareLimit",
+      "file": "OperatorGrid.sol",
+      "start_line": 597,
+      "end_line": 611,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_validateParams",
+      "file": "OperatorGrid.sol",
+      "start_line": 619,
+      "end_line": 643,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_vaultHub",
+      "file": "OperatorGrid.sol",
+      "start_line": 645,
+      "end_line": 647,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_getStorage",
+      "file": "OperatorGrid.sol",
+      "start_line": 649,
+      "end_line": 653,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "VaultHub.sol",
+      "start_line": 210,
+      "end_line": 219,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "vaultsCount",
+      "file": "VaultHub.sol",
+      "start_line": 223,
+      "end_line": 225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "vaultByIndex",
+      "file": "VaultHub.sol",
+      "start_line": 230,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "vaultConnection",
+      "file": "VaultHub.sol",
+      "start_line": 238,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "vaultRecord",
+      "file": "VaultHub.sol",
+      "start_line": 244,
+      "end_line": 246,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "vaultObligations",
+      "file": "VaultHub.sol",
+      "start_line": 250,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "isVaultConnected",
+      "file": "VaultHub.sol",
+      "start_line": 255,
+      "end_line": 257,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "totalValue",
+      "file": "VaultHub.sol",
+      "start_line": 261,
+      "end_line": 263,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "liabilityShares",
+      "file": "VaultHub.sol",
+      "start_line": 267,
+      "end_line": 269,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "locked",
+      "file": "VaultHub.sol",
+      "start_line": 273,
+      "end_line": 275,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "maxLockableValue",
+      "file": "VaultHub.sol",
+      "start_line": 279,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "withdrawableValue",
+      "file": "VaultHub.sol",
+      "start_line": 286,
+      "end_line": 288,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "latestReport",
+      "file": "VaultHub.sol",
+      "start_line": 292,
+      "end_line": 294,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "isReportFresh",
+      "file": "VaultHub.sol",
+      "start_line": 298,
+      "end_line": 300,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "isVaultHealthy",
+      "file": "VaultHub.sol",
+      "start_line": 307,
+      "end_line": 309,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "rebalanceShortfall",
+      "file": "VaultHub.sol",
+      "start_line": 315,
+      "end_line": 317,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "badDebtToInternalizeAsOfLastRefSlot",
+      "file": "VaultHub.sol",
+      "start_line": 320,
+      "end_line": 322,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "inOutDeltaAsOfLastRefSlot",
+      "file": "VaultHub.sol",
+      "start_line": 328,
+      "end_line": 330,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "setAllowedCodehash",
+      "file": "VaultHub.sol",
+      "start_line": 336,
+      "end_line": 343,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "connectVault",
+      "file": "VaultHub.sol",
+      "start_line": 348,
+      "end_line": 387,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "updateShareLimit",
+      "file": "VaultHub.sol",
+      "start_line": 394,
+      "end_line": 402,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "updateVaultFees",
+      "file": "VaultHub.sol",
+      "start_line": 410,
+      "end_line": 439,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "updateConnection",
+      "file": "VaultHub.sol",
+      "start_line": 450,
+      "end_line": 488,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "disconnect",
+      "file": "VaultHub.sol",
+      "start_line": 494,
+      "end_line": 498,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "applyVaultReport",
+      "file": "VaultHub.sol",
+      "start_line": 507,
+      "end_line": 561,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "socializeBadDebt",
+      "file": "VaultHub.sol",
+      "start_line": 568,
+      "end_line": 601,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "internalizeBadDebt",
+      "file": "VaultHub.sol",
+      "start_line": 607,
+      "end_line": 630,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "decreaseInternalizedBadDebt",
+      "file": "VaultHub.sol",
+      "start_line": 634,
+      "end_line": 639,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "transferVaultOwnership",
+      "file": "VaultHub.sol",
+      "start_line": 645,
+      "end_line": 659,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "voluntaryDisconnect",
+      "file": "VaultHub.sol",
+      "start_line": 665,
+      "end_line": 671,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "fund",
+      "file": "VaultHub.sol",
+      "start_line": 676,
+      "end_line": 685,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "VaultHub.sol",
+      "start_line": 692,
+      "end_line": 702,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "VaultHub.sol",
+      "start_line": 708,
+      "end_line": 713,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "VaultHub.sol",
+      "start_line": 719,
+      "end_line": 741,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "VaultHub.sol",
+      "start_line": 748,
+      "end_line": 759,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "transferAndBurnShares",
+      "file": "VaultHub.sol",
+      "start_line": 765,
+      "end_line": 769,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "VaultHub.sol",
+      "start_line": 774,
+      "end_line": 779,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "VaultHub.sol",
+      "start_line": 784,
+      "end_line": 793,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "VaultHub.sol",
+      "start_line": 799,
+      "end_line": 803,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "VaultHub.sol",
+      "start_line": 811,
+      "end_line": 842,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "forceValidatorExit",
+      "file": "VaultHub.sol",
+      "start_line": 851,
+      "end_line": 871,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "forceRebalance",
+      "file": "VaultHub.sol",
+      "start_line": 876,
+      "end_line": 887,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "setVaultRedemptions",
+      "file": "VaultHub.sol",
+      "start_line": 892,
+      "end_line": 907,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "settleVaultObligations",
+      "file": "VaultHub.sol",
+      "start_line": 911,
+      "end_line": 918,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "proveUnknownValidatorToPDG",
+      "file": "VaultHub.sol",
+      "start_line": 923,
+      "end_line": 930,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "compensateDisprovenPredepositFromPDG",
+      "file": "VaultHub.sol",
+      "start_line": 937,
+      "end_line": 945,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "_connectVault",
+      "file": "VaultHub.sol",
+      "start_line": 947,
+      "end_line": 1006,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_initiateDisconnection",
+      "file": "VaultHub.sol",
+      "start_line": 1008,
+      "end_line": 1024,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_applyVaultReport",
+      "file": "VaultHub.sol",
+      "start_line": 1026,
+      "end_line": 1048,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_rebalance",
+      "file": "VaultHub.sol",
+      "start_line": 1050,
+      "end_line": 1061,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "VaultHub.sol",
+      "start_line": 1063,
+      "end_line": 1072,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "_increaseLiability",
+      "file": "VaultHub.sol",
+      "start_line": 1074,
+      "end_line": 1101,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "_decreaseLiability",
+      "file": "VaultHub.sol",
+      "start_line": 1103,
+      "end_line": 1111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "_writeOffBadDebt",
+      "file": "VaultHub.sol",
+      "start_line": 1113,
+      "end_line": 1127,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "_rebalanceShortfall",
+      "file": "VaultHub.sol",
+      "start_line": 1129,
+      "end_line": 1174,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "_totalValue",
+      "file": "VaultHub.sol",
+      "start_line": 1176,
+      "end_line": 1179,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "_maxLockableValue",
+      "file": "VaultHub.sol",
+      "start_line": 1181,
+      "end_line": 1183,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "_isReportFresh",
+      "file": "VaultHub.sol",
+      "start_line": 1185,
+      "end_line": 1192,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "_isVaultHealthy",
+      "file": "VaultHub.sol",
+      "start_line": 1194,
+      "end_line": 1203,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "_isThresholdBreached",
+      "file": "VaultHub.sol",
+      "start_line": 1206,
+      "end_line": 1213,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "_addVault",
+      "file": "VaultHub.sol",
+      "start_line": 1215,
+      "end_line": 1221,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "_deleteVault",
+      "file": "VaultHub.sol",
+      "start_line": 1223,
+      "end_line": 1235,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "_checkConnectionAndOwner",
+      "file": "VaultHub.sol",
+      "start_line": 1237,
+      "end_line": 1240,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "_checkConnection",
+      "file": "VaultHub.sol",
+      "start_line": 1242,
+      "end_line": 1250,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "_updateInOutDelta",
+      "file": "VaultHub.sol",
+      "start_line": 1253,
+      "end_line": 1260,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "_checkAndUpdateLidoFeesObligations",
+      "file": "VaultHub.sol",
+      "start_line": 1267,
+      "end_line": 1284,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "_planSettlement",
+      "file": "VaultHub.sol",
+      "start_line": 1298,
+      "end_line": 1313,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "_planRebalance",
+      "file": "VaultHub.sol",
+      "start_line": 1324,
+      "end_line": 1338,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "_planLidoTransfer",
+      "file": "VaultHub.sol",
+      "start_line": 1349,
+      "end_line": 1376,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "_settleObligations",
+      "file": "VaultHub.sol",
+      "start_line": 1385,
+      "end_line": 1432,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "_decreaseRedemptions",
+      "file": "VaultHub.sol",
+      "start_line": 1434,
+      "end_line": 1445,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "_totalUnsettledObligations",
+      "file": "VaultHub.sol",
+      "start_line": 1447,
+      "end_line": 1449,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "_checkAndUpdateBeaconChainDepositsPause",
+      "file": "VaultHub.sol",
+      "start_line": 1451,
+      "end_line": 1465,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "_withdrawableValue",
+      "file": "VaultHub.sol",
+      "start_line": 1469,
+      "end_line": 1480,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "_storage",
+      "file": "VaultHub.sol",
+      "start_line": 1482,
+      "end_line": 1486,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "_vaultConnection",
+      "file": "VaultHub.sol",
+      "start_line": 1488,
+      "end_line": 1490,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "_vaultRecord",
+      "file": "VaultHub.sol",
+      "start_line": 1492,
+      "end_line": 1494,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "_vaultObligations",
+      "file": "VaultHub.sol",
+      "start_line": 1496,
+      "end_line": 1498,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "_operatorGrid",
+      "file": "VaultHub.sol",
+      "start_line": 1500,
+      "end_line": 1502,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "_lazyOracle",
+      "file": "VaultHub.sol",
+      "start_line": 1504,
+      "end_line": 1506,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "_predepositGuarantee",
+      "file": "VaultHub.sol",
+      "start_line": 1508,
+      "end_line": 1510,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "_getSharesByPooledEth",
+      "file": "VaultHub.sol",
+      "start_line": 1512,
+      "end_line": 1514,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "_getPooledEthByShares",
+      "file": "VaultHub.sol",
+      "start_line": 1516,
+      "end_line": 1518,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "_getPooledEthBySharesRoundUp",
+      "file": "VaultHub.sol",
+      "start_line": 1520,
+      "end_line": 1522,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "_rebalanceExternalEtherToInternal",
+      "file": "VaultHub.sol",
+      "start_line": 1524,
+      "end_line": 1526,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "_nodeOperator",
+      "file": "VaultHub.sol",
+      "start_line": 1528,
+      "end_line": 1530,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "_requireNotZero",
+      "file": "VaultHub.sol",
+      "start_line": 1532,
+      "end_line": 1534,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "_requireNotZero",
+      "file": "VaultHub.sol",
+      "start_line": 1536,
+      "end_line": 1538,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "_requireSender",
+      "file": "VaultHub.sol",
+      "start_line": 1540,
+      "end_line": 1542,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "_requireLessThanBP",
+      "file": "VaultHub.sol",
+      "start_line": 1544,
+      "end_line": 1546,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "_requireSaneShareLimit",
+      "file": "VaultHub.sol",
+      "start_line": 1548,
+      "end_line": 1551,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "_requireConnected",
+      "file": "VaultHub.sol",
+      "start_line": 1553,
+      "end_line": 1555,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "_requireFreshReport",
+      "file": "VaultHub.sol",
+      "start_line": 1557,
+      "end_line": 1559,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "TOTAL_BASIS_POINTS",
+      "var_type": "uint256 private constant",
+      "file": "LazyOracle.sol",
+      "line": 119
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "MAX_SANE_TOTAL_VALUE",
+      "var_type": "uint256 private constant",
+      "file": "LazyOracle.sol",
+      "line": 120
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "REGISTRY_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "OperatorGrid.sol",
+      "line": 81
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "var_type": "ILidoLocator public immutable",
+      "file": "OperatorGrid.sol",
+      "line": 84
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "DEFAULT_TIER_ID",
+      "var_type": "uint256 public constant",
+      "file": "OperatorGrid.sol",
+      "line": 86
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "DEFAULT_TIER_OPERATOR",
+      "var_type": "address public constant",
+      "file": "OperatorGrid.sol",
+      "line": 89
+    },
+    {
+      "node_id": 136,
+      "node_type": "state_var",
+      "name": "TOTAL_BASIS_POINTS",
+      "var_type": "uint256 internal constant",
+      "file": "OperatorGrid.sol",
+      "line": 92
+    },
+    {
+      "node_id": 137,
+      "node_type": "state_var",
+      "name": "MAX_FEE_BP",
+      "var_type": "uint256 internal constant",
+      "file": "OperatorGrid.sol",
+      "line": 94
+    },
+    {
+      "node_id": 138,
+      "node_type": "state_var",
+      "name": "STORAGE_LOCATION",
+      "var_type": "bytes32 private constant",
+      "file": "VaultHub.sol",
+      "line": 142
+    },
+    {
+      "node_id": 139,
+      "node_type": "state_var",
+      "name": "VAULT_MASTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "VaultHub.sol",
+      "line": 145
+    },
+    {
+      "node_id": 140,
+      "node_type": "state_var",
+      "name": "VAULT_CODEHASH_SET_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "VaultHub.sol",
+      "line": 147
+    },
+    {
+      "node_id": 141,
+      "node_type": "state_var",
+      "name": "REDEMPTION_MASTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "VaultHub.sol",
+      "line": 149
+    },
+    {
+      "node_id": 142,
+      "node_type": "state_var",
+      "name": "VALIDATOR_EXIT_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "VaultHub.sol",
+      "line": 151
+    },
+    {
+      "node_id": 143,
+      "node_type": "state_var",
+      "name": "BAD_DEBT_MASTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "VaultHub.sol",
+      "line": 153
+    },
+    {
+      "node_id": 144,
+      "node_type": "state_var",
+      "name": "CONNECT_DEPOSIT",
+      "var_type": "uint256 public constant",
+      "file": "VaultHub.sol",
+      "line": 155
+    },
+    {
+      "node_id": 145,
+      "node_type": "state_var",
+      "name": "REPORT_FRESHNESS_DELTA",
+      "var_type": "uint256 public constant",
+      "file": "VaultHub.sol",
+      "line": 158
+    },
+    {
+      "node_id": 146,
+      "node_type": "state_var",
+      "name": "TOTAL_BASIS_POINTS",
+      "var_type": "uint256 internal constant",
+      "file": "VaultHub.sol",
+      "line": 161
+    },
+    {
+      "node_id": 147,
+      "node_type": "state_var",
+      "name": "PUBLIC_KEY_LENGTH",
+      "var_type": "uint256 internal constant",
+      "file": "VaultHub.sol",
+      "line": 163
+    },
+    {
+      "node_id": 148,
+      "node_type": "state_var",
+      "name": "MAX_FEE_BP",
+      "var_type": "uint256 internal constant",
+      "file": "VaultHub.sol",
+      "line": 165
+    },
+    {
+      "node_id": 149,
+      "node_type": "state_var",
+      "name": "EMPTY_CODEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "VaultHub.sol",
+      "line": 168
+    },
+    {
+      "node_id": 150,
+      "node_type": "state_var",
+      "name": "MAX_UNSETTLED_ALLOWED",
+      "var_type": "uint256 internal constant",
+      "file": "VaultHub.sol",
+      "line": 171
+    },
+    {
+      "node_id": 151,
+      "node_type": "state_var",
+      "name": "UNSETTLED_THRESHOLD",
+      "var_type": "uint256 internal constant",
+      "file": "VaultHub.sol",
+      "line": 173
+    },
+    {
+      "node_id": 152,
+      "node_type": "state_var",
+      "name": "NO_UNSETTLED_ALLOWED",
+      "var_type": "uint256 internal constant",
+      "file": "VaultHub.sol",
+      "line": 175
+    },
+    {
+      "node_id": 153,
+      "node_type": "state_var",
+      "name": "MAX_RELATIVE_SHARE_LIMIT_BP",
+      "var_type": "uint256 public immutable",
+      "file": "VaultHub.sol",
+      "line": 182
+    },
+    {
+      "node_id": 154,
+      "node_type": "state_var",
+      "name": "LIDO",
+      "var_type": "ILido public immutable",
+      "file": "VaultHub.sol",
+      "line": 184
+    },
+    {
+      "node_id": 155,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "var_type": "ILidoLocator public immutable",
+      "file": "VaultHub.sol",
+      "line": 185
+    },
+    {
+      "node_id": 156,
+      "node_type": "state_var",
+      "name": "CONSENSUS_CONTRACT",
+      "var_type": "IHashConsensus public immutable",
+      "file": "VaultHub.sol",
+      "line": 186
+    },
+    {
+      "node_id": 157,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:196",
+      "call_type": "INTERFACE_CALL",
+      "line": 196,
+      "enclosing_function": "updateReportData",
+      "file": "LazyOracle.sol",
+      "raw_text": "if (msg.sender != LIDO_LOCATOR.accountingOracle()) revert NotAuthorized();"
+    },
+    {
+      "node_id": 158,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:335",
+      "call_type": "INTERFACE_CALL",
+      "line": 335,
+      "enclosing_function": "_mintableStETH",
+      "file": "LazyOracle.sol",
+      "raw_text": "uint256 mintableStEthByShareLimit = ILido(LIDO_LOCATOR.lido()).getPooledEthBySharesRoundUp(effectiveShareLimit);"
+    },
+    {
+      "node_id": 159,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:347",
+      "call_type": "INTERFACE_CALL",
+      "line": 347,
+      "enclosing_function": "_vaultHub",
+      "file": "LazyOracle.sol",
+      "raw_text": "return VaultHub(payable(LIDO_LOCATOR.vaultHub()));"
+    },
+    {
+      "node_id": 160,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:351",
+      "call_type": "INTERFACE_CALL",
+      "line": 351,
+      "enclosing_function": "_operatorGrid",
+      "file": "LazyOracle.sol",
+      "raw_text": "return OperatorGrid(LIDO_LOCATOR.operatorGrid());"
+    },
+    {
+      "node_id": 161,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:366",
+      "call_type": "INTERFACE_CALL",
+      "line": 366,
+      "enclosing_function": "resetVaultTier",
+      "file": "OperatorGrid.sol",
+      "raw_text": "if (msg.sender != LIDO_LOCATOR.vaultHub()) revert NotAuthorized(\"resetVaultTier\", msg.sender);"
+    },
+    {
+      "node_id": 162,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:388",
+      "call_type": "INTERFACE_CALL",
+      "line": 388,
+      "enclosing_function": "onMintedShares",
+      "file": "OperatorGrid.sol",
+      "raw_text": "if (msg.sender != LIDO_LOCATOR.vaultHub()) revert NotAuthorized(\"onMintedShares\", msg.sender);"
+    },
+    {
+      "node_id": 163,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:416",
+      "call_type": "INTERFACE_CALL",
+      "line": 416,
+      "enclosing_function": "onBurnedShares",
+      "file": "OperatorGrid.sol",
+      "raw_text": "if (msg.sender != LIDO_LOCATOR.vaultHub()) revert NotAuthorized(\"burnShares\", msg.sender);"
+    },
+    {
+      "node_id": 164,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:539",
+      "call_type": "INTERFACE_CALL",
+      "line": 539,
+      "enclosing_function": "_vaultHub",
+      "file": "OperatorGrid.sol",
+      "raw_text": "return VaultHub(payable(LIDO_LOCATOR.vaultHub()));"
+    },
+    {
+      "node_id": 165,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:607",
+      "call_type": "INTERFACE_CALL",
+      "line": 607,
+      "enclosing_function": "decreaseInternalizedBadDebt",
+      "file": "VaultHub.sol",
+      "raw_text": "_requireSender(LIDO_LOCATOR.accounting());"
+    },
+    {
+      "node_id": 166,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:710",
+      "call_type": "INTERFACE_CALL",
+      "line": 710,
+      "enclosing_function": "mintShares",
+      "file": "VaultHub.sol",
+      "raw_text": "LIDO.mintExternalShares(_recipient, _amountOfShares);"
+    },
+    {
+      "node_id": 167,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:728",
+      "call_type": "INTERFACE_CALL",
+      "line": 728,
+      "enclosing_function": "burnShares",
+      "file": "VaultHub.sol",
+      "raw_text": "LIDO.burnExternalShares(_amountOfShares);"
+    },
+    {
+      "node_id": 168,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:738",
+      "call_type": "INTERFACE_CALL",
+      "line": 738,
+      "enclosing_function": "transferAndBurnShares",
+      "file": "VaultHub.sol",
+      "raw_text": "LIDO.transferSharesFrom(msg.sender, address(this), _amountOfShares);"
+    },
+    {
+      "node_id": 169,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1352",
+      "call_type": "INTERFACE_CALL",
+      "line": 1352,
+      "enclosing_function": "_settleObligations",
+      "file": "VaultHub.sol",
+      "raw_text": "_withdraw(_vault, _record, LIDO_LOCATOR.treasury(), valueToTransferToLido);"
+    },
+    {
+      "node_id": 170,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1436",
+      "call_type": "INTERFACE_CALL",
+      "line": 1436,
+      "enclosing_function": "_operatorGrid",
+      "file": "VaultHub.sol",
+      "raw_text": "return OperatorGrid(LIDO_LOCATOR.operatorGrid());"
+    },
+    {
+      "node_id": 171,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1440",
+      "call_type": "INTERFACE_CALL",
+      "line": 1440,
+      "enclosing_function": "_lazyOracle",
+      "file": "VaultHub.sol",
+      "raw_text": "return LazyOracle(LIDO_LOCATOR.lazyOracle());"
+    },
+    {
+      "node_id": 172,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1444",
+      "call_type": "INTERFACE_CALL",
+      "line": 1444,
+      "enclosing_function": "_predepositGuarantee",
+      "file": "VaultHub.sol",
+      "raw_text": "return IPredepositGuarantee(LIDO_LOCATOR.predepositGuarantee());"
+    },
+    {
+      "node_id": 173,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1448",
+      "call_type": "INTERFACE_CALL",
+      "line": 1448,
+      "enclosing_function": "_getSharesByPooledEth",
+      "file": "VaultHub.sol",
+      "raw_text": "return LIDO.getSharesByPooledEth(_ether);"
+    },
+    {
+      "node_id": 174,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1452",
+      "call_type": "INTERFACE_CALL",
+      "line": 1452,
+      "enclosing_function": "_getPooledEthByShares",
+      "file": "VaultHub.sol",
+      "raw_text": "return LIDO.getPooledEthByShares(_ether);"
+    },
+    {
+      "node_id": 175,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1456",
+      "call_type": "INTERFACE_CALL",
+      "line": 1456,
+      "enclosing_function": "_getPooledEthBySharesRoundUp",
+      "file": "VaultHub.sol",
+      "raw_text": "return LIDO.getPooledEthBySharesRoundUp(_shares);"
+    },
+    {
+      "node_id": 176,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1460",
+      "call_type": "INTERFACE_CALL",
+      "line": 1460,
+      "enclosing_function": "_rebalanceExternalEtherToInternal",
+      "file": "VaultHub.sol",
+      "raw_text": "LIDO.rebalanceExternalEtherToInternal{value: _ether}();"
+    },
+    {
+      "node_id": 177,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1484",
+      "call_type": "INTERFACE_CALL",
+      "line": 1484,
+      "enclosing_function": "_requireSaneShareLimit",
+      "file": "VaultHub.sol",
+      "raw_text": "uint256 maxSaneShareLimit = (LIDO.getTotalShares() * MAX_RELATIVE_SHARE_LIMIT_BP) / TOTAL_BASIS_POINTS;"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        157
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 157
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        13,
+        130,
+        158
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 158
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        6,
+        9,
+        10,
+        13,
+        15,
+        27,
+        32,
+        130,
+        133,
+        134,
+        159
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 159
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        6,
+        13,
+        16,
+        56,
+        59,
+        60,
+        61,
+        62,
+        63,
+        66,
+        69,
+        70,
+        71,
+        72,
+        74,
+        78,
+        80,
+        84,
+        86,
+        88,
+        89,
+        90,
+        106,
+        130,
+        133,
+        150,
+        151,
+        152,
+        154,
+        156,
+        160
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 160
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        28,
+        133,
+        134,
+        161
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 161
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        29,
+        133,
+        134,
+        162
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 162
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        30,
+        133,
+        134,
+        163
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 163
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        6,
+        9,
+        10,
+        13,
+        15,
+        27,
+        32,
+        130,
+        133,
+        134,
+        164
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 164
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        64,
+        133,
+        165
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 165
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        70,
+        130,
+        154,
+        166
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 166
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        71,
+        72,
+        154,
+        167
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 167
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        72,
+        154,
+        168
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 168
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        60,
+        61,
+        66,
+        74,
+        80,
+        84,
+        106,
+        133,
+        150,
+        151,
+        152,
+        169
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 169
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        6,
+        13,
+        16,
+        56,
+        59,
+        60,
+        61,
+        62,
+        63,
+        66,
+        69,
+        70,
+        71,
+        72,
+        74,
+        78,
+        80,
+        84,
+        86,
+        88,
+        89,
+        90,
+        106,
+        130,
+        133,
+        150,
+        151,
+        152,
+        154,
+        156,
+        170
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 170
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        50,
+        56,
+        61,
+        68,
+        70,
+        83,
+        94,
+        116,
+        129,
+        130,
+        133,
+        137,
+        144,
+        145,
+        150,
+        152,
+        154,
+        171
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 171
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        56,
+        81,
+        82,
+        117,
+        133,
+        172
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 172
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        52,
+        62,
+        63,
+        76,
+        78,
+        90,
+        91,
+        103,
+        104,
+        106,
+        118,
+        130,
+        133,
+        151,
+        154,
+        156,
+        173
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 173
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        119,
+        154,
+        174
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 174
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        51,
+        52,
+        59,
+        61,
+        62,
+        69,
+        70,
+        71,
+        74,
+        76,
+        77,
+        78,
+        79,
+        85,
+        86,
+        88,
+        89,
+        90,
+        91,
+        95,
+        96,
+        103,
+        104,
+        106,
+        107,
+        109,
+        120,
+        130,
+        133,
+        144,
+        150,
+        151,
+        152,
+        154,
+        175
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 175
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        60,
+        61,
+        66,
+        69,
+        74,
+        78,
+        80,
+        84,
+        86,
+        106,
+        121,
+        133,
+        150,
+        151,
+        152,
+        154,
+        176
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 176
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        56,
+        57,
+        59,
+        83,
+        127,
+        130,
+        137,
+        144,
+        153,
+        154,
+        177
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 177
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "latestReportData",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "latestReportTimestamp",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quarantinePeriod",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "maxRewardRatioBP",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "vaultQuarantine",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "batchVaultsInfo",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateSanityParams",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateReportData",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateVaultData",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_handleSanityChecks",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_processTotalValue",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_updateSanityParams",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_mintableStETH",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_storage",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_vaultHub",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_operatorGrid",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "registerGroup",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "updateGroupShareLimit",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "group",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "nodeOperatorAddress",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "nodeOperatorCount",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "registerTiers",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "tier",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "tiersCount",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "alterTiers",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "changeTier",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "resetVaultTier",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "onMintedShares",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "onBurnedShares",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "vaultInfo",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "effectiveShareLimit",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_gridRemainingShareLimit",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_validateParams",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_vaultHub",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_getStorage",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "vaultsCount",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "vaultByIndex",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "vaultConnection",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "vaultRecord",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "vaultObligations",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "isVaultConnected",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "totalValue",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "liabilityShares",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "locked",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "maxLockableValue",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "withdrawableValue",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "latestReport",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "isReportFresh",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "isVaultHealthy",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "rebalanceShortfall",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "badDebtToInternalizeAsOfLastRefSlot",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "inOutDeltaAsOfLastRefSlot",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "setAllowedCodehash",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "connectVault",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "updateShareLimit",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "updateVaultFees",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "updateConnection",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "disconnect",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "applyVaultReport",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "socializeBadDebt",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "internalizeBadDebt",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "decreaseInternalizedBadDebt",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "transferVaultOwnership",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "voluntaryDisconnect",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "fund",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "transferAndBurnShares",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "forceValidatorExit",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "forceRebalance",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "setVaultRedemptions",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "settleVaultObligations",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "proveUnknownValidatorToPDG",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "compensateDisprovenPredepositFromPDG",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "_connectVault",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_initiateDisconnection",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_applyVaultReport",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_rebalance",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "_increaseLiability",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "_decreaseLiability",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "_writeOffBadDebt",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "_rebalanceShortfall",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "_totalValue",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "_maxLockableValue",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "_isReportFresh",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "_isVaultHealthy",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "_isThresholdBreached",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "_addVault",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "_deleteVault",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "_checkConnectionAndOwner",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "_checkConnection",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "_updateInOutDelta",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "_checkAndUpdateLidoFeesObligations",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "_planSettlement",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "_planRebalance",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "_planLidoTransfer",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "_settleObligations",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "_decreaseRedemptions",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "_totalUnsettledObligations",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "_checkAndUpdateBeaconChainDepositsPause",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "_withdrawableValue",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "_storage",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "_vaultConnection",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "_vaultRecord",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "_vaultObligations",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "_operatorGrid",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "_lazyOracle",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "_predepositGuarantee",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "_getSharesByPooledEth",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "_getPooledEthByShares",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "_getPooledEthBySharesRoundUp",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "_rebalanceExternalEtherToInternal",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "_nodeOperator",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "_requireNotZero",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "_requireNotZero",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "_requireSender",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "_requireLessThanBP",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "_requireSaneShareLimit",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "_requireConnected",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "_requireFreshReport",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "TOTAL_BASIS_POINTS",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "MAX_SANE_TOTAL_VALUE",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "REGISTRY_ROLE",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "DEFAULT_TIER_ID",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "DEFAULT_TIER_OPERATOR",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "state_var",
+      "name": "TOTAL_BASIS_POINTS",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "state_var",
+      "name": "MAX_FEE_BP",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "state_var",
+      "name": "STORAGE_LOCATION",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "state_var",
+      "name": "VAULT_MASTER_ROLE",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "state_var",
+      "name": "VAULT_CODEHASH_SET_ROLE",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "state_var",
+      "name": "REDEMPTION_MASTER_ROLE",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "state_var",
+      "name": "VALIDATOR_EXIT_ROLE",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 143,
+      "node_type": "state_var",
+      "name": "BAD_DEBT_MASTER_ROLE",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 144,
+      "node_type": "state_var",
+      "name": "CONNECT_DEPOSIT",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 145,
+      "node_type": "state_var",
+      "name": "REPORT_FRESHNESS_DELTA",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 146,
+      "node_type": "state_var",
+      "name": "TOTAL_BASIS_POINTS",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 147,
+      "node_type": "state_var",
+      "name": "PUBLIC_KEY_LENGTH",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 148,
+      "node_type": "state_var",
+      "name": "MAX_FEE_BP",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 149,
+      "node_type": "state_var",
+      "name": "EMPTY_CODEHASH",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 150,
+      "node_type": "state_var",
+      "name": "MAX_UNSETTLED_ALLOWED",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 151,
+      "node_type": "state_var",
+      "name": "UNSETTLED_THRESHOLD",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 152,
+      "node_type": "state_var",
+      "name": "NO_UNSETTLED_ALLOWED",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 153,
+      "node_type": "state_var",
+      "name": "MAX_RELATIVE_SHARE_LIMIT_BP",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 154,
+      "node_type": "state_var",
+      "name": "LIDO",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 155,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 156,
+      "node_type": "state_var",
+      "name": "CONSENSUS_CONTRACT",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 157,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:196",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 158,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:335",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 159,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:347",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 160,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LazyOracle.sol:351",
+      "file": "LazyOracle.sol"
+    },
+    {
+      "node_id": 161,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:366",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 162,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:388",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 163,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:416",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 164,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:OperatorGrid.sol:539",
+      "file": "OperatorGrid.sol"
+    },
+    {
+      "node_id": 165,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:607",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 166,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:710",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 167,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:728",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 168,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:738",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 169,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1352",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 170,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1436",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 171,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1440",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 172,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1444",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 173,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1448",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 174,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1452",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 175,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1456",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 176,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1460",
+      "file": "VaultHub.sol"
+    },
+    {
+      "node_id": 177,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VaultHub.sol:1484",
+      "file": "VaultHub.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 178,
+    "n_hyperedges": 21,
+    "n_functions": 130,
+    "n_state_vars": 27,
+    "n_call_sites": 21,
+    "avg_hyperedge_size": 11.19047619047619
+  },
+  "label": {
+    "vfp_id": "vfp_00558",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1025",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1084",
+      "CWE-1164",
+      "CWE-1284",
+      "CWE-1288",
+      "CWE-1289",
+      "CWE-190",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-372",
+      "CWE-400",
+      "CWE-404",
+      "CWE-405",
+      "CWE-424",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-459",
+      "CWE-460",
+      "CWE-664",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-697",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-755",
+      "CWE-841"
+    ]
+  }
+}

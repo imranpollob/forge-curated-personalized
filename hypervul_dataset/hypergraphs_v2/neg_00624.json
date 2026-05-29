@@ -1,0 +1,108 @@
+{
+  "sample_id": "neg_00624",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployStep2",
+      "file": "governance_src_L1GovernanceFactory.sol",
+      "start_line": 24,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployUpgradeExecutor",
+      "file": "governance_src_L1GovernanceFactory.sol",
+      "start_line": 69,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deployTimelock",
+      "file": "governance_src_L1GovernanceFactory.sol",
+      "start_line": 78,
+      "end_line": 86,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "done",
+      "var_type": "bool private",
+      "file": "governance_src_L1GovernanceFactory.sol",
+      "line": 16
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "proxyAdminAddress",
+      "var_type": "address public",
+      "file": "governance_src_L1GovernanceFactory.sol",
+      "line": 18
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployStep2",
+      "file": "governance_src_L1GovernanceFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployUpgradeExecutor",
+      "file": "governance_src_L1GovernanceFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deployTimelock",
+      "file": "governance_src_L1GovernanceFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "done",
+      "file": "governance_src_L1GovernanceFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "proxyAdminAddress",
+      "file": "governance_src_L1GovernanceFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00624",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

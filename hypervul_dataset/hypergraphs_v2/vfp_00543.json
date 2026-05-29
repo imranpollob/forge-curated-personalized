@@ -1,0 +1,452 @@
+{
+  "sample_id": "vfp_00543",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fill",
+      "file": "DestinationSettler.sol",
+      "start_line": 22,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "fulfillAndProve",
+      "file": "DestinationSettler.sol",
+      "start_line": 64,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handle",
+      "file": "HyperProver.sol",
+      "start_line": 71,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "HyperProver.sol",
+      "start_line": 93,
+      "end_line": 120,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "HyperProver.sol",
+      "start_line": 130,
+      "end_line": 141,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_unpackData",
+      "file": "HyperProver.sol",
+      "start_line": 149,
+      "end_line": 153,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_fetchFee",
+      "file": "HyperProver.sol",
+      "start_line": 162,
+      "end_line": 183,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "HyperProver.sol",
+      "start_line": 189,
+      "end_line": 191,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_formatHyperlaneMessage",
+      "file": "HyperProver.sol",
+      "start_line": 201,
+      "end_line": 224,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "handle",
+      "file": "MetaProver.sol",
+      "start_line": 77,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_unpackData",
+      "file": "MetaProver.sol",
+      "start_line": 99,
+      "end_line": 108,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "MetaProver.sol",
+      "start_line": 118,
+      "end_line": 147,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "MetaProver.sol",
+      "start_line": 158,
+      "end_line": 165,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_fetchFee",
+      "file": "MetaProver.sol",
+      "start_line": 175,
+      "end_line": 205,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "MetaProver.sol",
+      "start_line": 211,
+      "end_line": 213,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_formatMetalayerMessage",
+      "file": "MetaProver.sol",
+      "start_line": 224,
+      "end_line": 243,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "PROOF_TYPE",
+      "var_type": "string public constant",
+      "file": "HyperProver.sol",
+      "line": 43
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "MAILBOX",
+      "var_type": "address public immutable",
+      "file": "HyperProver.sol",
+      "line": 48
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PROOF_TYPE",
+      "var_type": "string public constant",
+      "file": "MetaProver.sol",
+      "line": 37
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "ETH_QUOTE_VALUE",
+      "var_type": "uint256 private immutable",
+      "file": "MetaProver.sol",
+      "line": 44
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "var_type": "IMetalayerRouterExt public immutable",
+      "file": "MetaProver.sol",
+      "line": 49
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetaProver.sol:98",
+      "call_type": "INTERFACE_CALL",
+      "line": 98,
+      "enclosing_function": "_dispatchMessage",
+      "file": "MetaProver.sol",
+      "raw_text": "ROUTER.dispatch{value: fee}("
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetaProver.sol:143",
+      "call_type": "INTERFACE_CALL",
+      "line": 143,
+      "enclosing_function": "_fetchFee",
+      "file": "MetaProver.sol",
+      "raw_text": "ROUTER.quoteDispatch("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        17,
+        20,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        6,
+        17,
+        19,
+        20,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "fill",
+      "file": "DestinationSettler.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "fulfillAndProve",
+      "file": "DestinationSettler.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handle",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_unpackData",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_fetchFee",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_formatHyperlaneMessage",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "handle",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_unpackData",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_dispatchMessage",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "fetchFee",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_fetchFee",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_formatMetalayerMessage",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "PROOF_TYPE",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "MAILBOX",
+      "file": "HyperProver.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PROOF_TYPE",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "ETH_QUOTE_VALUE",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "ROUTER",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetaProver.sol:98",
+      "file": "MetaProver.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MetaProver.sol:143",
+      "file": "MetaProver.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 23,
+    "n_hyperedges": 2,
+    "n_functions": 16,
+    "n_state_vars": 5,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00543",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1164",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-1289",
+      "CWE-20",
+      "CWE-345",
+      "CWE-346",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-693",
+      "CWE-707",
+      "CWE-710",
+      "CWE-74",
+      "CWE-94",
+      "CWE-940"
+    ]
+  }
+}

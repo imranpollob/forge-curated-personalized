@@ -1,0 +1,190 @@
+{
+  "sample_id": "vfp_00121",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approveVault",
+      "file": "FundsLib.sol",
+      "start_line": 20,
+      "end_line": 29,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdrawAssets",
+      "file": "FundsLib.sol",
+      "start_line": 40,
+      "end_line": 59,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "depositAssets",
+      "file": "FundsLib.sol",
+      "start_line": 70,
+      "end_line": 114,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:51",
+      "call_type": "CALL",
+      "line": 51,
+      "enclosing_function": "withdrawAssets",
+      "file": "FundsLib.sol",
+      "raw_text": "IEVC(evc).call(vault, p.eulerAccount, 0, abi.encodeCall(IERC4626.withdraw, (avail, to, p.eulerAccount)));"
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:57",
+      "call_type": "CALL",
+      "line": 57,
+      "enclosing_function": "withdrawAssets",
+      "file": "FundsLib.sol",
+      "raw_text": "IEVC(evc).call(vault, p.eulerAccount, 0, abi.encodeCall(IBorrowing.borrow, (amount, to)));"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "TRANSFER:FundsLib.sol:82",
+      "call_type": "TRANSFER",
+      "line": 82,
+      "enclosing_function": "depositAssets",
+      "file": "FundsLib.sol",
+      "raw_text": "IERC20(asset).transfer(p.protocolFeeRecipient, protocolFeeAmount);"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:99",
+      "call_type": "CALL",
+      "line": 99,
+      "enclosing_function": "depositAssets",
+      "file": "FundsLib.sol",
+      "raw_text": "IEVC(evc).call(vault, p.eulerAccount, 0, abi.encodeCall(IRiskManager.disableController, ()));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        3
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 3
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        4
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 4
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        5
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 5
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        2,
+        6
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 6
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approveVault",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdrawAssets",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "depositAssets",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:51",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:57",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "TRANSFER:FundsLib.sol:82",
+      "file": "FundsLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "CALL:FundsLib.sol:99",
+      "file": "FundsLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 4,
+    "n_functions": 3,
+    "n_state_vars": 0,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00121",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-394",
+      "CWE-703",
+      "CWE-754"
+    ]
+  }
+}

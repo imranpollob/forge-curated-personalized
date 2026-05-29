@@ -1,0 +1,989 @@
+{
+  "sample_id": "vfp_00281",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setAddManager",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 48,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setAddManager",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 53,
+      "end_line": 55,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRemoveManager",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 57,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setRemoveManagerWithReceiver",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 61,
+      "end_line": 64,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_setRemoveManagerAndReceiver",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 66,
+      "end_line": 70,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_requireNonZeroManagerUnlessWiping",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 72,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_requireCallerIsBorrower",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 78,
+      "end_line": 82,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_requireSenderIsOwnerOrAddManager",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 84,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_requireSenderIsOwnerOrRemoveManagerAndGetReceiver",
+      "file": "AddRemoveManagers.sol",
+      "start_line": 91,
+      "end_line": 105,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setAddresses",
+      "file": "AddressesRegistry.sol",
+      "start_line": 90,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setBranchAddresses",
+      "file": "BoldToken.sol",
+      "start_line": 41,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setCollateralRegistry",
+      "file": "BoldToken.sol",
+      "start_line": 60,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "mint",
+      "file": "BoldToken.sol",
+      "start_line": 69,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "burn",
+      "file": "BoldToken.sol",
+      "start_line": 74,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sendToPool",
+      "file": "BoldToken.sol",
+      "start_line": 79,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "returnFromPool",
+      "file": "BoldToken.sol",
+      "start_line": 84,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "BoldToken.sol",
+      "start_line": 91,
+      "end_line": 94,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "BoldToken.sol",
+      "start_line": 96,
+      "end_line": 103,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_requireValidRecipient",
+      "file": "BoldToken.sol",
+      "start_line": 107,
+      "end_line": 112,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_requireCallerIsBOorAP",
+      "file": "BoldToken.sol",
+      "start_line": 114,
+      "end_line": 119,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_requireCallerIsCRorBOorTMorSP",
+      "file": "BoldToken.sol",
+      "start_line": 121,
+      "end_line": 127,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_requireCallerIsStabilityPool",
+      "file": "BoldToken.sol",
+      "start_line": 129,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "troveNFT",
+      "var_type": "ITroveNFT internal immutable",
+      "file": "AddRemoveManagers.sol",
+      "line": 10
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "addManagerOf",
+      "var_type": "mapping(uint256 => address) public",
+      "file": "AddRemoveManagers.sol",
+      "line": 24
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "removeManagerReceiverOf",
+      "var_type": "mapping(uint256 => RemoveManagerReceiver) public",
+      "file": "AddRemoveManagers.sol",
+      "line": 34
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "collToken",
+      "var_type": "IERC20Metadata public",
+      "file": "AddressesRegistry.sol",
+      "line": 9
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "borrowerOperations",
+      "var_type": "IBorrowerOperations public",
+      "file": "AddressesRegistry.sol",
+      "line": 10
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "troveManager",
+      "var_type": "ITroveManager public",
+      "file": "AddressesRegistry.sol",
+      "line": 11
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "troveNFT",
+      "var_type": "ITroveNFT public",
+      "file": "AddressesRegistry.sol",
+      "line": 12
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "metadataNFT",
+      "var_type": "IMetadataNFT public",
+      "file": "AddressesRegistry.sol",
+      "line": 13
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "stabilityPool",
+      "var_type": "IStabilityPool public",
+      "file": "AddressesRegistry.sol",
+      "line": 14
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "priceFeed",
+      "var_type": "IPriceFeed public",
+      "file": "AddressesRegistry.sol",
+      "line": 15
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "activePool",
+      "var_type": "IActivePool public",
+      "file": "AddressesRegistry.sol",
+      "line": 16
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "defaultPool",
+      "var_type": "IDefaultPool public",
+      "file": "AddressesRegistry.sol",
+      "line": 17
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "gasPoolAddress",
+      "var_type": "address public",
+      "file": "AddressesRegistry.sol",
+      "line": 18
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "collSurplusPool",
+      "var_type": "ICollSurplusPool public",
+      "file": "AddressesRegistry.sol",
+      "line": 19
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "sortedTroves",
+      "var_type": "ISortedTroves public",
+      "file": "AddressesRegistry.sol",
+      "line": 20
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "interestRouter",
+      "var_type": "IInterestRouter public",
+      "file": "AddressesRegistry.sol",
+      "line": 21
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "hintHelpers",
+      "var_type": "IHintHelpers public",
+      "file": "AddressesRegistry.sol",
+      "line": 22
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "multiTroveGetter",
+      "var_type": "IMultiTroveGetter public",
+      "file": "AddressesRegistry.sol",
+      "line": 23
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "collateralRegistry",
+      "var_type": "ICollateralRegistry public",
+      "file": "AddressesRegistry.sol",
+      "line": 24
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "boldToken",
+      "var_type": "IBoldToken public",
+      "file": "AddressesRegistry.sol",
+      "line": 25
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "WETH",
+      "var_type": "IWETH public",
+      "file": "AddressesRegistry.sol",
+      "line": 26
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "CCR",
+      "var_type": "uint256 public immutable",
+      "file": "AddressesRegistry.sol",
+      "line": 29
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "SCR",
+      "var_type": "uint256 public immutable",
+      "file": "AddressesRegistry.sol",
+      "line": 32
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "MCR",
+      "var_type": "uint256 public immutable",
+      "file": "AddressesRegistry.sol",
+      "line": 35
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "LIQUIDATION_PENALTY_SP",
+      "var_type": "uint256 public immutable",
+      "file": "AddressesRegistry.sol",
+      "line": 38
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "LIQUIDATION_PENALTY_REDISTRIBUTION",
+      "var_type": "uint256 public immutable",
+      "file": "AddressesRegistry.sol",
+      "line": 40
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "_NAME",
+      "var_type": "string internal constant",
+      "file": "BoldToken.sol",
+      "line": 20
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "_SYMBOL",
+      "var_type": "string internal constant",
+      "file": "BoldToken.sol",
+      "line": 21
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "collateralRegistryAddress",
+      "var_type": "address public",
+      "file": "BoldToken.sol",
+      "line": 26
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "troveManagerAddresses",
+      "var_type": "mapping(address => bool)",
+      "file": "BoldToken.sol",
+      "line": 27
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "stabilityPoolAddresses",
+      "var_type": "mapping(address => bool)",
+      "file": "BoldToken.sol",
+      "line": 28
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "borrowerOperationsAddresses",
+      "var_type": "mapping(address => bool)",
+      "file": "BoldToken.sol",
+      "line": 29
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "activePoolAddresses",
+      "var_type": "mapping(address => bool)",
+      "file": "BoldToken.sol",
+      "line": 30
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AddRemoveManagers.sol:45",
+      "call_type": "INTERFACE_CALL",
+      "line": 45,
+      "enclosing_function": "setRemoveManager",
+      "file": "AddRemoveManagers.sol",
+      "raw_text": "setRemoveManagerWithReceiver(_troveId, _manager, troveNFT.ownerOf(_troveId));"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AddRemoveManagers.sol:66",
+      "call_type": "INTERFACE_CALL",
+      "line": 66,
+      "enclosing_function": "_requireCallerIsBorrower",
+      "file": "AddRemoveManagers.sol",
+      "raw_text": "if (msg.sender != troveNFT.ownerOf(_troveId)) {"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "TRANSFER:BoldToken.sol:85",
+      "call_type": "TRANSFER",
+      "line": 85,
+      "enclosing_function": "transfer",
+      "file": "BoldToken.sol",
+      "raw_text": "return super.transfer(recipient, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        22,
+        55
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 55
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        3,
+        6,
+        22,
+        56
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 56
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        16,
+        57
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 57
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setAddManager",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setAddManager",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRemoveManager",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setRemoveManagerWithReceiver",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_setRemoveManagerAndReceiver",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_requireNonZeroManagerUnlessWiping",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_requireCallerIsBorrower",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_requireSenderIsOwnerOrAddManager",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_requireSenderIsOwnerOrRemoveManagerAndGetReceiver",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setAddresses",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setBranchAddresses",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setCollateralRegistry",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "mint",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "burn",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "sendToPool",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "returnFromPool",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_requireValidRecipient",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_requireCallerIsBOorAP",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_requireCallerIsCRorBOorTMorSP",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_requireCallerIsStabilityPool",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "troveNFT",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "addManagerOf",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "removeManagerReceiverOf",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "collToken",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "borrowerOperations",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "troveManager",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "troveNFT",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "metadataNFT",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "stabilityPool",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "priceFeed",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "activePool",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "defaultPool",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "gasPoolAddress",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "collSurplusPool",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "sortedTroves",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "interestRouter",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "hintHelpers",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "multiTroveGetter",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "collateralRegistry",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "boldToken",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "WETH",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "CCR",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "SCR",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "MCR",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "LIQUIDATION_PENALTY_SP",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "LIQUIDATION_PENALTY_REDISTRIBUTION",
+      "file": "AddressesRegistry.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "_NAME",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "_SYMBOL",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "collateralRegistryAddress",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "troveManagerAddresses",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "stabilityPoolAddresses",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "borrowerOperationsAddresses",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "activePoolAddresses",
+      "file": "BoldToken.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AddRemoveManagers.sol:45",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AddRemoveManagers.sol:66",
+      "file": "AddRemoveManagers.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "TRANSFER:BoldToken.sol:85",
+      "file": "BoldToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 58,
+    "n_hyperedges": 3,
+    "n_functions": 22,
+    "n_state_vars": 33,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.6666666666666665
+  },
+  "label": {
+    "vfp_id": "vfp_00281",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1107",
+      "CWE-1329",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-284",
+      "CWE-285",
+      "CWE-424",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-636",
+      "CWE-664",
+      "CWE-666",
+      "CWE-670",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754",
+      "CWE-755",
+      "CWE-778",
+      "CWE-807",
+      "CWE-826",
+      "CWE-834",
+      "CWE-841",
+      "CWE-863"
+    ]
+  }
+}

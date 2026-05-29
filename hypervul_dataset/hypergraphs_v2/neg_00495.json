@@ -1,0 +1,106 @@
+{
+  "sample_id": "neg_00495",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol",
+      "start_line": 15,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol",
+      "start_line": 25,
+      "end_line": 31,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claim",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol",
+      "start_line": 33,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol:21",
+      "call_type": "INTERFACE_CALL",
+      "line": 21,
+      "enclosing_function": "deposit",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol",
+      "raw_text": "SafeTransferLib.safeApprove(token, farm.stakingContract, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        3
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 3
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claim",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol:21",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesGaugeConnector.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 1,
+    "n_functions": 3,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00495",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

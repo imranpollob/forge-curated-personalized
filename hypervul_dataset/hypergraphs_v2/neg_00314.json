@@ -1,0 +1,80 @@
+{
+  "sample_id": "neg_00314",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployMkrSky",
+      "file": "893bccd61fe28b64dedd00b16574d2b54122da3c_sky_deploy_SkyDeploy.sol",
+      "start_line": 25,
+      "end_line": 34,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployL2",
+      "file": "893bccd61fe28b64dedd00b16574d2b54122da3c_sky_deploy_SkyDeploy.sol",
+      "start_line": 36,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "patchUint",
+      "file": "SwapExecutor_contracts_libs_LowLevelHelper.sol",
+      "start_line": 11,
+      "end_line": 20,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployMkrSky",
+      "file": "893bccd61fe28b64dedd00b16574d2b54122da3c_sky_deploy_SkyDeploy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deployL2",
+      "file": "893bccd61fe28b64dedd00b16574d2b54122da3c_sky_deploy_SkyDeploy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "patchUint",
+      "file": "SwapExecutor_contracts_libs_LowLevelHelper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00314",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

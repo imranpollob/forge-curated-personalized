@@ -1,0 +1,199 @@
+{
+  "sample_id": "neg_00362",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mint",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "stake",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "start_line": 27,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "start_line": 34,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setReward",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "start_line": 41,
+      "end_line": 44,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getReward",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "start_line": 46,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:lockstake_test_mocks_StakingRewardsMock.sol:38",
+      "call_type": "TRANSFER",
+      "line": 38,
+      "enclosing_function": "withdraw",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "raw_text": "stakingToken.transfer(msg.sender, amount);"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "TRANSFER:lockstake_test_mocks_StakingRewardsMock.sol:50",
+      "call_type": "TRANSFER",
+      "line": 50,
+      "enclosing_function": "getReward",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol",
+      "raw_text": "rewardsToken.transfer(msg.sender, reward);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        7
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        8
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 8
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mint",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "stake",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setReward",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getReward",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:lockstake_test_mocks_StakingRewardsMock.sol:38",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "TRANSFER:lockstake_test_mocks_StakingRewardsMock.sol:50",
+      "file": "lockstake_test_mocks_StakingRewardsMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 2,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00362",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "sample_id": "vfp_00453",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 141,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isBatchFinalized",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 155,
+      "end_line": 157,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLatestEncryptionKey",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 160,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getEncryptionKey",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 167,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "importGenesisBatch",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 181,
+      "end_line": 211,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "commitBatch",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 214,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "revertBatch",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 248,
+      "end_line": 265,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "finalizeBundle",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 268,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "registerNewEncryptionKey",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 280,
+      "end_line": 289,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 293,
+      "end_line": 299,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_beforeFinalizeBatch",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 306,
+      "end_line": 325,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_afterFinalizeBatch",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 328,
+      "end_line": 342,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_finalizeBundle",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 348,
+      "end_line": 390,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_loadBatchHeader",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 399,
+      "end_line": 427,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_getEncryptionKey",
+      "file": "ScrollChainValidium.sol",
+      "start_line": 432,
+      "end_line": 445,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "GENESIS_IMPORTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ScrollChainValidium.sol",
+      "line": 58
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "SEQUENCER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ScrollChainValidium.sol",
+      "line": 61
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "PROVER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ScrollChainValidium.sol",
+      "line": 64
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "KEY_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "ScrollChainValidium.sol",
+      "line": 67
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "layer2ChainId",
+      "var_type": "uint64 public immutable",
+      "file": "ScrollChainValidium.sol",
+      "line": 74
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "messageQueueV2",
+      "var_type": "address public immutable",
+      "file": "ScrollChainValidium.sol",
+      "line": 77
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "verifier",
+      "var_type": "address public immutable",
+      "file": "ScrollChainValidium.sol",
+      "line": 80
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "lastFinalizedBatchIndex",
+      "var_type": "uint256 public override",
+      "file": "ScrollChainValidium.sol",
+      "line": 98
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "lastCommittedBatchIndex",
+      "var_type": "uint256 public override",
+      "file": "ScrollChainValidium.sol",
+      "line": 101
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "committedBatches",
+      "var_type": "mapping(uint256 => bytes32) public override",
+      "file": "ScrollChainValidium.sol",
+      "line": 104
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "stateRoots",
+      "var_type": "mapping(uint256 => bytes32) public override",
+      "file": "ScrollChainValidium.sol",
+      "line": 107
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "withdrawRoots",
+      "var_type": "mapping(uint256 => bytes32) public override",
+      "file": "ScrollChainValidium.sol",
+      "line": 110
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "encryptionKeys",
+      "var_type": "EncryptionKey[] public",
+      "file": "ScrollChainValidium.sol",
+      "line": 113
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[50] private",
+      "file": "ScrollChainValidium.sol",
+      "line": 116
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ScrollChainValidium.sol:268",
+      "call_type": "INTERFACE_CALL",
+      "line": 268,
+      "enclosing_function": "registerNewEncryptionKey",
+      "file": "ScrollChainValidium.sol",
+      "raw_text": "encryptionKeys.push(EncryptionKey(_msgIndex, _key));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        20,
+        27,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isBatchFinalized",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getLatestEncryptionKey",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getEncryptionKey",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "importGenesisBatch",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "commitBatch",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "revertBatch",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "finalizeBundle",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "registerNewEncryptionKey",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setPause",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_beforeFinalizeBatch",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_afterFinalizeBatch",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_finalizeBundle",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_loadBatchHeader",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_getEncryptionKey",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "GENESIS_IMPORTER_ROLE",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "SEQUENCER_ROLE",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "PROVER_ROLE",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "KEY_MANAGER_ROLE",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "layer2ChainId",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "messageQueueV2",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "verifier",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "lastFinalizedBatchIndex",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "lastCommittedBatchIndex",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "committedBatches",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "stateRoots",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "withdrawRoots",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "encryptionKeys",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "ScrollChainValidium.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ScrollChainValidium.sol:268",
+      "file": "ScrollChainValidium.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 30,
+    "n_hyperedges": 1,
+    "n_functions": 15,
+    "n_state_vars": 14,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00453",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-691",
+      "CWE-841"
+    ]
+  }
+}

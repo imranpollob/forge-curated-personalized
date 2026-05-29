@@ -1,0 +1,4912 @@
+{
+  "sample_id": "vfp_00212",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "Box.sol",
+      "start_line": 202,
+      "end_line": 204,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "Box.sol",
+      "start_line": 209,
+      "end_line": 211,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "Box.sol",
+      "start_line": 215,
+      "end_line": 218,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "Box.sol",
+      "start_line": 222,
+      "end_line": 225,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "Box.sol",
+      "start_line": 229,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "Box.sol",
+      "start_line": 235,
+      "end_line": 237,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "Box.sol",
+      "start_line": 242,
+      "end_line": 245,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "Box.sol",
+      "start_line": 249,
+      "end_line": 251,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "Box.sol",
+      "start_line": 255,
+      "end_line": 258,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mint",
+      "file": "Box.sol",
+      "start_line": 263,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_depositMint",
+      "file": "Box.sol",
+      "start_line": 269,
+      "end_line": 278,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "Box.sol",
+      "start_line": 282,
+      "end_line": 286,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "Box.sol",
+      "start_line": 290,
+      "end_line": 293,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Box.sol",
+      "start_line": 298,
+      "end_line": 301,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "Box.sol",
+      "start_line": 305,
+      "end_line": 310,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "Box.sol",
+      "start_line": 314,
+      "end_line": 316,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "Box.sol",
+      "start_line": 321,
+      "end_line": 324,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_withdrawRedeem",
+      "file": "Box.sol",
+      "start_line": 327,
+      "end_line": 345,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "skim",
+      "file": "Box.sol",
+      "start_line": 354,
+      "end_line": 374,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "Box.sol",
+      "start_line": 387,
+      "end_line": 432,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "Box.sol",
+      "start_line": 445,
+      "end_line": 481,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "reallocate",
+      "file": "Box.sol",
+      "start_line": 494,
+      "end_line": 533,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "pledge",
+      "file": "Box.sol",
+      "start_line": 545,
+      "end_line": 558,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "depledge",
+      "file": "Box.sol",
+      "start_line": 568,
+      "end_line": 586,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "Box.sol",
+      "start_line": 596,
+      "end_line": 603,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "repay",
+      "file": "Box.sol",
+      "start_line": 613,
+      "end_line": 627,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "skimFunding",
+      "file": "Box.sol",
+      "start_line": 635,
+      "end_line": 640,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "flash",
+      "file": "Box.sol",
+      "start_line": 650,
+      "end_line": 672,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "Box.sol",
+      "start_line": 679,
+      "end_line": 689,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "Box.sol",
+      "start_line": 698,
+      "end_line": 707,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "Box.sol",
+      "start_line": 714,
+      "end_line": 723,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setCurator",
+      "file": "Box.sol",
+      "start_line": 730,
+      "end_line": 739,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setGuardian",
+      "file": "Box.sol",
+      "start_line": 746,
+      "end_line": 757,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setIsAllocator",
+      "file": "Box.sol",
+      "start_line": 765,
+      "end_line": 773,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "shutdown",
+      "file": "Box.sol",
+      "start_line": 780,
+      "end_line": 787,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "recover",
+      "file": "Box.sol",
+      "start_line": 793,
+      "end_line": 801,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "submit",
+      "file": "Box.sol",
+      "start_line": 810,
+      "end_line": 820,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "timelocked",
+      "file": "Box.sol",
+      "start_line": 826,
+      "end_line": 833,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "revoke",
+      "file": "Box.sol",
+      "start_line": 840,
+      "end_line": 847,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "increaseTimelock",
+      "file": "Box.sol",
+      "start_line": 855,
+      "end_line": 863,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "decreaseTimelock",
+      "file": "Box.sol",
+      "start_line": 871,
+      "end_line": 881,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "abdicateTimelock",
+      "file": "Box.sol",
+      "start_line": 889,
+      "end_line": 895,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setIsFeeder",
+      "file": "Box.sol",
+      "start_line": 905,
+      "end_line": 913,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "setMaxSlippage",
+      "file": "Box.sol",
+      "start_line": 920,
+      "end_line": 929,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "addToken",
+      "file": "Box.sol",
+      "start_line": 937,
+      "end_line": 949,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "removeToken",
+      "file": "Box.sol",
+      "start_line": 956,
+      "end_line": 974,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "changeTokenOracle",
+      "file": "Box.sol",
+      "start_line": 982,
+      "end_line": 996,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "addFunding",
+      "file": "Box.sol",
+      "start_line": 1003,
+      "end_line": 1020,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "addFundingFacility",
+      "file": "Box.sol",
+      "start_line": 1028,
+      "end_line": 1035,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "addFundingCollateral",
+      "file": "Box.sol",
+      "start_line": 1043,
+      "end_line": 1051,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "addFundingDebt",
+      "file": "Box.sol",
+      "start_line": 1059,
+      "end_line": 1067,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "removeFunding",
+      "file": "Box.sol",
+      "start_line": 1074,
+      "end_line": 1088,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "removeFundingFacility",
+      "file": "Box.sol",
+      "start_line": 1096,
+      "end_line": 1103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "removeFundingCollateral",
+      "file": "Box.sol",
+      "start_line": 1111,
+      "end_line": 1118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "removeFundingDebt",
+      "file": "Box.sol",
+      "start_line": 1126,
+      "end_line": 1133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "isToken",
+      "file": "Box.sol",
+      "start_line": 1141,
+      "end_line": 1143,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "isTokenOrAsset",
+      "file": "Box.sol",
+      "start_line": 1150,
+      "end_line": 1152,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "tokensLength",
+      "file": "Box.sol",
+      "start_line": 1158,
+      "end_line": 1160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "isFunding",
+      "file": "Box.sol",
+      "start_line": 1167,
+      "end_line": 1169,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "fundingsLength",
+      "file": "Box.sol",
+      "start_line": 1175,
+      "end_line": 1177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "isShutdown",
+      "file": "Box.sol",
+      "start_line": 1183,
+      "end_line": 1185,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "isWinddown",
+      "file": "Box.sol",
+      "start_line": 1191,
+      "end_line": 1193,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_onlyOwner",
+      "file": "Box.sol",
+      "start_line": 1200,
+      "end_line": 1202,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_onlyCurator",
+      "file": "Box.sol",
+      "start_line": 1207,
+      "end_line": 1209,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_requireNonZeroAddress",
+      "file": "Box.sol",
+      "start_line": 1214,
+      "end_line": 1216,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_requireIsToken",
+      "file": "Box.sol",
+      "start_line": 1221,
+      "end_line": 1223,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_requireIsFunding",
+      "file": "Box.sol",
+      "start_line": 1228,
+      "end_line": 1230,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_requireNotWinddown",
+      "file": "Box.sol",
+      "start_line": 1235,
+      "end_line": 1237,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_onlyAllocatorNotWinddown",
+      "file": "Box.sol",
+      "start_line": 1242,
+      "end_line": 1244,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_onlyAllocatorOrWinddown",
+      "file": "Box.sol",
+      "start_line": 1249,
+      "end_line": 1251,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_requireNotEqual",
+      "file": "Box.sol",
+      "start_line": 1256,
+      "end_line": 1258,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_requireNotEqualAddress",
+      "file": "Box.sol",
+      "start_line": 1263,
+      "end_line": 1265,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_onlyGuardian",
+      "file": "Box.sol",
+      "start_line": 1270,
+      "end_line": 1272,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_onlyAllocator",
+      "file": "Box.sol",
+      "start_line": 1277,
+      "end_line": 1279,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_onlyFeeder",
+      "file": "Box.sol",
+      "start_line": 1284,
+      "end_line": 1286,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_requireNotShutdown",
+      "file": "Box.sol",
+      "start_line": 1291,
+      "end_line": 1293,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_requireIsTokenOrAsset",
+      "file": "Box.sol",
+      "start_line": 1298,
+      "end_line": 1300,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_startNavCache",
+      "file": "Box.sol",
+      "start_line": 1307,
+      "end_line": 1312,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_endNavCache",
+      "file": "Box.sol",
+      "start_line": 1318,
+      "end_line": 1320,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_executeSwap",
+      "file": "Box.sol",
+      "start_line": 1332,
+      "end_line": 1350,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "_calculateSlippagePct",
+      "file": "Box.sol",
+      "start_line": 1358,
+      "end_line": 1361,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "_calculateMinAmount",
+      "file": "Box.sol",
+      "start_line": 1369,
+      "end_line": 1371,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_increaseSlippage",
+      "file": "Box.sol",
+      "start_line": 1378,
+      "end_line": 1391,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "_nav",
+      "file": "Box.sol",
+      "start_line": 1399,
+      "end_line": 1421,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_winddownSlippageTolerance",
+      "file": "Box.sol",
+      "start_line": 1428,
+      "end_line": 1434,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_findFundingIndex",
+      "file": "Box.sol",
+      "start_line": 1442,
+      "end_line": 1450,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_isTokenUsedInFunding",
+      "file": "Box.sol",
+      "start_line": 1457,
+      "end_line": 1466,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "_debtBalance",
+      "file": "Box.sol",
+      "start_line": 1473,
+      "end_line": 1479,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "BoxAdapter.sol",
+      "start_line": 40,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "skim",
+      "file": "BoxAdapter.sol",
+      "start_line": 48,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "BoxAdapter.sol",
+      "start_line": 58,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "BoxAdapter.sol",
+      "start_line": 72,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "ids",
+      "file": "BoxAdapter.sol",
+      "start_line": 85,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "BoxAdapter.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "BoxAdapter.sol",
+      "start_line": 95,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "adapterData",
+      "file": "BoxAdapter.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "supply",
+      "file": "FundingAave.sol",
+      "start_line": 15,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "FundingAave.sol",
+      "start_line": 16,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "FundingAave.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "repay",
+      "file": "FundingAave.sol",
+      "start_line": 18,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "setUserUseReserveAsCollateral",
+      "file": "FundingAave.sol",
+      "start_line": 19,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "setUserEMode",
+      "file": "FundingAave.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "getUserEMode",
+      "file": "FundingAave.sol",
+      "start_line": 21,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "getEModeCategoryData",
+      "file": "FundingAave.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "getReserveEModeCategory",
+      "file": "FundingAave.sol",
+      "start_line": 25,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "getUserAccountData",
+      "file": "FundingAave.sol",
+      "start_line": 27,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "getReserveData",
+      "file": "FundingAave.sol",
+      "start_line": 41,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "getReserveNormalizedVariableDebt",
+      "file": "FundingAave.sol",
+      "start_line": 64,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "scaledBalanceOf",
+      "file": "FundingAave.sol",
+      "start_line": 68,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "addFacility",
+      "file": "FundingAave.sol",
+      "start_line": 115,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "removeFacility",
+      "file": "FundingAave.sol",
+      "start_line": 123,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "isFacility",
+      "file": "FundingAave.sol",
+      "start_line": 132,
+      "end_line": 140,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "facilitiesLength",
+      "file": "FundingAave.sol",
+      "start_line": 142,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "addCollateralToken",
+      "file": "FundingAave.sol",
+      "start_line": 146,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "removeCollateralToken",
+      "file": "FundingAave.sol",
+      "start_line": 153,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "isCollateralToken",
+      "file": "FundingAave.sol",
+      "start_line": 162,
+      "end_line": 170,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "collateralTokensLength",
+      "file": "FundingAave.sol",
+      "start_line": 172,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "addDebtToken",
+      "file": "FundingAave.sol",
+      "start_line": 176,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "removeDebtToken",
+      "file": "FundingAave.sol",
+      "start_line": 183,
+      "end_line": 190,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "isDebtToken",
+      "file": "FundingAave.sol",
+      "start_line": 192,
+      "end_line": 200,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "debtTokensLength",
+      "file": "FundingAave.sol",
+      "start_line": 202,
+      "end_line": 204,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "skim",
+      "file": "FundingAave.sol",
+      "start_line": 208,
+      "end_line": 228,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "pledge",
+      "file": "FundingAave.sol",
+      "start_line": 231,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "depledge",
+      "file": "FundingAave.sol",
+      "start_line": 241,
+      "end_line": 247,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "FundingAave.sol",
+      "start_line": 249,
+      "end_line": 256,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "repay",
+      "file": "FundingAave.sol",
+      "start_line": 259,
+      "end_line": 270,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "FundingAave.sol",
+      "start_line": 277,
+      "end_line": 287,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "ltv",
+      "file": "FundingAave.sol",
+      "start_line": 293,
+      "end_line": 297,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingAave.sol",
+      "start_line": 299,
+      "end_line": 301,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingAave.sol",
+      "start_line": 303,
+      "end_line": 305,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingAave.sol",
+      "start_line": 307,
+      "end_line": 309,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingAave.sol",
+      "start_line": 311,
+      "end_line": 313,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "nav",
+      "file": "FundingAave.sol",
+      "start_line": 316,
+      "end_line": 365,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "_debtBalance",
+      "file": "FundingAave.sol",
+      "start_line": 367,
+      "end_line": 370,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "_collateralBalance",
+      "file": "FundingAave.sol",
+      "start_line": 372,
+      "end_line": 375,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "_isFacilityUsed",
+      "file": "FundingAave.sol",
+      "start_line": 377,
+      "end_line": 381,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "_findFacilityIndex",
+      "file": "FundingAave.sol",
+      "start_line": 383,
+      "end_line": 391,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "_findCollateralTokenIndex",
+      "file": "FundingAave.sol",
+      "start_line": 393,
+      "end_line": 401,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "_findDebtTokenIndex",
+      "file": "FundingAave.sol",
+      "start_line": 403,
+      "end_line": 411,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "addFacility",
+      "file": "FundingMorpho.sol",
+      "start_line": 62,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "removeFacility",
+      "file": "FundingMorpho.sol",
+      "start_line": 73,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "isFacility",
+      "file": "FundingMorpho.sol",
+      "start_line": 82,
+      "end_line": 90,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "facilitiesLength",
+      "file": "FundingMorpho.sol",
+      "start_line": 92,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "addCollateralToken",
+      "file": "FundingMorpho.sol",
+      "start_line": 96,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "removeCollateralToken",
+      "file": "FundingMorpho.sol",
+      "start_line": 104,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "isCollateralToken",
+      "file": "FundingMorpho.sol",
+      "start_line": 119,
+      "end_line": 127,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "collateralTokensLength",
+      "file": "FundingMorpho.sol",
+      "start_line": 129,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "addDebtToken",
+      "file": "FundingMorpho.sol",
+      "start_line": 133,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "removeDebtToken",
+      "file": "FundingMorpho.sol",
+      "start_line": 141,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "isDebtToken",
+      "file": "FundingMorpho.sol",
+      "start_line": 156,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "debtTokensLength",
+      "file": "FundingMorpho.sol",
+      "start_line": 166,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "skim",
+      "file": "FundingMorpho.sol",
+      "start_line": 171,
+      "end_line": 191,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "pledge",
+      "file": "FundingMorpho.sol",
+      "start_line": 194,
+      "end_line": 204,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "depledge",
+      "file": "FundingMorpho.sol",
+      "start_line": 206,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "FundingMorpho.sol",
+      "start_line": 219,
+      "end_line": 230,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "repay",
+      "file": "FundingMorpho.sol",
+      "start_line": 233,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "FundingMorpho.sol",
+      "start_line": 259,
+      "end_line": 269,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "ltv",
+      "file": "FundingMorpho.sol",
+      "start_line": 274,
+      "end_line": 282,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingMorpho.sol",
+      "start_line": 284,
+      "end_line": 288,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 159,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingMorpho.sol",
+      "start_line": 290,
+      "end_line": 294,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 160,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingMorpho.sol",
+      "start_line": 296,
+      "end_line": 298,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 161,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingMorpho.sol",
+      "start_line": 300,
+      "end_line": 302,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 162,
+      "node_type": "function",
+      "name": "nav",
+      "file": "FundingMorpho.sol",
+      "start_line": 305,
+      "end_line": 340,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 163,
+      "node_type": "function",
+      "name": "decodeFacilityData",
+      "file": "FundingMorpho.sol",
+      "start_line": 344,
+      "end_line": 347,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 164,
+      "node_type": "function",
+      "name": "encodeFacilityData",
+      "file": "FundingMorpho.sol",
+      "start_line": 349,
+      "end_line": 351,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 165,
+      "node_type": "function",
+      "name": "_debtBalance",
+      "file": "FundingMorpho.sol",
+      "start_line": 354,
+      "end_line": 362,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 166,
+      "node_type": "function",
+      "name": "_collateralBalance",
+      "file": "FundingMorpho.sol",
+      "start_line": 364,
+      "end_line": 372,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 167,
+      "node_type": "function",
+      "name": "_isFacilityUsed",
+      "file": "FundingMorpho.sol",
+      "start_line": 374,
+      "end_line": 378,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 168,
+      "node_type": "function",
+      "name": "_findFacilityIndex",
+      "file": "FundingMorpho.sol",
+      "start_line": 380,
+      "end_line": 389,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 169,
+      "node_type": "function",
+      "name": "_findCollateralTokenIndex",
+      "file": "FundingMorpho.sol",
+      "start_line": 391,
+      "end_line": 399,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 170,
+      "node_type": "function",
+      "name": "_findDebtTokenIndex",
+      "file": "FundingMorpho.sol",
+      "start_line": 401,
+      "end_line": 409,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 171,
+      "node_type": "state_var",
+      "name": "asset",
+      "var_type": "address public immutable",
+      "file": "Box.sol",
+      "line": 48
+    },
+    {
+      "node_id": 172,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "var_type": "uint8 private immutable",
+      "file": "Box.sol",
+      "line": 51
+    },
+    {
+      "node_id": 173,
+      "node_type": "state_var",
+      "name": "virtualShares",
+      "var_type": "uint256 public immutable",
+      "file": "Box.sol",
+      "line": 54
+    },
+    {
+      "node_id": 174,
+      "node_type": "state_var",
+      "name": "slippageEpochDuration",
+      "var_type": "uint256 public immutable",
+      "file": "Box.sol",
+      "line": 57
+    },
+    {
+      "node_id": 175,
+      "node_type": "state_var",
+      "name": "shutdownSlippageDuration",
+      "var_type": "uint256 public immutable",
+      "file": "Box.sol",
+      "line": 60
+    },
+    {
+      "node_id": 176,
+      "node_type": "state_var",
+      "name": "shutdownWarmup",
+      "var_type": "uint256 public immutable",
+      "file": "Box.sol",
+      "line": 63
+    },
+    {
+      "node_id": 177,
+      "node_type": "state_var",
+      "name": "owner",
+      "var_type": "address public",
+      "file": "Box.sol",
+      "line": 68
+    },
+    {
+      "node_id": 178,
+      "node_type": "state_var",
+      "name": "curator",
+      "var_type": "address public",
+      "file": "Box.sol",
+      "line": 71
+    },
+    {
+      "node_id": 179,
+      "node_type": "state_var",
+      "name": "guardian",
+      "var_type": "address public",
+      "file": "Box.sol",
+      "line": 74
+    },
+    {
+      "node_id": 180,
+      "node_type": "state_var",
+      "name": "shutdownTime",
+      "var_type": "uint256 public",
+      "file": "Box.sol",
+      "line": 77
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "var_type": "address public",
+      "file": "Box.sol",
+      "line": 80
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "isAllocator",
+      "var_type": "mapping(address => bool) public",
+      "file": "Box.sol",
+      "line": 83
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "isFeeder",
+      "var_type": "mapping(address => bool) public",
+      "file": "Box.sol",
+      "line": 86
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "tokens",
+      "var_type": "IERC20[] public",
+      "file": "Box.sol",
+      "line": 89
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "oracles",
+      "var_type": "mapping(IERC20 => IOracle) public",
+      "file": "Box.sol",
+      "line": 92
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "maxSlippage",
+      "var_type": "uint256 public",
+      "file": "Box.sol",
+      "line": 95
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "accumulatedSlippage",
+      "var_type": "uint256 public",
+      "file": "Box.sol",
+      "line": 98
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "slippageEpochStart",
+      "var_type": "uint256 public",
+      "file": "Box.sol",
+      "line": 101
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "address public immutable",
+      "file": "BoxAdapter.sol",
+      "line": 18
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "var_type": "address public immutable",
+      "file": "BoxAdapter.sol",
+      "line": 19
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "box",
+      "var_type": "IBox public immutable",
+      "file": "BoxAdapter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "var_type": "bytes32 public immutable",
+      "file": "BoxAdapter.sol",
+      "line": 21
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "var_type": "address public",
+      "file": "BoxAdapter.sol",
+      "line": 25
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "owner",
+      "var_type": "address public immutable",
+      "file": "FundingMorpho.sol",
+      "line": 24
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "morpho",
+      "var_type": "IMorpho public immutable",
+      "file": "FundingMorpho.sol",
+      "line": 25
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "lltvCap",
+      "var_type": "uint256 public immutable",
+      "file": "FundingMorpho.sol",
+      "line": 26
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "facilities",
+      "var_type": "bytes[] public",
+      "file": "FundingMorpho.sol",
+      "line": 28
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "collateralTokens",
+      "var_type": "IERC20[] public",
+      "file": "FundingMorpho.sol",
+      "line": 29
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "debtTokens",
+      "var_type": "IERC20[] public",
+      "file": "FundingMorpho.sol",
+      "line": 30
+    },
+    {
+      "node_id": 200,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:306",
+      "call_type": "INTERFACE_CALL",
+      "line": 306,
+      "enclosing_function": "_withdrawRedeem",
+      "file": "Box.sol",
+      "raw_text": "if (IERC20(asset).balanceOf(address(this)) < assets) revert ErrorsLib.InsufficientLiquidity();"
+    },
+    {
+      "node_id": 201,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:328",
+      "call_type": "INTERFACE_CALL",
+      "line": 328,
+      "enclosing_function": "skim",
+      "file": "Box.sol",
+      "raw_text": "token.safeTransfer(skimRecipient, balance);"
+    },
+    {
+      "node_id": 202,
+      "node_type": "call_site",
+      "name": "TRANSFER:Box.sol:333",
+      "call_type": "TRANSFER",
+      "line": 333,
+      "enclosing_function": "skim",
+      "file": "Box.sol",
+      "raw_text": "payable(skimRecipient).transfer(balance);"
+    },
+    {
+      "node_id": 203,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:480",
+      "call_type": "INTERFACE_CALL",
+      "line": 480,
+      "enclosing_function": "pledge",
+      "file": "Box.sol",
+      "raw_text": "collateralToken.safeTransfer(address(fundingModule), collateralAmount);"
+    },
+    {
+      "node_id": 204,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:528",
+      "call_type": "INTERFACE_CALL",
+      "line": 528,
+      "enclosing_function": "repay",
+      "file": "Box.sol",
+      "raw_text": "debtToken.safeTransfer(address(fundingModule), repayAmount);"
+    },
+    {
+      "node_id": 205,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:554",
+      "call_type": "INTERFACE_CALL",
+      "line": 554,
+      "enclosing_function": "flash",
+      "file": "Box.sol",
+      "raw_text": "flashToken.safeTransferFrom(msg.sender, address(this), flashAmount);"
+    },
+    {
+      "node_id": 206,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:560",
+      "call_type": "INTERFACE_CALL",
+      "line": 560,
+      "enclosing_function": "flash",
+      "file": "Box.sol",
+      "raw_text": "flashToken.safeTransfer(msg.sender, flashAmount);"
+    },
+    {
+      "node_id": 207,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:Box.sol:571",
+      "call_type": "DELEGATECALL",
+      "line": 571,
+      "enclosing_function": "multicall",
+      "file": "Box.sol",
+      "raw_text": "(bool success, bytes memory returnData) = address(this).delegatecall(data[i]);"
+    },
+    {
+      "node_id": 208,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:764",
+      "call_type": "INTERFACE_CALL",
+      "line": 764,
+      "enclosing_function": "addToken",
+      "file": "Box.sol",
+      "raw_text": "require(tokens.length < MAX_TOKENS, ErrorsLib.TooManyTokens());"
+    },
+    {
+      "node_id": 209,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:766",
+      "call_type": "INTERFACE_CALL",
+      "line": 766,
+      "enclosing_function": "addToken",
+      "file": "Box.sol",
+      "raw_text": "tokens.push(token);"
+    },
+    {
+      "node_id": 210,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:783",
+      "call_type": "INTERFACE_CALL",
+      "line": 783,
+      "enclosing_function": "removeToken",
+      "file": "Box.sol",
+      "raw_text": "tokens.pop();"
+    },
+    {
+      "node_id": 211,
+      "node_type": "call_site",
+      "name": "STATICCALL:Box.sol:816",
+      "call_type": "STATICCALL",
+      "line": 816,
+      "enclosing_function": "addFunding",
+      "file": "Box.sol",
+      "raw_text": "(bool success, bytes memory data) = address(fundingModule).staticcall(abi.encodeWithSignature(\"owner()\"));"
+    },
+    {
+      "node_id": 212,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:816",
+      "call_type": "INTERFACE_CALL",
+      "line": 816,
+      "enclosing_function": "addFunding",
+      "file": "Box.sol",
+      "raw_text": "(bool success, bytes memory data) = address(fundingModule).staticcall(abi.encodeWithSignature(\"owner()\"));"
+    },
+    {
+      "node_id": 213,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:36",
+      "call_type": "INTERFACE_CALL",
+      "line": 36,
+      "enclosing_function": "",
+      "file": "BoxAdapter.sol",
+      "raw_text": "SafeERC20Lib.safeApprove(asset, _parentVault, type(uint256).max);"
+    },
+    {
+      "node_id": 214,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:37",
+      "call_type": "INTERFACE_CALL",
+      "line": 37,
+      "enclosing_function": "",
+      "file": "BoxAdapter.sol",
+      "raw_text": "SafeERC20Lib.safeApprove(asset, address(_box), type(uint256).max);"
+    },
+    {
+      "node_id": 215,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:52",
+      "call_type": "INTERFACE_CALL",
+      "line": 52,
+      "enclosing_function": "skim",
+      "file": "BoxAdapter.sol",
+      "raw_text": "SafeERC20Lib.safeTransfer(token, skimRecipient, balance);"
+    },
+    {
+      "node_id": 216,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:64",
+      "call_type": "INTERFACE_CALL",
+      "line": 64,
+      "enclosing_function": "allocate",
+      "file": "BoxAdapter.sol",
+      "raw_text": "int256 newAllocation = int256(box.previewRedeem(box.balanceOf(address(this))));"
+    },
+    {
+      "node_id": 217,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:78",
+      "call_type": "INTERFACE_CALL",
+      "line": 78,
+      "enclosing_function": "deallocate",
+      "file": "BoxAdapter.sol",
+      "raw_text": "int256 newAllocation = int256(box.previewRedeem(box.balanceOf(address(this))));"
+    },
+    {
+      "node_id": 218,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:96",
+      "call_type": "INTERFACE_CALL",
+      "line": 96,
+      "enclosing_function": "realAssets",
+      "file": "BoxAdapter.sol",
+      "raw_text": "return allocation() != 0 ? box.previewRedeem(box.balanceOf(address(this))) : 0;"
+    },
+    {
+      "node_id": 219,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:114",
+      "call_type": "INTERFACE_CALL",
+      "line": 114,
+      "enclosing_function": "addFacility",
+      "file": "FundingAave.sol",
+      "raw_text": "facilities.push(facilityData);"
+    },
+    {
+      "node_id": 220,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:123",
+      "call_type": "INTERFACE_CALL",
+      "line": 123,
+      "enclosing_function": "removeFacility",
+      "file": "FundingAave.sol",
+      "raw_text": "facilities.pop();"
+    },
+    {
+      "node_id": 221,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:144",
+      "call_type": "INTERFACE_CALL",
+      "line": 144,
+      "enclosing_function": "addCollateralToken",
+      "file": "FundingAave.sol",
+      "raw_text": "collateralTokens.push(collateralToken);"
+    },
+    {
+      "node_id": 222,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:153",
+      "call_type": "INTERFACE_CALL",
+      "line": 153,
+      "enclosing_function": "removeCollateralToken",
+      "file": "FundingAave.sol",
+      "raw_text": "collateralTokens.pop();"
+    },
+    {
+      "node_id": 223,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:174",
+      "call_type": "INTERFACE_CALL",
+      "line": 174,
+      "enclosing_function": "addDebtToken",
+      "file": "FundingAave.sol",
+      "raw_text": "debtTokens.push(debtToken);"
+    },
+    {
+      "node_id": 224,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:183",
+      "call_type": "INTERFACE_CALL",
+      "line": 183,
+      "enclosing_function": "removeDebtToken",
+      "file": "FundingAave.sol",
+      "raw_text": "debtTokens.pop();"
+    },
+    {
+      "node_id": 225,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:212",
+      "call_type": "INTERFACE_CALL",
+      "line": 212,
+      "enclosing_function": "skim",
+      "file": "FundingAave.sol",
+      "raw_text": "token.safeTransfer(owner, balance);"
+    },
+    {
+      "node_id": 226,
+      "node_type": "call_site",
+      "name": "TRANSFER:FundingAave.sol:217",
+      "call_type": "TRANSFER",
+      "line": 217,
+      "enclosing_function": "skim",
+      "file": "FundingAave.sol",
+      "raw_text": "payable(owner).transfer(balance);"
+    },
+    {
+      "node_id": 227,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:249",
+      "call_type": "INTERFACE_CALL",
+      "line": 249,
+      "enclosing_function": "borrow",
+      "file": "FundingAave.sol",
+      "raw_text": "debtToken.safeTransfer(owner, borrowAmount);"
+    },
+    {
+      "node_id": 228,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:262",
+      "call_type": "INTERFACE_CALL",
+      "line": 262,
+      "enclosing_function": "repay",
+      "file": "FundingAave.sol",
+      "raw_text": "debtToken.safeTransfer(owner, repayAmount - actualRepaid);"
+    },
+    {
+      "node_id": 229,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:FundingAave.sol:270",
+      "call_type": "DELEGATECALL",
+      "line": 270,
+      "enclosing_function": "multicall",
+      "file": "FundingAave.sol",
+      "raw_text": "(bool success, bytes memory returnData) = address(this).delegatecall(data[i]);"
+    },
+    {
+      "node_id": 230,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:61",
+      "call_type": "INTERFACE_CALL",
+      "line": 61,
+      "enclosing_function": "addFacility",
+      "file": "FundingMorpho.sol",
+      "raw_text": "require(isCollateralToken(IERC20(market.collateralToken)), ErrorsLib.TokenNotWhitelisted());"
+    },
+    {
+      "node_id": 231,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:62",
+      "call_type": "INTERFACE_CALL",
+      "line": 62,
+      "enclosing_function": "addFacility",
+      "file": "FundingMorpho.sol",
+      "raw_text": "require(isDebtToken(IERC20(market.loanToken)), ErrorsLib.TokenNotWhitelisted());"
+    },
+    {
+      "node_id": 232,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:64",
+      "call_type": "INTERFACE_CALL",
+      "line": 64,
+      "enclosing_function": "addFacility",
+      "file": "FundingMorpho.sol",
+      "raw_text": "facilities.push(facilityData);"
+    },
+    {
+      "node_id": 233,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:73",
+      "call_type": "INTERFACE_CALL",
+      "line": 73,
+      "enclosing_function": "removeFacility",
+      "file": "FundingMorpho.sol",
+      "raw_text": "facilities.pop();"
+    },
+    {
+      "node_id": 234,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:94",
+      "call_type": "INTERFACE_CALL",
+      "line": 94,
+      "enclosing_function": "addCollateralToken",
+      "file": "FundingMorpho.sol",
+      "raw_text": "collateralTokens.push(collateralToken);"
+    },
+    {
+      "node_id": 235,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "removeCollateralToken",
+      "file": "FundingMorpho.sol",
+      "raw_text": "collateralTokens.pop();"
+    },
+    {
+      "node_id": 236,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:131",
+      "call_type": "INTERFACE_CALL",
+      "line": 131,
+      "enclosing_function": "addDebtToken",
+      "file": "FundingMorpho.sol",
+      "raw_text": "debtTokens.push(debtToken);"
+    },
+    {
+      "node_id": 237,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:147",
+      "call_type": "INTERFACE_CALL",
+      "line": 147,
+      "enclosing_function": "removeDebtToken",
+      "file": "FundingMorpho.sol",
+      "raw_text": "debtTokens.pop();"
+    },
+    {
+      "node_id": 238,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:175",
+      "call_type": "INTERFACE_CALL",
+      "line": 175,
+      "enclosing_function": "skim",
+      "file": "FundingMorpho.sol",
+      "raw_text": "token.safeTransfer(owner, balance);"
+    },
+    {
+      "node_id": 239,
+      "node_type": "call_site",
+      "name": "TRANSFER:FundingMorpho.sol:180",
+      "call_type": "TRANSFER",
+      "line": 180,
+      "enclosing_function": "skim",
+      "file": "FundingMorpho.sol",
+      "raw_text": "payable(owner).transfer(balance);"
+    },
+    {
+      "node_id": 240,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:197",
+      "call_type": "INTERFACE_CALL",
+      "line": 197,
+      "enclosing_function": "pledge",
+      "file": "FundingMorpho.sol",
+      "raw_text": "morpho.supplyCollateral(market, collateralAmount, address(this), \"\");"
+    },
+    {
+      "node_id": 241,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:208",
+      "call_type": "INTERFACE_CALL",
+      "line": 208,
+      "enclosing_function": "depledge",
+      "file": "FundingMorpho.sol",
+      "raw_text": "morpho.withdrawCollateral(market, collateralAmount, address(this), owner);"
+    },
+    {
+      "node_id": 242,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:235",
+      "call_type": "INTERFACE_CALL",
+      "line": 235,
+      "enclosing_function": "repay",
+      "file": "FundingMorpho.sol",
+      "raw_text": "uint256 debtAmount = morpho.expectedBorrowAssets(market, address(this));"
+    },
+    {
+      "node_id": 243,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:242",
+      "call_type": "INTERFACE_CALL",
+      "line": 242,
+      "enclosing_function": "repay",
+      "file": "FundingMorpho.sol",
+      "raw_text": "morpho.repay(market, 0, morpho.borrowShares(market.id(), address(this)), address(this), \"\");"
+    },
+    {
+      "node_id": 244,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:FundingMorpho.sol:252",
+      "call_type": "DELEGATECALL",
+      "line": 252,
+      "enclosing_function": "multicall",
+      "file": "FundingMorpho.sol",
+      "raw_text": "(bool success, bytes memory returnData) = address(this).delegatecall(data[i]);"
+    },
+    {
+      "node_id": 245,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:267",
+      "call_type": "INTERFACE_CALL",
+      "line": 267,
+      "enclosing_function": "ltv",
+      "file": "FundingMorpho.sol",
+      "raw_text": "uint256 borrowedAssets = morpho.expectedBorrowAssets(market, address(this));"
+    },
+    {
+      "node_id": 246,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:268",
+      "call_type": "INTERFACE_CALL",
+      "line": 268,
+      "enclosing_function": "ltv",
+      "file": "FundingMorpho.sol",
+      "raw_text": "uint256 collateralAmount = morpho.collateral(marketId, address(this));"
+    },
+    {
+      "node_id": 247,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:277",
+      "call_type": "INTERFACE_CALL",
+      "line": 277,
+      "enclosing_function": "debtBalance",
+      "file": "FundingMorpho.sol",
+      "raw_text": "return morpho.expectedBorrowAssets(market, address(this));"
+    },
+    {
+      "node_id": 248,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:283",
+      "call_type": "INTERFACE_CALL",
+      "line": 283,
+      "enclosing_function": "collateralBalance",
+      "file": "FundingMorpho.sol",
+      "raw_text": "return morpho.collateral(market.id(), address(this));"
+    },
+    {
+      "node_id": 249,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:301",
+      "call_type": "INTERFACE_CALL",
+      "line": 301,
+      "enclosing_function": "nav",
+      "file": "FundingMorpho.sol",
+      "raw_text": "uint256 collateralBalance_ = morpho.collateral(market.id(), address(this));"
+    },
+    {
+      "node_id": 250,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:309",
+      "call_type": "INTERFACE_CALL",
+      "line": 309,
+      "enclosing_function": "nav",
+      "file": "FundingMorpho.sol",
+      "raw_text": "IOracle oracle = oraclesProvider.oracles(IERC20(market.collateralToken));"
+    },
+    {
+      "node_id": 251,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:315",
+      "call_type": "INTERFACE_CALL",
+      "line": 315,
+      "enclosing_function": "nav",
+      "file": "FundingMorpho.sol",
+      "raw_text": "uint256 debtBalance_ = morpho.expectedBorrowAssets(market, address(this));"
+    },
+    {
+      "node_id": 252,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:320",
+      "call_type": "INTERFACE_CALL",
+      "line": 320,
+      "enclosing_function": "nav",
+      "file": "FundingMorpho.sol",
+      "raw_text": "IOracle oracle = oraclesProvider.oracles(IERC20(market.loanToken));"
+    },
+    {
+      "node_id": 253,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:349",
+      "call_type": "INTERFACE_CALL",
+      "line": 349,
+      "enclosing_function": "_debtBalance",
+      "file": "FundingMorpho.sol",
+      "raw_text": "balance += morpho.expectedBorrowAssets(market, address(this));"
+    },
+    {
+      "node_id": 254,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:359",
+      "call_type": "INTERFACE_CALL",
+      "line": 359,
+      "enclosing_function": "_collateralBalance",
+      "file": "FundingMorpho.sol",
+      "raw_text": "balance += morpho.collateral(market.id(), address(this));"
+    },
+    {
+      "node_id": 255,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:366",
+      "call_type": "INTERFACE_CALL",
+      "line": 366,
+      "enclosing_function": "_isFacilityUsed",
+      "file": "FundingMorpho.sol",
+      "raw_text": "Position memory position = morpho.position(market.id(), address(this));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        13,
+        16,
+        17,
+        171,
+        200
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 200
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        18,
+        171,
+        177,
+        181,
+        191,
+        201
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 201
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        18,
+        171,
+        177,
+        181,
+        191,
+        202
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 202
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        22,
+        177,
+        195,
+        203
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 203
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        25,
+        177,
+        195,
+        204
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 204
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        27,
+        205
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 205
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        27,
+        206
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 206
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        28,
+        207
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 207
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        44,
+        171,
+        184,
+        185,
+        208
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 208
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        44,
+        171,
+        184,
+        185,
+        209
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 209
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        45,
+        184,
+        185,
+        210
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 210
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        47,
+        177,
+        211
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 211
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        47,
+        177,
+        212
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 212
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        18,
+        171,
+        177,
+        181,
+        191,
+        215
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 215
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        19,
+        171,
+        182,
+        185,
+        186,
+        190,
+        191,
+        216
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 216
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        20,
+        171,
+        182,
+        185,
+        186,
+        190,
+        191,
+        217
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 217
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        94,
+        191,
+        218
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 218
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        109,
+        177,
+        197,
+        219
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 219
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        110,
+        177,
+        197,
+        220
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 220
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        113,
+        177,
+        198,
+        221
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 221
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        114,
+        177,
+        197,
+        198,
+        222
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 222
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        117,
+        177,
+        199,
+        223
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 223
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        118,
+        177,
+        197,
+        199,
+        224
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 224
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        18,
+        171,
+        177,
+        181,
+        191,
+        225
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 225
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        18,
+        171,
+        177,
+        181,
+        191,
+        226
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 226
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        24,
+        177,
+        195,
+        196,
+        227
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 227
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        25,
+        177,
+        195,
+        228
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 228
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        28,
+        229
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 229
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        109,
+        177,
+        197,
+        230
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 230
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        109,
+        177,
+        197,
+        231
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 231
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        109,
+        177,
+        197,
+        232
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 232
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        110,
+        177,
+        197,
+        233
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 233
+    },
+    {
+      "edge_id": 32,
+      "node_ids": [
+        113,
+        177,
+        198,
+        234
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 234
+    },
+    {
+      "edge_id": 33,
+      "node_ids": [
+        114,
+        177,
+        197,
+        198,
+        235
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 235
+    },
+    {
+      "edge_id": 34,
+      "node_ids": [
+        117,
+        177,
+        199,
+        236
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 236
+    },
+    {
+      "edge_id": 35,
+      "node_ids": [
+        118,
+        177,
+        197,
+        199,
+        237
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 237
+    },
+    {
+      "edge_id": 36,
+      "node_ids": [
+        18,
+        171,
+        177,
+        181,
+        191,
+        238
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 238
+    },
+    {
+      "edge_id": 37,
+      "node_ids": [
+        18,
+        171,
+        177,
+        181,
+        191,
+        239
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 239
+    },
+    {
+      "edge_id": 38,
+      "node_ids": [
+        22,
+        177,
+        195,
+        240
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 240
+    },
+    {
+      "edge_id": 39,
+      "node_ids": [
+        23,
+        177,
+        195,
+        196,
+        241
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 241
+    },
+    {
+      "edge_id": 40,
+      "node_ids": [
+        25,
+        177,
+        195,
+        242
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 242
+    },
+    {
+      "edge_id": 41,
+      "node_ids": [
+        25,
+        177,
+        195,
+        243
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 243
+    },
+    {
+      "edge_id": 42,
+      "node_ids": [
+        28,
+        244
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 244
+    },
+    {
+      "edge_id": 43,
+      "node_ids": [
+        23,
+        24,
+        127,
+        177,
+        195,
+        196,
+        245
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 245
+    },
+    {
+      "edge_id": 44,
+      "node_ids": [
+        23,
+        24,
+        127,
+        177,
+        195,
+        196,
+        246
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 246
+    },
+    {
+      "edge_id": 45,
+      "node_ids": [
+        128,
+        195,
+        247
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 247
+    },
+    {
+      "edge_id": 46,
+      "node_ids": [
+        129,
+        195,
+        248
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 248
+    },
+    {
+      "edge_id": 47,
+      "node_ids": [
+        132,
+        195,
+        197,
+        249
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 249
+    },
+    {
+      "edge_id": 48,
+      "node_ids": [
+        132,
+        195,
+        197,
+        250
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 250
+    },
+    {
+      "edge_id": 49,
+      "node_ids": [
+        132,
+        195,
+        197,
+        251
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 251
+    },
+    {
+      "edge_id": 50,
+      "node_ids": [
+        132,
+        195,
+        197,
+        252
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 252
+    },
+    {
+      "edge_id": 51,
+      "node_ids": [
+        19,
+        20,
+        87,
+        118,
+        128,
+        132,
+        171,
+        177,
+        182,
+        185,
+        186,
+        190,
+        191,
+        195,
+        197,
+        199,
+        253
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 253
+    },
+    {
+      "edge_id": 52,
+      "node_ids": [
+        114,
+        129,
+        132,
+        134,
+        177,
+        195,
+        197,
+        198,
+        254
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 254
+    },
+    {
+      "edge_id": 53,
+      "node_ids": [
+        110,
+        135,
+        177,
+        195,
+        197,
+        255
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 255
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mint",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_depositMint",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_withdrawRedeem",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "skim",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "reallocate",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "pledge",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "depledge",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "repay",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "skimFunding",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "flash",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setCurator",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setGuardian",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setIsAllocator",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "shutdown",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "recover",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "submit",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "timelocked",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "revoke",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "increaseTimelock",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "decreaseTimelock",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "abdicateTimelock",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setIsFeeder",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "setMaxSlippage",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "addToken",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "removeToken",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "changeTokenOracle",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "addFunding",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "addFundingFacility",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "addFundingCollateral",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "addFundingDebt",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "removeFunding",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "removeFundingFacility",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "removeFundingCollateral",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "removeFundingDebt",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "isToken",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "isTokenOrAsset",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "tokensLength",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "isFunding",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "fundingsLength",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "isShutdown",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "isWinddown",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_onlyOwner",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "_onlyCurator",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "_requireNonZeroAddress",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "_requireIsToken",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "_requireIsFunding",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "_requireNotWinddown",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "_onlyAllocatorNotWinddown",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "_onlyAllocatorOrWinddown",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "_requireNotEqual",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_requireNotEqualAddress",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_onlyGuardian",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "_onlyAllocator",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "_onlyFeeder",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "_requireNotShutdown",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "_requireIsTokenOrAsset",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "_startNavCache",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "_endNavCache",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_executeSwap",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "_calculateSlippagePct",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "_calculateMinAmount",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "_increaseSlippage",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "_nav",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_winddownSlippageTolerance",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "_findFundingIndex",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "_isTokenUsedInFunding",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "_debtBalance",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "setSkimRecipient",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "skim",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "allocate",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "deallocate",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "ids",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "allocation",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "realAssets",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "adapterData",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "supply",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "repay",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "setUserUseReserveAsCollateral",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "setUserEMode",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "getUserEMode",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "function",
+      "name": "getEModeCategoryData",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "function",
+      "name": "getReserveEModeCategory",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "function",
+      "name": "getUserAccountData",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "function",
+      "name": "getReserveData",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "function",
+      "name": "getReserveNormalizedVariableDebt",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "function",
+      "name": "scaledBalanceOf",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "function",
+      "name": "addFacility",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "function",
+      "name": "removeFacility",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "function",
+      "name": "isFacility",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "function",
+      "name": "facilitiesLength",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "function",
+      "name": "addCollateralToken",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "function",
+      "name": "removeCollateralToken",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "function",
+      "name": "isCollateralToken",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "function",
+      "name": "collateralTokensLength",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "function",
+      "name": "addDebtToken",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "function",
+      "name": "removeDebtToken",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "function",
+      "name": "isDebtToken",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "function",
+      "name": "debtTokensLength",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "function",
+      "name": "skim",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "function",
+      "name": "pledge",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "function",
+      "name": "depledge",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "function",
+      "name": "repay",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "function",
+      "name": "ltv",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "function",
+      "name": "nav",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "function",
+      "name": "_debtBalance",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "function",
+      "name": "_collateralBalance",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "function",
+      "name": "_isFacilityUsed",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "function",
+      "name": "_findFacilityIndex",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "function",
+      "name": "_findCollateralTokenIndex",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "function",
+      "name": "_findDebtTokenIndex",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "function",
+      "name": "addFacility",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "function",
+      "name": "removeFacility",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "function",
+      "name": "isFacility",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "function",
+      "name": "facilitiesLength",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 143,
+      "node_type": "function",
+      "name": "addCollateralToken",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 144,
+      "node_type": "function",
+      "name": "removeCollateralToken",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 145,
+      "node_type": "function",
+      "name": "isCollateralToken",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 146,
+      "node_type": "function",
+      "name": "collateralTokensLength",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 147,
+      "node_type": "function",
+      "name": "addDebtToken",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 148,
+      "node_type": "function",
+      "name": "removeDebtToken",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 149,
+      "node_type": "function",
+      "name": "isDebtToken",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 150,
+      "node_type": "function",
+      "name": "debtTokensLength",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 151,
+      "node_type": "function",
+      "name": "skim",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 152,
+      "node_type": "function",
+      "name": "pledge",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 153,
+      "node_type": "function",
+      "name": "depledge",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 154,
+      "node_type": "function",
+      "name": "borrow",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 155,
+      "node_type": "function",
+      "name": "repay",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 156,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 157,
+      "node_type": "function",
+      "name": "ltv",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 158,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 159,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 160,
+      "node_type": "function",
+      "name": "debtBalance",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 161,
+      "node_type": "function",
+      "name": "collateralBalance",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 162,
+      "node_type": "function",
+      "name": "nav",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 163,
+      "node_type": "function",
+      "name": "decodeFacilityData",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 164,
+      "node_type": "function",
+      "name": "encodeFacilityData",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 165,
+      "node_type": "function",
+      "name": "_debtBalance",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 166,
+      "node_type": "function",
+      "name": "_collateralBalance",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 167,
+      "node_type": "function",
+      "name": "_isFacilityUsed",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 168,
+      "node_type": "function",
+      "name": "_findFacilityIndex",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 169,
+      "node_type": "function",
+      "name": "_findCollateralTokenIndex",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 170,
+      "node_type": "function",
+      "name": "_findDebtTokenIndex",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 171,
+      "node_type": "state_var",
+      "name": "asset",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 172,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 173,
+      "node_type": "state_var",
+      "name": "virtualShares",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 174,
+      "node_type": "state_var",
+      "name": "slippageEpochDuration",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 175,
+      "node_type": "state_var",
+      "name": "shutdownSlippageDuration",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 176,
+      "node_type": "state_var",
+      "name": "shutdownWarmup",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 177,
+      "node_type": "state_var",
+      "name": "owner",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 178,
+      "node_type": "state_var",
+      "name": "curator",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 179,
+      "node_type": "state_var",
+      "name": "guardian",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 180,
+      "node_type": "state_var",
+      "name": "shutdownTime",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 181,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 182,
+      "node_type": "state_var",
+      "name": "isAllocator",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 183,
+      "node_type": "state_var",
+      "name": "isFeeder",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 184,
+      "node_type": "state_var",
+      "name": "tokens",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 185,
+      "node_type": "state_var",
+      "name": "oracles",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 186,
+      "node_type": "state_var",
+      "name": "maxSlippage",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 187,
+      "node_type": "state_var",
+      "name": "accumulatedSlippage",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 188,
+      "node_type": "state_var",
+      "name": "slippageEpochStart",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 189,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 190,
+      "node_type": "state_var",
+      "name": "parentVault",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 191,
+      "node_type": "state_var",
+      "name": "box",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 192,
+      "node_type": "state_var",
+      "name": "adapterId",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 193,
+      "node_type": "state_var",
+      "name": "skimRecipient",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 194,
+      "node_type": "state_var",
+      "name": "owner",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 195,
+      "node_type": "state_var",
+      "name": "morpho",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 196,
+      "node_type": "state_var",
+      "name": "lltvCap",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 197,
+      "node_type": "state_var",
+      "name": "facilities",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 198,
+      "node_type": "state_var",
+      "name": "collateralTokens",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 199,
+      "node_type": "state_var",
+      "name": "debtTokens",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 200,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:306",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 201,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:328",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 202,
+      "node_type": "call_site",
+      "name": "TRANSFER:Box.sol:333",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 203,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:480",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 204,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:528",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 205,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:554",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 206,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:560",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 207,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:Box.sol:571",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 208,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:764",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 209,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:766",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 210,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:783",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 211,
+      "node_type": "call_site",
+      "name": "STATICCALL:Box.sol:816",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 212,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Box.sol:816",
+      "file": "Box.sol"
+    },
+    {
+      "node_id": 213,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:36",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 214,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:37",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 215,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:52",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 216,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:64",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 217,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:78",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 218,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BoxAdapter.sol:96",
+      "file": "BoxAdapter.sol"
+    },
+    {
+      "node_id": 219,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:114",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 220,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:123",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 221,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:144",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 222,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:153",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 223,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:174",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 224,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:183",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 225,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:212",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 226,
+      "node_type": "call_site",
+      "name": "TRANSFER:FundingAave.sol:217",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 227,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:249",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 228,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingAave.sol:262",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 229,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:FundingAave.sol:270",
+      "file": "FundingAave.sol"
+    },
+    {
+      "node_id": 230,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:61",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 231,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:62",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 232,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:64",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 233,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:73",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 234,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:94",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 235,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:110",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 236,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:131",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 237,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:147",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 238,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:175",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 239,
+      "node_type": "call_site",
+      "name": "TRANSFER:FundingMorpho.sol:180",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 240,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:197",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 241,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:208",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 242,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:235",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 243,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:242",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 244,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:FundingMorpho.sol:252",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 245,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:267",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 246,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:268",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 247,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:277",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 248,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:283",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 249,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:301",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 250,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:309",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 251,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:315",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 252,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:320",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 253,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:349",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 254,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:359",
+      "file": "FundingMorpho.sol"
+    },
+    {
+      "node_id": 255,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:FundingMorpho.sol:366",
+      "file": "FundingMorpho.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 256,
+    "n_hyperedges": 54,
+    "n_functions": 171,
+    "n_state_vars": 29,
+    "n_call_sites": 56,
+    "avg_hyperedge_size": 4.777777777777778
+  },
+  "label": {
+    "vfp_id": "vfp_00212",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1164",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-1288",
+      "CWE-1289",
+      "CWE-20",
+      "CWE-284",
+      "CWE-285",
+      "CWE-362",
+      "CWE-400",
+      "CWE-405",
+      "CWE-407",
+      "CWE-455",
+      "CWE-636",
+      "CWE-664",
+      "CWE-666",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754",
+      "CWE-755",
+      "CWE-807",
+      "CWE-862"
+    ]
+  }
+}

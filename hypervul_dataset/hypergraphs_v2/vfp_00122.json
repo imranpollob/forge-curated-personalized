@@ -1,0 +1,123 @@
+{
+  "sample_id": "vfp_00122",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "computeQuote",
+      "file": "QuoteLib.sol",
+      "start_line": 27,
+      "end_line": 58,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "calcLimits",
+      "file": "QuoteLib.sol",
+      "start_line": 70,
+      "end_line": 107,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decodeCap",
+      "file": "QuoteLib.sol",
+      "start_line": 119,
+      "end_line": 127,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkTokens",
+      "file": "QuoteLib.sol",
+      "start_line": 136,
+      "end_line": 147,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "findCurvePoint",
+      "file": "QuoteLib.sol",
+      "start_line": 149,
+      "end_line": 221,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "computeQuote",
+      "file": "QuoteLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "calcLimits",
+      "file": "QuoteLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decodeCap",
+      "file": "QuoteLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "checkTokens",
+      "file": "QuoteLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "findCurvePoint",
+      "file": "QuoteLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00122",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

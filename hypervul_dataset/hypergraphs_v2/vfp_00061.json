@@ -1,0 +1,3036 @@
+{
+  "sample_id": "vfp_00061",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "BunniHook.sol",
+      "start_line": 120,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "increaseCardinalityNext",
+      "file": "BunniHook.sol",
+      "start_line": 138,
+      "end_line": 150,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "BunniHook.sol",
+      "start_line": 165,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_rebalancePrehookCallback",
+      "file": "BunniHook.sol",
+      "start_line": 182,
+      "end_line": 193,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_rebalancePosthookCallback",
+      "file": "BunniHook.sol",
+      "start_line": 198,
+      "end_line": 209,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_claimFees",
+      "file": "BunniHook.sol",
+      "start_line": 212,
+      "end_line": 226,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateLdfState",
+      "file": "BunniHook.sol",
+      "start_line": 233,
+      "end_line": 237,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimProtocolFees",
+      "file": "BunniHook.sol",
+      "start_line": 244,
+      "end_line": 246,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setZone",
+      "file": "BunniHook.sol",
+      "start_line": 249,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setModifiers",
+      "file": "BunniHook.sol",
+      "start_line": 255,
+      "end_line": 264,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setAmAmmEnabledOverride",
+      "file": "BunniHook.sol",
+      "start_line": 267,
+      "end_line": 270,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setGlobalAmAmmEnabledOverride",
+      "file": "BunniHook.sol",
+      "start_line": 273,
+      "end_line": 276,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getObservation",
+      "file": "BunniHook.sol",
+      "start_line": 283,
+      "end_line": 290,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getState",
+      "file": "BunniHook.sol",
+      "start_line": 293,
+      "end_line": 295,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "observe",
+      "file": "BunniHook.sol",
+      "start_line": 298,
+      "end_line": 316,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "isValidParams",
+      "file": "BunniHook.sol",
+      "start_line": 319,
+      "end_line": 337,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getAmAmmEnabled",
+      "file": "BunniHook.sol",
+      "start_line": 340,
+      "end_line": 342,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "ldfStates",
+      "file": "BunniHook.sol",
+      "start_line": 345,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "slot0s",
+      "file": "BunniHook.sol",
+      "start_line": 350,
+      "end_line": 357,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "vaultSharePricesAtLastSwap",
+      "file": "BunniHook.sol",
+      "start_line": 360,
+      "end_line": 367,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "afterInitialize",
+      "file": "BunniHook.sol",
+      "start_line": 374,
+      "end_line": 383,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "beforeSwap",
+      "file": "BunniHook.sol",
+      "start_line": 386,
+      "end_line": 422,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "rebalanceOrderPreHook",
+      "file": "BunniHook.sol",
+      "start_line": 429,
+      "end_line": 462,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol",
+      "start_line": 465,
+      "end_line": 511,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_amAmmEnabled",
+      "file": "BunniHook.sol",
+      "start_line": 518,
+      "end_line": 535,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_payloadIsValid",
+      "file": "BunniHook.sol",
+      "start_line": 537,
+      "end_line": 550,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_burnBidToken",
+      "file": "BunniHook.sol",
+      "start_line": 552,
+      "end_line": 554,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_pullBidToken",
+      "file": "BunniHook.sol",
+      "start_line": 556,
+      "end_line": 558,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_pushBidToken",
+      "file": "BunniHook.sol",
+      "start_line": 560,
+      "end_line": 562,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_transferFeeToken",
+      "file": "BunniHook.sol",
+      "start_line": 564,
+      "end_line": 566,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "afterInitialize",
+      "file": "BunniHookLogic.sol",
+      "start_line": 88,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "beforeSwap",
+      "file": "BunniHookLogic.sol",
+      "start_line": 130,
+      "end_line": 475,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "decodeHookParams",
+      "file": "BunniHookLogic.sol",
+      "start_line": 477,
+      "end_line": 479,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_shouldSurgeFromVaults",
+      "file": "BunniHookLogic.sol",
+      "start_line": 487,
+      "end_line": 529,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_rebalance",
+      "file": "BunniHookLogic.sol",
+      "start_line": 532,
+      "end_line": 550,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_computeRebalanceParams",
+      "file": "BunniHookLogic.sol",
+      "start_line": 552,
+      "end_line": 675,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_createRebalanceOrder",
+      "file": "BunniHookLogic.sol",
+      "start_line": 677,
+      "end_line": 743,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_getTwap",
+      "file": "BunniHookLogic.sol",
+      "start_line": 745,
+      "end_line": 765,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_updateOracle",
+      "file": "BunniHookLogic.sol",
+      "start_line": 767,
+      "end_line": 783,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_newOrderHash",
+      "file": "BunniHookLogic.sol",
+      "start_line": 788,
+      "end_line": 796,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_decodeParams",
+      "file": "BunniHookLogic.sol",
+      "start_line": 801,
+      "end_line": 826,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "BunniHub.sol",
+      "start_line": 93,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "queueWithdraw",
+      "file": "BunniHub.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "BunniHub.sol",
+      "start_line": 120,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "deployBunniToken",
+      "file": "BunniHub.sol",
+      "start_line": 141,
+      "end_line": 157,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "hookHandleSwap",
+      "file": "BunniHub.sol",
+      "start_line": 160,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setReferrerAddress",
+      "file": "BunniHub.sol",
+      "start_line": 242,
+      "end_line": 247,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "poolState",
+      "file": "BunniHub.sol",
+      "start_line": 254,
+      "end_line": 256,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "poolParams",
+      "file": "BunniHub.sol",
+      "start_line": 259,
+      "end_line": 261,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "bunniTokenOfPool",
+      "file": "BunniHub.sol",
+      "start_line": 264,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "hookParams",
+      "file": "BunniHub.sol",
+      "start_line": 269,
+      "end_line": 271,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "poolBalances",
+      "file": "BunniHub.sol",
+      "start_line": 274,
+      "end_line": 278,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "nonce",
+      "file": "BunniHub.sol",
+      "start_line": 281,
+      "end_line": 283,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "poolIdOfBunniToken",
+      "file": "BunniHub.sol",
+      "start_line": 286,
+      "end_line": 288,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "getReferrerAddress",
+      "file": "BunniHub.sol",
+      "start_line": 291,
+      "end_line": 293,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "BunniHub.sol",
+      "start_line": 320,
+      "end_line": 335,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "start_line": 337,
+      "end_line": 375,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_withdrawUnlockCallback",
+      "file": "BunniHub.sol",
+      "start_line": 377,
+      "end_line": 392,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol",
+      "start_line": 404,
+      "end_line": 466,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_updateRawBalanceIfNeeded",
+      "file": "BunniHub.sol",
+      "start_line": 469,
+      "end_line": 491,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_getBunniTokenOfPool",
+      "file": "BunniHub.sol",
+      "start_line": 493,
+      "end_line": 498,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_getHookParams",
+      "file": "BunniHub.sol",
+      "start_line": 500,
+      "end_line": 504,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_updateBalance",
+      "file": "BunniHub.sol",
+      "start_line": 506,
+      "end_line": 508,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "setIsWhitelisted",
+      "file": "BunniZone.sol",
+      "start_line": 30,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "validate",
+      "file": "BunniZone.sol",
+      "start_line": 41,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "fee",
+      "file": "BunniZone.sol",
+      "start_line": 57,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "weth",
+      "var_type": "WETH internal immutable",
+      "file": "BunniHook.sol",
+      "line": 54
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "hub",
+      "var_type": "IBunniHub internal immutable",
+      "file": "BunniHook.sol",
+      "line": 55
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "permit2",
+      "var_type": "address internal immutable",
+      "file": "BunniHook.sol",
+      "line": 56
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "floodPlain",
+      "var_type": "IFloodPlain internal immutable",
+      "file": "BunniHook.sol",
+      "line": 57
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "s",
+      "var_type": "HookStorage internal",
+      "file": "BunniHook.sol",
+      "line": 65
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "amAmmEnabledOverride",
+      "var_type": "mapping(PoolId => BoolOverride) internal",
+      "file": "BunniHook.sol",
+      "line": 68
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "hookFeeModifier",
+      "var_type": "uint32 internal",
+      "file": "BunniHook.sol",
+      "line": 71
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "referralRewardModifier",
+      "var_type": "uint32 internal",
+      "file": "BunniHook.sol",
+      "line": 74
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "floodZone",
+      "var_type": "IZone internal",
+      "file": "BunniHook.sol",
+      "line": 77
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "globalAmAmmEnabledOverride",
+      "var_type": "BoolOverride internal",
+      "file": "BunniHook.sol",
+      "line": 80
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "weth",
+      "var_type": "WETH internal immutable",
+      "file": "BunniHub.sol",
+      "line": 51
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "var_type": "IPoolManager internal immutable",
+      "file": "BunniHub.sol",
+      "line": 52
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "bunniTokenImplementation",
+      "var_type": "IBunniToken internal immutable",
+      "file": "BunniHub.sol",
+      "line": 53
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "s",
+      "var_type": "HubStorage internal",
+      "file": "BunniHub.sol",
+      "line": 60
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "isWhitelisted",
+      "var_type": "mapping(address => bool) public",
+      "file": "BunniZone.sol",
+      "line": 20
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:188",
+      "call_type": "INTERFACE_CALL",
+      "line": 188,
+      "enclosing_function": "_rebalancePrehookCallback",
+      "file": "BunniHook.sol",
+      "raw_text": "hub.hookHandleSwap({key: key, zeroForOne: zeroForOne, inputAmount: 0, outputAmount: amount});"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:191",
+      "call_type": "INTERFACE_CALL",
+      "line": 191,
+      "enclosing_function": "_rebalancePrehookCallback",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.burn(address(this), currency.toId(), amount);"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:192",
+      "call_type": "INTERFACE_CALL",
+      "line": 192,
+      "enclosing_function": "_rebalancePrehookCallback",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.take(currency, address(this), amount);"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:204",
+      "call_type": "INTERFACE_CALL",
+      "line": 204,
+      "enclosing_function": "_rebalancePosthookCallback",
+      "file": "BunniHook.sol",
+      "raw_text": "uint256 paid = poolManager.settle{value: currency.isNative() ? amount : 0}();"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:205",
+      "call_type": "INTERFACE_CALL",
+      "line": 205,
+      "enclosing_function": "_rebalancePosthookCallback",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.mint(address(this), currency.toId(), paid);"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:208",
+      "call_type": "INTERFACE_CALL",
+      "line": 208,
+      "enclosing_function": "_rebalancePosthookCallback",
+      "file": "BunniHook.sol",
+      "raw_text": "hub.hookHandleSwap({key: key, zeroForOne: zeroForOne, inputAmount: paid, outputAmount: 0});"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:220",
+      "call_type": "INTERFACE_CALL",
+      "line": 220,
+      "enclosing_function": "_claimFees",
+      "file": "BunniHook.sol",
+      "raw_text": "uint256 balance = poolManager.balanceOf(address(this), currency.toId()) - _totalFees[currency];"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:222",
+      "call_type": "INTERFACE_CALL",
+      "line": 222,
+      "enclosing_function": "_claimFees",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.burn(address(this), currency.toId(), balance);"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:223",
+      "call_type": "INTERFACE_CALL",
+      "line": 223,
+      "enclosing_function": "_claimFees",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.take(currency, recipient, balance);"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:245",
+      "call_type": "INTERFACE_CALL",
+      "line": 245,
+      "enclosing_function": "claimProtocolFees",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.unlock(abi.encode(HookUnlockCallbackType.CLAIM_FEES, abi.encode(currencyList, recipient)));"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:289",
+      "call_type": "INTERFACE_CALL",
+      "line": 289,
+      "enclosing_function": "getObservation",
+      "file": "BunniHook.sol",
+      "raw_text": "observation = s.observations[key.toId()][index];"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:294",
+      "call_type": "INTERFACE_CALL",
+      "line": 294,
+      "enclosing_function": "getState",
+      "file": "BunniHook.sol",
+      "raw_text": "state = s.states[key.toId()];"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:436",
+      "call_type": "INTERFACE_CALL",
+      "line": 436,
+      "enclosing_function": "rebalanceOrderPreHook",
+      "file": "BunniHook.sol",
+      "raw_text": "if (keccak256(abi.encode(hookArgs)) != s.rebalanceOrderHookArgsHash[hookArgs.key.toId()]) {"
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:445",
+      "call_type": "INTERFACE_CALL",
+      "line": 445,
+      "enclosing_function": "rebalanceOrderPreHook",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.unlock("
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:460",
+      "call_type": "INTERFACE_CALL",
+      "line": 460,
+      "enclosing_function": "rebalanceOrderPreHook",
+      "file": "BunniHook.sol",
+      "raw_text": "weth.deposit{value: args.amount}();"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:472",
+      "call_type": "INTERFACE_CALL",
+      "line": 472,
+      "enclosing_function": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol",
+      "raw_text": "if (keccak256(abi.encode(hookArgs)) != s.rebalanceOrderHookArgsHash[hookArgs.key.toId()]) {"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:494",
+      "call_type": "INTERFACE_CALL",
+      "line": 494,
+      "enclosing_function": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol",
+      "raw_text": "orderOutputAmount = weth.balanceOf(address(this));"
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:495",
+      "call_type": "INTERFACE_CALL",
+      "line": 495,
+      "enclosing_function": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol",
+      "raw_text": "weth.withdraw(orderOutputAmount);"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:501",
+      "call_type": "INTERFACE_CALL",
+      "line": 501,
+      "enclosing_function": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.sync(args.currency);"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:503",
+      "call_type": "INTERFACE_CALL",
+      "line": 503,
+      "enclosing_function": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol",
+      "raw_text": "Currency.unwrap(args.currency).safeTransfer(address(poolManager), orderOutputAmount);"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:505",
+      "call_type": "INTERFACE_CALL",
+      "line": 505,
+      "enclosing_function": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.unlock("
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:527",
+      "call_type": "INTERFACE_CALL",
+      "line": 527,
+      "enclosing_function": "_amAmmEnabled",
+      "file": "BunniHook.sol",
+      "raw_text": "bytes memory hookParams = hub.hookParams(id);"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:539",
+      "call_type": "INTERFACE_CALL",
+      "line": 539,
+      "enclosing_function": "_payloadIsValid",
+      "file": "BunniHook.sol",
+      "raw_text": "bytes memory hookParams = hub.hookParams(id);"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:553",
+      "call_type": "INTERFACE_CALL",
+      "line": 553,
+      "enclosing_function": "_burnBidToken",
+      "file": "BunniHook.sol",
+      "raw_text": "hub.bunniTokenOfPool(id).burn(amount);"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:557",
+      "call_type": "INTERFACE_CALL",
+      "line": 557,
+      "enclosing_function": "_pullBidToken",
+      "file": "BunniHook.sol",
+      "raw_text": "hub.bunniTokenOfPool(id).transferFrom(from, address(this), amount);"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "TRANSFER:BunniHook.sol:561",
+      "call_type": "TRANSFER",
+      "line": 561,
+      "enclosing_function": "_pushBidToken",
+      "file": "BunniHook.sol",
+      "raw_text": "hub.bunniTokenOfPool(id).transfer(to, amount);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:561",
+      "call_type": "INTERFACE_CALL",
+      "line": 561,
+      "enclosing_function": "_pushBidToken",
+      "file": "BunniHook.sol",
+      "raw_text": "hub.bunniTokenOfPool(id).transfer(to, amount);"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "TRANSFER:BunniHook.sol:565",
+      "call_type": "TRANSFER",
+      "line": 565,
+      "enclosing_function": "_transferFeeToken",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.transfer(to, currency.toId(), amount);"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:565",
+      "call_type": "INTERFACE_CALL",
+      "line": 565,
+      "enclosing_function": "_transferFeeToken",
+      "file": "BunniHook.sol",
+      "raw_text": "poolManager.transfer(to, currency.toId(), amount);"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:154",
+      "call_type": "INTERFACE_CALL",
+      "line": 154,
+      "enclosing_function": "beforeSwap",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "PoolState memory bunniState = env.hub.poolState(id);"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:400",
+      "call_type": "INTERFACE_CALL",
+      "line": 400,
+      "enclosing_function": "beforeSwap",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "env.poolManager.mint(address(this), inputToken.toId(), inputAmount);"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:406",
+      "call_type": "INTERFACE_CALL",
+      "line": 406,
+      "enclosing_function": "beforeSwap",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "env.hub.hookHandleSwap(key, params.zeroForOne, hookHandleSwapInputAmount, hookHandleSwapOutoutAmount);"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:409",
+      "call_type": "INTERFACE_CALL",
+      "line": 409,
+      "enclosing_function": "beforeSwap",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "env.poolManager.burn(address(this), outputToken.toId(), outputAmount);"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:415",
+      "call_type": "INTERFACE_CALL",
+      "line": 415,
+      "enclosing_function": "beforeSwap",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "if (!env.poolManager.isOperator(address(this), address(bunniState.bunniToken))) {"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:416",
+      "call_type": "INTERFACE_CALL",
+      "line": 416,
+      "enclosing_function": "beforeSwap",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "env.poolManager.setOperator(address(bunniState.bunniToken), true);"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:561",
+      "call_type": "INTERFACE_CALL",
+      "line": 561,
+      "enclosing_function": "_computeRebalanceParams",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "PoolState memory bunniState = env.hub.poolState(input.id);"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:731",
+      "call_type": "INTERFACE_CALL",
+      "line": 731,
+      "enclosing_function": "_createRebalanceOrder",
+      "file": "BunniHookLogic.sol",
+      "raw_text": "s.rebalanceOrderHookArgsHash[id] = keccak256(abi.encode(hookArgs));"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:177",
+      "call_type": "INTERFACE_CALL",
+      "line": 177,
+      "enclosing_function": "hookHandleSwap",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.transferFrom(address(key.hooks), address(this), inputToken.toId(), inputAmount);"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "TRANSFER:BunniHub.sol:197",
+      "call_type": "TRANSFER",
+      "line": 197,
+      "enclosing_function": "hookHandleSwap",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.transfer(address(key.hooks), outputToken.toId(), outputAmount);"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:197",
+      "call_type": "INTERFACE_CALL",
+      "line": 197,
+      "enclosing_function": "hookHandleSwap",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.transfer(address(key.hooks), outputToken.toId(), outputAmount);"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:345",
+      "call_type": "INTERFACE_CALL",
+      "line": 345,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.sync(key.currency0);"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:350",
+      "call_type": "INTERFACE_CALL",
+      "line": 350,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "paid0 = poolManager.settle{value: rawAmount0}();"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:353",
+      "call_type": "INTERFACE_CALL",
+      "line": 353,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "paid0 = poolManager.settle();"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:356",
+      "call_type": "INTERFACE_CALL",
+      "line": 356,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.mint(address(this), key.currency0.toId(), paid0);"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:360",
+      "call_type": "INTERFACE_CALL",
+      "line": 360,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.sync(key.currency1);"
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:365",
+      "call_type": "INTERFACE_CALL",
+      "line": 365,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "paid1 = poolManager.settle{value: rawAmount1}();"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:368",
+      "call_type": "INTERFACE_CALL",
+      "line": 368,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "paid1 = poolManager.settle();"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:371",
+      "call_type": "INTERFACE_CALL",
+      "line": 371,
+      "enclosing_function": "_depositUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.mint(address(this), key.currency1.toId(), paid1);"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:384",
+      "call_type": "INTERFACE_CALL",
+      "line": 384,
+      "enclosing_function": "_withdrawUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.burn(address(this), key.currency0.toId(), rawAmount0);"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:385",
+      "call_type": "INTERFACE_CALL",
+      "line": 385,
+      "enclosing_function": "_withdrawUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.take(key.currency0, recipient, rawAmount0);"
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:389",
+      "call_type": "INTERFACE_CALL",
+      "line": 389,
+      "enclosing_function": "_withdrawUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.burn(address(this), key.currency1.toId(), rawAmount1);"
+    },
+    {
+      "node_id": 132,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:390",
+      "call_type": "INTERFACE_CALL",
+      "line": 390,
+      "enclosing_function": "_withdrawUnlockCallback",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.take(key.currency1, recipient, rawAmount1);"
+    },
+    {
+      "node_id": 133,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:418",
+      "call_type": "INTERFACE_CALL",
+      "line": 418,
+      "enclosing_function": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.burn(address(this), currency.toId(), absAmount);"
+    },
+    {
+      "node_id": 134,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:421",
+      "call_type": "INTERFACE_CALL",
+      "line": 421,
+      "enclosing_function": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.take(currency, address(this), absAmount);"
+    },
+    {
+      "node_id": 135,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:430",
+      "call_type": "INTERFACE_CALL",
+      "line": 430,
+      "enclosing_function": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol",
+      "raw_text": "token = IERC20(Currency.unwrap(currency));"
+    },
+    {
+      "node_id": 136,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:440",
+      "call_type": "INTERFACE_CALL",
+      "line": 440,
+      "enclosing_function": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.sync(currency);"
+    },
+    {
+      "node_id": 137,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:460",
+      "call_type": "INTERFACE_CALL",
+      "line": 460,
+      "enclosing_function": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol",
+      "raw_text": "uint256 settleAmount = poolManager.settle{value: settleMsgValue}();"
+    },
+    {
+      "node_id": 138,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:464",
+      "call_type": "INTERFACE_CALL",
+      "line": 464,
+      "enclosing_function": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol",
+      "raw_text": "poolManager.mint(address(this), currency.toId(), settleAmount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        67,
+        77,
+        81
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 81
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        3,
+        67,
+        77,
+        82
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 82
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        3,
+        67,
+        77,
+        83
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 83
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        2,
+        4,
+        67,
+        77,
+        84
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 84
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        2,
+        4,
+        67,
+        77,
+        85
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 85
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        2,
+        4,
+        67,
+        77,
+        86
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 86
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        2,
+        5,
+        77,
+        87
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 87
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        2,
+        5,
+        77,
+        88
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 88
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        2,
+        5,
+        77,
+        89
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 89
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        7,
+        90
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 90
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        12,
+        70,
+        91
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 91
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        13,
+        70,
+        92
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 92
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        22,
+        66,
+        69,
+        70,
+        93
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 93
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        22,
+        66,
+        69,
+        70,
+        94
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 94
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        22,
+        66,
+        69,
+        70,
+        95
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 95
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        23,
+        66,
+        69,
+        70,
+        96
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 96
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        23,
+        66,
+        69,
+        70,
+        97
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 97
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        23,
+        66,
+        69,
+        70,
+        98
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 98
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        23,
+        66,
+        69,
+        70,
+        99
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 99
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        23,
+        66,
+        69,
+        70,
+        100
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 100
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        23,
+        66,
+        69,
+        70,
+        101
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 101
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        16,
+        24,
+        67,
+        71,
+        75,
+        102
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        25,
+        67,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        26,
+        67,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        27,
+        67,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        28,
+        67,
+        106
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        28,
+        67,
+        107
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        29,
+        108
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 108
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        29,
+        109
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 109
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        21,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        110
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 110
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        21,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        111
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 111
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        21,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        112
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 112
+    },
+    {
+      "edge_id": 32,
+      "node_ids": [
+        21,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        113
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 113
+    },
+    {
+      "edge_id": 33,
+      "node_ids": [
+        21,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        114
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 114
+    },
+    {
+      "edge_id": 34,
+      "node_ids": [
+        21,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        115
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 115
+    },
+    {
+      "edge_id": 35,
+      "node_ids": [
+        21,
+        34,
+        35,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        116
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 116
+    },
+    {
+      "edge_id": 36,
+      "node_ids": [
+        21,
+        34,
+        36,
+        66,
+        67,
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        117
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 117
+    },
+    {
+      "edge_id": 37,
+      "node_ids": [
+        45,
+        70,
+        77,
+        118
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 118
+    },
+    {
+      "edge_id": 38,
+      "node_ids": [
+        45,
+        70,
+        77,
+        119
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 119
+    },
+    {
+      "edge_id": 39,
+      "node_ids": [
+        45,
+        70,
+        77,
+        120
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 120
+    },
+    {
+      "edge_id": 40,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        121
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 121
+    },
+    {
+      "edge_id": 41,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        122
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 122
+    },
+    {
+      "edge_id": 42,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        123
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 123
+    },
+    {
+      "edge_id": 43,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        124
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 124
+    },
+    {
+      "edge_id": 44,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        125
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 125
+    },
+    {
+      "edge_id": 45,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        126
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 126
+    },
+    {
+      "edge_id": 46,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        127
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 127
+    },
+    {
+      "edge_id": 47,
+      "node_ids": [
+        2,
+        56,
+        70,
+        77,
+        128
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 128
+    },
+    {
+      "edge_id": 48,
+      "node_ids": [
+        2,
+        57,
+        70,
+        77,
+        129
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 129
+    },
+    {
+      "edge_id": 49,
+      "node_ids": [
+        2,
+        57,
+        70,
+        77,
+        130
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 130
+    },
+    {
+      "edge_id": 50,
+      "node_ids": [
+        2,
+        57,
+        70,
+        77,
+        131
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 131
+    },
+    {
+      "edge_id": 51,
+      "node_ids": [
+        2,
+        57,
+        70,
+        77,
+        132
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 132
+    },
+    {
+      "edge_id": 52,
+      "node_ids": [
+        45,
+        58,
+        59,
+        66,
+        70,
+        77,
+        133
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 133
+    },
+    {
+      "edge_id": 53,
+      "node_ids": [
+        45,
+        58,
+        59,
+        66,
+        70,
+        77,
+        134
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 134
+    },
+    {
+      "edge_id": 54,
+      "node_ids": [
+        45,
+        58,
+        59,
+        66,
+        70,
+        77,
+        135
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 135
+    },
+    {
+      "edge_id": 55,
+      "node_ids": [
+        45,
+        58,
+        59,
+        66,
+        70,
+        77,
+        136
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 136
+    },
+    {
+      "edge_id": 56,
+      "node_ids": [
+        45,
+        58,
+        59,
+        66,
+        70,
+        77,
+        137
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 137
+    },
+    {
+      "edge_id": 57,
+      "node_ids": [
+        45,
+        58,
+        59,
+        66,
+        70,
+        77,
+        138
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 138
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "increaseCardinalityNext",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_rebalancePrehookCallback",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_rebalancePosthookCallback",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_claimFees",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateLdfState",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimProtocolFees",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setZone",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setModifiers",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setAmAmmEnabledOverride",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setGlobalAmAmmEnabledOverride",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getObservation",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getState",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "observe",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "isValidParams",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getAmAmmEnabled",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "ldfStates",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "slot0s",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "vaultSharePricesAtLastSwap",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "afterInitialize",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "beforeSwap",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "rebalanceOrderPreHook",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "rebalanceOrderPostHook",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_amAmmEnabled",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_payloadIsValid",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_burnBidToken",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_pullBidToken",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_pushBidToken",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_transferFeeToken",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "afterInitialize",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "beforeSwap",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "decodeHookParams",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_shouldSurgeFromVaults",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_rebalance",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_computeRebalanceParams",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_createRebalanceOrder",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_getTwap",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_updateOracle",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_newOrderHash",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_decodeParams",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "queueWithdraw",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "deployBunniToken",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "hookHandleSwap",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "setReferrerAddress",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "poolState",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "poolParams",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "bunniTokenOfPool",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "hookParams",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "poolBalances",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "nonce",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "poolIdOfBunniToken",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "getReferrerAddress",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_depositUnlockCallback",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_withdrawUnlockCallback",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "_updateVaultReserveViaClaimTokens",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "_updateRawBalanceIfNeeded",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_getBunniTokenOfPool",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_getHookParams",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "_updateBalance",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "setIsWhitelisted",
+      "file": "BunniZone.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "validate",
+      "file": "BunniZone.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "fee",
+      "file": "BunniZone.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "weth",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "hub",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "permit2",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "floodPlain",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "s",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "amAmmEnabledOverride",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "hookFeeModifier",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "referralRewardModifier",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "floodZone",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "globalAmAmmEnabledOverride",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "weth",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "bunniTokenImplementation",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "s",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "isWhitelisted",
+      "file": "BunniZone.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:188",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:191",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:192",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:204",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:205",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:208",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:220",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:222",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:223",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:245",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:289",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:294",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:436",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:445",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:460",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:472",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:494",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:495",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:501",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:503",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:505",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:527",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:539",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:553",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:557",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "TRANSFER:BunniHook.sol:561",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:561",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "TRANSFER:BunniHook.sol:565",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHook.sol:565",
+      "file": "BunniHook.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:154",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:400",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:406",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:409",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:415",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:416",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:561",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHookLogic.sol:731",
+      "file": "BunniHookLogic.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:177",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "TRANSFER:BunniHub.sol:197",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:197",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:345",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:350",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:353",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:356",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:360",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:365",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:368",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:371",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:384",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:385",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:389",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:390",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:418",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:421",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:430",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:440",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:460",
+      "file": "BunniHub.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BunniHub.sol:464",
+      "file": "BunniHub.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 139,
+    "n_hyperedges": 58,
+    "n_functions": 66,
+    "n_state_vars": 15,
+    "n_call_sites": 58,
+    "avg_hyperedge_size": 5.482758620689655
+  },
+  "label": {
+    "vfp_id": "vfp_00061",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-1339",
+      "CWE-191",
+      "CWE-20",
+      "CWE-345",
+      "CWE-347",
+      "CWE-404",
+      "CWE-435",
+      "CWE-664",
+      "CWE-682",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754",
+      "CWE-772"
+    ]
+  }
+}

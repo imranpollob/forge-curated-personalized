@@ -1,0 +1,186 @@
+{
+  "sample_id": "vfp_00503",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approveNative",
+      "file": "ERC7914.sol",
+      "start_line": 14,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "approveNativeTransient",
+      "file": "ERC7914.sol",
+      "start_line": 21,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFromNative",
+      "file": "ERC7914.sol",
+      "start_line": 28,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFromNativeTransient",
+      "file": "ERC7914.sol",
+      "start_line": 36,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transientAllowance",
+      "file": "ERC7914.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_transferFrom",
+      "file": "ERC7914.sol",
+      "start_line": 53,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping(address spender => uint256 allowance) public",
+      "file": "ERC7914.sol",
+      "line": 11
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "CALL:ERC7914.sol:75",
+      "call_type": "CALL",
+      "line": 75,
+      "enclosing_function": "_transferFrom",
+      "file": "ERC7914.sol",
+      "raw_text": "(bool success,) = payable(recipient).call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approveNative",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "approveNativeTransient",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFromNative",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFromNativeTransient",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transientAllowance",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_transferFrom",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "ERC7914.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "CALL:ERC7914.sol:75",
+      "file": "ERC7914.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 1,
+    "n_functions": 6,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00503",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1289",
+      "CWE-20",
+      "CWE-440",
+      "CWE-684",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

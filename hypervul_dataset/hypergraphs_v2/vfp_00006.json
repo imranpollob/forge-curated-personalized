@@ -1,0 +1,364 @@
+{
+  "sample_id": "vfp_00006",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 41,
+      "end_line": 54,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "balanceOfAll",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 61,
+      "end_line": 67,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "balanceOfBatch",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 72,
+      "end_line": 86,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceDetailsOf",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceDetailsOfAll",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 103,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceDetailsOfBatch",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 117,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_burnGroupBalances",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 138,
+      "end_line": 161,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "expirationFor",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 168,
+      "end_line": 170,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_pruneGroups",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 177,
+      "end_line": 205,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_transferGroups",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 214,
+      "end_line": 244,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setTTL",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 251,
+      "end_line": 255,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "ttlOf",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 262,
+      "end_line": 264,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "ttlOfAll",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 270,
+      "end_line": 276,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "ttlOfBatch",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 283,
+      "end_line": 289,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_update",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 294,
+      "end_line": 322,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_upsertGroup",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 331,
+      "end_line": 363,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_validGroups",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "start_line": 371,
+      "end_line": 403,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_group",
+      "var_type": "mapping(address => mapping(uint256 => Group[])) private",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "line": 18
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_ttls",
+      "var_type": "mapping(uint256 => uint256) private",
+      "file": "EVMAuthExpiringERC1155.sol",
+      "line": 21
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "balanceOfAll",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "balanceOfBatch",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceDetailsOf",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceDetailsOfAll",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceDetailsOfBatch",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_burnGroupBalances",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "expirationFor",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_pruneGroups",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_transferGroups",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setTTL",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "ttlOf",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "ttlOfAll",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "ttlOfBatch",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_update",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_upsertGroup",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_validGroups",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_group",
+      "file": "EVMAuthExpiringERC1155.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_ttls",
+      "file": "EVMAuthExpiringERC1155.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 0,
+    "n_functions": 17,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00006",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1325",
+      "CWE-400",
+      "CWE-424",
+      "CWE-664",
+      "CWE-666",
+      "CWE-672",
+      "CWE-693",
+      "CWE-703",
+      "CWE-754",
+      "CWE-770"
+    ]
+  }
+}

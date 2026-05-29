@@ -1,0 +1,398 @@
+{
+  "sample_id": "vfp_00504",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "register",
+      "file": "KeyManagement.sol",
+      "start_line": 21,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "update",
+      "file": "KeyManagement.sol",
+      "start_line": 32,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "revoke",
+      "file": "KeyManagement.sol",
+      "start_line": 39,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "keyCount",
+      "file": "KeyManagement.sol",
+      "start_line": 48,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "keyAt",
+      "file": "KeyManagement.sol",
+      "start_line": 53,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getKey",
+      "file": "KeyManagement.sol",
+      "start_line": 58,
+      "end_line": 62,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getKeySettings",
+      "file": "KeyManagement.sol",
+      "start_line": 65,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isRegistered",
+      "file": "KeyManagement.sol",
+      "start_line": 72,
+      "end_line": 74,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_checkExpiry",
+      "file": "KeyManagement.sol",
+      "start_line": 77,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_isOwnerOrAdmin",
+      "file": "KeyManagement.sol",
+      "start_line": 83,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "keyHashes",
+      "var_type": "EnumerableSetLib.Bytes32Set",
+      "file": "KeyManagement.sol",
+      "line": 16
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "keyStorage",
+      "var_type": "mapping(bytes32 keyHash => bytes encodedKey)",
+      "file": "KeyManagement.sol",
+      "line": 17
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "keySettings",
+      "var_type": "mapping(bytes32 keyHash => Settings settings)",
+      "file": "KeyManagement.sol",
+      "line": 18
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:26",
+      "call_type": "INTERFACE_CALL",
+      "line": 26,
+      "enclosing_function": "register",
+      "file": "KeyManagement.sol",
+      "raw_text": "keyHashes.add(keyHash);"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:40",
+      "call_type": "INTERFACE_CALL",
+      "line": 40,
+      "enclosing_function": "revoke",
+      "file": "KeyManagement.sol",
+      "raw_text": "if (!keyHashes.remove(keyHash)) revert KeyDoesNotExist();"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:49",
+      "call_type": "INTERFACE_CALL",
+      "line": 49,
+      "enclosing_function": "keyCount",
+      "file": "KeyManagement.sol",
+      "raw_text": "return keyHashes.length();"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:54",
+      "call_type": "INTERFACE_CALL",
+      "line": 54,
+      "enclosing_function": "keyAt",
+      "file": "KeyManagement.sol",
+      "raw_text": "return getKey(keyHashes.at(i));"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:73",
+      "call_type": "INTERFACE_CALL",
+      "line": 73,
+      "enclosing_function": "isRegistered",
+      "file": "KeyManagement.sol",
+      "raw_text": "return keyHashes.contains(keyHash);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        10,
+        11,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        10,
+        11,
+        12,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        10,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        10,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "register",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "update",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "revoke",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "keyCount",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "keyAt",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getKey",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getKeySettings",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isRegistered",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_checkExpiry",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_isOwnerOrAdmin",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "keyHashes",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "keyStorage",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "keySettings",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:26",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:40",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:49",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:54",
+      "file": "KeyManagement.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:KeyManagement.sol:73",
+      "file": "KeyManagement.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 5,
+    "n_functions": 10,
+    "n_state_vars": 3,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00504",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-284",
+      "CWE-285",
+      "CWE-345",
+      "CWE-347",
+      "CWE-456",
+      "CWE-664",
+      "CWE-665",
+      "CWE-693",
+      "CWE-863",
+      "CWE-909"
+    ]
+  }
+}

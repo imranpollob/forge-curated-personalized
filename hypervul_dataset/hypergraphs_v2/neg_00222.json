@@ -1,0 +1,633 @@
+{
+  "sample_id": "neg_00222",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "populate",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "start_line": 48,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "remove",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "start_line": 142,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "append",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_challengeV2_libraries_ArrayUtilsLib.sol",
+      "start_line": 13,
+      "end_line": 23,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "slice",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_challengeV2_libraries_ArrayUtilsLib.sol",
+      "start_line": 30,
+      "end_line": 43,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "concat",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_challengeV2_libraries_ArrayUtilsLib.sol",
+      "start_line": 48,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "flag",
+      "var_type": "bool",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 9
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "owner",
+      "var_type": "address",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 10
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "other",
+      "var_type": "address",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 11
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "sub",
+      "var_type": "Struct",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 12
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "structs",
+      "var_type": "Struct[]",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 13
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "vector",
+      "var_type": "uint64[]",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 14
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "nested",
+      "var_type": "uint40[][]",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 15
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "bytesFull",
+      "var_type": "bytes",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 16
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "bytesLong",
+      "var_type": "bytes",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 17
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "chars",
+      "var_type": "string",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 18
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "maps",
+      "var_type": "Maps",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 19
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "arrays",
+      "var_type": "Arrays",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "line": 20
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:58",
+      "call_type": "INTERFACE_CALL",
+      "line": 58,
+      "enclosing_function": "populate",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "vector.push(i);"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:63",
+      "call_type": "INTERFACE_CALL",
+      "line": 63,
+      "enclosing_function": "populate",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "nested.push(new uint40[](w));"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:94",
+      "call_type": "INTERFACE_CALL",
+      "line": 94,
+      "enclosing_function": "populate",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "maps.array.push();"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:105",
+      "call_type": "INTERFACE_CALL",
+      "line": 105,
+      "enclosing_function": "populate",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "structs.push(sub);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:128",
+      "call_type": "INTERFACE_CALL",
+      "line": 128,
+      "enclosing_function": "populate",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "arrays.vector.push(array);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:144",
+      "call_type": "INTERFACE_CALL",
+      "line": 144,
+      "enclosing_function": "remove",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "bytesFull.pop();"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:148",
+      "call_type": "INTERFACE_CALL",
+      "line": 148,
+      "enclosing_function": "remove",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "bytesLong.pop();"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:154",
+      "call_type": "INTERFACE_CALL",
+      "line": 154,
+      "enclosing_function": "remove",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "vector.pop();"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:158",
+      "call_type": "INTERFACE_CALL",
+      "line": 158,
+      "enclosing_function": "remove",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "nested.pop();"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:170",
+      "call_type": "INTERFACE_CALL",
+      "line": 170,
+      "enclosing_function": "remove",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol",
+      "raw_text": "structs.pop();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "populate",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "remove",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "append",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_challengeV2_libraries_ArrayUtilsLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "slice",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_challengeV2_libraries_ArrayUtilsLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "concat",
+      "file": "940373b68d0e9cffa006eb9e6d0b4376138d531c_nitro-contracts_src_challengeV2_libraries_ArrayUtilsLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "flag",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "owner",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "other",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "sub",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "structs",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "vector",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "nested",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "bytesFull",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "bytesLong",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "chars",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "maps",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "arrays",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:58",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:63",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:94",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:105",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:128",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:144",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:148",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:154",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:158",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol:170",
+      "file": "3f226a0ecf91ceed3688a2fc41969fae1f32d03d_nitro_contracts-local_src_mocks_SdkStorage.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 27,
+    "n_hyperedges": 10,
+    "n_functions": 5,
+    "n_state_vars": 12,
+    "n_call_sites": 10,
+    "avg_hyperedge_size": 12.0
+  },
+  "label": {
+    "vfp_id": "neg_00222",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

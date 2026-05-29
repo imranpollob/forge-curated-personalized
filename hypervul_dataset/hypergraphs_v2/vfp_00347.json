@@ -1,0 +1,647 @@
+{
+  "sample_id": "vfp_00347",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "depositAndDelegate",
+      "file": "StakingVault.sol",
+      "start_line": 97,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "StakingVault.sol",
+      "start_line": 106,
+      "end_line": 129,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setUnstakingDelay",
+      "file": "StakingVault.sol",
+      "start_line": 132,
+      "end_line": 134,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setUnstakingDelay",
+      "file": "StakingVault.sol",
+      "start_line": 137,
+      "end_line": 142,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addRewardToken",
+      "file": "StakingVault.sol",
+      "start_line": 148,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeRewardToken",
+      "file": "StakingVault.sol",
+      "start_line": 164,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "StakingVault.sol",
+      "start_line": 176,
+      "end_line": 199,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getAllRewardTokens",
+      "file": "StakingVault.sol",
+      "start_line": 201,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setRewardRatio",
+      "file": "StakingVault.sol",
+      "start_line": 209,
+      "end_line": 211,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setRewardRatio",
+      "file": "StakingVault.sol",
+      "start_line": 214,
+      "end_line": 224,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "poke",
+      "file": "StakingVault.sol",
+      "start_line": 226,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_accrueRewards",
+      "file": "StakingVault.sol",
+      "start_line": 233,
+      "end_line": 250,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_accrueRewards",
+      "file": "StakingVault.sol",
+      "start_line": 252,
+      "end_line": 282,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_accrueUser",
+      "file": "StakingVault.sol",
+      "start_line": 284,
+      "end_line": 304,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_update",
+      "file": "StakingVault.sol",
+      "start_line": 309,
+      "end_line": 315,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "StakingVault.sol",
+      "start_line": 317,
+      "end_line": 319,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StakingVault.sol",
+      "start_line": 321,
+      "end_line": 323,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "clock",
+      "file": "StakingVault.sol",
+      "start_line": 328,
+      "end_line": 330,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "StakingVault.sol",
+      "start_line": 332,
+      "end_line": 334,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "rewardTokens",
+      "var_type": "EnumerableSet.AddressSet private",
+      "file": "StakingVault.sol",
+      "line": 37
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "rewardRatio",
+      "var_type": "uint256 public",
+      "file": "StakingVault.sol",
+      "line": 38
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "unstakingManager",
+      "var_type": "UnstakingManager public immutable",
+      "file": "StakingVault.sol",
+      "line": 40
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "unstakingDelay",
+      "var_type": "uint256 public",
+      "file": "StakingVault.sol",
+      "line": 41
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "rewardTrackers",
+      "var_type": "mapping(address token => RewardInfo rewardInfo) public",
+      "file": "StakingVault.sol",
+      "line": 57
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "disallowedRewardTokens",
+      "var_type": "mapping(address token => bool isDisallowed) public",
+      "file": "StakingVault.sol",
+      "line": 58
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "userRewardTrackers",
+      "var_type": "mapping(address token => mapping(address user => UserRewardInfo userReward)) public",
+      "file": "StakingVault.sol",
+      "line": 59
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:114",
+      "call_type": "INTERFACE_CALL",
+      "line": 114,
+      "enclosing_function": "_withdraw",
+      "file": "StakingVault.sol",
+      "raw_text": "SafeERC20.forceApprove(IERC20(asset()), address(unstakingManager), _assets);"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:115",
+      "call_type": "INTERFACE_CALL",
+      "line": 115,
+      "enclosing_function": "_withdraw",
+      "file": "StakingVault.sol",
+      "raw_text": "unstakingManager.createLock(_receiver, _assets, block.timestamp + unstakingDelay);"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:141",
+      "call_type": "INTERFACE_CALL",
+      "line": 141,
+      "enclosing_function": "addRewardToken",
+      "file": "StakingVault.sol",
+      "raw_text": "require(rewardTokens.add(_rewardToken), Vault__RewardAlreadyRegistered());"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:155",
+      "call_type": "INTERFACE_CALL",
+      "line": 155,
+      "enclosing_function": "removeRewardToken",
+      "file": "StakingVault.sol",
+      "raw_text": "require(rewardTokens.remove(_rewardToken), Vault__RewardNotRegistered());"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:182",
+      "call_type": "INTERFACE_CALL",
+      "line": 182,
+      "enclosing_function": "claimRewards",
+      "file": "StakingVault.sol",
+      "raw_text": "SafeERC20.safeTransfer(IERC20(_rewardToken), msg.sender, claimableRewards[i]);"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:190",
+      "call_type": "INTERFACE_CALL",
+      "line": 190,
+      "enclosing_function": "getAllRewardTokens",
+      "file": "StakingVault.sol",
+      "raw_text": "return rewardTokens.values();"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:220",
+      "call_type": "INTERFACE_CALL",
+      "line": 220,
+      "enclosing_function": "_accrueRewards",
+      "file": "StakingVault.sol",
+      "raw_text": "address[] memory _rewardTokens = rewardTokens.values();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        21,
+        22,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        21,
+        22,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        19,
+        23,
+        24,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        5,
+        19,
+        24,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        6,
+        23,
+        25,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        7,
+        19,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        11,
+        19,
+        20,
+        23,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "depositAndDelegate",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setUnstakingDelay",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setUnstakingDelay",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addRewardToken",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeRewardToken",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getAllRewardTokens",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setRewardRatio",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setRewardRatio",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "poke",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_accrueRewards",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_accrueRewards",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_accrueUser",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_update",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "clock",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "rewardTokens",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "rewardRatio",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "unstakingManager",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "unstakingDelay",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "rewardTrackers",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "disallowedRewardTokens",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "userRewardTrackers",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:114",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:115",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:141",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:155",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:182",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:190",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:220",
+      "file": "StakingVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 33,
+    "n_hyperedges": 7,
+    "n_functions": 19,
+    "n_state_vars": 7,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 4.142857142857143
+  },
+  "label": {
+    "vfp_id": "vfp_00347",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

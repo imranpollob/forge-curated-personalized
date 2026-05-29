@@ -1,0 +1,80 @@
+{
+  "sample_id": "neg_00164",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mockSetCap",
+      "file": "euler-earn_test_mocks_EulerEarnMock.sol",
+      "start_line": 17,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mockSimulateWithdrawStrategy",
+      "file": "euler-earn_test_mocks_EulerEarnMock.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mockSetSupplyQueue",
+      "file": "euler-earn_test_mocks_EulerEarnMock.sol",
+      "start_line": 25,
+      "end_line": 27,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mockSetCap",
+      "file": "euler-earn_test_mocks_EulerEarnMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mockSimulateWithdrawStrategy",
+      "file": "euler-earn_test_mocks_EulerEarnMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mockSetSupplyQueue",
+      "file": "euler-earn_test_mocks_EulerEarnMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00164",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

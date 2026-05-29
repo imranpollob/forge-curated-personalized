@@ -1,0 +1,522 @@
+{
+  "sample_id": "vfp_00047",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 27,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__init_SymbioticWithdrawalQueue",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 31,
+      "end_line": 38,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCurrentEpoch",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 41,
+      "end_line": 43,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAccountData",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 46,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEpochData",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 64,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pendingAssets",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 69,
+      "end_line": 75,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pendingAssetsOf",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 78,
+      "end_line": 85,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimableAssetsOf",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 88,
+      "end_line": 101,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "request",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 104,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "transferPendingAssets",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 124,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "pull",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 169,
+      "end_line": 175,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 178,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "handlePendingEpochs",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 203,
+      "end_line": 205,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_withdrawalsOf",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 213,
+      "end_line": 220,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_handlePendingEpochs",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 236,
+      "end_line": 242,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_handlePendingEpoch",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 257,
+      "end_line": 279,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_pullFromSymbioticForEpoch",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 293,
+      "end_line": 310,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_claimable",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 318,
+      "end_line": 332,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_isClaimableInSymbiotic",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "start_line": 340,
+      "end_line": 346,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "claimer",
+      "var_type": "address public immutable",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "line": 11
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "address public",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "line": 13
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "symbioticVault",
+      "var_type": "ISymbioticVault public",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "line": 15
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "collateral",
+      "var_type": "address public",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "line": 17
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_epochData",
+      "var_type": "mapping(uint256 epoch => EpochData data) private",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "line": 19
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_accountData",
+      "var_type": "mapping(address account => AccountData data) private",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "line": 20
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymbioticWithdrawalQueue.sol:42",
+      "call_type": "INTERFACE_CALL",
+      "line": 42,
+      "enclosing_function": "getCurrentEpoch",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "raw_text": "return symbioticVault.currentEpoch();"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymbioticWithdrawalQueue.sol:213",
+      "call_type": "INTERFACE_CALL",
+      "line": 213,
+      "enclosing_function": "_withdrawalsOf",
+      "file": "SymbioticWithdrawalQueue.sol",
+      "raw_text": "symbioticVault.withdrawalsOf(epoch, address(this)), _epochData[epoch].sharesToClaim"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        7,
+        9,
+        13,
+        17,
+        21,
+        23,
+        24,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__init_SymbioticWithdrawalQueue",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCurrentEpoch",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAccountData",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEpochData",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pendingAssets",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pendingAssetsOf",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "claimableAssetsOf",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "request",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "transferPendingAssets",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "pull",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "claim",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "handlePendingEpochs",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_withdrawalsOf",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_handlePendingEpochs",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_handlePendingEpoch",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_pullFromSymbioticForEpoch",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_claimable",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_isClaimableInSymbiotic",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "claimer",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "symbioticVault",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "collateral",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_epochData",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_accountData",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymbioticWithdrawalQueue.sol:42",
+      "file": "SymbioticWithdrawalQueue.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SymbioticWithdrawalQueue.sol:213",
+      "file": "SymbioticWithdrawalQueue.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 27,
+    "n_hyperedges": 2,
+    "n_functions": 19,
+    "n_state_vars": 6,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 12.5
+  },
+  "label": {
+    "vfp_id": "vfp_00047",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-115",
+      "CWE-221",
+      "CWE-223",
+      "CWE-435",
+      "CWE-436",
+      "CWE-664",
+      "CWE-703",
+      "CWE-778"
+    ]
+  }
+}

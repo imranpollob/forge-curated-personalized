@@ -1,0 +1,794 @@
+{
+  "sample_id": "neg_00545",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "CONNECT_DEPOSIT",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 77,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "vaultsCount",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 79,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "vaultByIndex",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 80,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fund",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 81,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 82,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "totalValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 83,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawableValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 84,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 85,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 86,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 92,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 93,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "transferAndBurnShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 94,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "vaultConnection",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 95,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "vaultRecord",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 96,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxLockableValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 97,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "isReportFresh",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 98,
+      "end_line": 98,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "isVaultConnected",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 99,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "isPendingDisconnect",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 100,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "isVaultHealthy",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 101,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "transferVaultOwnership",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 102,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "liabilityShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 103,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "locked",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 104,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "totalMintingCapacityShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 105,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "healthShortfallShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 106,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "obligations",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 107,
+      "end_line": 107,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "settleableLidoFeesValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 108,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "badDebtToInternalize",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 109,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "decreaseInternalizedBadDebt",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 110,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "connectVault",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 112,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setLiabilitySharesTarget",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 113,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "updateConnection",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 114,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "disconnect",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 123,
+      "end_line": 123,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "voluntaryDisconnect",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 124,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "applyVaultReport",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 126,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "latestReport",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 137,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "socializeBadDebt",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 139,
+      "end_line": 139,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "internalizeBadDebt",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 141,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 143,
+      "end_line": 143,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 144,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 145,
+      "end_line": 145,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "forceValidatorExit",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 146,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "forceRebalance",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 147,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "settleLidoFees",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 148,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "proveUnknownValidatorToPDG",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 149,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "collectERC20FromVault",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol",
+      "start_line": 150,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "CONNECT_DEPOSIT",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "vaultsCount",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "vaultByIndex",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fund",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "totalValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawableValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "transferAndBurnShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "vaultConnection",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "vaultRecord",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxLockableValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "isReportFresh",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "isVaultConnected",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "isPendingDisconnect",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "isVaultHealthy",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "transferVaultOwnership",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "liabilityShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "locked",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "totalMintingCapacityShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "healthShortfallShares",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "obligations",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "settleableLidoFeesValue",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "badDebtToInternalize",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "decreaseInternalizedBadDebt",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "connectVault",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setLiabilitySharesTarget",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "updateConnection",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "disconnect",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "voluntaryDisconnect",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "applyVaultReport",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "latestReport",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "socializeBadDebt",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "internalizeBadDebt",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "forceValidatorExit",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "forceRebalance",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "settleLidoFees",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "proveUnknownValidatorToPDG",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "collectERC20FromVault",
+      "file": "vaults-wrapper_src_interfaces_core_IVaultHub.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 45,
+    "n_hyperedges": 0,
+    "n_functions": 45,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00545",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

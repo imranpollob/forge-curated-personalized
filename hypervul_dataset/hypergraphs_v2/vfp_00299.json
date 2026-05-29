@@ -1,0 +1,965 @@
+{
+  "sample_id": "vfp_00299",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "anchorV4",
+      "file": "Anchor.sol",
+      "start_line": 221,
+      "end_line": 254,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Anchor.sol",
+      "start_line": 261,
+      "end_line": 272,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getDesignatedProver",
+      "file": "Anchor.sol",
+      "start_line": 287,
+      "end_line": 315,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getProposalState",
+      "file": "Anchor.sol",
+      "start_line": 318,
+      "end_line": 320,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getBlockState",
+      "file": "Anchor.sol",
+      "start_line": 323,
+      "end_line": 325,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "validateProverAuth",
+      "file": "Anchor.sol",
+      "start_line": 333,
+      "end_line": 368,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_validateProposal",
+      "file": "Anchor.sol",
+      "start_line": 376,
+      "end_line": 398,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_validateBlock",
+      "file": "Anchor.sol",
+      "start_line": 402,
+      "end_line": 421,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_processBondInstructions",
+      "file": "Anchor.sol",
+      "start_line": 428,
+      "end_line": 452,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_bondAmountFor",
+      "file": "Anchor.sol",
+      "start_line": 455,
+      "end_line": 463,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_calcAncestorsHash",
+      "file": "Anchor.sol",
+      "start_line": 471,
+      "end_line": 506,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_isMatchingProverAuthContext",
+      "file": "Anchor.sol",
+      "start_line": 509,
+      "end_line": 519,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_hashProverAuthMessage",
+      "file": "Anchor.sol",
+      "start_line": 523,
+      "end_line": 526,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_hashProverAuthStruct",
+      "file": "Anchor.sol",
+      "start_line": 529,
+      "end_line": 533,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_proverAuthDomainSeparator",
+      "file": "Anchor.sol",
+      "start_line": 537,
+      "end_line": 547,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "anchorV3",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 16,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getBasefeeV2",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 25,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getBlockHash",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 34,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "skipFeeCheck",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 36,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "publicInputHash",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 38,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "parentGasExcess",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 40,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "lastSyncedBlock",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 42,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "parentTimestamp",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 44,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "parentGasTarget",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 46,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "signalService",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 48,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "pacayaForkHeight",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 50,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "shouldRouteToOldFork",
+      "file": "AnchorForkRouter.sol",
+      "start_line": 59,
+      "end_line": 71,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "GOLDEN_TOUCH_ADDRESS",
+      "var_type": "address public constant",
+      "file": "Anchor.sol",
+      "line": 79
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ANCHOR_GAS_LIMIT",
+      "var_type": "uint64 public constant",
+      "file": "Anchor.sol",
+      "line": 82
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "MIN_PROVER_AUTH_LENGTH",
+      "var_type": "uint256 private constant",
+      "file": "Anchor.sol",
+      "line": 93
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "ECDSA_SIGNATURE_LENGTH",
+      "var_type": "uint256 private constant",
+      "file": "Anchor.sol",
+      "line": 96
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_DOMAIN_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "Anchor.sol",
+      "line": 99
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "Anchor.sol",
+      "line": 102
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_DOMAIN_NAME_HASH",
+      "var_type": "bytes32 private constant",
+      "file": "Anchor.sol",
+      "line": 104
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_DOMAIN_VERSION_HASH",
+      "var_type": "bytes32 private constant",
+      "file": "Anchor.sol",
+      "line": 105
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "bondManager",
+      "var_type": "IBondManager public immutable",
+      "file": "Anchor.sol",
+      "line": 112
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "checkpointStore",
+      "var_type": "ICheckpointStore public immutable",
+      "file": "Anchor.sol",
+      "line": 115
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "livenessBond",
+      "var_type": "uint256 public immutable",
+      "file": "Anchor.sol",
+      "line": 118
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "provabilityBond",
+      "var_type": "uint256 public immutable",
+      "file": "Anchor.sol",
+      "line": 121
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "l1ChainId",
+      "var_type": "uint64 public immutable",
+      "file": "Anchor.sol",
+      "line": 124
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "blockHashes",
+      "var_type": "mapping(uint256 blockNumber => bytes32 blockHash) public",
+      "file": "Anchor.sol",
+      "line": 131
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "_pacayaSlots",
+      "var_type": "uint256[3] private",
+      "file": "Anchor.sol",
+      "line": 137
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "_proposalState",
+      "var_type": "ProposalState internal",
+      "file": "Anchor.sol",
+      "line": 140
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_blockState",
+      "var_type": "BlockState internal",
+      "file": "Anchor.sol",
+      "line": 143
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[41] private",
+      "file": "Anchor.sol",
+      "line": 146
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:300",
+      "call_type": "INTERFACE_CALL",
+      "line": 300,
+      "enclosing_function": "getDesignatedProver",
+      "file": "Anchor.sol",
+      "raw_text": "bool proposerHasBond = bondManager.hasSufficientBond(_proposer, provingFee);"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:310",
+      "call_type": "INTERFACE_CALL",
+      "line": 310,
+      "enclosing_function": "getDesignatedProver",
+      "file": "Anchor.sol",
+      "raw_text": "if (!bondManager.hasSufficientBond(candidate, 0)) {"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:387",
+      "call_type": "INTERFACE_CALL",
+      "line": 387,
+      "enclosing_function": "_validateProposal",
+      "file": "Anchor.sol",
+      "raw_text": "bondManager.debitBond(_proposalParams.proposer, proverFee);"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:388",
+      "call_type": "INTERFACE_CALL",
+      "line": 388,
+      "enclosing_function": "_validateProposal",
+      "file": "Anchor.sol",
+      "raw_text": "bondManager.creditBond(_proposalState.designatedProver, proverFee);"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:412",
+      "call_type": "INTERFACE_CALL",
+      "line": 412,
+      "enclosing_function": "_validateBlock",
+      "file": "Anchor.sol",
+      "raw_text": "checkpointStore.saveCheckpoint("
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:444",
+      "call_type": "INTERFACE_CALL",
+      "line": 444,
+      "enclosing_function": "_processBondInstructions",
+      "file": "Anchor.sol",
+      "raw_text": "uint256 bondDebited = bondManager.debitBond(instruction.payer, bondAmount);"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:445",
+      "call_type": "INTERFACE_CALL",
+      "line": 445,
+      "enclosing_function": "_processBondInstructions",
+      "file": "Anchor.sol",
+      "raw_text": "bondManager.creditBond(instruction.payee, bondDebited);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        6,
+        35,
+        40,
+        42,
+        43,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        6,
+        35,
+        40,
+        42,
+        43,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        6,
+        35,
+        40,
+        42,
+        43,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        6,
+        35,
+        40,
+        42,
+        43,
+        48
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 48
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        0,
+        7,
+        36,
+        40,
+        42,
+        43,
+        49
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 49
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        0,
+        6,
+        8,
+        35,
+        40,
+        42,
+        43,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        0,
+        6,
+        8,
+        35,
+        40,
+        42,
+        43,
+        51
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 51
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "anchorV4",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getDesignatedProver",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getProposalState",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getBlockState",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "validateProverAuth",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_validateProposal",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_validateBlock",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_processBondInstructions",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_bondAmountFor",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_calcAncestorsHash",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_isMatchingProverAuthContext",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_hashProverAuthMessage",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_hashProverAuthStruct",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_proverAuthDomainSeparator",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "anchorV3",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getBasefeeV2",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getBlockHash",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "skipFeeCheck",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "publicInputHash",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "parentGasExcess",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "lastSyncedBlock",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "parentTimestamp",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "parentGasTarget",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "signalService",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "pacayaForkHeight",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "shouldRouteToOldFork",
+      "file": "AnchorForkRouter.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "GOLDEN_TOUCH_ADDRESS",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ANCHOR_GAS_LIMIT",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "MIN_PROVER_AUTH_LENGTH",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "ECDSA_SIGNATURE_LENGTH",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_DOMAIN_TYPEHASH",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_TYPEHASH",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_DOMAIN_NAME_HASH",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "PROVER_AUTH_DOMAIN_VERSION_HASH",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "bondManager",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "checkpointStore",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "livenessBond",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "provabilityBond",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "l1ChainId",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "blockHashes",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "_pacayaSlots",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "_proposalState",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "_blockState",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:300",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:310",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:387",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:388",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:412",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:444",
+      "file": "Anchor.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Anchor.sol:445",
+      "file": "Anchor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 52,
+    "n_hyperedges": 7,
+    "n_functions": 27,
+    "n_state_vars": 18,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 7.571428571428571
+  },
+  "label": {
+    "vfp_id": "vfp_00299",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-228",
+      "CWE-237",
+      "CWE-691",
+      "CWE-707"
+    ]
+  }
+}

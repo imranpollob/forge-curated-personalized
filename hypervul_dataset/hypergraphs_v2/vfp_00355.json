@@ -1,0 +1,259 @@
+{
+  "sample_id": "vfp_00355",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "NonceManager.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isNonceUsed",
+      "file": "NonceManager.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "invalidateNonces",
+      "file": "NonceManager.sol",
+      "start_line": 78,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "invalidateNonces",
+      "file": "NonceManager.sol",
+      "start_line": 91,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "invalidateNonces",
+      "file": "NonceManager.sol",
+      "start_line": 124,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hashNoncesToInvalidate",
+      "file": "NonceManager.sol",
+      "start_line": 158,
+      "end_line": 162,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_processNonceInvalidation",
+      "file": "NonceManager.sol",
+      "start_line": 174,
+      "end_line": 183,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_useNonce",
+      "file": "NonceManager.sol",
+      "start_line": 196,
+      "end_line": 201,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_verifySignature",
+      "file": "NonceManager.sol",
+      "start_line": 216,
+      "end_line": 233,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "NONCE_NOT_USED",
+      "var_type": "uint256 private constant",
+      "file": "NonceManager.sol",
+      "line": 25
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "NONCE_USED",
+      "var_type": "uint256 private constant",
+      "file": "NonceManager.sol",
+      "line": 28
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "usedNonces",
+      "var_type": "mapping(address => mapping(bytes32 => uint256)) internal",
+      "file": "NonceManager.sol",
+      "line": 34
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "NONCES_TO_INVALIDATE_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "NonceManager.sol",
+      "line": 40
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "CANCEL_PERMIT3_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "NonceManager.sol",
+      "line": 47
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isNonceUsed",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "invalidateNonces",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "invalidateNonces",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "invalidateNonces",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hashNoncesToInvalidate",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_processNonceInvalidation",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_useNonce",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_verifySignature",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "NONCE_NOT_USED",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "NONCE_USED",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "usedNonces",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "NONCES_TO_INVALIDATE_TYPEHASH",
+      "file": "NonceManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "CANCEL_PERMIT3_TYPEHASH",
+      "file": "NonceManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00355",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

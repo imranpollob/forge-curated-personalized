@@ -1,0 +1,389 @@
+{
+  "sample_id": "vfp_00080",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getBaseVaultStorage",
+      "file": "BaseVault.sol",
+      "start_line": 41,
+      "end_line": 45,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BaseVault.sol",
+      "start_line": 64,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "BaseVault.sol",
+      "start_line": 110,
+      "end_line": 110,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pause",
+      "file": "BaseVault.sol",
+      "start_line": 114,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "BaseVault.sol",
+      "start_line": 120,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTotalAssetsCap",
+      "file": "BaseVault.sol",
+      "start_line": 127,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_setTotalAssetsCap",
+      "file": "BaseVault.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_firstDeposit",
+      "file": "BaseVault.sol",
+      "start_line": 141,
+      "end_line": 148,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_isPaused",
+      "file": "BaseVault.sol",
+      "start_line": 151,
+      "end_line": 153,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "BaseVault.sol",
+      "start_line": 157,
+      "end_line": 159,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "BaseVault.sol",
+      "start_line": 164,
+      "end_line": 168,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "BaseVault.sol",
+      "start_line": 172,
+      "end_line": 176,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_update",
+      "file": "BaseVault.sol",
+      "start_line": 180,
+      "end_line": 182,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "BaseVault.sol",
+      "start_line": 185,
+      "end_line": 187,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "BaseVault.sol",
+      "start_line": 190,
+      "end_line": 192,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "BaseVault.sol",
+      "start_line": 195,
+      "end_line": 197,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "BaseVault.sol",
+      "start_line": 200,
+      "end_line": 202,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_maxDeposit",
+      "file": "BaseVault.sol",
+      "start_line": 205,
+      "end_line": 207,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "auth",
+      "file": "BaseVault.sol",
+      "start_line": 211,
+      "end_line": 213,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "totalAssetsCap",
+      "file": "BaseVault.sol",
+      "start_line": 216,
+      "end_line": 218,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "BaseVaultStorageLocation",
+      "var_type": "bytes32 private constant",
+      "file": "BaseVault.sol",
+      "line": 39
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getBaseVaultStorage",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "pause",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTotalAssetsCap",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_setTotalAssetsCap",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_firstDeposit",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_isPaused",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_update",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_maxDeposit",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "auth",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "totalAssetsCap",
+      "file": "BaseVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "BaseVaultStorageLocation",
+      "file": "BaseVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 21,
+    "n_hyperedges": 0,
+    "n_functions": 20,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00080",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-693"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "sample_id": "vfp_00320",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 43,
+      "end_line": 66,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setSettingUint",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 69,
+      "end_line": 71,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getQuorum",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getLeaveTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getVoteTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 84,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getExecuteTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 89,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getActionTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getUpgradeVetoQuorum",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getUpgradeDelay",
+      "file": "RocketDAOProtocolSettingsSecurity.sol",
+      "start_line": 104,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setSettingUint",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getQuorum",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getLeaveTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getVoteTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getExecuteTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getActionTime",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getUpgradeVetoQuorum",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getUpgradeDelay",
+      "file": "RocketDAOProtocolSettingsSecurity.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00320",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1068",
+      "CWE-284",
+      "CWE-285",
+      "CWE-440",
+      "CWE-684",
+      "CWE-693",
+      "CWE-710",
+      "CWE-863"
+    ]
+  }
+}

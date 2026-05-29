@@ -1,0 +1,74 @@
+{
+  "sample_id": "neg_00603",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hash",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_calibur_src_libraries_BatchedCallLib.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPE",
+      "var_type": "bytes internal constant",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_calibur_src_libraries_BatchedCallLib.sol",
+      "line": 17
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPEHASH",
+      "var_type": "bytes32 internal constant",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_calibur_src_libraries_BatchedCallLib.sol",
+      "line": 20
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hash",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_calibur_src_libraries_BatchedCallLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPE",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_calibur_src_libraries_BatchedCallLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "BATCHED_CALL_TYPEHASH",
+      "file": "732a20a8d82f034573c6c7e44160f1860233a946_calibur_src_libraries_BatchedCallLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 1,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00603",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

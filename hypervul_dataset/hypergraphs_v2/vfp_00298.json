@@ -1,0 +1,143 @@
+{
+  "sample_id": "vfp_00298",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_buildAndSaveTransitionRecords",
+      "file": "InboxOptimized1.sol",
+      "start_line": 69,
+      "end_line": 77,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_storeTransitionRecord",
+      "file": "InboxOptimized1.sol",
+      "start_line": 89,
+      "end_line": 128,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTransitionRecordHashAndDeadline",
+      "file": "InboxOptimized1.sol",
+      "start_line": 145,
+      "end_line": 167,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_buildAndSaveAggregatedTransitionRecords",
+      "file": "InboxOptimized1.sol",
+      "start_line": 175,
+      "end_line": 235,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_reusableTransitionRecords",
+      "var_type": "mapping(uint256 bufferSlot => ReusableTransitionRecord record) internal",
+      "file": "InboxOptimized1.sol",
+      "line": 43
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "InboxOptimized1.sol",
+      "line": 46
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_buildAndSaveTransitionRecords",
+      "file": "InboxOptimized1.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_storeTransitionRecord",
+      "file": "InboxOptimized1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTransitionRecordHashAndDeadline",
+      "file": "InboxOptimized1.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_buildAndSaveAggregatedTransitionRecords",
+      "file": "InboxOptimized1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_reusableTransitionRecords",
+      "file": "InboxOptimized1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "InboxOptimized1.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00298",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-190",
+      "CWE-221",
+      "CWE-223",
+      "CWE-240",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-664",
+      "CWE-682",
+      "CWE-707",
+      "CWE-778"
+    ]
+  }
+}

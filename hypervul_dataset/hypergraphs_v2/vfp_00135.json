@@ -1,0 +1,1195 @@
+{
+  "sample_id": "vfp_00135",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SonicStaking.sol",
+      "start_line": 191,
+      "end_line": 213,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "SonicStaking.sol",
+      "start_line": 246,
+      "end_line": 248,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getRate",
+      "file": "SonicStaking.sol",
+      "start_line": 254,
+      "end_line": 256,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "SonicStaking.sol",
+      "start_line": 262,
+      "end_line": 271,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "SonicStaking.sol",
+      "start_line": 277,
+      "end_line": 286,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getUserWithdraws",
+      "file": "SonicStaking.sol",
+      "start_line": 295,
+      "end_line": 319,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getWithdrawRequest",
+      "file": "SonicStaking.sol",
+      "start_line": 321,
+      "end_line": 323,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SonicStaking.sol",
+      "start_line": 334,
+      "end_line": 351,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "undelegate",
+      "file": "SonicStaking.sol",
+      "start_line": 359,
+      "end_line": 361,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "undelegateMany",
+      "file": "SonicStaking.sol",
+      "start_line": 371,
+      "end_line": 383,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "undelegateFromPool",
+      "file": "SonicStaking.sol",
+      "start_line": 390,
+      "end_line": 408,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "SonicStaking.sol",
+      "start_line": 415,
+      "end_line": 417,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdrawMany",
+      "file": "SonicStaking.sol",
+      "start_line": 425,
+      "end_line": 435,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "delegate",
+      "file": "SonicStaking.sol",
+      "start_line": 449,
+      "end_line": 472,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "operatorInitiateClawBack",
+      "file": "SonicStaking.sol",
+      "start_line": 479,
+      "end_line": 508,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "operatorExecuteClawBack",
+      "file": "SonicStaking.sol",
+      "start_line": 517,
+      "end_line": 547,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "donate",
+      "file": "SonicStaking.sol",
+      "start_line": 553,
+      "end_line": 564,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "pause",
+      "file": "SonicStaking.sol",
+      "start_line": 571,
+      "end_line": 576,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setWithdrawDelay",
+      "file": "SonicStaking.sol",
+      "start_line": 588,
+      "end_line": 591,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setUndelegatePaused",
+      "file": "SonicStaking.sol",
+      "start_line": 597,
+      "end_line": 599,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setUndelegateFromPoolPaused",
+      "file": "SonicStaking.sol",
+      "start_line": 605,
+      "end_line": 607,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setWithdrawPaused",
+      "file": "SonicStaking.sol",
+      "start_line": 613,
+      "end_line": 615,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setDepositPaused",
+      "file": "SonicStaking.sol",
+      "start_line": 621,
+      "end_line": 623,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "SonicStaking.sol",
+      "start_line": 629,
+      "end_line": 635,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setProtocolFeeBIPS",
+      "file": "SonicStaking.sol",
+      "start_line": 641,
+      "end_line": 647,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "SonicStaking.sol",
+      "start_line": 653,
+      "end_line": 682,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_undelegate",
+      "file": "SonicStaking.sol",
+      "start_line": 689,
+      "end_line": 707,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "SonicStaking.sol",
+      "start_line": 709,
+      "end_line": 744,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_withdrawFromSFC",
+      "file": "SonicStaking.sol",
+      "start_line": 746,
+      "end_line": 782,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_createAndPersistWithdrawRequest",
+      "file": "SonicStaking.sol",
+      "start_line": 784,
+      "end_line": 802,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_now",
+      "file": "SonicStaking.sol",
+      "start_line": 804,
+      "end_line": 806,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_incrementWithdrawCounter",
+      "file": "SonicStaking.sol",
+      "start_line": 812,
+      "end_line": 816,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_setUndelegatePaused",
+      "file": "SonicStaking.sol",
+      "start_line": 818,
+      "end_line": 823,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_setUndelegateFromPoolPaused",
+      "file": "SonicStaking.sol",
+      "start_line": 825,
+      "end_line": 830,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_setWithdrawPaused",
+      "file": "SonicStaking.sol",
+      "start_line": 832,
+      "end_line": 837,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_setDepositPaused",
+      "file": "SonicStaking.sol",
+      "start_line": 839,
+      "end_line": 845,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "SonicStaking.sol",
+      "start_line": 852,
+      "end_line": 852,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "SonicStaking.sol",
+      "line": 34
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "CLAIM_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "SonicStaking.sol",
+      "line": 35
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "MAX_PROTOCOL_FEE_BIPS",
+      "var_type": "uint256 public constant",
+      "file": "SonicStaking.sol",
+      "line": 37
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "MIN_DEPOSIT",
+      "var_type": "uint256 public constant",
+      "file": "SonicStaking.sol",
+      "line": 38
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "MIN_UNDELEGATE_AMOUNT_SHARES",
+      "var_type": "uint256 public constant",
+      "file": "SonicStaking.sol",
+      "line": 39
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "MIN_DONATION_AMOUNT",
+      "var_type": "uint256 public constant",
+      "file": "SonicStaking.sol",
+      "line": 40
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "MIN_CLAIM_REWARDS_AMOUNT",
+      "var_type": "uint256 public constant",
+      "file": "SonicStaking.sol",
+      "line": 41
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "_allWithdrawRequests",
+      "var_type": "mapping(uint256 withdrawId => WithdrawRequest request) private",
+      "file": "SonicStaking.sol",
+      "line": 62
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "userWithdraws",
+      "var_type": "mapping(address user => mapping(uint256 index => uint256 withdrawId)) public",
+      "file": "SonicStaking.sol",
+      "line": 67
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "userNumWithdraws",
+      "var_type": "mapping(address user => uint256 numWithdraws) public",
+      "file": "SonicStaking.sol",
+      "line": 68
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "SFC",
+      "var_type": "ISFC public",
+      "file": "SonicStaking.sol",
+      "line": 73
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "treasury",
+      "var_type": "address public",
+      "file": "SonicStaking.sol",
+      "line": 78
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "protocolFeeBIPS",
+      "var_type": "uint256 public",
+      "file": "SonicStaking.sol",
+      "line": 83
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "withdrawDelay",
+      "var_type": "uint256 public",
+      "file": "SonicStaking.sol",
+      "line": 88
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "depositPaused",
+      "var_type": "bool public",
+      "file": "SonicStaking.sol",
+      "line": 93
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "undelegatePaused",
+      "var_type": "bool public",
+      "file": "SonicStaking.sol",
+      "line": 98
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "undelegateFromPoolPaused",
+      "var_type": "bool public",
+      "file": "SonicStaking.sol",
+      "line": 103
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "withdrawPaused",
+      "var_type": "bool public",
+      "file": "SonicStaking.sol",
+      "line": 108
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "totalDelegated",
+      "var_type": "uint256 public",
+      "file": "SonicStaking.sol",
+      "line": 113
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "totalPool",
+      "var_type": "uint256 public",
+      "file": "SonicStaking.sol",
+      "line": 118
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "pendingClawBackAmount",
+      "var_type": "uint256 public",
+      "file": "SonicStaking.sol",
+      "line": 124
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "withdrawCounter",
+      "var_type": "uint256 public",
+      "file": "SonicStaking.sol",
+      "line": 130
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:373",
+      "call_type": "INTERFACE_CALL",
+      "line": 373,
+      "enclosing_function": "operatorInitiateClawBack",
+      "file": "SonicStaking.sol",
+      "raw_text": "uint256 amountDelegated = SFC.getStake(address(this), validatorId);"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:502",
+      "call_type": "INTERFACE_CALL",
+      "line": 502,
+      "enclosing_function": "claimRewards",
+      "file": "SonicStaking.sol",
+      "raw_text": "uint256 rewards = SFC.pendingRewards(address(this), validatorIds[i]);"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "CALL:SonicStaking.sol:520",
+      "call_type": "CALL",
+      "line": 520,
+      "enclosing_function": "claimRewards",
+      "file": "SonicStaking.sol",
+      "raw_text": "(bool protocolFeesClaimed,) = treasury.call{value: protocolFee}(\"\");"
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:535",
+      "call_type": "INTERFACE_CALL",
+      "line": 535,
+      "enclosing_function": "_undelegate",
+      "file": "SonicStaking.sol",
+      "raw_text": "uint256 amountDelegated = SFC.getStake(address(this), validatorId);"
+    },
+    {
+      "node_id": 63,
+      "node_type": "call_site",
+      "name": "CALL:SonicStaking.sol:578",
+      "call_type": "CALL",
+      "line": 578,
+      "enclosing_function": "_withdraw",
+      "file": "SonicStaking.sol",
+      "raw_text": "(bool withdrawnToUser,) = user.call{value: amountWithdrawn}(\"\");"
+    },
+    {
+      "node_id": 64,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:592",
+      "call_type": "INTERFACE_CALL",
+      "line": 592,
+      "enclosing_function": "_withdrawFromSFC",
+      "file": "SonicStaking.sol",
+      "raw_text": "bool isSlashed = SFC.isSlashed(validatorId);"
+    },
+    {
+      "node_id": 65,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:595",
+      "call_type": "INTERFACE_CALL",
+      "line": 595,
+      "enclosing_function": "_withdrawFromSFC",
+      "file": "SonicStaking.sol",
+      "raw_text": "uint256 refundRatio = SFC.slashingRefundRatio(validatorId);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        14,
+        47,
+        55,
+        57,
+        59
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 59
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        25,
+        39,
+        43,
+        47,
+        48,
+        49,
+        56,
+        60
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 60
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        25,
+        39,
+        43,
+        47,
+        48,
+        49,
+        56,
+        61
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 61
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        8,
+        9,
+        26,
+        41,
+        47,
+        52,
+        55,
+        62
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 62
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        11,
+        12,
+        27,
+        44,
+        54,
+        63
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 63
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        11,
+        12,
+        15,
+        27,
+        28,
+        44,
+        47,
+        54,
+        56,
+        57,
+        64
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 64
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        11,
+        12,
+        15,
+        27,
+        28,
+        44,
+        47,
+        54,
+        56,
+        57,
+        65
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 65
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getRate",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "convertToShares",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "convertToAssets",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getUserWithdraws",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getWithdrawRequest",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "undelegate",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "undelegateMany",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "undelegateFromPool",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdrawMany",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "delegate",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "operatorInitiateClawBack",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "operatorExecuteClawBack",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "donate",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "pause",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setWithdrawDelay",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setUndelegatePaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setUndelegateFromPoolPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setWithdrawPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setDepositPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setProtocolFeeBIPS",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_undelegate",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_withdrawFromSFC",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_createAndPersistWithdrawRequest",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_now",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_incrementWithdrawCounter",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_setUndelegatePaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_setUndelegateFromPoolPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_setWithdrawPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_setDepositPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "CLAIM_ROLE",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "MAX_PROTOCOL_FEE_BIPS",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "MIN_DEPOSIT",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "MIN_UNDELEGATE_AMOUNT_SHARES",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "state_var",
+      "name": "MIN_DONATION_AMOUNT",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "state_var",
+      "name": "MIN_CLAIM_REWARDS_AMOUNT",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "_allWithdrawRequests",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "userWithdraws",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "userNumWithdraws",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "SFC",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "treasury",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "protocolFeeBIPS",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "withdrawDelay",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "depositPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "undelegatePaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "undelegateFromPoolPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "withdrawPaused",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "totalDelegated",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "totalPool",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "pendingClawBackAmount",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "withdrawCounter",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:373",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:502",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "call_site",
+      "name": "CALL:SonicStaking.sol:520",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:535",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "call_site",
+      "name": "CALL:SonicStaking.sol:578",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:592",
+      "file": "SonicStaking.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:SonicStaking.sol:595",
+      "file": "SonicStaking.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 66,
+    "n_hyperedges": 7,
+    "n_functions": 37,
+    "n_state_vars": 22,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 8.142857142857142
+  },
+  "label": {
+    "vfp_id": "vfp_00135",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-691",
+      "CWE-703",
+      "CWE-754"
+    ]
+  }
+}

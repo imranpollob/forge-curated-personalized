@@ -1,0 +1,259 @@
+{
+  "sample_id": "vfp_00459",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 77,
+      "end_line": 93,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 106,
+      "end_line": 155,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 167,
+      "end_line": 198,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 206,
+      "end_line": 224,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "AntiSandwichHook.sol",
+      "start_line": 231,
+      "end_line": 248,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_afterAddLiquidity",
+      "file": "LiquidityPenaltyHook.sol",
+      "start_line": 80,
+      "end_line": 95,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_afterRemoveLiquidity",
+      "file": "LiquidityPenaltyHook.sol",
+      "start_line": 100,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_calculateLiquidityPenalty",
+      "file": "LiquidityPenaltyHook.sol",
+      "start_line": 141,
+      "end_line": 170,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "LiquidityPenaltyHook.sol",
+      "start_line": 177,
+      "end_line": 194,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "_lastCheckpoints",
+      "var_type": "mapping(PoolId id => Checkpoint) private",
+      "file": "AntiSandwichHook.sol",
+      "line": 59
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "MIN_BLOCK_NUMBER_OFFSET",
+      "var_type": "uint256 public constant",
+      "file": "LiquidityPenaltyHook.sol",
+      "line": 51
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "lastAddedLiquidity",
+      "var_type": "mapping(PoolId id => mapping(bytes32 positionKey => uint256 blockNumber)) public",
+      "file": "LiquidityPenaltyHook.sol",
+      "line": 56
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "blockNumberOffset",
+      "var_type": "uint256 public immutable",
+      "file": "LiquidityPenaltyHook.sol",
+      "line": 61
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_afterAddLiquidity",
+      "file": "LiquidityPenaltyHook.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_afterRemoveLiquidity",
+      "file": "LiquidityPenaltyHook.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_calculateLiquidityPenalty",
+      "file": "LiquidityPenaltyHook.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "LiquidityPenaltyHook.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "_lastCheckpoints",
+      "file": "AntiSandwichHook.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "MIN_BLOCK_NUMBER_OFFSET",
+      "file": "LiquidityPenaltyHook.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "lastAddedLiquidity",
+      "file": "LiquidityPenaltyHook.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "blockNumberOffset",
+      "file": "LiquidityPenaltyHook.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00459",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1024",
+      "CWE-1419",
+      "CWE-191",
+      "CWE-372",
+      "CWE-424",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-664",
+      "CWE-665",
+      "CWE-682",
+      "CWE-693",
+      "CWE-697",
+      "CWE-807"
+    ]
+  }
+}

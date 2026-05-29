@@ -1,0 +1,93 @@
+{
+  "sample_id": "vfp_00352",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_delegateToHyperCore",
+      "file": "BaseModuleHandler.sol",
+      "start_line": 39,
+      "end_line": 47,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "hyperCoreModule",
+      "var_type": "address public immutable",
+      "file": "BaseModuleHandler.sol",
+      "line": 23
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:BaseModuleHandler.sol:37",
+      "call_type": "DELEGATECALL",
+      "line": 37,
+      "enclosing_function": "_delegateToHyperCore",
+      "file": "BaseModuleHandler.sol",
+      "raw_text": "(bool success, bytes memory ret) = hyperCoreModule.delegatecall(data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1,
+        2
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 2
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_delegateToHyperCore",
+      "file": "BaseModuleHandler.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "hyperCoreModule",
+      "file": "BaseModuleHandler.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:BaseModuleHandler.sol:37",
+      "file": "BaseModuleHandler.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 1,
+    "n_functions": 1,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00352",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-693"
+    ]
+  }
+}

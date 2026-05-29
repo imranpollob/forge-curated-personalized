@@ -1,0 +1,138 @@
+{
+  "sample_id": "neg_00686",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "token",
+      "file": "contracts_contracts_interfaces_IOFT.sol",
+      "start_line": 55,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "quoteSend",
+      "file": "contracts_contracts_interfaces_IOFT.sol",
+      "start_line": 67,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "send",
+      "file": "contracts_contracts_interfaces_IOFT.sol",
+      "start_line": 84,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getOftMessenger",
+      "file": "contracts_contracts_libraries_OFTTransportAdapterWithStore.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "OFT_ADAPTER_STORE",
+      "var_type": "AdapterStore public immutable",
+      "file": "contracts_contracts_libraries_OFTTransportAdapterWithStore.sol",
+      "line": 13
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_libraries_OFTTransportAdapterWithStore.sol:19",
+      "call_type": "INTERFACE_CALL",
+      "line": 19,
+      "enclosing_function": "_getOftMessenger",
+      "file": "contracts_contracts_libraries_OFTTransportAdapterWithStore.sol",
+      "raw_text": "return OFT_ADAPTER_STORE.crossChainMessengers(MessengerTypes.OFT_MESSENGER, OFT_DST_EID, _token);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        4,
+        5
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 5
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "token",
+      "file": "contracts_contracts_interfaces_IOFT.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "quoteSend",
+      "file": "contracts_contracts_interfaces_IOFT.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "send",
+      "file": "contracts_contracts_interfaces_IOFT.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getOftMessenger",
+      "file": "contracts_contracts_libraries_OFTTransportAdapterWithStore.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "OFT_ADAPTER_STORE",
+      "file": "contracts_contracts_libraries_OFTTransportAdapterWithStore.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_libraries_OFTTransportAdapterWithStore.sol:19",
+      "file": "contracts_contracts_libraries_OFTTransportAdapterWithStore.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 1,
+    "n_functions": 4,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00686",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

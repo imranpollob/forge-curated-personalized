@@ -1,0 +1,523 @@
+{
+  "sample_id": "vfp_00605",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 62,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postUpgradeInit",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 88,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "adjustTotalDelegation",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 98,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 117,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getTotalDelegation",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 131,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getTotalDelegationAt",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 139,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateDelegationHistory",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 148,
+      "end_line": 167,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_delegate",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 170,
+      "end_line": 173,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_afterTokenTransfer",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 175,
+      "end_line": 181,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 183,
+      "end_line": 188,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "L2ArbitrumToken.sol",
+      "start_line": 190,
+      "end_line": 195,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "NAME",
+      "var_type": "string private constant",
+      "file": "L2ArbitrumToken.sol",
+      "line": 33
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "SYMBOL",
+      "var_type": "string private constant",
+      "file": "L2ArbitrumToken.sol",
+      "line": 34
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MIN_MINT_INTERVAL",
+      "var_type": "uint256 public constant",
+      "file": "L2ArbitrumToken.sol",
+      "line": 36
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MINT_CAP_NUMERATOR",
+      "var_type": "uint256 public constant",
+      "file": "L2ArbitrumToken.sol",
+      "line": 38
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MINT_CAP_DENOMINATOR",
+      "var_type": "uint256 public constant",
+      "file": "L2ArbitrumToken.sol",
+      "line": 40
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "l1Address",
+      "var_type": "address public",
+      "file": "L2ArbitrumToken.sol",
+      "line": 43
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "nextMint",
+      "var_type": "uint256 public",
+      "file": "L2ArbitrumToken.sol",
+      "line": 45
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_totalDelegationHistory",
+      "var_type": "Checkpoints.History private",
+      "file": "L2ArbitrumToken.sol",
+      "line": 50
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:93",
+      "call_type": "INTERFACE_CALL",
+      "line": 93,
+      "enclosing_function": "postUpgradeInit",
+      "file": "L2ArbitrumToken.sol",
+      "raw_text": "_totalDelegationHistory.push(initialTotalDelegation);"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:102",
+      "call_type": "INTERFACE_CALL",
+      "line": 102,
+      "enclosing_function": "adjustTotalDelegation",
+      "file": "L2ArbitrumToken.sol",
+      "raw_text": "uint256 latest = _totalDelegationHistory.latest();"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:109",
+      "call_type": "INTERFACE_CALL",
+      "line": 109,
+      "enclosing_function": "adjustTotalDelegation",
+      "file": "L2ArbitrumToken.sol",
+      "raw_text": "_totalDelegationHistory.push(uint256(newValue));"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:132",
+      "call_type": "INTERFACE_CALL",
+      "line": 132,
+      "enclosing_function": "getTotalDelegation",
+      "file": "L2ArbitrumToken.sol",
+      "raw_text": "return _totalDelegationHistory.latest();"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:140",
+      "call_type": "INTERFACE_CALL",
+      "line": 140,
+      "enclosing_function": "getTotalDelegationAt",
+      "file": "L2ArbitrumToken.sol",
+      "raw_text": "return _totalDelegationHistory.getAtBlock(blockNumber);"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:163",
+      "call_type": "INTERFACE_CALL",
+      "line": 163,
+      "enclosing_function": "_updateDelegationHistory",
+      "file": "L2ArbitrumToken.sol",
+      "raw_text": "int256 newValue = int256(_totalDelegationHistory.latest()) + delta;"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:164",
+      "call_type": "INTERFACE_CALL",
+      "line": 164,
+      "enclosing_function": "_updateDelegationHistory",
+      "file": "L2ArbitrumToken.sol",
+      "raw_text": "_totalDelegationHistory.push(uint256(newValue < 0 ? int256(0) : newValue));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        18,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        18,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        18,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        18,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        18,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        6,
+        7,
+        8,
+        18,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        6,
+        7,
+        8,
+        18,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postUpgradeInit",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "adjustTotalDelegation",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getTotalDelegation",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getTotalDelegationAt",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateDelegationHistory",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_delegate",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_afterTokenTransfer",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "NAME",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "SYMBOL",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MIN_MINT_INTERVAL",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MINT_CAP_NUMERATOR",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MINT_CAP_DENOMINATOR",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "l1Address",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "nextMint",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_totalDelegationHistory",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:93",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:102",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:109",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:132",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:140",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:163",
+      "file": "L2ArbitrumToken.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:L2ArbitrumToken.sol:164",
+      "file": "L2ArbitrumToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 7,
+    "n_functions": 11,
+    "n_state_vars": 8,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 3.5714285714285716
+  },
+  "label": {
+    "vfp_id": "vfp_00605",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

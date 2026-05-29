@@ -1,0 +1,521 @@
+{
+  "sample_id": "neg_00544",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getDomainSeparator",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 78,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "rewardById",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 86,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 91,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "finalizeRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 131,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdrawExpiredRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 145,
+      "end_line": 155,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 158,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setAegisConfigAddress",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 168,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setAegisMintingAddress",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 173,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setAegisConfigAddress",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 179,
+      "end_line": 186,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_stringToBytes32",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 188,
+      "end_line": 197,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_computeDomainSeparator",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "start_line": 199,
+      "end_line": 201,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "hashClaimRequest",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "encodeClaimRequest",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol",
+      "start_line": 26,
+      "end_line": 28,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "verify",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol",
+      "start_line": 31,
+      "end_line": 43,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "REWARDS_MANAGER_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 36
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "EIP712_DOMAIN",
+      "var_type": "bytes32 private constant",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 39
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "EIP712_NAME",
+      "var_type": "bytes32 private constant",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 42
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "EIP712_REVISION",
+      "var_type": "bytes32 private constant",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 45
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "yusd",
+      "var_type": "IYUSD public immutable",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 47
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "aegisConfig",
+      "var_type": "IAegisConfig public",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 49
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "aegisMinting",
+      "var_type": "address public",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 51
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_rewards",
+      "var_type": "mapping(bytes32 => Reward) private",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 54
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_addressClaimedRewards",
+      "var_type": "mapping(address => mapping(bytes32 => bool)) private",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 57
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_chainId",
+      "var_type": "uint256 private immutable",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 60
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_domainSeparator",
+      "var_type": "bytes32 private immutable",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "line": 63
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "CLAIM_REQUEST_TYPE",
+      "var_type": "bytes32 private constant",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol",
+      "line": 15
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:aegis-contracts_contracts_AegisRewards.sol:92",
+      "call_type": "INTERFACE_CALL",
+      "line": 92,
+      "enclosing_function": "claimRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "raw_text": "claimRequest.verify(getDomainSeparator(), aegisConfig.trustedSigner(), signature);"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:aegis-contracts_contracts_AegisRewards.sol:119",
+      "call_type": "INTERFACE_CALL",
+      "line": 119,
+      "enclosing_function": "claimRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "raw_text": "yusd.safeTransfer(_msgSender(), totalAmount);"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:aegis-contracts_contracts_AegisRewards.sol:152",
+      "call_type": "INTERFACE_CALL",
+      "line": 152,
+      "enclosing_function": "withdrawExpiredRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol",
+      "raw_text": "yusd.safeTransfer(to, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        18,
+        19,
+        21,
+        22,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        18,
+        19,
+        21,
+        22,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        18,
+        21,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getDomainSeparator",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "rewardById",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "finalizeRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "withdrawExpiredRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setAegisConfigAddress",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setAegisMintingAddress",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setAegisConfigAddress",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_stringToBytes32",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_computeDomainSeparator",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "hashClaimRequest",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "encodeClaimRequest",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "verify",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "REWARDS_MANAGER_ROLE",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "EIP712_DOMAIN",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "EIP712_NAME",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "EIP712_REVISION",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "yusd",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "aegisConfig",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "aegisMinting",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_rewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "_addressClaimedRewards",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_chainId",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_domainSeparator",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "CLAIM_REQUEST_TYPE",
+      "file": "aegis-contracts_contracts_lib_ClaimRewardsLib.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:aegis-contracts_contracts_AegisRewards.sol:92",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:aegis-contracts_contracts_AegisRewards.sol:119",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:aegis-contracts_contracts_AegisRewards.sol:152",
+      "file": "aegis-contracts_contracts_AegisRewards.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 29,
+    "n_hyperedges": 3,
+    "n_functions": 14,
+    "n_state_vars": 12,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 5.333333333333333
+  },
+  "label": {
+    "vfp_id": "neg_00544",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

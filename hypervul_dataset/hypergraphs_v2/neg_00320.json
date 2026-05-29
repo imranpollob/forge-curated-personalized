@@ -1,0 +1,131 @@
+{
+  "sample_id": "neg_00320",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "eco-routes_contracts_interfaces_IPermit.sol",
+      "start_line": 67,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "eco-routes_contracts_interfaces_IPermit.sol",
+      "start_line": 80,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "eco-routes_contracts_interfaces_IPermit.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "version",
+      "file": "eco-routes_contracts_test_TestProver.sol",
+      "start_line": 8,
+      "end_line": 10,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addProvenIntent",
+      "file": "eco-routes_contracts_test_TestProver.sol",
+      "start_line": 12,
+      "end_line": 14,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "eco-routes_contracts_test_TestProver.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "eco-routes_contracts_interfaces_IPermit.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "eco-routes_contracts_interfaces_IPermit.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "eco-routes_contracts_interfaces_IPermit.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "version",
+      "file": "eco-routes_contracts_test_TestProver.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addProvenIntent",
+      "file": "eco-routes_contracts_test_TestProver.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getProofType",
+      "file": "eco-routes_contracts_test_TestProver.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00320",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

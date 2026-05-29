@@ -1,0 +1,111 @@
+{
+  "sample_id": "neg_00492",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "MERKLE_ROOT",
+      "file": "zk-governance_contracts_interfaces_IZkMerkleDistributor.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "claim",
+      "file": "zk-governance_contracts_interfaces_IZkMerkleDistributor.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "greet",
+      "file": "zk-governance_contracts_test_Greeter.sol",
+      "start_line": 12,
+      "end_line": 14,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setGreeting",
+      "file": "zk-governance_contracts_test_Greeter.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "greeting",
+      "var_type": "string private",
+      "file": "zk-governance_contracts_test_Greeter.sol",
+      "line": 6
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "MERKLE_ROOT",
+      "file": "zk-governance_contracts_interfaces_IZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "claim",
+      "file": "zk-governance_contracts_interfaces_IZkMerkleDistributor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "greet",
+      "file": "zk-governance_contracts_test_Greeter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setGreeting",
+      "file": "zk-governance_contracts_test_Greeter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "greeting",
+      "file": "zk-governance_contracts_test_Greeter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00492",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

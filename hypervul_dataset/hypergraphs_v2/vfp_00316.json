@@ -1,0 +1,822 @@
+{
+  "sample_id": "vfp_00316",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 49,
+      "end_line": 81,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setSettingUint",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 84,
+      "end_line": 86,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setSettingBool",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 89,
+      "end_line": 91,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getMaxNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getProtocolDAOShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 104,
+      "end_line": 106,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getNodeShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 109,
+      "end_line": 111,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 114,
+      "end_line": 116,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getRethCommission",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 119,
+      "end_line": 121,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getEffectiveVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 124,
+      "end_line": 126,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getEffectiveNodeShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 129,
+      "end_line": 131,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getNodeConsensusThreshold",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 134,
+      "end_line": 136,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getNodePenaltyThreshold",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 139,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getPerPenaltyRate",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 144,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getSubmitBalancesEnabled",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 149,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getSubmitBalancesFrequency",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 154,
+      "end_line": 156,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getSubmitPricesEnabled",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getSubmitPricesFrequency",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getMinimumNodeFee",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 169,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getTargetNodeFee",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 174,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getMaximumNodeFee",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 179,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getNodeFeeDemandRange",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 184,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getTargetRethCollateralRate",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 189,
+      "end_line": 191,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getRethDepositDelay",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 194,
+      "end_line": 196,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getSubmitRewardsEnabled",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 199,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getAllowListedControllers",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 204,
+      "end_line": 206,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getMaxRethDelta",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 209,
+      "end_line": 211,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isAllowListedController",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 215,
+      "end_line": 221,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 225,
+      "end_line": 227,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setNodeCommissionShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 231,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 237,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setProtocolDAOShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 243,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_setNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 248,
+      "end_line": 262,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_setNodeCommissionShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 265,
+      "end_line": 273,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_setVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 276,
+      "end_line": 284,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_setProtocolDAOShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol",
+      "start_line": 287,
+      "end_line": 295,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "getVoteCount",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 30,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "penalise",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 39,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "executePenalty",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 61,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "getPenaltyRunningTotalAtBlock",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 71,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "getCurrentPenaltyRunningTotal",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 77,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "getCurrentMaxPenalty",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 84,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "maybeApplyPenalty",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 108,
+      "end_line": 121,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "applyPenalty",
+      "file": "RocketMegapoolPenalties.sol",
+      "start_line": 124,
+      "end_line": 147,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "penaltyMaximumPeriod",
+      "var_type": "uint256 constant internal",
+      "file": "RocketMegapoolPenalties.sol",
+      "line": 15
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "penaltyKey",
+      "var_type": "bytes32 constant internal",
+      "file": "RocketMegapoolPenalties.sol",
+      "line": 16
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_setSettingUint",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setSettingBool",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getMaxNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getProtocolDAOShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getNodeShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getRethCommission",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getEffectiveVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getEffectiveNodeShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getNodeConsensusThreshold",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getNodePenaltyThreshold",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getPerPenaltyRate",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getSubmitBalancesEnabled",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getSubmitBalancesFrequency",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getSubmitPricesEnabled",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getSubmitPricesFrequency",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getMinimumNodeFee",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getTargetNodeFee",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getMaximumNodeFee",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getNodeFeeDemandRange",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getTargetRethCollateralRate",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getRethDepositDelay",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getSubmitRewardsEnabled",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getAllowListedControllers",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "getMaxRethDelta",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isAllowListedController",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "setNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setNodeCommissionShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setProtocolDAOShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_setNodeShareSecurityCouncilAdder",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_setNodeCommissionShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_setVoterShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_setProtocolDAOShare",
+      "file": "RocketDAOProtocolSettingsNetwork.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "getVoteCount",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "penalise",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "executePenalty",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "getPenaltyRunningTotalAtBlock",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "getCurrentPenaltyRunningTotal",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "getCurrentMaxPenalty",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "maybeApplyPenalty",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "applyPenalty",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "penaltyMaximumPeriod",
+      "file": "RocketMegapoolPenalties.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "penaltyKey",
+      "file": "RocketMegapoolPenalties.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 46,
+    "n_hyperedges": 0,
+    "n_functions": 44,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00316",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1025",
+      "CWE-1068",
+      "CWE-1284",
+      "CWE-1329",
+      "CWE-20",
+      "CWE-664",
+      "CWE-691",
+      "CWE-697",
+      "CWE-707",
+      "CWE-710",
+      "CWE-799"
+    ]
+  }
+}

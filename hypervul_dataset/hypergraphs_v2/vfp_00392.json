@@ -1,0 +1,792 @@
+{
+  "sample_id": "vfp_00392",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "GGVStrategy.sol",
+      "start_line": 85,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "POOL",
+      "file": "GGVStrategy.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pauseSupply",
+      "file": "GGVStrategy.sol",
+      "start_line": 110,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resumeSupply",
+      "file": "GGVStrategy.sol",
+      "start_line": 118,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "supply",
+      "file": "GGVStrategy.sol",
+      "start_line": 130,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "previewWstethByGGV",
+      "file": "GGVStrategy.sol",
+      "start_line": 172,
+      "end_line": 175,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "requestExitByWsteth",
+      "file": "GGVStrategy.sol",
+      "start_line": 180,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "finalizeRequestExit",
+      "file": "GGVStrategy.sol",
+      "start_line": 220,
+      "end_line": 231,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "cancelGGVOnChainWithdraw",
+      "file": "GGVStrategy.sol",
+      "start_line": 241,
+      "end_line": 248,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "replaceGGVOnChainWithdraw",
+      "file": "GGVStrategy.sol",
+      "start_line": 258,
+      "end_line": 271,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mintedStethSharesOf",
+      "file": "GGVStrategy.sol",
+      "start_line": 280,
+      "end_line": 283,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "remainingMintingCapacitySharesOf",
+      "file": "GGVStrategy.sol",
+      "start_line": 288,
+      "end_line": 295,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "wstethOf",
+      "file": "GGVStrategy.sol",
+      "start_line": 300,
+      "end_line": 303,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "stvOf",
+      "file": "GGVStrategy.sol",
+      "start_line": 308,
+      "end_line": 311,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "ggvOf",
+      "file": "GGVStrategy.sol",
+      "start_line": 318,
+      "end_line": 321,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "requestWithdrawalFromPool",
+      "file": "GGVStrategy.sol",
+      "start_line": 330,
+      "end_line": 344,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "burnWsteth",
+      "file": "GGVStrategy.sol",
+      "start_line": 350,
+      "end_line": 356,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "safeTransferERC20",
+      "file": "GGVStrategy.sol",
+      "start_line": 364,
+      "end_line": 371,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "POOL_",
+      "var_type": "StvStETHPool private immutable",
+      "file": "GGVStrategy.sol",
+      "line": 25
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "WSTETH",
+      "var_type": "IWstETH public immutable",
+      "file": "GGVStrategy.sol",
+      "line": 26
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "TELLER",
+      "var_type": "ITellerWithMultiAssetSupport public immutable",
+      "file": "GGVStrategy.sol",
+      "line": 28
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "BORING_QUEUE",
+      "var_type": "IBoringOnChainQueue public immutable",
+      "file": "GGVStrategy.sol",
+      "line": 29
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "SUPPLY_FEATURE",
+      "var_type": "bytes32 public constant",
+      "file": "GGVStrategy.sol",
+      "line": 32
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "SUPPLY_PAUSE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "GGVStrategy.sol",
+      "line": 33
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "SUPPLY_RESUME_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "GGVStrategy.sol",
+      "line": 34
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "",
+      "file": "GGVStrategy.sol",
+      "raw_text": "WSTETH = IWstETH(POOL_.WSTETH());"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:127",
+      "call_type": "INTERFACE_CALL",
+      "line": 127,
+      "enclosing_function": "supply",
+      "file": "GGVStrategy.sol",
+      "raw_text": "stv = POOL_.depositETH{value: msg.value}(address(callForwarder), _referral);"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:130",
+      "call_type": "INTERFACE_CALL",
+      "line": 130,
+      "enclosing_function": "supply",
+      "file": "GGVStrategy.sol",
+      "raw_text": "callForwarder.doCall(address(POOL_), abi.encodeWithSelector(POOL_.mintWsteth.selector, _wstethToMint));"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:132",
+      "call_type": "INTERFACE_CALL",
+      "line": 132,
+      "enclosing_function": "supply",
+      "file": "GGVStrategy.sol",
+      "raw_text": "address(WSTETH), abi.encodeWithSelector(WSTETH.approve.selector, TELLER.vault(), _wstethToMint)"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:156",
+      "call_type": "INTERFACE_CALL",
+      "line": 156,
+      "enclosing_function": "previewWstethByGGV",
+      "file": "GGVStrategy.sol",
+      "raw_text": "wsteth = BORING_QUEUE.previewAssetsOut(address(WSTETH), _ggvShares.toUint128(), params.discount);"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:166",
+      "call_type": "INTERFACE_CALL",
+      "line": 166,
+      "enclosing_function": "requestExitByWsteth",
+      "file": "GGVStrategy.sol",
+      "raw_text": "IERC20 boringVault = IERC20(TELLER.vault());"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:221",
+      "call_type": "INTERFACE_CALL",
+      "line": 221,
+      "enclosing_function": "cancelGGVOnChainWithdraw",
+      "file": "GGVStrategy.sol",
+      "raw_text": "address(BORING_QUEUE), abi.encodeWithSelector(BORING_QUEUE.cancelOnChainWithdraw.selector, _request)"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:236",
+      "call_type": "INTERFACE_CALL",
+      "line": 236,
+      "enclosing_function": "replaceGGVOnChainWithdraw",
+      "file": "GGVStrategy.sol",
+      "raw_text": "abi.encodeWithSelector(BORING_QUEUE.replaceOnChainWithdraw.selector, request, discount, secondsToDeadline)"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:264",
+      "call_type": "INTERFACE_CALL",
+      "line": 264,
+      "enclosing_function": "wstethOf",
+      "file": "GGVStrategy.sol",
+      "raw_text": "wsteth = WSTETH.balanceOf(address(callForwarder));"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:270",
+      "call_type": "INTERFACE_CALL",
+      "line": 270,
+      "enclosing_function": "stvOf",
+      "file": "GGVStrategy.sol",
+      "raw_text": "stv = POOL_.balanceOf(address(callForwarder));"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:276",
+      "call_type": "INTERFACE_CALL",
+      "line": 276,
+      "enclosing_function": "ggvOf",
+      "file": "GGVStrategy.sol",
+      "raw_text": "ggvShares = IERC20(TELLER.vault()).balanceOf(address(callForwarder));"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:292",
+      "call_type": "INTERFACE_CALL",
+      "line": 292,
+      "enclosing_function": "requestWithdrawalFromPool",
+      "file": "GGVStrategy.sol",
+      "raw_text": "address(POOL_.WITHDRAWAL_QUEUE()),"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:304",
+      "call_type": "INTERFACE_CALL",
+      "line": 304,
+      "enclosing_function": "burnWsteth",
+      "file": "GGVStrategy.sol",
+      "raw_text": "address(WSTETH), abi.encodeWithSelector(WSTETH.approve.selector, address(POOL_), _wstethToBurn)"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        18,
+        19,
+        20,
+        22,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        18,
+        19,
+        20,
+        22,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        18,
+        19,
+        20,
+        22,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        5,
+        6,
+        19,
+        20,
+        21,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        6,
+        19,
+        20,
+        21,
+        30
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        8,
+        21,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        9,
+        21,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        12,
+        19,
+        33
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        13,
+        18,
+        34
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 34
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        14,
+        20,
+        35
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 35
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        15,
+        18,
+        36
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 36
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        16,
+        18,
+        19,
+        37
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 37
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "POOL",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pauseSupply",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resumeSupply",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "supply",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "previewWstethByGGV",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "requestExitByWsteth",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "finalizeRequestExit",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "cancelGGVOnChainWithdraw",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "replaceGGVOnChainWithdraw",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mintedStethSharesOf",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "remainingMintingCapacitySharesOf",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "wstethOf",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "stvOf",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "ggvOf",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "requestWithdrawalFromPool",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "burnWsteth",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "safeTransferERC20",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "POOL_",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "WSTETH",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "TELLER",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "BORING_QUEUE",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "SUPPLY_FEATURE",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "SUPPLY_PAUSE_ROLE",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "SUPPLY_RESUME_ROLE",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:70",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:127",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:130",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:132",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:156",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:166",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:221",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:236",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:264",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:270",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:276",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:292",
+      "file": "GGVStrategy.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:GGVStrategy.sol:304",
+      "file": "GGVStrategy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 38,
+    "n_hyperedges": 12,
+    "n_functions": 18,
+    "n_state_vars": 7,
+    "n_call_sites": 13,
+    "avg_hyperedge_size": 4.25
+  },
+  "label": {
+    "vfp_id": "vfp_00392",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-1287",
+      "CWE-20",
+      "CWE-252",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754"
+    ]
+  }
+}

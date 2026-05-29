@@ -1,0 +1,85 @@
+{
+  "sample_id": "neg_00609",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "state_var",
+      "name": "ASSOCIATION_ADMIN_ACCOUNT",
+      "var_type": "address",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol",
+      "line": 6
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "ASSOCIATION_CAP_AMOUNT",
+      "var_type": "uint256",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol",
+      "line": 7
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "FOUNDATION_ADMIN_ACCOUNT",
+      "var_type": "address",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol",
+      "line": 8
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "FOUNDATION_CAP_AMOUNT",
+      "var_type": "uint256",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol",
+      "line": 9
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "state_var",
+      "name": "ASSOCIATION_ADMIN_ACCOUNT",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "ASSOCIATION_CAP_AMOUNT",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "FOUNDATION_ADMIN_ACCOUNT",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "FOUNDATION_CAP_AMOUNT",
+      "file": "zk-governance_script_DeployZkCappedMintersInput.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 0,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00609",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

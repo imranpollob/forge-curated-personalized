@@ -1,0 +1,127 @@
+{
+  "sample_id": "vfp_00027",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "ExchangeReleaser.sol",
+      "start_line": 39,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterRelease",
+      "file": "ExchangeReleaser.sol",
+      "start_line": 51,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "MAX_RELEASE_LENGTH",
+      "var_type": "uint256 public constant",
+      "file": "ExchangeReleaser.sol",
+      "line": 22
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "TOKEN_JAR",
+      "var_type": "ITokenJar public immutable",
+      "file": "ExchangeReleaser.sol",
+      "line": 25
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ExchangeReleaser.sol:44",
+      "call_type": "INTERFACE_CALL",
+      "line": 44,
+      "enclosing_function": "release",
+      "file": "ExchangeReleaser.sol",
+      "raw_text": "RESOURCE.safeTransferFrom(msg.sender, RESOURCE_RECIPIENT, threshold);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 4
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "ExchangeReleaser.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterRelease",
+      "file": "ExchangeReleaser.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "MAX_RELEASE_LENGTH",
+      "file": "ExchangeReleaser.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "TOKEN_JAR",
+      "file": "ExchangeReleaser.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ExchangeReleaser.sol:44",
+      "file": "ExchangeReleaser.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 1,
+    "n_functions": 2,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00027",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-404",
+      "CWE-664",
+      "CWE-772"
+    ]
+  }
+}

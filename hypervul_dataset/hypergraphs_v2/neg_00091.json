@@ -1,0 +1,176 @@
+{
+  "sample_id": "neg_00091",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_sendReleaseMessage",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol",
+      "start_line": 19,
+      "end_line": 25,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "release",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol",
+      "start_line": 29,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_sendReleaseMessage",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol",
+      "start_line": 20,
+      "end_line": 33,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "DEFAULT_BRIDGE_ID",
+      "var_type": "uint256 public constant",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol",
+      "line": 12
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "MESSENGER",
+      "var_type": "IL1CrossDomainMessenger public immutable",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol",
+      "line": 10
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "L2_TARGET",
+      "var_type": "address public immutable",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol",
+      "line": 11
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:phoenix-fees_src_crosschain_FirepitSource.sol:33",
+      "call_type": "INTERFACE_CALL",
+      "line": 33,
+      "enclosing_function": "release",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol",
+      "raw_text": "RESOURCE.safeTransferFrom(msg.sender, RESOURCE_RECIPIENT, threshold);"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:phoenix-fees_src_crosschain_OPStackFirepitSource.sol:28",
+      "call_type": "INTERFACE_CALL",
+      "line": 28,
+      "enclosing_function": "_sendReleaseMessage",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol",
+      "raw_text": "MESSENGER.sendMessage("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        3,
+        4,
+        5,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_sendReleaseMessage",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "release",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_sendReleaseMessage",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "DEFAULT_BRIDGE_ID",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "MESSENGER",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "L2_TARGET",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:phoenix-fees_src_crosschain_FirepitSource.sol:33",
+      "file": "phoenix-fees_src_crosschain_FirepitSource.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:phoenix-fees_src_crosschain_OPStackFirepitSource.sol:28",
+      "file": "phoenix-fees_src_crosschain_OPStackFirepitSource.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 2,
+    "n_functions": 3,
+    "n_state_vars": 3,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.5
+  },
+  "label": {
+    "vfp_id": "neg_00091",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

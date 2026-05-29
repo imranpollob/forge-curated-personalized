@@ -1,0 +1,121 @@
+{
+  "sample_id": "neg_00447",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "clock",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol",
+      "start_line": 25,
+      "end_line": 31,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol",
+      "start_line": 37,
+      "end_line": 43,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getVotes",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol",
+      "start_line": 48,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "token",
+      "var_type": "IERC5805 public immutable",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol",
+      "line": 15
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol:42",
+      "call_type": "INTERFACE_CALL",
+      "line": 42,
+      "enclosing_function": "_getVotes",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol",
+      "raw_text": "return token.getPastVotes(account, timepoint);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        3,
+        4
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 4
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "clock",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "CLOCK_MODE",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getVotes",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "token",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol:42",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts_contracts_governance_extensions_GovernorVotes.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 1,
+    "n_functions": 3,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00447",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

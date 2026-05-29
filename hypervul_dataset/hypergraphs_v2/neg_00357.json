@@ -1,0 +1,288 @@
+{
+  "sample_id": "neg_00357",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateCurrentBlock",
+      "file": "fassets_contracts_assetManager_facets_UnderlyingTimekeepingFacet.sol",
+      "start_line": 20,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "currentUnderlyingBlock",
+      "file": "fassets_contracts_assetManager_facets_UnderlyingTimekeepingFacet.sol",
+      "start_line": 34,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "diamondStorage",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "start_line": 48,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "diamondCut",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "start_line": 56,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addFunctions",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "start_line": 82,
+      "end_line": 100,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "replaceFunctions",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "start_line": 102,
+      "end_line": 124,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "removeFunctions",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "start_line": 126,
+      "end_line": 156,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initializeDiamondCut",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "start_line": 158,
+      "end_line": 177,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "enforceHasContractCode",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "start_line": 179,
+      "end_line": 187,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requestAttestation",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol",
+      "start_line": 24,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "requestsOffsetSeconds",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol",
+      "start_line": 31,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fdcInflationConfigurations",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol",
+      "start_line": 38,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "DIAMOND_STORAGE_POSITION",
+      "var_type": "bytes32 internal constant",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "line": 32
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "fdcRequestFeeConfigurations",
+      "var_type": "IFdcRequestFeeConfigurations public",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol",
+      "line": 14
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:fassets_contracts_diamond_library_LibDiamond.sol:161",
+      "call_type": "DELEGATECALL",
+      "line": 161,
+      "enclosing_function": "initializeDiamondCut",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol",
+      "raw_text": "(bool success, bytes memory error) = _init.delegatecall(_calldata);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        7,
+        14
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateCurrentBlock",
+      "file": "fassets_contracts_assetManager_facets_UnderlyingTimekeepingFacet.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "currentUnderlyingBlock",
+      "file": "fassets_contracts_assetManager_facets_UnderlyingTimekeepingFacet.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "diamondStorage",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "diamondCut",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addFunctions",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "replaceFunctions",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "removeFunctions",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "initializeDiamondCut",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "enforceHasContractCode",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requestAttestation",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "requestsOffsetSeconds",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "fdcInflationConfigurations",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "DIAMOND_STORAGE_POSITION",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "fdcRequestFeeConfigurations",
+      "file": "fassets_contracts_fdc_mock_FdcHubMock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:fassets_contracts_diamond_library_LibDiamond.sol:161",
+      "file": "fassets_contracts_diamond_library_LibDiamond.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 1,
+    "n_functions": 12,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00357",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "sample_id": "neg_00060",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setQuorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setQuorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol",
+      "start_line": 40,
+      "end_line": 43,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exposed_setIsGuardianPropose",
+      "file": "zk-governance_test_harnesses_ZkTokenGovernorHarness.sol",
+      "start_line": 9,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_quorumCheckpoints",
+      "var_type": "Checkpoints.Trace224 internal",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol",
+      "line": 15
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:zk-governance_src_extensions_GovernorSettableFixedQuorum.sol:35",
+      "call_type": "INTERFACE_CALL",
+      "line": 35,
+      "enclosing_function": "quorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol",
+      "raw_text": "return _quorumCheckpoints.upperLookup(SafeCast.toUint32(_voteStart));"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:zk-governance_src_extensions_GovernorSettableFixedQuorum.sol:42",
+      "call_type": "INTERFACE_CALL",
+      "line": 42,
+      "enclosing_function": "_setQuorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol",
+      "raw_text": "_quorumCheckpoints.push(SafeCast.toUint32(block.timestamp), _amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 5
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setQuorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setQuorum",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exposed_setIsGuardianPropose",
+      "file": "zk-governance_test_harnesses_ZkTokenGovernorHarness.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_quorumCheckpoints",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:zk-governance_src_extensions_GovernorSettableFixedQuorum.sol:35",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:zk-governance_src_extensions_GovernorSettableFixedQuorum.sol:42",
+      "file": "zk-governance_src_extensions_GovernorSettableFixedQuorum.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 2,
+    "n_functions": 4,
+    "n_state_vars": 1,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 4.5
+  },
+  "label": {
+    "vfp_id": "neg_00060",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

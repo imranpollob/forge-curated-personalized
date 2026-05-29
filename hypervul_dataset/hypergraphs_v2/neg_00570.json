@@ -1,0 +1,283 @@
+{
+  "sample_id": "neg_00570",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isBaseSupported",
+      "file": "sBOLD_contracts_interfaces_IPriceOracle.sol",
+      "start_line": 38,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getQuote",
+      "file": "sBOLD_contracts_interfaces_IPriceOracle.sol",
+      "start_line": 43,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mint",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setRevert",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "start_line": 18,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "overrideDecimals",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "sendToPool",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "start_line": 26,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "mintTo",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "start_line": 34,
+      "end_line": 38,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getQuote",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol",
+      "start_line": 37,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isBaseSupported",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol",
+      "start_line": 46,
+      "end_line": 48,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "overriddenDecimals",
+      "var_type": "uint8 private",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "line": 7
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "doRevert",
+      "var_type": "bool private",
+      "file": "sBOLD_contracts_mocks_MockBold.sol",
+      "line": 8
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "feedToMaxStaleness",
+      "var_type": "mapping(address => uint256) public",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol",
+      "line": 13
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "QUOTE_DECIMALS",
+      "var_type": "uint8 public constant",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol",
+      "line": 15
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol",
+      "line": 17
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "feed",
+      "var_type": "Feed public",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol",
+      "line": 19
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isBaseSupported",
+      "file": "sBOLD_contracts_interfaces_IPriceOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getQuote",
+      "file": "sBOLD_contracts_interfaces_IPriceOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mint",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setRevert",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "overrideDecimals",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "sendToPool",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "mintTo",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getQuote",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isBaseSupported",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "overriddenDecimals",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "doRevert",
+      "file": "sBOLD_contracts_mocks_MockBold.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "feedToMaxStaleness",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "QUOTE_DECIMALS",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "feed",
+      "file": "sBOLD_contracts_oracle_chainlink_ChainlinkOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00570",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "sample_id": "neg_00047",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getHplGasRouterStorage",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 45,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setDestinationGas",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 58,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDestinationGas",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 69,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quoteGasPayment",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_GasRouter_hookMetadata",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_setDestinationGas",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 86,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_GasRouter_dispatch",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 91,
+      "end_line": 96,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_GasRouter_quoteDispatch",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "start_line": 98,
+      "end_line": 104,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "_GAS_ROUTER_STORAGE_NAMESPACE",
+      "var_type": "string private constant",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "line": 42
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "_slot",
+      "var_type": "bytes32 private immutable",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "line": 43
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol:33",
+      "call_type": "INTERFACE_CALL",
+      "line": 33,
+      "enclosing_function": "",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol",
+      "raw_text": "bytes32 private immutable _slot = _GAS_ROUTER_STORAGE_NAMESPACE.storageSlot();"
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getHplGasRouterStorage",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setDestinationGas",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDestinationGas",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "quoteGasPayment",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_GasRouter_hookMetadata",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_setDestinationGas",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_GasRouter_dispatch",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_GasRouter_quoteDispatch",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "_GAS_ROUTER_STORAGE_NAMESPACE",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "_slot",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol:33",
+      "file": "f18b1965c3d5816e422edb206efe598f0fb39899_protocol_src_external_hyperlane_GasRouter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00047",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

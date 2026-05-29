@@ -1,0 +1,450 @@
+{
+  "sample_id": "neg_00636",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyZkTrieProof",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol",
+      "start_line": 32,
+      "end_line": 38,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyStateCommitment",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol",
+      "start_line": 46,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__LidoGatewayManager_init",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 134,
+      "end_line": 152,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isDepositsEnabled",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isWithdrawalsEnabled",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hasRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 169,
+      "end_line": 171,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getRoleMember",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 177,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getRoleMemberCount",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 186,
+      "end_line": 188,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "enableDeposits",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 195,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "disableDeposits",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 206,
+      "end_line": 213,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "enableWithdrawals",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 216,
+      "end_line": 224,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "disableWithdrawals",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 227,
+      "end_line": 234,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 241,
+      "end_line": 243,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 250,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_loadState",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 259,
+      "end_line": 265,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_grantRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 272,
+      "end_line": 276,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_revokeRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "start_line": 283,
+      "end_line": 287,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "finalizeBundle",
+      "file": "scroll-contracts_src_mocks_ScrollChainMockFinalize.sol",
+      "start_line": 25,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "finalizeBundlePostEuclidV2NoProof",
+      "file": "scroll-contracts_src_mocks_ScrollChainMockFinalize.sol",
+      "start_line": 40,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "poseidon",
+      "var_type": "address public immutable",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol",
+      "line": 10
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "rollup",
+      "var_type": "address public immutable",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol",
+      "line": 13
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "STATE_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "line": 95
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "DEPOSITS_ENABLER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "line": 98
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "DEPOSITS_DISABLER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "line": 101
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "WITHDRAWALS_ENABLER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "line": 104
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "WITHDRAWALS_DISABLER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol",
+      "line": 107
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "verifyZkTrieProof",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "verifyStateCommitment",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__LidoGatewayManager_init",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "isDepositsEnabled",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isWithdrawalsEnabled",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hasRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getRoleMember",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getRoleMemberCount",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "enableDeposits",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "disableDeposits",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "enableWithdrawals",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "disableWithdrawals",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_loadState",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_grantRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_revokeRole",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "finalizeBundle",
+      "file": "scroll-contracts_src_mocks_ScrollChainMockFinalize.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "finalizeBundlePostEuclidV2NoProof",
+      "file": "scroll-contracts_src_mocks_ScrollChainMockFinalize.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "poseidon",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "rollup",
+      "file": "scroll-contracts_src_L1_rollup_ScrollChainCommitmentVerifier.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "STATE_SLOT",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "DEPOSITS_ENABLER_ROLE",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "DEPOSITS_DISABLER_ROLE",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "WITHDRAWALS_ENABLER_ROLE",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "WITHDRAWALS_DISABLER_ROLE",
+      "file": "scroll-contracts_src_lido_LidoGatewayManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 0,
+    "n_functions": 19,
+    "n_state_vars": 7,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00636",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

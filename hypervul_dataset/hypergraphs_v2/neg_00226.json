@@ -1,0 +1,317 @@
+{
+  "sample_id": "neg_00226",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "variant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 52,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "msgValue",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 65,
+      "end_line": 68,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "gasLimit",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 76,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "gasLimit",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 81,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "refundAddress",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 96,
+      "end_line": 99,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getCustomMetadata",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 106,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "format",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 120,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "formatMetadata",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 137,
+      "end_line": 144,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "overrideMsgValue",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 151,
+      "end_line": 155,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "overrideGasLimit",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 162,
+      "end_line": 166,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "overrideRefundAddress",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 173,
+      "end_line": 177,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getRefundAddress",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "start_line": 179,
+      "end_line": 188,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "VARIANT_OFFSET",
+      "var_type": "uint8 private constant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "line": 39
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MSG_VALUE_OFFSET",
+      "var_type": "uint8 private constant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "line": 40
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "GAS_LIMIT_OFFSET",
+      "var_type": "uint8 private constant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "line": 41
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "REFUND_ADDRESS_OFFSET",
+      "var_type": "uint8 private constant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "line": 42
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "MIN_METADATA_LENGTH",
+      "var_type": "uint256 private constant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "line": 43
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "VARIANT",
+      "var_type": "uint16 public constant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol",
+      "line": 45
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "variant",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "msgValue",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "gasLimit",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "gasLimit",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "refundAddress",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getCustomMetadata",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "format",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "formatMetadata",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "overrideMsgValue",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "overrideGasLimit",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "overrideRefundAddress",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getRefundAddress",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "VARIANT_OFFSET",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MSG_VALUE_OFFSET",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "GAS_LIMIT_OFFSET",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "REFUND_ADDRESS_OFFSET",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "MIN_METADATA_LENGTH",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "VARIANT",
+      "file": "oif-contracts_src_oracles_hyperlane_external_hyperlane_libs_StandardHookMetadata.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 0,
+    "n_functions": 12,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00226",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

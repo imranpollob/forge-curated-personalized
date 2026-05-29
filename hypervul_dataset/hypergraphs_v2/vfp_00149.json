@@ -1,0 +1,69 @@
+{
+  "sample_id": "vfp_00149",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "get",
+      "file": "PairPosition.sol",
+      "start_line": 32,
+      "end_line": 39,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "update",
+      "file": "PairPosition.sol",
+      "start_line": 46,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "get",
+      "file": "PairPosition.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "update",
+      "file": "PairPosition.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 2,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00149",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

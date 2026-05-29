@@ -1,0 +1,322 @@
+{
+  "sample_id": "vfp_00106",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BridgeValidator.sol",
+      "start_line": 129,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "registerMessages",
+      "file": "BridgeValidator.sol",
+      "start_line": 142,
+      "end_line": 159,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "BridgeValidator.sol",
+      "start_line": 166,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addValidator",
+      "file": "BridgeValidator.sol",
+      "start_line": 175,
+      "end_line": 177,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "removeValidator",
+      "file": "BridgeValidator.sol",
+      "start_line": 184,
+      "end_line": 186,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_validateSigs",
+      "file": "BridgeValidator.sol",
+      "start_line": 196,
+      "end_line": 207,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getSignersFromSigs",
+      "file": "BridgeValidator.sol",
+      "start_line": 209,
+      "end_line": 236,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_countBaseSigners",
+      "file": "BridgeValidator.sol",
+      "start_line": 238,
+      "end_line": 250,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_countPartnerSigners",
+      "file": "BridgeValidator.sol",
+      "start_line": 252,
+      "end_line": 277,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_indexOf",
+      "file": "BridgeValidator.sol",
+      "start_line": 280,
+      "end_line": 287,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "MAX_PARTNER_VALIDATOR_THRESHOLD",
+      "var_type": "uint256 public constant",
+      "file": "BridgeValidator.sol",
+      "line": 24
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "GUARDIAN_ROLE",
+      "var_type": "uint256 public constant",
+      "file": "BridgeValidator.sol",
+      "line": 27
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "PARTNER_VALIDATOR_THRESHOLD",
+      "var_type": "uint256 public immutable",
+      "file": "BridgeValidator.sol",
+      "line": 30
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "BRIDGE",
+      "var_type": "address public immutable",
+      "file": "BridgeValidator.sol",
+      "line": 33
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "PARTNER_VALIDATORS",
+      "var_type": "address public immutable",
+      "file": "BridgeValidator.sol",
+      "line": 36
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_BIT",
+      "var_type": "uint256 private constant",
+      "file": "BridgeValidator.sol",
+      "line": 39
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "nextNonce",
+      "var_type": "uint256 public",
+      "file": "BridgeValidator.sol",
+      "line": 46
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "validMessages",
+      "var_type": "mapping(bytes32 messageHash => bool isValid) public",
+      "file": "BridgeValidator.sol",
+      "line": 50
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "registerMessages",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addValidator",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "removeValidator",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_validateSigs",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getSignersFromSigs",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_countBaseSigners",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_countPartnerSigners",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_indexOf",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "MAX_PARTNER_VALIDATOR_THRESHOLD",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "GUARDIAN_ROLE",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "PARTNER_VALIDATOR_THRESHOLD",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "BRIDGE",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "PARTNER_VALIDATORS",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_BIT",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "nextNonce",
+      "file": "BridgeValidator.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "validMessages",
+      "file": "BridgeValidator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 8,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00106",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-424",
+      "CWE-435",
+      "CWE-693",
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "sample_id": "vfp_00520",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "IPaymaster.sol",
+      "start_line": 75,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "IPaymaster.sol",
+      "start_line": 90,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 73,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "decodePaymasterInput",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 116,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 125,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approveSenderBySignature",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 138,
+      "end_line": 147,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 152,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "changeSigner",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 168,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "cancelNonce",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 175,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "approveSender",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 184,
+      "end_line": 187,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "domainSeparator",
+      "file": "SignatureBasedPaymaster.sol",
+      "start_line": 190,
+      "end_line": 192,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "APPROVED_TRANSACTION_SENDER_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "SignatureBasedPaymaster.sol",
+      "line": 36
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "signer",
+      "var_type": "address public",
+      "file": "SignatureBasedPaymaster.sol",
+      "line": 41
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "approvedSenders",
+      "var_type": "mapping(address sender => uint256 validUntil) public",
+      "file": "SignatureBasedPaymaster.sol",
+      "line": 45
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "nonces",
+      "var_type": "mapping(address sender => uint256 nonce) public",
+      "file": "SignatureBasedPaymaster.sol",
+      "line": 50
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "CALL:SignatureBasedPaymaster.sol:106",
+      "call_type": "CALL",
+      "line": 106,
+      "enclosing_function": "validateAndPayForPaymasterTransaction",
+      "file": "SignatureBasedPaymaster.sol",
+      "raw_text": "(bool success,) = payable(BOOTLOADER_FORMAL_ADDRESS).call{value: requiredETH}(\"\");"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "CALL:SignatureBasedPaymaster.sol:156",
+      "call_type": "CALL",
+      "line": 156,
+      "enclosing_function": "withdraw",
+      "file": "SignatureBasedPaymaster.sol",
+      "raw_text": "(bool success,) = _to.call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        13,
+        15
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        16
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 16
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "IPaymaster.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "IPaymaster.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "validateAndPayForPaymasterTransaction",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "decodePaymasterInput",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "postTransaction",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approveSenderBySignature",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "changeSigner",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "cancelNonce",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "approveSender",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "domainSeparator",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "APPROVED_TRANSACTION_SENDER_TYPEHASH",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "signer",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "approvedSenders",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "nonces",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "CALL:SignatureBasedPaymaster.sol:106",
+      "file": "SignatureBasedPaymaster.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "CALL:SignatureBasedPaymaster.sol:156",
+      "file": "SignatureBasedPaymaster.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 2,
+    "n_functions": 11,
+    "n_state_vars": 4,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.5
+  },
+  "label": {
+    "vfp_id": "vfp_00520",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1059",
+      "CWE-1111",
+      "CWE-362",
+      "CWE-691",
+      "CWE-710"
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "sample_id": "vfp_00379",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFillRecordHash",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getFillRecord",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getFillRecord",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_resolveOutput",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 88,
+      "end_line": 94,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_fill",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 112,
+      "end_line": 138,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fill",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 154,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "fillOrderOutputs",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 185,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "call",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 212,
+      "end_line": 217,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_isPayloadValid",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 228,
+      "end_line": 248,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "arePayloadsValid",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 253,
+      "end_line": 261,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setAttestation",
+      "file": "BaseOutputSettler.sol",
+      "start_line": 265,
+      "end_line": 288,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_fillRecords",
+      "var_type": "mapping(bytes32 orderId => mapping(bytes32 outputHash => bytes32 payloadHash)) internal",
+      "file": "BaseOutputSettler.sol",
+      "line": 61
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BaseOutputSettler.sol:85",
+      "call_type": "INTERFACE_CALL",
+      "line": 85,
+      "enclosing_function": "_fill",
+      "file": "BaseOutputSettler.sol",
+      "raw_text": "SafeTransferLib.safeTransferFrom(address(uint160(uint256(output.token))), msg.sender, recipient, outputAmount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        5,
+        6,
+        11,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getFillRecordHash",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getFillRecord",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getFillRecord",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_resolveOutput",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_fill",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fill",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "fillOrderOutputs",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "call",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_isPayloadValid",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "arePayloadsValid",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setAttestation",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_fillRecords",
+      "file": "BaseOutputSettler.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BaseOutputSettler.sol:85",
+      "file": "BaseOutputSettler.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 1,
+    "n_functions": 11,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00379",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-372",
+      "CWE-664"
+    ]
+  }
+}

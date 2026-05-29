@@ -1,0 +1,221 @@
+{
+  "sample_id": "neg_00219",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getLeverageTokenMinCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getLeverageTokenMaxCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 18,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mockSetLeverageTokenMinCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mockSetLeverageTokenMaxCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 26,
+      "end_line": 28,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "mockIsEligibleForRebalance",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "mockIsValidStateAfterRebalance",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isEligibleForRebalance",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 38,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isStateAfterRebalanceValid",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "start_line": 42,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "isEligible",
+      "var_type": "bool public",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "line": 8
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "isValid",
+      "var_type": "bool public",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "line": 9
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "leverageTokenMinCollateralRatio",
+      "var_type": "mapping(ILeverageToken => uint256) public",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "line": 11
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "leverageTokenMaxCollateralRatio",
+      "var_type": "mapping(ILeverageToken => uint256) public",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol",
+      "line": 12
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getLeverageTokenMinCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getLeverageTokenMaxCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mockSetLeverageTokenMinCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mockSetLeverageTokenMaxCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "mockIsEligibleForRebalance",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "mockIsValidStateAfterRebalance",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isEligibleForRebalance",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isStateAfterRebalanceValid",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "isEligible",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "isValid",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "leverageTokenMinCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "leverageTokenMaxCollateralRatio",
+      "file": "leverage-tokens_test_unit_mock_MockRebalanceAdapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 12,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00219",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

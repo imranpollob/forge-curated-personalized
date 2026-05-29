@@ -1,0 +1,228 @@
+{
+  "sample_id": "vfp_00530",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "ERC7683.sol",
+      "start_line": 106,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "open",
+      "file": "ERC7683.sol",
+      "start_line": 116,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resolveFor",
+      "file": "ERC7683.sol",
+      "start_line": 123,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "ERC7683.sol",
+      "start_line": 132,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fill",
+      "file": "ERC7683.sol",
+      "start_line": 142,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hashOrder",
+      "file": "ERC7683Across.sol",
+      "start_line": 78,
+      "end_line": 92,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "hashOrderData",
+      "file": "ERC7683Across.sol",
+      "start_line": 94,
+      "end_line": 109,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ORDER_TYPE",
+      "var_type": "bytes internal constant",
+      "file": "ERC7683Across.sol",
+      "line": 49
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ORDER_EIP712_TYPE",
+      "var_type": "bytes internal constant",
+      "file": "ERC7683Across.sol",
+      "line": 62
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ORDER_TYPE_HASH",
+      "var_type": "bytes32 internal constant",
+      "file": "ERC7683Across.sol",
+      "line": 64
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "TOKEN_PERMISSIONS_TYPE",
+      "var_type": "string private constant",
+      "file": "ERC7683Across.sol",
+      "line": 66
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PERMIT2_ORDER_TYPE",
+      "var_type": "string internal constant",
+      "file": "ERC7683Across.sol",
+      "line": 67
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openFor",
+      "file": "ERC7683.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "open",
+      "file": "ERC7683.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "resolveFor",
+      "file": "ERC7683.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "resolve",
+      "file": "ERC7683.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "fill",
+      "file": "ERC7683.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "hashOrder",
+      "file": "ERC7683Across.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "hashOrderData",
+      "file": "ERC7683Across.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ORDER_TYPE",
+      "file": "ERC7683Across.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ORDER_EIP712_TYPE",
+      "file": "ERC7683Across.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ORDER_TYPE_HASH",
+      "file": "ERC7683Across.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "TOKEN_PERMISSIONS_TYPE",
+      "file": "ERC7683Across.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PERMIT2_ORDER_TYPE",
+      "file": "ERC7683Across.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 12,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00530",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-228",
+      "CWE-241",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "sample_id": "vfp_00468",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "WrapAndSupply.sol",
+      "start_line": 33,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "WrapAndSupply.sol",
+      "start_line": 34,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "WrapAndSupply.sol",
+      "start_line": 35,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "wrapAndSupplyOnHostMarket",
+      "file": "WrapAndSupply.sol",
+      "start_line": 59,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "wrapAndSupplyOnExtensionMarket",
+      "file": "WrapAndSupply.sol",
+      "start_line": 78,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_wrap",
+      "file": "WrapAndSupply.sol",
+      "start_line": 93,
+      "end_line": 99,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "mTokenGateway.sol",
+      "start_line": 79,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isPaused",
+      "file": "mTokenGateway.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getProofData",
+      "file": "mTokenGateway.sol",
+      "start_line": 125,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setWhitelistedUser",
+      "file": "mTokenGateway.sol",
+      "start_line": 135,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "enableWhitelist",
+      "file": "mTokenGateway.sol",
+      "start_line": 143,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "disableWhitelist",
+      "file": "mTokenGateway.sol",
+      "start_line": 151,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setPaused",
+      "file": "mTokenGateway.sol",
+      "start_line": 159,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "extractForRebalancing",
+      "file": "mTokenGateway.sol",
+      "start_line": 176,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setGasFee",
+      "file": "mTokenGateway.sol",
+      "start_line": 185,
+      "end_line": 188,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "withdrawGasFees",
+      "file": "mTokenGateway.sol",
+      "start_line": 194,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateZkVerifier",
+      "file": "mTokenGateway.sol",
+      "start_line": 206,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateAllowedCallerStatus",
+      "file": "mTokenGateway.sol",
+      "start_line": 216,
+      "end_line": 219,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "supplyOnHost",
+      "file": "mTokenGateway.sol",
+      "start_line": 224,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "outHere",
+      "file": "mTokenGateway.sol",
+      "start_line": 257,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_outHere",
+      "file": "mTokenGateway.sol",
+      "start_line": 281,
+      "end_line": 313,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_verifyProof",
+      "file": "mTokenGateway.sol",
+      "start_line": 316,
+      "end_line": 337,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_checkSender",
+      "file": "mTokenGateway.sol",
+      "start_line": 339,
+      "end_line": 348,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getSequencerRole",
+      "file": "mTokenGateway.sol",
+      "start_line": 350,
+      "end_line": 352,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getBatchProofForwarderRole",
+      "file": "mTokenGateway.sol",
+      "start_line": 354,
+      "end_line": 356,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_getProofForwarderRole",
+      "file": "mTokenGateway.sol",
+      "start_line": 358,
+      "end_line": 360,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_isAllowedFor",
+      "file": "mTokenGateway.sol",
+      "start_line": 362,
+      "end_line": 364,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "rolesOperator",
+      "var_type": "IRoles public",
+      "file": "mTokenGateway.sol",
+      "line": 47
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "blacklistOperator",
+      "var_type": "IBlacklister public",
+      "file": "mTokenGateway.sol",
+      "line": 52
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "verifier",
+      "var_type": "IZkVerifier public",
+      "file": "mTokenGateway.sol",
+      "line": 54
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "paused",
+      "var_type": "mapping(OperationType => bool) public",
+      "file": "mTokenGateway.sol",
+      "line": 56
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "underlying",
+      "var_type": "address public",
+      "file": "mTokenGateway.sol",
+      "line": 61
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "accAmountIn",
+      "var_type": "mapping(address => uint256) public",
+      "file": "mTokenGateway.sol",
+      "line": 63
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "accAmountOut",
+      "var_type": "mapping(address => uint256) public",
+      "file": "mTokenGateway.sol",
+      "line": 64
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "allowedCallers",
+      "var_type": "mapping(address => mapping(address => bool)) public",
+      "file": "mTokenGateway.sol",
+      "line": 65
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "userWhitelisted",
+      "var_type": "mapping(address => bool) public",
+      "file": "mTokenGateway.sol",
+      "line": 66
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "whitelistEnabled",
+      "var_type": "bool public",
+      "file": "mTokenGateway.sol",
+      "line": 67
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "LINEA_CHAIN_ID",
+      "var_type": "uint32 private constant",
+      "file": "mTokenGateway.sol",
+      "line": 69
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "gasFee",
+      "var_type": "uint256 public",
+      "file": "mTokenGateway.sol",
+      "line": 72
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:99",
+      "call_type": "INTERFACE_CALL",
+      "line": 99,
+      "enclosing_function": "",
+      "file": "mTokenGateway.sol",
+      "raw_text": "require (!blacklistOperator.isBlacklisted(user), mTokenGateway_UserBlacklisted());"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:137",
+      "call_type": "INTERFACE_CALL",
+      "line": 137,
+      "enclosing_function": "setPaused",
+      "file": "mTokenGateway.sol",
+      "raw_text": "msg.sender == owner() || rolesOperator.isAllowedFor(msg.sender, rolesOperator.GUARDIAN_PAUSE()),"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:150",
+      "call_type": "INTERFACE_CALL",
+      "line": 150,
+      "enclosing_function": "extractForRebalancing",
+      "file": "mTokenGateway.sol",
+      "raw_text": "if (!rolesOperator.isAllowedFor(msg.sender, rolesOperator.REBALANCER())) revert mTokenGateway_NotRebalancer();"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "TRANSFER:mTokenGateway.sol:166",
+      "call_type": "TRANSFER",
+      "line": 166,
+      "enclosing_function": "withdrawGasFees",
+      "file": "mTokenGateway.sol",
+      "raw_text": "receiver.transfer(balance);"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:222",
+      "call_type": "INTERFACE_CALL",
+      "line": 222,
+      "enclosing_function": "outHere",
+      "file": "mTokenGateway.sol",
+      "raw_text": "if (!rolesOperator.isAllowedFor(msg.sender, rolesOperator.PROOF_BATCH_FORWARDER())) {"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:294",
+      "call_type": "INTERFACE_CALL",
+      "line": 294,
+      "enclosing_function": "_verifyProof",
+      "file": "mTokenGateway.sol",
+      "raw_text": "verifier.verifyInput(journalData, seal);"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:309",
+      "call_type": "INTERFACE_CALL",
+      "line": 309,
+      "enclosing_function": "_getSequencerRole",
+      "file": "mTokenGateway.sol",
+      "raw_text": "return rolesOperator.SEQUENCER();"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:313",
+      "call_type": "INTERFACE_CALL",
+      "line": 313,
+      "enclosing_function": "_getBatchProofForwarderRole",
+      "file": "mTokenGateway.sol",
+      "raw_text": "return rolesOperator.PROOF_BATCH_FORWARDER();"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:317",
+      "call_type": "INTERFACE_CALL",
+      "line": 317,
+      "enclosing_function": "_getProofForwarderRole",
+      "file": "mTokenGateway.sol",
+      "raw_text": "return rolesOperator.PROOF_FORWARDER();"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:321",
+      "call_type": "INTERFACE_CALL",
+      "line": 321,
+      "enclosing_function": "_isAllowedFor",
+      "file": "mTokenGateway.sol",
+      "raw_text": "return rolesOperator.isAllowedFor(_sender, role);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        12,
+        27,
+        30,
+        40
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 40
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        13,
+        27,
+        31,
+        41
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 41
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        15,
+        42
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 42
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        19,
+        27,
+        43
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 43
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        19,
+        21,
+        27,
+        29,
+        44
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 44
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        15,
+        23,
+        27,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        19,
+        20,
+        21,
+        22,
+        24,
+        27,
+        29,
+        31,
+        32,
+        33,
+        34,
+        37,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        19,
+        20,
+        21,
+        22,
+        25,
+        27,
+        29,
+        31,
+        32,
+        33,
+        34,
+        37,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        15,
+        19,
+        20,
+        21,
+        22,
+        26,
+        27,
+        29,
+        31,
+        32,
+        33,
+        34,
+        37,
+        48
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 48
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "WrapAndSupply.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "WrapAndSupply.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "WrapAndSupply.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "wrapAndSupplyOnHostMarket",
+      "file": "WrapAndSupply.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "wrapAndSupplyOnExtensionMarket",
+      "file": "WrapAndSupply.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_wrap",
+      "file": "WrapAndSupply.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isPaused",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getProofData",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setWhitelistedUser",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "enableWhitelist",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "disableWhitelist",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setPaused",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "extractForRebalancing",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setGasFee",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "withdrawGasFees",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateZkVerifier",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "updateAllowedCallerStatus",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "supplyOnHost",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "outHere",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_outHere",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_verifyProof",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_checkSender",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getSequencerRole",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getBatchProofForwarderRole",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_getProofForwarderRole",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_isAllowedFor",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "rolesOperator",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "blacklistOperator",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "verifier",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "paused",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "underlying",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "accAmountIn",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "accAmountOut",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "allowedCallers",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "userWhitelisted",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "whitelistEnabled",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "LINEA_CHAIN_ID",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "gasFee",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:99",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:137",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:150",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "TRANSFER:mTokenGateway.sol:166",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:222",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:294",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:309",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:313",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:317",
+      "file": "mTokenGateway.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mTokenGateway.sol:321",
+      "file": "mTokenGateway.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 49,
+    "n_hyperedges": 9,
+    "n_functions": 27,
+    "n_state_vars": 12,
+    "n_call_sites": 10,
+    "avg_hyperedge_size": 6.888888888888889
+  },
+  "label": {
+    "vfp_id": "vfp_00468",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-179",
+      "CWE-20",
+      "CWE-431",
+      "CWE-682",
+      "CWE-691",
+      "CWE-707"
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "sample_id": "neg_00150",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__Pausable_init",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__Pausable_init_unchained",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "start_line": 38,
+      "end_line": 40,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "paused",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "start_line": 69,
+      "end_line": 71,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_requireNotPaused",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_requirePaused",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_pause",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "start_line": 94,
+      "end_line": 97,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_unpause",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "start_line": 106,
+      "end_line": 109,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_paused",
+      "var_type": "bool private",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "line": 29
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol",
+      "line": 116
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__Pausable_init",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__Pausable_init_unchained",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "paused",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_requireNotPaused",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_requirePaused",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_pause",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_unpause",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_paused",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "wYBSV1_@openzeppelin_contracts-upgradeable_security_PausableUpgradeable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00150",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

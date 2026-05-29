@@ -1,0 +1,187 @@
+{
+  "sample_id": "vfp_00274",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "ChainLinkDataConsumer_init",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 29,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateDataFeeds",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 45,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPathId",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getChainLinkDataFeedLatestAnswer",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 67,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "version",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 98,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "ChainLinkDataConsumer.sol",
+      "start_line": 102,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "dataFeeds",
+      "var_type": "mapping(bytes32 => address[]) public",
+      "file": "ChainLinkDataConsumer.sol",
+      "line": 19
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "ChainLinkDataConsumer_init",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateDataFeeds",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPathId",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getChainLinkDataFeedLatestAnswer",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "version",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "ChainLinkDataConsumer.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "dataFeeds",
+      "file": "ChainLinkDataConsumer.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00274",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

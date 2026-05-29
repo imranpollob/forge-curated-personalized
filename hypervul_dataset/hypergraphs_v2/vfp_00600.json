@@ -1,0 +1,375 @@
+{
+  "sample_id": "vfp_00600",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MonUSD.sol",
+      "start_line": 101,
+      "end_line": 109,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "name",
+      "file": "MonUSD.sol",
+      "start_line": 117,
+      "end_line": 119,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "MonUSD.sol",
+      "start_line": 123,
+      "end_line": 125,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addStablecoin",
+      "file": "MonUSD.sol",
+      "start_line": 138,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "removeStablecoin",
+      "file": "MonUSD.sol",
+      "start_line": 158,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "MonUSD.sol",
+      "start_line": 185,
+      "end_line": 197,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "MonUSD.sol",
+      "start_line": 207,
+      "end_line": 225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "mint",
+      "file": "MonUSD.sol",
+      "start_line": 235,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_convertToMonAmount",
+      "file": "MonUSD.sol",
+      "start_line": 254,
+      "end_line": 261,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_convertFromMonAmount",
+      "file": "MonUSD.sol",
+      "start_line": 271,
+      "end_line": 278,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getSupportedStablecoins",
+      "file": "MonUSD.sol",
+      "start_line": 290,
+      "end_line": 292,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "supportedStablecoins",
+      "var_type": "mapping(address => uint8) public",
+      "file": "MonUSD.sol",
+      "line": 29
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "stablecoinsList",
+      "var_type": "address[] public",
+      "file": "MonUSD.sol",
+      "line": 33
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "initialized",
+      "var_type": "bool private",
+      "file": "MonUSD.sol",
+      "line": 37
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_name",
+      "var_type": "string private",
+      "file": "MonUSD.sol",
+      "line": 41
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_symbol",
+      "var_type": "string private",
+      "file": "MonUSD.sol",
+      "line": 45
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MonUSD.sol:108",
+      "call_type": "INTERFACE_CALL",
+      "line": 108,
+      "enclosing_function": "addStablecoin",
+      "file": "MonUSD.sol",
+      "raw_text": "stablecoinsList.push(stablecoin);"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MonUSD.sol:124",
+      "call_type": "INTERFACE_CALL",
+      "line": 124,
+      "enclosing_function": "removeStablecoin",
+      "file": "MonUSD.sol",
+      "raw_text": "stablecoinsList.pop();"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "TRANSFER:MonUSD.sol:164",
+      "call_type": "TRANSFER",
+      "line": 164,
+      "enclosing_function": "withdraw",
+      "file": "MonUSD.sol",
+      "raw_text": "require(token.transfer(msg.sender, stablecoinAmount), \"Transfer failed\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        11,
+        12,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        11,
+        12,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        6,
+        11,
+        18
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 18
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "name",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "addStablecoin",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "removeStablecoin",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "mint",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_convertToMonAmount",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_convertFromMonAmount",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getSupportedStablecoins",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "supportedStablecoins",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "stablecoinsList",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "initialized",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_name",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_symbol",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MonUSD.sol:108",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MonUSD.sol:124",
+      "file": "MonUSD.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "TRANSFER:MonUSD.sol:164",
+      "file": "MonUSD.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 3,
+    "n_functions": 11,
+    "n_state_vars": 5,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.6666666666666665
+  },
+  "label": {
+    "vfp_id": "vfp_00600",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-284",
+      "CWE-285",
+      "CWE-862"
+    ]
+  }
+}

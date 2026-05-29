@@ -1,0 +1,958 @@
+{
+  "sample_id": "vfp_00115",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proofSetCreated",
+      "file": "PDPVerifier.sol",
+      "start_line": 19,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "proofSetDeleted",
+      "file": "PDPVerifier.sol",
+      "start_line": 20,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "rootsAdded",
+      "file": "PDPVerifier.sol",
+      "start_line": 21,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rootsScheduledRemove",
+      "file": "PDPVerifier.sol",
+      "start_line": 22,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "possessionProven",
+      "file": "PDPVerifier.sol",
+      "start_line": 24,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "nextProvingPeriod",
+      "file": "PDPVerifier.sol",
+      "start_line": 25,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PDPVerifier.sol",
+      "start_line": 142,
+      "end_line": 146,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PDPVerifier.sol",
+      "start_line": 148,
+      "end_line": 148,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "burnFee",
+      "file": "PDPVerifier.sol",
+      "start_line": 150,
+      "end_line": 154,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getChallengeFinality",
+      "file": "PDPVerifier.sol",
+      "start_line": 157,
+      "end_line": 159,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getNextProofSetId",
+      "file": "PDPVerifier.sol",
+      "start_line": 162,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "proofSetLive",
+      "file": "PDPVerifier.sol",
+      "start_line": 167,
+      "end_line": 169,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "rootLive",
+      "file": "PDPVerifier.sol",
+      "start_line": 172,
+      "end_line": 174,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "rootChallengable",
+      "file": "PDPVerifier.sol",
+      "start_line": 177,
+      "end_line": 182,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getProofSetLeafCount",
+      "file": "PDPVerifier.sol",
+      "start_line": 185,
+      "end_line": 188,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getNextRootId",
+      "file": "PDPVerifier.sol",
+      "start_line": 191,
+      "end_line": 194,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getNextChallengeEpoch",
+      "file": "PDPVerifier.sol",
+      "start_line": 197,
+      "end_line": 200,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getProofSetListener",
+      "file": "PDPVerifier.sol",
+      "start_line": 203,
+      "end_line": 206,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getProofSetOwner",
+      "file": "PDPVerifier.sol",
+      "start_line": 209,
+      "end_line": 212,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getProofSetLastProvenEpoch",
+      "file": "PDPVerifier.sol",
+      "start_line": 214,
+      "end_line": 217,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getRootCid",
+      "file": "PDPVerifier.sol",
+      "start_line": 220,
+      "end_line": 223,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getRootLeafCount",
+      "file": "PDPVerifier.sol",
+      "start_line": 226,
+      "end_line": 229,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getChallengeRange",
+      "file": "PDPVerifier.sol",
+      "start_line": 232,
+      "end_line": 235,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getScheduledRemovals",
+      "file": "PDPVerifier.sol",
+      "start_line": 238,
+      "end_line": 246,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "proposeProofSetOwner",
+      "file": "PDPVerifier.sol",
+      "start_line": 249,
+      "end_line": 259,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "claimProofSetOwnership",
+      "file": "PDPVerifier.sol",
+      "start_line": 261,
+      "end_line": 268,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "createProofSet",
+      "file": "PDPVerifier.sol",
+      "start_line": 273,
+      "end_line": 295,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "deleteProofSet",
+      "file": "PDPVerifier.sol",
+      "start_line": 298,
+      "end_line": 316,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "addRoots",
+      "file": "PDPVerifier.sol",
+      "start_line": 327,
+      "end_line": 348,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "addOneRoot",
+      "file": "PDPVerifier.sol",
+      "start_line": 352,
+      "end_line": 370,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "scheduleRemovals",
+      "file": "PDPVerifier.sol",
+      "start_line": 374,
+      "end_line": 389,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "provePossession",
+      "file": "PDPVerifier.sol",
+      "start_line": 400,
+      "end_line": 450,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "calculateProofFee",
+      "file": "PDPVerifier.sol",
+      "start_line": 452,
+      "end_line": 463,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "calculateAndBurnProofFee",
+      "file": "PDPVerifier.sol",
+      "start_line": 465,
+      "end_line": 483,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "calculateCallDataSize",
+      "file": "PDPVerifier.sol",
+      "start_line": 485,
+      "end_line": 492,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "getRandomness",
+      "file": "PDPVerifier.sol",
+      "start_line": 494,
+      "end_line": 503,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "drawChallengeSeed",
+      "file": "PDPVerifier.sol",
+      "start_line": 506,
+      "end_line": 508,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "nextProvingPeriod",
+      "file": "PDPVerifier.sol",
+      "start_line": 523,
+      "end_line": 564,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "removeRoots",
+      "file": "PDPVerifier.sol",
+      "start_line": 567,
+      "end_line": 574,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "removeOneRoot",
+      "file": "PDPVerifier.sol",
+      "start_line": 578,
+      "end_line": 584,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "sumTreeAdd",
+      "file": "PDPVerifier.sol",
+      "start_line": 612,
+      "end_line": 623,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "sumTreeRemove",
+      "file": "PDPVerifier.sol",
+      "start_line": 627,
+      "end_line": 639,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "findOneRootId",
+      "file": "PDPVerifier.sol",
+      "start_line": 647,
+      "end_line": 678,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "findRootIds",
+      "file": "PDPVerifier.sol",
+      "start_line": 681,
+      "end_line": 689,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "heightFromIndex",
+      "file": "PDPVerifier.sol",
+      "start_line": 693,
+      "end_line": 695,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "getFILUSDPrice",
+      "file": "PDPVerifier.sol",
+      "start_line": 698,
+      "end_line": 708,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "CALL:PDPVerifier.sol:123",
+      "call_type": "CALL",
+      "line": 123,
+      "enclosing_function": "burnFee",
+      "file": "PDPVerifier.sol",
+      "raw_text": "(bool success, ) = BURN_ACTOR.call{value: amount}(\"\");"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "TRANSFER:PDPVerifier.sol:251",
+      "call_type": "TRANSFER",
+      "line": 251,
+      "enclosing_function": "createProofSet",
+      "file": "PDPVerifier.sol",
+      "raw_text": "payable(msg.sender).transfer(msg.value - sybilFee);"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "TRANSFER:PDPVerifier.sol:451",
+      "call_type": "TRANSFER",
+      "line": 451,
+      "enclosing_function": "calculateAndBurnProofFee",
+      "file": "PDPVerifier.sol",
+      "raw_text": "payable(msg.sender).transfer(msg.value - proofFee);"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "STATICCALL:PDPVerifier.sol:467",
+      "call_type": "STATICCALL",
+      "line": 467,
+      "enclosing_function": "getRandomness",
+      "file": "PDPVerifier.sol",
+      "raw_text": "(bool success, bytes memory result) = RANDOMNESS_PRECOMPILE.staticcall(abi.encodePacked(epoch));"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PDPVerifier.sol:467",
+      "call_type": "INTERFACE_CALL",
+      "line": 467,
+      "enclosing_function": "getRandomness",
+      "file": "PDPVerifier.sol",
+      "raw_text": "(bool success, bytes memory result) = RANDOMNESS_PRECOMPILE.staticcall(abi.encodePacked(epoch));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        26,
+        31,
+        33,
+        46
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        26,
+        47
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 47
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        31,
+        33,
+        48
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 48
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        31,
+        35,
+        36,
+        49
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 49
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        31,
+        35,
+        36,
+        50
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 50
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proofSetCreated",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "proofSetDeleted",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "rootsAdded",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rootsScheduledRemove",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "possessionProven",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "nextProvingPeriod",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "burnFee",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getChallengeFinality",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getNextProofSetId",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "proofSetLive",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "rootLive",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "rootChallengable",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getProofSetLeafCount",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getNextRootId",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getNextChallengeEpoch",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getProofSetListener",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getProofSetOwner",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "getProofSetLastProvenEpoch",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getRootCid",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getRootLeafCount",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getChallengeRange",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "getScheduledRemovals",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "proposeProofSetOwner",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "claimProofSetOwnership",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "createProofSet",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "deleteProofSet",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "addRoots",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "addOneRoot",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "scheduleRemovals",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "provePossession",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "calculateProofFee",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "calculateAndBurnProofFee",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "calculateCallDataSize",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "getRandomness",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "drawChallengeSeed",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "nextProvingPeriod",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "removeRoots",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "removeOneRoot",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "sumTreeAdd",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "sumTreeRemove",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "findOneRootId",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "findRootIds",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "heightFromIndex",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "getFILUSDPrice",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "CALL:PDPVerifier.sol:123",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "TRANSFER:PDPVerifier.sol:251",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "TRANSFER:PDPVerifier.sol:451",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "call_site",
+      "name": "STATICCALL:PDPVerifier.sol:467",
+      "file": "PDPVerifier.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PDPVerifier.sol:467",
+      "file": "PDPVerifier.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 51,
+    "n_hyperedges": 5,
+    "n_functions": 46,
+    "n_state_vars": 0,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 3.6
+  },
+  "label": {
+    "vfp_id": "vfp_00115",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-248",
+      "CWE-435",
+      "CWE-691",
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

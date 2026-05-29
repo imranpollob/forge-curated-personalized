@@ -1,0 +1,148 @@
+{
+  "sample_id": "neg_00121",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "votingDelay",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol",
+      "start_line": 34,
+      "end_line": 41,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "votingPeriod",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol",
+      "start_line": 43,
+      "end_line": 50,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "proposalThreshold",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol",
+      "start_line": 52,
+      "end_line": 59,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "propose",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol",
+      "start_line": 61,
+      "end_line": 68,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_propose",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol",
+      "start_line": 70,
+      "end_line": 79,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol",
+      "start_line": 81,
+      "end_line": 90,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quorumDenominator",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol",
+      "start_line": 92,
+      "end_line": 94,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "votingDelay",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "votingPeriod",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "proposalThreshold",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "propose",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_propose",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quorumDenominator",
+      "file": "protocol-contracts_contracts_governance_VirtualProtocolDAO.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00121",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

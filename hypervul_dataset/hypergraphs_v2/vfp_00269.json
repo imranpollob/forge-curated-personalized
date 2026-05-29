@@ -1,0 +1,598 @@
+{
+  "sample_id": "vfp_00269",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OzUSD.sol",
+      "start_line": 66,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "distributeYield",
+      "file": "OzUSD.sol",
+      "start_line": 77,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "OzUSD.sol",
+      "start_line": 88,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "OzUSD.sol",
+      "start_line": 100,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "approve",
+      "file": "OzUSD.sol",
+      "start_line": 111,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "increaseAllowance",
+      "file": "OzUSD.sol",
+      "start_line": 121,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "decreaseAllowance",
+      "file": "OzUSD.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferShares",
+      "file": "OzUSD.sol",
+      "start_line": 144,
+      "end_line": 149,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferSharesFrom",
+      "file": "OzUSD.sol",
+      "start_line": 157,
+      "end_line": 167,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mintOzUSD",
+      "file": "OzUSD.sol",
+      "start_line": 173,
+      "end_line": 182,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "redeemOzUSD",
+      "file": "OzUSD.sol",
+      "start_line": 188,
+      "end_line": 199,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "OzUSD.sol",
+      "start_line": 208,
+      "end_line": 210,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "OzUSD.sol",
+      "start_line": 217,
+      "end_line": 219,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "sharesOf",
+      "file": "OzUSD.sol",
+      "start_line": 224,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getSharesByPooledUSDX",
+      "file": "OzUSD.sol",
+      "start_line": 231,
+      "end_line": 233,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getPooledUSDXByShares",
+      "file": "OzUSD.sol",
+      "start_line": 238,
+      "end_line": 240,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "OzUSD.sol",
+      "start_line": 245,
+      "end_line": 247,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_getTotalPooledUSDX",
+      "file": "OzUSD.sol",
+      "start_line": 251,
+      "end_line": 253,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_transfer",
+      "file": "OzUSD.sol",
+      "start_line": 256,
+      "end_line": 260,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_approve",
+      "file": "OzUSD.sol",
+      "start_line": 262,
+      "end_line": 268,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_spendAllowance",
+      "file": "OzUSD.sol",
+      "start_line": 270,
+      "end_line": 276,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_transferShares",
+      "file": "OzUSD.sol",
+      "start_line": 278,
+      "end_line": 288,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_mintShares",
+      "file": "OzUSD.sol",
+      "start_line": 292,
+      "end_line": 298,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_burnShares",
+      "file": "OzUSD.sol",
+      "start_line": 302,
+      "end_line": 317,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_emitTransferEvents",
+      "file": "OzUSD.sol",
+      "start_line": 319,
+      "end_line": 322,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_emitTransferAfterMintingShares",
+      "file": "OzUSD.sol",
+      "start_line": 325,
+      "end_line": 327,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "OzUSD.sol",
+      "line": 18
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "symbol",
+      "var_type": "string public constant",
+      "file": "OzUSD.sol",
+      "line": 19
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "decimals",
+      "var_type": "uint8 public constant",
+      "file": "OzUSD.sol",
+      "line": 20
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "var_type": "uint256 private",
+      "file": "OzUSD.sol",
+      "line": 21
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "shares",
+      "var_type": "mapping(address => uint256) private",
+      "file": "OzUSD.sol",
+      "line": 28
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "allowances",
+      "var_type": "mapping(address => mapping(address => uint256)) private",
+      "file": "OzUSD.sol",
+      "line": 32
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:OzUSD.sol:195",
+      "call_type": "CALL",
+      "line": 195,
+      "enclosing_function": "redeemOzUSD",
+      "file": "OzUSD.sol",
+      "raw_text": "(bool s,) = _from.call{value: _ozUSDAmount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        10,
+        32
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 32
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "distributeYield",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "approve",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "increaseAllowance",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "decreaseAllowance",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "transferShares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "transferSharesFrom",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "mintOzUSD",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "redeemOzUSD",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "sharesOf",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getSharesByPooledUSDX",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getPooledUSDXByShares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_getTotalPooledUSDX",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_transfer",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_approve",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_spendAllowance",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_transferShares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_mintShares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_burnShares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_emitTransferEvents",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_emitTransferAfterMintingShares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "symbol",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "decimals",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "totalShares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "shares",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "allowances",
+      "file": "OzUSD.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:OzUSD.sol:195",
+      "file": "OzUSD.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 33,
+    "n_hyperedges": 1,
+    "n_functions": 26,
+    "n_state_vars": 6,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00269",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1284",
+      "CWE-20",
+      "CWE-221",
+      "CWE-224",
+      "CWE-573",
+      "CWE-664",
+      "CWE-693",
+      "CWE-695",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

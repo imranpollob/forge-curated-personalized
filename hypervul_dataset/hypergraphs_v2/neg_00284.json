@@ -1,0 +1,174 @@
+{
+  "sample_id": "neg_00284",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "calculateHash",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "lock",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "start_line": 18,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "free",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "start_line": 22,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "vote",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "start_line": 26,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "vote",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "start_line": 31,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:null_vote-delegate_certora_harness_ChiefMock.sol:23",
+      "call_type": "TRANSFER",
+      "line": 23,
+      "enclosing_function": "free",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol",
+      "raw_text": "GOV.transfer(msg.sender, wad);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        7
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "calculateHash",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "lock",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "free",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "vote",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "vote",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:null_vote-delegate_certora_harness_ChiefMock.sol:23",
+      "file": "null_vote-delegate_certora_harness_ChiefMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 1,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00284",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "sample_id": "vfp_00507",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hasPermission",
+      "file": "HooksLib.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "handleAfterValidateUserOp",
+      "file": "HooksLib.sol",
+      "start_line": 35,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handleAfterIsValidSignature",
+      "file": "HooksLib.sol",
+      "start_line": 51,
+      "end_line": 59,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleAfterVerifySignature",
+      "file": "HooksLib.sol",
+      "start_line": 63,
+      "end_line": 71,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "handleBeforeExecute",
+      "file": "HooksLib.sol",
+      "start_line": 76,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "handleAfterExecute",
+      "file": "HooksLib.sol",
+      "start_line": 90,
+      "end_line": 95,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "AFTER_VERIFY_SIGNATURE_FLAG",
+      "var_type": "uint160 internal constant",
+      "file": "HooksLib.sol",
+      "line": 18
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "AFTER_VALIDATE_USER_OP_FLAG",
+      "var_type": "uint160 internal constant",
+      "file": "HooksLib.sol",
+      "line": 19
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "AFTER_IS_VALID_SIGNATURE_FLAG",
+      "var_type": "uint160 internal constant",
+      "file": "HooksLib.sol",
+      "line": 20
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "BEFORE_EXECUTE_FLAG",
+      "var_type": "uint160 internal constant",
+      "file": "HooksLib.sol",
+      "line": 21
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "AFTER_EXECUTE_FLAG",
+      "var_type": "uint160 internal constant",
+      "file": "HooksLib.sol",
+      "line": 22
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hasPermission",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "handleAfterValidateUserOp",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handleAfterIsValidSignature",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleAfterVerifySignature",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "handleBeforeExecute",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "handleAfterExecute",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "AFTER_VERIFY_SIGNATURE_FLAG",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "AFTER_VALIDATE_USER_OP_FLAG",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "AFTER_IS_VALID_SIGNATURE_FLAG",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "BEFORE_EXECUTE_FLAG",
+      "file": "HooksLib.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "AFTER_EXECUTE_FLAG",
+      "file": "HooksLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00507",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

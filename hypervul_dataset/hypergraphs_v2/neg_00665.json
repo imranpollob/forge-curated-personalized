@@ -1,0 +1,370 @@
+{
+  "sample_id": "neg_00665",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 47,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 60,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pause",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 65,
+      "end_line": 67,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 69,
+      "end_line": 71,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setExitFee",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 73,
+      "end_line": 78,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 80,
+      "end_line": 84,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "compound",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 89,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 98,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_calculateShareFee",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 118,
+      "end_line": 121,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 126,
+      "end_line": 128,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mint",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 130,
+      "end_line": 132,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 134,
+      "end_line": 151,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 153,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 168,
+      "end_line": 175,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 185,
+      "end_line": 189,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "start_line": 195,
+      "end_line": 201,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "line": 25
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "line": 26
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "WBERA",
+      "var_type": "IERC20 public constant",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "line": 27
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LST_src_StakedFatBERAV3.sol:77",
+      "call_type": "INTERFACE_CALL",
+      "line": 77,
+      "enclosing_function": "compound",
+      "file": "LST_src_StakedFatBERAV3.sol",
+      "raw_text": "uint256 amount = fatBERA.deposit(WBERA.balanceOf(address(this)), address(this));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        18,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "pause",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setExitFee",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTreasury",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "compound",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_calculateShareFee",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mint",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "WBERA",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LST_src_StakedFatBERAV3.sol:77",
+      "file": "LST_src_StakedFatBERAV3.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 1,
+    "n_functions": 16,
+    "n_state_vars": 3,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00665",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

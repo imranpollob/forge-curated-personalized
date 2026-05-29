@@ -1,0 +1,77 @@
+{
+  "sample_id": "neg_00691",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claim",
+      "file": "multitoken-merkle-distributor_contracts_MerkleDistributorWithDeadline.sol",
+      "start_line": 22,
+      "end_line": 25,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "multitoken-merkle-distributor_contracts_MerkleDistributorWithDeadline.sol",
+      "start_line": 27,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "endTime",
+      "var_type": "uint256 public immutable",
+      "file": "multitoken-merkle-distributor_contracts_MerkleDistributorWithDeadline.sol",
+      "line": 15
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claim",
+      "file": "multitoken-merkle-distributor_contracts_MerkleDistributorWithDeadline.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "multitoken-merkle-distributor_contracts_MerkleDistributorWithDeadline.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "endTime",
+      "file": "multitoken-merkle-distributor_contracts_MerkleDistributorWithDeadline.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00691",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

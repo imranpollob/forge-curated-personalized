@@ -1,0 +1,184 @@
+{
+  "sample_id": "vfp_00517",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_fundIntent",
+      "file": "Vault.sol",
+      "start_line": 48,
+      "end_line": 94,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_processRewardTokens",
+      "file": "Vault.sol",
+      "start_line": 99,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_processNativeReward",
+      "file": "Vault.sol",
+      "start_line": 131,
+      "end_line": 147,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_recoverToken",
+      "file": "Vault.sol",
+      "start_line": 152,
+      "end_line": 156,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_tryTransfer",
+      "file": "Vault.sol",
+      "start_line": 165,
+      "end_line": 202,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_transferFrom",
+      "file": "Vault.sol",
+      "start_line": 211,
+      "end_line": 240,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_transferFromPermit",
+      "file": "Vault.sol",
+      "start_line": 250,
+      "end_line": 286,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "CALL:Vault.sol:128",
+      "call_type": "CALL",
+      "line": 128,
+      "enclosing_function": "_processNativeReward",
+      "file": "Vault.sol",
+      "raw_text": "(bool success, ) = payable(claimant).call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        7
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_fundIntent",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_processRewardTokens",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_processNativeReward",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_recoverToken",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_tryTransfer",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_transferFrom",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_transferFromPermit",
+      "file": "Vault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "CALL:Vault.sol:128",
+      "file": "Vault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 1,
+    "n_functions": 7,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00517",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-248",
+      "CWE-697",
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

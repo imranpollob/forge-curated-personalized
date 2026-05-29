@@ -1,0 +1,652 @@
+{
+  "sample_id": "neg_00260",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "sendValue",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 41,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "functionCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "functionCallWithValue",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 83,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "functionStaticCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 95,
+      "end_line": 98,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "functionDelegateCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 104,
+      "end_line": 107,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verifyCallResultFromTarget",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 114,
+      "end_line": 129,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "verifyCallResult",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 135,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_revert",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "start_line": 146,
+      "end_line": 158,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 31,
+      "end_line": 31,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requestWithdrawal",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 40,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimWithdrawal",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 50,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 60,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "userSupply",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 68,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "supplyTillLimit",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 75,
+      "end_line": 75,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isWhitelistedToken",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 81,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "withdrawalApprover",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 84,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "lastRequestId",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 87,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getWithdrawalRequestById",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol",
+      "start_line": 94,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 71,
+      "end_line": 73,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "hasRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_checkRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 86,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 94,
+      "end_line": 98,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getRoleAdmin",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 106,
+      "end_line": 108,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 122,
+      "end_line": 124,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 137,
+      "end_line": 139,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "renounceRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 157,
+      "end_line": 163,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_setRoleAdmin",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 170,
+      "end_line": 174,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_grantRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 183,
+      "end_line": 191,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_revokeRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "start_line": 200,
+      "end_line": 208,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "_roles",
+      "var_type": "mapping(bytes32 role => RoleData) private",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "line": 55
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "DEFAULT_ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol",
+      "line": 57
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "CALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:23",
+      "call_type": "CALL",
+      "line": 23,
+      "enclosing_function": "sendValue",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "raw_text": "(bool success, ) = recipient.call{value: amount}(\"\");"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:39",
+      "call_type": "CALL",
+      "line": 39,
+      "enclosing_function": "functionCallWithValue",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "raw_text": "(bool success, bytes memory returndata) = target.call{value: value}(data);"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "STATICCALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:45",
+      "call_type": "STATICCALL",
+      "line": 45,
+      "enclosing_function": "functionStaticCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "raw_text": "(bool success, bytes memory returndata) = target.staticcall(data);"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:51",
+      "call_type": "DELEGATECALL",
+      "line": 51,
+      "enclosing_function": "functionDelegateCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol",
+      "raw_text": "(bool success, bytes memory returndata) = target.delegatecall(data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        31
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        2,
+        32
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        33
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        34
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 34
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "sendValue",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "functionCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "functionCallWithValue",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "functionStaticCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "functionDelegateCall",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verifyCallResultFromTarget",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "verifyCallResult",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_revert",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requestWithdrawal",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "claimWithdrawal",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "userSupply",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "supplyTillLimit",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "isWhitelistedToken",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "withdrawalApprover",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "lastRequestId",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getWithdrawalRequestById",
+      "file": "EnjoyoorsVault_contracts_interfaces_IEnjoyoorsVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "hasRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_checkRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "getRoleAdmin",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "grantRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "revokeRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "renounceRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_setRoleAdmin",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_grantRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_revokeRole",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "_roles",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "DEFAULT_ADMIN_ROLE",
+      "file": "EnjoyoorsWithdrawalApprover_@openzeppelin_contracts_access_AccessControl.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "CALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:23",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:39",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "STATICCALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:45",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol:51",
+      "file": "EnjoyoorsVault_@openzeppelin_contracts_utils_Address.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 35,
+    "n_hyperedges": 4,
+    "n_functions": 29,
+    "n_state_vars": 2,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 2.25
+  },
+  "label": {
+    "vfp_id": "neg_00260",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

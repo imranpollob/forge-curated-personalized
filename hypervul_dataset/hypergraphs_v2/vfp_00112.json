@@ -1,0 +1,129 @@
+{
+  "sample_id": "vfp_00112",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setThresholdSetter",
+      "file": "ResourceManager.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "ResourceManager.sol",
+      "start_line": 45,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "threshold",
+      "var_type": "uint256 public",
+      "file": "ResourceManager.sol",
+      "line": 13
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "thresholdSetter",
+      "var_type": "address public",
+      "file": "ResourceManager.sol",
+      "line": 16
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "RESOURCE",
+      "var_type": "ERC20 public immutable",
+      "file": "ResourceManager.sol",
+      "line": 19
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "RESOURCE_RECIPIENT",
+      "var_type": "address public immutable",
+      "file": "ResourceManager.sol",
+      "line": 22
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setThresholdSetter",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "threshold",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "thresholdSetter",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "RESOURCE",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "RESOURCE_RECIPIENT",
+      "file": "ResourceManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00112",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-362",
+      "CWE-691",
+      "CWE-710"
+    ]
+  }
+}

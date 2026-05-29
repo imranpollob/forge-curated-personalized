@@ -1,0 +1,2662 @@
+{
+  "sample_id": "vfp_00330",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AlphaProVault.sol",
+      "start_line": 140,
+      "end_line": 176,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AlphaProVault.sol",
+      "start_line": 193,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_calcSharesAndAmounts",
+      "file": "AlphaProVault.sol",
+      "start_line": 250,
+      "end_line": 283,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AlphaProVault.sol",
+      "start_line": 294,
+      "end_line": 327,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_burnLiquidityShare",
+      "file": "AlphaProVault.sol",
+      "start_line": 330,
+      "end_line": 345,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "AlphaProVault.sol",
+      "start_line": 355,
+      "end_line": 442,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "checkCanRebalance",
+      "file": "AlphaProVault.sol",
+      "start_line": 444,
+      "end_line": 463,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "checkPriceNearTwap",
+      "file": "AlphaProVault.sol",
+      "start_line": 465,
+      "end_line": 470,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTwap",
+      "file": "AlphaProVault.sol",
+      "start_line": 473,
+      "end_line": 481,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_verifyTick",
+      "file": "AlphaProVault.sol",
+      "start_line": 484,
+      "end_line": 492,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_floor",
+      "file": "AlphaProVault.sol",
+      "start_line": 496,
+      "end_line": 500,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_checkThreshold",
+      "file": "AlphaProVault.sol",
+      "start_line": 502,
+      "end_line": 505,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_burnAndCollect",
+      "file": "AlphaProVault.sol",
+      "start_line": 509,
+      "end_line": 544,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_mintLiquidity",
+      "file": "AlphaProVault.sol",
+      "start_line": 547,
+      "end_line": 554,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getTotalAmounts",
+      "file": "AlphaProVault.sol",
+      "start_line": 561,
+      "end_line": 563,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getTotalAmounts",
+      "file": "AlphaProVault.sol",
+      "start_line": 565,
+      "end_line": 571,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getPositionAmounts",
+      "file": "AlphaProVault.sol",
+      "start_line": 578,
+      "end_line": 591,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getBalance0",
+      "file": "AlphaProVault.sol",
+      "start_line": 596,
+      "end_line": 598,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getBalance1",
+      "file": "AlphaProVault.sol",
+      "start_line": 603,
+      "end_line": 605,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_position",
+      "file": "AlphaProVault.sol",
+      "start_line": 608,
+      "end_line": 615,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_amountsForLiquidity",
+      "file": "AlphaProVault.sol",
+      "start_line": 618,
+      "end_line": 631,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_liquidityForAmounts",
+      "file": "AlphaProVault.sol",
+      "start_line": 634,
+      "end_line": 648,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_toUint128",
+      "file": "AlphaProVault.sol",
+      "start_line": 651,
+      "end_line": 654,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "uniswapV3MintCallback",
+      "file": "AlphaProVault.sol",
+      "start_line": 657,
+      "end_line": 661,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "uniswapV3SwapCallback",
+      "file": "AlphaProVault.sol",
+      "start_line": 664,
+      "end_line": 668,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "collectProtocol",
+      "file": "AlphaProVault.sol",
+      "start_line": 673,
+      "end_line": 682,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "AlphaProVault.sol",
+      "start_line": 688,
+      "end_line": 693,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "collectManager",
+      "file": "AlphaProVault.sol",
+      "start_line": 698,
+      "end_line": 706,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "sweep",
+      "file": "AlphaProVault.sol",
+      "start_line": 711,
+      "end_line": 714,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setBaseThreshold",
+      "file": "AlphaProVault.sol",
+      "start_line": 716,
+      "end_line": 720,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setLimitThreshold",
+      "file": "AlphaProVault.sol",
+      "start_line": 722,
+      "end_line": 726,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setWideRangeWeight",
+      "file": "AlphaProVault.sol",
+      "start_line": 728,
+      "end_line": 732,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setWideThreshold",
+      "file": "AlphaProVault.sol",
+      "start_line": 734,
+      "end_line": 738,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setPeriod",
+      "file": "AlphaProVault.sol",
+      "start_line": 740,
+      "end_line": 743,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "setMinTickMove",
+      "file": "AlphaProVault.sol",
+      "start_line": 745,
+      "end_line": 749,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setMaxTwapDeviation",
+      "file": "AlphaProVault.sol",
+      "start_line": 751,
+      "end_line": 755,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setTwapDuration",
+      "file": "AlphaProVault.sol",
+      "start_line": 757,
+      "end_line": 761,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setMaxTotalSupply",
+      "file": "AlphaProVault.sol",
+      "start_line": 769,
+      "end_line": 772,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "emergencyBurn",
+      "file": "AlphaProVault.sol",
+      "start_line": 777,
+      "end_line": 780,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "AlphaProVault.sol",
+      "start_line": 786,
+      "end_line": 789,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setDepositDelegate",
+      "file": "AlphaProVault.sol",
+      "start_line": 791,
+      "end_line": 794,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "setRebalanceDelegate",
+      "file": "AlphaProVault.sol",
+      "start_line": 796,
+      "end_line": 799,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setManagerFee",
+      "file": "AlphaProVault.sol",
+      "start_line": 805,
+      "end_line": 809,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "acceptManager",
+      "file": "AlphaProVault.sol",
+      "start_line": 815,
+      "end_line": 824,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "pool",
+      "var_type": "IUniswapV3Pool public override",
+      "file": "AlphaProVault.sol",
+      "line": 99
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "token0",
+      "var_type": "IERC20 public",
+      "file": "AlphaProVault.sol",
+      "line": 100
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "token1",
+      "var_type": "IERC20 public",
+      "file": "AlphaProVault.sol",
+      "line": 101
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "factory",
+      "var_type": "AlphaProVaultFactory public",
+      "file": "AlphaProVault.sol",
+      "line": 102
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "MINIMUM_LIQUIDITY",
+      "var_type": "uint256 public constant",
+      "file": "AlphaProVault.sol",
+      "line": 104
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "HUNDRED_PERCENT",
+      "var_type": "uint24 public constant",
+      "file": "AlphaProVault.sol",
+      "line": 105
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "manager",
+      "var_type": "address public override",
+      "file": "AlphaProVault.sol",
+      "line": 107
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "pendingManager",
+      "var_type": "address public override",
+      "file": "AlphaProVault.sol",
+      "line": 108
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "rebalanceDelegate",
+      "var_type": "address public override",
+      "file": "AlphaProVault.sol",
+      "line": 109
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "depositDelegate",
+      "var_type": "address public override",
+      "file": "AlphaProVault.sol",
+      "line": 110
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "maxTotalSupply",
+      "var_type": "uint256 public override",
+      "file": "AlphaProVault.sol",
+      "line": 111
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "accruedProtocolFees0",
+      "var_type": "uint256 public override",
+      "file": "AlphaProVault.sol",
+      "line": 112
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "accruedProtocolFees1",
+      "var_type": "uint256 public override",
+      "file": "AlphaProVault.sol",
+      "line": 113
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "accruedManagerFees0",
+      "var_type": "uint256 public override",
+      "file": "AlphaProVault.sol",
+      "line": 114
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "accruedManagerFees1",
+      "var_type": "uint256 public override",
+      "file": "AlphaProVault.sol",
+      "line": 115
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "lastTimestamp",
+      "var_type": "uint256 public override",
+      "file": "AlphaProVault.sol",
+      "line": 116
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "period",
+      "var_type": "uint32 public override",
+      "file": "AlphaProVault.sol",
+      "line": 118
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "var_type": "uint24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 119
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "managerFee",
+      "var_type": "uint24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 120
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "pendingManagerFee",
+      "var_type": "uint24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 121
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "pendingProtocolFee",
+      "var_type": "uint24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 122
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "wideRangeWeight",
+      "var_type": "uint24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 123
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "baseThreshold",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 124
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "limitThreshold",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 125
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "wideThreshold",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 126
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "minTickMove",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 127
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "tickSpacing",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 128
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "maxTwapDeviation",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 129
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "twapDuration",
+      "var_type": "uint32 public override",
+      "file": "AlphaProVault.sol",
+      "line": 130
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "wideLower",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 131
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "wideUpper",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 132
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "baseLower",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 133
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "baseUpper",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 134
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "limitLower",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 135
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "limitUpper",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 136
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "lastTick",
+      "var_type": "int24 public override",
+      "file": "AlphaProVault.sol",
+      "line": 137
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "maxTick",
+      "var_type": "int24 public",
+      "file": "AlphaProVault.sol",
+      "line": 138
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:125",
+      "call_type": "INTERFACE_CALL",
+      "line": 125,
+      "enclosing_function": "initialize",
+      "file": "AlphaProVault.sol",
+      "raw_text": "token0 = IERC20(pool.token0());"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:126",
+      "call_type": "INTERFACE_CALL",
+      "line": 126,
+      "enclosing_function": "initialize",
+      "file": "AlphaProVault.sol",
+      "raw_text": "token1 = IERC20(pool.token1());"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:128",
+      "call_type": "INTERFACE_CALL",
+      "line": 128,
+      "enclosing_function": "initialize",
+      "file": "AlphaProVault.sol",
+      "raw_text": "int24 _tickSpacing = tickSpacing = pool.tickSpacing();"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:146",
+      "call_type": "INTERFACE_CALL",
+      "line": 146,
+      "enclosing_function": "initialize",
+      "file": "AlphaProVault.sol",
+      "raw_text": "pendingProtocolFee = factory.protocolFee();"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:178",
+      "call_type": "INTERFACE_CALL",
+      "line": 178,
+      "enclosing_function": "deposit",
+      "file": "AlphaProVault.sol",
+      "raw_text": "pool.burn(positions[i][0], positions[i][1], 0);"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:194",
+      "call_type": "INTERFACE_CALL",
+      "line": 194,
+      "enclosing_function": "deposit",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount0 > 0) token0.safeTransferFrom(msg.sender, address(this), amount0);"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:195",
+      "call_type": "INTERFACE_CALL",
+      "line": 195,
+      "enclosing_function": "deposit",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount1 > 0) token1.safeTransferFrom(msg.sender, address(this), amount1);"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:281",
+      "call_type": "INTERFACE_CALL",
+      "line": 281,
+      "enclosing_function": "withdraw",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount0 > 0) token0.safeTransfer(to, amount0);"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:282",
+      "call_type": "INTERFACE_CALL",
+      "line": 282,
+      "enclosing_function": "withdraw",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount1 > 0) token1.safeTransfer(to, amount1);"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:325",
+      "call_type": "INTERFACE_CALL",
+      "line": 325,
+      "enclosing_function": "rebalance",
+      "file": "AlphaProVault.sol",
+      "raw_text": "(uint160 sqrtRatioX96, int24 tick,,,,,) = pool.slot0();"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:403",
+      "call_type": "INTERFACE_CALL",
+      "line": 403,
+      "enclosing_function": "checkCanRebalance",
+      "file": "AlphaProVault.sol",
+      "raw_text": "(, int24 tick,,,,,) = pool.slot0();"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:417",
+      "call_type": "INTERFACE_CALL",
+      "line": 417,
+      "enclosing_function": "checkPriceNearTwap",
+      "file": "AlphaProVault.sol",
+      "raw_text": "(, int24 tick,,,,,) = pool.slot0();"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:430",
+      "call_type": "INTERFACE_CALL",
+      "line": 430,
+      "enclosing_function": "getTwap",
+      "file": "AlphaProVault.sol",
+      "raw_text": "(int56[] memory tickCumulatives,) = pool.observe(secondsAgo);"
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:465",
+      "call_type": "INTERFACE_CALL",
+      "line": 465,
+      "enclosing_function": "_burnAndCollect",
+      "file": "AlphaProVault.sol",
+      "raw_text": "(burned0, burned1) = pool.burn(tickLower, tickUpper, liquidity);"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:470",
+      "call_type": "INTERFACE_CALL",
+      "line": 470,
+      "enclosing_function": "_burnAndCollect",
+      "file": "AlphaProVault.sol",
+      "raw_text": "pool.collect(address(this), tickLower, tickUpper, type(uint128).max, type(uint128).max);"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:503",
+      "call_type": "INTERFACE_CALL",
+      "line": 503,
+      "enclosing_function": "_mintLiquidity",
+      "file": "AlphaProVault.sol",
+      "raw_text": "(amount0, amount1) = pool.mint(address(this), tickLower, tickUpper, liquidity, \"\");"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:538",
+      "call_type": "INTERFACE_CALL",
+      "line": 538,
+      "enclosing_function": "getBalance0",
+      "file": "AlphaProVault.sol",
+      "raw_text": "return token0.balanceOf(address(this)) - accruedProtocolFees0 - accruedManagerFees0;"
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:543",
+      "call_type": "INTERFACE_CALL",
+      "line": 543,
+      "enclosing_function": "getBalance1",
+      "file": "AlphaProVault.sol",
+      "raw_text": "return token1.balanceOf(address(this)) - accruedProtocolFees1 - accruedManagerFees1;"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:553",
+      "call_type": "INTERFACE_CALL",
+      "line": 553,
+      "enclosing_function": "_position",
+      "file": "AlphaProVault.sol",
+      "raw_text": "return pool.positions(positionKey);"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:562",
+      "call_type": "INTERFACE_CALL",
+      "line": 562,
+      "enclosing_function": "_amountsForLiquidity",
+      "file": "AlphaProVault.sol",
+      "raw_text": "(uint160 sqrtRatioX96,,,,,,) = pool.slot0();"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:598",
+      "call_type": "INTERFACE_CALL",
+      "line": 598,
+      "enclosing_function": "uniswapV3MintCallback",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount0 > 0) token0.safeTransfer(msg.sender, amount0);"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:599",
+      "call_type": "INTERFACE_CALL",
+      "line": 599,
+      "enclosing_function": "uniswapV3MintCallback",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount1 > 0) token1.safeTransfer(msg.sender, amount1);"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:605",
+      "call_type": "INTERFACE_CALL",
+      "line": 605,
+      "enclosing_function": "uniswapV3SwapCallback",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount0Delta > 0) token0.safeTransfer(msg.sender, uint256(amount0Delta));"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:606",
+      "call_type": "INTERFACE_CALL",
+      "line": 606,
+      "enclosing_function": "uniswapV3SwapCallback",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (amount1Delta > 0) token1.safeTransfer(msg.sender, uint256(amount1Delta));"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:611",
+      "call_type": "INTERFACE_CALL",
+      "line": 611,
+      "enclosing_function": "collectProtocol",
+      "file": "AlphaProVault.sol",
+      "raw_text": "require(msg.sender == factory.governance(), \"governance\");"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:616",
+      "call_type": "INTERFACE_CALL",
+      "line": 616,
+      "enclosing_function": "collectProtocol",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (_accruedProtocolFees0 > 0) token0.safeTransfer(to, _accruedProtocolFees0);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:617",
+      "call_type": "INTERFACE_CALL",
+      "line": 617,
+      "enclosing_function": "collectProtocol",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (_accruedProtocolFees1 > 0) token1.safeTransfer(to, _accruedProtocolFees1);"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:623",
+      "call_type": "INTERFACE_CALL",
+      "line": 623,
+      "enclosing_function": "setProtocolFee",
+      "file": "AlphaProVault.sol",
+      "raw_text": "require(msg.sender == factory.governance(), \"governance\");"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:635",
+      "call_type": "INTERFACE_CALL",
+      "line": 635,
+      "enclosing_function": "collectManager",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (_accruedManagerFees0 > 0) token0.safeTransfer(to, _accruedManagerFees0);"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:636",
+      "call_type": "INTERFACE_CALL",
+      "line": 636,
+      "enclosing_function": "collectManager",
+      "file": "AlphaProVault.sol",
+      "raw_text": "if (_accruedManagerFees1 > 0) token1.safeTransfer(to, _accruedManagerFees1);"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:643",
+      "call_type": "INTERFACE_CALL",
+      "line": 643,
+      "enclosing_function": "sweep",
+      "file": "AlphaProVault.sol",
+      "raw_text": "token.safeTransfer(to, amount);"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:701",
+      "call_type": "INTERFACE_CALL",
+      "line": 701,
+      "enclosing_function": "emergencyBurn",
+      "file": "AlphaProVault.sol",
+      "raw_text": "pool.burn(tickLower, tickUpper, liquidity);"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:702",
+      "call_type": "INTERFACE_CALL",
+      "line": 702,
+      "enclosing_function": "emergencyBurn",
+      "file": "AlphaProVault.sol",
+      "raw_text": "pool.collect(address(this), tickLower, tickUpper, type(uint128).max, type(uint128).max);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        52,
+        53,
+        54,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        80,
+        81
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 81
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        52,
+        53,
+        54,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        80,
+        82
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 82
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        52,
+        53,
+        54,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        80,
+        83
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 83
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        52,
+        53,
+        54,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        80,
+        84
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 84
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        44,
+        45,
+        46,
+        47,
+        48,
+        53,
+        54,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        85
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 85
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        1,
+        44,
+        45,
+        46,
+        47,
+        48,
+        53,
+        54,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        86
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 86
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        1,
+        44,
+        45,
+        46,
+        47,
+        48,
+        53,
+        54,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        87
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 87
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        3,
+        45,
+        46,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        88
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 88
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        3,
+        45,
+        46,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        89
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 89
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        5,
+        44,
+        49,
+        50,
+        52,
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        90
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 90
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        5,
+        6,
+        44,
+        49,
+        50,
+        52,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        91
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 91
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        92
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 92
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        93
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 93
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        3,
+        4,
+        5,
+        12,
+        44,
+        45,
+        46,
+        49,
+        50,
+        52,
+        55,
+        56,
+        57,
+        58,
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        94
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 94
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        3,
+        4,
+        5,
+        12,
+        44,
+        45,
+        46,
+        49,
+        50,
+        52,
+        55,
+        56,
+        57,
+        58,
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        95
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 95
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        1,
+        5,
+        13,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        96
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 96
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        1,
+        2,
+        3,
+        5,
+        14,
+        17,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        55,
+        57,
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        97
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 97
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        1,
+        2,
+        3,
+        5,
+        14,
+        18,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        56,
+        58,
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        98
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 98
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14,
+        16,
+        19,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        54,
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        99
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 99
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        2,
+        14,
+        16,
+        20,
+        44,
+        48,
+        61,
+        62,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        100
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 100
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        23,
+        44,
+        45,
+        46,
+        101
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 101
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        23,
+        44,
+        45,
+        46,
+        102
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        24,
+        44,
+        45,
+        46,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        24,
+        44,
+        45,
+        46,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        25,
+        45,
+        46,
+        47,
+        55,
+        56,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        25,
+        45,
+        46,
+        47,
+        55,
+        56,
+        106
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        25,
+        45,
+        46,
+        47,
+        55,
+        56,
+        107
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        26,
+        47,
+        61,
+        64,
+        108
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 108
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        27,
+        45,
+        46,
+        57,
+        58,
+        109
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 109
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        27,
+        45,
+        46,
+        57,
+        58,
+        110
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 110
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        28,
+        45,
+        46,
+        111
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 111
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        38,
+        44,
+        112
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 112
+    },
+    {
+      "edge_id": 32,
+      "node_ids": [
+        38,
+        44,
+        113
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 113
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_calcSharesAndAmounts",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_burnLiquidityShare",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "checkCanRebalance",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "checkPriceNearTwap",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getTwap",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_verifyTick",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_floor",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_checkThreshold",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_burnAndCollect",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_mintLiquidity",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getTotalAmounts",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getTotalAmounts",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getPositionAmounts",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getBalance0",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getBalance1",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_position",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_amountsForLiquidity",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_liquidityForAmounts",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_toUint128",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "uniswapV3MintCallback",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "uniswapV3SwapCallback",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "collectProtocol",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "collectManager",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "sweep",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "setBaseThreshold",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "setLimitThreshold",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "setWideRangeWeight",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "setWideThreshold",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "setPeriod",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "setMinTickMove",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setMaxTwapDeviation",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setTwapDuration",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "setMaxTotalSupply",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "emergencyBurn",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "setManager",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "setDepositDelegate",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "setRebalanceDelegate",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "setManagerFee",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "acceptManager",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "state_var",
+      "name": "pool",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "state_var",
+      "name": "token0",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "state_var",
+      "name": "token1",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "factory",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "MINIMUM_LIQUIDITY",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "HUNDRED_PERCENT",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "manager",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "pendingManager",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "rebalanceDelegate",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "depositDelegate",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "maxTotalSupply",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "accruedProtocolFees0",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "accruedProtocolFees1",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "accruedManagerFees0",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "accruedManagerFees1",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "lastTimestamp",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "period",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "managerFee",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "pendingManagerFee",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "pendingProtocolFee",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "wideRangeWeight",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "baseThreshold",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "limitThreshold",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "wideThreshold",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "minTickMove",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "tickSpacing",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "maxTwapDeviation",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "twapDuration",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "wideLower",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "wideUpper",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "baseLower",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "baseUpper",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "limitLower",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "limitUpper",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "lastTick",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "maxTick",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:125",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:126",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:128",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:146",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:178",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:194",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:195",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:281",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:282",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:325",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:403",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:417",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:430",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:465",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:470",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:503",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:538",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:543",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:553",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:562",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:598",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:599",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:605",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:606",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:611",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:616",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:617",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:623",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:635",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:636",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:643",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:701",
+      "file": "AlphaProVault.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AlphaProVault.sol:702",
+      "file": "AlphaProVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 114,
+    "n_hyperedges": 33,
+    "n_functions": 44,
+    "n_state_vars": 37,
+    "n_call_sites": 33,
+    "avg_hyperedge_size": 17.636363636363637
+  },
+  "label": {
+    "vfp_id": "vfp_00330",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-1339",
+      "CWE-193",
+      "CWE-284",
+      "CWE-285",
+      "CWE-372",
+      "CWE-435",
+      "CWE-440",
+      "CWE-664",
+      "CWE-682",
+      "CWE-684",
+      "CWE-691",
+      "CWE-703",
+      "CWE-710",
+      "CWE-754",
+      "CWE-799",
+      "CWE-863"
+    ]
+  }
+}

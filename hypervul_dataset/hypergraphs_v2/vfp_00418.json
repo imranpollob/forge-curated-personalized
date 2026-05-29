@@ -1,0 +1,992 @@
+{
+  "sample_id": "vfp_00418",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "resume",
+      "file": "CSEjector.sol",
+      "start_line": 65,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "pauseFor",
+      "file": "CSEjector.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "voluntaryEject",
+      "file": "CSEjector.sol",
+      "start_line": 75,
+      "end_line": 133,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "voluntaryEjectByArray",
+      "file": "CSEjector.sol",
+      "start_line": 138,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "ejectBadPerformer",
+      "file": "CSEjector.sol",
+      "start_line": 187,
+      "end_line": 223,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "triggerableWithdrawalsGateway",
+      "file": "CSEjector.sol",
+      "start_line": 226,
+      "end_line": 235,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_onlyNodeOperatorOwner",
+      "file": "CSEjector.sol",
+      "start_line": 238,
+      "end_line": 246,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSEjector.sol",
+      "start_line": 248,
+      "end_line": 250,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSStrikes.sol",
+      "start_line": 73,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setEjector",
+      "file": "CSStrikes.sol",
+      "start_line": 85,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "processOracleReport",
+      "file": "CSStrikes.sol",
+      "start_line": 92,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "processBadPerformanceProof",
+      "file": "CSStrikes.sol",
+      "start_line": 127,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSStrikes.sol",
+      "start_line": 169,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "verifyProof",
+      "file": "CSStrikes.sol",
+      "start_line": 174,
+      "end_line": 192,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "hashLeaf",
+      "file": "CSStrikes.sol",
+      "start_line": 195,
+      "end_line": 211,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_setEjector",
+      "file": "CSStrikes.sol",
+      "start_line": 213,
+      "end_line": 219,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_ejectByStrikes",
+      "file": "CSStrikes.sol",
+      "start_line": 221,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "PAUSE_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSEjector.sol",
+      "line": 25
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "RESUME_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSEjector.sol",
+      "line": 26
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "CSEjector.sol",
+      "line": 27
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "STAKING_MODULE_ID",
+      "var_type": "uint256 public immutable",
+      "file": "CSEjector.sol",
+      "line": 29
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "MODULE",
+      "var_type": "ICSModule public immutable",
+      "file": "CSEjector.sol",
+      "line": 30
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "STRIKES",
+      "var_type": "address public immutable",
+      "file": "CSEjector.sol",
+      "line": 31
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "ORACLE",
+      "var_type": "address public immutable",
+      "file": "CSStrikes.sol",
+      "line": 23
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "MODULE",
+      "var_type": "ICSModule public immutable",
+      "file": "CSStrikes.sol",
+      "line": 24
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "ACCOUNTING",
+      "var_type": "ICSAccounting public immutable",
+      "file": "CSStrikes.sol",
+      "line": 25
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "EXIT_PENALTIES",
+      "var_type": "ICSExitPenalties public immutable",
+      "file": "CSStrikes.sol",
+      "line": 26
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "PARAMETERS_REGISTRY",
+      "var_type": "ICSParametersRegistry public immutable",
+      "file": "CSStrikes.sol",
+      "line": 27
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ejector",
+      "var_type": "ICSEjector public",
+      "file": "CSStrikes.sol",
+      "line": 29
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "treeRoot",
+      "var_type": "bytes32 public",
+      "file": "CSStrikes.sol",
+      "line": 32
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "treeCid",
+      "var_type": "string public",
+      "file": "CSStrikes.sol",
+      "line": 35
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "voluntaryEject",
+      "file": "CSEjector.sol",
+      "raw_text": "MODULE.getNodeOperatorTotalDepositedKeys(nodeOperatorId)"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:98",
+      "call_type": "INTERFACE_CALL",
+      "line": 98,
+      "enclosing_function": "voluntaryEject",
+      "file": "CSEjector.sol",
+      "raw_text": "if (MODULE.isValidatorWithdrawn(nodeOperatorId, i)) {"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:104",
+      "call_type": "INTERFACE_CALL",
+      "line": 104,
+      "enclosing_function": "voluntaryEject",
+      "file": "CSEjector.sol",
+      "raw_text": "bytes memory pubkeys = MODULE.getSigningKeys("
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:145",
+      "call_type": "INTERFACE_CALL",
+      "line": 145,
+      "enclosing_function": "voluntaryEjectByArray",
+      "file": "CSEjector.sol",
+      "raw_text": "uint256 totalDepositedKeys = MODULE.getNodeOperatorTotalDepositedKeys("
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:161",
+      "call_type": "INTERFACE_CALL",
+      "line": 161,
+      "enclosing_function": "voluntaryEjectByArray",
+      "file": "CSEjector.sol",
+      "raw_text": "if (MODULE.isValidatorWithdrawn(nodeOperatorId, keyIndices[i])) {"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:164",
+      "call_type": "INTERFACE_CALL",
+      "line": 164,
+      "enclosing_function": "voluntaryEjectByArray",
+      "file": "CSEjector.sol",
+      "raw_text": "bytes memory pubkey = MODULE.getSigningKeys("
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:195",
+      "call_type": "INTERFACE_CALL",
+      "line": 195,
+      "enclosing_function": "ejectBadPerformer",
+      "file": "CSEjector.sol",
+      "raw_text": "keyIndex >= MODULE.getNodeOperatorTotalDepositedKeys(nodeOperatorId)"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:203",
+      "call_type": "INTERFACE_CALL",
+      "line": 203,
+      "enclosing_function": "ejectBadPerformer",
+      "file": "CSEjector.sol",
+      "raw_text": "if (MODULE.isValidatorWithdrawn(nodeOperatorId, keyIndex)) {"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:208",
+      "call_type": "INTERFACE_CALL",
+      "line": 208,
+      "enclosing_function": "ejectBadPerformer",
+      "file": "CSEjector.sol",
+      "raw_text": "bytes memory pubkey = MODULE.getSigningKeys("
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:233",
+      "call_type": "INTERFACE_CALL",
+      "line": 233,
+      "enclosing_function": "triggerableWithdrawalsGateway",
+      "file": "CSEjector.sol",
+      "raw_text": "MODULE.LIDO_LOCATOR().triggerableWithdrawalsGateway()"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:239",
+      "call_type": "INTERFACE_CALL",
+      "line": 239,
+      "enclosing_function": "_onlyNodeOperatorOwner",
+      "file": "CSEjector.sol",
+      "raw_text": "address owner = MODULE.getNodeOperatorOwner(nodeOperatorId);"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:65",
+      "call_type": "INTERFACE_CALL",
+      "line": 65,
+      "enclosing_function": "",
+      "file": "CSStrikes.sol",
+      "raw_text": "ACCOUNTING = MODULE.accounting();"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:142",
+      "call_type": "INTERFACE_CALL",
+      "line": 142,
+      "enclosing_function": "processBadPerformanceProof",
+      "file": "CSStrikes.sol",
+      "raw_text": "pubkeys[i] = MODULE.getSigningKeys("
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:232",
+      "call_type": "INTERFACE_CALL",
+      "line": 232,
+      "enclosing_function": "_ejectByStrikes",
+      "file": "CSStrikes.sol",
+      "raw_text": "uint256 curveId = ACCOUNTING.getBondCurveId(keyStrikes.nodeOperatorId);"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:234",
+      "call_type": "INTERFACE_CALL",
+      "line": 234,
+      "enclosing_function": "_ejectByStrikes",
+      "file": "CSStrikes.sol",
+      "raw_text": "(, uint256 threshold) = PARAMETERS_REGISTRY.getStrikesParams(curveId);"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:239",
+      "call_type": "INTERFACE_CALL",
+      "line": 239,
+      "enclosing_function": "_ejectByStrikes",
+      "file": "CSStrikes.sol",
+      "raw_text": "ejector.ejectBadPerformer{ value: value }("
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:244",
+      "call_type": "INTERFACE_CALL",
+      "line": 244,
+      "enclosing_function": "_ejectByStrikes",
+      "file": "CSStrikes.sol",
+      "raw_text": "EXIT_PENALTIES.processStrikesReport(keyStrikes.nodeOperatorId, pubkey);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        20,
+        21,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        20,
+        21,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        20,
+        21,
+        33
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        20,
+        21,
+        34
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 34
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        3,
+        20,
+        21,
+        35
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 35
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        3,
+        20,
+        21,
+        36
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 36
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        4,
+        20,
+        21,
+        37
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 37
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        4,
+        20,
+        21,
+        38
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 38
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        4,
+        20,
+        21,
+        39
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 39
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        2,
+        3,
+        4,
+        5,
+        20,
+        21,
+        40
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 40
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        2,
+        3,
+        6,
+        20,
+        21,
+        41
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 41
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        11,
+        21,
+        43
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 43
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        11,
+        16,
+        21,
+        25,
+        26,
+        27,
+        28,
+        44
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 44
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        11,
+        16,
+        21,
+        25,
+        26,
+        27,
+        28,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        11,
+        16,
+        21,
+        25,
+        26,
+        27,
+        28,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        11,
+        16,
+        21,
+        25,
+        26,
+        27,
+        28,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "resume",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "pauseFor",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "voluntaryEject",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "voluntaryEjectByArray",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "ejectBadPerformer",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "triggerableWithdrawalsGateway",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_onlyNodeOperatorOwner",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_onlyRecoverer",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setEjector",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "processOracleReport",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "processBadPerformanceProof",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "verifyProof",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "hashLeaf",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_setEjector",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_ejectByStrikes",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "PAUSE_ROLE",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "RESUME_ROLE",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "RECOVERER_ROLE",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "STAKING_MODULE_ID",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "MODULE",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "STRIKES",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "ORACLE",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "MODULE",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "ACCOUNTING",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "EXIT_PENALTIES",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "PARAMETERS_REGISTRY",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ejector",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "treeRoot",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "treeCid",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:89",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:98",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:104",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:145",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:161",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:164",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:195",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:203",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:208",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:233",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSEjector.sol:239",
+      "file": "CSEjector.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:65",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:142",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:232",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:234",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:239",
+      "file": "CSStrikes.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CSStrikes.sol:244",
+      "file": "CSStrikes.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 48,
+    "n_hyperedges": 16,
+    "n_functions": 17,
+    "n_state_vars": 14,
+    "n_call_sites": 17,
+    "avg_hyperedge_size": 5.25
+  },
+  "label": {
+    "vfp_id": "vfp_00418",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-369",
+      "CWE-682",
+      "CWE-710"
+    ]
+  }
+}

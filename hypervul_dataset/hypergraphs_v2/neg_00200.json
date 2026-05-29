@@ -1,0 +1,94 @@
+{
+  "sample_id": "neg_00200",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getCrossDomainMessenger",
+      "file": "contracts_contracts_chain-adapters_CrossDomainEnabled.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sendCrossDomainMessage",
+      "file": "contracts_contracts_chain-adapters_CrossDomainEnabled.sol",
+      "start_line": 41,
+      "end_line": 48,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "send",
+      "file": "contracts_contracts_test_SuccinctMocks.sol",
+      "start_line": 5,
+      "end_line": 11,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "MESSENGER",
+      "var_type": "address public immutable",
+      "file": "contracts_contracts_chain-adapters_CrossDomainEnabled.sol",
+      "line": 16
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getCrossDomainMessenger",
+      "file": "contracts_contracts_chain-adapters_CrossDomainEnabled.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sendCrossDomainMessage",
+      "file": "contracts_contracts_chain-adapters_CrossDomainEnabled.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "send",
+      "file": "contracts_contracts_test_SuccinctMocks.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "MESSENGER",
+      "file": "contracts_contracts_chain-adapters_CrossDomainEnabled.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00200",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

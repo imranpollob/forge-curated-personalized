@@ -1,0 +1,287 @@
+{
+  "sample_id": "vfp_00244",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setAssetSources",
+      "file": "AaveOracle.sol",
+      "start_line": 64,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setFallbackOracle",
+      "file": "AaveOracle.sol",
+      "start_line": 72,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setAssetsSources",
+      "file": "AaveOracle.sol",
+      "start_line": 83,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setFallbackOracle",
+      "file": "AaveOracle.sol",
+      "start_line": 95,
+      "end_line": 98,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getAssetPrice",
+      "file": "AaveOracle.sol",
+      "start_line": 101,
+      "end_line": 116,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getAssetsPrices",
+      "file": "AaveOracle.sol",
+      "start_line": 119,
+      "end_line": 127,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getSourceOfAsset",
+      "file": "AaveOracle.sol",
+      "start_line": 130,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getFallbackOracle",
+      "file": "AaveOracle.sol",
+      "start_line": 135,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_onlyAssetListingOrPoolAdmins",
+      "file": "AaveOracle.sol",
+      "start_line": 139,
+      "end_line": 145,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ADDRESSES_PROVIDER",
+      "var_type": "IPoolAddressesProvider public immutable",
+      "file": "AaveOracle.sol",
+      "line": 20
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "assetsSources",
+      "var_type": "mapping(address => AggregatorInterface) private",
+      "file": "AaveOracle.sol",
+      "line": 23
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_fallbackOracle",
+      "var_type": "IPriceOracleGetter private",
+      "file": "AaveOracle.sol",
+      "line": 25
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "BASE_CURRENCY",
+      "var_type": "address public immutable override",
+      "file": "AaveOracle.sol",
+      "line": 26
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "BASE_CURRENCY_UNIT",
+      "var_type": "uint256 public immutable override",
+      "file": "AaveOracle.sol",
+      "line": 27
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AaveOracle.sol:115",
+      "call_type": "INTERFACE_CALL",
+      "line": 115,
+      "enclosing_function": "_onlyAssetListingOrPoolAdmins",
+      "file": "AaveOracle.sol",
+      "raw_text": "IACLManager aclManager = IACLManager(ADDRESSES_PROVIDER.getACLManager());"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        9,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setAssetSources",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setFallbackOracle",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setAssetsSources",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setFallbackOracle",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getAssetPrice",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getAssetsPrices",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getSourceOfAsset",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getFallbackOracle",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_onlyAssetListingOrPoolAdmins",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ADDRESSES_PROVIDER",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "assetsSources",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "_fallbackOracle",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "BASE_CURRENCY",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "BASE_CURRENCY_UNIT",
+      "file": "AaveOracle.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AaveOracle.sol:115",
+      "file": "AaveOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 1,
+    "n_functions": 9,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00244",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-636",
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

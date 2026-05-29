@@ -1,0 +1,105 @@
+{
+  "sample_id": "neg_00481",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createBoxAdapter",
+      "file": "box_src_factories_BoxAdapterCachedFactory.sol",
+      "start_line": 19,
+      "end_line": 25,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "box_test_mocks_ERC20MockDecimals.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "boxAdapter",
+      "var_type": "mapping(address parentVault => mapping(IBox box => IBoxAdapter)) public",
+      "file": "box_src_factories_BoxAdapterCachedFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "isBoxAdapter",
+      "var_type": "mapping(address account => bool) public",
+      "file": "box_src_factories_BoxAdapterCachedFactory.sol",
+      "line": 14
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "var_type": "uint8 private immutable",
+      "file": "box_test_mocks_ERC20MockDecimals.sol",
+      "line": 8
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createBoxAdapter",
+      "file": "box_src_factories_BoxAdapterCachedFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "box_test_mocks_ERC20MockDecimals.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "boxAdapter",
+      "file": "box_src_factories_BoxAdapterCachedFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "isBoxAdapter",
+      "file": "box_src_factories_BoxAdapterCachedFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_decimals",
+      "file": "box_test_mocks_ERC20MockDecimals.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00481",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

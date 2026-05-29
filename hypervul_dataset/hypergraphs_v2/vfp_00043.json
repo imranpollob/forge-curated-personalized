@@ -1,0 +1,211 @@
+{
+  "sample_id": "vfp_00043",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "stakedAt",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 21,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "assetOf",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 27,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleVault",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 32,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "validateRewardData",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 35,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pushRewards",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 40,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 49,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 61,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "areWithdrawalsPaused",
+      "file": "ERC4626Adapter.sol",
+      "start_line": 68,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "address public immutable",
+      "file": "ERC4626Adapter.sol",
+      "line": 9
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "stakedAt",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "assetOf",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "handleVault",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "validateRewardData",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "pushRewards",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "areWithdrawalsPaused",
+      "file": "ERC4626Adapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "ERC4626Adapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00043",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1339",
+      "CWE-20",
+      "CWE-440",
+      "CWE-573",
+      "CWE-628",
+      "CWE-682",
+      "CWE-684",
+      "CWE-688",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

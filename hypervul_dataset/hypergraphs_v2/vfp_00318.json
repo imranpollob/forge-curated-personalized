@@ -1,0 +1,179 @@
+{
+  "sample_id": "vfp_00318",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 21,
+      "end_line": 31,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 36,
+      "end_line": 54,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setSettingUint",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 57,
+      "end_line": 59,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getTimeBeforeDissolve",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 62,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getMaximumEthPenalty",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getNotifyThreshold",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 72,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getLateNotifyFine",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 77,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getUserDistributeWindowLength",
+      "file": "RocketDAOProtocolSettingsMegapool.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialise",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setSettingUint",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getTimeBeforeDissolve",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getMaximumEthPenalty",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getNotifyThreshold",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getLateNotifyFine",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getUserDistributeWindowLength",
+      "file": "RocketDAOProtocolSettingsMegapool.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 8,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00318",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-440",
+      "CWE-684",
+      "CWE-693",
+      "CWE-697",
+      "CWE-707",
+      "CWE-710",
+      "CWE-807"
+    ]
+  }
+}

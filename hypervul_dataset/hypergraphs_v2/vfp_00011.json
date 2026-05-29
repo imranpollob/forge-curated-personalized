@@ -1,0 +1,2767 @@
+{
+  "sample_id": "vfp_00011",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openAuction",
+      "file": "AuctionLib.sol",
+      "start_line": 28,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBid",
+      "file": "AuctionLib.sol",
+      "start_line": 128,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bid",
+      "file": "AuctionLib.sol",
+      "start_line": 179,
+      "end_line": 235,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_price",
+      "file": "AuctionLib.sol",
+      "start_line": 240,
+      "end_line": 264,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pairHash",
+      "file": "AuctionLib.sol",
+      "start_line": 267,
+      "end_line": 272,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CowSwapFiller.sol",
+      "start_line": 40,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "CowSwapFiller.sol",
+      "start_line": 62,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapActive",
+      "file": "CowSwapFiller.sol",
+      "start_line": 89,
+      "end_line": 104,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "closeFiller",
+      "file": "CowSwapFiller.sol",
+      "start_line": 107,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "rescueToken",
+      "file": "CowSwapFiller.sol",
+      "start_line": 115,
+      "end_line": 121,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Folio.sol",
+      "start_line": 162,
+      "end_line": 202,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "poke",
+      "file": "Folio.sol",
+      "start_line": 205,
+      "end_line": 207,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "stateChangeActive",
+      "file": "Folio.sol",
+      "start_line": 213,
+      "end_line": 216,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "addToBasket",
+      "file": "Folio.sol",
+      "start_line": 224,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "removeFromBasket",
+      "file": "Folio.sol",
+      "start_line": 229,
+      "end_line": 241,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setTVLFee",
+      "file": "Folio.sol",
+      "start_line": 246,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setMintFee",
+      "file": "Folio.sol",
+      "start_line": 255,
+      "end_line": 259,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setFeeRecipients",
+      "file": "Folio.sol",
+      "start_line": 264,
+      "end_line": 268,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setAuctionLength",
+      "file": "Folio.sol",
+      "start_line": 271,
+      "end_line": 273,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setMandate",
+      "file": "Folio.sol",
+      "start_line": 276,
+      "end_line": 278,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setTrustedFillerRegistry",
+      "file": "Folio.sol",
+      "start_line": 282,
+      "end_line": 284,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "deprecateFolio",
+      "file": "Folio.sol",
+      "start_line": 288,
+      "end_line": 292,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "Folio.sol",
+      "start_line": 297,
+      "end_line": 301,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "Folio.sol",
+      "start_line": 305,
+      "end_line": 307,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "toAssets",
+      "file": "Folio.sol",
+      "start_line": 312,
+      "end_line": 317,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "mint",
+      "file": "Folio.sol",
+      "start_line": 325,
+      "end_line": 372,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "Folio.sol",
+      "start_line": 378,
+      "end_line": 404,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "getPendingFeeShares",
+      "file": "Folio.sol",
+      "start_line": 409,
+      "end_line": 412,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "distributeFees",
+      "file": "Folio.sol",
+      "start_line": 417,
+      "end_line": 447,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getRebalance",
+      "file": "Folio.sol",
+      "start_line": 454,
+      "end_line": 476,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "startRebalance",
+      "file": "Folio.sol",
+      "start_line": 485,
+      "end_line": 557,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "openAuction",
+      "file": "Folio.sol",
+      "start_line": 565,
+      "end_line": 612,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "openAuctionUnrestricted",
+      "file": "Folio.sol",
+      "start_line": 617,
+      "end_line": 652,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "getBid",
+      "file": "Folio.sol",
+      "start_line": 660,
+      "end_line": 680,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "bid",
+      "file": "Folio.sol",
+      "start_line": 691,
+      "end_line": 732,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "createTrustedFill",
+      "file": "Folio.sol",
+      "start_line": 735,
+      "end_line": 768,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "closeAuction",
+      "file": "Folio.sol",
+      "start_line": 773,
+      "end_line": 789,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "endRebalance",
+      "file": "Folio.sol",
+      "start_line": 794,
+      "end_line": 807,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_toAssets",
+      "file": "Folio.sol",
+      "start_line": 814,
+      "end_line": 827,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_totalAssets",
+      "file": "Folio.sol",
+      "start_line": 831,
+      "end_line": 839,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_balanceOfToken",
+      "file": "Folio.sol",
+      "start_line": 842,
+      "end_line": 851,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_getPendingFeeShares",
+      "file": "Folio.sol",
+      "start_line": 855,
+      "end_line": 899,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_setTVLFee",
+      "file": "Folio.sol",
+      "start_line": 903,
+      "end_line": 914,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_setMintFee",
+      "file": "Folio.sol",
+      "start_line": 918,
+      "end_line": 923,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_setFeeRecipients",
+      "file": "Folio.sol",
+      "start_line": 926,
+      "end_line": 958,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_setAuctionLength",
+      "file": "Folio.sol",
+      "start_line": 961,
+      "end_line": 966,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_setMandate",
+      "file": "Folio.sol",
+      "start_line": 968,
+      "end_line": 971,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_poke",
+      "file": "Folio.sol",
+      "start_line": 974,
+      "end_line": 988,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_addToBasket",
+      "file": "Folio.sol",
+      "start_line": 990,
+      "end_line": 995,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_removeFromBasket",
+      "file": "Folio.sol",
+      "start_line": 997,
+      "end_line": 1003,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_setTrustedFillerRegistry",
+      "file": "Folio.sol",
+      "start_line": 1005,
+      "end_line": 1017,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_closeTrustedFill",
+      "file": "Folio.sol",
+      "start_line": 1020,
+      "end_line": 1026,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_update",
+      "file": "Folio.sol",
+      "start_line": 1028,
+      "end_line": 1033,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "actualReceiver",
+      "file": "GPv2OrderLib.sol",
+      "start_line": 112,
+      "end_line": 118,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "hash",
+      "file": "GPv2OrderLib.sol",
+      "start_line": 125,
+      "end_line": 154,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "packOrderUidParams",
+      "file": "GPv2OrderLib.sol",
+      "start_line": 167,
+      "end_line": 201,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "extractOrderUidParams",
+      "file": "GPv2OrderLib.sol",
+      "start_line": 215,
+      "end_line": 227,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "addTrustedFiller",
+      "file": "TrustedFillerRegistry.sol",
+      "start_line": 27,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "deprecateTrustedFiller",
+      "file": "TrustedFillerRegistry.sol",
+      "start_line": 36,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "createTrustedFiller",
+      "file": "TrustedFillerRegistry.sol",
+      "start_line": 45,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "isAllowed",
+      "file": "TrustedFillerRegistry.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "fillCreator",
+      "var_type": "address public",
+      "file": "CowSwapFiller.sol",
+      "line": 23
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "sellToken",
+      "var_type": "IERC20 public",
+      "file": "CowSwapFiller.sol",
+      "line": 25
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "buyToken",
+      "var_type": "IERC20 public",
+      "file": "CowSwapFiller.sol",
+      "line": 26
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "sellAmount",
+      "var_type": "uint256 public",
+      "file": "CowSwapFiller.sol",
+      "line": 28
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "blockInitialized",
+      "var_type": "uint256 public",
+      "file": "CowSwapFiller.sol",
+      "line": 29
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "price",
+      "var_type": "uint256 public",
+      "file": "CowSwapFiller.sol",
+      "line": 31
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "daoFeeRegistry",
+      "var_type": "IFolioDAOFeeRegistry public",
+      "file": "Folio.sol",
+      "line": 68
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "REBALANCE_MANAGER",
+      "var_type": "bytes32 public constant",
+      "file": "Folio.sol",
+      "line": 73
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "AUCTION_LAUNCHER",
+      "var_type": "bytes32 public constant",
+      "file": "Folio.sol",
+      "line": 74
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "BRAND_MANAGER",
+      "var_type": "bytes32 public constant",
+      "file": "Folio.sol",
+      "line": 75
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "mandate",
+      "var_type": "string public",
+      "file": "Folio.sol",
+      "line": 80
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "basket",
+      "var_type": "EnumerableSet.AddressSet private",
+      "file": "Folio.sol",
+      "line": 85
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "feeRecipients",
+      "var_type": "FeeRecipient[] public",
+      "file": "Folio.sol",
+      "line": 90
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "tvlFee",
+      "var_type": "uint256 public",
+      "file": "Folio.sol",
+      "line": 91
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "mintFee",
+      "var_type": "uint256 public",
+      "file": "Folio.sol",
+      "line": 92
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "lastPoke",
+      "var_type": "uint256 public",
+      "file": "Folio.sol",
+      "line": 97
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "daoPendingFeeShares",
+      "var_type": "uint256 public",
+      "file": "Folio.sol",
+      "line": 98
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "feeRecipientsPendingFeeShares",
+      "var_type": "uint256 public",
+      "file": "Folio.sol",
+      "line": 99
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "isDeprecated",
+      "var_type": "bool public",
+      "file": "Folio.sol",
+      "line": 100
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "auctions_DEPRECATED",
+      "var_type": "DeprecatedStruct[] private",
+      "file": "Folio.sol",
+      "line": 107
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "sellEnds_DEPRECATED",
+      "var_type": "mapping(address token => uint256 timepoint) private",
+      "file": "Folio.sol",
+      "line": 108
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "buyEnds_DEPRECATED",
+      "var_type": "mapping(address token => uint256 timepoint) private",
+      "file": "Folio.sol",
+      "line": 109
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "auctionDelay_DEPRECATED",
+      "var_type": "uint256 private",
+      "file": "Folio.sol",
+      "line": 110
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "auctionLength",
+      "var_type": "uint256 public",
+      "file": "Folio.sol",
+      "line": 112
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "auctionDetails_DEPRECATED",
+      "var_type": "mapping(uint256 auctionId => DeprecatedStruct details) private",
+      "file": "Folio.sol",
+      "line": 115
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "dustAmount_DEPRECATED",
+      "var_type": "mapping(address token => uint256 amount) private",
+      "file": "Folio.sol",
+      "line": 116
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "trustedFillerRegistry",
+      "var_type": "ITrustedFillerRegistry public",
+      "file": "Folio.sol",
+      "line": 119
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "trustedFillerEnabled",
+      "var_type": "bool public",
+      "file": "Folio.sol",
+      "line": 120
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "activeTrustedFill",
+      "var_type": "IBaseTrustedFiller private",
+      "file": "Folio.sol",
+      "line": 121
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "rebalance",
+      "var_type": "Rebalance public",
+      "file": "Folio.sol",
+      "line": 136
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "auctions",
+      "var_type": "mapping(uint256 id => Auction auction) public",
+      "file": "Folio.sol",
+      "line": 145
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "auctionEnds",
+      "var_type": "mapping(uint256 rebalanceNonce => mapping(bytes32 pair => uint256 endTime)) public",
+      "file": "Folio.sol",
+      "line": 146
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "nextAuctionId",
+      "var_type": "uint256 public",
+      "file": "Folio.sol",
+      "line": 147
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "TYPE_HASH",
+      "var_type": "bytes32 internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 48
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "KIND_SELL",
+      "var_type": "bytes32 internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 58
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "KIND_BUY",
+      "var_type": "bytes32 internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 67
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "BALANCE_ERC20",
+      "var_type": "bytes32 internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 76
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "BALANCE_EXTERNAL",
+      "var_type": "bytes32 internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 86
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "BALANCE_INTERNAL",
+      "var_type": "bytes32 internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 95
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "RECEIVER_SAME_AS_OWNER",
+      "var_type": "address internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 102
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "UID_LENGTH",
+      "var_type": "uint256 internal constant",
+      "file": "GPv2OrderLib.sol",
+      "line": 105
+    },
+    {
+      "node_id": 102,
+      "node_type": "state_var",
+      "name": "roleRegistry",
+      "var_type": "IRoleRegistry public immutable",
+      "file": "TrustedFillerRegistry.sol",
+      "line": 17
+    },
+    {
+      "node_id": 103,
+      "node_type": "state_var",
+      "name": "trustedFillers",
+      "var_type": "mapping(address filler => bool allowed) private",
+      "file": "TrustedFillerRegistry.sol",
+      "line": 19
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:73",
+      "call_type": "INTERFACE_CALL",
+      "line": 73,
+      "enclosing_function": "openAuction",
+      "file": "AuctionLib.sol",
+      "raw_text": "require(args.sellToken.balanceOf(address(this)) > sellBalLimit, IFolio.Folio__InvalidSellLimit());"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:77",
+      "call_type": "INTERFACE_CALL",
+      "line": 77,
+      "enclosing_function": "openAuction",
+      "file": "AuctionLib.sol",
+      "raw_text": "require(args.buyToken.balanceOf(address(this)) < buyBalLimit, IFolio.Folio__InvalidBuyLimit());"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:189",
+      "call_type": "INTERFACE_CALL",
+      "line": 189,
+      "enclosing_function": "bid",
+      "file": "AuctionLib.sol",
+      "raw_text": "SafeERC20.safeTransfer(auction.sellToken, msg.sender, sellAmount);"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:195",
+      "call_type": "INTERFACE_CALL",
+      "line": 195,
+      "enclosing_function": "bid",
+      "file": "AuctionLib.sol",
+      "raw_text": "uint256 sellBal = auction.sellToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:211",
+      "call_type": "INTERFACE_CALL",
+      "line": 211,
+      "enclosing_function": "bid",
+      "file": "AuctionLib.sol",
+      "raw_text": "uint256 buyBalBefore = auction.buyToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:217",
+      "call_type": "INTERFACE_CALL",
+      "line": 217,
+      "enclosing_function": "bid",
+      "file": "AuctionLib.sol",
+      "raw_text": "SafeERC20.safeTransferFrom(auction.buyToken, msg.sender, address(this), bidAmount);"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:220",
+      "call_type": "INTERFACE_CALL",
+      "line": 220,
+      "enclosing_function": "bid",
+      "file": "AuctionLib.sol",
+      "raw_text": "uint256 buyBalAfter = auction.buyToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:57",
+      "call_type": "INTERFACE_CALL",
+      "line": 57,
+      "enclosing_function": "initialize",
+      "file": "CowSwapFiller.sol",
+      "raw_text": "sellToken.forceApprove(GPV2_VAULT_RELAYER, _sellAmount);"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:58",
+      "call_type": "INTERFACE_CALL",
+      "line": 58,
+      "enclosing_function": "initialize",
+      "file": "CowSwapFiller.sol",
+      "raw_text": "sellToken.safeTransferFrom(_creator, address(this), _sellAmount);"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:94",
+      "call_type": "INTERFACE_CALL",
+      "line": 94,
+      "enclosing_function": "swapActive",
+      "file": "CowSwapFiller.sol",
+      "raw_text": "uint256 sellTokenBalance = sellToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:103",
+      "call_type": "INTERFACE_CALL",
+      "line": 103,
+      "enclosing_function": "swapActive",
+      "file": "CowSwapFiller.sol",
+      "raw_text": "return minimumExpectedIn > buyToken.balanceOf(address(this));"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:119",
+      "call_type": "INTERFACE_CALL",
+      "line": 119,
+      "enclosing_function": "rescueToken",
+      "file": "CowSwapFiller.sol",
+      "raw_text": "token.safeTransfer(fillCreator, tokenBalance);"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:153",
+      "call_type": "INTERFACE_CALL",
+      "line": 153,
+      "enclosing_function": "stateChangeActive",
+      "file": "Folio.sol",
+      "raw_text": "asyncStateChangeActive = address(activeTrustedFill) != address(0) && activeTrustedFill.swapActive();"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:270",
+      "call_type": "INTERFACE_CALL",
+      "line": 270,
+      "enclosing_function": "mint",
+      "file": "Folio.sol",
+      "raw_text": "(, uint256 daoFeeNumerator, uint256 daoFeeDenominator, uint256 daoFeeFloor) = daoFeeRegistry.getFeeDetails("
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:299",
+      "call_type": "INTERFACE_CALL",
+      "line": 299,
+      "enclosing_function": "mint",
+      "file": "Folio.sol",
+      "raw_text": "SafeERC20.safeTransferFrom(IERC20(_assets[i]), msg.sender, address(this), _amounts[i]);"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:339",
+      "call_type": "INTERFACE_CALL",
+      "line": 339,
+      "enclosing_function": "redeem",
+      "file": "Folio.sol",
+      "raw_text": "SafeERC20.safeTransfer(IERC20(_assets[i]), receiver, _amounts[i]);"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:380",
+      "call_type": "INTERFACE_CALL",
+      "line": 380,
+      "enclosing_function": "distributeFees",
+      "file": "Folio.sol",
+      "raw_text": "(address daoRecipient, , , ) = daoFeeRegistry.getFeeDetails(address(this));"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:402",
+      "call_type": "INTERFACE_CALL",
+      "line": 402,
+      "enclosing_function": "getRebalance",
+      "file": "Folio.sol",
+      "raw_text": "tokens = basket.values();"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:433",
+      "call_type": "INTERFACE_CALL",
+      "line": 433,
+      "enclosing_function": "startRebalance",
+      "file": "Folio.sol",
+      "raw_text": "address[] memory oldTokens = basket.values();"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:647",
+      "call_type": "INTERFACE_CALL",
+      "line": 647,
+      "enclosing_function": "bid",
+      "file": "Folio.sol",
+      "raw_text": "auction.sellToken.balanceOf(address(this)),"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:648",
+      "call_type": "INTERFACE_CALL",
+      "line": 648,
+      "enclosing_function": "bid",
+      "file": "Folio.sol",
+      "raw_text": "auction.buyToken.balanceOf(address(this)),"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:691",
+      "call_type": "INTERFACE_CALL",
+      "line": 691,
+      "enclosing_function": "createTrustedFill",
+      "file": "Folio.sol",
+      "raw_text": "auction.sellToken.balanceOf(address(this)),"
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:692",
+      "call_type": "INTERFACE_CALL",
+      "line": 692,
+      "enclosing_function": "createTrustedFill",
+      "file": "Folio.sol",
+      "raw_text": "auction.buyToken.balanceOf(address(this)),"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:699",
+      "call_type": "INTERFACE_CALL",
+      "line": 699,
+      "enclosing_function": "createTrustedFill",
+      "file": "Folio.sol",
+      "raw_text": "filler = trustedFillerRegistry.createTrustedFiller(msg.sender, targetFiller, deploymentSalt);"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:770",
+      "call_type": "INTERFACE_CALL",
+      "line": 770,
+      "enclosing_function": "_totalAssets",
+      "file": "Folio.sol",
+      "raw_text": "_assets = basket.values();"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:785",
+      "call_type": "INTERFACE_CALL",
+      "line": 785,
+      "enclosing_function": "_balanceOfToken",
+      "file": "Folio.sol",
+      "raw_text": "(activeTrustedFill.sellToken() == token || activeTrustedFill.buyToken() == token)"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:812",
+      "call_type": "INTERFACE_CALL",
+      "line": 812,
+      "enclosing_function": "_getPendingFeeShares",
+      "file": "Folio.sol",
+      "raw_text": "(, uint256 daoFeeNumerator, uint256 daoFeeDenominator, uint256 daoFeeFloor) = daoFeeRegistry.getFeeDetails("
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:870",
+      "call_type": "INTERFACE_CALL",
+      "line": 870,
+      "enclosing_function": "_setFeeRecipients",
+      "file": "Folio.sol",
+      "raw_text": "feeRecipients.pop();"
+    },
+    {
+      "node_id": 132,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:891",
+      "call_type": "INTERFACE_CALL",
+      "line": 891,
+      "enclosing_function": "_setFeeRecipients",
+      "file": "Folio.sol",
+      "raw_text": "feeRecipients.push(_feeRecipients[i]);"
+    },
+    {
+      "node_id": 133,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:932",
+      "call_type": "INTERFACE_CALL",
+      "line": 932,
+      "enclosing_function": "_addToBasket",
+      "file": "Folio.sol",
+      "raw_text": "return basket.add(token);"
+    },
+    {
+      "node_id": 134,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:940",
+      "call_type": "INTERFACE_CALL",
+      "line": 940,
+      "enclosing_function": "_removeFromBasket",
+      "file": "Folio.sol",
+      "raw_text": "return basket.remove(token);"
+    },
+    {
+      "node_id": 135,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:960",
+      "call_type": "INTERFACE_CALL",
+      "line": 960,
+      "enclosing_function": "_closeTrustedFill",
+      "file": "Folio.sol",
+      "raw_text": "activeTrustedFill.closeFiller();"
+    },
+    {
+      "node_id": 136,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TrustedFillerRegistry.sol:24",
+      "call_type": "INTERFACE_CALL",
+      "line": 24,
+      "enclosing_function": "addTrustedFiller",
+      "file": "TrustedFillerRegistry.sol",
+      "raw_text": "require(roleRegistry.isOwner(msg.sender), TrustedFillerRegistry__InvalidCaller());"
+    },
+    {
+      "node_id": 137,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TrustedFillerRegistry.sol:33",
+      "call_type": "INTERFACE_CALL",
+      "line": 33,
+      "enclosing_function": "deprecateTrustedFiller",
+      "file": "TrustedFillerRegistry.sol",
+      "raw_text": "require(roleRegistry.isOwnerOrEmergencyCouncil(msg.sender), TrustedFillerRegistry__InvalidCaller());"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        80,
+        84,
+        90,
+        91,
+        92,
+        93,
+        104
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 104
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        80,
+        84,
+        90,
+        91,
+        92,
+        93,
+        105
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 105
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        90,
+        91,
+        92,
+        106
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 106
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        2,
+        90,
+        91,
+        92,
+        107
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 107
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        2,
+        90,
+        91,
+        92,
+        108
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 108
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        2,
+        90,
+        91,
+        92,
+        109
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 109
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        2,
+        90,
+        91,
+        92,
+        110
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 110
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        5,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        71,
+        73,
+        74,
+        75,
+        76,
+        84,
+        111
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 111
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        5,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        71,
+        73,
+        74,
+        75,
+        76,
+        84,
+        112
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 112
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        7,
+        8,
+        62,
+        63,
+        64,
+        65,
+        66,
+        113
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 113
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        7,
+        8,
+        62,
+        63,
+        64,
+        65,
+        66,
+        114
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 114
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        8,
+        9,
+        61,
+        62,
+        63,
+        115
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 115
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        12,
+        89,
+        116
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 116
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        25,
+        67,
+        75,
+        77,
+        78,
+        117
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 117
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        25,
+        67,
+        75,
+        77,
+        78,
+        118
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 118
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        26,
+        119
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 119
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        15,
+        16,
+        17,
+        28,
+        67,
+        73,
+        77,
+        78,
+        120
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 120
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        29,
+        72,
+        90,
+        121
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 121
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        30,
+        72,
+        90,
+        122
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 122
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        2,
+        90,
+        91,
+        92,
+        123
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 123
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        2,
+        90,
+        91,
+        92,
+        124
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 124
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        35,
+        87,
+        88,
+        89,
+        90,
+        91,
+        125
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 125
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        35,
+        87,
+        88,
+        89,
+        90,
+        91,
+        126
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 126
+    },
+    {
+      "edge_id": 23,
+      "node_ids": [
+        35,
+        87,
+        88,
+        89,
+        90,
+        91,
+        127
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 127
+    },
+    {
+      "edge_id": 24,
+      "node_ids": [
+        23,
+        24,
+        25,
+        26,
+        38,
+        39,
+        67,
+        72,
+        75,
+        77,
+        78,
+        128
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 128
+    },
+    {
+      "edge_id": 25,
+      "node_ids": [
+        1,
+        23,
+        24,
+        25,
+        26,
+        38,
+        39,
+        40,
+        67,
+        72,
+        75,
+        77,
+        78,
+        89,
+        90,
+        91,
+        129
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 129
+    },
+    {
+      "edge_id": 26,
+      "node_ids": [
+        0,
+        1,
+        2,
+        11,
+        22,
+        24,
+        25,
+        26,
+        27,
+        32,
+        35,
+        38,
+        41,
+        47,
+        67,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        84,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        130
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 130
+    },
+    {
+      "edge_id": 27,
+      "node_ids": [
+        5,
+        17,
+        44,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        71,
+        73,
+        74,
+        75,
+        76,
+        84,
+        131
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 131
+    },
+    {
+      "edge_id": 28,
+      "node_ids": [
+        5,
+        17,
+        44,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        71,
+        73,
+        74,
+        75,
+        76,
+        84,
+        132
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 132
+    },
+    {
+      "edge_id": 29,
+      "node_ids": [
+        5,
+        13,
+        30,
+        48,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        84,
+        90,
+        133
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 133
+    },
+    {
+      "edge_id": 30,
+      "node_ids": [
+        2,
+        14,
+        49,
+        72,
+        90,
+        91,
+        92,
+        134
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 134
+    },
+    {
+      "edge_id": 31,
+      "node_ids": [
+        11,
+        14,
+        47,
+        51,
+        76,
+        77,
+        78,
+        89,
+        90,
+        135
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 135
+    },
+    {
+      "edge_id": 32,
+      "node_ids": [
+        57,
+        102,
+        103,
+        136
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 136
+    },
+    {
+      "edge_id": 33,
+      "node_ids": [
+        58,
+        102,
+        103,
+        137
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 137
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openAuction",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBid",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bid",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_price",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pairHash",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "swapActive",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "closeFiller",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "rescueToken",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "poke",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "stateChangeActive",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "addToBasket",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "removeFromBasket",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setTVLFee",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "setMintFee",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setFeeRecipients",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "setAuctionLength",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "setMandate",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setTrustedFillerRegistry",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "deprecateFolio",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "toAssets",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "mint",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "getPendingFeeShares",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "distributeFees",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getRebalance",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "startRebalance",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "openAuction",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "openAuctionUnrestricted",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "getBid",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "bid",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "createTrustedFill",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "closeAuction",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "endRebalance",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_toAssets",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_totalAssets",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_balanceOfToken",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_getPendingFeeShares",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_setTVLFee",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_setMintFee",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_setFeeRecipients",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_setAuctionLength",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_setMandate",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_poke",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_addToBasket",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_removeFromBasket",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_setTrustedFillerRegistry",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_closeTrustedFill",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_update",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "actualReceiver",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "hash",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "packOrderUidParams",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "extractOrderUidParams",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "addTrustedFiller",
+      "file": "TrustedFillerRegistry.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "deprecateTrustedFiller",
+      "file": "TrustedFillerRegistry.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "createTrustedFiller",
+      "file": "TrustedFillerRegistry.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "isAllowed",
+      "file": "TrustedFillerRegistry.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "fillCreator",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "sellToken",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "buyToken",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "sellAmount",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "blockInitialized",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "price",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "daoFeeRegistry",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "REBALANCE_MANAGER",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "AUCTION_LAUNCHER",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "BRAND_MANAGER",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "mandate",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "basket",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "feeRecipients",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "tvlFee",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "mintFee",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "lastPoke",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "daoPendingFeeShares",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "feeRecipientsPendingFeeShares",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "isDeprecated",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "auctions_DEPRECATED",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "sellEnds_DEPRECATED",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "buyEnds_DEPRECATED",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "auctionDelay_DEPRECATED",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "auctionLength",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "auctionDetails_DEPRECATED",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "dustAmount_DEPRECATED",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "trustedFillerRegistry",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "trustedFillerEnabled",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "activeTrustedFill",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "rebalance",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "auctions",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "auctionEnds",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "nextAuctionId",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "TYPE_HASH",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "KIND_SELL",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "KIND_BUY",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "BALANCE_ERC20",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "BALANCE_EXTERNAL",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "BALANCE_INTERNAL",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "RECEIVER_SAME_AS_OWNER",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "state_var",
+      "name": "UID_LENGTH",
+      "file": "GPv2OrderLib.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "state_var",
+      "name": "roleRegistry",
+      "file": "TrustedFillerRegistry.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "state_var",
+      "name": "trustedFillers",
+      "file": "TrustedFillerRegistry.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:73",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:77",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:189",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:195",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:211",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:217",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AuctionLib.sol:220",
+      "file": "AuctionLib.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:57",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:58",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:94",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:103",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:CowSwapFiller.sol:119",
+      "file": "CowSwapFiller.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:153",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:270",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:299",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:339",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:380",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:402",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:433",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:647",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:648",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:691",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:692",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:699",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:770",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:785",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:812",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:870",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:891",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:932",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:940",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Folio.sol:960",
+      "file": "Folio.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TrustedFillerRegistry.sol:24",
+      "file": "TrustedFillerRegistry.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:TrustedFillerRegistry.sol:33",
+      "file": "TrustedFillerRegistry.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 138,
+    "n_hyperedges": 34,
+    "n_functions": 61,
+    "n_state_vars": 43,
+    "n_call_sites": 34,
+    "avg_hyperedge_size": 8.735294117647058
+  },
+  "label": {
+    "vfp_id": "vfp_00011",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-1288",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-372",
+      "CWE-664",
+      "CWE-682",
+      "CWE-691",
+      "CWE-707",
+      "CWE-710",
+      "CWE-834",
+      "CWE-841"
+    ]
+  }
+}

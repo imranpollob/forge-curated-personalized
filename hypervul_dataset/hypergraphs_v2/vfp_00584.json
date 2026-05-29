@@ -1,0 +1,95 @@
+{
+  "sample_id": "vfp_00584",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "onMorphoFlashLoan",
+      "file": "MorphoFlashLoanCallbackFacet.sol",
+      "start_line": 45,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "morpho",
+      "var_type": "address private immutable",
+      "file": "MorphoFlashLoanCallbackFacet.sol",
+      "line": 30
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "CALL:MorphoFlashLoanCallbackFacet.sol:45",
+      "call_type": "CALL",
+      "line": 45,
+      "enclosing_function": "onMorphoFlashLoan",
+      "file": "MorphoFlashLoanCallbackFacet.sol",
+      "raw_text": "(bool success, ) = address(this).call(realData);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1,
+        2
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 2
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "onMorphoFlashLoan",
+      "file": "MorphoFlashLoanCallbackFacet.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "state_var",
+      "name": "morpho",
+      "file": "MorphoFlashLoanCallbackFacet.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "CALL:MorphoFlashLoanCallbackFacet.sol:45",
+      "file": "MorphoFlashLoanCallbackFacet.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 1,
+    "n_functions": 1,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00584",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-248",
+      "CWE-703",
+      "CWE-755"
+    ]
+  }
+}

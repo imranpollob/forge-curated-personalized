@@ -1,0 +1,1462 @@
+{
+  "sample_id": "vfp_00067",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "kpkShares.sol",
+      "start_line": 167,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "previewSubscription",
+      "file": "kpkShares.sol",
+      "start_line": 199,
+      "end_line": 214,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "requestSubscription",
+      "file": "kpkShares.sol",
+      "start_line": 217,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "cancelSubscription",
+      "file": "kpkShares.sol",
+      "start_line": 269,
+      "end_line": 296,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "previewRedemption",
+      "file": "kpkShares.sol",
+      "start_line": 303,
+      "end_line": 329,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "requestRedemption",
+      "file": "kpkShares.sol",
+      "start_line": 332,
+      "end_line": 381,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "cancelRedemption",
+      "file": "kpkShares.sol",
+      "start_line": 384,
+      "end_line": 408,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "processRequests",
+      "file": "kpkShares.sol",
+      "start_line": 415,
+      "end_line": 430,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateAsset",
+      "file": "kpkShares.sol",
+      "start_line": 433,
+      "end_line": 435,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setSubscriptionRequestTtl",
+      "file": "kpkShares.sol",
+      "start_line": 442,
+      "end_line": 446,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setRedemptionRequestTtl",
+      "file": "kpkShares.sol",
+      "start_line": 449,
+      "end_line": 453,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setFeeReceiver",
+      "file": "kpkShares.sol",
+      "start_line": 456,
+      "end_line": 459,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setManagementFeeRate",
+      "file": "kpkShares.sol",
+      "start_line": 462,
+      "end_line": 468,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setRedemptionFeeRate",
+      "file": "kpkShares.sol",
+      "start_line": 471,
+      "end_line": 478,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setPerformanceFeeRate",
+      "file": "kpkShares.sol",
+      "start_line": 481,
+      "end_line": 488,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setPerformanceFeeModule",
+      "file": "kpkShares.sol",
+      "start_line": 491,
+      "end_line": 494,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getApprovedAssets",
+      "file": "kpkShares.sol",
+      "start_line": 501,
+      "end_line": 508,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getApprovedAsset",
+      "file": "kpkShares.sol",
+      "start_line": 511,
+      "end_line": 513,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "isApprovedAsset",
+      "file": "kpkShares.sol",
+      "start_line": 516,
+      "end_line": 519,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "assetDecimals",
+      "file": "kpkShares.sol",
+      "start_line": 522,
+      "end_line": 524,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getRequest",
+      "file": "kpkShares.sol",
+      "start_line": 527,
+      "end_line": 529,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getLastSettledPrice",
+      "file": "kpkShares.sol",
+      "start_line": 532,
+      "end_line": 534,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "assetsToShares",
+      "file": "kpkShares.sol",
+      "start_line": 537,
+      "end_line": 556,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "sharesToAssets",
+      "file": "kpkShares.sol",
+      "start_line": 559,
+      "end_line": 580,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "kpkShares.sol",
+      "start_line": 587,
+      "end_line": 589,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "kpkShares.sol",
+      "start_line": 592,
+      "end_line": 599,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_assetRecoverableAmount",
+      "file": "kpkShares.sol",
+      "start_line": 603,
+      "end_line": 622,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_assetRecoverer",
+      "file": "kpkShares.sol",
+      "start_line": 625,
+      "end_line": 627,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_validateInitializationParams",
+      "file": "kpkShares.sol",
+      "start_line": 639,
+      "end_line": 652,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_initializeState",
+      "file": "kpkShares.sol",
+      "start_line": 658,
+      "end_line": 677,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_setupRoles",
+      "file": "kpkShares.sol",
+      "start_line": 681,
+      "end_line": 683,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_requireValidRequestParams",
+      "file": "kpkShares.sol",
+      "start_line": 693,
+      "end_line": 695,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_requireCancellationAuthorization",
+      "file": "kpkShares.sol",
+      "start_line": 700,
+      "end_line": 704,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_processApproved",
+      "file": "kpkShares.sol",
+      "start_line": 710,
+      "end_line": 737,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_processRejected",
+      "file": "kpkShares.sol",
+      "start_line": 742,
+      "end_line": 755,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_approveSubscriptionRequest",
+      "file": "kpkShares.sol",
+      "start_line": 765,
+      "end_line": 787,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_rejectSubscriptionRequest",
+      "file": "kpkShares.sol",
+      "start_line": 792,
+      "end_line": 805,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_checkValidRequest",
+      "file": "kpkShares.sol",
+      "start_line": 811,
+      "end_line": 817,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_hasPendingRequests",
+      "file": "kpkShares.sol",
+      "start_line": 823,
+      "end_line": 825,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_approveRedeemRequest",
+      "file": "kpkShares.sol",
+      "start_line": 835,
+      "end_line": 862,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_rejectRedeemRequest",
+      "file": "kpkShares.sol",
+      "start_line": 867,
+      "end_line": 878,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_validatePriceDeviation",
+      "file": "kpkShares.sol",
+      "start_line": 889,
+      "end_line": 915,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_chargeFees",
+      "file": "kpkShares.sol",
+      "start_line": 920,
+      "end_line": 948,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_chargeRedemptionFee",
+      "file": "kpkShares.sol",
+      "start_line": 953,
+      "end_line": 963,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_chargeManagementFee",
+      "file": "kpkShares.sol",
+      "start_line": 968,
+      "end_line": 976,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_chargePerformanceFee",
+      "file": "kpkShares.sol",
+      "start_line": 982,
+      "end_line": 995,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_updateAsset",
+      "file": "kpkShares.sol",
+      "start_line": 1003,
+      "end_line": 1055,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_shadowAsset",
+      "file": "kpkShares.sol",
+      "start_line": 1059,
+      "end_line": 1068,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_setSubscriptionRequestTtl",
+      "file": "kpkShares.sol",
+      "start_line": 1076,
+      "end_line": 1082,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_setRedemptionRequestTtl",
+      "file": "kpkShares.sol",
+      "start_line": 1086,
+      "end_line": 1092,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_setFeeReceiver",
+      "file": "kpkShares.sol",
+      "start_line": 1096,
+      "end_line": 1099,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_setManagementFeeRate",
+      "file": "kpkShares.sol",
+      "start_line": 1103,
+      "end_line": 1111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_setRedemptionFeeRate",
+      "file": "kpkShares.sol",
+      "start_line": 1115,
+      "end_line": 1118,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_setPerformanceFeeRate",
+      "file": "kpkShares.sol",
+      "start_line": 1122,
+      "end_line": 1131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_setPerformanceFeeModule",
+      "file": "kpkShares.sol",
+      "start_line": 1135,
+      "end_line": 1138,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "_PRECISION_WAD",
+      "var_type": "uint256 private constant",
+      "file": "kpkShares.sol",
+      "line": 40
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "_NORMALIZED_PRECISION_USD",
+      "var_type": "uint256 private constant",
+      "file": "kpkShares.sol",
+      "line": 43
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "_PRECISION_BPS",
+      "var_type": "uint256 private constant",
+      "file": "kpkShares.sol",
+      "line": 45
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "MAX_TTL",
+      "var_type": "uint64 public constant",
+      "file": "kpkShares.sol",
+      "line": 48
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "MAX_FEE_RATE",
+      "var_type": "uint256 public constant",
+      "file": "kpkShares.sol",
+      "line": 51
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "SECONDS_PER_YEAR",
+      "var_type": "uint256 public constant",
+      "file": "kpkShares.sol",
+      "line": 54
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "MIN_TIME_ELAPSED",
+      "var_type": "uint256 public constant",
+      "file": "kpkShares.sol",
+      "line": 57
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "MAX_PRICE_DEVIATION_BPS",
+      "var_type": "uint256 public constant",
+      "file": "kpkShares.sol",
+      "line": 60
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "OPERATOR",
+      "var_type": "bytes32 public constant",
+      "file": "kpkShares.sol",
+      "line": 63
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "_approvedAssets",
+      "var_type": "address[] private",
+      "file": "kpkShares.sol",
+      "line": 70
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "_approvedAssetsMap",
+      "var_type": "mapping(address => ApprovedAsset) private",
+      "file": "kpkShares.sol",
+      "line": 73
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "requestId",
+      "var_type": "uint256 public",
+      "file": "kpkShares.sol",
+      "line": 76
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "portfolioSafe",
+      "var_type": "address public",
+      "file": "kpkShares.sol",
+      "line": 79
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "performanceFeeModule",
+      "var_type": "address public",
+      "file": "kpkShares.sol",
+      "line": 82
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "subscriptionAssets",
+      "var_type": "mapping(address => uint256) public",
+      "file": "kpkShares.sol",
+      "line": 85
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "_pendingRequestsCount",
+      "var_type": "mapping(address => uint256) private",
+      "file": "kpkShares.sol",
+      "line": 88
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "subscriptionRequestTtl",
+      "var_type": "uint64 public",
+      "file": "kpkShares.sol",
+      "line": 91
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "redemptionRequestTtl",
+      "var_type": "uint64 public",
+      "file": "kpkShares.sol",
+      "line": 94
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "feeReceiver",
+      "var_type": "address public",
+      "file": "kpkShares.sol",
+      "line": 97
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "managementFeeRate",
+      "var_type": "uint256 public",
+      "file": "kpkShares.sol",
+      "line": 100
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "redemptionFeeRate",
+      "var_type": "uint256 public",
+      "file": "kpkShares.sol",
+      "line": 103
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "performanceFeeRate",
+      "var_type": "uint256 public",
+      "file": "kpkShares.sol",
+      "line": 106
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "_managementFeeLastUpdate",
+      "var_type": "uint256 private",
+      "file": "kpkShares.sol",
+      "line": 109
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "_performanceFeeLastUpdate",
+      "var_type": "uint256 private",
+      "file": "kpkShares.sol",
+      "line": 112
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "_lastSettledPrice",
+      "var_type": "mapping(address => uint256) private",
+      "file": "kpkShares.sol",
+      "line": 115
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "_requests",
+      "var_type": "mapping(uint256 requestId => UserRequest request) private",
+      "file": "kpkShares.sol",
+      "line": 122
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:kpkShares.sol:1050",
+      "call_type": "INTERFACE_CALL",
+      "line": 1050,
+      "enclosing_function": "_updateAsset",
+      "file": "kpkShares.sol",
+      "raw_text": "_approvedAssets.push(asset);"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:kpkShares.sol:1064",
+      "call_type": "INTERFACE_CALL",
+      "line": 1064,
+      "enclosing_function": "_shadowAsset",
+      "file": "kpkShares.sol",
+      "raw_text": "_approvedAssets.pop();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        8,
+        29,
+        46,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        81
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 81
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        8,
+        29,
+        46,
+        47,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        82
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 82
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "previewSubscription",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "requestSubscription",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "cancelSubscription",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "previewRedemption",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "requestRedemption",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "cancelRedemption",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "processRequests",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateAsset",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setSubscriptionRequestTtl",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setRedemptionRequestTtl",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setFeeReceiver",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setManagementFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "setRedemptionFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "setPerformanceFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "setPerformanceFeeModule",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "getApprovedAssets",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "getApprovedAsset",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "isApprovedAsset",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "assetDecimals",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "getRequest",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "getLastSettledPrice",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "assetsToShares",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "sharesToAssets",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_assetRecoverableAmount",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_assetRecoverer",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_validateInitializationParams",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_initializeState",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_setupRoles",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_requireValidRequestParams",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_requireCancellationAuthorization",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "_processApproved",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "_processRejected",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "_approveSubscriptionRequest",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_rejectSubscriptionRequest",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_checkValidRequest",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_hasPendingRequests",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_approveRedeemRequest",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_rejectRedeemRequest",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_validatePriceDeviation",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_chargeFees",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_chargeRedemptionFee",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_chargeManagementFee",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_chargePerformanceFee",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_updateAsset",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_shadowAsset",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_setSubscriptionRequestTtl",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_setRedemptionRequestTtl",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_setFeeReceiver",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_setManagementFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_setRedemptionFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_setPerformanceFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_setPerformanceFeeModule",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "_PRECISION_WAD",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "_NORMALIZED_PRECISION_USD",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "_PRECISION_BPS",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "MAX_TTL",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "MAX_FEE_RATE",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "SECONDS_PER_YEAR",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "MIN_TIME_ELAPSED",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "MAX_PRICE_DEVIATION_BPS",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "OPERATOR",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "_approvedAssets",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "_approvedAssetsMap",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "requestId",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "portfolioSafe",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "performanceFeeModule",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "subscriptionAssets",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "_pendingRequestsCount",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "subscriptionRequestTtl",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "redemptionRequestTtl",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "feeReceiver",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "managementFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "redemptionFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "performanceFeeRate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "_managementFeeLastUpdate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "_performanceFeeLastUpdate",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "_lastSettledPrice",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "_requests",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:kpkShares.sol:1050",
+      "file": "kpkShares.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:kpkShares.sol:1064",
+      "file": "kpkShares.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 83,
+    "n_hyperedges": 2,
+    "n_functions": 55,
+    "n_state_vars": 26,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 19.5
+  },
+  "label": {
+    "vfp_id": "vfp_00067",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-1050",
+      "CWE-1059",
+      "CWE-1068",
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1084",
+      "CWE-1099",
+      "CWE-1106",
+      "CWE-1164",
+      "CWE-1265",
+      "CWE-1284",
+      "CWE-1287",
+      "CWE-1288",
+      "CWE-1339",
+      "CWE-190",
+      "CWE-193",
+      "CWE-20",
+      "CWE-362",
+      "CWE-372",
+      "CWE-394",
+      "CWE-400",
+      "CWE-405",
+      "CWE-424",
+      "CWE-435",
+      "CWE-664",
+      "CWE-665",
+      "CWE-666",
+      "CWE-672",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754",
+      "CWE-826",
+      "CWE-834",
+      "CWE-841",
+      "CWE-909"
+    ]
+  }
+}

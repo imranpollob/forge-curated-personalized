@@ -1,0 +1,499 @@
+{
+  "sample_id": "neg_00262",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "flashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 17,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swap",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 40,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "joinPool",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 71,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exitPool",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 97,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 120,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 125,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 130,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_getPoolAddressFromPoolId",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol",
+      "start_line": 139,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setManageRoot",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 99,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "pause",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 109,
+      "end_line": 112,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 118,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "manageVaultWithMerkleVerification",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 132,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "flashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 174,
+      "end_line": 189,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "receiveFlashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 197,
+      "end_line": 241,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_verifyCallData",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 248,
+      "end_line": 274,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_verifyManageProof",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "start_line": 279,
+      "end_line": 298,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "manageRoot",
+      "var_type": "mapping(address => bytes32) public",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "line": 36
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "performingFlashLoan",
+      "var_type": "bool internal",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "line": 42
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "flashLoanIntentHash",
+      "var_type": "bytes32 internal",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "line": 47
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isPaused",
+      "var_type": "bool public",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "line": 52
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "BoringVault public immutable",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "line": 81
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "balancerVault",
+      "var_type": "BalancerVault public immutable",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "line": 86
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:112",
+      "call_type": "INTERFACE_CALL",
+      "line": 112,
+      "enclosing_function": "manageVaultWithMerkleVerification",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "raw_text": "uint256 totalSupply = vault.totalSupply();"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:118",
+      "call_type": "INTERFACE_CALL",
+      "line": 118,
+      "enclosing_function": "manageVaultWithMerkleVerification",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "raw_text": "vault.manage(targets[i], targetData[i], values[i]);"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:120",
+      "call_type": "INTERFACE_CALL",
+      "line": 120,
+      "enclosing_function": "manageVaultWithMerkleVerification",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "raw_text": "if (totalSupply != vault.totalSupply()) {"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:190",
+      "call_type": "INTERFACE_CALL",
+      "line": 190,
+      "enclosing_function": "receiveFlashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol",
+      "raw_text": "vault.manage(tokens, transferData, new uint256[](amounts.length));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        11,
+        16,
+        19,
+        20,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        11,
+        16,
+        19,
+        20,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        11,
+        16,
+        19,
+        20,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        13,
+        17,
+        18,
+        20,
+        21,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "flashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "swap",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "joinPool",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "exitPool",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "mint",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_getPoolAddressFromPoolId",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_BalancerV2DecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setManageRoot",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "pause",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "manageVaultWithMerkleVerification",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "flashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "receiveFlashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_verifyCallData",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_verifyManageProof",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "manageRoot",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "performingFlashLoan",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "flashLoanIntentHash",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "isPaused",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "balancerVault",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:112",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:118",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:120",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol:190",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_Roles_ManagerWithMerkleVerification.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 4,
+    "n_functions": 16,
+    "n_state_vars": 6,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 5.25
+  },
+  "label": {
+    "vfp_id": "neg_00262",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "sample_id": "vfp_00193",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "veVirtual.sol",
+      "start_line": 43,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "numPositions",
+      "file": "veVirtual.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPositions",
+      "file": "veVirtual.sol",
+      "start_line": 63,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceOfAt",
+      "file": "veVirtual.sol",
+      "start_line": 84,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "veVirtual.sol",
+      "start_line": 95,
+      "end_line": 97,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOfLock",
+      "file": "veVirtual.sol",
+      "start_line": 99,
+      "end_line": 104,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_balanceOfLockAt",
+      "file": "veVirtual.sol",
+      "start_line": 106,
+      "end_line": 124,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_balanceOfLock",
+      "file": "veVirtual.sol",
+      "start_line": 126,
+      "end_line": 128,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "stake",
+      "file": "veVirtual.sol",
+      "start_line": 130,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "veVirtual.sol",
+      "start_line": 162,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "toggleAutoRenew",
+      "file": "veVirtual.sol",
+      "start_line": 183,
+      "end_line": 197,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "extend",
+      "file": "veVirtual.sol",
+      "start_line": 199,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setMaxWeeks",
+      "file": "veVirtual.sol",
+      "start_line": 217,
+      "end_line": 219,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getMaturity",
+      "file": "veVirtual.sol",
+      "start_line": 221,
+      "end_line": 231,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "name",
+      "file": "veVirtual.sol",
+      "start_line": 233,
+      "end_line": 235,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "veVirtual.sol",
+      "start_line": 237,
+      "end_line": 239,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "veVirtual.sol",
+      "start_line": 241,
+      "end_line": 243,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setAdminUnlocked",
+      "file": "veVirtual.sol",
+      "start_line": 245,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_getVotingUnits",
+      "file": "veVirtual.sol",
+      "start_line": 252,
+      "end_line": 256,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "stakedAmountOf",
+      "file": "veVirtual.sol",
+      "start_line": 258,
+      "end_line": 264,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "DENOM",
+      "var_type": "uint16 public constant",
+      "file": "veVirtual.sol",
+      "line": 27
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "veVirtual.sol",
+      "line": 29
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "baseToken",
+      "var_type": "address public",
+      "file": "veVirtual.sol",
+      "line": 31
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "locks",
+      "var_type": "mapping(address => Lock[]) public",
+      "file": "veVirtual.sol",
+      "line": 32
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "maxWeeks",
+      "var_type": "uint8 public",
+      "file": "veVirtual.sol",
+      "line": 34
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "adminUnlocked",
+      "var_type": "bool public",
+      "file": "veVirtual.sol",
+      "line": 39
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "numPositions",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPositions",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "balanceOfAt",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOfLock",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_balanceOfLockAt",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_balanceOfLock",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "stake",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "toggleAutoRenew",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "extend",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setMaxWeeks",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getMaturity",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "name",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "setAdminUnlocked",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_getVotingUnits",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "stakedAmountOf",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "DENOM",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "ADMIN_ROLE",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "baseToken",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "locks",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "maxWeeks",
+      "file": "veVirtual.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "adminUnlocked",
+      "file": "veVirtual.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 26,
+    "n_hyperedges": 0,
+    "n_functions": 20,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00193",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1050",
+      "CWE-1284",
+      "CWE-20",
+      "CWE-386",
+      "CWE-400",
+      "CWE-405",
+      "CWE-435",
+      "CWE-456",
+      "CWE-664",
+      "CWE-665",
+      "CWE-682",
+      "CWE-691",
+      "CWE-706",
+      "CWE-707",
+      "CWE-834",
+      "CWE-909"
+    ]
+  }
+}

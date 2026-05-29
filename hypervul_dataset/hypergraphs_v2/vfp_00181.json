@@ -1,0 +1,463 @@
+{
+  "sample_id": "vfp_00181",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_saveSender",
+      "file": "RouterCommon.sol",
+      "start_line": 85,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_discardSenderIfRequired",
+      "file": "RouterCommon.sol",
+      "start_line": 95,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "permitBatchAndCall",
+      "file": "RouterCommon.sol",
+      "start_line": 120,
+      "end_line": 154,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "RouterCommon.sol",
+      "start_line": 157,
+      "end_line": 163,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getSignatureParts",
+      "file": "RouterCommon.sol",
+      "start_line": 165,
+      "end_line": 181,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_returnEth",
+      "file": "RouterCommon.sol",
+      "start_line": 193,
+      "end_line": 199,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getSingleInputArrayAndTokenIndex",
+      "file": "RouterCommon.sol",
+      "start_line": 206,
+      "end_line": 215,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_takeTokenIn",
+      "file": "RouterCommon.sol",
+      "start_line": 217,
+      "end_line": 241,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_sendTokenOut",
+      "file": "RouterCommon.sol",
+      "start_line": 243,
+      "end_line": 256,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_maxTokenLimits",
+      "file": "RouterCommon.sol",
+      "start_line": 258,
+      "end_line": 264,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getSender",
+      "file": "RouterCommon.sol",
+      "start_line": 283,
+      "end_line": 285,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getSenderSlot",
+      "file": "RouterCommon.sol",
+      "start_line": 287,
+      "end_line": 289,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_SENDER_SLOT",
+      "var_type": "bytes32 private immutable",
+      "file": "RouterCommon.sol",
+      "line": 36
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_MAX_AMOUNT",
+      "var_type": "uint256 internal constant",
+      "file": "RouterCommon.sol",
+      "line": 49
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_weth",
+      "var_type": "IWETH internal immutable",
+      "file": "RouterCommon.sol",
+      "line": 52
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_permit2",
+      "var_type": "IPermit2 internal immutable",
+      "file": "RouterCommon.sol",
+      "line": 54
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:125",
+      "call_type": "INTERFACE_CALL",
+      "line": 125,
+      "enclosing_function": "permitBatchAndCall",
+      "file": "RouterCommon.sol",
+      "raw_text": "_permit2.permit(msg.sender, permit2Batch, permit2Signature);"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:194",
+      "call_type": "INTERFACE_CALL",
+      "line": 194,
+      "enclosing_function": "_takeTokenIn",
+      "file": "RouterCommon.sol",
+      "raw_text": "_weth.deposit{ value: amountIn }();"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:196",
+      "call_type": "INTERFACE_CALL",
+      "line": 196,
+      "enclosing_function": "_takeTokenIn",
+      "file": "RouterCommon.sol",
+      "raw_text": "_weth.safeTransfer(address(_vault), amountIn);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:201",
+      "call_type": "INTERFACE_CALL",
+      "line": 201,
+      "enclosing_function": "_takeTokenIn",
+      "file": "RouterCommon.sol",
+      "raw_text": "_permit2.transferFrom(sender, address(_vault), uint160(amountIn), address(tokenIn));"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:212",
+      "call_type": "INTERFACE_CALL",
+      "line": 212,
+      "enclosing_function": "_sendTokenOut",
+      "file": "RouterCommon.sol",
+      "raw_text": "_weth.withdraw(amountOut);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:242",
+      "call_type": "INTERFACE_CALL",
+      "line": 242,
+      "enclosing_function": "_getSenderSlot",
+      "file": "RouterCommon.sol",
+      "raw_text": "return _SENDER_SLOT.asAddress();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        15,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        7,
+        14,
+        15,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        7,
+        14,
+        15,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        7,
+        14,
+        15,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        8,
+        14,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        0,
+        1,
+        10,
+        11,
+        12,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_saveSender",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_discardSenderIfRequired",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "permitBatchAndCall",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getSignatureParts",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_returnEth",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_getSingleInputArrayAndTokenIndex",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_takeTokenIn",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_sendTokenOut",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_maxTokenLimits",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getSender",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getSenderSlot",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "_SENDER_SLOT",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_MAX_AMOUNT",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "_weth",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "_permit2",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:125",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:194",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:196",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:201",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:212",
+      "file": "RouterCommon.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RouterCommon.sol:242",
+      "file": "RouterCommon.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 6,
+    "n_functions": 12,
+    "n_state_vars": 4,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00181",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-362",
+      "CWE-435",
+      "CWE-436",
+      "CWE-437",
+      "CWE-691"
+    ]
+  }
+}

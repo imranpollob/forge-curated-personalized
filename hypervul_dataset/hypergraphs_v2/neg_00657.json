@@ -1,0 +1,142 @@
+{
+  "sample_id": "neg_00657",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 18,
+      "end_line": 21,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 23,
+      "end_line": 35,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 37,
+      "end_line": 44,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "start_line": 49,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "targetOutput",
+      "var_type": "uint256 public",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "applyTargetOutput",
+      "var_type": "bool public",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol",
+      "line": 10
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "targetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "applyTargetOutput",
+      "file": "uniswap-hooks_test_mocks_BaseDynamicAfterFeeMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00657",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

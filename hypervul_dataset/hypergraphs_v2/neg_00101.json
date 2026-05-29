@@ -1,0 +1,97 @@
+{
+  "sample_id": "neg_00101",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getTargetWeights",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_cove-contracts-core_src_strategies_AutomaticWeightStrategy.sol",
+      "start_line": 19,
+      "end_line": 19,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsBitFlag",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_cove-contracts-core_src_strategies_AutomaticWeightStrategy.sol",
+      "start_line": 21,
+      "end_line": 21,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_token-plugins-upgradeable_contracts_mocks_ERC20PluginsUpgradeableMock.sol",
+      "start_line": 8,
+      "end_line": 11,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_token-plugins-upgradeable_contracts_mocks_ERC20PluginsUpgradeableMock.sol",
+      "start_line": 13,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getTargetWeights",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_cove-contracts-core_src_strategies_AutomaticWeightStrategy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "supportsBitFlag",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_cove-contracts-core_src_strategies_AutomaticWeightStrategy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_token-plugins-upgradeable_contracts_mocks_ERC20PluginsUpgradeableMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "fad59b375e8176a6753d33668af2216aee9a45ad_token-plugins-upgradeable_contracts_mocks_ERC20PluginsUpgradeableMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00101",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

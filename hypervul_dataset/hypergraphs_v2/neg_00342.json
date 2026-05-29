@@ -1,0 +1,213 @@
+{
+  "sample_id": "neg_00342",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol",
+      "start_line": 18,
+      "end_line": 21,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mapBattleResultToGameResult",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol",
+      "start_line": 23,
+      "end_line": 34,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_roundUp",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol",
+      "start_line": 36,
+      "end_line": 41,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "battleElo",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol",
+      "start_line": 44,
+      "end_line": 68,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setK",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol",
+      "start_line": 5,
+      "end_line": 13,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "stake",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol",
+      "start_line": 15,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol",
+      "start_line": 21,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getPastDelegates",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol",
+      "start_line": 23,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getPastBalanceOf",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol",
+      "start_line": 28,
+      "end_line": 31,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "k",
+      "var_type": "uint256 public",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol",
+      "line": 11
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mapBattleResultToGameResult",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_roundUp",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "battleElo",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setK",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "stake",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getPastDelegates",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getPastBalanceOf",
+      "file": "protocol-contracts_contracts_virtualPersona_IAgentVeToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "k",
+      "file": "protocol-contracts_contracts_virtualPersona_EloCalculator.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00342",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

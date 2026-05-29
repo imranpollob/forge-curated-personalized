@@ -1,0 +1,163 @@
+{
+  "sample_id": "vfp_00475",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "SideChainFeeCollector.sol",
+      "start_line": 79,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateDestinationReceiver",
+      "file": "SideChainFeeCollector.sol",
+      "start_line": 108,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateBridgeableToken",
+      "file": "SideChainFeeCollector.sol",
+      "start_line": 115,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_calcBridgeableAmount",
+      "file": "SideChainFeeCollector.sol",
+      "start_line": 127,
+      "end_line": 130,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "BRIDGEABLE_CONVERSION_DECIMALS",
+      "var_type": "uint256 private constant",
+      "file": "SideChainFeeCollector.sol",
+      "line": 21
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "bridgeableToken",
+      "var_type": "IOFT public",
+      "file": "SideChainFeeCollector.sol",
+      "line": 27
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "lzEidReceiver",
+      "var_type": "uint32 public",
+      "file": "SideChainFeeCollector.sol",
+      "line": 30
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "destinationReceiver",
+      "var_type": "address public",
+      "file": "SideChainFeeCollector.sol",
+      "line": 33
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "SideChainFeeCollector.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateDestinationReceiver",
+      "file": "SideChainFeeCollector.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateBridgeableToken",
+      "file": "SideChainFeeCollector.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_calcBridgeableAmount",
+      "file": "SideChainFeeCollector.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "BRIDGEABLE_CONVERSION_DECIMALS",
+      "file": "SideChainFeeCollector.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "bridgeableToken",
+      "file": "SideChainFeeCollector.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "lzEidReceiver",
+      "file": "SideChainFeeCollector.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "destinationReceiver",
+      "file": "SideChainFeeCollector.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00475",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1339",
+      "CWE-362",
+      "CWE-682",
+      "CWE-691"
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "sample_id": "vfp_00616",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "Multicall.sol",
+      "start_line": 41,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Sickle.sol",
+      "start_line": 25,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_Sickle_initialize",
+      "file": "Sickle.sol",
+      "start_line": 34,
+      "end_line": 39,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "Sickle.sol",
+      "start_line": 41,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "onERC1155Received",
+      "file": "Sickle.sol",
+      "start_line": 50,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "onERC1155BatchReceived",
+      "file": "Sickle.sol",
+      "start_line": 60,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setWhitelistedTargets",
+      "file": "SickleRegistry.sol",
+      "start_line": 59,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateCollector",
+      "file": "SickleRegistry.sol",
+      "start_line": 78,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setWhitelistedCallers",
+      "file": "SickleRegistry.sol",
+      "start_line": 87,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setReferralCode",
+      "file": "SickleRegistry.sol",
+      "start_line": 104,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "SickleRegistry.sol",
+      "start_line": 117,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "registry",
+      "var_type": "SickleRegistry public immutable",
+      "file": "Multicall.sol",
+      "line": 27
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "collector",
+      "var_type": "address public",
+      "file": "SickleRegistry.sol",
+      "line": 29
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "isWhitelistedTarget",
+      "var_type": "mapping(address => bool) public",
+      "file": "SickleRegistry.sol",
+      "line": 33
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "isWhitelistedCaller",
+      "var_type": "mapping(address => bool) public",
+      "file": "SickleRegistry.sol",
+      "line": 37
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "referralCodes",
+      "var_type": "mapping(bytes32 => address) public",
+      "file": "SickleRegistry.sol",
+      "line": 40
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "feeRegistry",
+      "var_type": "mapping(bytes32 => uint256) public",
+      "file": "SickleRegistry.sol",
+      "line": 45
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Multicall.sol:49",
+      "call_type": "INTERFACE_CALL",
+      "line": 49,
+      "enclosing_function": "multicall",
+      "file": "Multicall.sol",
+      "raw_text": "if (!registry.isWhitelistedCaller(msg.sender)) {"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Multicall.sol:62",
+      "call_type": "INTERFACE_CALL",
+      "line": 62,
+      "enclosing_function": "multicall",
+      "file": "Multicall.sol",
+      "raw_text": "if (!registry.isWhitelistedTarget(targets[i])) {"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:Multicall.sol:68",
+      "call_type": "DELEGATECALL",
+      "line": 68,
+      "enclosing_function": "multicall",
+      "file": "Multicall.sol",
+      "raw_text": "targets[i].delegatecall(data[i]);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        11,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        11,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        11,
+        19
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "multicall",
+      "file": "Multicall.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Sickle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_Sickle_initialize",
+      "file": "Sickle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "Sickle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "onERC1155Received",
+      "file": "Sickle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "onERC1155BatchReceived",
+      "file": "Sickle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "setWhitelistedTargets",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateCollector",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setWhitelistedCallers",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setReferralCode",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setFees",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "registry",
+      "file": "Multicall.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "collector",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "isWhitelistedTarget",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "isWhitelistedCaller",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "referralCodes",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "feeRegistry",
+      "file": "SickleRegistry.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Multicall.sol:49",
+      "file": "Multicall.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Multicall.sol:62",
+      "file": "Multicall.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:Multicall.sol:68",
+      "file": "Multicall.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 3,
+    "n_functions": 11,
+    "n_state_vars": 6,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00616",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1164",
+      "CWE-284",
+      "CWE-362",
+      "CWE-475",
+      "CWE-573",
+      "CWE-691",
+      "CWE-710",
+      "CWE-749"
+    ]
+  }
+}

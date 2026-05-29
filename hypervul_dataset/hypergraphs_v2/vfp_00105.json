@@ -1,0 +1,437 @@
+{
+  "sample_id": "vfp_00105",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Bridge.sol",
+      "start_line": 147,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "bridgeCall",
+      "file": "Bridge.sol",
+      "start_line": 163,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bridgeToken",
+      "file": "Bridge.sol",
+      "start_line": 171,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "relayMessages",
+      "file": "Bridge.sol",
+      "start_line": 186,
+      "end_line": 190,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__relayMessage",
+      "file": "Bridge.sol",
+      "start_line": 197,
+      "end_line": 238,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setPaused",
+      "file": "Bridge.sol",
+      "start_line": 245,
+      "end_line": 248,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getRoot",
+      "file": "Bridge.sol",
+      "start_line": 253,
+      "end_line": 255,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getNextNonce",
+      "file": "Bridge.sol",
+      "start_line": 260,
+      "end_line": 262,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "generateProof",
+      "file": "Bridge.sol",
+      "start_line": 272,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getPredictedTwinAddress",
+      "file": "Bridge.sol",
+      "start_line": 281,
+      "end_line": 287,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "deposits",
+      "file": "Bridge.sol",
+      "start_line": 295,
+      "end_line": 297,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "scalars",
+      "file": "Bridge.sol",
+      "start_line": 305,
+      "end_line": 307,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getMessageHash",
+      "file": "Bridge.sol",
+      "start_line": 314,
+      "end_line": 316,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_useTransientReentrancyGuardOnlyOnMainnet",
+      "file": "Bridge.sol",
+      "start_line": 323,
+      "end_line": 325,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_validateAndRelay",
+      "file": "Bridge.sol",
+      "start_line": 331,
+      "end_line": 349,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_assertSenderIsEntrypoint",
+      "file": "Bridge.sol",
+      "start_line": 352,
+      "end_line": 354,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "REMOTE_BRIDGE",
+      "var_type": "Pubkey public immutable",
+      "file": "Bridge.sol",
+      "line": 31
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "TWIN_BEACON",
+      "var_type": "address public immutable",
+      "file": "Bridge.sol",
+      "line": 39
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ERC20_FACTORY",
+      "var_type": "address public immutable",
+      "file": "Bridge.sol",
+      "line": 45
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "BRIDGE_VALIDATOR",
+      "var_type": "address public immutable",
+      "file": "Bridge.sol",
+      "line": 49
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "GUARDIAN_ROLE",
+      "var_type": "uint256 public constant",
+      "file": "Bridge.sol",
+      "line": 52
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "successes",
+      "var_type": "mapping(bytes32 messageHash => bool success) public",
+      "file": "Bridge.sol",
+      "line": 60
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "failures",
+      "var_type": "mapping(bytes32 messageHash => bool failure) public",
+      "file": "Bridge.sol",
+      "line": 65
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "twins",
+      "var_type": "mapping(Pubkey owner => address twinAddress) public",
+      "file": "Bridge.sol",
+      "line": 68
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "paused",
+      "var_type": "bool public",
+      "file": "Bridge.sol",
+      "line": 71
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "bridgeCall",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "bridgeToken",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "relayMessages",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__relayMessage",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setPaused",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getRoot",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getNextNonce",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "generateProof",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getPredictedTwinAddress",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "deposits",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "scalars",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "getMessageHash",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_useTransientReentrancyGuardOnlyOnMainnet",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_validateAndRelay",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_assertSenderIsEntrypoint",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "REMOTE_BRIDGE",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "TWIN_BEACON",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "CROSS_CHAIN_ERC20_FACTORY",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "BRIDGE_VALIDATOR",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "GUARDIAN_ROLE",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "successes",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "failures",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "twins",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "paused",
+      "file": "Bridge.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 25,
+    "n_hyperedges": 0,
+    "n_functions": 16,
+    "n_state_vars": 9,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00105",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-362",
+      "CWE-691",
+      "CWE-710"
+    ]
+  }
+}

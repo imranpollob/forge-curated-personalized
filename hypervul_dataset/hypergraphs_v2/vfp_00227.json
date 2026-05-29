@@ -1,0 +1,403 @@
+{
+  "sample_id": "vfp_00227",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getVLFVaultCappedStorage",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 43,
+      "end_line": 49,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 57,
+      "end_line": 63,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "loadCap",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "loadSoftCap",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 71,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isPreferredChain",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 75,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "preferredChainIds",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 83,
+      "end_line": 85,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "maxDepositFromChainId",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 87,
+      "end_line": 95,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 97,
+      "end_line": 99,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setCap",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 103,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setSoftCap",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 107,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "addPreferredChainId",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 111,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "removePreferredChainId",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 115,
+      "end_line": 117,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_maxDepositForAllCaps",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 121,
+      "end_line": 126,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_maxDepositForHardCap",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 128,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_setCap",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 133,
+      "end_line": 137,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_setSoftCap",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 139,
+      "end_line": 143,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_addPreferredChainId",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 145,
+      "end_line": 149,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_removePreferredChainId",
+      "file": "VLFVaultCapped.sol",
+      "start_line": 151,
+      "end_line": 155,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "_NAMESPACE",
+      "var_type": "string private constant",
+      "file": "VLFVaultCapped.sol",
+      "line": 40
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "_slot",
+      "var_type": "bytes32 private immutable",
+      "file": "VLFVaultCapped.sol",
+      "line": 41
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VLFVaultCapped.sol:38",
+      "call_type": "INTERFACE_CALL",
+      "line": 38,
+      "enclosing_function": "",
+      "file": "VLFVaultCapped.sol",
+      "raw_text": "bytes32 private immutable _slot = _NAMESPACE.storageSlot();"
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getVLFVaultCappedStorage",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "loadCap",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "loadSoftCap",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isPreferredChain",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "preferredChainIds",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "maxDepositFromChainId",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setCap",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setSoftCap",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "addPreferredChainId",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "removePreferredChainId",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_maxDepositForAllCaps",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_maxDepositForHardCap",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_setCap",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_setSoftCap",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_addPreferredChainId",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_removePreferredChainId",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "_NAMESPACE",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "_slot",
+      "file": "VLFVaultCapped.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VLFVaultCapped.sol:38",
+      "file": "VLFVaultCapped.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 0,
+    "n_functions": 19,
+    "n_state_vars": 2,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00227",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-190",
+      "CWE-682"
+    ]
+  }
+}

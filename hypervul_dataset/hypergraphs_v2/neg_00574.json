@@ -1,0 +1,184 @@
+{
+  "sample_id": "neg_00574",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol",
+      "start_line": 25,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol",
+      "start_line": 43,
+      "end_line": 59,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapExactTokensForTokens",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol",
+      "start_line": 61,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAmountOut",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol",
+      "start_line": 75,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setPositionSettings",
+      "file": "sickle-public_contracts_interfaces_libraries_IPositionSettingsLib.sol",
+      "start_line": 10,
+      "end_line": 14,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "Deposit",
+      "var_type": "bytes4 constant",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol",
+      "line": 7
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "Withdraw",
+      "var_type": "bytes4 constant",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol",
+      "line": 8
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "Harvest",
+      "var_type": "bytes4 constant",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol",
+      "line": 9
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "Compound",
+      "var_type": "bytes4 constant",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol",
+      "line": 10
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "Flashloan",
+      "var_type": "bytes4 constant",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol",
+      "line": 11
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapExactTokensForTokens",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAmountOut",
+      "file": "sickle-public_contracts_connectors_ramses_RamsesRouterConnector.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setPositionSettings",
+      "file": "sickle-public_contracts_interfaces_libraries_IPositionSettingsLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "Deposit",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "Withdraw",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "Harvest",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "Compound",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "Flashloan",
+      "file": "sickle-public_contracts_strategies_lending_LendingStructs.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 5,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00574",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

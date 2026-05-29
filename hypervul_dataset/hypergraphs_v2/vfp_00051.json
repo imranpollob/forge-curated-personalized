@@ -1,0 +1,506 @@
+{
+  "sample_id": "vfp_00051",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initializeRolesAndStorageVariables",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 58,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__RollupRevenueVault_init",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 85,
+      "end_line": 132,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "submitInvoice",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 140,
+      "end_line": 165,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "burnAndBridge",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 171,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateInvoicePaymentReceiver",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 207,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateInvoiceArrears",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 222,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateL1LineaTokenBurner",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 239,
+      "end_line": 247,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateDexSwapAdapter",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 253,
+      "end_line": 261,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_payArrears",
+      "file": "RollupRevenueVault.sol",
+      "start_line": 282,
+      "end_line": 296,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "INVOICE_SUBMITTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "RollupRevenueVault.sol",
+      "line": 17
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "BURNER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "RollupRevenueVault.sol",
+      "line": 18
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "ETH_BURNT_PERCENTAGE",
+      "var_type": "uint256 public constant",
+      "file": "RollupRevenueVault.sol",
+      "line": 21
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "dexSwapAdapter",
+      "var_type": "address public",
+      "file": "RollupRevenueVault.sol",
+      "line": 24
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "invoicePaymentReceiver",
+      "var_type": "address public",
+      "file": "RollupRevenueVault.sol",
+      "line": 26
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "invoiceArrears",
+      "var_type": "uint256 public",
+      "file": "RollupRevenueVault.sol",
+      "line": 28
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "lastInvoiceDate",
+      "var_type": "uint256 public",
+      "file": "RollupRevenueVault.sol",
+      "line": 30
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "tokenBridge",
+      "var_type": "TokenBridge public",
+      "file": "RollupRevenueVault.sol",
+      "line": 32
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "messageService",
+      "var_type": "L2MessageService public",
+      "file": "RollupRevenueVault.sol",
+      "line": 34
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "l1LineaTokenBurner",
+      "var_type": "address public",
+      "file": "RollupRevenueVault.sol",
+      "line": 36
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "lineaToken",
+      "var_type": "address public",
+      "file": "RollupRevenueVault.sol",
+      "line": 38
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:138",
+      "call_type": "CALL",
+      "line": 138,
+      "enclosing_function": "submitInvoice",
+      "file": "RollupRevenueVault.sol",
+      "raw_text": "(bool success, ) = receiver.call{ value: amountToPay }(\"\");"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RollupRevenueVault.sol:149",
+      "call_type": "INTERFACE_CALL",
+      "line": 149,
+      "enclosing_function": "burnAndBridge",
+      "file": "RollupRevenueVault.sol",
+      "raw_text": "uint256 minimumFee = messageService.minimumFeeInWei();"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:155",
+      "call_type": "CALL",
+      "line": 155,
+      "enclosing_function": "burnAndBridge",
+      "file": "RollupRevenueVault.sol",
+      "raw_text": "(bool success, ) = address(0).call{ value: ethToBurn }(\"\");"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:158",
+      "call_type": "CALL",
+      "line": 158,
+      "enclosing_function": "burnAndBridge",
+      "file": "RollupRevenueVault.sol",
+      "raw_text": "(bool swapSuccess, ) = dexSwapAdapter.call{ value: balanceAvailable - ethToBurn }(_swapData);"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:248",
+      "call_type": "CALL",
+      "line": 248,
+      "enclosing_function": "_payArrears",
+      "file": "RollupRevenueVault.sol",
+      "raw_text": "(bool success, ) = payable(invoicePaymentReceiver).call{ value: amountToPay }(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        13,
+        14,
+        15,
+        20
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        22
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        23
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        3,
+        8,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        24
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 24
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initializeRolesAndStorageVariables",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__RollupRevenueVault_init",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "submitInvoice",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "burnAndBridge",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateInvoicePaymentReceiver",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateInvoiceArrears",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateL1LineaTokenBurner",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateDexSwapAdapter",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_payArrears",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "INVOICE_SUBMITTER_ROLE",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "BURNER_ROLE",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "ETH_BURNT_PERCENTAGE",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "dexSwapAdapter",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "invoicePaymentReceiver",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "invoiceArrears",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "lastInvoiceDate",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "tokenBridge",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "messageService",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "l1LineaTokenBurner",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "lineaToken",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:138",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RollupRevenueVault.sol:149",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:155",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:158",
+      "file": "RollupRevenueVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "CALL:RollupRevenueVault.sol:248",
+      "file": "RollupRevenueVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 25,
+    "n_hyperedges": 5,
+    "n_functions": 9,
+    "n_state_vars": 11,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 8.0
+  },
+  "label": {
+    "vfp_id": "vfp_00051",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-362",
+      "CWE-584",
+      "CWE-691",
+      "CWE-705",
+      "CWE-707"
+    ]
+  }
+}

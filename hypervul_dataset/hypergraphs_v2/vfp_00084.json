@@ -1,0 +1,148 @@
+{
+  "sample_id": "vfp_00084",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "BaseDynamicAfterFee.sol",
+      "start_line": 56,
+      "end_line": 70,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "BaseDynamicAfterFee.sol",
+      "start_line": 82,
+      "end_line": 127,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "BaseDynamicAfterFee.sol",
+      "start_line": 139,
+      "end_line": 142,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "BaseDynamicAfterFee.sol",
+      "start_line": 153,
+      "end_line": 159,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "BaseDynamicAfterFee.sol",
+      "start_line": 166,
+      "end_line": 183,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_targetOutput",
+      "var_type": "uint256 internal",
+      "file": "BaseDynamicAfterFee.sol",
+      "line": 37
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_applyTargetOutput",
+      "var_type": "bool internal",
+      "file": "BaseDynamicAfterFee.sol",
+      "line": 39
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_beforeSwap",
+      "file": "BaseDynamicAfterFee.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_afterSwap",
+      "file": "BaseDynamicAfterFee.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getTargetOutput",
+      "file": "BaseDynamicAfterFee.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_afterSwapHandler",
+      "file": "BaseDynamicAfterFee.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getHookPermissions",
+      "file": "BaseDynamicAfterFee.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_targetOutput",
+      "file": "BaseDynamicAfterFee.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_applyTargetOutput",
+      "file": "BaseDynamicAfterFee.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00084",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-682"
+    ]
+  }
+}

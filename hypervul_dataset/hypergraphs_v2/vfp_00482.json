@@ -1,0 +1,212 @@
+{
+  "sample_id": "vfp_00482",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "stringToAddress",
+      "file": "Utils.sol",
+      "start_line": 7,
+      "end_line": 17,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "hexCharToByte",
+      "file": "Utils.sol",
+      "start_line": 19,
+      "end_line": 29,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "containTokenset",
+      "file": "Utils.sol",
+      "start_line": 31,
+      "end_line": 49,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "subTokenset",
+      "file": "Utils.sol",
+      "start_line": 51,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addTokenset",
+      "file": "Utils.sol",
+      "start_line": 80,
+      "end_line": 109,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "copyTokenset",
+      "file": "Utils.sol",
+      "start_line": 111,
+      "end_line": 123,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "muldivTokenset",
+      "file": "Utils.sol",
+      "start_line": 125,
+      "end_line": 131,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isSameToken",
+      "file": "Utils.sol",
+      "start_line": 133,
+      "end_line": 135,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "calcTokenHash",
+      "file": "Utils.sol",
+      "start_line": 137,
+      "end_line": 139,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "hasDuplicates",
+      "file": "Utils.sol",
+      "start_line": 141,
+      "end_line": 153,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "stringToAddress",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "hexCharToByte",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "containTokenset",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "subTokenset",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "addTokenset",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "copyTokenset",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "muldivTokenset",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isSameToken",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "calcTokenHash",
+      "file": "Utils.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "hasDuplicates",
+      "file": "Utils.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00482",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1025",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-682",
+      "CWE-697",
+      "CWE-707"
+    ]
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "sample_id": "vfp_00307",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "receiveVaultWithdrawalETH",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 36,
+      "end_line": 36,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBondRequirement",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 40,
+      "end_line": 53,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getNodeDepositCredit",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 57,
+      "end_line": 59,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getNodeEthBalance",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 63,
+      "end_line": 65,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getNodeCreditAndBalance",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 69,
+      "end_line": 71,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getNodeUsableCreditAndBalance",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 75,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getNodeUsableCredit",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 81,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "increaseDepositCreditBalance",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 94,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositEthFor",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 109,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawEth",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 123,
+      "end_line": 139,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 147,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositWithCredit",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 160,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositMulti",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 168,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 210,
+      "end_line": 230,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "checkDepositsEnabled",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 233,
+      "end_line": 238,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "validateBytes",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 243,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "useCreditOrBalanceIfRequired",
+      "file": "RocketNodeDeposit.sol",
+      "start_line": 250,
+      "end_line": 275,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "pubKeyLength",
+      "var_type": "uint256 constant internal",
+      "file": "RocketNodeDeposit.sol",
+      "line": 18
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "signatureLength",
+      "var_type": "uint256 constant internal",
+      "file": "RocketNodeDeposit.sol",
+      "line": 19
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketNodeDeposit.sol:113",
+      "call_type": "INTERFACE_CALL",
+      "line": 113,
+      "enclosing_function": "depositEthFor",
+      "file": "RocketNodeDeposit.sol",
+      "raw_text": "rocketVault.depositEther{value: amount}();"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:RocketNodeDeposit.sol:135",
+      "call_type": "CALL",
+      "line": 135,
+      "enclosing_function": "withdrawEth",
+      "file": "RocketNodeDeposit.sol",
+      "raw_text": "(bool success,) = withdrawalAddress.call{value: _amount}(\"\");"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketNodeDeposit.sol:198",
+      "call_type": "INTERFACE_CALL",
+      "line": 198,
+      "enclosing_function": "depositMulti",
+      "file": "RocketNodeDeposit.sol",
+      "raw_text": "rocketDepositPool.nodeDeposit{value: msg.value + balanceToUse}(totalBond);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketNodeDeposit.sol:227",
+      "call_type": "INTERFACE_CALL",
+      "line": 227,
+      "enclosing_function": "_deposit",
+      "file": "RocketNodeDeposit.sol",
+      "raw_text": "rocketDepositPool.nodeDeposit{value: _value}(_bondAmount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        9,
+        20
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        12,
+        17,
+        18,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        10,
+        11,
+        13,
+        17,
+        18,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "receiveVaultWithdrawalETH",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getBondRequirement",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getNodeDepositCredit",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getNodeEthBalance",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getNodeCreditAndBalance",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getNodeUsableCreditAndBalance",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getNodeUsableCredit",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "increaseDepositCreditBalance",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "depositEthFor",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdrawEth",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "depositWithCredit",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositMulti",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "checkDepositsEnabled",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "validateBytes",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "useCreditOrBalanceIfRequired",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "pubKeyLength",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "signatureLength",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketNodeDeposit.sol:113",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:RocketNodeDeposit.sol:135",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketNodeDeposit.sol:198",
+      "file": "RocketNodeDeposit.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:RocketNodeDeposit.sol:227",
+      "file": "RocketNodeDeposit.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 23,
+    "n_hyperedges": 4,
+    "n_functions": 17,
+    "n_state_vars": 2,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 3.5
+  },
+  "label": {
+    "vfp_id": "vfp_00307",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical"
+    ],
+    "cwe_list": [
+      "CWE-1289",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

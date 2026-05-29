@@ -1,0 +1,341 @@
+{
+  "sample_id": "vfp_00249",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setNeuDaoAddress",
+      "file": "LockV1.sol",
+      "start_line": 41,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "unlock",
+      "file": "LockV1.sol",
+      "start_line": 49,
+      "end_line": 63,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "cancelUnlock",
+      "file": "LockV1.sol",
+      "start_line": 65,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LockV1.sol",
+      "start_line": 83,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "LockV1.sol",
+      "line": 23
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "REQUIRED_KEY_TOKENS",
+      "var_type": "uint256 public constant",
+      "file": "LockV1.sol",
+      "line": 24
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_neuContract",
+      "var_type": "INeuTokenV3 immutable private",
+      "file": "LockV1.sol",
+      "line": 25
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "neuDaoAddress",
+      "var_type": "address public",
+      "file": "LockV1.sol",
+      "line": 27
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "keyTokenIds",
+      "var_type": "uint256[] public",
+      "file": "LockV1.sol",
+      "line": 28
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:38",
+      "call_type": "INTERFACE_CALL",
+      "line": 38,
+      "enclosing_function": "unlock",
+      "file": "LockV1.sol",
+      "raw_text": "require(_neuContract.ownerOf(neuTokenId) == msg.sender, \"Caller does not own NEU\");"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:39",
+      "call_type": "INTERFACE_CALL",
+      "line": 39,
+      "enclosing_function": "unlock",
+      "file": "LockV1.sol",
+      "raw_text": "require(_neuContract.isGovernanceToken(neuTokenId), \"Provided token is not governance\");"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:48",
+      "call_type": "INTERFACE_CALL",
+      "line": 48,
+      "enclosing_function": "unlock",
+      "file": "LockV1.sol",
+      "raw_text": "keyTokenIds.push(neuTokenId);"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:54",
+      "call_type": "INTERFACE_CALL",
+      "line": 54,
+      "enclosing_function": "cancelUnlock",
+      "file": "LockV1.sol",
+      "raw_text": "require(_neuContract.ownerOf(neuTokenId) == msg.sender, \"Caller does not own NEU\");"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:62",
+      "call_type": "INTERFACE_CALL",
+      "line": 62,
+      "enclosing_function": "cancelUnlock",
+      "file": "LockV1.sol",
+      "raw_text": "keyTokenIds.pop();"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:LockV1.sol:81",
+      "call_type": "CALL",
+      "line": 81,
+      "enclosing_function": "withdraw",
+      "file": "LockV1.sol",
+      "raw_text": "(bool sent, ) = address(neuDaoAddress).call{value: balance}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        6,
+        7,
+        8,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        6,
+        7,
+        8,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        2,
+        6,
+        8,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        2,
+        6,
+        8,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        3,
+        5,
+        7,
+        8,
+        14
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setNeuDaoAddress",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "unlock",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "cancelUnlock",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "OPERATOR_ROLE",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "REQUIRED_KEY_TOKENS",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_neuContract",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "neuDaoAddress",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "keyTokenIds",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:38",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:39",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:48",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:54",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LockV1.sol:62",
+      "file": "LockV1.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:LockV1.sol:81",
+      "file": "LockV1.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 6,
+    "n_functions": 4,
+    "n_state_vars": 5,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 4.666666666666667
+  },
+  "label": {
+    "vfp_id": "vfp_00249",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-691",
+      "CWE-834"
+    ]
+  }
+}

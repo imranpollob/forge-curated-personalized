@@ -1,0 +1,289 @@
+{
+  "sample_id": "vfp_00451",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EurekaHandler.sol",
+      "start_line": 26,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "EurekaHandler.sol",
+      "start_line": 44,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapAndTransfer",
+      "file": "EurekaHandler.sol",
+      "start_line": 67,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "lombardTransfer",
+      "file": "EurekaHandler.sol",
+      "start_line": 104,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_sendTransfer",
+      "file": "EurekaHandler.sol",
+      "start_line": 131,
+      "end_line": 135,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "EurekaHandler.sol",
+      "start_line": 137,
+      "end_line": 156,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_totalFees",
+      "file": "EurekaHandler.sol",
+      "start_line": 158,
+      "end_line": 160,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EurekaHandler.sol",
+      "start_line": 162,
+      "end_line": 162,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setRelayFeeRecipient",
+      "file": "EurekaHandler.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ics20Transfer",
+      "var_type": "address public",
+      "file": "EurekaHandler.sol",
+      "line": 14
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "swapRouter",
+      "var_type": "address public",
+      "file": "EurekaHandler.sol",
+      "line": 15
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "lbtcVoucher",
+      "var_type": "address public",
+      "file": "EurekaHandler.sol",
+      "line": 16
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "lbtc",
+      "var_type": "address public",
+      "file": "EurekaHandler.sol",
+      "line": 17
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "relayFeeRecipient",
+      "var_type": "address public",
+      "file": "EurekaHandler.sol",
+      "line": 18
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:EurekaHandler.sol:145",
+      "call_type": "CALL",
+      "line": 145,
+      "enclosing_function": "_swap",
+      "file": "EurekaHandler.sol",
+      "raw_text": "(bool success,) = swapRouter.call(swapCalldata);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        5,
+        10,
+        13,
+        14
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "swapAndTransfer",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "lombardTransfer",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_sendTransfer",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_totalFees",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setRelayFeeRecipient",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "ics20Transfer",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "swapRouter",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "lbtcVoucher",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "lbtc",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "relayFeeRecipient",
+      "file": "EurekaHandler.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "CALL:EurekaHandler.sol:145",
+      "file": "EurekaHandler.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 1,
+    "n_functions": 9,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00451",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

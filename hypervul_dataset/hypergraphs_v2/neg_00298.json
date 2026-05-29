@@ -1,0 +1,153 @@
+{
+  "sample_id": "neg_00298",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "AGENT",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 12,
+      "end_line": 12,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 14,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getOrderDetails",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 19,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fill",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol",
+      "start_line": 52,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "domainSeparator",
+      "var_type": "bytes32 public immutable",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol",
+      "line": 22
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "DOMAIN_TYPE_HASH",
+      "var_type": "bytes32 private constant",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol",
+      "line": 29
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "DOMAIN_NAME",
+      "var_type": "bytes32 private constant",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol",
+      "line": 37
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "DOMAIN_VERSION",
+      "var_type": "bytes32 private constant",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol",
+      "line": 42
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "AGENT",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getOrderDetails",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "fill",
+      "file": "stonks_contracts_stubs_CoWSwapVaultRelayerStub.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "domainSeparator",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "DOMAIN_TYPE_HASH",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "DOMAIN_NAME",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "DOMAIN_VERSION",
+      "file": "stonks_contracts_stubs_CoWSwapSettlementStub.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00298",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

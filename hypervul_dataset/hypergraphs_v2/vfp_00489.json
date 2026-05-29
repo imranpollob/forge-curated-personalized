@@ -1,0 +1,352 @@
+{
+  "sample_id": "vfp_00489",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "MultiAdapter.sol",
+      "start_line": 44,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "file",
+      "file": "MultiAdapter.sol",
+      "start_line": 52,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handle",
+      "file": "MultiAdapter.sol",
+      "start_line": 89,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_handle",
+      "file": "MultiAdapter.sol",
+      "start_line": 93,
+      "end_line": 148,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initiateRecovery",
+      "file": "MultiAdapter.sol",
+      "start_line": 151,
+      "end_line": 155,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "disputeRecovery",
+      "file": "MultiAdapter.sol",
+      "start_line": 158,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeRecovery",
+      "file": "MultiAdapter.sol",
+      "start_line": 165,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "send",
+      "file": "MultiAdapter.sol",
+      "start_line": 182,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "estimate",
+      "file": "MultiAdapter.sol",
+      "start_line": 209,
+      "end_line": 220,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "MultiAdapter.sol",
+      "start_line": 223,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "activeSessionId",
+      "file": "MultiAdapter.sol",
+      "start_line": 229,
+      "end_line": 232,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "votes",
+      "file": "MultiAdapter.sol",
+      "start_line": 235,
+      "end_line": 237,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "PRIMARY_ADAPTER_ID",
+      "var_type": "uint8 public constant",
+      "file": "MultiAdapter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "RECOVERY_CHALLENGE_PERIOD",
+      "var_type": "uint256 public constant",
+      "file": "MultiAdapter.sol",
+      "line": 23
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "localCentrifugeId",
+      "var_type": "uint16 public immutable",
+      "file": "MultiAdapter.sol",
+      "line": 25
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "gateway",
+      "var_type": "IMessageHandler public",
+      "file": "MultiAdapter.sol",
+      "line": 26
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "adapters",
+      "var_type": "mapping(uint16 centrifugeId => IAdapter[]) public",
+      "file": "MultiAdapter.sol",
+      "line": 28
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_adapterDetails",
+      "var_type": "mapping(uint16 centrifugeId => mapping(IAdapter adapter => Adapter)) internal",
+      "file": "MultiAdapter.sol",
+      "line": 29
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "inbound",
+      "var_type": "mapping(uint16 centrifugeId => mapping(bytes32 payloadHash => Inbound)) public",
+      "file": "MultiAdapter.sol",
+      "line": 30
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "recoveries",
+      "var_type": "mapping(uint16 centrifugeId => mapping(IAdapter adapter => mapping(bytes32 payloadHash => uint256 timestamp)))\n        public",
+      "file": "MultiAdapter.sol",
+      "line": 31
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "file",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "handle",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_handle",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "initiateRecovery",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "disputeRecovery",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "executeRecovery",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "send",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "estimate",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "activeSessionId",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "votes",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "PRIMARY_ADAPTER_ID",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "RECOVERY_CHALLENGE_PERIOD",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "localCentrifugeId",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "gateway",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "adapters",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_adapterDetails",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "inbound",
+      "file": "MultiAdapter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "recoveries",
+      "file": "MultiAdapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 0,
+    "n_functions": 12,
+    "n_state_vars": 8,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00489",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "sample_id": "neg_00438",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__ReentrancyGuard_init",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__ReentrancyGuard_init_unchained",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_nonReentrantBefore",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "start_line": 61,
+      "end_line": 67,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_nonReentrantAfter",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "start_line": 69,
+      "end_line": 73,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_reentrancyGuardEntered",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_NOT_ENTERED",
+      "var_type": "uint256 private constant",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "line": 35
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_ENTERED",
+      "var_type": "uint256 private constant",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "line": 36
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_status",
+      "var_type": "uint256 private",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "line": 38
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol",
+      "line": 88
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "__ReentrancyGuard_init",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__ReentrancyGuard_init_unchained",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_nonReentrantBefore",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_nonReentrantAfter",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_reentrancyGuardEntered",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_NOT_ENTERED",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "_ENTERED",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "_status",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "P2pResolvProxy_src_@openzeppelin_contracts-upgradable_security_ReentrancyGuardUpgradeable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00438",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

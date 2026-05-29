@@ -1,0 +1,342 @@
+{
+  "sample_id": "vfp_00156",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isValidMarginLevels",
+      "file": "MarginLevels.sol",
+      "start_line": 18,
+      "end_line": 23,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "minMarginLevel",
+      "file": "MarginLevels.sol",
+      "start_line": 26,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "minBorrowLevel",
+      "file": "MarginLevels.sol",
+      "start_line": 32,
+      "end_line": 36,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "liquidateLevel",
+      "file": "MarginLevels.sol",
+      "start_line": 38,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "liquidationRatio",
+      "file": "MarginLevels.sol",
+      "start_line": 44,
+      "end_line": 48,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "callerProfit",
+      "file": "MarginLevels.sol",
+      "start_line": 50,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "protocolProfit",
+      "file": "MarginLevels.sol",
+      "start_line": 56,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setMinMarginLevel",
+      "file": "MarginLevels.sol",
+      "start_line": 63,
+      "end_line": 71,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setMinBorrowLevel",
+      "file": "MarginLevels.sol",
+      "start_line": 73,
+      "end_line": 85,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setLiquidateLevel",
+      "file": "MarginLevels.sol",
+      "start_line": 87,
+      "end_line": 99,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setLiquidationRatio",
+      "file": "MarginLevels.sol",
+      "start_line": 101,
+      "end_line": 113,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setCallerProfit",
+      "file": "MarginLevels.sol",
+      "start_line": 115,
+      "end_line": 123,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setProtocolProfit",
+      "file": "MarginLevels.sol",
+      "start_line": 125,
+      "end_line": 137,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MASK_24_BITS",
+      "var_type": "uint24 internal constant",
+      "file": "MarginLevels.sol",
+      "line": 10
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MIN_BORROW_LEVEL_OFFSET",
+      "var_type": "uint8 internal constant",
+      "file": "MarginLevels.sol",
+      "line": 12
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "LIQUIDATE_LEVEL_OFFSET",
+      "var_type": "uint8 internal constant",
+      "file": "MarginLevels.sol",
+      "line": 13
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "LIQUIDATION_RATIO_OFFSET",
+      "var_type": "uint8 internal constant",
+      "file": "MarginLevels.sol",
+      "line": 14
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "CALLER_PROFIT_OFFSET",
+      "var_type": "uint8 internal constant",
+      "file": "MarginLevels.sol",
+      "line": 15
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PROTOCOL_PROFIT_OFFSET",
+      "var_type": "uint8 internal constant",
+      "file": "MarginLevels.sol",
+      "line": 16
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "isValidMarginLevels",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "minMarginLevel",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "minBorrowLevel",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "liquidateLevel",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "liquidationRatio",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "callerProfit",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "protocolProfit",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "setMinMarginLevel",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setMinBorrowLevel",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setLiquidateLevel",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setLiquidationRatio",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setCallerProfit",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "setProtocolProfit",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MASK_24_BITS",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MIN_BORROW_LEVEL_OFFSET",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "LIQUIDATE_LEVEL_OFFSET",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "LIQUIDATION_RATIO_OFFSET",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "CALLER_PROFIT_OFFSET",
+      "file": "MarginLevels.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "PROTOCOL_PROFIT_OFFSET",
+      "file": "MarginLevels.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00156",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

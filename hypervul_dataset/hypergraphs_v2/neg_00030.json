@@ -1,0 +1,422 @@
+{
+  "sample_id": "neg_00030",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "init",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 81,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "receiveCallFromVault",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 85,
+      "end_line": 103,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__createEscrowByTakingQuote",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 107,
+      "end_line": 130,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "__createEscrowByStartingAuction",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 137,
+      "end_line": 153,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__closeAndSweepEscrow",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 157,
+      "end_line": 224,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__withdrawTokensFromEscrows",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 228,
+      "end_line": 240,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "__sweep",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 244,
+      "end_line": 252,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getManagedAssets",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 261,
+      "end_line": 269,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getDebtAssets",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 271,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getNumOpenEscrows",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 282,
+      "end_line": 284,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getEscrowIdxs",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 290,
+      "end_line": 303,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "__addLatestEscrow",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 309,
+      "end_line": 319,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "__closeAndSweep",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 321,
+      "end_line": 387,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "__withdraw",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "start_line": 389,
+      "end_line": 396,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MYSO_ROUTER",
+      "var_type": "IMysoV3Router public immutable",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "line": 56
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:84",
+      "call_type": "INTERFACE_CALL",
+      "line": 84,
+      "enclosing_function": "__createEscrowByTakingQuote",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "raw_text": "MYSO_ROUTER.takeQuote({"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:114",
+      "call_type": "INTERFACE_CALL",
+      "line": 114,
+      "enclosing_function": "__createEscrowByStartingAuction",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "raw_text": "MYSO_ROUTER.createAuction({"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:152",
+      "call_type": "INTERFACE_CALL",
+      "line": 152,
+      "enclosing_function": "__closeAndSweepEscrow",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "raw_text": "address escrow = MYSO_ROUTER.getEscrows(_actionArgs.escrowIdxs[i], 1)[0];"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:280",
+      "call_type": "INTERFACE_CALL",
+      "line": 280,
+      "enclosing_function": "__addLatestEscrow",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "raw_text": "uint32 numEscrows = uint32(MYSO_ROUTER.numEscrows());"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:362",
+      "call_type": "INTERFACE_CALL",
+      "line": 362,
+      "enclosing_function": "__withdraw",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol",
+      "raw_text": "MYSO_ROUTER.withdraw({_escrow: _escrows[i], _to: msg.sender, _token: _tokens[i], _amount: bal});"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        2,
+        14,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        3,
+        14,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        4,
+        14,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        2,
+        3,
+        11,
+        14,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        4,
+        5,
+        12,
+        13,
+        14,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "init",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "receiveCallFromVault",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__createEscrowByTakingQuote",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "__createEscrowByStartingAuction",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__closeAndSweepEscrow",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "__withdrawTokensFromEscrows",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "__sweep",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getManagedAssets",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getDebtAssets",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getNumOpenEscrows",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getEscrowIdxs",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "__addLatestEscrow",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "__closeAndSweep",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "__withdraw",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "MYSO_ROUTER",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:84",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:114",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:152",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:280",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol:362",
+      "file": "protocol_contracts_release_extensions_external-position-manager_external-positions_myso-v3_MysoV3OptionWritingPositionLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 5,
+    "n_functions": 14,
+    "n_state_vars": 1,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "neg_00030",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "sample_id": "vfp_00052",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "AxelarAdapter.sol",
+      "start_line": 42,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "file",
+      "file": "AxelarAdapter.sol",
+      "start_line": 49,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "AxelarAdapter.sol",
+      "start_line": 60,
+      "end_line": 75,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "send",
+      "file": "AxelarAdapter.sol",
+      "start_line": 82,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "estimate",
+      "file": "AxelarAdapter.sol",
+      "start_line": 102,
+      "end_line": 107,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "toAddressLeftPadded",
+      "file": "CastLib.sol",
+      "start_line": 6,
+      "end_line": 9,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "toBytes32LeftPadded",
+      "file": "CastLib.sol",
+      "start_line": 11,
+      "end_line": 13,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "toAddress",
+      "file": "CastLib.sol",
+      "start_line": 15,
+      "end_line": 18,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "toAddress",
+      "file": "CastLib.sol",
+      "start_line": 20,
+      "end_line": 23,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "toString",
+      "file": "CastLib.sol",
+      "start_line": 25,
+      "end_line": 27,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "toBytes32",
+      "file": "CastLib.sol",
+      "start_line": 29,
+      "end_line": 31,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "toBytes32",
+      "file": "CastLib.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "bytes128ToString",
+      "file": "CastLib.sol",
+      "start_line": 39,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "toString",
+      "file": "CastLib.sol",
+      "start_line": 56,
+      "end_line": 66,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "gateway",
+      "var_type": "IMessageHandler public immutable",
+      "file": "AxelarAdapter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "axelarGateway",
+      "var_type": "IAxelarGateway public immutable",
+      "file": "AxelarAdapter.sol",
+      "line": 23
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "axelarGasService",
+      "var_type": "IAxelarGasService public immutable",
+      "file": "AxelarAdapter.sol",
+      "line": 24
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "sources",
+      "var_type": "mapping(string axelarId => AxelarSource) public",
+      "file": "AxelarAdapter.sol",
+      "line": 26
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "destinations",
+      "var_type": "mapping(uint16 centrifugeId => AxelarDestination) public",
+      "file": "AxelarAdapter.sol",
+      "line": 27
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:70",
+      "call_type": "INTERFACE_CALL",
+      "line": 70,
+      "enclosing_function": "execute",
+      "file": "AxelarAdapter.sol",
+      "raw_text": "axelarGateway.validateContractCall(commandId, sourceAxelarId, sourceAddress, keccak256(payload)),"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:74",
+      "call_type": "INTERFACE_CALL",
+      "line": 74,
+      "enclosing_function": "execute",
+      "file": "AxelarAdapter.sol",
+      "raw_text": "gateway.handle(source.centrifugeId, payload);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:92",
+      "call_type": "INTERFACE_CALL",
+      "line": 92,
+      "enclosing_function": "send",
+      "file": "AxelarAdapter.sol",
+      "raw_text": "axelarGasService.payNativeGasForContractCall{value: msg.value}("
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:96",
+      "call_type": "INTERFACE_CALL",
+      "line": 96,
+      "enclosing_function": "send",
+      "file": "AxelarAdapter.sol",
+      "raw_text": "axelarGateway.callContract(destination.axelarId, destinationAddress, payload);"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:104",
+      "call_type": "INTERFACE_CALL",
+      "line": 104,
+      "enclosing_function": "estimate",
+      "file": "AxelarAdapter.sol",
+      "raw_text": "return axelarGasService.estimateGasFee("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        14,
+        15,
+        17,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        14,
+        15,
+        17,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        14,
+        15,
+        16,
+        18,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        14,
+        15,
+        16,
+        18,
+        22
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        4,
+        16,
+        18,
+        23
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 23
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "file",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "file",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "send",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "estimate",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "toAddressLeftPadded",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "toBytes32LeftPadded",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "toAddress",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "toAddress",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "toString",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "toBytes32",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "toBytes32",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "bytes128ToString",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "toString",
+      "file": "CastLib.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "gateway",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "axelarGateway",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "axelarGasService",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "sources",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "destinations",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:70",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:74",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:92",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:96",
+      "file": "AxelarAdapter.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:AxelarAdapter.sol:104",
+      "file": "AxelarAdapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 5,
+    "n_functions": 14,
+    "n_state_vars": 5,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 5.2
+  },
+  "label": {
+    "vfp_id": "vfp_00052",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-116",
+      "CWE-172",
+      "CWE-173",
+      "CWE-707",
+      "CWE-838"
+    ]
+  }
+}

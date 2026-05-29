@@ -1,0 +1,405 @@
+{
+  "sample_id": "neg_00618",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "depositNewNft",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol",
+      "start_line": 17,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositExistingNft",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol",
+      "start_line": 32,
+      "end_line": 40,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawNft",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol",
+      "start_line": 42,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "claim",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol",
+      "start_line": 49,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "flashloanDepositCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "start_line": 50,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "flashloanWithdrawCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "start_line": 119,
+      "end_line": 181,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_chargeFlashloanFees",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "start_line": 183,
+      "end_line": 196,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "connectorRegistry",
+      "var_type": "ConnectorRegistry public immutable",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "line": 27
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "flashloanStrategy",
+      "var_type": "FlashloanStrategy public immutable",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "line": 28
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "feesLib",
+      "var_type": "FeesLib public immutable",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "line": 29
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "swapLib",
+      "var_type": "SwapLib public immutable",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "line": 30
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:86",
+      "call_type": "INTERFACE_CALL",
+      "line": 86,
+      "enclosing_function": "flashloanDepositCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "raw_text": "uint256 supplyAmount = feesLib.getBalance(sickle, increaseParams.token);"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:89",
+      "call_type": "INTERFACE_CALL",
+      "line": 89,
+      "enclosing_function": "flashloanDepositCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "raw_text": "connectorRegistry.connectorOf(increaseParams.market),"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:97",
+      "call_type": "INTERFACE_CALL",
+      "line": 97,
+      "enclosing_function": "flashloanDepositCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "raw_text": "connectorRegistry.connectorOf(increaseParams.market),"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "flashloanDepositCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "raw_text": "SafeTransferLib.safeTransfer("
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:143",
+      "call_type": "INTERFACE_CALL",
+      "line": 143,
+      "enclosing_function": "flashloanWithdrawCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "raw_text": "connectorRegistry.connectorOf(decreaseParams.market),"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:156",
+      "call_type": "INTERFACE_CALL",
+      "line": 156,
+      "enclosing_function": "flashloanWithdrawCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "raw_text": "connectorRegistry.connectorOf(decreaseParams.market),"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:176",
+      "call_type": "INTERFACE_CALL",
+      "line": 176,
+      "enclosing_function": "flashloanWithdrawCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol",
+      "raw_text": "SafeTransferLib.safeTransfer("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        7,
+        8,
+        10,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        7,
+        8,
+        10,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        5,
+        7,
+        8,
+        10,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "depositNewNft",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositExistingNft",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawNft",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "claim",
+      "file": "sickle-public_contracts_connectors_SlipstreamGaugeConnectorNew.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "flashloanDepositCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "flashloanWithdrawCallback",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_chargeFlashloanFees",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "connectorRegistry",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "flashloanStrategy",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "feesLib",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "swapLib",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:86",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:89",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:97",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:110",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:143",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:156",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:sickle-public_contracts_libraries_FlashloanLib.sol:176",
+      "file": "sickle-public_contracts_libraries_FlashloanLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 7,
+    "n_functions": 7,
+    "n_state_vars": 4,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 5.571428571428571
+  },
+  "label": {
+    "vfp_id": "neg_00618",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

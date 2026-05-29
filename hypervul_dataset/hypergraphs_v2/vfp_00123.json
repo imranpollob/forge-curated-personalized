@@ -1,0 +1,398 @@
+{
+  "sample_id": "vfp_00123",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployPool",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 47,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "uninstallPool",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 81,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "computePoolAddress",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 86,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "poolByEulerAccount",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 104,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "poolsLength",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 109,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "poolsSlice",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 114,
+      "end_line": 116,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pools",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 119,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "poolsByPairLength",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 124,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "poolsByPairSlice",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 129,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "poolsByPair",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 138,
+      "end_line": 140,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "updateEulerAccountState",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 145,
+      "end_line": 160,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "uninstall",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 167,
+      "end_line": 184,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "swapAndPop",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 189,
+      "end_line": 192,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_getAssets",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 198,
+      "end_line": 200,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_getSlice",
+      "file": "EulerSwapFactory.sol",
+      "start_line": 209,
+      "end_line": 220,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "allPools",
+      "var_type": "address[] private",
+      "file": "EulerSwapFactory.sol",
+      "line": 17
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "evkFactory",
+      "var_type": "address public immutable",
+      "file": "EulerSwapFactory.sol",
+      "line": 19
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "eulerSwapImpl",
+      "var_type": "address public immutable",
+      "file": "EulerSwapFactory.sol",
+      "line": 21
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "eulerAccountState",
+      "var_type": "mapping(address eulerAccount => EulerAccountState state) private",
+      "file": "EulerSwapFactory.sol",
+      "line": 23
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "poolMap",
+      "var_type": "mapping(address asset0 => mapping(address asset1 => address[])) private",
+      "file": "EulerSwapFactory.sol",
+      "line": 24
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EulerSwapFactory.sol:158",
+      "call_type": "INTERFACE_CALL",
+      "line": 158,
+      "enclosing_function": "updateEulerAccountState",
+      "file": "EulerSwapFactory.sol",
+      "raw_text": "allPools.push(newOperator);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "deployPool",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "uninstallPool",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "computePoolAddress",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "poolByEulerAccount",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "poolsLength",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "poolsSlice",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "pools",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "poolsByPairLength",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "poolsByPairSlice",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "poolsByPair",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "updateEulerAccountState",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "uninstall",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "swapAndPop",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_getAssets",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_getSlice",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "allPools",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "evkFactory",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "eulerSwapImpl",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "eulerAccountState",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "poolMap",
+      "file": "EulerSwapFactory.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:EulerSwapFactory.sol:158",
+      "file": "EulerSwapFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 21,
+    "n_hyperedges": 1,
+    "n_functions": 15,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 8.0
+  },
+  "label": {
+    "vfp_id": "vfp_00123",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-372",
+      "CWE-664",
+      "CWE-710"
+    ]
+  }
+}

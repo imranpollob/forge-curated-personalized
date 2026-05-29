@@ -1,0 +1,316 @@
+{
+  "sample_id": "vfp_00079",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getPerformanceVaultStorage",
+      "file": "PerformanceVault.sol",
+      "start_line": 29,
+      "end_line": 33,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__PerformanceVault_init",
+      "file": "PerformanceVault.sol",
+      "start_line": 47,
+      "end_line": 50,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setPerformanceFeePercent",
+      "file": "PerformanceVault.sol",
+      "start_line": 62,
+      "end_line": 74,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setFeeRecipient",
+      "file": "PerformanceVault.sol",
+      "start_line": 77,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_pps",
+      "file": "PerformanceVault.sol",
+      "start_line": 87,
+      "end_line": 91,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_mintPerformanceFee",
+      "file": "PerformanceVault.sol",
+      "start_line": 98,
+      "end_line": 116,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_setHighWaterMark",
+      "file": "PerformanceVault.sol",
+      "start_line": 119,
+      "end_line": 124,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "PerformanceVault.sol",
+      "start_line": 127,
+      "end_line": 129,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "mint",
+      "file": "PerformanceVault.sol",
+      "start_line": 131,
+      "end_line": 133,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "PerformanceVault.sol",
+      "start_line": 135,
+      "end_line": 137,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "PerformanceVault.sol",
+      "start_line": 139,
+      "end_line": 141,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "highWaterMark",
+      "file": "PerformanceVault.sol",
+      "start_line": 145,
+      "end_line": 147,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "performanceFeePercent",
+      "file": "PerformanceVault.sol",
+      "start_line": 150,
+      "end_line": 152,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "feeRecipient",
+      "file": "PerformanceVault.sol",
+      "start_line": 155,
+      "end_line": 157,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "PERCENT",
+      "var_type": "uint256 public constant",
+      "file": "PerformanceVault.sol",
+      "line": 15
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MAXIMUM_PERFORMANCE_FEE_PERCENT",
+      "var_type": "uint256 public constant",
+      "file": "PerformanceVault.sol",
+      "line": 16
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "PerformanceVaultStorageLocation",
+      "var_type": "bytes32 private constant",
+      "file": "PerformanceVault.sol",
+      "line": 27
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getPerformanceVaultStorage",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__PerformanceVault_init",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_setPerformanceFeePercent",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_setFeeRecipient",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_pps",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_mintPerformanceFee",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_setHighWaterMark",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "mint",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "highWaterMark",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "performanceFeePercent",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "feeRecipient",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "PERCENT",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "MAXIMUM_PERFORMANCE_FEE_PERCENT",
+      "file": "PerformanceVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "PerformanceVaultStorageLocation",
+      "file": "PerformanceVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 0,
+    "n_functions": 14,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00079",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-691",
+      "CWE-841"
+    ]
+  }
+}

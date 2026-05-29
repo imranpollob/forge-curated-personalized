@@ -1,0 +1,213 @@
+{
+  "sample_id": "neg_00520",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createCompany",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "start_line": 23,
+      "end_line": 28,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isCompany",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCompanyAddressAtIndex",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "start_line": 34,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "companyCount",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "start_line": 39,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "companies",
+      "var_type": "mapping(address => uint256) public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "line": 9
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "companiesList",
+      "var_type": "address[] public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "line": 10
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ansResolver",
+      "var_type": "address public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "line": 11
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "octoDistributor",
+      "var_type": "IOctoDistributor public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "line": 12
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "specToken",
+      "var_type": "address public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "line": 13
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "usdcToken",
+      "var_type": "address public",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "line": 14
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol:25",
+      "call_type": "INTERFACE_CALL",
+      "line": 25,
+      "enclosing_function": "createCompany",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol",
+      "raw_text": "companiesList.push(address(company));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createCompany",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isCompany",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getCompanyAddressAtIndex",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "companyCount",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "companies",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "companiesList",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ansResolver",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "octoDistributor",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "specToken",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "usdcToken",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol:25",
+      "file": "autonomous-agent-contracts_contracts_testing_MockAgenticCompanyFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 1,
+    "n_functions": 4,
+    "n_state_vars": 6,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 8.0
+  },
+  "label": {
+    "vfp_id": "neg_00520",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

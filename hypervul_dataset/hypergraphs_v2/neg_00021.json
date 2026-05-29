@@ -1,0 +1,294 @@
+{
+  "sample_id": "neg_00021",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "devtools_examples_oft_contracts_mocks_MyOFTMock.sol",
+      "start_line": 15,
+      "end_line": 17,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setConfig",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 41,
+      "end_line": 53,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getConfig",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 57,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "version",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isSupportedEid",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 71,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_quoteVerifier",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 77,
+      "end_line": 83,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_payVerifier",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 85,
+      "end_line": 90,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_splitOptions",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 92,
+      "end_line": 96,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "send",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "start_line": 98,
+      "end_line": 105,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "contractMethod",
+      "file": "devtools_tests_export-deployments-test_contracts_Test.sol",
+      "start_line": 5,
+      "end_line": 7,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "testHelper",
+      "var_type": "TestHelperOz5 public",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "line": 22
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_EXECUTOR",
+      "var_type": "uint32 internal constant",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "line": 24
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_ULN",
+      "var_type": "uint32 internal constant",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "line": 25
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "SEND:devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol:103",
+      "call_type": "SEND",
+      "line": 103,
+      "enclosing_function": "send",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "raw_text": "(fee, encodedPacket) = super.send(_packet, _options, _payInLzToken);"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol:104",
+      "call_type": "INTERFACE_CALL",
+      "line": 104,
+      "enclosing_function": "send",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol",
+      "raw_text": "testHelper.schedulePacket(encodedPacket, _options);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        8,
+        10,
+        13
+      ],
+      "tau": "SEND",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        8,
+        10,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "devtools_examples_oft_contracts_mocks_MyOFTMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setConfig",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getConfig",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "version",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "isSupportedEid",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_quoteVerifier",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_payVerifier",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_splitOptions",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "send",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "contractMethod",
+      "file": "devtools_tests_export-deployments-test_contracts_Test.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "testHelper",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_EXECUTOR",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_ULN",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "SEND:devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol:103",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol:104",
+      "file": "devtools_packages_test-devtools-evm-foundry_contracts_mocks_SendUln302Mock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 2,
+    "n_functions": 10,
+    "n_state_vars": 3,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00021",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

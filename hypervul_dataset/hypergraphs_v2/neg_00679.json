@@ -1,0 +1,286 @@
+{
+  "sample_id": "neg_00679",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "currentValue",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol",
+      "start_line": 22,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updatePrice",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_IPythRelay.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getUpdateFee",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_IPythRelay.sol",
+      "start_line": 8,
+      "end_line": 8,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 39,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEmaPrice",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 47,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getPriceUnsafe",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPriceNoOlderThan",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 64,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isPriceFresh",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 75,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updatePriceFeeds",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 85,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getUpdateFee",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 90,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getLastUpdateTime",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol",
+      "start_line": 99,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "tokenFeed",
+      "var_type": "IAggregator public immutable",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol",
+      "line": 11
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "underlying",
+      "var_type": "address public immutable",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol",
+      "line": 13
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ethOracle",
+      "var_type": "IOracleRelay public immutable",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol",
+      "line": 14
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol:23",
+      "call_type": "INTERFACE_CALL",
+      "line": 23,
+      "enclosing_function": "currentValue",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol",
+      "raw_text": "int256 latest = tokenFeed.latestAnswer();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        11,
+        13,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "currentValue",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updatePrice",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_IPythRelay.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getUpdateFee",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_IPythRelay.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPrice",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getEmaPrice",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getPriceUnsafe",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPriceNoOlderThan",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isPriceFresh",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updatePriceFeeds",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getUpdateFee",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getLastUpdateTime",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_oku-custom-order-types_contracts_interfaces_pyth_IPyth.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "tokenFeed",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "underlying",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "ethOracle",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol:23",
+      "file": "ee3f781a73d65e33fb452c9a44eb1337c5cfdbd6_2024-11-oku_oku-custom-order-types_contracts_oracle_External_TokenEthRelay.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 1,
+    "n_functions": 11,
+    "n_state_vars": 3,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00679",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "sample_id": "neg_00518",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "protocol_contracts_external-interfaces_IAaveV2IncentivesController.sol",
+      "start_line": 17,
+      "end_line": 17,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exchangeErc20AndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "start_line": 56,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exchangeEthAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "start_line": 105,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "__buyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "start_line": 155,
+      "end_line": 174,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__exchangeAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "start_line": 177,
+      "end_line": 213,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "ADDRESS_LIST_REGISTRY",
+      "var_type": "IAddressListRegistry private immutable",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "line": 28
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ALLOWED_EXCHANGES_LIST_ID",
+      "var_type": "uint256 private immutable",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "line": 29
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "WRAPPED_NATIVE_ASSET",
+      "var_type": "IWETH private immutable",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "line": 30
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:60",
+      "call_type": "INTERFACE_CALL",
+      "line": 60,
+      "enclosing_function": "exchangeErc20AndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "raw_text": "_inputAsset.safeTransferFrom(msg.sender, address(this), _maxInputAssetAmount);"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:77",
+      "call_type": "INTERFACE_CALL",
+      "line": 77,
+      "enclosing_function": "exchangeErc20AndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "raw_text": "_inputAsset.safeTransfer(msg.sender, remainingInputAsset);"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:110",
+      "call_type": "INTERFACE_CALL",
+      "line": 110,
+      "enclosing_function": "exchangeEthAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "raw_text": "WRAPPED_NATIVE_ASSET.deposit{value: maxInputAssetAmount}();"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:138",
+      "call_type": "INTERFACE_CALL",
+      "line": 138,
+      "enclosing_function": "exchangeEthAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "raw_text": "WRAPPED_NATIVE_ASSET.withdraw(remainingWeth);"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:181",
+      "call_type": "INTERFACE_CALL",
+      "line": 181,
+      "enclosing_function": "__exchangeAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "raw_text": "ADDRESS_LIST_REGISTRY.isInList({_id: ALLOWED_EXCHANGES_LIST_ID, _item: _exchange}),"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:194",
+      "call_type": "INTERFACE_CALL",
+      "line": 194,
+      "enclosing_function": "__exchangeAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol",
+      "raw_text": "IERC20 denominationAsset = IERC20(_comptrollerProxy.getDenominationAsset());"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        9
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        7,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        2,
+        7,
+        11
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "claimRewards",
+      "file": "protocol_contracts_external-interfaces_IAaveV2IncentivesController.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exchangeErc20AndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "exchangeEthAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "__buyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "__exchangeAndBuyShares",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "ADDRESS_LIST_REGISTRY",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ALLOWED_EXCHANGES_LIST_ID",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "WRAPPED_NATIVE_ASSET",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:60",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:77",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:110",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:138",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:181",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:protocol_contracts_release_peripheral_DepositWrapper.sol:194",
+      "file": "protocol_contracts_release_peripheral_DepositWrapper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 6,
+    "n_functions": 5,
+    "n_state_vars": 3,
+    "n_call_sites": 6,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00518",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

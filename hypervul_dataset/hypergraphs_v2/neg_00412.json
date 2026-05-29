@@ -1,0 +1,80 @@
+{
+  "sample_id": "neg_00412",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "copyArg",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_InteractionMock.sol",
+      "start_line": 13,
+      "end_line": 15,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "preInteraction",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_InteractionMock.sol",
+      "start_line": 17,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "postInteraction",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_InteractionMock.sol",
+      "start_line": 37,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "copyArg",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_InteractionMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "preInteraction",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_InteractionMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "postInteraction",
+      "file": "cf8e50eb24c01c7b276a30a5877840df35e66e67_limit-order-protocol_contracts_mocks_InteractionMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 0,
+    "n_functions": 3,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00412",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

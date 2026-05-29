@@ -1,0 +1,158 @@
+{
+  "sample_id": "vfp_00575",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "kill",
+      "file": "AssetManagement.sol",
+      "start_line": 30,
+      "end_line": 38,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "alloc",
+      "file": "AssetManagement.sol",
+      "start_line": 40,
+      "end_line": 44,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "manage",
+      "file": "AssetManagement.sol",
+      "start_line": 46,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_transferOut",
+      "file": "AssetManagement.sol",
+      "start_line": 54,
+      "end_line": 65,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "ASSET_MANAGER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "AssetManagement.sol",
+      "line": 15
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "allocations",
+      "var_type": "mapping(address => Allocation) public",
+      "file": "AssetManagement.sol",
+      "line": 22
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[49] private",
+      "file": "AssetManagement.sol",
+      "line": 28
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "kill",
+      "file": "AssetManagement.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "alloc",
+      "file": "AssetManagement.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "manage",
+      "file": "AssetManagement.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_transferOut",
+      "file": "AssetManagement.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "ASSET_MANAGER_ROLE",
+      "file": "AssetManagement.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "allocations",
+      "file": "AssetManagement.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "AssetManagement.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00575",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1287",
+      "CWE-1329",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-252",
+      "CWE-664",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-754",
+      "CWE-778"
+    ]
+  }
+}

@@ -1,0 +1,1614 @@
+{
+  "sample_id": "vfp_00574",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 196,
+      "end_line": 219,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 226,
+      "end_line": 243,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 246,
+      "end_line": 254,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "nav",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 257,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getStableTokenPrice",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 269,
+      "end_line": 283,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getStableTokenPriceWithScale",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 286,
+      "end_line": 288,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 295,
+      "end_line": 312,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 315,
+      "end_line": 325,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 328,
+      "end_line": 365,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "instantRedeem",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 368,
+      "end_line": 406,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 409,
+      "end_line": 426,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 429,
+      "end_line": 444,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 447,
+      "end_line": 462,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "arbitrage",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 465,
+      "end_line": 517,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "updateStableDepegPrice",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 525,
+      "end_line": 527,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "updateRedeemCoolDownPeriod",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 531,
+      "end_line": 533,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateInstantRedeemFeeRatio",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 535,
+      "end_line": 537,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_update",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 544,
+      "end_line": 552,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_updateStableDepegPrice",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 556,
+      "end_line": 561,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_updateRedeemCoolDownPeriod",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 565,
+      "end_line": 572,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_updateInstantRedeemFeeRatio",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 576,
+      "end_line": 583,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 589,
+      "end_line": 613,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_beforeRebalanceOrLiquidate",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 618,
+      "end_line": 650,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_afterRebalanceOrLiquidate",
+      "file": "FxUSDBasePool.sol",
+      "start_line": 657,
+      "end_line": 684,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getMarkets",
+      "file": "IFxUSD.sol",
+      "start_line": 81,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getRebalancePools",
+      "file": "IFxUSD.sol",
+      "start_line": 84,
+      "end_line": 84,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "nav",
+      "file": "IFxUSD.sol",
+      "start_line": 87,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isUnderCollateral",
+      "file": "IFxUSD.sol",
+      "start_line": 90,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "wrap",
+      "file": "IFxUSD.sol",
+      "start_line": 100,
+      "end_line": 104,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "unwrap",
+      "file": "IFxUSD.sol",
+      "start_line": 110,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "wrapFrom",
+      "file": "IFxUSD.sol",
+      "start_line": 120,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "mint",
+      "file": "IFxUSD.sol",
+      "start_line": 132,
+      "end_line": 137,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "earn",
+      "file": "IFxUSD.sol",
+      "start_line": 143,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "mintAndEarn",
+      "file": "IFxUSD.sol",
+      "start_line": 155,
+      "end_line": 160,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "IFxUSD.sol",
+      "start_line": 169,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "redeemFrom",
+      "file": "IFxUSD.sol",
+      "start_line": 182,
+      "end_line": 187,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "autoRedeem",
+      "file": "IFxUSD.sol",
+      "start_line": 196,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "routerStorage",
+      "file": "LibRouter.sol",
+      "start_line": 105,
+      "end_line": 110,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "approveTarget",
+      "file": "LibRouter.sol",
+      "start_line": 113,
+      "end_line": 119,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "removeTarget",
+      "file": "LibRouter.sol",
+      "start_line": 122,
+      "end_line": 128,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "updateWhitelist",
+      "file": "LibRouter.sol",
+      "start_line": 131,
+      "end_line": 139,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "ensureWhitelisted",
+      "file": "LibRouter.sol",
+      "start_line": 142,
+      "end_line": 147,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "updateRevenuePool",
+      "file": "LibRouter.sol",
+      "start_line": 149,
+      "end_line": 152,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "transferInAndConvert",
+      "file": "LibRouter.sol",
+      "start_line": 158,
+      "end_line": 192,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "convertAndTransferOut",
+      "file": "LibRouter.sol",
+      "start_line": 199,
+      "end_line": 223,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "transferTokenIn",
+      "file": "LibRouter.sol",
+      "start_line": 229,
+      "end_line": 236,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "refundERC20",
+      "file": "LibRouter.sol",
+      "start_line": 241,
+      "end_line": 246,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "approve",
+      "file": "LibRouter.sol",
+      "start_line": 249,
+      "end_line": 251,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "migrateXstETHPosition",
+      "file": "MigrateFacet.sol",
+      "start_line": 97,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "migrateXfrxETHPosition",
+      "file": "MigrateFacet.sol",
+      "start_line": 128,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "onMigrateXstETHPosition",
+      "file": "MigrateFacet.sol",
+      "start_line": 160,
+      "end_line": 193,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "onMigrateXfrxETHPosition",
+      "file": "MigrateFacet.sol",
+      "start_line": 202,
+      "end_line": 238,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_swapUSDCToFxUSD",
+      "file": "MigrateFacet.sol",
+      "start_line": 249,
+      "end_line": 256,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_swapFxUSDToUSDC",
+      "file": "MigrateFacet.sol",
+      "start_line": 263,
+      "end_line": 273,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_swapSfrxETHToWstETH",
+      "file": "MigrateFacet.sol",
+      "start_line": 280,
+      "end_line": 290,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "MigrateFacet.sol",
+      "start_line": 299,
+      "end_line": 309,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_checkPositionDebtRatio",
+      "file": "MigrateFacet.sol",
+      "start_line": 315,
+      "end_line": 322,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "getBalance",
+      "file": "ReservePool.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "requestBonus",
+      "file": "ReservePool.sol",
+      "start_line": 72,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "withdrawFund",
+      "file": "ReservePool.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_getBalance",
+      "file": "ReservePool.sol",
+      "start_line": 104,
+      "end_line": 110,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_transferToken",
+      "file": "ReservePool.sol",
+      "start_line": 117,
+      "end_line": 123,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "PRECISION",
+      "var_type": "uint256 internal constant",
+      "file": "FxUSDBasePool.sol",
+      "line": 74
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "MAX_INSTANT_REDEEM_FEE",
+      "var_type": "uint256 internal constant",
+      "file": "FxUSDBasePool.sol",
+      "line": 76
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "var_type": "address public immutable",
+      "file": "FxUSDBasePool.sol",
+      "line": 83
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "pegKeeper",
+      "var_type": "address public immutable",
+      "file": "FxUSDBasePool.sol",
+      "line": 86
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "yieldToken",
+      "var_type": "address public immutable",
+      "file": "FxUSDBasePool.sol",
+      "line": 90
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "stableToken",
+      "var_type": "address public immutable",
+      "file": "FxUSDBasePool.sol",
+      "line": 94
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "stableTokenScale",
+      "var_type": "uint256 private immutable",
+      "file": "FxUSDBasePool.sol",
+      "line": 96
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "Chainlink_USDC_USD_Spot",
+      "var_type": "bytes32 public immutable",
+      "file": "FxUSDBasePool.sol",
+      "line": 105
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "totalYieldToken",
+      "var_type": "uint256 public",
+      "file": "FxUSDBasePool.sol",
+      "line": 132
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "totalStableToken",
+      "var_type": "uint256 public",
+      "file": "FxUSDBasePool.sol",
+      "line": 135
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "stableDepegPrice",
+      "var_type": "uint256 public",
+      "file": "FxUSDBasePool.sol",
+      "line": 138
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "redeemRequests",
+      "var_type": "mapping(address => RedeemRequest) public",
+      "file": "FxUSDBasePool.sol",
+      "line": 141
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "redeemCoolDownPeriod",
+      "var_type": "uint256 public",
+      "file": "FxUSDBasePool.sol",
+      "line": 144
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "instantRedeemFeeRatio",
+      "var_type": "uint256 public",
+      "file": "FxUSDBasePool.sol",
+      "line": 147
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "ROUTER_STORAGE_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "LibRouter.sol",
+      "line": 38
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "WETH",
+      "var_type": "address internal constant",
+      "file": "LibRouter.sol",
+      "line": 41
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "NOT_FLASH_LOAN",
+      "var_type": "uint8 internal constant",
+      "file": "LibRouter.sol",
+      "line": 43
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "HAS_FLASH_LOAN",
+      "var_type": "uint8 internal constant",
+      "file": "LibRouter.sol",
+      "line": 45
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "NOT_ENTRANT",
+      "var_type": "uint8 internal constant",
+      "file": "LibRouter.sol",
+      "line": 47
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "HAS_ENTRANT",
+      "var_type": "uint8 internal constant",
+      "file": "LibRouter.sol",
+      "line": 49
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "USDC",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 39
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "fxUSD",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 42
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "wstETHMarket",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 45
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "wstETH",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 48
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "fstETH",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 51
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "xstETH",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 54
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "sfrxETHMarket",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 57
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "sfrxETH",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 60
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "ffrxETH",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 63
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "xfrxETH",
+      "var_type": "address private constant",
+      "file": "MigrateFacet.sol",
+      "line": 66
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "var_type": "address private immutable",
+      "file": "MigrateFacet.sol",
+      "line": 73
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "converter",
+      "var_type": "address private immutable",
+      "file": "MigrateFacet.sol",
+      "line": 76
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "var_type": "address public immutable",
+      "file": "ReservePool.sol",
+      "line": 39
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "CALL:LibRouter.sol:163",
+      "call_type": "CALL",
+      "line": 163,
+      "enclosing_function": "transferInAndConvert",
+      "file": "LibRouter.sol",
+      "raw_text": "(_success, ) = params.target.call{ value: params.amount }(params.data);"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "CALL:LibRouter.sol:169",
+      "call_type": "CALL",
+      "line": 169,
+      "enclosing_function": "transferInAndConvert",
+      "file": "LibRouter.sol",
+      "raw_text": "(_success, ) = params.target.call(params.data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        43,
+        95
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 95
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        43,
+        96
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 96
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "nav",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getStableTokenPrice",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getStableTokenPriceWithScale",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "instantRedeem",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "liquidate",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "arbitrage",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "updateStableDepegPrice",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "updateRedeemCoolDownPeriod",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "updateInstantRedeemFeeRatio",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_update",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_updateStableDepegPrice",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_updateRedeemCoolDownPeriod",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_updateInstantRedeemFeeRatio",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_beforeRebalanceOrLiquidate",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_afterRebalanceOrLiquidate",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "getMarkets",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getRebalancePools",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "nav",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "isUnderCollateral",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "wrap",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "unwrap",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "wrapFrom",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "mint",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "earn",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "mintAndEarn",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "redeemFrom",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "autoRedeem",
+      "file": "IFxUSD.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "routerStorage",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "approveTarget",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "removeTarget",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "updateWhitelist",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "ensureWhitelisted",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "updateRevenuePool",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "transferInAndConvert",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "convertAndTransferOut",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "transferTokenIn",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "refundERC20",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "approve",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "migrateXstETHPosition",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "migrateXfrxETHPosition",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "onMigrateXstETHPosition",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "onMigrateXfrxETHPosition",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_swapUSDCToFxUSD",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "_swapFxUSDToUSDC",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "_swapSfrxETHToWstETH",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "_swap",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "_checkPositionDebtRatio",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "getBalance",
+      "file": "ReservePool.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "requestBonus",
+      "file": "ReservePool.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "withdrawFund",
+      "file": "ReservePool.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "_getBalance",
+      "file": "ReservePool.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_transferToken",
+      "file": "ReservePool.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "PRECISION",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "MAX_INSTANT_REDEEM_FEE",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "pegKeeper",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "yieldToken",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "stableToken",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "stableTokenScale",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "Chainlink_USDC_USD_Spot",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "totalYieldToken",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "totalStableToken",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "stableDepegPrice",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "redeemRequests",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "redeemCoolDownPeriod",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "instantRedeemFeeRatio",
+      "file": "FxUSDBasePool.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "ROUTER_STORAGE_SLOT",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "WETH",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "NOT_FLASH_LOAN",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "HAS_FLASH_LOAN",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "NOT_ENTRANT",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "HAS_ENTRANT",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "USDC",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "fxUSD",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "wstETHMarket",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "wstETH",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "fstETH",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "xstETH",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "sfrxETHMarket",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "sfrxETH",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "ffrxETH",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "xfrxETH",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "converter",
+      "file": "MigrateFacet.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "poolManager",
+      "file": "ReservePool.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "call_site",
+      "name": "CALL:LibRouter.sol:163",
+      "file": "LibRouter.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "call_site",
+      "name": "CALL:LibRouter.sol:169",
+      "file": "LibRouter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 97,
+    "n_hyperedges": 2,
+    "n_functions": 62,
+    "n_state_vars": 33,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00574",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-372",
+      "CWE-477",
+      "CWE-613",
+      "CWE-664",
+      "CWE-666",
+      "CWE-672",
+      "CWE-691",
+      "CWE-703",
+      "CWE-710",
+      "CWE-754",
+      "CWE-758",
+      "CWE-799",
+      "CWE-837"
+    ]
+  }
+}

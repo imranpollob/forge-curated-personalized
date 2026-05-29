@@ -1,0 +1,70 @@
+{
+  "sample_id": "vfp_00251",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "version",
+      "file": "FraxOFTAdapterUpgradeable.sol",
+      "start_line": 14,
+      "end_line": 16,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "FraxOFTAdapterUpgradeable.sol",
+      "start_line": 20,
+      "end_line": 24,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "version",
+      "file": "FraxOFTAdapterUpgradeable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "FraxOFTAdapterUpgradeable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 2,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00251",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-670",
+      "CWE-691"
+    ]
+  }
+}

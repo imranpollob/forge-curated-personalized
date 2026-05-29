@@ -1,0 +1,736 @@
+{
+  "sample_id": "vfp_00170",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "depositNative",
+      "file": "TheCompact.sol",
+      "start_line": 30,
+      "end_line": 32,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositERC20",
+      "file": "TheCompact.sol",
+      "start_line": 34,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchDeposit",
+      "file": "TheCompact.sol",
+      "start_line": 41,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "depositERC20ViaPermit2",
+      "file": "TheCompact.sol",
+      "start_line": 47,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "batchDepositViaPermit2",
+      "file": "TheCompact.sol",
+      "start_line": 57,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "allocatedTransfer",
+      "file": "TheCompact.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "allocatedBatchTransfer",
+      "file": "TheCompact.sol",
+      "start_line": 71,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "register",
+      "file": "TheCompact.sol",
+      "start_line": 75,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "registerMultiple",
+      "file": "TheCompact.sol",
+      "start_line": 81,
+      "end_line": 83,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "registerFor",
+      "file": "TheCompact.sol",
+      "start_line": 85,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "registerBatchFor",
+      "file": "TheCompact.sol",
+      "start_line": 99,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "registerMultichainFor",
+      "file": "TheCompact.sol",
+      "start_line": 112,
+      "end_line": 122,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositNativeAndRegister",
+      "file": "TheCompact.sol",
+      "start_line": 124,
+      "end_line": 132,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositNativeAndRegisterFor",
+      "file": "TheCompact.sol",
+      "start_line": 134,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "depositERC20AndRegister",
+      "file": "TheCompact.sol",
+      "start_line": 148,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "depositERC20AndRegisterFor",
+      "file": "TheCompact.sol",
+      "start_line": 160,
+      "end_line": 175,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "batchDepositAndRegisterMultiple",
+      "file": "TheCompact.sol",
+      "start_line": 177,
+      "end_line": 184,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "batchDepositAndRegisterFor",
+      "file": "TheCompact.sol",
+      "start_line": 186,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "depositERC20AndRegisterViaPermit2",
+      "file": "TheCompact.sol",
+      "start_line": 202,
+      "end_line": 212,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "batchDepositAndRegisterViaPermit2",
+      "file": "TheCompact.sol",
+      "start_line": 214,
+      "end_line": 224,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "enableForcedWithdrawal",
+      "file": "TheCompact.sol",
+      "start_line": 226,
+      "end_line": 228,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "disableForcedWithdrawal",
+      "file": "TheCompact.sol",
+      "start_line": 230,
+      "end_line": 234,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "forcedWithdrawal",
+      "file": "TheCompact.sol",
+      "start_line": 236,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "assignEmissary",
+      "file": "TheCompact.sol",
+      "start_line": 242,
+      "end_line": 244,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "scheduleEmissaryAssignment",
+      "file": "TheCompact.sol",
+      "start_line": 246,
+      "end_line": 248,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "consume",
+      "file": "TheCompact.sol",
+      "start_line": 250,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "__registerAllocator",
+      "file": "TheCompact.sol",
+      "start_line": 254,
+      "end_line": 256,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "__benchmark",
+      "file": "TheCompact.sol",
+      "start_line": 258,
+      "end_line": 260,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getRequiredWithdrawalFallbackStipends",
+      "file": "TheCompact.sol",
+      "start_line": 262,
+      "end_line": 268,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getForcedWithdrawalStatus",
+      "file": "TheCompact.sol",
+      "start_line": 270,
+      "end_line": 276,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "getRegistrationStatus",
+      "file": "TheCompact.sol",
+      "start_line": 278,
+      "end_line": 285,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "getEmissaryStatus",
+      "file": "TheCompact.sol",
+      "start_line": 287,
+      "end_line": 293,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "getLockDetails",
+      "file": "TheCompact.sol",
+      "start_line": 295,
+      "end_line": 297,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "hasConsumedAllocatorNonce",
+      "file": "TheCompact.sol",
+      "start_line": 299,
+      "end_line": 301,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "TheCompact.sol",
+      "start_line": 303,
+      "end_line": 305,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "name",
+      "file": "TheCompact.sol",
+      "start_line": 312,
+      "end_line": 314,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "TheCompact.sol",
+      "start_line": 321,
+      "end_line": 323,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "TheCompact.sol",
+      "start_line": 330,
+      "end_line": 332,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "TheCompact.sol",
+      "start_line": 339,
+      "end_line": 341,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "name",
+      "file": "TheCompact.sol",
+      "start_line": 347,
+      "end_line": 354,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "TheCompact.sol",
+      "start_line": 365,
+      "end_line": 367,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "depositNative",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "depositERC20",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchDeposit",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "depositERC20ViaPermit2",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "batchDepositViaPermit2",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "allocatedTransfer",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "allocatedBatchTransfer",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "register",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "registerMultiple",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "registerFor",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "registerBatchFor",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "registerMultichainFor",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositNativeAndRegister",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "depositNativeAndRegisterFor",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "depositERC20AndRegister",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "depositERC20AndRegisterFor",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "batchDepositAndRegisterMultiple",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "batchDepositAndRegisterFor",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "depositERC20AndRegisterViaPermit2",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "batchDepositAndRegisterViaPermit2",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "enableForcedWithdrawal",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "disableForcedWithdrawal",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "forcedWithdrawal",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "assignEmissary",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "scheduleEmissaryAssignment",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "consume",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "__registerAllocator",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "__benchmark",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "getRequiredWithdrawalFallbackStipends",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "getForcedWithdrawalStatus",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "getRegistrationStatus",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "getEmissaryStatus",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "getLockDetails",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "hasConsumedAllocatorNonce",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "name",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "name",
+      "file": "TheCompact.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_beforeTokenTransfer",
+      "file": "TheCompact.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 41,
+    "n_hyperedges": 0,
+    "n_functions": 41,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00170",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1120",
+      "CWE-1288",
+      "CWE-20",
+      "CWE-707",
+      "CWE-710"
+    ]
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "sample_id": "vfp_00580",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "execute",
+      "file": "SavingFxUSD.sol",
+      "start_line": 34,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SavingFxUSD.sol",
+      "start_line": 125,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "SavingFxUSD.sol",
+      "start_line": 149,
+      "end_line": 151,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "SavingFxUSD.sol",
+      "start_line": 154,
+      "end_line": 156,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getThreshold",
+      "file": "SavingFxUSD.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "nav",
+      "file": "SavingFxUSD.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositGauge",
+      "file": "SavingFxUSD.sol",
+      "start_line": 173,
+      "end_line": 187,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "SavingFxUSD.sol",
+      "start_line": 190,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claim",
+      "file": "SavingFxUSD.sol",
+      "start_line": 204,
+      "end_line": 206,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimFor",
+      "file": "SavingFxUSD.sol",
+      "start_line": 209,
+      "end_line": 211,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "SavingFxUSD.sol",
+      "start_line": 214,
+      "end_line": 228,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "updateThreshold",
+      "file": "SavingFxUSD.sol",
+      "start_line": 236,
+      "end_line": 238,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "SavingFxUSD.sol",
+      "start_line": 245,
+      "end_line": 253,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "SavingFxUSD.sol",
+      "start_line": 256,
+      "end_line": 280,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_onHarvest",
+      "file": "SavingFxUSD.sol",
+      "start_line": 283,
+      "end_line": 293,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_updateThreshold",
+      "file": "SavingFxUSD.sol",
+      "start_line": 297,
+      "end_line": 305,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_transferRewards",
+      "file": "SavingFxUSD.sol",
+      "start_line": 310,
+      "end_line": 324,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_requestRedeem",
+      "file": "SavingFxUSD.sol",
+      "start_line": 327,
+      "end_line": 346,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "SavingFxUSD.sol",
+      "start_line": 349,
+      "end_line": 354,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "fxSAVE",
+      "var_type": "address immutable",
+      "file": "SavingFxUSD.sol",
+      "line": 26
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "CLAIM_FOR_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "SavingFxUSD.sol",
+      "line": 67
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "BOOSTER",
+      "var_type": "address private constant",
+      "file": "SavingFxUSD.sol",
+      "line": 70
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "FXN",
+      "var_type": "address private constant",
+      "file": "SavingFxUSD.sol",
+      "line": 73
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "PRECISION",
+      "var_type": "uint256 private constant",
+      "file": "SavingFxUSD.sol",
+      "line": 76
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "THRESHOLD_BITS",
+      "var_type": "uint256 private constant",
+      "file": "SavingFxUSD.sol",
+      "line": 79
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "THRESHOLD_OFFSET",
+      "var_type": "uint256 private constant",
+      "file": "SavingFxUSD.sol",
+      "line": 82
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "MAX_THRESHOLD",
+      "var_type": "uint256 private constant",
+      "file": "SavingFxUSD.sol",
+      "line": 85
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "base",
+      "var_type": "address public immutable",
+      "file": "SavingFxUSD.sol",
+      "line": 92
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "gauge",
+      "var_type": "address public immutable",
+      "file": "SavingFxUSD.sol",
+      "line": 95
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "vault",
+      "var_type": "address public",
+      "file": "SavingFxUSD.sol",
+      "line": 102
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "lockedProxy",
+      "var_type": "mapping(address => address) public",
+      "file": "SavingFxUSD.sol",
+      "line": 105
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "CALL:SavingFxUSD.sol:37",
+      "call_type": "CALL",
+      "line": 37,
+      "enclosing_function": "execute",
+      "file": "SavingFxUSD.sol",
+      "raw_text": "(bool success, ) = target.call(data);"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "TRANSFER:SavingFxUSD.sol:261",
+      "call_type": "TRANSFER",
+      "line": 261,
+      "enclosing_function": "_withdraw",
+      "file": "SavingFxUSD.sol",
+      "raw_text": "IERC20(base).transfer(receiver, assets);"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "TRANSFER:SavingFxUSD.sol:324",
+      "call_type": "TRANSFER",
+      "line": 324,
+      "enclosing_function": "_requestRedeem",
+      "file": "SavingFxUSD.sol",
+      "raw_text": "IERC20(base).transfer(proxy, assets);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        19,
+        31
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        13,
+        27,
+        29,
+        32
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        7,
+        17,
+        27,
+        29,
+        30,
+        33
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 33
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "execute",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getThreshold",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "nav",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositGauge",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "claim",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "claimFor",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "updateThreshold",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_withdraw",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_onHarvest",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_updateThreshold",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_transferRewards",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_requestRedeem",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_claim",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "fxSAVE",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "CLAIM_FOR_ROLE",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "BOOSTER",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "FXN",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "PRECISION",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "THRESHOLD_BITS",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "THRESHOLD_OFFSET",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "MAX_THRESHOLD",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "base",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "gauge",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "vault",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "lockedProxy",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "CALL:SavingFxUSD.sol:37",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "TRANSFER:SavingFxUSD.sol:261",
+      "file": "SavingFxUSD.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "TRANSFER:SavingFxUSD.sol:324",
+      "file": "SavingFxUSD.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 34,
+    "n_hyperedges": 3,
+    "n_functions": 19,
+    "n_state_vars": 12,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 4.333333333333333
+  },
+  "label": {
+    "vfp_id": "vfp_00580",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1329",
+      "CWE-664",
+      "CWE-710",
+      "CWE-758"
+    ]
+  }
+}

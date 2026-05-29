@@ -1,0 +1,135 @@
+{
+  "sample_id": "vfp_00164",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "beginPreparingBatchDepositPermit2Calldata",
+      "file": "DepositViaPermit2Lib.sol",
+      "start_line": 63,
+      "end_line": 123,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "writeWitnessAndGetTypehashes",
+      "file": "DepositViaPermit2Lib.sol",
+      "start_line": 135,
+      "end_line": 284,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deriveAndWriteWitnessHash",
+      "file": "DepositViaPermit2Lib.sol",
+      "start_line": 295,
+      "end_line": 319,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deriveCompactDepositWitnessHash",
+      "file": "DepositViaPermit2Lib.sol",
+      "start_line": 326,
+      "end_line": 343,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "insertCompactDepositTypestring",
+      "file": "DepositViaPermit2Lib.sol",
+      "start_line": 350,
+      "end_line": 361,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_BATCH_PERMIT_WITNESS_TRANSFER_FROM_SELECTOR",
+      "var_type": "uint256 private constant",
+      "file": "DepositViaPermit2Lib.sol",
+      "line": 50
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "beginPreparingBatchDepositPermit2Calldata",
+      "file": "DepositViaPermit2Lib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "writeWitnessAndGetTypehashes",
+      "file": "DepositViaPermit2Lib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "deriveAndWriteWitnessHash",
+      "file": "DepositViaPermit2Lib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "deriveCompactDepositWitnessHash",
+      "file": "DepositViaPermit2Lib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "insertCompactDepositTypestring",
+      "file": "DepositViaPermit2Lib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "_BATCH_PERMIT_WITNESS_TRANSFER_FROM_SELECTOR",
+      "file": "DepositViaPermit2Lib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 5,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00164",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-193",
+      "CWE-682"
+    ]
+  }
+}

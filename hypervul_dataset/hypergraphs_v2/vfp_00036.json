@@ -1,0 +1,97 @@
+{
+  "sample_id": "vfp_00036",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "checkNFTOwnership",
+      "file": "Payment.sol",
+      "start_line": 11,
+      "end_line": 21,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "payWithERC20",
+      "file": "Payment.sol",
+      "start_line": 25,
+      "end_line": 32,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Payment.sol:31",
+      "call_type": "INTERFACE_CALL",
+      "line": 31,
+      "enclosing_function": "payWithERC20",
+      "file": "Payment.sol",
+      "raw_text": "token.safeTransferFrom(fromAddress, toAddress, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        2
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 2
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "checkNFTOwnership",
+      "file": "Payment.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "payWithERC20",
+      "file": "Payment.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Payment.sol:31",
+      "file": "Payment.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 3,
+    "n_hyperedges": 1,
+    "n_functions": 2,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00036",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High"
+    ],
+    "cwe_list": [
+      "CWE-284",
+      "CWE-285",
+      "CWE-862"
+    ]
+  }
+}

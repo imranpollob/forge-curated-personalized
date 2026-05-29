@@ -1,0 +1,325 @@
+{
+  "sample_id": "vfp_00319",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 33,
+      "end_line": 49,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getLaunchBalance",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPreLaunchValue",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 57,
+      "end_line": 59,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getDepositUserAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 62,
+      "end_line": 66,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getFullDepositUserAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 69,
+      "end_line": 71,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getHalfDepositUserAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getVariableDepositAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 79,
+      "end_line": 81,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSubmitWithdrawableEnabled",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 84,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getBondReductionEnabled",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 89,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getLaunchTimeout",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 94,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getMaximumCount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "isWithinUserDistributeWindow",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 104,
+      "end_line": 108,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "hasUserDistributeWindowPassed",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 111,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getUserDistributeWindowStart",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getUserDistributeWindowLength",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 123,
+      "end_line": 125,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getMaximumPenaltyCount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "start_line": 128,
+      "end_line": 130,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "minipoolUserDistributeWindowStart",
+      "var_type": "uint256 constant internal",
+      "file": "RocketDAOProtocolSettingsMinipool.sol",
+      "line": 12
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setSettingUint",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getLaunchBalance",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPreLaunchValue",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getDepositUserAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getFullDepositUserAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getHalfDepositUserAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getVariableDepositAmount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getSubmitWithdrawableEnabled",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getBondReductionEnabled",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getLaunchTimeout",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "getMaximumCount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "isWithinUserDistributeWindow",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "hasUserDistributeWindowPassed",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getUserDistributeWindowStart",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getUserDistributeWindowLength",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getMaximumPenaltyCount",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "minipoolUserDistributeWindowStart",
+      "file": "RocketDAOProtocolSettingsMinipool.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 17,
+    "n_hyperedges": 0,
+    "n_functions": 16,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00319",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-372",
+      "CWE-664",
+      "CWE-707"
+    ]
+  }
+}

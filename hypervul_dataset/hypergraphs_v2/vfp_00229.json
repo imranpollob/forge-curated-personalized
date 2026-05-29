@@ -1,0 +1,548 @@
+{
+  "sample_id": "vfp_00229",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 43,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "vault",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "asset",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "hubVLFVault",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 64,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "strategist",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "executor",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 72,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "tally",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "totalBalance",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 80,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "storedTotalBalance",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 84,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "quoteDeallocateLiquidity",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 88,
+      "end_line": 91,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "quoteSettleYield",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 93,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "quoteSettleLoss",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 98,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "quoteSettleExtraRewards",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 103,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "deallocateLiquidity",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 110,
+      "end_line": 118,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "fetchLiquidity",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 120,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "returnLiquidity",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 131,
+      "end_line": 141,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "settle",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 143,
+      "end_line": 158,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "settleExtraRewards",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 160,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "execute",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 174,
+      "end_line": 183,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "execute",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 185,
+      "end_line": 200,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setTally",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 204,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setStrategist",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 217,
+      "end_line": 221,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setExecutor",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 223,
+      "end_line": 227,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "unsetStrategist",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 229,
+      "end_line": 232,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "unsetExecutor",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 234,
+      "end_line": 237,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_assertOnlyStrategist",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 241,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_assertOnlyExecutor",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 247,
+      "end_line": 251,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_tallyTotalBalance",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 253,
+      "end_line": 257,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_totalBalance",
+      "file": "VLFStrategyExecutor.sol",
+      "start_line": 259,
+      "end_line": 261,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VLFStrategyExecutor.sol:40",
+      "call_type": "INTERFACE_CALL",
+      "line": 40,
+      "enclosing_function": "",
+      "file": "VLFStrategyExecutor.sol",
+      "raw_text": "Address.sendValue(payable(_getStorageV1().strategist), msg.value);"
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "vault",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "asset",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "hubVLFVault",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "strategist",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "executor",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "tally",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "totalBalance",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "storedTotalBalance",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "quoteDeallocateLiquidity",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "quoteSettleYield",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "quoteSettleLoss",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "quoteSettleExtraRewards",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "deallocateLiquidity",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "fetchLiquidity",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "returnLiquidity",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "settle",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "settleExtraRewards",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "execute",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "execute",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setTally",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setStrategist",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "setExecutor",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "unsetStrategist",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "unsetExecutor",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_assertOnlyStrategist",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_assertOnlyExecutor",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_tallyTotalBalance",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_totalBalance",
+      "file": "VLFStrategyExecutor.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:VLFStrategyExecutor.sol:40",
+      "file": "VLFStrategyExecutor.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 30,
+    "n_hyperedges": 0,
+    "n_functions": 29,
+    "n_state_vars": 0,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00229",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-664",
+      "CWE-666",
+      "CWE-710"
+    ]
+  }
+}

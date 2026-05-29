@@ -1,0 +1,125 @@
+{
+  "sample_id": "neg_00092",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setHeartbeat",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol",
+      "start_line": 37,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getFeed",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol",
+      "start_line": 49,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol",
+      "start_line": 73,
+      "end_line": 93,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "FEED_REGISTRY",
+      "var_type": "address public immutable",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol",
+      "line": 14
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "heartbeat",
+      "var_type": "uint256 public",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol",
+      "line": 19
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setHeartbeat",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getFeed",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "FEED_REGISTRY",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "heartbeat",
+      "file": "stonks_contracts_test_FeedRegistryTest.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 6,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00092",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "sample_id": "neg_00534",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setReentrantCall",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "start_line": 21,
+      "end_line": 31,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "start_line": 33,
+      "end_line": 69,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "target",
+      "var_type": "address private",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "line": 10
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "value",
+      "var_type": "uint256 private",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "line": 11
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "data",
+      "var_type": "bytes private",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "line": 12
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "isBeforeCall",
+      "var_type": "bool private",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "line": 13
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol:40",
+      "call_type": "CALL",
+      "line": 40,
+      "enclosing_function": "transferFrom",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "raw_text": "(bool success, ) = target.call{value: value}(data);"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol:56",
+      "call_type": "CALL",
+      "line": 56,
+      "enclosing_function": "transferFrom",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol",
+      "raw_text": "(bool success, ) = target.call{value: value}(data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 6
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setReentrantCall",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "target",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "value",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "data",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "isBeforeCall",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol:40",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "CALL:scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol:56",
+      "file": "scroll-contracts_src_test_mocks_tokens_TransferReentrantToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 2,
+    "n_functions": 2,
+    "n_state_vars": 4,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 6.0
+  },
+  "label": {
+    "vfp_id": "neg_00534",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,1720 @@
+{
+  "sample_id": "vfp_00585",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getExpectedOut",
+      "file": "AmountConverter.sol",
+      "start_line": 135,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setEthUsdBridge",
+      "file": "OracleRouter.sol",
+      "start_line": 147,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "syncEthUsdBridge",
+      "file": "OracleRouter.sol",
+      "start_line": 159,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setTokenFeed",
+      "file": "OracleRouter.sol",
+      "start_line": 171,
+      "end_line": 179,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setTokenEthUsdStalenessOverride",
+      "file": "OracleRouter.sol",
+      "start_line": 186,
+      "end_line": 197,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTokenActive",
+      "file": "OracleRouter.sol",
+      "start_line": 204,
+      "end_line": 223,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "syncTokenFeed",
+      "file": "OracleRouter.sol",
+      "start_line": 229,
+      "end_line": 267,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getUsdPrices",
+      "file": "OracleRouter.sol",
+      "start_line": 278,
+      "end_line": 283,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getPricesAndDecimals",
+      "file": "OracleRouter.sol",
+      "start_line": 298,
+      "end_line": 336,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isBridgeInSync",
+      "file": "OracleRouter.sol",
+      "start_line": 342,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isFeedInSync",
+      "file": "OracleRouter.sol",
+      "start_line": 354,
+      "end_line": 372,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_updateEthUsdBridge",
+      "file": "OracleRouter.sol",
+      "start_line": 380,
+      "end_line": 403,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getUsdPrice",
+      "file": "OracleRouter.sol",
+      "start_line": 412,
+      "end_line": 423,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_getUsdPrices",
+      "file": "OracleRouter.sol",
+      "start_line": 429,
+      "end_line": 445,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_sharedBridgeIfSameCap",
+      "file": "OracleRouter.sol",
+      "start_line": 447,
+      "end_line": 471,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_readEthUsdWithCap",
+      "file": "OracleRouter.sol",
+      "start_line": 473,
+      "end_line": 484,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_effectiveEthUsdStaleness",
+      "file": "OracleRouter.sol",
+      "start_line": 486,
+      "end_line": 499,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_getPriceInQuote",
+      "file": "OracleRouter.sol",
+      "start_line": 501,
+      "end_line": 551,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_readNormalizedPrice",
+      "file": "OracleRouter.sol",
+      "start_line": 553,
+      "end_line": 599,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_setTokenFeed",
+      "file": "OracleRouter.sol",
+      "start_line": 601,
+      "end_line": 673,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_resolveFeedAndScale",
+      "file": "OracleRouter.sol",
+      "start_line": 675,
+      "end_line": 703,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_currentFeedMeta",
+      "file": "OracleRouter.sol",
+      "start_line": 705,
+      "end_line": 713,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_computeScaleFactors",
+      "file": "OracleRouter.sol",
+      "start_line": 715,
+      "end_line": 743,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Order.sol",
+      "start_line": 130,
+      "end_line": 190,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "Order.sol",
+      "start_line": 203,
+      "end_line": 346,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getOrderDetails",
+      "file": "Order.sol",
+      "start_line": 357,
+      "end_line": 370,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "recoverTokenFrom",
+      "file": "Order.sol",
+      "start_line": 376,
+      "end_line": 392,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "recoverERC20",
+      "file": "Order.sol",
+      "start_line": 402,
+      "end_line": 414,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "emergencyCancelAndReturn",
+      "file": "Order.sol",
+      "start_line": 422,
+      "end_line": 432,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "emergencyRevokeRelayer",
+      "file": "Order.sol",
+      "start_line": 438,
+      "end_line": 441,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_ensureInitialized",
+      "file": "Order.sol",
+      "start_line": 443,
+      "end_line": 447,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_revokeRelayerAllowance",
+      "file": "Order.sol",
+      "start_line": 449,
+      "end_line": 458,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_returnAllTokenFromToStonks",
+      "file": "Order.sol",
+      "start_line": 460,
+      "end_line": 469,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "placeOrder",
+      "file": "Stonks.sol",
+      "start_line": 205,
+      "end_line": 211,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "placeOrderWithAmount",
+      "file": "Stonks.sol",
+      "start_line": 219,
+      "end_line": 226,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "estimateTradeOutputFromCurrentBalance",
+      "file": "Stonks.sol",
+      "start_line": 235,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "getOrderParameters",
+      "file": "Stonks.sol",
+      "start_line": 246,
+      "end_line": 248,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "getPriceTolerance",
+      "file": "Stonks.sol",
+      "start_line": 255,
+      "end_line": 257,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getMaxImprovementBps",
+      "file": "Stonks.sol",
+      "start_line": 264,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "assertQuotable",
+      "file": "Stonks.sol",
+      "start_line": 272,
+      "end_line": 274,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "areSignaturesPaused",
+      "file": "Stonks.sol",
+      "start_line": 278,
+      "end_line": 280,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "isCreationPaused",
+      "file": "Stonks.sol",
+      "start_line": 282,
+      "end_line": 284,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "isKilled",
+      "file": "Stonks.sol",
+      "start_line": 286,
+      "end_line": 288,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "pauseCreation",
+      "file": "Stonks.sol",
+      "start_line": 295,
+      "end_line": 297,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "unpauseCreation",
+      "file": "Stonks.sol",
+      "start_line": 302,
+      "end_line": 304,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "pauseSignatures",
+      "file": "Stonks.sol",
+      "start_line": 309,
+      "end_line": 317,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "unpauseSignatures",
+      "file": "Stonks.sol",
+      "start_line": 322,
+      "end_line": 330,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "killSwitch",
+      "file": "Stonks.sol",
+      "start_line": 335,
+      "end_line": 353,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "estimateTradeOutput",
+      "file": "Stonks.sol",
+      "start_line": 374,
+      "end_line": 390,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_placeOrder",
+      "file": "Stonks.sol",
+      "start_line": 394,
+      "end_line": 419,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_validateAddresses",
+      "file": "Stonks.sol",
+      "start_line": 423,
+      "end_line": 458,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_validateDurations",
+      "file": "Stonks.sol",
+      "start_line": 460,
+      "end_line": 471,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_validateBps",
+      "file": "Stonks.sol",
+      "start_line": 473,
+      "end_line": 498,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "ORACLE_ROUTER",
+      "var_type": "IOracleRouter public immutable",
+      "file": "AmountConverter.sol",
+      "line": 19
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "USE_ETH_ANCHOR",
+      "var_type": "bool public immutable",
+      "file": "AmountConverter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "ROUTER_MAX_DECIMALS",
+      "var_type": "uint8 public immutable",
+      "file": "AmountConverter.sol",
+      "line": 24
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "allowedTokensToSell",
+      "var_type": "mapping(address tokenToSell => bool allowed) public",
+      "file": "AmountConverter.sol",
+      "line": 29
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "allowedTokensToBuy",
+      "var_type": "mapping(address tokenToBuy => bool allowed) public",
+      "file": "AmountConverter.sol",
+      "line": 31
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "PRICE_DECIMALS",
+      "var_type": "uint8 public immutable",
+      "file": "OracleRouter.sol",
+      "line": 23
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "PRICE_UNIT",
+      "var_type": "uint256 public immutable",
+      "file": "OracleRouter.sol",
+      "line": 25
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "FEED_REGISTRY",
+      "var_type": "address public immutable",
+      "file": "OracleRouter.sol",
+      "line": 27
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "USD_DENOMINATION",
+      "var_type": "address private constant",
+      "file": "OracleRouter.sol",
+      "line": 32
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "ETH_DENOMINATION",
+      "var_type": "address private constant",
+      "file": "OracleRouter.sol",
+      "line": 34
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "MAX_DECIMALS",
+      "var_type": "uint128 public constant",
+      "file": "OracleRouter.sol",
+      "line": 37
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "tokenConfig",
+      "var_type": "mapping(address => TokenConfig) public",
+      "file": "OracleRouter.sol",
+      "line": 65
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "ethUsdBridge",
+      "var_type": "FeedConfig public",
+      "file": "OracleRouter.sol",
+      "line": 67
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "RELAYER",
+      "var_type": "address public immutable",
+      "file": "Order.sol",
+      "line": 34
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "var_type": "bytes32 public immutable",
+      "file": "Order.sol",
+      "line": 36
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "ERC1271_MAGIC_VALUE",
+      "var_type": "bytes4 private constant",
+      "file": "Order.sol",
+      "line": 41
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "MIN_POSSIBLE_BALANCE",
+      "var_type": "uint256 private constant",
+      "file": "Order.sol",
+      "line": 43
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "MAX_BASIS_POINTS",
+      "var_type": "uint256 private constant",
+      "file": "Order.sol",
+      "line": 45
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "PRICE_SCALE",
+      "var_type": "uint256 private constant",
+      "file": "Order.sol",
+      "line": 47
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "APP_DATA",
+      "var_type": "bytes32 private constant",
+      "file": "Order.sol",
+      "line": 49
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "sellAmount",
+      "var_type": "uint256 private",
+      "file": "Order.sol",
+      "line": 54
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "buyAmount",
+      "var_type": "uint256 private",
+      "file": "Order.sol",
+      "line": 56
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "orderHash",
+      "var_type": "bytes32 private",
+      "file": "Order.sol",
+      "line": 58
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "stonks",
+      "var_type": "address public",
+      "file": "Order.sol",
+      "line": 60
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "validTo",
+      "var_type": "uint32 private",
+      "file": "Order.sol",
+      "line": 62
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "initialized",
+      "var_type": "bool private",
+      "file": "Order.sol",
+      "line": 64
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "allowPartialFill",
+      "var_type": "bool private",
+      "file": "Order.sol",
+      "line": 66
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "cancelled",
+      "var_type": "bool private",
+      "file": "Order.sol",
+      "line": 68
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "tokenFrom",
+      "var_type": "address private",
+      "file": "Order.sol",
+      "line": 71
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "tokenTo",
+      "var_type": "address private",
+      "file": "Order.sol",
+      "line": 72
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "AMOUNT_CONVERTER",
+      "var_type": "address public immutable",
+      "file": "Stonks.sol",
+      "line": 65
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "ORDER_SAMPLE",
+      "var_type": "address public immutable",
+      "file": "Stonks.sol",
+      "line": 67
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "TOKEN_FROM",
+      "var_type": "address public immutable",
+      "file": "Stonks.sol",
+      "line": 69
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "TOKEN_TO",
+      "var_type": "address public immutable",
+      "file": "Stonks.sol",
+      "line": 71
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "ORDER_DURATION_IN_SECONDS",
+      "var_type": "uint256 public immutable",
+      "file": "Stonks.sol",
+      "line": 73
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "MARGIN_IN_BASIS_POINTS",
+      "var_type": "uint256 public immutable",
+      "file": "Stonks.sol",
+      "line": 75
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "MARGIN_DIFFERENCE_IN_BASIS_POINTS",
+      "var_type": "uint256 public immutable",
+      "file": "Stonks.sol",
+      "line": 77
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "PRICE_TOLERANCE_IN_BASIS_POINTS",
+      "var_type": "uint256 public immutable",
+      "file": "Stonks.sol",
+      "line": 79
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "MAX_IMPROVEMENT_IN_BASIS_POINTS",
+      "var_type": "uint256 public immutable",
+      "file": "Stonks.sol",
+      "line": 81
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "ALLOW_PARTIAL_FILL",
+      "var_type": "bool public immutable",
+      "file": "Stonks.sol",
+      "line": 83
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "ORACLE_ROUTER",
+      "var_type": "IOracleRouter public immutable",
+      "file": "Stonks.sol",
+      "line": 86
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "MAX_BASIS_POINTS",
+      "var_type": "uint16 private constant",
+      "file": "Stonks.sol",
+      "line": 91
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "BASIS_POINTS_PARAMETERS_LIMIT",
+      "var_type": "uint16 private constant",
+      "file": "Stonks.sol",
+      "line": 93
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "MIN_POSSIBLE_BALANCE",
+      "var_type": "uint256 private constant",
+      "file": "Stonks.sol",
+      "line": 95
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "MIN_POSSIBLE_ORDER_DURATION_IN_SECONDS",
+      "var_type": "uint256 private constant",
+      "file": "Stonks.sol",
+      "line": 97
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "MAX_POSSIBLE_ORDER_DURATION_IN_SECONDS",
+      "var_type": "uint256 private constant",
+      "file": "Stonks.sol",
+      "line": 99
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "_signaturesPaused",
+      "var_type": "bool private",
+      "file": "Stonks.sol",
+      "line": 135
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "_killed",
+      "var_type": "bool private",
+      "file": "Stonks.sol",
+      "line": 136
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Order.sol:350",
+      "call_type": "INTERFACE_CALL",
+      "line": 350,
+      "enclosing_function": "recoverTokenFrom",
+      "file": "Order.sol",
+      "raw_text": "tokenFromErc.safeTransfer(stonks, balance);"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Order.sol:413",
+      "call_type": "INTERFACE_CALL",
+      "line": 413,
+      "enclosing_function": "_returnAllTokenFromToStonks",
+      "file": "Order.sol",
+      "raw_text": "tokenFromErc.safeTransfer(stonks, balance);"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Stonks.sol:228",
+      "call_type": "INTERFACE_CALL",
+      "line": 228,
+      "enclosing_function": "assertQuotable",
+      "file": "Stonks.sol",
+      "raw_text": "ORACLE_ROUTER.getUsdPrices(TOKEN_FROM, TOKEN_TO);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        26,
+        69,
+        76,
+        77,
+        81,
+        101
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 101
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        28,
+        32,
+        76,
+        80,
+        81,
+        102
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 102
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        39,
+        53,
+        85,
+        86,
+        103
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 103
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "getExpectedOut",
+      "file": "AmountConverter.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setEthUsdBridge",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "syncEthUsdBridge",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setTokenFeed",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setTokenEthUsdStalenessOverride",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setTokenActive",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "syncTokenFeed",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getUsdPrices",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getPricesAndDecimals",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isBridgeInSync",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isFeedInSync",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_updateEthUsdBridge",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_getUsdPrice",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_getUsdPrices",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_sharedBridgeIfSameCap",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_readEthUsdWithCap",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_effectiveEthUsdStaleness",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_getPriceInQuote",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_readNormalizedPrice",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_setTokenFeed",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_resolveFeedAndScale",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_currentFeedMeta",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_computeScaleFactors",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "getOrderDetails",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "recoverTokenFrom",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "recoverERC20",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "emergencyCancelAndReturn",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "emergencyRevokeRelayer",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "_ensureInitialized",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "_revokeRelayerAllowance",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "_returnAllTokenFromToStonks",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "placeOrder",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "placeOrderWithAmount",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "estimateTradeOutputFromCurrentBalance",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "getOrderParameters",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "getPriceTolerance",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getMaxImprovementBps",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "assertQuotable",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "areSignaturesPaused",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "isCreationPaused",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "isKilled",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "pauseCreation",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "unpauseCreation",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "pauseSignatures",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "unpauseSignatures",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "killSwitch",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "estimateTradeOutput",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_placeOrder",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_validateAddresses",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "_validateDurations",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "_validateBps",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "ORACLE_ROUTER",
+      "file": "AmountConverter.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "USE_ETH_ANCHOR",
+      "file": "AmountConverter.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "state_var",
+      "name": "ROUTER_MAX_DECIMALS",
+      "file": "AmountConverter.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "state_var",
+      "name": "allowedTokensToSell",
+      "file": "AmountConverter.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "state_var",
+      "name": "allowedTokensToBuy",
+      "file": "AmountConverter.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "state_var",
+      "name": "PRICE_DECIMALS",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "state_var",
+      "name": "PRICE_UNIT",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "state_var",
+      "name": "FEED_REGISTRY",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "state_var",
+      "name": "USD_DENOMINATION",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "state_var",
+      "name": "ETH_DENOMINATION",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "state_var",
+      "name": "MAX_DECIMALS",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "state_var",
+      "name": "tokenConfig",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "state_var",
+      "name": "ethUsdBridge",
+      "file": "OracleRouter.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "state_var",
+      "name": "RELAYER",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "state_var",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "state_var",
+      "name": "ERC1271_MAGIC_VALUE",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "state_var",
+      "name": "MIN_POSSIBLE_BALANCE",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "state_var",
+      "name": "MAX_BASIS_POINTS",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "state_var",
+      "name": "PRICE_SCALE",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "state_var",
+      "name": "APP_DATA",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "state_var",
+      "name": "sellAmount",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "state_var",
+      "name": "buyAmount",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "state_var",
+      "name": "orderHash",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "state_var",
+      "name": "stonks",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "state_var",
+      "name": "validTo",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "state_var",
+      "name": "initialized",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "state_var",
+      "name": "allowPartialFill",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "state_var",
+      "name": "cancelled",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "state_var",
+      "name": "tokenFrom",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "state_var",
+      "name": "tokenTo",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "state_var",
+      "name": "AMOUNT_CONVERTER",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "state_var",
+      "name": "ORDER_SAMPLE",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "state_var",
+      "name": "TOKEN_FROM",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "state_var",
+      "name": "TOKEN_TO",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "state_var",
+      "name": "ORDER_DURATION_IN_SECONDS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "state_var",
+      "name": "MARGIN_IN_BASIS_POINTS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "state_var",
+      "name": "MARGIN_DIFFERENCE_IN_BASIS_POINTS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "state_var",
+      "name": "PRICE_TOLERANCE_IN_BASIS_POINTS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "state_var",
+      "name": "MAX_IMPROVEMENT_IN_BASIS_POINTS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "state_var",
+      "name": "ALLOW_PARTIAL_FILL",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "state_var",
+      "name": "ORACLE_ROUTER",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "state_var",
+      "name": "MAX_BASIS_POINTS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "state_var",
+      "name": "BASIS_POINTS_PARAMETERS_LIMIT",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "state_var",
+      "name": "MIN_POSSIBLE_BALANCE",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "state_var",
+      "name": "MIN_POSSIBLE_ORDER_DURATION_IN_SECONDS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "state_var",
+      "name": "MAX_POSSIBLE_ORDER_DURATION_IN_SECONDS",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "state_var",
+      "name": "_signaturesPaused",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "state_var",
+      "name": "_killed",
+      "file": "Stonks.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Order.sol:350",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Order.sol:413",
+      "file": "Order.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Stonks.sol:228",
+      "file": "Stonks.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 104,
+    "n_hyperedges": 3,
+    "n_functions": 53,
+    "n_state_vars": 48,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 5.666666666666667
+  },
+  "label": {
+    "vfp_id": "vfp_00585",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-115",
+      "CWE-1164",
+      "CWE-1288",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-221",
+      "CWE-223",
+      "CWE-424",
+      "CWE-435",
+      "CWE-436",
+      "CWE-664",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-710",
+      "CWE-755",
+      "CWE-778",
+      "CWE-799",
+      "CWE-837"
+    ]
+  }
+}

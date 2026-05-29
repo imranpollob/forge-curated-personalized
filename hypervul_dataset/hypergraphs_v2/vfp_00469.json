@@ -1,0 +1,694 @@
+{
+  "sample_id": "vfp_00469",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "mErc20Host.sol",
+      "start_line": 83,
+      "end_line": 113,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getProofData",
+      "file": "mErc20Host.sol",
+      "start_line": 119,
+      "end_line": 121,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateAllowedChain",
+      "file": "mErc20Host.sol",
+      "start_line": 129,
+      "end_line": 134,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "extractForRebalancing",
+      "file": "mErc20Host.sol",
+      "start_line": 139,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMigrator",
+      "file": "mErc20Host.sol",
+      "start_line": 150,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setGasHelper",
+      "file": "mErc20Host.sol",
+      "start_line": 159,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawGasFees",
+      "file": "mErc20Host.sol",
+      "start_line": 168,
+      "end_line": 173,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateZkVerifier",
+      "file": "mErc20Host.sol",
+      "start_line": 179,
+      "end_line": 183,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateAllowedCallerStatus",
+      "file": "mErc20Host.sol",
+      "start_line": 189,
+      "end_line": 192,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "liquidateExternal",
+      "file": "mErc20Host.sol",
+      "start_line": 197,
+      "end_line": 222,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mintExternal",
+      "file": "mErc20Host.sol",
+      "start_line": 227,
+      "end_line": 250,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "repayExternal",
+      "file": "mErc20Host.sol",
+      "start_line": 255,
+      "end_line": 277,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "performExtensionCall",
+      "file": "mErc20Host.sol",
+      "start_line": 282,
+      "end_line": 300,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "mintOrBorrowMigration",
+      "file": "mErc20Host.sol",
+      "start_line": 305,
+      "end_line": 318,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_onlyAdminOrRole",
+      "file": "mErc20Host.sol",
+      "start_line": 321,
+      "end_line": 325,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_decodeJournals",
+      "file": "mErc20Host.sol",
+      "start_line": 327,
+      "end_line": 329,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_checkOutflow",
+      "file": "mErc20Host.sol",
+      "start_line": 331,
+      "end_line": 333,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_checkProofCall",
+      "file": "mErc20Host.sol",
+      "start_line": 335,
+      "end_line": 340,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_checkSender",
+      "file": "mErc20Host.sol",
+      "start_line": 342,
+      "end_line": 351,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getGasFees",
+      "file": "mErc20Host.sol",
+      "start_line": 353,
+      "end_line": 356,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_isAllowedFor",
+      "file": "mErc20Host.sol",
+      "start_line": 358,
+      "end_line": 360,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_getChainsManagerRole",
+      "file": "mErc20Host.sol",
+      "start_line": 362,
+      "end_line": 364,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_getProofForwarderRole",
+      "file": "mErc20Host.sol",
+      "start_line": 366,
+      "end_line": 368,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getBatchProofForwarderRole",
+      "file": "mErc20Host.sol",
+      "start_line": 370,
+      "end_line": 372,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getSequencerRole",
+      "file": "mErc20Host.sol",
+      "start_line": 374,
+      "end_line": 376,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_verifyProof",
+      "file": "mErc20Host.sol",
+      "start_line": 378,
+      "end_line": 399,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_liquidateExternal",
+      "file": "mErc20Host.sol",
+      "start_line": 401,
+      "end_line": 432,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_mintExternal",
+      "file": "mErc20Host.sol",
+      "start_line": 434,
+      "end_line": 457,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_repayExternal",
+      "file": "mErc20Host.sol",
+      "start_line": 459,
+      "end_line": 481,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "migrator",
+      "var_type": "address public",
+      "file": "mErc20Host.sol",
+      "line": 50
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "acc",
+      "var_type": "mapping(uint32 => Accumulated) internal",
+      "file": "mErc20Host.sol",
+      "line": 64
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "allowedCallers",
+      "var_type": "mapping(address => mapping(address => bool)) public",
+      "file": "mErc20Host.sol",
+      "line": 66
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "allowedChains",
+      "var_type": "mapping(uint32 => bool) public",
+      "file": "mErc20Host.sol",
+      "line": 67
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "verifier",
+      "var_type": "IZkVerifier public",
+      "file": "mErc20Host.sol",
+      "line": 68
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "gasHelper",
+      "var_type": "IGasFeesHelper public",
+      "file": "mErc20Host.sol",
+      "line": 69
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "TRANSFER:mErc20Host.sol:139",
+      "call_type": "TRANSFER",
+      "line": 139,
+      "enclosing_function": "withdrawGasFees",
+      "file": "mErc20Host.sol",
+      "raw_text": "receiver.transfer(balance);"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mErc20Host.sol:307",
+      "call_type": "INTERFACE_CALL",
+      "line": 307,
+      "enclosing_function": "_getGasFees",
+      "file": "mErc20Host.sol",
+      "raw_text": "return gasHelper.gasFees(dstChain);"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mErc20Host.sol:350",
+      "call_type": "INTERFACE_CALL",
+      "line": 350,
+      "enclosing_function": "_verifyProof",
+      "file": "mErc20Host.sol",
+      "raw_text": "verifier.verifyInput(journalData, seal);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        35
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 35
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        19,
+        34,
+        36
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 36
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        9,
+        10,
+        11,
+        25,
+        33,
+        37
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 37
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getProofData",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "updateAllowedChain",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "extractForRebalancing",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setMigrator",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setGasHelper",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawGasFees",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "updateZkVerifier",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateAllowedCallerStatus",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "liquidateExternal",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "mintExternal",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "repayExternal",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "performExtensionCall",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "mintOrBorrowMigration",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_onlyAdminOrRole",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_decodeJournals",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_checkOutflow",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_checkProofCall",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_checkSender",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_getGasFees",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_isAllowedFor",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_getChainsManagerRole",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_getProofForwarderRole",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_getBatchProofForwarderRole",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getSequencerRole",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_verifyProof",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_liquidateExternal",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_mintExternal",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_repayExternal",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "migrator",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "acc",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "allowedCallers",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "allowedChains",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "verifier",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "gasHelper",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "TRANSFER:mErc20Host.sol:139",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mErc20Host.sol:307",
+      "file": "mErc20Host.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:mErc20Host.sol:350",
+      "file": "mErc20Host.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 38,
+    "n_hyperedges": 3,
+    "n_functions": 29,
+    "n_state_vars": 6,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.6666666666666665
+  },
+  "label": {
+    "vfp_id": "vfp_00469",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-431",
+      "CWE-691"
+    ]
+  }
+}

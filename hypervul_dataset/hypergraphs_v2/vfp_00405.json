@@ -1,0 +1,905 @@
+{
+  "sample_id": "vfp_00405",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "PoolBase.sol",
+      "start_line": 148,
+      "end_line": 181,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "simSwap",
+      "file": "PoolBase.sol",
+      "start_line": 191,
+      "end_line": 222,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "simSwapReversed",
+      "file": "PoolBase.sol",
+      "start_line": 234,
+      "end_line": 253,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "enableSwaps",
+      "file": "PoolBase.sol",
+      "start_line": 259,
+      "end_line": 262,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setLPFee",
+      "file": "PoolBase.sol",
+      "start_line": 269,
+      "end_line": 273,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "PoolBase.sol",
+      "start_line": 280,
+      "end_line": 284,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addXSupply",
+      "file": "PoolBase.sol",
+      "start_line": 290,
+      "end_line": 300,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "collectProtocolFees",
+      "file": "PoolBase.sol",
+      "start_line": 305,
+      "end_line": 310,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "proposeProtocolFeeCollector",
+      "file": "PoolBase.sol",
+      "start_line": 317,
+      "end_line": 322,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "confirmProtocolFeeCollector",
+      "file": "PoolBase.sol",
+      "start_line": 328,
+      "end_line": 332,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "xTokenLiquidity",
+      "file": "PoolBase.sol",
+      "start_line": 338,
+      "end_line": 340,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "yTokenLiquidity",
+      "file": "PoolBase.sol",
+      "start_line": 346,
+      "end_line": 350,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "totalRevenue",
+      "file": "PoolBase.sol",
+      "start_line": 356,
+      "end_line": 358,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "spotPrice",
+      "file": "PoolBase.sol",
+      "start_line": 364,
+      "end_line": 371,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "collectedLPFees",
+      "file": "PoolBase.sol",
+      "start_line": 377,
+      "end_line": 379,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "collectedLPFeesPerLiquidityUnit",
+      "file": "PoolBase.sol",
+      "start_line": 385,
+      "end_line": 387,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_validateInput",
+      "file": "PoolBase.sol",
+      "start_line": 394,
+      "end_line": 399,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_normalizeTokenDecimals",
+      "file": "PoolBase.sol",
+      "start_line": 408,
+      "end_line": 411,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_determineFeeAmountSell",
+      "file": "PoolBase.sol",
+      "start_line": 419,
+      "end_line": 421,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_determineFeeAmountBuy",
+      "file": "PoolBase.sol",
+      "start_line": 438,
+      "end_line": 440,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_determineProtocolAndLPFeesBuy",
+      "file": "PoolBase.sol",
+      "start_line": 451,
+      "end_line": 470,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkSlippage",
+      "file": "PoolBase.sol",
+      "start_line": 477,
+      "end_line": 479,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "w",
+      "file": "PoolBase.sol",
+      "start_line": 485,
+      "end_line": 487,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "wInactive",
+      "file": "PoolBase.sol",
+      "start_line": 489,
+      "end_line": 491,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "PoolBase.sol",
+      "start_line": 498,
+      "end_line": 515,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_totalRevenue",
+      "file": "PoolBase.sol",
+      "start_line": 521,
+      "end_line": 523,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "xToken",
+      "var_type": "address public immutable",
+      "file": "PoolBase.sol",
+      "line": 28
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "yToken",
+      "var_type": "address public immutable",
+      "file": "PoolBase.sol",
+      "line": 29
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "POOL_NATIVE_DECIMALS_NEGATIVE",
+      "var_type": "int256 constant",
+      "file": "PoolBase.sol",
+      "line": 30
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "yDecimalDiff",
+      "var_type": "uint256 public immutable",
+      "file": "PoolBase.sol",
+      "line": 36
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "xMin",
+      "var_type": "packedFloat public",
+      "file": "PoolBase.sol",
+      "line": 42
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "x",
+      "var_type": "packedFloat public",
+      "file": "PoolBase.sol",
+      "line": 47
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "h",
+      "var_type": "packedFloat public",
+      "file": "PoolBase.sol",
+      "line": 53
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "r",
+      "var_type": "uint256 public",
+      "file": "PoolBase.sol",
+      "line": 59
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "lpFee",
+      "var_type": "uint16 public",
+      "file": "PoolBase.sol",
+      "line": 64
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "var_type": "uint16 public",
+      "file": "PoolBase.sol",
+      "line": 69
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "protocolFeeCollector",
+      "var_type": "address public",
+      "file": "PoolBase.sol",
+      "line": 74
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "proposedProtocolFeeCollector",
+      "var_type": "address public",
+      "file": "PoolBase.sol",
+      "line": 79
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "_collectedLPFees",
+      "var_type": "packedFloat",
+      "file": "PoolBase.sol",
+      "line": 84
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "collectedProtocolFees",
+      "var_type": "uint256 public",
+      "file": "PoolBase.sol",
+      "line": 89
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "_wInactive",
+      "var_type": "packedFloat",
+      "file": "PoolBase.sol",
+      "line": 94
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "_w",
+      "var_type": "packedFloat",
+      "file": "PoolBase.sol",
+      "line": 99
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:123",
+      "call_type": "INTERFACE_CALL",
+      "line": 123,
+      "enclosing_function": "swap",
+      "file": "PoolBase.sol",
+      "raw_text": "x = sellingX ? x.sub(int(_amountIn).toPackedFloat(-18)) : x.add(int(amountOut).toPackedFloat(-18));"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:128",
+      "call_type": "INTERFACE_CALL",
+      "line": 128,
+      "enclosing_function": "swap",
+      "file": "PoolBase.sol",
+      "raw_text": "_collectedLPFees = _collectedLPFees.add(int(lpFeeAmount).toPackedFloat(int(yDecimalDiff) - int(POOL_NATIVE_DECIMALS)).div(_w));"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:279",
+      "call_type": "INTERFACE_CALL",
+      "line": 279,
+      "enclosing_function": "collectedLPFees",
+      "file": "PoolBase.sol",
+      "raw_text": "return _normalizeTokenDecimals(false, uint((_collectedLPFees.mul(_w)).convertpackedFloatToWAD()));"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:284",
+      "call_type": "INTERFACE_CALL",
+      "line": 284,
+      "enclosing_function": "collectedLPFeesPerLiquidityUnit",
+      "file": "PoolBase.sol",
+      "raw_text": "return _normalizeTokenDecimals(false, uint(_collectedLPFees.convertpackedFloatToWAD()));"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:340",
+      "call_type": "INTERFACE_CALL",
+      "line": 340,
+      "enclosing_function": "w",
+      "file": "PoolBase.sol",
+      "raw_text": "return uint(_w.convertpackedFloatToWAD());"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:344",
+      "call_type": "INTERFACE_CALL",
+      "line": 344,
+      "enclosing_function": "wInactive",
+      "file": "PoolBase.sol",
+      "raw_text": "return uint(_wInactive.convertpackedFloatToWAD());"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:369",
+      "call_type": "INTERFACE_CALL",
+      "line": 369,
+      "enclosing_function": "_totalRevenue",
+      "file": "PoolBase.sol",
+      "raw_text": "revenue = uint((h.mul(_w)).convertpackedFloatToWAD());"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        26,
+        27,
+        29,
+        31,
+        38,
+        39,
+        41,
+        42
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 42
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        26,
+        27,
+        29,
+        31,
+        38,
+        39,
+        41,
+        43
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 43
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        14,
+        38,
+        41,
+        44
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 44
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        15,
+        38,
+        45
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 45
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        22,
+        41,
+        46
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 46
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        23,
+        40,
+        47
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 47
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        11,
+        12,
+        25,
+        27,
+        32,
+        33,
+        39,
+        41,
+        48
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 48
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swap",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "simSwap",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "simSwapReversed",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "enableSwaps",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setLPFee",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "addXSupply",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "collectProtocolFees",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "proposeProtocolFeeCollector",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "confirmProtocolFeeCollector",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "xTokenLiquidity",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "yTokenLiquidity",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "totalRevenue",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "spotPrice",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "collectedLPFees",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "collectedLPFeesPerLiquidityUnit",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_validateInput",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_normalizeTokenDecimals",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_determineFeeAmountSell",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_determineFeeAmountBuy",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_determineProtocolAndLPFeesBuy",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkSlippage",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "w",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "wInactive",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "tokenURI",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_totalRevenue",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "xToken",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "yToken",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "POOL_NATIVE_DECIMALS_NEGATIVE",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "yDecimalDiff",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "xMin",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "x",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "h",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "r",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "lpFee",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "protocolFeeCollector",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "proposedProtocolFeeCollector",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "state_var",
+      "name": "_collectedLPFees",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "state_var",
+      "name": "collectedProtocolFees",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "state_var",
+      "name": "_wInactive",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "state_var",
+      "name": "_w",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:123",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:128",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:279",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:284",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:340",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:344",
+      "file": "PoolBase.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:PoolBase.sol:369",
+      "file": "PoolBase.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 49,
+    "n_hyperedges": 7,
+    "n_functions": 26,
+    "n_state_vars": 16,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 5.714285714285714
+  },
+  "label": {
+    "vfp_id": "vfp_00405",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-682",
+      "CWE-693"
+    ]
+  }
+}

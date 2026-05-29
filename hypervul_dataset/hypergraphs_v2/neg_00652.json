@@ -1,0 +1,297 @@
+{
+  "sample_id": "neg_00652",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "start_line": 15,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "start_line": 20,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "start_line": 31,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "start_line": 53,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "start_line": 60,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "start_line": 6,
+      "end_line": 6,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "create",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "start_line": 18,
+      "end_line": 21,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "lock",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "start_line": 35,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "free",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "start_line": 40,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "var_type": "mapping (address => uint256)                      public",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "line": 6
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping (address => mapping (address => uint256)) public",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "line": 7
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "var_type": "uint256 public",
+      "file": "lockstake_test_mocks_UsdsMock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "stake",
+      "var_type": "mapping(address => uint256) public",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "line": 25
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "gov",
+      "var_type": "GemLike immutable public",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "line": 27
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "TRANSFER:lockstake_test_mocks_VoteDelegateMock.sol:42",
+      "call_type": "TRANSFER",
+      "line": 42,
+      "enclosing_function": "free",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol",
+      "raw_text": "gov.transfer(msg.sender, wad);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        9,
+        13,
+        14,
+        15
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 15
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "create",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "lock",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "free",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "file": "lockstake_test_mocks_UsdsMock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "stake",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "gov",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "TRANSFER:lockstake_test_mocks_VoteDelegateMock.sol:42",
+      "file": "lockstake_test_mocks_VoteDelegateMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 1,
+    "n_functions": 10,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00652",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

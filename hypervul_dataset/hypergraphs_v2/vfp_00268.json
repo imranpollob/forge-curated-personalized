@@ -1,0 +1,114 @@
+{
+  "sample_id": "vfp_00268",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "ExchangeReleaser.sol",
+      "start_line": 36,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_release",
+      "file": "ExchangeReleaser.sol",
+      "start_line": 42,
+      "end_line": 48,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "ASSET_SINK",
+      "var_type": "IAssetSink public immutable",
+      "file": "ExchangeReleaser.sol",
+      "line": 23
+    },
+    {
+      "node_id": 3,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ExchangeReleaser.sol:46",
+      "call_type": "INTERFACE_CALL",
+      "line": 46,
+      "enclosing_function": "_release",
+      "file": "ExchangeReleaser.sol",
+      "raw_text": "RESOURCE.safeTransferFrom(msg.sender, RESOURCE_RECIPIENT, threshold);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 3
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "release",
+      "file": "ExchangeReleaser.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_release",
+      "file": "ExchangeReleaser.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "ASSET_SINK",
+      "file": "ExchangeReleaser.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ExchangeReleaser.sol:46",
+      "file": "ExchangeReleaser.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 1,
+    "n_functions": 2,
+    "n_state_vars": 1,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00268",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-221",
+      "CWE-223",
+      "CWE-664",
+      "CWE-778"
+    ]
+  }
+}

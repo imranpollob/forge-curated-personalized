@@ -1,0 +1,215 @@
+{
+  "sample_id": "vfp_00141",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Pool.sol",
+      "start_line": 87,
+      "end_line": 95,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "Pool.sol",
+      "start_line": 100,
+      "end_line": 103,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMarginFee",
+      "file": "Pool.sol",
+      "start_line": 108,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "modifyLiquidity",
+      "file": "Pool.sol",
+      "start_line": 117,
+      "end_line": 177,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swap",
+      "file": "Pool.sol",
+      "start_line": 197,
+      "end_line": 267,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "lend",
+      "file": "Pool.sol",
+      "start_line": 283,
+      "end_line": 307,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "margin",
+      "file": "Pool.sol",
+      "start_line": 309,
+      "end_line": 339,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "checkPoolInitialized",
+      "file": "Pool.sol",
+      "start_line": 343,
+      "end_line": 345,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateInterests",
+      "file": "Pool.sol",
+      "start_line": 352,
+      "end_line": 440,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateReserves",
+      "file": "Pool.sol",
+      "start_line": 445,
+      "end_line": 468,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setMarginFee",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "modifyLiquidity",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "swap",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "lend",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "margin",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "checkPoolInitialized",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "updateInterests",
+      "file": "Pool.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "updateReserves",
+      "file": "Pool.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 10,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00141",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1188",
+      "CWE-1329",
+      "CWE-1339",
+      "CWE-1419",
+      "CWE-372",
+      "CWE-453",
+      "CWE-664",
+      "CWE-665",
+      "CWE-682"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "sample_id": "neg_00210",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "CONTROLLER",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 85,
+      "end_line": 85,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 99,
+      "end_line": 105,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 114,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setUnlimitedRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 120,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 131,
+      "end_line": 131,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getCurrentRateLimit",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 138,
+      "end_line": 138,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "triggerRateLimitDecrease",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 151,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "triggerRateLimitIncrease",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol",
+      "start_line": 161,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "exampleCall",
+      "file": "grove-alm-controller_test_unit_mocks_MockTarget.sol",
+      "start_line": 14,
+      "end_line": 25,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "CONTROLLER",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setUnlimitedRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getRateLimitData",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getCurrentRateLimit",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "triggerRateLimitDecrease",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "triggerRateLimitIncrease",
+      "file": "grove-alm-controller_src_interfaces_IRateLimits.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "exampleCall",
+      "file": "grove-alm-controller_test_unit_mocks_MockTarget.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00210",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

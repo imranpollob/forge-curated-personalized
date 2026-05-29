@@ -1,0 +1,296 @@
+{
+  "sample_id": "neg_00676",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "contracts_contracts_Redstone_SpokePool.sol",
+      "start_line": 38,
+      "end_line": 44,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "start_line": 42,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "start_line": 73,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getL1CallValue",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "start_line": 86,
+      "end_line": 88,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_contractHasSufficientEthBalance",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "start_line": 90,
+      "end_line": 93,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "contracts_contracts_chain-adapters_l2_Arbitrum_WithdrawalHelper.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawToken",
+      "file": "contracts_contracts_chain-adapters_l2_Arbitrum_WithdrawalHelper.sol",
+      "start_line": 65,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "contracts_contracts_chain-adapters_l2_Arbitrum_WithdrawalHelper.sol",
+      "start_line": 91,
+      "end_line": 93,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "l2MaxSubmissionCost",
+      "var_type": "uint256 public immutable",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "line": 18
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "l2GasPrice",
+      "var_type": "uint256 public immutable",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "line": 19
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "RELAY_TOKENS_L2_GAS_LIMIT",
+      "var_type": "uint32 public constant",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "line": 20
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "l1ERC20GatewayRouter",
+      "var_type": "ArbitrumL1ERC20GatewayLike public immutable",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "line": 22
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "l2RefundL2Address",
+      "var_type": "address public immutable",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "line": 23
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol:36",
+      "call_type": "INTERFACE_CALL",
+      "line": 36,
+      "enclosing_function": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "raw_text": "address erc20Gateway = l1ERC20GatewayRouter.getGateway(l1Token);"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol:43",
+      "call_type": "INTERFACE_CALL",
+      "line": 43,
+      "enclosing_function": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol",
+      "raw_text": "l1ERC20GatewayRouter.outboundTransferCustomRefund{ value: requiredL1CallValue }("
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "contracts_contracts_Redstone_SpokePool.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "relayMessage",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "relayTokens",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getL1CallValue",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_contractHasSufficientEthBalance",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "contracts_contracts_chain-adapters_l2_Arbitrum_WithdrawalHelper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawToken",
+      "file": "contracts_contracts_chain-adapters_l2_Arbitrum_WithdrawalHelper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_requireAdminSender",
+      "file": "contracts_contracts_chain-adapters_l2_Arbitrum_WithdrawalHelper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "l2MaxSubmissionCost",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "l2GasPrice",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "RELAY_TOKENS_L2_GAS_LIMIT",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "l1ERC20GatewayRouter",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "l2RefundL2Address",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol:36",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol:43",
+      "file": "contracts_contracts_chain-adapters_Arbitrum_SendTokensAdapter.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 15,
+    "n_hyperedges": 2,
+    "n_functions": 8,
+    "n_state_vars": 5,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 7.0
+  },
+  "label": {
+    "vfp_id": "neg_00676",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

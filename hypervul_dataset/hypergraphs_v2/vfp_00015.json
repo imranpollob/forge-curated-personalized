@@ -1,0 +1,487 @@
+{
+  "sample_id": "vfp_00015",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LevelReserveLens.sol",
+      "start_line": 65,
+      "end_line": 68,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getReserves",
+      "file": "LevelReserveLens.sol",
+      "start_line": 71,
+      "end_line": 87,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getReserveValue",
+      "file": "LevelReserveLens.sol",
+      "start_line": 90,
+      "end_line": 110,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getReserveValue",
+      "file": "LevelReserveLens.sol",
+      "start_line": 113,
+      "end_line": 125,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getReservePrice",
+      "file": "LevelReserveLens.sol",
+      "start_line": 128,
+      "end_line": 141,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getReservePriceDecimals",
+      "file": "LevelReserveLens.sol",
+      "start_line": 144,
+      "end_line": 146,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getMintPrice",
+      "file": "LevelReserveLens.sol",
+      "start_line": 149,
+      "end_line": 168,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "LevelReserveLens.sol",
+      "start_line": 171,
+      "end_line": 191,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getEigenStake",
+      "file": "LevelReserveLens.sol",
+      "start_line": 200,
+      "end_line": 203,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getSymbioticStake",
+      "file": "LevelReserveLens.sol",
+      "start_line": 212,
+      "end_line": 222,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "safeAdjustForDecimals",
+      "file": "LevelReserveLens.sol",
+      "start_line": 231,
+      "end_line": 245,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getReserves",
+      "file": "LevelReserveLens.sol",
+      "start_line": 255,
+      "end_line": 273,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "LevelReserveLens.sol",
+      "start_line": 276,
+      "end_line": 276,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "levelMintingAddress",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 36
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "eigenReserveManager",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 37
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "symbioticReserveManager",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 38
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "karakReserveManager",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 39
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "waUsdcSymbioticVault",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 40
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "waUsdtSymbioticVault",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 41
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "usdcEigenStrategy",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 42
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "usdtEigenStrategy",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 43
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "usdcAddress",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 45
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "usdtAddress",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 46
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "waUsdcAddress",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 47
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "waUsdtAddress",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 48
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "lvlusdAddress",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 49
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "usdcOracle",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 51
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "usdtOracle",
+      "var_type": "address public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 52
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "LVLUSD_DECIMALS",
+      "var_type": "uint8 public constant",
+      "file": "LevelReserveLens.sol",
+      "line": 54
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getReserves",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getReserveValue",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getReserveValue",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getReservePrice",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getReservePriceDecimals",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getMintPrice",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "getRedeemPrice",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getEigenStake",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "getSymbioticStake",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "safeAdjustForDecimals",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_getReserves",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "levelMintingAddress",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "eigenReserveManager",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "symbioticReserveManager",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "karakReserveManager",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "waUsdcSymbioticVault",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "waUsdtSymbioticVault",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "usdcEigenStrategy",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "usdtEigenStrategy",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "usdcAddress",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "usdtAddress",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "waUsdcAddress",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "waUsdtAddress",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "lvlusdAddress",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "usdcOracle",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "usdtOracle",
+      "file": "LevelReserveLens.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "LVLUSD_DECIMALS",
+      "file": "LevelReserveLens.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 29,
+    "n_hyperedges": 0,
+    "n_functions": 13,
+    "n_state_vars": 16,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00015",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1120",
+      "CWE-1164",
+      "CWE-345",
+      "CWE-348",
+      "CWE-563",
+      "CWE-693",
+      "CWE-710"
+    ]
+  }
+}

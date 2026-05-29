@@ -1,0 +1,152 @@
+{
+  "sample_id": "vfp_00501",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hash",
+      "file": "KeyLib.sol",
+      "start_line": 29,
+      "end_line": 31,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isRootKey",
+      "file": "KeyLib.sol",
+      "start_line": 34,
+      "end_line": 36,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isRootKey",
+      "file": "KeyLib.sol",
+      "start_line": 39,
+      "end_line": 41,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "toRootKey",
+      "file": "KeyLib.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "toKeyHash",
+      "file": "KeyLib.sol",
+      "start_line": 50,
+      "end_line": 53,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verify",
+      "file": "KeyLib.sol",
+      "start_line": 56,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ROOT_KEY_HASH",
+      "var_type": "bytes32 public constant",
+      "file": "KeyLib.sol",
+      "line": 25
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hash",
+      "file": "KeyLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isRootKey",
+      "file": "KeyLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "isRootKey",
+      "file": "KeyLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "toRootKey",
+      "file": "KeyLib.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "toKeyHash",
+      "file": "KeyLib.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "verify",
+      "file": "KeyLib.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "ROOT_KEY_HASH",
+      "file": "KeyLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 7,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00501",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-358",
+      "CWE-693"
+    ]
+  }
+}

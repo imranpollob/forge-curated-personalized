@@ -1,0 +1,200 @@
+{
+  "sample_id": "neg_00486",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "start_line": 17,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "removeLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "start_line": 35,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "tokens",
+      "var_type": "address[2] public",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "bpt",
+      "var_type": "ERC20Mock public",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "line": 10
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:31",
+      "call_type": "INTERFACE_CALL",
+      "line": 31,
+      "enclosing_function": "addLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "raw_text": "bpt.mint(msg.sender, exactBptAmountOut);"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:47",
+      "call_type": "INTERFACE_CALL",
+      "line": 47,
+      "enclosing_function": "removeLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "raw_text": "bpt.burn(msg.sender, exactBptAmountIn);"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "TRANSFER:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:48",
+      "call_type": "TRANSFER",
+      "line": 48,
+      "enclosing_function": "removeLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "raw_text": "IERC20(tokens[0]).transfer(msg.sender, minAmountsOut[0]);"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:49",
+      "call_type": "TRANSFER",
+      "line": 49,
+      "enclosing_function": "removeLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol",
+      "raw_text": "IERC20(tokens[1]).transfer(msg.sender, minAmountsOut[1]);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 4
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 5
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 6
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "addLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "removeLiquidityProportional",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "tokens",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "bpt",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:31",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:47",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "TRANSFER:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:48",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "TRANSFER:cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol:49",
+      "file": "cd3992aec0847063c2b979c51f6cac7dd2ff03bd_tokenomics_test_mocks_BalancerV3RouterMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 4,
+    "n_functions": 2,
+    "n_state_vars": 2,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00486",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

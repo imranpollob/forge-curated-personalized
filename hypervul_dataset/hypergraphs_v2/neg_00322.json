@@ -1,0 +1,796 @@
+{
+  "sample_id": "neg_00322",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "contractCallValue",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 25,
+      "end_line": 29,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "contractCallWithTokenValue",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 33,
+      "end_line": 39,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 41,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 68,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "expressExecute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 130,
+      "end_line": 151,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "expressExecuteWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 153,
+      "end_line": 203,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_transferToExecutor",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 205,
+      "end_line": 217,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_transferFromExecutor",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 219,
+      "end_line": 231,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 233,
+      "end_line": 237,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_executeWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "start_line": 239,
+      "end_line": 245,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "__PaymentSplitter_init",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "__PaymentSplitter_init_unchained",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 56,
+      "end_line": 63,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "totalShares",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 81,
+      "end_line": 83,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "totalReleased",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 88,
+      "end_line": 90,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "totalReleased",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 96,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "shares",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 103,
+      "end_line": 105,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "released",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 110,
+      "end_line": 112,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "released",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 118,
+      "end_line": 120,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "payee",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 125,
+      "end_line": 127,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "releasable",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 132,
+      "end_line": 135,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "releasable",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 141,
+      "end_line": 144,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "release",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 150,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "release",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 173,
+      "end_line": 190,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_pendingPayment",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 196,
+      "end_line": 202,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_addPayee",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "start_line": 209,
+      "end_line": 218,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "gateway",
+      "var_type": "IAxelarGateway public immutable",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "line": 16
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "_totalShares",
+      "var_type": "uint256 private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 35
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "_totalReleased",
+      "var_type": "uint256 private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 36
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "_shares",
+      "var_type": "mapping(address => uint256) private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 38
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "_released",
+      "var_type": "mapping(address => uint256) private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 39
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "_payees",
+      "var_type": "address[] private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 40
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "_erc20TotalReleased",
+      "var_type": "mapping(IERC20Upgradeable => uint256) private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 42
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "_erc20Released",
+      "var_type": "mapping(IERC20Upgradeable => mapping(address => uint256)) private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 43
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "__gap",
+      "var_type": "uint256[43] private",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "line": 225
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:49",
+      "call_type": "INTERFACE_CALL",
+      "line": 49,
+      "enclosing_function": "execute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "raw_text": "if (!gateway.validateContractCall(commandId, sourceChain, sourceAddress, payloadHash))"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:78",
+      "call_type": "INTERFACE_CALL",
+      "line": 78,
+      "enclosing_function": "executeWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "raw_text": "!gateway.validateContractCallAndMint("
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:125",
+      "call_type": "INTERFACE_CALL",
+      "line": 125,
+      "enclosing_function": "executeWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "raw_text": "address gatewayToken = gateway.tokenAddresses(tokenSymbol);"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:136",
+      "call_type": "INTERFACE_CALL",
+      "line": 136,
+      "enclosing_function": "expressExecute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "raw_text": "if (gateway.isCommandExecuted(commandId)) revert AlreadyExecuted();"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:161",
+      "call_type": "INTERFACE_CALL",
+      "line": 161,
+      "enclosing_function": "expressExecuteWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "raw_text": "if (gateway.isCommandExecuted(commandId)) revert AlreadyExecuted();"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:198",
+      "call_type": "INTERFACE_CALL",
+      "line": 198,
+      "enclosing_function": "expressExecuteWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol",
+      "raw_text": "address gatewayToken = gateway.tokenAddresses(symbol);"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol:129",
+      "call_type": "INTERFACE_CALL",
+      "line": 129,
+      "enclosing_function": "release",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "raw_text": "SafeERC20Upgradeable.safeTransfer(token, account, payment);"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol:148",
+      "call_type": "INTERFACE_CALL",
+      "line": 148,
+      "enclosing_function": "_addPayee",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol",
+      "raw_text": "_payees.push(account);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        34
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 34
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        25,
+        35
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 35
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        3,
+        25,
+        36
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 36
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        25,
+        37
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 37
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        5,
+        25,
+        38
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 38
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        5,
+        25,
+        39
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 39
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        21,
+        27,
+        28,
+        29,
+        31,
+        32,
+        40
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 40
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        10,
+        11,
+        24,
+        26,
+        28,
+        30,
+        41
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 41
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "contractCallValue",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "contractCallWithTokenValue",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "execute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "executeWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "expressExecute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "expressExecuteWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_transferToExecutor",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_transferFromExecutor",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_executeWithToken",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "__PaymentSplitter_init",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "__PaymentSplitter_init_unchained",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "totalShares",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "totalReleased",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "totalReleased",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "shares",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "released",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "released",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "payee",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "releasable",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "releasable",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "release",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "release",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_pendingPayment",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_addPayee",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "gateway",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "_totalShares",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "_totalReleased",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "_shares",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "_released",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "_payees",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "_erc20TotalReleased",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "_erc20Released",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "__gap",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:49",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:78",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:125",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:136",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:161",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol:198",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_axelar-gmp-sdk-solidity_contracts_express_AxelarValuedExpressExecutable.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol:129",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol:148",
+      "file": "64c5ba2db3155fee10d5fb5331dd371499c9548f_skip-go-evm-contracts_AxelarHandler_lib_openzeppelin-contracts-upgradeable_contracts_finance_PaymentSplitterUpgradeable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 42,
+    "n_hyperedges": 8,
+    "n_functions": 25,
+    "n_state_vars": 9,
+    "n_call_sites": 8,
+    "avg_hyperedge_size": 3.875
+  },
+  "label": {
+    "vfp_id": "neg_00322",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

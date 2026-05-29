@@ -1,0 +1,1060 @@
+{
+  "sample_id": "vfp_00136",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_requireAuth",
+      "file": "BasePositionManager.sol",
+      "start_line": 48,
+      "end_line": 52,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_clearNative",
+      "file": "BasePositionManager.sol",
+      "start_line": 54,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_processDelta",
+      "file": "BasePositionManager.sol",
+      "start_line": 62,
+      "end_line": 100,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_mintPosition",
+      "file": "BasePositionManager.sol",
+      "start_line": 102,
+      "end_line": 121,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "BasePositionManager.sol",
+      "start_line": 124,
+      "end_line": 124,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 37,
+      "end_line": 49,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 52,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addLending",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 69,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 81,
+      "end_line": 96,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 99,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 104,
+      "end_line": 119,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "handleLend",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 121,
+      "end_line": 130,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 133,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 164,
+      "end_line": 192,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "handleSwap",
+      "file": "LikwidLendPosition.sol",
+      "start_line": 194,
+      "end_line": 264,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 66,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_getPoolState",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 76,
+      "end_line": 78,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_getPoolCumulativeValues",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 85,
+      "end_line": 97,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 99,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "checkLiquidate",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 117,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_checkLiquidate",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 128,
+      "end_line": 144,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkMinLevel",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 146,
+      "end_line": 157,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_processLost",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 159,
+      "end_line": 176,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "addMargin",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 179,
+      "end_line": 199,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_margin",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 201,
+      "end_line": 241,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "margin",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 244,
+      "end_line": 251,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_executeAddLeverage",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 253,
+      "end_line": 313,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_executeAddCollateralAndBorrow",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 315,
+      "end_line": 358,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "repay",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 361,
+      "end_line": 416,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "close",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 419,
+      "end_line": 482,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "liquidateBurn",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 485,
+      "end_line": 554,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "liquidateCall",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 557,
+      "end_line": 633,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "modify",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 636,
+      "end_line": 684,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "handleMargin",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 686,
+      "end_line": 695,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "handleLiquidateBurn",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 697,
+      "end_line": 721,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setMarginLevel",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 724,
+      "end_line": 730,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setDefaultMarginFee",
+      "file": "LikwidMarginPosition.sol",
+      "start_line": 732,
+      "end_line": 736,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 31,
+      "end_line": 41,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 44,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 51,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_increaseLiquidity",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 60,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "increaseLiquidity",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 91,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 102,
+      "end_line": 125,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "handleModifyLiquidity",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 127,
+      "end_line": 143,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 146,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 173,
+      "end_line": 197,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "handleSwap",
+      "file": "LikwidPairPosition.sol",
+      "start_line": 199,
+      "end_line": 216,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "nextId",
+      "var_type": "uint256 public",
+      "file": "BasePositionManager.sol",
+      "line": 32
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "poolIds",
+      "var_type": "mapping(uint256 tokenId => PoolId poolId) public",
+      "file": "BasePositionManager.sol",
+      "line": 34
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "poolKeys",
+      "var_type": "mapping(PoolId poolId => PoolKey poolKey) public",
+      "file": "BasePositionManager.sol",
+      "line": 35
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "lendDirections",
+      "var_type": "mapping(uint256 tokenId => bool lendForOne) public",
+      "file": "LikwidLendPosition.sol",
+      "line": 25
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "MAX_LEVERAGE",
+      "var_type": "uint8 constant",
+      "file": "LikwidMarginPosition.sol",
+      "line": 44
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "positionInfos",
+      "var_type": "mapping(uint256 tokenId => MarginPosition.State positionInfo) private",
+      "file": "LikwidMarginPosition.sol",
+      "line": 46
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "marginLevels",
+      "var_type": "MarginLevels public",
+      "file": "LikwidMarginPosition.sol",
+      "line": 47
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "defaultMarginFee",
+      "var_type": "uint24 public",
+      "file": "LikwidMarginPosition.sol",
+      "line": 48
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "TRANSFER:BasePositionManager.sol:58",
+      "call_type": "TRANSFER",
+      "line": 58,
+      "enclosing_function": "_clearNative",
+      "file": "BasePositionManager.sol",
+      "raw_text": "CurrencyLibrary.ADDRESS_ZERO.transfer(spender, balance);"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LikwidMarginPosition.sol:220",
+      "call_type": "INTERFACE_CALL",
+      "line": 220,
+      "enclosing_function": "_margin",
+      "file": "LikwidMarginPosition.sol",
+      "raw_text": "minLevel = marginLevels.minMarginLevel();"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LikwidMarginPosition.sol:223",
+      "call_type": "INTERFACE_CALL",
+      "line": 223,
+      "enclosing_function": "_margin",
+      "file": "LikwidMarginPosition.sol",
+      "raw_text": "minLevel = marginLevels.minBorrowLevel();"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        2,
+        55
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 55
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        23,
+        24,
+        25,
+        52,
+        53,
+        56
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 56
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        23,
+        24,
+        25,
+        52,
+        53,
+        57
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 57
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_requireAuth",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_clearNative",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_processDelta",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_mintPosition",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addLending",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_deposit",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "handleLend",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "handleSwap",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_getPoolState",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_getPoolCumulativeValues",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "checkLiquidate",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_checkLiquidate",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_checkMinLevel",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_processLost",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "addMargin",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_margin",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "margin",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_executeAddLeverage",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_executeAddCollateralAndBorrow",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "repay",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "close",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "liquidateBurn",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "liquidateCall",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "modify",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "handleMargin",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "handleLiquidateBurn",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "setMarginLevel",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "setDefaultMarginFee",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "unlockCallback",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "getPositionState",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_increaseLiquidity",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "increaseLiquidity",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "handleModifyLiquidity",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "exactInput",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "exactOutput",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "handleSwap",
+      "file": "LikwidPairPosition.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "state_var",
+      "name": "nextId",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "state_var",
+      "name": "poolIds",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "state_var",
+      "name": "poolKeys",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "state_var",
+      "name": "lendDirections",
+      "file": "LikwidLendPosition.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "state_var",
+      "name": "MAX_LEVERAGE",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "state_var",
+      "name": "positionInfos",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "state_var",
+      "name": "marginLevels",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "state_var",
+      "name": "defaultMarginFee",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "call_site",
+      "name": "TRANSFER:BasePositionManager.sol:58",
+      "file": "BasePositionManager.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LikwidMarginPosition.sol:220",
+      "file": "LikwidMarginPosition.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LikwidMarginPosition.sol:223",
+      "file": "LikwidMarginPosition.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 58,
+    "n_hyperedges": 3,
+    "n_functions": 47,
+    "n_state_vars": 8,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00136",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1078",
+      "CWE-1099",
+      "CWE-1284",
+      "CWE-1288",
+      "CWE-1339",
+      "CWE-20",
+      "CWE-221",
+      "CWE-224",
+      "CWE-284",
+      "CWE-285",
+      "CWE-400",
+      "CWE-424",
+      "CWE-435",
+      "CWE-664",
+      "CWE-666",
+      "CWE-669",
+      "CWE-670",
+      "CWE-672",
+      "CWE-682",
+      "CWE-691",
+      "CWE-693",
+      "CWE-707",
+      "CWE-710",
+      "CWE-770",
+      "CWE-862"
+    ]
+  }
+}

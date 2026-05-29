@@ -1,0 +1,475 @@
+{
+  "sample_id": "vfp_00127",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 134,
+      "end_line": 147,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 154,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 164,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "relayMessageWithProof",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 175,
+      "end_line": 215,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "replayMessage",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 218,
+      "end_line": 279,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "dropMessage",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 283,
+      "end_line": 333,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateMaxReplayTimes",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 342,
+      "end_line": 347,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_sendMessage",
+      "file": "L1ScrollMessenger.sol",
+      "start_line": 353,
+      "end_line": 392,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "rollup",
+      "var_type": "address public immutable",
+      "file": "L1ScrollMessenger.sol",
+      "line": 48
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "messageQueueV1",
+      "var_type": "address public immutable",
+      "file": "L1ScrollMessenger.sol",
+      "line": 51
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "messageQueueV2",
+      "var_type": "address public immutable",
+      "file": "L1ScrollMessenger.sol",
+      "line": 54
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "messageSendTimestamp",
+      "var_type": "mapping(bytes32 => uint256) public",
+      "file": "L1ScrollMessenger.sol",
+      "line": 72
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "isL2MessageExecuted",
+      "var_type": "mapping(bytes32 => bool) public",
+      "file": "L1ScrollMessenger.sol",
+      "line": 75
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "isL1MessageDropped",
+      "var_type": "mapping(bytes32 => bool) public",
+      "file": "L1ScrollMessenger.sol",
+      "line": 78
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "__rollup",
+      "var_type": "address private",
+      "file": "L1ScrollMessenger.sol",
+      "line": 81
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "__messageQueue",
+      "var_type": "address private",
+      "file": "L1ScrollMessenger.sol",
+      "line": 84
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "maxReplayTimes",
+      "var_type": "uint256 public",
+      "file": "L1ScrollMessenger.sol",
+      "line": 87
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "replayStates",
+      "var_type": "mapping(bytes32 => ReplayState) public",
+      "file": "L1ScrollMessenger.sol",
+      "line": 90
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "prevReplayIndex",
+      "var_type": "mapping(uint256 => uint256) public",
+      "file": "L1ScrollMessenger.sol",
+      "line": 103
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:193",
+      "call_type": "CALL",
+      "line": 193,
+      "enclosing_function": "relayMessageWithProof",
+      "file": "L1ScrollMessenger.sol",
+      "raw_text": "(bool success, ) = _to.call{value: _value}(_message);"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:232",
+      "call_type": "CALL",
+      "line": 232,
+      "enclosing_function": "replayMessage",
+      "file": "L1ScrollMessenger.sol",
+      "raw_text": "(bool _success, ) = feeVault.call{value: _fee}(\"\");"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:263",
+      "call_type": "CALL",
+      "line": 263,
+      "enclosing_function": "replayMessage",
+      "file": "L1ScrollMessenger.sol",
+      "raw_text": "(bool _success, ) = _refundAddress.call{value: _refund}(\"\");"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:352",
+      "call_type": "CALL",
+      "line": 352,
+      "enclosing_function": "_sendMessage",
+      "file": "L1ScrollMessenger.sol",
+      "raw_text": "(bool _success, ) = feeVault.call{value: _fee}(\"\");"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:372",
+      "call_type": "CALL",
+      "line": 372,
+      "enclosing_function": "_sendMessage",
+      "file": "L1ScrollMessenger.sol",
+      "raw_text": "(bool _success, ) = _refundAddress.call{value: _refund}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        3,
+        8,
+        9,
+        10,
+        12,
+        19
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        4,
+        10,
+        11,
+        13,
+        16,
+        17,
+        18,
+        20
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        4,
+        10,
+        11,
+        13,
+        16,
+        17,
+        18,
+        21
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        1,
+        7,
+        10,
+        11,
+        22
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        7,
+        10,
+        11,
+        23
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 23
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "sendMessage",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "relayMessageWithProof",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "replayMessage",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "dropMessage",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "updateMaxReplayTimes",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_sendMessage",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "rollup",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "messageQueueV1",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "messageQueueV2",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "messageSendTimestamp",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "isL2MessageExecuted",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "isL1MessageDropped",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "__rollup",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "__messageQueue",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "maxReplayTimes",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "replayStates",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "prevReplayIndex",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:193",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:232",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:263",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:352",
+      "file": "L1ScrollMessenger.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "CALL:L1ScrollMessenger.sol:372",
+      "file": "L1ScrollMessenger.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 24,
+    "n_hyperedges": 5,
+    "n_functions": 8,
+    "n_state_vars": 11,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 6.4
+  },
+  "label": {
+    "vfp_id": "vfp_00127",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-284",
+      "CWE-285",
+      "CWE-862"
+    ]
+  }
+}

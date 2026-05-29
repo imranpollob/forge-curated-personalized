@@ -1,0 +1,326 @@
+{
+  "sample_id": "neg_00388",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createVaultWithNodeOperatorFee",
+      "file": "core_test_0.8.25_vaults_node-operator-fee_contracts_VaultFactory__MockForNodeOperatorFee.sol",
+      "start_line": 23,
+      "end_line": 39,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 36,
+      "end_line": 38,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "voluntaryDisconnect",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 48,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fund",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 52,
+      "end_line": 54,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 60,
+      "end_line": 62,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 64,
+      "end_line": 66,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 68,
+      "end_line": 70,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 72,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "compensateDisprovenPredepositFromPDG",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 81,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "proveUnknownValidatorToPDG",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 90,
+      "end_line": 95,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "transferVaultOwnership",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "start_line": 97,
+      "end_line": 99,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "createVault",
+      "file": "core_test_0.8.25_vaults_vaulthub_contracts_VaultFactory__MockForVaultHub.sol",
+      "start_line": 15,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "BEACON",
+      "var_type": "address public immutable",
+      "file": "core_test_0.8.25_vaults_node-operator-fee_contracts_VaultFactory__MockForNodeOperatorFee.sol",
+      "line": 15
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "NODE_OPERATOR_FEE_IMPL",
+      "var_type": "address public immutable",
+      "file": "core_test_0.8.25_vaults_node-operator-fee_contracts_VaultFactory__MockForNodeOperatorFee.sol",
+      "line": 16
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "var_type": "address public immutable",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol",
+      "line": 30
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "createVaultWithNodeOperatorFee",
+      "file": "core_test_0.8.25_vaults_node-operator-fee_contracts_VaultFactory__MockForNodeOperatorFee.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "mintShares",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "burnShares",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "rebalance",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "voluntaryDisconnect",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fund",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "compensateDisprovenPredepositFromPDG",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "proveUnknownValidatorToPDG",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "transferVaultOwnership",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "createVault",
+      "file": "core_test_0.8.25_vaults_vaulthub_contracts_VaultFactory__MockForVaultHub.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "BEACON",
+      "file": "core_test_0.8.25_vaults_node-operator-fee_contracts_VaultFactory__MockForNodeOperatorFee.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "NODE_OPERATOR_FEE_IMPL",
+      "file": "core_test_0.8.25_vaults_node-operator-fee_contracts_VaultFactory__MockForNodeOperatorFee.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "LIDO_LOCATOR",
+      "file": "core_test_0.8.25_vaults_permissions_contracts_VaultHub__MockPermissions.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 18,
+    "n_hyperedges": 0,
+    "n_functions": 15,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00388",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

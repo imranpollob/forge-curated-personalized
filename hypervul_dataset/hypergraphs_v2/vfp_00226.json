@@ -1,0 +1,582 @@
+{
+  "sample_id": "vfp_00226",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 47,
+      "end_line": 56,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "vault",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 58,
+      "end_line": 60,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mitosisDomain",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 62,
+      "end_line": 64,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mitosisAddr",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 66,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "quoteDeposit",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 70,
+      "end_line": 73,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quoteDepositWithSupplyVLF",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 75,
+      "end_line": 87,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quoteDeallocateVLF",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 89,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "quoteSettleVLFYield",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 94,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "quoteSettleVLFLoss",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 99,
+      "end_line": 102,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "quoteSettleVLFExtraRewards",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 104,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_quoteToMitosis",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 117,
+      "end_line": 121,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 125,
+      "end_line": 128,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositWithSupplyVLF",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 130,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "deallocateVLF",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 144,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "settleVLFYield",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 149,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "settleVLFLoss",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 154,
+      "end_line": 157,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "settleVLFExtraRewards",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 159,
+      "end_line": 170,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_dispatchToMitosis",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 172,
+      "end_line": 186,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_handle",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 190,
+      "end_line": 214,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 218,
+      "end_line": 218,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_authorizeConfigureGas",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 220,
+      "end_line": 220,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_authorizeConfigureRoute",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 222,
+      "end_line": 222,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_authorizeManageMailbox",
+      "file": "MitosisVaultEntrypoint.sol",
+      "start_line": 224,
+      "end_line": 224,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_vault",
+      "var_type": "IMitosisVault internal immutable",
+      "file": "MitosisVaultEntrypoint.sol",
+      "line": 29
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_mitosisDomain",
+      "var_type": "uint32 internal immutable",
+      "file": "MitosisVaultEntrypoint.sol",
+      "line": 30
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_mitosisAddr",
+      "var_type": "bytes32 internal immutable",
+      "file": "MitosisVaultEntrypoint.sol",
+      "line": 31
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:197",
+      "call_type": "INTERFACE_CALL",
+      "line": 197,
+      "enclosing_function": "_handle",
+      "file": "MitosisVaultEntrypoint.sol",
+      "raw_text": "_vault.initializeAsset(decoded.asset.toAddress());"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:202",
+      "call_type": "INTERFACE_CALL",
+      "line": 202,
+      "enclosing_function": "_handle",
+      "file": "MitosisVaultEntrypoint.sol",
+      "raw_text": "_vault.withdraw(decoded.asset.toAddress(), decoded.to.toAddress(), decoded.amount);"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:207",
+      "call_type": "INTERFACE_CALL",
+      "line": 207,
+      "enclosing_function": "_handle",
+      "file": "MitosisVaultEntrypoint.sol",
+      "raw_text": "_vault.initializeVLF(decoded.vlfVault.toAddress(), decoded.asset.toAddress());"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:212",
+      "call_type": "INTERFACE_CALL",
+      "line": 212,
+      "enclosing_function": "_handle",
+      "file": "MitosisVaultEntrypoint.sol",
+      "raw_text": "_vault.allocateVLF(decoded.vlfVault.toAddress(), decoded.amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        18,
+        23,
+        24,
+        25,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        18,
+        23,
+        24,
+        25,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        18,
+        23,
+        24,
+        25,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        18,
+        23,
+        24,
+        25,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "vault",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "mitosisDomain",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mitosisAddr",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "quoteDeposit",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "quoteDepositWithSupplyVLF",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "quoteDeallocateVLF",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "quoteSettleVLFYield",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "quoteSettleVLFLoss",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "quoteSettleVLFExtraRewards",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_quoteToMitosis",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "depositWithSupplyVLF",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "deallocateVLF",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "settleVLFYield",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "settleVLFLoss",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "settleVLFExtraRewards",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_dispatchToMitosis",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_handle",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_authorizeUpgrade",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_authorizeConfigureGas",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_authorizeConfigureRoute",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_authorizeManageMailbox",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "state_var",
+      "name": "_vault",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "state_var",
+      "name": "_mitosisDomain",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_mitosisAddr",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:197",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:202",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:207",
+      "file": "MitosisVaultEntrypoint.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:MitosisVaultEntrypoint.sol:212",
+      "file": "MitosisVaultEntrypoint.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 30,
+    "n_hyperedges": 4,
+    "n_functions": 23,
+    "n_state_vars": 3,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 5.0
+  },
+  "label": {
+    "vfp_id": "vfp_00226",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-430",
+      "CWE-691"
+    ]
+  }
+}

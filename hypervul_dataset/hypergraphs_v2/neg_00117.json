@@ -1,0 +1,215 @@
+{
+  "sample_id": "neg_00117",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "version",
+      "file": "eco-routes_contracts_libs_Semver.sol",
+      "start_line": 17,
+      "end_line": 19,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "ccipSend",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "start_line": 40,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getFee",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "start_line": 94,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setProcessor",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "start_line": 108,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deliverMessage",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "start_line": 119,
+      "end_line": 139,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fulfillAndProve",
+      "file": "eco-routes_contracts_test_TestDestinationSettlerComplete.sol",
+      "start_line": 19,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "processor",
+      "var_type": "address public",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "line": 13
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "FEE",
+      "var_type": "uint256 public constant",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "line": 14
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "lastDestinationChainSelector",
+      "var_type": "uint64 public",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "line": 17
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "lastMessage",
+      "var_type": "Client.EVM2AnyMessage public",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "line": 18
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "lastMessageId",
+      "var_type": "bytes32 public",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol",
+      "line": 19
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PORTAL",
+      "var_type": "Portal public immutable",
+      "file": "eco-routes_contracts_test_TestDestinationSettlerComplete.sol",
+      "line": 13
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "version",
+      "file": "eco-routes_contracts_libs_Semver.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "ccipSend",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getFee",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setProcessor",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deliverMessage",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "fulfillAndProve",
+      "file": "eco-routes_contracts_test_TestDestinationSettlerComplete.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "processor",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "FEE",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "lastDestinationChainSelector",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "lastMessage",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "lastMessageId",
+      "file": "eco-routes_contracts_test_TestCCIPRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "PORTAL",
+      "file": "eco-routes_contracts_test_TestDestinationSettlerComplete.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 12,
+    "n_hyperedges": 0,
+    "n_functions": 6,
+    "n_state_vars": 6,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00117",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "sample_id": "vfp_00016",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "start_line": 59,
+      "end_line": 61,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "description",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "start_line": 67,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "version",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "start_line": 75,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setPaused",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "start_line": 82,
+      "end_line": 88,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "defaultRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "start_line": 93,
+      "end_line": 99,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "start_line": 104,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "start_line": 122,
+      "end_line": 147,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "PAUSER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "line": 34
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "lens",
+      "var_type": "ILevelReserveLens public immutable",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "line": 36
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "STATICCALL:LevelReserveLensChainlinkOracle.sol:90",
+      "call_type": "STATICCALL",
+      "line": 90,
+      "enclosing_function": "latestRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "raw_text": "address(lens).staticcall(abi.encodeWithSignature(\"getReservePrice()\"));"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LevelReserveLensChainlinkOracle.sol:90",
+      "call_type": "INTERFACE_CALL",
+      "line": 90,
+      "enclosing_function": "latestRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "raw_text": "address(lens).staticcall(abi.encodeWithSignature(\"getReservePrice()\"));"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "STATICCALL:LevelReserveLensChainlinkOracle.sol:92",
+      "call_type": "STATICCALL",
+      "line": 92,
+      "enclosing_function": "latestRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "raw_text": "address(lens).staticcall(abi.encodeWithSignature(\"getReservePriceDecimals()\"));"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LevelReserveLensChainlinkOracle.sol:92",
+      "call_type": "INTERFACE_CALL",
+      "line": 92,
+      "enclosing_function": "latestRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol",
+      "raw_text": "address(lens).staticcall(abi.encodeWithSignature(\"getReservePriceDecimals()\"));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        8,
+        9
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        8,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        6,
+        8,
+        11
+      ],
+      "tau": "STATICCALL",
+      "anchor_call_site_id": 11
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        6,
+        8,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "description",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "version",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setPaused",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "defaultRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "getRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "latestRoundData",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "PAUSER_ROLE",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "lens",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "STATICCALL:LevelReserveLensChainlinkOracle.sol:90",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LevelReserveLensChainlinkOracle.sol:90",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "call_site",
+      "name": "STATICCALL:LevelReserveLensChainlinkOracle.sol:92",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LevelReserveLensChainlinkOracle.sol:92",
+      "file": "LevelReserveLensChainlinkOracle.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 13,
+    "n_hyperedges": 4,
+    "n_functions": 7,
+    "n_state_vars": 2,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00016",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-182",
+      "CWE-693"
+    ]
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "sample_id": "vfp_00385",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setERC20",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 65,
+      "end_line": 70,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "startVesting",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 73,
+      "end_line": 81,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claim",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 85,
+      "end_line": 106,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "changeBeneficiary",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 110,
+      "end_line": 117,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "changeVestingParams",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 123,
+      "end_line": 137,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_min",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 139,
+      "end_line": 141,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_setBeneficiary",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 143,
+      "end_line": 146,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_setVestingParams",
+      "file": "LinearTokenVesting.sol",
+      "start_line": 148,
+      "end_line": 154,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "token",
+      "var_type": "ERC20 public",
+      "file": "LinearTokenVesting.sol",
+      "line": 11
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "beneficiary",
+      "var_type": "address public",
+      "file": "LinearTokenVesting.sol",
+      "line": 12
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "admin",
+      "var_type": "address public immutable",
+      "file": "LinearTokenVesting.sol",
+      "line": 13
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "amountForEachClaim",
+      "var_type": "uint256 public",
+      "file": "LinearTokenVesting.sol",
+      "line": 15
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "startTimestamp",
+      "var_type": "uint256 public",
+      "file": "LinearTokenVesting.sol",
+      "line": 16
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "timeBetweenClaims",
+      "var_type": "uint256 public",
+      "file": "LinearTokenVesting.sol",
+      "line": 17
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "intervalsToClaim",
+      "var_type": "uint256 public",
+      "file": "LinearTokenVesting.sol",
+      "line": 18
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "intervalsAlreadyClaimed",
+      "var_type": "uint256 public",
+      "file": "LinearTokenVesting.sol",
+      "line": 19
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LinearTokenVesting.sol:77",
+      "call_type": "INTERFACE_CALL",
+      "line": 77,
+      "enclosing_function": "startVesting",
+      "file": "LinearTokenVesting.sol",
+      "raw_text": "uint256 totalToVest = token.balanceOf(address(this));"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LinearTokenVesting.sol:100",
+      "call_type": "INTERFACE_CALL",
+      "line": 100,
+      "enclosing_function": "claim",
+      "file": "LinearTokenVesting.sol",
+      "raw_text": "amountToClaimNow = token.balanceOf(address(this));"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "TRANSFER:LinearTokenVesting.sol:105",
+      "call_type": "TRANSFER",
+      "line": 105,
+      "enclosing_function": "claim",
+      "file": "LinearTokenVesting.sol",
+      "raw_text": "token.transfer(beneficiary, amountToClaimNow);"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LinearTokenVesting.sol:131",
+      "call_type": "INTERFACE_CALL",
+      "line": 131,
+      "enclosing_function": "changeVestingParams",
+      "file": "LinearTokenVesting.sol",
+      "raw_text": "uint256 totalToVest = token.balanceOf(address(this));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        8,
+        11,
+        12,
+        14,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        4,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setERC20",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "startVesting",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "claim",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "changeBeneficiary",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "changeVestingParams",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_min",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_setBeneficiary",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_setVestingParams",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "token",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "beneficiary",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "admin",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "amountForEachClaim",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "startTimestamp",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "timeBetweenClaims",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "intervalsToClaim",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "intervalsAlreadyClaimed",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LinearTokenVesting.sol:77",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LinearTokenVesting.sol:100",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "TRANSFER:LinearTokenVesting.sol:105",
+      "file": "LinearTokenVesting.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:LinearTokenVesting.sol:131",
+      "file": "LinearTokenVesting.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 4,
+    "n_functions": 8,
+    "n_state_vars": 8,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 8.0
+  },
+  "label": {
+    "vfp_id": "vfp_00385",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-266",
+      "CWE-269",
+      "CWE-284"
+    ]
+  }
+}

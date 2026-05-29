@@ -1,0 +1,2460 @@
+{
+  "sample_id": "vfp_00589",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "basketTokenToIndex",
+      "file": "BasketManager.sol",
+      "start_line": 148,
+      "end_line": 150,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "basketTokenToRebalanceAssetToIndex",
+      "file": "BasketManager.sol",
+      "start_line": 157,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "numOfBasketTokens",
+      "file": "BasketManager.sol",
+      "start_line": 170,
+      "end_line": 172,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "basketTokens",
+      "file": "BasketManager.sol",
+      "start_line": 176,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "basketIdToAddress",
+      "file": "BasketManager.sol",
+      "start_line": 183,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "basketBalanceOf",
+      "file": "BasketManager.sol",
+      "start_line": 191,
+      "end_line": 193,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "rebalanceStatus",
+      "file": "BasketManager.sol",
+      "start_line": 200,
+      "end_line": 202,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "externalTradesHash",
+      "file": "BasketManager.sol",
+      "start_line": 206,
+      "end_line": 208,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "eulerRouter",
+      "file": "BasketManager.sol",
+      "start_line": 212,
+      "end_line": 214,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "BasketManager.sol",
+      "start_line": 218,
+      "end_line": 220,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "managementFee",
+      "file": "BasketManager.sol",
+      "start_line": 225,
+      "end_line": 227,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "swapFee",
+      "file": "BasketManager.sol",
+      "start_line": 231,
+      "end_line": 233,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "strategyRegistry",
+      "file": "BasketManager.sol",
+      "start_line": 237,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "tokenSwapAdapter",
+      "file": "BasketManager.sol",
+      "start_line": 243,
+      "end_line": 245,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "retryCount",
+      "file": "BasketManager.sol",
+      "start_line": 249,
+      "end_line": 251,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "basketAssets",
+      "file": "BasketManager.sol",
+      "start_line": 256,
+      "end_line": 258,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "createNewBasket",
+      "file": "BasketManager.sol",
+      "start_line": 265,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "proposeRebalance",
+      "file": "BasketManager.sol",
+      "start_line": 286,
+      "end_line": 293,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "proposeTokenSwap",
+      "file": "BasketManager.sol",
+      "start_line": 302,
+      "end_line": 315,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "executeTokenSwap",
+      "file": "BasketManager.sol",
+      "start_line": 322,
+      "end_line": 355,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setTokenSwapAdapter",
+      "file": "BasketManager.sol",
+      "start_line": 360,
+      "end_line": 369,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "completeRebalance",
+      "file": "BasketManager.sol",
+      "start_line": 375,
+      "end_line": 385,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "proRataRedeem",
+      "file": "BasketManager.sol",
+      "start_line": 394,
+      "end_line": 405,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setManagementFee",
+      "file": "BasketManager.sol",
+      "start_line": 414,
+      "end_line": 431,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setSwapFee",
+      "file": "BasketManager.sol",
+      "start_line": 436,
+      "end_line": 445,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "collectSwapFee",
+      "file": "BasketManager.sol",
+      "start_line": 449,
+      "end_line": 455,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "updateBitFlag",
+      "file": "BasketManager.sol",
+      "start_line": 460,
+      "end_line": 491,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "pause",
+      "file": "BasketManager.sol",
+      "start_line": 496,
+      "end_line": 501,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "BasketManager.sol",
+      "start_line": 504,
+      "end_line": 506,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "createNewBasket",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 166,
+      "end_line": 225,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "proposeRebalance",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 232,
+      "end_line": 327,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "proposeTokenSwap",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 339,
+      "end_line": 372,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "completeRebalance",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 381,
+      "end_line": 426,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "proRataRedeem",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 435,
+      "end_line": 485,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "basketTokenToRebalanceAssetToIndex",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 492,
+      "end_line": 509,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "basketTokenToIndex",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 515,
+      "end_line": 531,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_indexOf",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 540,
+      "end_line": 552,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_finalizeRebalance",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 561,
+      "end_line": 639,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_completeTokenSwap",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 645,
+      "end_line": 662,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_processExternalTrades",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 667,
+      "end_line": 700,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_initializeBasketData",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 708,
+      "end_line": 742,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_processInternalTrades",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 752,
+      "end_line": 833,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_validateExternalTrades",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 843,
+      "end_line": 912,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_validateBasketHash",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 915,
+      "end_line": 928,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_isTargetWeightMet",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 937,
+      "end_line": 980,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_processPendingDeposits",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 991,
+      "end_line": 1021,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_calculateTargetBalances",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 1031,
+      "end_line": 1068,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_calculateBasketValue",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 1077,
+      "end_line": 1102,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_isRebalanceRequired",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 1112,
+      "end_line": 1136,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_setBaseAssetIndex",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 1145,
+      "end_line": 1165,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_createRebalanceBitMask",
+      "file": "BasketManagerUtils.sol",
+      "start_line": 1172,
+      "end_line": 1194,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BasketToken.sol",
+      "start_line": 167,
+      "end_line": 190,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "BasketToken.sol",
+      "start_line": 195,
+      "end_line": 217,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "getTargetWeights",
+      "file": "BasketToken.sol",
+      "start_line": 221,
+      "end_line": 223,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "requestDeposit",
+      "file": "BasketToken.sol",
+      "start_line": 231,
+      "end_line": 265,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "pendingDepositRequest",
+      "file": "BasketToken.sol",
+      "start_line": 272,
+      "end_line": 275,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "claimableDepositRequest",
+      "file": "BasketToken.sol",
+      "start_line": 280,
+      "end_line": 283,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_claimableDepositRequest",
+      "file": "BasketToken.sol",
+      "start_line": 285,
+      "end_line": 294,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "BasketToken.sol",
+      "start_line": 300,
+      "end_line": 338,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "pendingRedeemRequest",
+      "file": "BasketToken.sol",
+      "start_line": 344,
+      "end_line": 349,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "claimableRedeemRequest",
+      "file": "BasketToken.sol",
+      "start_line": 356,
+      "end_line": 359,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_claimableRedeemRequest",
+      "file": "BasketToken.sol",
+      "start_line": 361,
+      "end_line": 370,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "fulfillDeposit",
+      "file": "BasketToken.sol",
+      "start_line": 375,
+      "end_line": 398,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "setBitFlag",
+      "file": "BasketToken.sol",
+      "start_line": 403,
+      "end_line": 408,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "prepareForRebalance",
+      "file": "BasketToken.sol",
+      "start_line": 419,
+      "end_line": 460,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "fulfillRedeem",
+      "file": "BasketToken.sol",
+      "start_line": 466,
+      "end_line": 488,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "totalPendingDeposits",
+      "file": "BasketToken.sol",
+      "start_line": 492,
+      "end_line": 494,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "totalPendingRedemptions",
+      "file": "BasketToken.sol",
+      "start_line": 498,
+      "end_line": 500,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "cancelDepositRequest",
+      "file": "BasketToken.sol",
+      "start_line": 503,
+      "end_line": 516,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "cancelRedeemRequest",
+      "file": "BasketToken.sol",
+      "start_line": 519,
+      "end_line": 531,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "setOperator",
+      "file": "BasketToken.sol",
+      "start_line": 537,
+      "end_line": 541,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_onlySelfOrOperator",
+      "file": "BasketToken.sol",
+      "start_line": 544,
+      "end_line": 550,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_onlyBasketManager",
+      "file": "BasketToken.sol",
+      "start_line": 553,
+      "end_line": 557,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "share",
+      "file": "BasketToken.sol",
+      "start_line": 562,
+      "end_line": 564,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "fallbackRedeemTrigger",
+      "file": "BasketToken.sol",
+      "start_line": 570,
+      "end_line": 585,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "claimFallbackShares",
+      "file": "BasketToken.sol",
+      "start_line": 592,
+      "end_line": 602,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "claimFallbackShares",
+      "file": "BasketToken.sol",
+      "start_line": 606,
+      "end_line": 608,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "claimableFallbackShares",
+      "file": "BasketToken.sol",
+      "start_line": 614,
+      "end_line": 620,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "proRataRedeem",
+      "file": "BasketToken.sol",
+      "start_line": 627,
+      "end_line": 639,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_harvestManagementFee",
+      "file": "BasketToken.sol",
+      "start_line": 642,
+      "end_line": 669,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "BasketToken.sol",
+      "start_line": 678,
+      "end_line": 693,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "BasketToken.sol",
+      "start_line": 699,
+      "end_line": 701,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "mint",
+      "file": "BasketToken.sol",
+      "start_line": 709,
+      "end_line": 721,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "mint",
+      "file": "BasketToken.sol",
+      "start_line": 727,
+      "end_line": 729,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_claimDeposit",
+      "file": "BasketToken.sol",
+      "start_line": 736,
+      "end_line": 750,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "BasketToken.sol",
+      "start_line": 758,
+      "end_line": 770,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "BasketToken.sol",
+      "start_line": 777,
+      "end_line": 792,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "_claimRedemption",
+      "file": "BasketToken.sol",
+      "start_line": 799,
+      "end_line": 813,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "BasketToken.sol",
+      "start_line": 819,
+      "end_line": 824,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "_maxWithdraw",
+      "file": "BasketToken.sol",
+      "start_line": 826,
+      "end_line": 837,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "BasketToken.sol",
+      "start_line": 843,
+      "end_line": 845,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "BasketToken.sol",
+      "start_line": 851,
+      "end_line": 853,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "BasketToken.sol",
+      "start_line": 859,
+      "end_line": 864,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "_maxMint",
+      "file": "BasketToken.sol",
+      "start_line": 866,
+      "end_line": 878,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "BasketToken.sol",
+      "start_line": 882,
+      "end_line": 884,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "BasketToken.sol",
+      "start_line": 887,
+      "end_line": 889,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "BasketToken.sol",
+      "start_line": 892,
+      "end_line": 894,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "BasketToken.sol",
+      "start_line": 897,
+      "end_line": 899,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "fallbackTriggered",
+      "file": "BasketToken.sol",
+      "start_line": 905,
+      "end_line": 907,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "BasketToken.sol",
+      "start_line": 913,
+      "end_line": 917,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "_update",
+      "file": "BasketToken.sol",
+      "start_line": 920,
+      "end_line": 929,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "BasketToken.sol",
+      "start_line": 933,
+      "end_line": 940,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "BasketToken.sol",
+      "start_line": 944,
+      "end_line": 946,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 103,
+      "node_type": "state_var",
+      "name": "_MANAGER_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "BasketManager.sol",
+      "line": 32
+    },
+    {
+      "node_id": 104,
+      "node_type": "state_var",
+      "name": "_PAUSER_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "BasketManager.sol",
+      "line": 34
+    },
+    {
+      "node_id": 105,
+      "node_type": "state_var",
+      "name": "_REBALANCE_PROPOSER_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "BasketManager.sol",
+      "line": 36
+    },
+    {
+      "node_id": 106,
+      "node_type": "state_var",
+      "name": "_TOKENSWAP_PROPOSER_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "BasketManager.sol",
+      "line": 38
+    },
+    {
+      "node_id": 107,
+      "node_type": "state_var",
+      "name": "_TOKENSWAP_EXECUTOR_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "BasketManager.sol",
+      "line": 40
+    },
+    {
+      "node_id": 108,
+      "node_type": "state_var",
+      "name": "_BASKET_TOKEN_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "BasketManager.sol",
+      "line": 42
+    },
+    {
+      "node_id": 109,
+      "node_type": "state_var",
+      "name": "_TIMELOCK_ROLE",
+      "var_type": "bytes32 private constant",
+      "file": "BasketManager.sol",
+      "line": 44
+    },
+    {
+      "node_id": 110,
+      "node_type": "state_var",
+      "name": "_MAX_MANAGEMENT_FEE",
+      "var_type": "uint16 private constant",
+      "file": "BasketManager.sol",
+      "line": 46
+    },
+    {
+      "node_id": 111,
+      "node_type": "state_var",
+      "name": "_MAX_SWAP_FEE",
+      "var_type": "uint16 private constant",
+      "file": "BasketManager.sol",
+      "line": 48
+    },
+    {
+      "node_id": 112,
+      "node_type": "state_var",
+      "name": "_bmStorage",
+      "var_type": "BasketManagerStorage private",
+      "file": "BasketManager.sol",
+      "line": 52
+    },
+    {
+      "node_id": 113,
+      "node_type": "state_var",
+      "name": "isOrderValid",
+      "var_type": "mapping(bytes32 => bool) public",
+      "file": "BasketManager.sol",
+      "line": 54
+    },
+    {
+      "node_id": 114,
+      "node_type": "state_var",
+      "name": "_USD_ISO_4217_CODE",
+      "var_type": "address private constant",
+      "file": "BasketManagerUtils.sol",
+      "line": 75
+    },
+    {
+      "node_id": 115,
+      "node_type": "state_var",
+      "name": "_MAX_NUM_OF_BASKET_TOKENS",
+      "var_type": "uint256 private constant",
+      "file": "BasketManagerUtils.sol",
+      "line": 77
+    },
+    {
+      "node_id": 116,
+      "node_type": "state_var",
+      "name": "_MAX_SLIPPAGE",
+      "var_type": "uint256 private constant",
+      "file": "BasketManagerUtils.sol",
+      "line": 79
+    },
+    {
+      "node_id": 117,
+      "node_type": "state_var",
+      "name": "_MAX_WEIGHT_DEVIATION",
+      "var_type": "uint256 private constant",
+      "file": "BasketManagerUtils.sol",
+      "line": 81
+    },
+    {
+      "node_id": 118,
+      "node_type": "state_var",
+      "name": "_WEIGHT_PRECISION",
+      "var_type": "uint256 private constant",
+      "file": "BasketManagerUtils.sol",
+      "line": 83
+    },
+    {
+      "node_id": 119,
+      "node_type": "state_var",
+      "name": "_MAX_RETRIES",
+      "var_type": "uint8 private constant",
+      "file": "BasketManagerUtils.sol",
+      "line": 85
+    },
+    {
+      "node_id": 120,
+      "node_type": "state_var",
+      "name": "_REBALANCE_COOLDOWN_SEC",
+      "var_type": "uint40 private constant",
+      "file": "BasketManagerUtils.sol",
+      "line": 87
+    },
+    {
+      "node_id": 121,
+      "node_type": "state_var",
+      "name": "_USD_ISO_4217_CODE",
+      "var_type": "address private constant",
+      "file": "BasketToken.sol",
+      "line": 40
+    },
+    {
+      "node_id": 122,
+      "node_type": "state_var",
+      "name": "_MANAGEMENT_FEE_DECIMALS",
+      "var_type": "uint16 private constant",
+      "file": "BasketToken.sol",
+      "line": 41
+    },
+    {
+      "node_id": 123,
+      "node_type": "state_var",
+      "name": "_MAX_MANAGEMENT_FEE",
+      "var_type": "uint16 private constant",
+      "file": "BasketToken.sol",
+      "line": 43
+    },
+    {
+      "node_id": 124,
+      "node_type": "state_var",
+      "name": "isOperator",
+      "var_type": "mapping(address controller => mapping(address operator => bool)) public",
+      "file": "BasketToken.sol",
+      "line": 69
+    },
+    {
+      "node_id": 125,
+      "node_type": "state_var",
+      "name": "lastDepositRequestId",
+      "var_type": "mapping(address controller => uint256 requestId) public",
+      "file": "BasketToken.sol",
+      "line": 71
+    },
+    {
+      "node_id": 126,
+      "node_type": "state_var",
+      "name": "lastRedeemRequestId",
+      "var_type": "mapping(address controller => uint256 requestId) public",
+      "file": "BasketToken.sol",
+      "line": 73
+    },
+    {
+      "node_id": 127,
+      "node_type": "state_var",
+      "name": "_depositRequests",
+      "var_type": "mapping(uint256 requestId => DepositRequestStruct) internal",
+      "file": "BasketToken.sol",
+      "line": 75
+    },
+    {
+      "node_id": 128,
+      "node_type": "state_var",
+      "name": "_redeemRequests",
+      "var_type": "mapping(uint256 requestId => RedeemRequestStruct) internal",
+      "file": "BasketToken.sol",
+      "line": 77
+    },
+    {
+      "node_id": 129,
+      "node_type": "state_var",
+      "name": "basketManager",
+      "var_type": "address public",
+      "file": "BasketToken.sol",
+      "line": 79
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "nextDepositRequestId",
+      "var_type": "uint256 public",
+      "file": "BasketToken.sol",
+      "line": 81
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "nextRedeemRequestId",
+      "var_type": "uint256 public",
+      "file": "BasketToken.sol",
+      "line": 83
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "assetRegistry",
+      "var_type": "address public",
+      "file": "BasketToken.sol",
+      "line": 85
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "bitFlag",
+      "var_type": "uint256 public",
+      "file": "BasketToken.sol",
+      "line": 87
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "strategy",
+      "var_type": "address public",
+      "file": "BasketToken.sol",
+      "line": 89
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "lastManagementFeeHarvestTimestamp",
+      "var_type": "uint40 public",
+      "file": "BasketToken.sol",
+      "line": 91
+    },
+    {
+      "node_id": 136,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManager.sol:339",
+      "call_type": "INTERFACE_CALL",
+      "line": 339,
+      "enclosing_function": "executeTokenSwap",
+      "file": "BasketManager.sol",
+      "raw_text": "if (keccak256(abi.encode(externalTrades)) != _bmStorage.externalTradesHash) {"
+    },
+    {
+      "node_id": 137,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:BasketManager.sol:348",
+      "call_type": "DELEGATECALL",
+      "line": 348,
+      "enclosing_function": "executeTokenSwap",
+      "file": "BasketManager.sol",
+      "raw_text": "swapAdapter.delegatecall(abi.encodeCall(TokenSwapAdapter.executeTokenSwap, (externalTrades, data)));"
+    },
+    {
+      "node_id": 138,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManager.sol:348",
+      "call_type": "INTERFACE_CALL",
+      "line": 348,
+      "enclosing_function": "executeTokenSwap",
+      "file": "BasketManager.sol",
+      "raw_text": "swapAdapter.delegatecall(abi.encodeCall(TokenSwapAdapter.executeTokenSwap, (externalTrades, data)));"
+    },
+    {
+      "node_id": 139,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManagerUtils.sol:195",
+      "call_type": "INTERFACE_CALL",
+      "line": 195,
+      "enclosing_function": "createNewBasket",
+      "file": "BasketManagerUtils.sol",
+      "raw_text": "if (assetRegistry.hasPausedAssets(bitFlag)) {"
+    },
+    {
+      "node_id": 140,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManagerUtils.sol:198",
+      "call_type": "INTERFACE_CALL",
+      "line": 198,
+      "enclosing_function": "createNewBasket",
+      "file": "BasketManagerUtils.sol",
+      "raw_text": "address[] memory assets = assetRegistry.getAssets(bitFlag);"
+    },
+    {
+      "node_id": 141,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:BasketManagerUtils.sol:655",
+      "call_type": "DELEGATECALL",
+      "line": 655,
+      "enclosing_function": "_completeTokenSwap",
+      "file": "BasketManagerUtils.sol",
+      "raw_text": "self.tokenSwapAdapter.delegatecall(abi.encodeCall(TokenSwapAdapter.completeTokenSwap, (externalTrades)));"
+    },
+    {
+      "node_id": 142,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManagerUtils.sol:655",
+      "call_type": "INTERFACE_CALL",
+      "line": 655,
+      "enclosing_function": "_completeTokenSwap",
+      "file": "BasketManagerUtils.sol",
+      "raw_text": "self.tokenSwapAdapter.delegatecall(abi.encodeCall(TokenSwapAdapter.completeTokenSwap, (externalTrades)));"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        19,
+        112,
+        136
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 136
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        19,
+        112,
+        137
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 137
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        19,
+        112,
+        138
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 138
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        16,
+        108,
+        112,
+        115,
+        139
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 139
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        16,
+        108,
+        112,
+        115,
+        140
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 140
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        21,
+        38,
+        39,
+        112,
+        118,
+        119,
+        141
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 141
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        21,
+        38,
+        39,
+        112,
+        118,
+        119,
+        142
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 142
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "basketTokenToIndex",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "basketTokenToRebalanceAssetToIndex",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "numOfBasketTokens",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "basketTokens",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "basketIdToAddress",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "basketBalanceOf",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "rebalanceStatus",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "externalTradesHash",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "eulerRouter",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "feeCollector",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "managementFee",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "swapFee",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "strategyRegistry",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "tokenSwapAdapter",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "retryCount",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "basketAssets",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "createNewBasket",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "proposeRebalance",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "proposeTokenSwap",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "executeTokenSwap",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "setTokenSwapAdapter",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "completeRebalance",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "proRataRedeem",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "setManagementFee",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "setSwapFee",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "collectSwapFee",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "updateBitFlag",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "pause",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "unpause",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "createNewBasket",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "proposeRebalance",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "proposeTokenSwap",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "completeRebalance",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "proRataRedeem",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "function",
+      "name": "basketTokenToRebalanceAssetToIndex",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "function",
+      "name": "basketTokenToIndex",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "function",
+      "name": "_indexOf",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "function",
+      "name": "_finalizeRebalance",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "function",
+      "name": "_completeTokenSwap",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "function",
+      "name": "_processExternalTrades",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "function",
+      "name": "_initializeBasketData",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 41,
+      "node_type": "function",
+      "name": "_processInternalTrades",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 42,
+      "node_type": "function",
+      "name": "_validateExternalTrades",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 43,
+      "node_type": "function",
+      "name": "_validateBasketHash",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 44,
+      "node_type": "function",
+      "name": "_isTargetWeightMet",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 45,
+      "node_type": "function",
+      "name": "_processPendingDeposits",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 46,
+      "node_type": "function",
+      "name": "_calculateTargetBalances",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 47,
+      "node_type": "function",
+      "name": "_calculateBasketValue",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 48,
+      "node_type": "function",
+      "name": "_isRebalanceRequired",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 49,
+      "node_type": "function",
+      "name": "_setBaseAssetIndex",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 50,
+      "node_type": "function",
+      "name": "_createRebalanceBitMask",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 51,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 52,
+      "node_type": "function",
+      "name": "totalAssets",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 53,
+      "node_type": "function",
+      "name": "getTargetWeights",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 54,
+      "node_type": "function",
+      "name": "requestDeposit",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 55,
+      "node_type": "function",
+      "name": "pendingDepositRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 56,
+      "node_type": "function",
+      "name": "claimableDepositRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 57,
+      "node_type": "function",
+      "name": "_claimableDepositRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 58,
+      "node_type": "function",
+      "name": "requestRedeem",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 59,
+      "node_type": "function",
+      "name": "pendingRedeemRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 60,
+      "node_type": "function",
+      "name": "claimableRedeemRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 61,
+      "node_type": "function",
+      "name": "_claimableRedeemRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 62,
+      "node_type": "function",
+      "name": "fulfillDeposit",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 63,
+      "node_type": "function",
+      "name": "setBitFlag",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 64,
+      "node_type": "function",
+      "name": "prepareForRebalance",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 65,
+      "node_type": "function",
+      "name": "fulfillRedeem",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 66,
+      "node_type": "function",
+      "name": "totalPendingDeposits",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 67,
+      "node_type": "function",
+      "name": "totalPendingRedemptions",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 68,
+      "node_type": "function",
+      "name": "cancelDepositRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 69,
+      "node_type": "function",
+      "name": "cancelRedeemRequest",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 70,
+      "node_type": "function",
+      "name": "setOperator",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 71,
+      "node_type": "function",
+      "name": "_onlySelfOrOperator",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 72,
+      "node_type": "function",
+      "name": "_onlyBasketManager",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 73,
+      "node_type": "function",
+      "name": "share",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 74,
+      "node_type": "function",
+      "name": "fallbackRedeemTrigger",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 75,
+      "node_type": "function",
+      "name": "claimFallbackShares",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 76,
+      "node_type": "function",
+      "name": "claimFallbackShares",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 77,
+      "node_type": "function",
+      "name": "claimableFallbackShares",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 78,
+      "node_type": "function",
+      "name": "proRataRedeem",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 79,
+      "node_type": "function",
+      "name": "_harvestManagementFee",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 80,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 81,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 82,
+      "node_type": "function",
+      "name": "mint",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 83,
+      "node_type": "function",
+      "name": "mint",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 84,
+      "node_type": "function",
+      "name": "_claimDeposit",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 85,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 86,
+      "node_type": "function",
+      "name": "redeem",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 87,
+      "node_type": "function",
+      "name": "_claimRedemption",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 88,
+      "node_type": "function",
+      "name": "maxWithdraw",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 89,
+      "node_type": "function",
+      "name": "_maxWithdraw",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 90,
+      "node_type": "function",
+      "name": "maxRedeem",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 91,
+      "node_type": "function",
+      "name": "maxDeposit",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 92,
+      "node_type": "function",
+      "name": "maxMint",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 93,
+      "node_type": "function",
+      "name": "_maxMint",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 94,
+      "node_type": "function",
+      "name": "previewDeposit",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 95,
+      "node_type": "function",
+      "name": "previewMint",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 96,
+      "node_type": "function",
+      "name": "previewWithdraw",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 97,
+      "node_type": "function",
+      "name": "previewRedeem",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 98,
+      "node_type": "function",
+      "name": "fallbackTriggered",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 99,
+      "node_type": "function",
+      "name": "supportsInterface",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 100,
+      "node_type": "function",
+      "name": "_update",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 101,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 102,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 103,
+      "node_type": "state_var",
+      "name": "_MANAGER_ROLE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 104,
+      "node_type": "state_var",
+      "name": "_PAUSER_ROLE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 105,
+      "node_type": "state_var",
+      "name": "_REBALANCE_PROPOSER_ROLE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 106,
+      "node_type": "state_var",
+      "name": "_TOKENSWAP_PROPOSER_ROLE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 107,
+      "node_type": "state_var",
+      "name": "_TOKENSWAP_EXECUTOR_ROLE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 108,
+      "node_type": "state_var",
+      "name": "_BASKET_TOKEN_ROLE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 109,
+      "node_type": "state_var",
+      "name": "_TIMELOCK_ROLE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 110,
+      "node_type": "state_var",
+      "name": "_MAX_MANAGEMENT_FEE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 111,
+      "node_type": "state_var",
+      "name": "_MAX_SWAP_FEE",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 112,
+      "node_type": "state_var",
+      "name": "_bmStorage",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 113,
+      "node_type": "state_var",
+      "name": "isOrderValid",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 114,
+      "node_type": "state_var",
+      "name": "_USD_ISO_4217_CODE",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 115,
+      "node_type": "state_var",
+      "name": "_MAX_NUM_OF_BASKET_TOKENS",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 116,
+      "node_type": "state_var",
+      "name": "_MAX_SLIPPAGE",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 117,
+      "node_type": "state_var",
+      "name": "_MAX_WEIGHT_DEVIATION",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 118,
+      "node_type": "state_var",
+      "name": "_WEIGHT_PRECISION",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 119,
+      "node_type": "state_var",
+      "name": "_MAX_RETRIES",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 120,
+      "node_type": "state_var",
+      "name": "_REBALANCE_COOLDOWN_SEC",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 121,
+      "node_type": "state_var",
+      "name": "_USD_ISO_4217_CODE",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 122,
+      "node_type": "state_var",
+      "name": "_MANAGEMENT_FEE_DECIMALS",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 123,
+      "node_type": "state_var",
+      "name": "_MAX_MANAGEMENT_FEE",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 124,
+      "node_type": "state_var",
+      "name": "isOperator",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 125,
+      "node_type": "state_var",
+      "name": "lastDepositRequestId",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 126,
+      "node_type": "state_var",
+      "name": "lastRedeemRequestId",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 127,
+      "node_type": "state_var",
+      "name": "_depositRequests",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 128,
+      "node_type": "state_var",
+      "name": "_redeemRequests",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 129,
+      "node_type": "state_var",
+      "name": "basketManager",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 130,
+      "node_type": "state_var",
+      "name": "nextDepositRequestId",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 131,
+      "node_type": "state_var",
+      "name": "nextRedeemRequestId",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 132,
+      "node_type": "state_var",
+      "name": "assetRegistry",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 133,
+      "node_type": "state_var",
+      "name": "bitFlag",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 134,
+      "node_type": "state_var",
+      "name": "strategy",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 135,
+      "node_type": "state_var",
+      "name": "lastManagementFeeHarvestTimestamp",
+      "file": "BasketToken.sol"
+    },
+    {
+      "node_id": 136,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManager.sol:339",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 137,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:BasketManager.sol:348",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 138,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManager.sol:348",
+      "file": "BasketManager.sol"
+    },
+    {
+      "node_id": 139,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManagerUtils.sol:195",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 140,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManagerUtils.sol:198",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 141,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:BasketManagerUtils.sol:655",
+      "file": "BasketManagerUtils.sol"
+    },
+    {
+      "node_id": 142,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:BasketManagerUtils.sol:655",
+      "file": "BasketManagerUtils.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 143,
+    "n_hyperedges": 7,
+    "n_functions": 103,
+    "n_state_vars": 33,
+    "n_call_sites": 7,
+    "avg_hyperedge_size": 4.714285714285714
+  },
+  "label": {
+    "vfp_id": "vfp_00589",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1265",
+      "CWE-1339",
+      "CWE-191",
+      "CWE-221",
+      "CWE-223",
+      "CWE-284",
+      "CWE-285",
+      "CWE-636",
+      "CWE-664",
+      "CWE-682",
+      "CWE-691",
+      "CWE-703",
+      "CWE-755",
+      "CWE-841",
+      "CWE-862"
+    ]
+  }
+}

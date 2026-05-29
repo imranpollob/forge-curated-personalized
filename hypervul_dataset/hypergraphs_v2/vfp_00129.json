@@ -1,0 +1,554 @@
+{
+  "sample_id": "vfp_00129",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Bridge.sol",
+      "start_line": 37,
+      "end_line": 56,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isValidThreshold",
+      "file": "Bridge.sol",
+      "start_line": 58,
+      "end_line": 63,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getSigner",
+      "file": "Bridge.sol",
+      "start_line": 65,
+      "end_line": 67,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getUnlockHash",
+      "file": "Bridge.sol",
+      "start_line": 69,
+      "end_line": 77,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_addListValidator",
+      "file": "Bridge.sol",
+      "start_line": 79,
+      "end_line": 84,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "lock",
+      "file": "Bridge.sol",
+      "start_line": 86,
+      "end_line": 97,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "unlock",
+      "file": "Bridge.sol",
+      "start_line": 100,
+      "end_line": 133,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "changeMinter",
+      "file": "Bridge.sol",
+      "start_line": 136,
+      "end_line": 139,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setWhitelistToken",
+      "file": "Bridge.sol",
+      "start_line": 141,
+      "end_line": 144,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setMinAmount",
+      "file": "Bridge.sol",
+      "start_line": 146,
+      "end_line": 150,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setMaxAmount",
+      "file": "Bridge.sol",
+      "start_line": 152,
+      "end_line": 156,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setMinMaxAmount",
+      "file": "Bridge.sol",
+      "start_line": 158,
+      "end_line": 162,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdrawETH",
+      "file": "Bridge.sol",
+      "start_line": 164,
+      "end_line": 167,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "changeThreshold",
+      "file": "Bridge.sol",
+      "start_line": 169,
+      "end_line": 172,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "addListValidator",
+      "file": "Bridge.sol",
+      "start_line": 174,
+      "end_line": 176,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "UNLOCK_HASH",
+      "var_type": "bytes32 public constant",
+      "file": "Bridge.sol",
+      "line": 12
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "minter",
+      "var_type": "address public",
+      "file": "Bridge.sol",
+      "line": 16
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "whitelistTokens",
+      "var_type": "mapping(address => bool) public",
+      "file": "Bridge.sol",
+      "line": 17
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "unlockHash",
+      "var_type": "mapping(string => bool) public",
+      "file": "Bridge.sol",
+      "line": 18
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "maxAmount",
+      "var_type": "uint256 public",
+      "file": "Bridge.sol",
+      "line": 19
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "minAmount",
+      "var_type": "uint256 public",
+      "file": "Bridge.sol",
+      "line": 20
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "threshold",
+      "var_type": "uint256 public",
+      "file": "Bridge.sol",
+      "line": 21
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "validators",
+      "var_type": "mapping(address => bool) public",
+      "file": "Bridge.sol",
+      "line": 22
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:123",
+      "call_type": "TRANSFER",
+      "line": 123,
+      "enclosing_function": "unlock",
+      "file": "Bridge.sol",
+      "raw_text": "payable(user).transfer(amount - fee);"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:124",
+      "call_type": "TRANSFER",
+      "line": 124,
+      "enclosing_function": "unlock",
+      "file": "Bridge.sol",
+      "raw_text": "payable(owner()).transfer(fee);"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:128",
+      "call_type": "TRANSFER",
+      "line": 128,
+      "enclosing_function": "unlock",
+      "file": "Bridge.sol",
+      "raw_text": "IERC20(token).transfer(user, amount - fee);"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:129",
+      "call_type": "TRANSFER",
+      "line": 129,
+      "enclosing_function": "unlock",
+      "file": "Bridge.sol",
+      "raw_text": "IERC20(token).transfer(owner(), fee);"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:166",
+      "call_type": "TRANSFER",
+      "line": 166,
+      "enclosing_function": "withdrawETH",
+      "file": "Bridge.sol",
+      "raw_text": "payable(msg.sender).transfer(amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        17,
+        18,
+        22,
+        23
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        17,
+        18,
+        22,
+        24
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        6,
+        17,
+        18,
+        22,
+        25
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        6,
+        17,
+        18,
+        22,
+        26
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        12,
+        27
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 27
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "isValidThreshold",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getSigner",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getUnlockHash",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_addListValidator",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "lock",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "unlock",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "changeMinter",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "setWhitelistToken",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "setMinAmount",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "setMaxAmount",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "setMinMaxAmount",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "withdrawETH",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "changeThreshold",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "addListValidator",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "UNLOCK_HASH",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "minter",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "whitelistTokens",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "unlockHash",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "maxAmount",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "minAmount",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "threshold",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "state_var",
+      "name": "validators",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:123",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:124",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:128",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:129",
+      "file": "Bridge.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "TRANSFER:Bridge.sol:166",
+      "file": "Bridge.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 28,
+    "n_hyperedges": 5,
+    "n_functions": 15,
+    "n_state_vars": 8,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 4.4
+  },
+  "label": {
+    "vfp_id": "vfp_00129",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Critical",
+      "High",
+      "Informational",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-252",
+      "CWE-266",
+      "CWE-269",
+      "CWE-284",
+      "CWE-345",
+      "CWE-347",
+      "CWE-693",
+      "CWE-703",
+      "CWE-707",
+      "CWE-754"
+    ]
+  }
+}

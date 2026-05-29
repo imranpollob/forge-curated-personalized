@@ -1,0 +1,785 @@
+{
+  "sample_id": "neg_00553",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_onCreateCampaign",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 48,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_onSend",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 57,
+      "end_line": 69,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_onAllocate",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 72,
+      "end_line": 89,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_onDeallocate",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 92,
+      "end_line": 109,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_onDistribute",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 112,
+      "end_line": 134,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_onWithdrawFunds",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 137,
+      "end_line": 145,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_onUpdateStatus",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 148,
+      "end_line": 154,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_onUpdateMetadata",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "start_line": 157,
+      "end_line": 164,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setupAdConversionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 24,
+      "end_line": 30,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setupAdConversionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 33,
+      "end_line": 39,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_createBasicConversionConfigs",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 42,
+      "end_line": 52,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_createBasicCampaign",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 55,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_createBasicCampaignWithDeadline",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 60,
+      "end_line": 75,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_createCampaignWithAllowlist",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 78,
+      "end_line": 80,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_createCampaignWithAllowlistAndDeadline",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 83,
+      "end_line": 101,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_createBasicCampaignWithFee",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 104,
+      "end_line": 119,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_createOffchainAttribution",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 122,
+      "end_line": 143,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_createOnchainAttribution",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 146,
+      "end_line": 170,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_createOfacReroutingAttribution",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 173,
+      "end_line": 194,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_processAttributionThroughFlywheel",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 197,
+      "end_line": 204,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_addPublisherToAllowlist",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 207,
+      "end_line": 210,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_assertConversionConfig",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 213,
+      "end_line": 225,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_assertPublisherAllowed",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 228,
+      "end_line": 230,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_runOffchainAttributionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 233,
+      "end_line": 268,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_runOnchainAttributionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 271,
+      "end_line": 306,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_runOfacReroutingTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "start_line": 309,
+      "end_line": 326,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "owners",
+      "var_type": "mapping(address campaign => address owner) public",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "line": 12
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "managers",
+      "var_type": "mapping(address campaign => address manager) public",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "line": 15
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "campaignURI",
+      "var_type": "mapping(address campaign => string uri) public override",
+      "file": "flywheel_src_hooks_SimpleRewards.sol",
+      "line": 18
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "hook",
+      "var_type": "AdConversion public",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 10
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "TEST_EVENT_ID_1",
+      "var_type": "bytes16 public constant",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 13
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "TEST_EVENT_ID_2",
+      "var_type": "bytes16 public constant",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 14
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "OFAC_EVENT_ID",
+      "var_type": "bytes16 public constant",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 15
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "TEST_CLICK_ID_1",
+      "var_type": "string public constant",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 18
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "TEST_CLICK_ID_2",
+      "var_type": "string public constant",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 19
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "OFAC_CLICK_ID",
+      "var_type": "string public constant",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 20
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "BURN_ADDRESS",
+      "var_type": "address public constant",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "line": 21
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "SEND:flywheel_test_helpers_AdConversionTestHelpers.sol:203",
+      "call_type": "SEND",
+      "line": 203,
+      "enclosing_function": "_processAttributionThroughFlywheel",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "raw_text": "flywheel.send(campaign, address(token), attributionData);"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:flywheel_test_helpers_AdConversionTestHelpers.sol:209",
+      "call_type": "INTERFACE_CALL",
+      "line": 209,
+      "enclosing_function": "_addPublisherToAllowlist",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "raw_text": "hook.addAllowedPublisherRefCode(campaign, refCode);"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:flywheel_test_helpers_AdConversionTestHelpers.sol:220",
+      "call_type": "INTERFACE_CALL",
+      "line": 220,
+      "enclosing_function": "_assertConversionConfig",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "raw_text": "AdConversion.ConversionConfig memory config = hook.getConversionConfig(campaign, uint16(configId));"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:flywheel_test_helpers_AdConversionTestHelpers.sol:229",
+      "call_type": "INTERFACE_CALL",
+      "line": 229,
+      "enclosing_function": "_assertPublisherAllowed",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol",
+      "raw_text": "assertEq(hook.isPublisherRefCodeAllowed(campaign, refCode), expected);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        23,
+        24,
+        25,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "tau": "SEND",
+      "anchor_call_site_id": 37
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 38
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        39
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 39
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        40
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 40
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_onCreateCampaign",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_onSend",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_onAllocate",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_onDeallocate",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_onDistribute",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_onWithdrawFunds",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_onUpdateStatus",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_onUpdateMetadata",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_setupAdConversionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_setupAdConversionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_createBasicConversionConfigs",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_createBasicCampaign",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_createBasicCampaignWithDeadline",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_createCampaignWithAllowlist",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_createCampaignWithAllowlistAndDeadline",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_createBasicCampaignWithFee",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_createOffchainAttribution",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_createOnchainAttribution",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_createOfacReroutingAttribution",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_processAttributionThroughFlywheel",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_addPublisherToAllowlist",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_assertConversionConfig",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_assertPublisherAllowed",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_runOffchainAttributionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_runOnchainAttributionTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_runOfacReroutingTest",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "owners",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "managers",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "campaignURI",
+      "file": "flywheel_src_hooks_SimpleRewards.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "hook",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "TEST_EVENT_ID_1",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "TEST_EVENT_ID_2",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "OFAC_EVENT_ID",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "TEST_CLICK_ID_1",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "TEST_CLICK_ID_2",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "OFAC_CLICK_ID",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "BURN_ADDRESS",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "call_site",
+      "name": "SEND:flywheel_test_helpers_AdConversionTestHelpers.sol:203",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:flywheel_test_helpers_AdConversionTestHelpers.sol:209",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:flywheel_test_helpers_AdConversionTestHelpers.sol:220",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:flywheel_test_helpers_AdConversionTestHelpers.sol:229",
+      "file": "flywheel_test_helpers_AdConversionTestHelpers.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 41,
+    "n_hyperedges": 4,
+    "n_functions": 26,
+    "n_state_vars": 11,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 16.75
+  },
+  "label": {
+    "vfp_id": "neg_00553",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

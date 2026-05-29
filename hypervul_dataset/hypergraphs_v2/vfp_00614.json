@@ -1,0 +1,730 @@
+{
+  "sample_id": "vfp_00614",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "authorizationState",
+      "file": "EIP3009.sol",
+      "start_line": 137,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferWithAuthorization",
+      "file": "EIP3009.sol",
+      "start_line": 158,
+      "end_line": 171,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferWithAuthorization",
+      "file": "EIP3009.sol",
+      "start_line": 183,
+      "end_line": 202,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "receiveWithAuthorization",
+      "file": "EIP3009.sol",
+      "start_line": 219,
+      "end_line": 232,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "receiveWithAuthorization",
+      "file": "EIP3009.sol",
+      "start_line": 244,
+      "end_line": 267,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "cancelAuthorization",
+      "file": "EIP3009.sol",
+      "start_line": 277,
+      "end_line": 286,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "cancelAuthorization",
+      "file": "EIP3009.sol",
+      "start_line": 294,
+      "end_line": 322,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_transferWithAuthorization",
+      "file": "EIP3009.sol",
+      "start_line": 324,
+      "end_line": 338,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_transferWithAuthorizationBytes",
+      "file": "EIP3009.sol",
+      "start_line": 340,
+      "end_line": 385,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "permit",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 81,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "permit",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 102,
+      "end_line": 130,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_verifySignature",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 140,
+      "end_line": 164,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_verifySig",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 169,
+      "end_line": 176,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "rsvToSig",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 181,
+      "end_line": 191,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "permitBurn",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 197,
+      "end_line": 207,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "permitBurn",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 212,
+      "end_line": 237,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 242,
+      "end_line": 244,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "ERC20PermitWithERC1271.sol",
+      "start_line": 250,
+      "end_line": 252,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "mintTo",
+      "file": "Tea.sol",
+      "start_line": 90,
+      "end_line": 94,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "increaseAllowance",
+      "file": "Tea.sol",
+      "start_line": 108,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "decreaseAllowance",
+      "file": "Tea.sol",
+      "start_line": 127,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "transferTimelock",
+      "file": "Tea.sol",
+      "start_line": 146,
+      "end_line": 148,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "recoverToken",
+      "file": "Tea.sol",
+      "start_line": 156,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "recoverNFT",
+      "file": "Tea.sol",
+      "start_line": 174,
+      "end_line": 185,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "sweepSelf",
+      "file": "Tea.sol",
+      "start_line": 191,
+      "end_line": 193,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "recoverNative",
+      "file": "Tea.sol",
+      "start_line": 199,
+      "end_line": 204,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "TRANSFER_WITH_AUTHORIZATION_TYPEHASH",
+      "var_type": "bytes32\n        public constant",
+      "file": "EIP3009.sol",
+      "line": 82
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "RECEIVE_WITH_AUTHORIZATION_TYPEHASH",
+      "var_type": "bytes32\n        public constant",
+      "file": "EIP3009.sol",
+      "line": 86
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "CANCEL_AUTHORIZATION_TYPEHASH",
+      "var_type": "bytes32\n        public constant",
+      "file": "EIP3009.sol",
+      "line": 90
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "_authorizationStates",
+      "var_type": "mapping(address => mapping(bytes32 => bool)) internal",
+      "file": "EIP3009.sol",
+      "line": 96
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "PERMIT_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "ERC20PermitWithERC1271.sol",
+      "line": 54
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "PERMIT_BURN_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "ERC20PermitWithERC1271.sol",
+      "line": 58
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "ERC1271_MAGIC_VALUE",
+      "var_type": "bytes4 public constant",
+      "file": "Tea.sol",
+      "line": 36
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "ERC1271_INVALID_SIGNATURE",
+      "var_type": "bytes4 constant",
+      "file": "Tea.sol",
+      "line": 38
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "timelock",
+      "var_type": "address public",
+      "file": "Tea.sol",
+      "line": 40
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "TREASURY_SAFE",
+      "var_type": "address public constant",
+      "file": "Tea.sol",
+      "line": 41
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "INITIAL_SUPPLY",
+      "var_type": "uint256 public constant",
+      "file": "Tea.sol",
+      "line": 45
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "totalMinted",
+      "var_type": "uint256 public",
+      "file": "Tea.sol",
+      "line": 69
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Tea.sol:113",
+      "call_type": "INTERFACE_CALL",
+      "line": 113,
+      "enclosing_function": "recoverToken",
+      "file": "Tea.sol",
+      "raw_text": "token.safeTransfer(TREASURY_SAFE, amount);"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Tea.sol:127",
+      "call_type": "INTERFACE_CALL",
+      "line": 127,
+      "enclosing_function": "recoverNFT",
+      "file": "Tea.sol",
+      "raw_text": "nft.safeTransferFrom(address(this), TREASURY_SAFE, tokenId);"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "CALL:Tea.sol:139",
+      "call_type": "CALL",
+      "line": 139,
+      "enclosing_function": "recoverNative",
+      "file": "Tea.sol",
+      "raw_text": "(bool ok, ) = TREASURY_SAFE.call{value: amount}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        22,
+        35,
+        38
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 38
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        23,
+        35,
+        39
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 39
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        25,
+        35,
+        40
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 40
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "authorizationState",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transferWithAuthorization",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferWithAuthorization",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "receiveWithAuthorization",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "receiveWithAuthorization",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "cancelAuthorization",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "cancelAuthorization",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_transferWithAuthorization",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_transferWithAuthorizationBytes",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "permit",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "permit",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_verifySignature",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_verifySig",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "rsvToSig",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "permitBurn",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "permitBurn",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "mintTo",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "increaseAllowance",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "decreaseAllowance",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "transferTimelock",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "recoverToken",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "recoverNFT",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "sweepSelf",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "recoverNative",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "TRANSFER_WITH_AUTHORIZATION_TYPEHASH",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "RECEIVE_WITH_AUTHORIZATION_TYPEHASH",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "CANCEL_AUTHORIZATION_TYPEHASH",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "_authorizationStates",
+      "file": "EIP3009.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "PERMIT_TYPEHASH",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "PERMIT_BURN_TYPEHASH",
+      "file": "ERC20PermitWithERC1271.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "ERC1271_MAGIC_VALUE",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "ERC1271_INVALID_SIGNATURE",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "timelock",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "state_var",
+      "name": "TREASURY_SAFE",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "state_var",
+      "name": "INITIAL_SUPPLY",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 37,
+      "node_type": "state_var",
+      "name": "totalMinted",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 38,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Tea.sol:113",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 39,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:Tea.sol:127",
+      "file": "Tea.sol"
+    },
+    {
+      "node_id": 40,
+      "node_type": "call_site",
+      "name": "CALL:Tea.sol:139",
+      "file": "Tea.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 41,
+    "n_hyperedges": 3,
+    "n_functions": 26,
+    "n_state_vars": 12,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "vfp_00614",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1164",
+      "CWE-460",
+      "CWE-477",
+      "CWE-703",
+      "CWE-710",
+      "CWE-755"
+    ]
+  }
+}

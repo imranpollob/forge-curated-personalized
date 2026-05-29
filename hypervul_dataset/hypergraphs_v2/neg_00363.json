@@ -1,0 +1,259 @@
+{
+  "sample_id": "neg_00363",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "safeTransfer_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "start_line": 16,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "safeTransferFrom_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "start_line": 20,
+      "end_line": 22,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "safeIncreaseAllowance_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "start_line": 24,
+      "end_line": 26,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "safeDecreaseAllowance_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "forceApprove_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "start_line": 32,
+      "end_line": 34,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "token",
+      "var_type": "USDKG public",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "line": 10
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:17",
+      "call_type": "INTERFACE_CALL",
+      "line": 17,
+      "enclosing_function": "safeTransfer_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "raw_text": "token.safeTransfer(to, value);"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:21",
+      "call_type": "INTERFACE_CALL",
+      "line": 21,
+      "enclosing_function": "safeTransferFrom_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "raw_text": "token.safeTransferFrom(from, to, value);"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:25",
+      "call_type": "INTERFACE_CALL",
+      "line": 25,
+      "enclosing_function": "safeIncreaseAllowance_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "raw_text": "token.safeIncreaseAllowance(spender, value);"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:29",
+      "call_type": "INTERFACE_CALL",
+      "line": 29,
+      "enclosing_function": "safeDecreaseAllowance_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "raw_text": "token.safeDecreaseAllowance(spender, value);"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:33",
+      "call_type": "INTERFACE_CALL",
+      "line": 33,
+      "enclosing_function": "forceApprove_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol",
+      "raw_text": "token.forceApprove(spender, value);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        5,
+        6
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 6
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        1,
+        5,
+        7
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 7
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        2,
+        5,
+        8
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 8
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        3,
+        5,
+        9
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 9
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        4,
+        5,
+        10
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 10
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "safeTransfer_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "safeTransferFrom_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "safeIncreaseAllowance_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "safeDecreaseAllowance_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "forceApprove_test",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "token",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:17",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:21",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:25",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:29",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:USDkg_contracts_test_SafeERC20Mock.sol:33",
+      "file": "USDkg_contracts_test_SafeERC20Mock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 5,
+    "n_functions": 5,
+    "n_state_vars": 1,
+    "n_call_sites": 5,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00363",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

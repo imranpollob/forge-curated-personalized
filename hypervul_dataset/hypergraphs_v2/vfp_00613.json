@@ -1,0 +1,191 @@
+{
+  "sample_id": "vfp_00613",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateAfterLiquidityAdd",
+      "file": "PoolRewards.sol",
+      "start_line": 34,
+      "end_line": 100,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateAfterLiquidityRemove",
+      "file": "PoolRewards.sol",
+      "start_line": 102,
+      "end_line": 130,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPendingPositionRewards",
+      "file": "PoolRewards.sol",
+      "start_line": 132,
+      "end_line": 151,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPosition",
+      "file": "PoolRewards.sol",
+      "start_line": 153,
+      "end_line": 172,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getGrowthInsideX128",
+      "file": "PoolRewards.sol",
+      "start_line": 174,
+      "end_line": 193,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateAfterTickMove",
+      "file": "PoolRewards.sol",
+      "start_line": 198,
+      "end_line": 217,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateTickMoveUp",
+      "file": "PoolRewards.sol",
+      "start_line": 219,
+      "end_line": 240,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_updateTickMoveDown",
+      "file": "PoolRewards.sol",
+      "start_line": 242,
+      "end_line": 265,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getGrowthDelta",
+      "file": "PoolRewards.sol",
+      "start_line": 267,
+      "end_line": 274,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "updateAfterLiquidityAdd",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "updateAfterLiquidityRemove",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "getPendingPositionRewards",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getPosition",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getGrowthInsideX128",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateAfterTickMove",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_updateTickMoveUp",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_updateTickMoveDown",
+      "file": "PoolRewards.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getGrowthDelta",
+      "file": "PoolRewards.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00613",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1041",
+      "CWE-670",
+      "CWE-691",
+      "CWE-710"
+    ]
+  }
+}

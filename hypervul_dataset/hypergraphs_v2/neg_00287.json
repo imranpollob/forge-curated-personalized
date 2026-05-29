@@ -1,0 +1,621 @@
+{
+  "sample_id": "neg_00287",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swapExactTokensForTokens",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol",
+      "start_line": 30,
+      "end_line": 74,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol",
+      "start_line": 76,
+      "end_line": 80,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol",
+      "start_line": 82,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAmountOut",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol",
+      "start_line": 88,
+      "end_line": 92,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 7,
+      "end_line": 7,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 9,
+      "end_line": 9,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "factoryRegistry",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 42,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "defaultFactory",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 45,
+      "end_line": 45,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "voter",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 48,
+      "end_line": 48,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "weth",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 52,
+      "end_line": 52,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "ETHER",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 56,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "sortTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 87,
+      "end_line": 90,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "poolFor",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 101,
+      "end_line": 106,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getReserves",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 115,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getAmountsOut",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 123,
+      "end_line": 126,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "quoteAddLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 140,
+      "end_line": 150,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "quoteRemoveLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 160,
+      "end_line": 166,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 181,
+      "end_line": 191,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "addLiquidityETH",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 205,
+      "end_line": 216,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 231,
+      "end_line": 240,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "removeLiquidityETH",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 253,
+      "end_line": 261,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "removeLiquidityETHSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 273,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "swapExactTokensForTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 292,
+      "end_line": 298,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "swapExactETHForTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 306,
+      "end_line": 311,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "swapExactTokensForETH",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 320,
+      "end_line": 326,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "UNSAFE_swapExactTokensForTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 333,
+      "end_line": 338,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 348,
+      "end_line": 354,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 361,
+      "end_line": 366,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 375,
+      "end_line": 381,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "zapIn",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 398,
+      "end_line": 407,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "zapOut",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 420,
+      "end_line": 426,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "generateZapInParams",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 451,
+      "end_line": 468,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "generateZapOutParams",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 491,
+      "end_line": 507,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "quoteStableLiquidityRatio",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol",
+      "start_line": 519,
+      "end_line": 523,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "wethContractAddress",
+      "var_type": "address public immutable",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol",
+      "line": 22
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "swapExactTokensForTokens",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getAmountOut",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "deposit",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "factoryRegistry",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "defaultFactory",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "voter",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "weth",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "ETHER",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "sortTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "poolFor",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getReserves",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "getAmountsOut",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "quoteAddLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "quoteRemoveLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "addLiquidityETH",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "removeLiquidityETH",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "removeLiquidityETHSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "swapExactTokensForTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "swapExactETHForTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "swapExactTokensForETH",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "UNSAFE_swapExactTokensForTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "swapExactETHForTokensSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "zapIn",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "function",
+      "name": "zapOut",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "function",
+      "name": "generateZapInParams",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "function",
+      "name": "generateZapOutParams",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "function",
+      "name": "quoteStableLiquidityRatio",
+      "file": "sickle-public_contracts_interfaces_external_aerodrome_IRouter.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "state_var",
+      "name": "wethContractAddress",
+      "file": "sickle-public_contracts_connectors_VelocoreConnector.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 35,
+    "n_hyperedges": 0,
+    "n_functions": 34,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00287",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

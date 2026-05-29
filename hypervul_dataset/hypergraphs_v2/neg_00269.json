@@ -1,0 +1,161 @@
+{
+  "sample_id": "neg_00269",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setShouldFail",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol",
+      "start_line": 31,
+      "end_line": 33,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exec",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol",
+      "start_line": 35,
+      "end_line": 43,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "rates",
+      "var_type": "mapping(uint256 => uint256) public",
+      "file": "dss-exec-lib_src_mocks_MockRates.sol",
+      "line": 23
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "executed",
+      "var_type": "bool public",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol",
+      "line": 24
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "shouldFail",
+      "var_type": "bool public",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol",
+      "line": 25
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "lastTarget",
+      "var_type": "address public",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol",
+      "line": 28
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "lastData",
+      "var_type": "bytes public",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol",
+      "line": 29
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:dss-exec-lib_src_mocks_MockStarProxy.sol:41",
+      "call_type": "DELEGATECALL",
+      "line": 41,
+      "enclosing_function": "exec",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol",
+      "raw_text": "(ok, out) = target.delegatecall(args);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "tau": "DELEGATECALL",
+      "anchor_call_site_id": 7
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setShouldFail",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "exec",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "rates",
+      "file": "dss-exec-lib_src_mocks_MockRates.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "executed",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "shouldFail",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "state_var",
+      "name": "lastTarget",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "state_var",
+      "name": "lastData",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "call_site",
+      "name": "DELEGATECALL:dss-exec-lib_src_mocks_MockStarProxy.sol:41",
+      "file": "dss-exec-lib_src_mocks_MockStarProxy.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 8,
+    "n_hyperedges": 1,
+    "n_functions": 2,
+    "n_state_vars": 5,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "neg_00269",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

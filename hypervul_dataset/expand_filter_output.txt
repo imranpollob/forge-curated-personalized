@@ -1,0 +1,29 @@
+Part B - Expanded Filter Rebuild
+Previous usable: 382
+New usable: 413
+Recovered samples: 31
+New usable positive: 263
+New usable negative: 150
+
+Part D - Expanded Dataset Summary
+New per-class usable positive counts:
+  reentrancy: 104
+  arithmetic_oracle: 87
+  defi_protection: 75
+  access_control: 55
+  state_management: 107
+  unchecked_call: 70
+  input_validation: 125
+
+5-fold CV stats (averaged across folds):
+  Avg train samples per fold: 288.4
+  Avg val samples per fold:   42.0
+  Avg test samples per fold:  82.6
+  Avg reentrancy test per fold: 20.8
+  Avg defi_protection test per fold: 15.0
+  Avg access_control test per fold: 11.0
+
+Canonical dataset updated:
+  hypergraphs: /home/pollmix/Coding/FORGE-Curated/hypervul_dataset/hypergraphs_v2
+  cv_folds: /home/pollmix/Coding/FORGE-Curated/hypervul_dataset/cv_folds.json
+  manifest: /home/pollmix/Coding/FORGE-Curated/hypervul_dataset/dataset_manifest.json

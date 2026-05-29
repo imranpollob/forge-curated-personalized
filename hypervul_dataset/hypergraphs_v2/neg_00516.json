@@ -1,0 +1,311 @@
+{
+  "sample_id": "neg_00516",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proveWithdrawalTransaction",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_SuperBridgeDecoderAndSanitizer.sol",
+      "start_line": 12,
+      "end_line": 23,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "finalizeWithdrawalTransaction",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_SuperBridgeDecoderAndSanitizer.sol",
+      "start_line": 29,
+      "end_line": 35,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "finalizeWithdrawalTransactionExternalProof",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_SuperBridgeDecoderAndSanitizer.sol",
+      "start_line": 41,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setConfig",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 44,
+      "end_line": 56,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getConfig",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 60,
+      "end_line": 68,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "version",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isSupportedEid",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 74,
+      "end_line": 76,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_quoteVerifier",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 80,
+      "end_line": 91,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_payVerifier",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 93,
+      "end_line": 102,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_splitOptions",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 104,
+      "end_line": 111,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "send",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "start_line": 113,
+      "end_line": 124,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "testHelper",
+      "var_type": "TestHelperOz5 public",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "line": 22
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_EXECUTOR",
+      "var_type": "uint32 internal constant",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "line": 24
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_ULN",
+      "var_type": "uint32 internal constant",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "line": 25
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "SEND:ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol:122",
+      "call_type": "SEND",
+      "line": 122,
+      "enclosing_function": "send",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "raw_text": "(fee, encodedPacket) = super.send(_packet, _options, _payInLzToken);"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol:123",
+      "call_type": "INTERFACE_CALL",
+      "line": 123,
+      "enclosing_function": "send",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol",
+      "raw_text": "testHelper.schedulePacket(encodedPacket, _options);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        10,
+        11,
+        14
+      ],
+      "tau": "SEND",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        10,
+        11,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "proveWithdrawalTransaction",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_SuperBridgeDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "finalizeWithdrawalTransaction",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_SuperBridgeDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "finalizeWithdrawalTransactionExternalProof",
+      "file": "ee9447ec_clearpool-payfi-vaults_src_base_DecodersAndSanitizers_Protocols_SuperBridgeDecoderAndSanitizer.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setConfig",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getConfig",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "version",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "isSupportedEid",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_quoteVerifier",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_payVerifier",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_splitOptions",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "send",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "testHelper",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_EXECUTOR",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "CONFIG_TYPE_ULN",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "SEND:ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol:122",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol:123",
+      "file": "ee9447ec_clearpool-payfi-vaults_test_CrossChain_@layerzerolabs-custom_test-evm-foundry-custom_SendUln302Mock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 16,
+    "n_hyperedges": 2,
+    "n_functions": 11,
+    "n_state_vars": 3,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00516",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

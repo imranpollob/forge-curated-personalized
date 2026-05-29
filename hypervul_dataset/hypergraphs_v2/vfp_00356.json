@@ -1,0 +1,370 @@
+{
+  "sample_id": "vfp_00356",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hashChainPermits",
+      "file": "Permit3.sol",
+      "start_line": 53,
+      "end_line": 73,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "permit",
+      "file": "Permit3.sol",
+      "start_line": 80,
+      "end_line": 89,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "permit",
+      "file": "Permit3.sol",
+      "start_line": 101,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "permit",
+      "file": "Permit3.sol",
+      "start_line": 151,
+      "end_line": 194,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "permitWitness",
+      "file": "Permit3.sol",
+      "start_line": 208,
+      "end_line": 244,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "permitWitness",
+      "file": "Permit3.sol",
+      "start_line": 269,
+      "end_line": 325,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_processChainPermits",
+      "file": "Permit3.sol",
+      "start_line": 341,
+      "end_line": 352,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_processAllowanceOperation",
+      "file": "Permit3.sol",
+      "start_line": 360,
+      "end_line": 386,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_validateLockStatus",
+      "file": "Permit3.sol",
+      "start_line": 396,
+      "end_line": 414,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_decreaseAllowance",
+      "file": "Permit3.sol",
+      "start_line": 421,
+      "end_line": 425,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_lockAllowance",
+      "file": "Permit3.sol",
+      "start_line": 432,
+      "end_line": 436,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_unlockAllowance",
+      "file": "Permit3.sol",
+      "start_line": 442,
+      "end_line": 448,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_processIncreaseOrUpdate",
+      "file": "Permit3.sol",
+      "start_line": 456,
+      "end_line": 468,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_increaseAllowanceAmount",
+      "file": "Permit3.sol",
+      "start_line": 475,
+      "end_line": 483,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_updateExpirationAndTimestamp",
+      "file": "Permit3.sol",
+      "start_line": 491,
+      "end_line": 502,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_validateWitnessTypeString",
+      "file": "Permit3.sol",
+      "start_line": 512,
+      "end_line": 525,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_getWitnessTypeHash",
+      "file": "Permit3.sol",
+      "start_line": 534,
+      "end_line": 538,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "CHAIN_PERMITS_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "Permit3.sol",
+      "line": 27
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "SIGNED_PERMIT3_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "Permit3.sol",
+      "line": 35
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "PERMIT_WITNESS_TYPEHASH_STUB",
+      "var_type": "string public constant",
+      "file": "Permit3.sol",
+      "line": 39
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "hashChainPermits",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "permit",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "permit",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "permit",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "permitWitness",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "permitWitness",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_processChainPermits",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_processAllowanceOperation",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_validateLockStatus",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_decreaseAllowance",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_lockAllowance",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_unlockAllowance",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_processIncreaseOrUpdate",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_increaseAllowanceAmount",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_updateExpirationAndTimestamp",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_validateWitnessTypeString",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_getWitnessTypeHash",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "CHAIN_PERMITS_TYPEHASH",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "SIGNED_PERMIT3_TYPEHASH",
+      "file": "Permit3.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "PERMIT_WITNESS_TYPEHASH_STUB",
+      "file": "Permit3.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 0,
+    "n_functions": 17,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00356",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "High",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1329",
+      "CWE-424",
+      "CWE-664",
+      "CWE-693"
+    ]
+  }
+}

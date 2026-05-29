@@ -1,0 +1,105 @@
+{
+  "sample_id": "vfp_00510",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "toPersonalSignTypedDataHash",
+      "file": "ERC7739Utils.sol",
+      "start_line": 21,
+      "end_line": 23,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "toNestedTypedDataSignHash",
+      "file": "ERC7739Utils.sol",
+      "start_line": 32,
+      "end_line": 41,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decodeContentsDescr",
+      "file": "ERC7739Utils.sol",
+      "start_line": 48,
+      "end_line": 88,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_isForbiddenChar",
+      "file": "ERC7739Utils.sol",
+      "start_line": 93,
+      "end_line": 95,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "toPersonalSignTypedDataHash",
+      "file": "ERC7739Utils.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "toNestedTypedDataSignHash",
+      "file": "ERC7739Utils.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decodeContentsDescr",
+      "file": "ERC7739Utils.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_isForbiddenChar",
+      "file": "ERC7739Utils.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 4,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00510",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1286",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

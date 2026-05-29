@@ -1,0 +1,222 @@
+{
+  "sample_id": "vfp_00599",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "userCmd",
+      "file": "main.sol",
+      "start_line": 17,
+      "end_line": 20,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "main.sol",
+      "start_line": 73,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "main.sol",
+      "start_line": 119,
+      "end_line": 162,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_encodeLiquidityCommand",
+      "file": "main.sol",
+      "start_line": 178,
+      "end_line": 203,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_executeCommand",
+      "file": "main.sol",
+      "start_line": 214,
+      "end_line": 227,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "main.sol",
+      "start_line": 244,
+      "end_line": 281,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "main.sol",
+      "start_line": 298,
+      "end_line": 335,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "buy",
+      "file": "main.sol",
+      "start_line": 353,
+      "end_line": 423,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_encodeTradeCommand",
+      "file": "main.sol",
+      "start_line": 437,
+      "end_line": 463,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "approve",
+      "file": "main.sol",
+      "start_line": 472,
+      "end_line": 491,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "name",
+      "var_type": "string public constant",
+      "file": "main.sol",
+      "line": 504
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "userCmd",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "createPool",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "addLiquidity",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_encodeLiquidityCommand",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_executeCommand",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "removeLiquidity",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "harvest",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "buy",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_encodeTradeCommand",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "approve",
+      "file": "main.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "name",
+      "file": "main.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 11,
+    "n_hyperedges": 0,
+    "n_functions": 10,
+    "n_state_vars": 1,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00599",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-358",
+      "CWE-670",
+      "CWE-691",
+      "CWE-693"
+    ]
+  }
+}

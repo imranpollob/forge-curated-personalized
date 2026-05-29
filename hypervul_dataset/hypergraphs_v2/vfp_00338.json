@@ -1,0 +1,403 @@
+{
+  "sample_id": "vfp_00338",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentDAO.sol",
+      "start_line": 40,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "votingDelay",
+      "file": "AgentDAO.sol",
+      "start_line": 59,
+      "end_line": 66,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "votingPeriod",
+      "file": "AgentDAO.sol",
+      "start_line": 68,
+      "end_line": 75,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "proposalThreshold",
+      "file": "AgentDAO.sol",
+      "start_line": 77,
+      "end_line": 84,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "propose",
+      "file": "AgentDAO.sol",
+      "start_line": 86,
+      "end_line": 113,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_propose",
+      "file": "AgentDAO.sol",
+      "start_line": 115,
+      "end_line": 128,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "proposalCount",
+      "file": "AgentDAO.sol",
+      "start_line": 130,
+      "end_line": 137,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "scoreOf",
+      "file": "AgentDAO.sol",
+      "start_line": 139,
+      "end_line": 141,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getPastScore",
+      "file": "AgentDAO.sol",
+      "start_line": 143,
+      "end_line": 152,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_castVote",
+      "file": "AgentDAO.sol",
+      "start_line": 154,
+      "end_line": 187,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_tryAutoExecute",
+      "file": "AgentDAO.sol",
+      "start_line": 190,
+      "end_line": 197,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_updateMaturity",
+      "file": "AgentDAO.sol",
+      "start_line": 199,
+      "end_line": 223,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_calcMaturity",
+      "file": "AgentDAO.sol",
+      "start_line": 225,
+      "end_line": 248,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getMaturity",
+      "file": "AgentDAO.sol",
+      "start_line": 250,
+      "end_line": 253,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "AgentDAO.sol",
+      "start_line": 255,
+      "end_line": 264,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "quorumDenominator",
+      "file": "AgentDAO.sol",
+      "start_line": 266,
+      "end_line": 268,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "state",
+      "file": "AgentDAO.sol",
+      "start_line": 270,
+      "end_line": 285,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "totalScore",
+      "file": "AgentDAO.sol",
+      "start_line": 287,
+      "end_line": 289,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_scores",
+      "var_type": "mapping(address => Checkpoints.Trace208) private",
+      "file": "AgentDAO.sol",
+      "line": 27
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "_proposalMaturities",
+      "var_type": "mapping(uint256 => uint256) private",
+      "file": "AgentDAO.sol",
+      "line": 28
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "_totalScore",
+      "var_type": "uint256 private",
+      "file": "AgentDAO.sol",
+      "line": 32
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_agentNft",
+      "var_type": "address private",
+      "file": "AgentDAO.sol",
+      "line": 34
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "votingDelay",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "votingPeriod",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "proposalThreshold",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "propose",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_propose",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "proposalCount",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "scoreOf",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "getPastScore",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_castVote",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_tryAutoExecute",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "_updateMaturity",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "_calcMaturity",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "getMaturity",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "quorum",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "quorumDenominator",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "state",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "totalScore",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_scores",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "state_var",
+      "name": "_proposalMaturities",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "state_var",
+      "name": "_totalScore",
+      "file": "AgentDAO.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "state_var",
+      "name": "_agentNft",
+      "file": "AgentDAO.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 0,
+    "n_functions": 18,
+    "n_state_vars": 4,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00338",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 1,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1288",
+      "CWE-20",
+      "CWE-390",
+      "CWE-703",
+      "CWE-707",
+      "CWE-755"
+    ]
+  }
+}

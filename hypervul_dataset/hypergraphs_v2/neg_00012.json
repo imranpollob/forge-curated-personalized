@@ -1,0 +1,182 @@
+{
+  "sample_id": "neg_00012",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getUnspecifiedAmount",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 14,
+      "end_line": 33,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getSwapFeeAmount",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 35,
+      "end_line": 42,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getAmountOutFromExactInput",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 44,
+      "end_line": 51,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getAmountInForExactOutput",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 53,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getAmountIn",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 62,
+      "end_line": 71,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getAmountOut",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 73,
+      "end_line": 82,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 84,
+      "end_line": 86,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 88,
+      "end_line": 90,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol",
+      "start_line": 93,
+      "end_line": 93,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getUnspecifiedAmount",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_getSwapFeeAmount",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "_getAmountOutFromExactInput",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "_getAmountInForExactOutput",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "_getAmountIn",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "_getAmountOut",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_mint",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_burn",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "test",
+      "file": "uniswap-hooks_test_mocks_BaseCustomCurveMock.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 9,
+    "n_hyperedges": 0,
+    "n_functions": 9,
+    "n_state_vars": 0,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00012",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

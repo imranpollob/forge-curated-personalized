@@ -1,0 +1,246 @@
+{
+  "sample_id": "neg_00076",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "start_line": 15,
+      "end_line": 18,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "start_line": 20,
+      "end_line": 29,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "start_line": 31,
+      "end_line": 51,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "start_line": 53,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "start_line": 60,
+      "end_line": 79,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isDelegate",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol",
+      "start_line": 43,
+      "end_line": 45,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "create",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol",
+      "start_line": 47,
+      "end_line": 55,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "var_type": "mapping (address => uint256)                      public",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "line": 6
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "allowance",
+      "var_type": "mapping (address => mapping (address => uint256)) public",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "line": 7
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "var_type": "uint256 public",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol",
+      "line": 9
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "delegates",
+      "var_type": "mapping(address usr => address voteDelegate)     public",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol",
+      "line": 24
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "created",
+      "var_type": "mapping(address voteDelegate => uint256 created) public",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol",
+      "line": 25
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "chief",
+      "var_type": "address immutable public",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol",
+      "line": 29
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "polling",
+      "var_type": "address immutable public",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol",
+      "line": 30
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "approve",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "mint",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "burn",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isDelegate",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "create",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "balanceOf",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "allowance",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "totalSupply",
+      "file": "null_vote-delegate_certora_harness_GovMock.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "delegates",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "created",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "chief",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "polling",
+      "file": "null_vote-delegate_src_VoteDelegateFactory.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 7,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00076",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

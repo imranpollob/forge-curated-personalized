@@ -1,0 +1,665 @@
+{
+  "sample_id": "vfp_00378",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "Delegation.sol",
+      "start_line": 72,
+      "end_line": 78,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onERC1155Received",
+      "file": "Delegation.sol",
+      "start_line": 80,
+      "end_line": 86,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onERC1155BatchReceived",
+      "file": "Delegation.sol",
+      "start_line": 88,
+      "end_line": 96,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "execute",
+      "file": "Delegation.sol",
+      "start_line": 98,
+      "end_line": 100,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "supportsExecutionMode",
+      "file": "Delegation.sol",
+      "start_line": 102,
+      "end_line": 114,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "Delegation.sol",
+      "start_line": 117,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "validateUserOp",
+      "file": "Delegation.sol",
+      "start_line": 137,
+      "end_line": 164,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addValidator",
+      "file": "Delegation.sol",
+      "start_line": 166,
+      "end_line": 169,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "removeValidator",
+      "file": "Delegation.sol",
+      "start_line": 171,
+      "end_line": 174,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isValidatorEnabled",
+      "file": "Delegation.sol",
+      "start_line": 176,
+      "end_line": 178,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "entryPoint",
+      "file": "Delegation.sol",
+      "start_line": 180,
+      "end_line": 183,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getNonce",
+      "file": "Delegation.sol",
+      "start_line": 185,
+      "end_line": 188,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "invalidateNonce",
+      "file": "Delegation.sol",
+      "start_line": 190,
+      "end_line": 205,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "Delegation.sol",
+      "start_line": 207,
+      "end_line": 273,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_executeCalls",
+      "file": "Delegation.sol",
+      "start_line": 275,
+      "end_line": 288,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_decodeCalls",
+      "file": "Delegation.sol",
+      "start_line": 290,
+      "end_line": 302,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_decodeCallsFromExecute",
+      "file": "Delegation.sol",
+      "start_line": 304,
+      "end_line": 318,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_decodeOpData",
+      "file": "Delegation.sol",
+      "start_line": 320,
+      "end_line": 332,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_decodeNonceKey",
+      "file": "Delegation.sol",
+      "start_line": 334,
+      "end_line": 338,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_decodeSignature",
+      "file": "Delegation.sol",
+      "start_line": 340,
+      "end_line": 349,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_decodeSignatureComponents",
+      "file": "Delegation.sol",
+      "start_line": 351,
+      "end_line": 361,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_decodeValidator",
+      "file": "Delegation.sol",
+      "start_line": 363,
+      "end_line": 376,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_verifySignature",
+      "file": "Delegation.sol",
+      "start_line": 378,
+      "end_line": 397,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_computeDigest",
+      "file": "Delegation.sol",
+      "start_line": 399,
+      "end_line": 416,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getAndUseNonce",
+      "file": "Delegation.sol",
+      "start_line": 418,
+      "end_line": 422,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_encodeNonce",
+      "file": "Delegation.sol",
+      "start_line": 424,
+      "end_line": 426,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_decodeNonce",
+      "file": "Delegation.sol",
+      "start_line": 428,
+      "end_line": 431,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getStorage",
+      "file": "Delegation.sol",
+      "start_line": 433,
+      "end_line": 437,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_decodeExecutionMode",
+      "file": "Delegation.sol",
+      "start_line": 439,
+      "end_line": 452,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_domainNameAndVersion",
+      "file": "Delegation.sol",
+      "start_line": 454,
+      "end_line": 462,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "transientValidator",
+      "var_type": "IValidator transient",
+      "file": "Delegation.sol",
+      "line": 38
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "STORAGE_LOCATION",
+      "var_type": "bytes32 private constant",
+      "file": "Delegation.sol",
+      "line": 42
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "EXECUTE_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "Delegation.sol",
+      "line": 47
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "CALL_TYPEHASH",
+      "var_type": "bytes32 private constant",
+      "file": "Delegation.sol",
+      "line": 51
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "CALL:Delegation.sol:143",
+      "call_type": "CALL",
+      "line": 143,
+      "enclosing_function": "validateUserOp",
+      "file": "Delegation.sol",
+      "raw_text": "(bool success,) = payable(msg.sender).call{value: missingAccountFunds}(\"\");"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "CALL:Delegation.sol:280",
+      "call_type": "CALL",
+      "line": 280,
+      "enclosing_function": "_executeCalls",
+      "file": "Delegation.sol",
+      "raw_text": "(bool success, bytes memory data) = to.call{value: call.value}(call.data);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        30,
+        34
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 34
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        3,
+        13,
+        14,
+        30,
+        35
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 35
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "onERC721Received",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "onERC1155Received",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "onERC1155BatchReceived",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "execute",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "supportsExecutionMode",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "isValidSignature",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "validateUserOp",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "addValidator",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "removeValidator",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "isValidatorEnabled",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "entryPoint",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "getNonce",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "invalidateNonce",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "_execute",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "_executeCalls",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "_decodeCalls",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "_decodeCallsFromExecute",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "_decodeOpData",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "_decodeNonceKey",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "_decodeSignature",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "_decodeSignatureComponents",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "_decodeValidator",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "_verifySignature",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_computeDigest",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_getAndUseNonce",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "function",
+      "name": "_encodeNonce",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "function",
+      "name": "_decodeNonce",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "function",
+      "name": "_getStorage",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "function",
+      "name": "_decodeExecutionMode",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "function",
+      "name": "_domainNameAndVersion",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "state_var",
+      "name": "transientValidator",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "state_var",
+      "name": "STORAGE_LOCATION",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "state_var",
+      "name": "EXECUTE_TYPEHASH",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "state_var",
+      "name": "CALL_TYPEHASH",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "CALL:Delegation.sol:143",
+      "file": "Delegation.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "CALL:Delegation.sol:280",
+      "file": "Delegation.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 36,
+    "n_hyperedges": 2,
+    "n_functions": 30,
+    "n_state_vars": 4,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 4.0
+  },
+  "label": {
+    "vfp_id": "vfp_00378",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 1,
+      "access_control": 0,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low",
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-1164",
+      "CWE-358",
+      "CWE-561",
+      "CWE-664",
+      "CWE-666",
+      "CWE-693",
+      "CWE-710"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "sample_id": "vfp_00168",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "emitClaim",
+      "file": "EventLib.sol",
+      "start_line": 27,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "emitForcedWithdrawalStatusUpdatedEvent",
+      "file": "EventLib.sol",
+      "start_line": 53,
+      "end_line": 64,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "_CLAIM_EVENT_SIGNATURE",
+      "var_type": "uint256 private constant",
+      "file": "EventLib.sol",
+      "line": 13
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "_FORCED_WITHDRAWAL_STATUS_UPDATED_SIGNATURE",
+      "var_type": "uint256 private constant",
+      "file": "EventLib.sol",
+      "line": 16
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "emitClaim",
+      "file": "EventLib.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "emitForcedWithdrawalStatusUpdatedEvent",
+      "file": "EventLib.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "_CLAIM_EVENT_SIGNATURE",
+      "file": "EventLib.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "_FORCED_WITHDRAWAL_STATUS_UPDATED_SIGNATURE",
+      "file": "EventLib.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 4,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 2,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00168",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-228",
+      "CWE-237",
+      "CWE-240",
+      "CWE-707"
+    ]
+  }
+}

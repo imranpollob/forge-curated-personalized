@@ -1,0 +1,417 @@
+{
+  "sample_id": "vfp_00028",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setThresholdSetter",
+      "file": "ResourceManager.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "ResourceManager.sol",
+      "start_line": 45,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "release",
+      "file": "TokenJar.sol",
+      "start_line": 29,
+      "end_line": 37,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setReleaser",
+      "file": "TokenJar.sol",
+      "start_line": 40,
+      "end_line": 42,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateVestingAmount",
+      "file": "UNIVesting.sol",
+      "start_line": 62,
+      "end_line": 67,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateRecipient",
+      "file": "UNIVesting.sol",
+      "start_line": 72,
+      "end_line": 76,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "UNIVesting.sol",
+      "start_line": 85,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "quartersPassed",
+      "file": "UNIVesting.sol",
+      "start_line": 125,
+      "end_line": 129,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "threshold",
+      "var_type": "uint256 public",
+      "file": "ResourceManager.sol",
+      "line": 13
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "thresholdSetter",
+      "var_type": "address public",
+      "file": "ResourceManager.sol",
+      "line": 16
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "RESOURCE",
+      "var_type": "ERC20 public immutable",
+      "file": "ResourceManager.sol",
+      "line": 19
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "RESOURCE_RECIPIENT",
+      "var_type": "address public immutable",
+      "file": "ResourceManager.sol",
+      "line": 22
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "releaser",
+      "var_type": "address public",
+      "file": "TokenJar.sol",
+      "line": 15
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MONTHS_PER_QUARTER",
+      "var_type": "uint256 private constant",
+      "file": "UNIVesting.sol",
+      "line": 21
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "FIRST_UNLOCK_TIMESTAMP",
+      "var_type": "uint256 private constant",
+      "file": "UNIVesting.sol",
+      "line": 24
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "UNI",
+      "var_type": "ERC20 public immutable",
+      "file": "UNIVesting.sol",
+      "line": 27
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "quarterlyVestingAmount",
+      "var_type": "uint256 public",
+      "file": "UNIVesting.sol",
+      "line": 30
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "recipient",
+      "var_type": "address public",
+      "file": "UNIVesting.sol",
+      "line": 33
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "lastUnlockTimestamp",
+      "var_type": "uint48 public",
+      "file": "UNIVesting.sol",
+      "line": 36
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "TRANSFER:TokenJar.sol:35",
+      "call_type": "TRANSFER",
+      "line": 35,
+      "enclosing_function": "release",
+      "file": "TokenJar.sol",
+      "raw_text": "if (amount > 0) asset.transfer(recipient, amount);"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:UNIVesting.sol:91",
+      "call_type": "INTERFACE_CALL",
+      "line": 91,
+      "enclosing_function": "withdraw",
+      "file": "UNIVesting.sol",
+      "raw_text": "uint256 currentAllowance = UNI.allowance(owner, address(this));"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:UNIVesting.sol:118",
+      "call_type": "INTERFACE_CALL",
+      "line": 118,
+      "enclosing_function": "withdraw",
+      "file": "UNIVesting.sol",
+      "raw_text": "UNI.safeTransferFrom(owner, recipient, vestedAmount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        2,
+        19
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        13,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        6,
+        13,
+        15,
+        16,
+        17,
+        18,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setThresholdSetter",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "setThreshold",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "release",
+      "file": "TokenJar.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "setReleaser",
+      "file": "TokenJar.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "updateVestingAmount",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "updateRecipient",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "quartersPassed",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "threshold",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "thresholdSetter",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "RESOURCE",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "RESOURCE_RECIPIENT",
+      "file": "ResourceManager.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "releaser",
+      "file": "TokenJar.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "MONTHS_PER_QUARTER",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "FIRST_UNLOCK_TIMESTAMP",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "UNI",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "quarterlyVestingAmount",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "recipient",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "lastUnlockTimestamp",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "TRANSFER:TokenJar.sol:35",
+      "file": "TokenJar.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:UNIVesting.sol:91",
+      "file": "UNIVesting.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:UNIVesting.sol:118",
+      "file": "UNIVesting.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 22,
+    "n_hyperedges": 3,
+    "n_functions": 8,
+    "n_state_vars": 11,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 5.333333333333333
+  },
+  "label": {
+    "vfp_id": "vfp_00028",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 1,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-1289",
+      "CWE-20",
+      "CWE-282",
+      "CWE-283",
+      "CWE-284",
+      "CWE-682",
+      "CWE-707"
+    ]
+  }
+}

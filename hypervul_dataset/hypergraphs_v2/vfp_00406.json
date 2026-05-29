@@ -1,0 +1,253 @@
+{
+  "sample_id": "vfp_00406",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setYTokenAllowList",
+      "file": "FactoryBase.sol",
+      "start_line": 46,
+      "end_line": 50,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getYTokenAllowList",
+      "file": "FactoryBase.sol",
+      "start_line": 56,
+      "end_line": 58,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDeployerAllowList",
+      "file": "FactoryBase.sol",
+      "start_line": 65,
+      "end_line": 69,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getDeployerAllowList",
+      "file": "FactoryBase.sol",
+      "start_line": 75,
+      "end_line": 77,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "FactoryBase.sol",
+      "start_line": 85,
+      "end_line": 89,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "proposeProtocolFeeCollector",
+      "file": "FactoryBase.sol",
+      "start_line": 96,
+      "end_line": 101,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "confirmProtocolFeeCollector",
+      "file": "FactoryBase.sol",
+      "start_line": 107,
+      "end_line": 111,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "var_type": "string public constant",
+      "file": "FactoryBase.sol",
+      "line": 16
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "MAX_PROTOCOL_FEE",
+      "var_type": "uint16 public constant",
+      "file": "FactoryBase.sol",
+      "line": 17
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "yTokenAllowList",
+      "var_type": "address",
+      "file": "FactoryBase.sol",
+      "line": 19
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "deployerAllowList",
+      "var_type": "address",
+      "file": "FactoryBase.sol",
+      "line": 20
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "protocolFeeCollector",
+      "var_type": "address public",
+      "file": "FactoryBase.sol",
+      "line": 21
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "proposedProtocolFeeCollector",
+      "var_type": "address public",
+      "file": "FactoryBase.sol",
+      "line": 22
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "var_type": "uint16 public",
+      "file": "FactoryBase.sol",
+      "line": 23
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "setYTokenAllowList",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getYTokenAllowList",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "setDeployerAllowList",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "getDeployerAllowList",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "setProtocolFee",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "proposeProtocolFeeCollector",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "confirmProtocolFeeCollector",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "state_var",
+      "name": "VERSION",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "state_var",
+      "name": "MAX_PROTOCOL_FEE",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "state_var",
+      "name": "yTokenAllowList",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "deployerAllowList",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "protocolFeeCollector",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "proposedProtocolFeeCollector",
+      "file": "FactoryBase.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "protocolFee",
+      "file": "FactoryBase.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 0,
+    "n_functions": 7,
+    "n_state_vars": 7,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "vfp_00406",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-269",
+      "CWE-284"
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "sample_id": "vfp_00182",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "name",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 45,
+      "end_line": 47,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 50,
+      "end_line": 52,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 55,
+      "end_line": 58,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 61,
+      "end_line": 63,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getVault",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 65,
+      "end_line": 67,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 75,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 82,
+      "end_line": 84,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "approve",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 87,
+      "end_line": 91,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 94,
+      "end_line": 98,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "emitTransfer",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 108,
+      "end_line": 110,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "emitApproval",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 113,
+      "end_line": 115,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "permit",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 118,
+      "end_line": 142,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 145,
+      "end_line": 147,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 151,
+      "end_line": 153,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getRate",
+      "file": "BalancerPoolToken.sol",
+      "start_line": 162,
+      "end_line": 164,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "PERMIT_TYPEHASH",
+      "var_type": "bytes32 public constant",
+      "file": "BalancerPoolToken.sol",
+      "line": 26
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_bptName",
+      "var_type": "string private",
+      "file": "BalancerPoolToken.sol",
+      "line": 36
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_bptSymbol",
+      "var_type": "string private",
+      "file": "BalancerPoolToken.sol",
+      "line": 37
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "TRANSFER:BalancerPoolToken.sol:71",
+      "call_type": "TRANSFER",
+      "line": 71,
+      "enclosing_function": "transfer",
+      "file": "BalancerPoolToken.sol",
+      "raw_text": "_vault.transfer(msg.sender, to, amount);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        6,
+        19
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 19
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "name",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "symbol",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "totalSupply",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "getVault",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "balanceOf",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "allowance",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "approve",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "emitTransfer",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "emitApproval",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "permit",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "nonces",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "DOMAIN_SEPARATOR",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "getRate",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "state_var",
+      "name": "PERMIT_TYPEHASH",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "state_var",
+      "name": "_bptName",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "state_var",
+      "name": "_bptSymbol",
+      "file": "BalancerPoolToken.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "TRANSFER:BalancerPoolToken.sol:71",
+      "file": "BalancerPoolToken.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 20,
+    "n_hyperedges": 1,
+    "n_functions": 16,
+    "n_state_vars": 3,
+    "n_call_sites": 1,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "vfp_00182",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational"
+    ],
+    "cwe_list": [
+      "CWE-284",
+      "CWE-285"
+    ]
+  }
+}

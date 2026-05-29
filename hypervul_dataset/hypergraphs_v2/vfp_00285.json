@@ -1,0 +1,926 @@
+{
+  "sample_id": "vfp_00285",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "start_line": 46,
+      "end_line": 82,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addCollWithRawETH",
+      "file": "WETHZapper.sol",
+      "start_line": 86,
+      "end_line": 97,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawCollToRawETH",
+      "file": "WETHZapper.sol",
+      "start_line": 99,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdrawBold",
+      "file": "WETHZapper.sol",
+      "start_line": 111,
+      "end_line": 119,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "repayBold",
+      "file": "WETHZapper.sol",
+      "start_line": 121,
+      "end_line": 129,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "adjustTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "start_line": 131,
+      "end_line": 144,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "adjustUnredeemableTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "start_line": 146,
+      "end_line": 161,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_adjustTrovePre",
+      "file": "WETHZapper.sol",
+      "start_line": 163,
+      "end_line": 202,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_adjustTrovePost",
+      "file": "WETHZapper.sol",
+      "start_line": 204,
+      "end_line": 221,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": true
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "closeTroveToRawETH",
+      "file": "WETHZapper.sol",
+      "start_line": 223,
+      "end_line": 236,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "borrowerOperations",
+      "var_type": "IBorrowerOperations public immutable",
+      "file": "WETHZapper.sol",
+      "line": 14
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "troveManager",
+      "var_type": "ITroveManager public immutable",
+      "file": "WETHZapper.sol",
+      "line": 15
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "WETH",
+      "var_type": "IWETH public immutable",
+      "file": "WETHZapper.sol",
+      "line": 16
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "boldToken",
+      "var_type": "IBoldToken public immutable",
+      "file": "WETHZapper.sol",
+      "line": 17
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:54",
+      "call_type": "INTERFACE_CALL",
+      "line": 54,
+      "enclosing_function": "openTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "vars.WETH.deposit{value: msg.value}();"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:57",
+      "call_type": "INTERFACE_CALL",
+      "line": 57,
+      "enclosing_function": "openTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "vars.WETH.approve(address(vars.borrowerOperations), msg.value);"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:59",
+      "call_type": "INTERFACE_CALL",
+      "line": 59,
+      "enclosing_function": "openTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "vars.troveId = vars.borrowerOperations.openTrove("
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "TRANSFER:WETHZapper.sol:75",
+      "call_type": "TRANSFER",
+      "line": 75,
+      "enclosing_function": "openTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "boldToken.transfer(msg.sender, _params.boldAmount);"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:90",
+      "call_type": "INTERFACE_CALL",
+      "line": 90,
+      "enclosing_function": "addCollWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "WETH.deposit{value: msg.value}();"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:94",
+      "call_type": "INTERFACE_CALL",
+      "line": 94,
+      "enclosing_function": "addCollWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "WETH.approve(address(borrowerOperationsCached), msg.value);"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:103",
+      "call_type": "INTERFACE_CALL",
+      "line": 103,
+      "enclosing_function": "withdrawCollToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "borrowerOperations.withdrawColl(_troveId, _amount);"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:106",
+      "call_type": "INTERFACE_CALL",
+      "line": 106,
+      "enclosing_function": "withdrawCollToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "WETH.withdraw(_amount);"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:WETHZapper.sol:107",
+      "call_type": "CALL",
+      "line": 107,
+      "enclosing_function": "withdrawCollToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "(bool success,) = receiver.call{value: _amount}(\"\");"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "TRANSFER:WETHZapper.sol:118",
+      "call_type": "TRANSFER",
+      "line": 118,
+      "enclosing_function": "withdrawBold",
+      "file": "WETHZapper.sol",
+      "raw_text": "boldToken.transfer(receiver, _boldAmount);"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:126",
+      "call_type": "INTERFACE_CALL",
+      "line": 126,
+      "enclosing_function": "repayBold",
+      "file": "WETHZapper.sol",
+      "raw_text": "boldToken.transferFrom(msg.sender, address(this), _boldAmount);"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:140",
+      "call_type": "INTERFACE_CALL",
+      "line": 140,
+      "enclosing_function": "adjustTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "borrowerOperations.adjustTrove("
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:157",
+      "call_type": "INTERFACE_CALL",
+      "line": 157,
+      "enclosing_function": "adjustUnredeemableTroveWithRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "borrowerOperations.adjustUnredeemableTrove("
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:191",
+      "call_type": "INTERFACE_CALL",
+      "line": 191,
+      "enclosing_function": "_adjustTrovePre",
+      "file": "WETHZapper.sol",
+      "raw_text": "WETHCached.deposit{value: _collChange}();"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:198",
+      "call_type": "INTERFACE_CALL",
+      "line": 198,
+      "enclosing_function": "_adjustTrovePre",
+      "file": "WETHZapper.sol",
+      "raw_text": "boldToken.transferFrom(msg.sender, address(this), _boldChange);"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:213",
+      "call_type": "INTERFACE_CALL",
+      "line": 213,
+      "enclosing_function": "_adjustTrovePost",
+      "file": "WETHZapper.sol",
+      "raw_text": "WETH.withdraw(_collChange);"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "CALL:WETHZapper.sol:214",
+      "call_type": "CALL",
+      "line": 214,
+      "enclosing_function": "_adjustTrovePost",
+      "file": "WETHZapper.sol",
+      "raw_text": "(bool success,) = _receiver.call{value: _collChange}(\"\");"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "TRANSFER:WETHZapper.sol:219",
+      "call_type": "TRANSFER",
+      "line": 219,
+      "enclosing_function": "_adjustTrovePost",
+      "file": "WETHZapper.sol",
+      "raw_text": "boldToken.transfer(_receiver, _boldChange);"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:228",
+      "call_type": "INTERFACE_CALL",
+      "line": 228,
+      "enclosing_function": "closeTroveToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "LatestTroveData memory trove = troveManager.getLatestTroveData(_troveId);"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:229",
+      "call_type": "INTERFACE_CALL",
+      "line": 229,
+      "enclosing_function": "closeTroveToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "boldToken.transferFrom(msg.sender, address(this), trove.entireDebt);"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:231",
+      "call_type": "INTERFACE_CALL",
+      "line": 231,
+      "enclosing_function": "closeTroveToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "borrowerOperations.closeTrove(_troveId);"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:233",
+      "call_type": "INTERFACE_CALL",
+      "line": 233,
+      "enclosing_function": "closeTroveToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "WETH.withdraw(trove.entireColl + ETH_GAS_COMPENSATION);"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "CALL:WETHZapper.sol:234",
+      "call_type": "CALL",
+      "line": 234,
+      "enclosing_function": "closeTroveToRawETH",
+      "file": "WETHZapper.sol",
+      "raw_text": "(bool success,) = receiver.call{value: trove.entireColl + ETH_GAS_COMPENSATION}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        0,
+        10,
+        12,
+        13,
+        14
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 14
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        0,
+        10,
+        12,
+        13,
+        15
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 15
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        0,
+        10,
+        12,
+        13,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        0,
+        10,
+        12,
+        13,
+        17
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 4,
+      "node_ids": [
+        1,
+        10,
+        12,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    },
+    {
+      "edge_id": 5,
+      "node_ids": [
+        1,
+        10,
+        12,
+        19
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 19
+    },
+    {
+      "edge_id": 6,
+      "node_ids": [
+        2,
+        10,
+        12,
+        20
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 20
+    },
+    {
+      "edge_id": 7,
+      "node_ids": [
+        2,
+        10,
+        12,
+        21
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 21
+    },
+    {
+      "edge_id": 8,
+      "node_ids": [
+        2,
+        10,
+        12,
+        22
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 22
+    },
+    {
+      "edge_id": 9,
+      "node_ids": [
+        3,
+        10,
+        13,
+        23
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 23
+    },
+    {
+      "edge_id": 10,
+      "node_ids": [
+        4,
+        10,
+        13,
+        24
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 24
+    },
+    {
+      "edge_id": 11,
+      "node_ids": [
+        5,
+        10,
+        25
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 25
+    },
+    {
+      "edge_id": 12,
+      "node_ids": [
+        6,
+        10,
+        26
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 26
+    },
+    {
+      "edge_id": 13,
+      "node_ids": [
+        5,
+        6,
+        7,
+        10,
+        12,
+        13,
+        27
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 27
+    },
+    {
+      "edge_id": 14,
+      "node_ids": [
+        5,
+        6,
+        7,
+        10,
+        12,
+        13,
+        28
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 28
+    },
+    {
+      "edge_id": 15,
+      "node_ids": [
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        29
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 29
+    },
+    {
+      "edge_id": 16,
+      "node_ids": [
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        30
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 17,
+      "node_ids": [
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        31
+      ],
+      "tau": "TRANSFER",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 18,
+      "node_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        32
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 19,
+      "node_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        33
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 33
+    },
+    {
+      "edge_id": 20,
+      "node_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        34
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 34
+    },
+    {
+      "edge_id": 21,
+      "node_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        35
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 35
+    },
+    {
+      "edge_id": 22,
+      "node_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        36
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 36
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "openTroveWithRawETH",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "addCollWithRawETH",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "withdrawCollToRawETH",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "withdrawBold",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "repayBold",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "adjustTroveWithRawETH",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "adjustUnredeemableTroveWithRawETH",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_adjustTrovePre",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_adjustTrovePost",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "closeTroveToRawETH",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "state_var",
+      "name": "borrowerOperations",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "troveManager",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "WETH",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "boldToken",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:54",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:57",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:59",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "TRANSFER:WETHZapper.sol:75",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:90",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:94",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:103",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:106",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "call_site",
+      "name": "CALL:WETHZapper.sol:107",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "call_site",
+      "name": "TRANSFER:WETHZapper.sol:118",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:126",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:140",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:157",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:191",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:198",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:213",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "CALL:WETHZapper.sol:214",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "TRANSFER:WETHZapper.sol:219",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:228",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:229",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 34,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:231",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 35,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:WETHZapper.sol:233",
+      "file": "WETHZapper.sol"
+    },
+    {
+      "node_id": 36,
+      "node_type": "call_site",
+      "name": "CALL:WETHZapper.sol:234",
+      "file": "WETHZapper.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 37,
+    "n_hyperedges": 23,
+    "n_functions": 10,
+    "n_state_vars": 4,
+    "n_call_sites": 23,
+    "avg_hyperedge_size": 5.173913043478261
+  },
+  "label": {
+    "vfp_id": "vfp_00285",
+    "label_vector": {
+      "reentrancy": 1,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 1,
+      "state_management": 1,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Informational",
+      "Low"
+    ],
+    "cwe_list": [
+      "CWE-1076",
+      "CWE-20",
+      "CWE-226",
+      "CWE-284",
+      "CWE-285",
+      "CWE-362",
+      "CWE-404",
+      "CWE-440",
+      "CWE-459",
+      "CWE-664",
+      "CWE-670",
+      "CWE-684",
+      "CWE-691",
+      "CWE-707",
+      "CWE-710",
+      "CWE-863"
+    ]
+  }
+}

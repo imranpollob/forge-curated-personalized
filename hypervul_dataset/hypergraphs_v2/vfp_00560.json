@@ -1,0 +1,636 @@
+{
+  "sample_id": "vfp_00560",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StakingVault.sol",
+      "start_line": 111,
+      "end_line": 120,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "StakingVault.sol",
+      "start_line": 133,
+      "end_line": 135,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "version",
+      "file": "StakingVault.sol",
+      "start_line": 140,
+      "end_line": 142,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "owner",
+      "file": "StakingVault.sol",
+      "start_line": 148,
+      "end_line": 150,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pendingOwner",
+      "file": "StakingVault.sol",
+      "start_line": 156,
+      "end_line": 158,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "nodeOperator",
+      "file": "StakingVault.sol",
+      "start_line": 164,
+      "end_line": 166,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositor",
+      "file": "StakingVault.sol",
+      "start_line": 172,
+      "end_line": 174,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isOssified",
+      "file": "StakingVault.sol",
+      "start_line": 180,
+      "end_line": 182,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawalCredentials",
+      "file": "StakingVault.sol",
+      "start_line": 189,
+      "end_line": 191,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "calculateValidatorWithdrawalFee",
+      "file": "StakingVault.sol",
+      "start_line": 199,
+      "end_line": 201,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "fund",
+      "file": "StakingVault.sol",
+      "start_line": 219,
+      "end_line": 223,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "StakingVault.sol",
+      "start_line": 230,
+      "end_line": 239,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "beaconChainDepositsPaused",
+      "file": "StakingVault.sol",
+      "start_line": 252,
+      "end_line": 254,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "StakingVault.sol",
+      "start_line": 259,
+      "end_line": 266,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "StakingVault.sol",
+      "start_line": 271,
+      "end_line": 278,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "depositToBeaconChain",
+      "file": "StakingVault.sol",
+      "start_line": 284,
+      "end_line": 313,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "StakingVault.sol",
+      "start_line": 328,
+      "end_line": 339,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "StakingVault.sol",
+      "start_line": 353,
+      "end_line": 388,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "ejectValidators",
+      "file": "StakingVault.sol",
+      "start_line": 399,
+      "end_line": 421,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": true
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "acceptOwnership",
+      "file": "StakingVault.sol",
+      "start_line": 436,
+      "end_line": 438,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "StakingVault.sol",
+      "start_line": 446,
+      "end_line": 448,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setDepositor",
+      "file": "StakingVault.sol",
+      "start_line": 454,
+      "end_line": 456,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "ossify",
+      "file": "StakingVault.sol",
+      "start_line": 462,
+      "end_line": 466,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_storage",
+      "file": "StakingVault.sol",
+      "start_line": 480,
+      "end_line": 484,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_setDepositor",
+      "file": "StakingVault.sol",
+      "start_line": 490,
+      "end_line": 496,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_VERSION",
+      "var_type": "uint64 private constant",
+      "file": "StakingVault.sol",
+      "line": 46
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "WC_0X02_PREFIX",
+      "var_type": "uint256 private constant",
+      "file": "StakingVault.sol",
+      "line": 51
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "PUBLIC_KEY_LENGTH",
+      "var_type": "uint256 private constant",
+      "file": "StakingVault.sol",
+      "line": 56
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ERC7201_SLOT",
+      "var_type": "bytes32 private constant",
+      "file": "StakingVault.sol",
+      "line": 63
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "DEPOSIT_CONTRACT",
+      "var_type": "IDepositContract public immutable",
+      "file": "StakingVault.sol",
+      "line": 69
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "CALL:StakingVault.sol:129",
+      "call_type": "CALL",
+      "line": 129,
+      "enclosing_function": "withdraw",
+      "file": "StakingVault.sol",
+      "raw_text": "(bool success, ) = _recipient.call{value: _ether}(\"\");"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:183",
+      "call_type": "INTERFACE_CALL",
+      "line": 183,
+      "enclosing_function": "depositToBeaconChain",
+      "file": "StakingVault.sol",
+      "raw_text": "DEPOSIT_CONTRACT.deposit{value: deposit.amount}("
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:StakingVault.sol:241",
+      "call_type": "CALL",
+      "line": 241,
+      "enclosing_function": "triggerValidatorWithdrawals",
+      "file": "StakingVault.sol",
+      "raw_text": "(bool success, ) = _excessRefundRecipient.call{value: excess}(\"\");"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "CALL:StakingVault.sol:266",
+      "call_type": "CALL",
+      "line": 266,
+      "enclosing_function": "ejectValidators",
+      "file": "StakingVault.sol",
+      "raw_text": "(bool success, ) = _refundRecipient.call{value: excess}(\"\");"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        11,
+        30
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 30
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        15,
+        29,
+        31
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 31
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        17,
+        27,
+        32
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 32
+    },
+    {
+      "edge_id": 3,
+      "node_ids": [
+        18,
+        27,
+        33
+      ],
+      "tau": "CALL",
+      "anchor_call_site_id": 33
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "initialize",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "getInitializedVersion",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "version",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "owner",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "pendingOwner",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "nodeOperator",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "depositor",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "isOssified",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "withdrawalCredentials",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "calculateValidatorWithdrawalFee",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "fund",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "function",
+      "name": "withdraw",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "function",
+      "name": "beaconChainDepositsPaused",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "function",
+      "name": "pauseBeaconChainDeposits",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "function",
+      "name": "resumeBeaconChainDeposits",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "function",
+      "name": "depositToBeaconChain",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "function",
+      "name": "requestValidatorExit",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "function",
+      "name": "triggerValidatorWithdrawals",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "function",
+      "name": "ejectValidators",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 19,
+      "node_type": "function",
+      "name": "acceptOwnership",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 20,
+      "node_type": "function",
+      "name": "transferOwnership",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 21,
+      "node_type": "function",
+      "name": "setDepositor",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 22,
+      "node_type": "function",
+      "name": "ossify",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 23,
+      "node_type": "function",
+      "name": "_storage",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 24,
+      "node_type": "function",
+      "name": "_setDepositor",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 25,
+      "node_type": "state_var",
+      "name": "_VERSION",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 26,
+      "node_type": "state_var",
+      "name": "WC_0X02_PREFIX",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 27,
+      "node_type": "state_var",
+      "name": "PUBLIC_KEY_LENGTH",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 28,
+      "node_type": "state_var",
+      "name": "ERC7201_SLOT",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 29,
+      "node_type": "state_var",
+      "name": "DEPOSIT_CONTRACT",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 30,
+      "node_type": "call_site",
+      "name": "CALL:StakingVault.sol:129",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 31,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:StakingVault.sol:183",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 32,
+      "node_type": "call_site",
+      "name": "CALL:StakingVault.sol:241",
+      "file": "StakingVault.sol"
+    },
+    {
+      "node_id": 33,
+      "node_type": "call_site",
+      "name": "CALL:StakingVault.sol:266",
+      "file": "StakingVault.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 34,
+    "n_hyperedges": 4,
+    "n_functions": 25,
+    "n_state_vars": 5,
+    "n_call_sites": 4,
+    "avg_hyperedge_size": 2.75
+  },
+  "label": {
+    "vfp_id": "vfp_00560",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 1
+    },
+    "source": "forge_positive",
+    "severity": [
+      "Medium"
+    ],
+    "cwe_list": [
+      "CWE-1284",
+      "CWE-20",
+      "CWE-707"
+    ]
+  }
+}

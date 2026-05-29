@@ -1,0 +1,281 @@
+{
+  "sample_id": "neg_00135",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getERC20WrapperStorage",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 33,
+      "end_line": 37,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__ERC20Wrapper_init",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 44,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__ERC20Wrapper_init_unchained",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 48,
+      "end_line": 54,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 59,
+      "end_line": 66,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "underlying",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 71,
+      "end_line": 74,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositFor",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 79,
+      "end_line": 91,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawTo",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 96,
+      "end_line": 104,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_recover",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "start_line": 110,
+      "end_line": 115,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_delegate",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_lib_openzeppelin-contracts_contracts_proxy_Proxy.sol",
+      "start_line": 22,
+      "end_line": 45,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_implementation",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_lib_openzeppelin-contracts_contracts_proxy_Proxy.sol",
+      "start_line": 51,
+      "end_line": 51,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_lib_openzeppelin-contracts_contracts_proxy_Proxy.sol",
+      "start_line": 58,
+      "end_line": 60,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "ERC20WrapperStorageLocation",
+      "var_type": "bytes32 private constant",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "line": 31
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol:69",
+      "call_type": "INTERFACE_CALL",
+      "line": 69,
+      "enclosing_function": "depositFor",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "raw_text": "SafeERC20.safeTransferFrom($._underlying, sender, address(this), value);"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol:81",
+      "call_type": "INTERFACE_CALL",
+      "line": 81,
+      "enclosing_function": "withdrawTo",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol",
+      "raw_text": "SafeERC20.safeTransfer($._underlying, account, value);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        5,
+        12
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 12
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        6,
+        13
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 13
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_getERC20WrapperStorage",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "__ERC20Wrapper_init",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "__ERC20Wrapper_init_unchained",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "decimals",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "underlying",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "depositFor",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "withdrawTo",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_recover",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_delegate",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_lib_openzeppelin-contracts_contracts_proxy_Proxy.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_implementation",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_lib_openzeppelin-contracts_contracts_proxy_Proxy.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "_fallback",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_lib_openzeppelin-contracts_contracts_proxy_Proxy.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "ERC20WrapperStorageLocation",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol:69",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol:81",
+      "file": "ssi-protocol_lib_openzeppelin-contracts-upgradeable_contracts_token_ERC20_extensions_ERC20WrapperUpgradeable.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 14,
+    "n_hyperedges": 2,
+    "n_functions": 11,
+    "n_state_vars": 1,
+    "n_call_sites": 2,
+    "avg_hyperedge_size": 2.0
+  },
+  "label": {
+    "vfp_id": "neg_00135",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

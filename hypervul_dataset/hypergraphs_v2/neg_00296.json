@@ -1,0 +1,365 @@
+{
+  "sample_id": "neg_00296",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 28,
+      "end_line": 30,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "batchMint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 38,
+      "end_line": 47,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchMintMultiple",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 55,
+      "end_line": 65,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 70,
+      "end_line": 72,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 77,
+      "end_line": 79,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approve",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "start_line": 84,
+      "end_line": 86,
+      "visibility": "public",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_addRollingHash",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "start_line": 36,
+      "end_line": 46,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_setL2L1MessageToClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "start_line": 52,
+      "end_line": 57,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_addL2MerkleRoots",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "start_line": 66,
+      "end_line": 76,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_anchorL2MessagingBlocks",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "start_line": 85,
+      "end_line": 100,
+      "visibility": "internal",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isMessageClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "start_line": 107,
+      "end_line": 109,
+      "visibility": "external",
+      "is_external": true,
+      "is_payable": false
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "MINTER_ROLE",
+      "var_type": "bytes32 public constant",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol",
+      "line": 15
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "rollingHashes",
+      "var_type": "mapping(uint256 messageNumber => bytes32 rollingHash) public",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "line": 19
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_messageClaimedBitMap",
+      "var_type": "BitMaps.BitMap internal",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "line": 22
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "l2MerkleRootsDepths",
+      "var_type": "mapping(bytes32 merkleRoot => uint256 treeDepth) public",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "line": 25
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "__gap_L1MessageManager",
+      "var_type": "uint256[50] private",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "line": 29
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol:42",
+      "call_type": "INTERFACE_CALL",
+      "line": 42,
+      "enclosing_function": "_setL2L1MessageToClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "raw_text": "if (_messageClaimedBitMap.get(_messageNumber)) {"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol:45",
+      "call_type": "INTERFACE_CALL",
+      "line": 45,
+      "enclosing_function": "_setL2L1MessageToClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "raw_text": "_messageClaimedBitMap.set(_messageNumber);"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol:81",
+      "call_type": "INTERFACE_CALL",
+      "line": 81,
+      "enclosing_function": "isMessageClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol",
+      "raw_text": "isClaimed = _messageClaimedBitMap.get(_messageNumber);"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": 0,
+      "node_ids": [
+        7,
+        13,
+        16
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 16
+    },
+    {
+      "edge_id": 1,
+      "node_ids": [
+        7,
+        13,
+        17
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 17
+    },
+    {
+      "edge_id": 2,
+      "node_ids": [
+        10,
+        13,
+        18
+      ],
+      "tau": "INTERFACE_CALL",
+      "anchor_call_site_id": 18
+    }
+  ],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "mint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "batchMint",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "function",
+      "name": "batchMintMultiple",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "function",
+      "name": "transfer",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "function",
+      "name": "transferFrom",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 5,
+      "node_type": "function",
+      "name": "approve",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 6,
+      "node_type": "function",
+      "name": "_addRollingHash",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 7,
+      "node_type": "function",
+      "name": "_setL2L1MessageToClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 8,
+      "node_type": "function",
+      "name": "_addL2MerkleRoots",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 9,
+      "node_type": "function",
+      "name": "_anchorL2MessagingBlocks",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 10,
+      "node_type": "function",
+      "name": "isMessageClaimed",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 11,
+      "node_type": "state_var",
+      "name": "MINTER_ROLE",
+      "file": "linea-monorepo_contracts-tge_src_referenceTokens_PrimaryConditionalMultiplier.sol"
+    },
+    {
+      "node_id": 12,
+      "node_type": "state_var",
+      "name": "rollingHashes",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 13,
+      "node_type": "state_var",
+      "name": "_messageClaimedBitMap",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 14,
+      "node_type": "state_var",
+      "name": "l2MerkleRootsDepths",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 15,
+      "node_type": "state_var",
+      "name": "__gap_L1MessageManager",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 16,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol:42",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 17,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol:45",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    },
+    {
+      "node_id": 18,
+      "node_type": "call_site",
+      "name": "INTERFACE_CALL:linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol:81",
+      "file": "linea-monorepo_contracts_src_messaging_l1_L1MessageManager.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 19,
+    "n_hyperedges": 3,
+    "n_functions": 11,
+    "n_state_vars": 5,
+    "n_call_sites": 3,
+    "avg_hyperedge_size": 3.0
+  },
+  "label": {
+    "vfp_id": "neg_00296",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}

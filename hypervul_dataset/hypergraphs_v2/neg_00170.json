@@ -1,0 +1,105 @@
+{
+  "sample_id": "neg_00170",
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_nonReentrantBefore",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol",
+      "start_line": 56,
+      "end_line": 62,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_nonReentrantAfter",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol",
+      "start_line": 64,
+      "end_line": 68,
+      "visibility": "private",
+      "is_external": false,
+      "is_payable": false
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "_NOT_ENTERED",
+      "var_type": "uint256 private constant",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol",
+      "line": 34
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "_ENTERED",
+      "var_type": "uint256 private constant",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol",
+      "line": 35
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_status",
+      "var_type": "uint256 private",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol",
+      "line": 37
+    }
+  ],
+  "hyperedges": [],
+  "node_features_raw": [
+    {
+      "node_id": 0,
+      "node_type": "function",
+      "name": "_nonReentrantBefore",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol"
+    },
+    {
+      "node_id": 1,
+      "node_type": "function",
+      "name": "_nonReentrantAfter",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol"
+    },
+    {
+      "node_id": 2,
+      "node_type": "state_var",
+      "name": "_NOT_ENTERED",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol"
+    },
+    {
+      "node_id": 3,
+      "node_type": "state_var",
+      "name": "_ENTERED",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol"
+    },
+    {
+      "node_id": 4,
+      "node_type": "state_var",
+      "name": "_status",
+      "file": "SwapExecutor_@openzeppelin_contracts_security_ReentrancyGuard.sol"
+    }
+  ],
+  "stats": {
+    "n_nodes": 5,
+    "n_hyperedges": 0,
+    "n_functions": 2,
+    "n_state_vars": 3,
+    "n_call_sites": 0,
+    "avg_hyperedge_size": 0.0
+  },
+  "label": {
+    "vfp_id": "neg_00170",
+    "label_vector": {
+      "reentrancy": 0,
+      "arithmetic_oracle": 0,
+      "defi_protection": 0,
+      "access_control": 0,
+      "state_management": 0,
+      "unchecked_call": 0,
+      "input_validation": 0
+    },
+    "source": "forge_negative"
+  }
+}
