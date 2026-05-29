@@ -1,0 +1,153 @@
+Part A - Empty vs Usable by Sample Source
+Source             | Total | Usable | Empty |  Usable%
+-------------------+-------+--------+-------+---------
+forge_positive     |   480 |    241 |   239 |    50.2%
+forge_negative     |   700 |    141 |   559 |    20.1%
+
+Part B - Empty vs Usable by Vulnerability Class
+Class              | Positive Total | Usable | Empty |  Usable%
+-------------------+----------------+--------+-------+---------
+reentrancy         |            144 |     97 |    47 |    67.4%
+arithmetic_oracle  |            149 |     78 |    71 |    52.3%
+defi_protection    |            111 |     73 |    38 |    65.8%
+access_control     |             74 |     50 |    24 |    67.6%
+state_management   |            166 |     94 |    72 |    56.6%
+unchecked_call     |             93 |     63 |    30 |    67.7%
+input_validation   |            205 |    116 |    89 |    56.6%
+
+Part C - Empty Positive Sample Investigation
+Sample: vfp_00406
+  label_classes: ['access_control']
+  sol_files: ['FactoryBase.sol']
+  external_calls_raw_count: 0
+  meaningful_external_calls_before_filter: 0
+  meaningful_external_calls_after_filter: 0
+  state_variables_count: 7
+  functions_count: 7
+  raw_external_calls:
+Sample: vfp_00075
+  label_classes: ['input_validation']
+  sol_files: ['Lib_RLPReader.sol']
+  external_calls_raw_count: 0
+  meaningful_external_calls_before_filter: 0
+  meaningful_external_calls_after_filter: 0
+  state_variables_count: 1
+  functions_count: 19
+  raw_external_calls:
+Sample: vfp_00024
+  label_classes: ['reentrancy', 'access_control', 'state_management', 'unchecked_call', 'input_validation']
+  sol_files: ['AAFactory.sol', 'GuardianRecoveryValidator.sol', 'IGuardianRecoveryValidator.sol', 'SsoAccount.sol', 'WebAuthValidator.sol']
+  external_calls_raw_count: 47
+  meaningful_external_calls_before_filter: 47
+  meaningful_external_calls_after_filter: 0
+  state_variables_count: 17
+  functions_count: 45
+  raw_external_calls:
+    AAFactory.sol:38 INTERFACE_CALL getEncodedBeacon :: return abi.encode(beacon);
+    AAFactory.sol:52 INTERFACE_CALL deployProxySsoAccount :: bytes32 uniqueAccountId = keccak256(abi.encodePacked(uniqueId, msg.sender));
+    AAFactory.sol:55 INTERFACE_CALL deployProxySsoAccount :: revert Errors.ACCOUNT_ALREADY_EXISTS(existingAccountAddress);
+    AAFactory.sol:58 INTERFACE_CALL deployProxySsoAccount :: bytes memory returnData = SystemContractsCaller.systemCallWithPropagatedRevert(
+    AAFactory.sol:62 INTERFACE_CALL deployProxySsoAccount :: abi.encodeCall(
+    AAFactory.sol:67 INTERFACE_CALL deployProxySsoAccount :: abi.encode(beacon),
+    AAFactory.sol:72 INTERFACE_CALL deployProxySsoAccount :: (accountAddress) = abi.decode(returnData, (address));
+    GuardianRecoveryValidator.sol:85 INTERFACE_CALL onUninstall :: bytes32[] memory hashedOriginDomains = abi.decode(data, (bytes32[]));
+    GuardianRecoveryValidator.sol:93 INTERFACE_CALL onUninstall :: bool guardedAccountsRemovalSuccessful = accounts.remove(msg.sender);
+    GuardianRecoveryValidator.sol:147 INTERFACE_CALL removeValidationKey :: bool accountsRemovalSuccessful = accounts.remove(msg.sender);
+    GuardianRecoveryValidator.sol:269 INTERFACE_CALL validateTransaction :: (bytes memory credentialId, bytes32[2] memory rawPublicKey, string memory originDomain) = abi.decode(
+    GuardianRecoveryValidator.sol:274 INTERFACE_CALL validateTransaction :: bytes32 hashedOriginDomain = keccak256(abi.encodePacked(originDomain));
+    GuardianRecoveryValidator.sol:286 INTERFACE_CALL validateTransaction :: TimestampAsserterLocator.locate().assertTimestampInRange(
+    SsoAccount.sol:63 INTERFACE_CALL initialize :: (validatorAddr, initData) = abi.decode(initialValidators[i], (address, bytes));
+    SsoAccount.sol:93 INTERFACE_CALL validateTransaction :: if (_transaction.totalRequiredBalance() > address(this).balance) {
+    SsoAccount.sol:94 INTERFACE_CALL validateTransaction :: revert Errors.INSUFFICIENT_FUNDS(_transaction.totalRequiredBalance(), address(this).balance);
+    SsoAccount.sol:100 INTERFACE_CALL validateTransaction :: bytes32 signedHash = _suggestedSignedHash == bytes32(0) ? _transaction.encodeHash() : _suggestedSignedHash;
+    SsoAccount.sol:113 INTERFACE_CALL executeTransaction :: address to = SsoUtils.safeCastToAddress(_transaction.to);
+    SsoAccount.sol:114 INTERFACE_CALL executeTransaction :: uint128 value = Utils.safeCastToU128(_transaction.value);
+    SsoAccount.sol:124 INTERFACE_CALL _executeCall :: uint32 gas = Utils.safeCastToU32(gasleft());
+    SsoAccount.sol:137 INTERFACE_CALL _executeCall :: success = EfficientCall.rawCall({
+    SsoAccount.sol:145 INTERFACE_CALL _executeCall :: success = EfficientCall.rawCall(gas, _to, _value, _data, false);
+    SsoAccount.sol:149 INTERFACE_CALL _executeCall :: EfficientCall.propagateRevert();
+    SsoAccount.sol:158 INTERFACE_CALL executeTransactionFromOutside :: revert Errors.METHOD_NOT_IMPLEMENTED();
+    SsoAccount.sol:169 INTERFACE_CALL payForTransaction :: bool success = _transaction.payToTheBootloader();
+    ... 22 more
+Sample: vfp_00484
+  label_classes: ['state_management']
+  sol_files: []
+  external_calls_raw_count: 0
+  meaningful_external_calls_before_filter: 0
+  meaningful_external_calls_after_filter: 0
+  state_variables_count: 0
+  functions_count: 0
+  raw_external_calls:
+Sample: vfp_00165
+  label_classes: ['defi_protection']
+  sol_files: ['ValidityLib.sol']
+  external_calls_raw_count: 12
+  meaningful_external_calls_before_filter: 12
+  meaningful_external_calls_after_filter: 0
+  state_variables_count: 0
+  functions_count: 11
+  raw_external_calls:
+    ValidityLib.sol:42 INTERFACE_CALL fromRegisteredAllocatorIdWithConsumed :: allocator = allocatorId.toRegisteredAllocator();
+    ValidityLib.sol:43 INTERFACE_CALL fromRegisteredAllocatorIdWithConsumed :: nonce.consumeNonceAsAllocator(allocator);
+    ValidityLib.sol:48 INTERFACE_CALL toRegisteredAllocatorWithConsumed :: allocator = id.toAllocator();
+    ValidityLib.sol:49 INTERFACE_CALL toRegisteredAllocatorWithConsumed :: nonce.consumeNonceAsAllocator(allocator);
+    ValidityLib.sol:72 INTERFACE_CALL hasValidSponsor :: bytes32 digest = messageHash.withDomain(domainSeparator);
+    ValidityLib.sol:80 INTERFACE_CALL hasValidSponsor :: if (!expectedSigner.isValidERC1271SignatureNowCalldata(digest, signature)) {
+    ValidityLib.sol:102 INTERFACE_CALL hasValidSponsorOrRegistration :: uint256 registrationTimestamp = expectedSigner.toRegistrationTimestamp(claimHash, typehash);
+    ValidityLib.sol:112 INTERFACE_CALL hasValidSponsorOrRegistration :: bytes32 digest = claimHash.withDomain(domainSeparator);
+    ValidityLib.sol:121 INTERFACE_CALL hasValidSponsorOrRegistration :: uint256 registrationTimestamp = expectedSigner.toRegistrationTimestamp(claimHash, typehash);
+    ValidityLib.sol:134 INTERFACE_CALL hasValidSponsorOrRegistration :: claimHash.verifyWithEmissary(expectedSigner, idsAndAmounts.extractSameLockTag(), signature);
+    ValidityLib.sol:139 INTERFACE_CALL hasConsumedAllocatorNonce :: return nonce.isConsumedByAllocator(allocator);
+    ValidityLib.sol:169 INTERFACE_CALL scopeNotMultichain :: return (sponsorDomainSeparator != bytes32(0)).and(id.toScope() == Scope.ChainSpecific);
+
+Part D - INTERFACE_CALL Filter Quality
+Example 1: vfp_00486
+  enclosing_function: updateHoldingValue
+  state_var_names_in_hyperedge: ['holdings', 'hubHelpers']
+  raw_text: hubHelpers.updateAccountingValue(poolId, scId, assetId, isPositive, diff);
+Example 2: vfp_00197
+  enclosing_function: createPromotion
+  state_var_names_in_hyperedge: ['twabController', '_drawPeriodSeconds', '_firstDrawOpensAt', 'SPONSORSHIP_ADDRESS', '_promotions', 'promotionCreators', 'latestPromotionId']
+  raw_text: twabController.delegate(address(_token), SPONSORSHIP_ADDRESS);
+Example 3: vfp_00404
+  enclosing_function: simulateLiquidityDeposit
+  state_var_names_in_hyperedge: ['tbc']
+  raw_text: (packedFloat AFloat, packedFloat BFloat, packedFloat qFloat) = tbc.calculateQ(
+Example 4: vfp_00065
+  enclosing_function: transferHiringDistributions
+  state_var_names_in_hyperedge: ['spectral_token', 'usdc_token', 'userBalances']
+  raw_text: usdc_token.safeTransferFrom(msg.sender, address(this), totalUsdc);
+Example 5: neg_00417
+  enclosing_function: _handle
+  state_var_names_in_hyperedge: ['_assetManager', '_ccRegistry']
+  raw_text: _assetManager.deposit(chainId, decoded.asset.toAddress(), decoded.to.toAddress(), decoded.amount);
+Example 6: vfp_00061
+  enclosing_function: _burnBidToken
+  state_var_names_in_hyperedge: ['hub']
+  raw_text: hub.bunniTokenOfPool(id).burn(amount);
+Example 7: vfp_00243
+  enclosing_function: setUserUseReserveAsCollateral
+  state_var_names_in_hyperedge: ['ADDRESSES_PROVIDER']
+  raw_text: ADDRESSES_PROVIDER.getPriceOracle(),
+Example 8: vfp_00556
+  enclosing_function: batchDeposit
+  state_var_names_in_hyperedge: ['depositContract', 'pubkeyLength', 'signatureLength', 'depositDataRootLength', 'depositArgsLength']
+  raw_text: depositContract.deposit{value: values[j] }(
+Example 9: neg_00630
+  enclosing_function: exactOutput
+  state_var_names_in_hyperedge: ['creditManager', 'creditFilter', 'router']
+  raw_text: address creditAccount = creditManager.getCreditAccountOrRevert(
+Example 10: neg_00138
+  enclosing_function: fire
+  state_var_names_in_hyperedge: ['employees', 'ansResolver']
+  raw_text: employees.pop();
+
+Part E - Hyperedge Size Distribution
+Min hyperedge size: 2
+Max hyperedge size: 61
+Mean hyperedge size: 6.51
+Median hyperedge size: 5.00
+Size 1 degenerate count: 0
+Size 2-4 small count: 1078
+Size 5-9 medium count: 1018
+Size 10+ large count: 414

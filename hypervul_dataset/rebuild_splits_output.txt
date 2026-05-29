@@ -1,0 +1,39 @@
+Part A - Usable Sample Report
+Total usable: 382
+Usable positive: 241
+Usable negative: 141
+Per-class positive count in usable set:
+  reentrancy: 97
+  arithmetic_oracle: 78
+  defi_protection: 73
+  access_control: 50
+  state_management: 94
+  unchecked_call: 63
+  input_validation: 116
+
+Part C - New Usable Split Summary
+Split    | Total | Positive | Negative | reentrancy | arithmetic_oracle | defi_protection | access_control | state_management | unchecked_call | input_validation
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+train    |   263 |      164 |       99 |         68 |                55 |              51 |             35 |               66 |             44 |               81
+val      |    60 |       39 |       21 |         15 |                12 |              11 |              8 |               14 |              9 |               18
+test     |    59 |       38 |       21 |         14 |                11 |              11 |              7 |               14 |             10 |               17
+
+Part D - Manifest Stats
+Manifest saved: /home/pollmix/Coding/FORGE-Curated/hypervul_dataset/dataset_manifest.json
+Hyperedge type distribution: {'CALL': 168, 'DELEGATECALL': 33, 'STATICCALL': 31, 'TRANSFER': 160, 'SEND': 5, 'INTERFACE_CALL': 2113}
+Average nodes per usable sample: 44.49
+Average hyperedges per usable sample: 6.57
+Average hyperedge size: 6.51
+
+Part E - Dropped Samples
+Dropped samples: 798
+Dropped positive: 239
+Dropped negative: 559
+Positive classes lost the most samples:
+  input_validation: 89
+  state_management: 72
+  arithmetic_oracle: 71
+  reentrancy: 47
+  defi_protection: 38
+  unchecked_call: 30
+  access_control: 24
